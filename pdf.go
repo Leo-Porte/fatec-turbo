@@ -56,10 +56,7 @@ func PDFRedacao(provaID, tema, titulo, texto string) ([]byte, int, error) {
 		if strings.TrimSpace(par) == "" {
 			continue
 		}
-		// quebra no texto UTF-8 e só depois converte cada linha para cp1252
-		for _, l := range pdf.SplitText(strings.TrimRight(par, " "), larg) {
-			linhas = append(linhas, tr(l))
-		}
+		linhas = append(linhas, quebraLinhas(pdf, tr, strings.TrimRight(par, " "), larg)...)
 	}
 	total := len(linhas)
 	minimo := 30
@@ -94,6 +91,40 @@ func PDFRedacao(provaID, tema, titulo, texto string) ([]byte, int, error) {
 		return nil, 0, err
 	}
 	return buf.Bytes(), total, nil
+}
+
+// quebraLinhas divide um parágrafo em linhas que cabem em larg (mm), medindo o texto já convertido
+// para cp1252. Não usa fpdf.SplitText, que entra em pânico com caracteres acima de U+00FF
+// (aspas curvas, travessão, reticências que o celular insere sozinho).
+func quebraLinhas(pdf *fpdf.Fpdf, tr func(string) string, par string, larg float64) []string {
+	var out []string
+	atual := ""
+	for _, p := range strings.Fields(par) {
+		w := tr(p)
+		cand := w
+		if atual != "" {
+			cand = atual + " " + w
+		}
+		if pdf.GetStringWidth(cand) <= larg || atual == "" {
+			atual = cand
+			// palavra sozinha maior que a linha: corta em pedaços
+			for pdf.GetStringWidth(atual) > larg && len(atual) > 1 {
+				i := len(atual) - 1
+				for i > 1 && pdf.GetStringWidth(atual[:i]) > larg {
+					i--
+				}
+				out = append(out, atual[:i])
+				atual = atual[i:]
+			}
+			continue
+		}
+		out = append(out, atual)
+		atual = w
+	}
+	if atual != "" {
+		out = append(out, atual)
+	}
+	return out
 }
 
 type ItemRevisao struct {

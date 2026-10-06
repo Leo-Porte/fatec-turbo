@@ -1,0 +1,1461 @@
+{
+ "gerado_em": "2026-10-06",
+ "autores": [
+  {
+   "nome": "Randy Glasbergen",
+   "tipo": "cartunista",
+   "disciplina": "Inglês",
+   "aparicoes": [
+    {
+     "prova": "2017-1",
+     "questoes": [
+      5
+     ],
+     "obra": "cartum 'hire 7 more women'"
+    },
+    {
+     "prova": "2019-1",
+     "questoes": [
+      2
+     ],
+     "obra": "charge 'I'm not lacking leadership skills'"
+    }
+   ],
+   "resumo": "",
+   "fonte_resumo": "",
+   "licenca": "",
+   "dica": "Cartuns de escritório em inglês, com humor seco sobre chefes, liderança e trabalho. A prova cobra a ironia: o que a frase diz x o que a cena mostra.",
+   "obs": "assinatura 'Glasbergen' lida na imagem"
+  },
+  {
+   "nome": "Scott Adams (Dilbert)",
+   "tipo": "cartunista",
+   "disciplina": "Inglês",
+   "aparicoes": [
+    {
+     "prova": "2018-1",
+     "questoes": [
+      2
+     ],
+     "obra": "Dilbert: communication skills"
+    },
+    {
+     "prova": "2019-2",
+     "questoes": [
+      4
+     ],
+     "obra": "Dilbert/Alice: novo líder"
+    }
+   ],
+   "resumo": "Scott Raymond Adams foi um cartunista norte-americano, criador da história em quadrinhos Dilbert e autor de várias obras de não-ficção de satíricas de negócios. O personagem Dilbert, inspirado nos anos em que o autor trabalhou na Pacific Bell, ganhou destaque nos Estados Unidos durante o período de downsizing na América da década de 1990, e alcançou uma audiência mundial. Adams trabalhou em vários cargos de negócios antes de se tornar um cartunista em tempo integral em 1995. Ele escrevia de forma satírica, muitas vezes sarcástica, sobre o cenário social e psicológico dos trabalhadores de colarinho branco nas corporações modernas.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Scott_Adams",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Dilbert é a sátira clássica da vida corporativa: chefes incompetentes e jargão vazio. Cai em Inglês e pede ler a intenção por trás da fala (ex.: eufemismo de 'communication skills').",
+   "obs": "assinatura/copyright Scott Adams lido na imagem"
+  },
+  {
+   "nome": "Laerte Coutinho",
+   "tipo": "cartunista",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2019-1",
+     "questoes": [
+      7
+     ],
+     "obra": "quadrinho sem texto: identidade e rotina"
+    }
+   ],
+   "resumo": "Laerte Coutinho é uma cartunista e chargista brasileira, considerada uma das artistas mais importantes da área no país.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Laerte_Coutinho",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Quadrinhos brasileiros muitas vezes sem fala, com crítica social. Leia a imagem: o que a cena diz sobre rotina, tecnologia e perda de identidade.",
+   "obs": "assinatura LAERTE na imagem"
+  },
+  {
+   "nome": "Guilherme Bandeira",
+   "tipo": "cartunista",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2019-2",
+     "questoes": [
+      6
+     ],
+     "obra": "cérebro na esteira (prosopopeia)"
+    }
+   ],
+   "resumo": "Guilherme Bandeira é um cartunista, quadrinista e publicitário brasileiro.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Guilherme_Bandeira",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Tirinha com humor visual. A prova usou para figura de linguagem: prosopopeia (atribuir ação humana a algo que não é humano).",
+   "obs": "assinatura @guilherme_bandeira na imagem"
+  },
+  {
+   "nome": "Henfil",
+   "tipo": "cartunista",
+   "disciplina": "História",
+   "aparicoes": [
+    {
+     "prova": "2019-2",
+     "questoes": [
+      18
+     ],
+     "obra": "charge sobre a Constituinte 1987–88"
+    }
+   ],
+   "resumo": "Henrique de Souza Filho, universalmente conhecido como Henfil, foi um influente cartunista, quadrinista, jornalista, escritor e ativista brasileiro. Reconhecido por seu humor ácido, crítico e profundamente engajado com as questões sociais e políticas do Brasil, especialmente durante a ditadura militar, Henfil deixou um legado duradouro na cultura e no jornalismo do país.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Henfil",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Cartunista da redemocratização, crítico da ditadura militar. Cai como fonte histórica: o que a charge mostra sobre o período."
+  },
+  {
+   "nome": "Jeff Parker",
+   "tipo": "cartunista",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2020-1",
+     "questoes": [
+      1
+     ],
+     "obra": "charge 'Jobs are returning!' (subemprego)"
+    }
+   ],
+   "resumo": "",
+   "fonte_resumo": "",
+   "licenca": "",
+   "dica": "Charge sobre subemprego e trabalho precário, com ironia entre fala otimista e manchete. Treina o 'efeito de ironia' em tirinhas.",
+   "obs": "assinatura 'Jeff Parker' e logo Florida Today lidos na imagem; identificação por inferência"
+  },
+  {
+   "nome": "Merlin (Cientirinhas / Quadrinhorama)",
+   "tipo": "cartunista",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2022-2",
+     "questoes": [
+      40,
+      44
+     ],
+     "obra": "Cientirinhas #114: canudinhos"
+    },
+    {
+     "prova": "2023-2",
+     "questoes": [
+      54
+     ],
+     "obra": "Cientirinhas #174: cascas de frutas"
+    },
+    {
+     "prova": "2024-1",
+     "questoes": [
+      18
+     ],
+     "obra": "Cientirinhas #48 (anos-luz)"
+    },
+    {
+     "prova": "2024-2",
+     "questoes": [
+      48
+     ],
+     "obra": "Cientirinhas #251: batata e teste de ancestralidade"
+    }
+   ],
+   "resumo": "",
+   "fonte_resumo": "",
+   "licenca": "",
+   "dica": "Cientirinhas é a tirinha que mais aparece: ciência misturada com humor e crítica social/ambiental. Os quadrinhos são cobrados em Português, Inglês, Física e Multidisciplinar — vale treinar leitura de tirinha.",
+   "obs": "assinatura 'Merlin' vista em #114, #174 e #251; #48 só tem o título da série na imagem (inferência). Sem página de pessoa na Wikipédia pt"
+  },
+  {
+   "nome": "Sephko",
+   "tipo": "cartunista",
+   "disciplina": "Inglês",
+   "aparicoes": [
+    {
+     "prova": "2022-2",
+     "questoes": [
+      16,
+      17
+     ],
+     "obra": "quadrinhos: internet x Terra plana"
+    }
+   ],
+   "resumo": "",
+   "fonte_resumo": "",
+   "licenca": "",
+   "dica": "Tirinhas em inglês com tema de ciência e redes. O humor vem do contraste entre esforço científico e opinião sem base.",
+   "obs": "assinatura SEPHKO.COM na imagem"
+  },
+  {
+   "nome": "Mike Keefe",
+   "tipo": "cartunista",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2023-1",
+     "questoes": [
+      1
+     ],
+     "obra": "charge 'The evolution of communication'"
+    }
+   ],
+   "resumo": "",
+   "fonte_resumo": "",
+   "licenca": "",
+   "dica": "Charge sobre evolução da comunicação até o Twitter (140 caracteres). Cai a leitura de ironia: avanço tecnológico x empobrecimento da mensagem.",
+   "obs": "assinatura Mike Keefe / The Denver Post lida na imagem"
+  },
+  {
+   "nome": "Bill Watterson (Calvin e Haroldo)",
+   "tipo": "cartunista",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2024-1",
+     "questoes": [
+      54
+     ],
+     "obra": "Calvin e Haroldo: hipérbole"
+    }
+   ],
+   "resumo": "William Boyd Watterson II, mais conhecido como Bill Watterson, é o autor da tira de jornal Calvin e Hobbes.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Bill_Watterson",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Calvin e Haroldo (Calvin and Hobbes) usa muito figuras de linguagem. Na prova aparece a hipérbole; o enunciado cita o cartunista pelo nome."
+  },
+  {
+   "nome": "Andy Singer",
+   "tipo": "cartunista",
+   "disciplina": "Inglês",
+   "aparicoes": [
+    {
+     "prova": "2025-2",
+     "questoes": [
+      27
+     ],
+     "obra": "charge 'The magic of marketing' (ironia)"
+    }
+   ],
+   "resumo": "Andy Singer é um desenhista norte-americano nascido em 1965. Ele vive e trabalha como freelancer na cidade de Saint Paul, estado de Minnesota.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Andy_Singer",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Charge sobre greenwashing: tudo rotulado 'green' num cenário poluído. A figura cobrada é ironia (texto verbal contradiz o não verbal).",
+   "obs": "assinatura 'Singer' lida na imagem; autoria Andy Singer é inferência"
+  },
+  {
+   "nome": "Mike Thompson",
+   "tipo": "cartunista",
+   "disciplina": "Inglês",
+   "aparicoes": [
+    {
+     "prova": "2026-2",
+     "questoes": [
+      29,
+      30
+     ],
+     "obra": "charge 'You play like a girl!'"
+    }
+   ],
+   "resumo": "Mike Thompson foi eleito para representar o 1º Distrito Congressional da Califórnia em 1998. O distrito inclui Napa, Lago, Mendocino, Humboldt. Antes de servir no Congresso, o deputado Thompson representou o Estado da Califórnia no Senado, onde presidiu a poderosa Comissão de Orçamento.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Mike_Thompson",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Charge em inglês sobre futebol feminino (Copa do Mundo), revertendo um insulto em elogio. Exige ler o texto e a cena juntos.",
+   "obs": "assinatura Mike Thompson lida na imagem; identificação do artista é inferência"
+  },
+  {
+   "nome": "BrainHoleSky (perfil de quadrinhos)",
+   "tipo": "cartunista",
+   "disciplina": "Física",
+   "aparicoes": [
+    {
+     "prova": "2023-1",
+     "questoes": [
+      22
+     ],
+     "obra": "quadrinhos: passarinho e cobra no fio"
+    }
+   ],
+   "resumo": "",
+   "fonte_resumo": "",
+   "licenca": "",
+   "dica": "Aparece só como assinatura de perfil (@BrainHoleSky). A questão é de Física (circuito elétrico), não de leitura de texto.",
+   "obs": "só o handle aparece na imagem; não é pessoa identificada"
+  },
+  {
+   "nome": "Camilo Pessanha",
+   "tipo": "poeta",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2017-1",
+     "questoes": [
+      53,
+      54
+     ],
+     "obra": "Interrogação (Clepsidra)"
+    }
+   ],
+   "resumo": "Camilo de Almeida Pessanha ComSE foi um poeta português.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Camilo_Pessanha",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Poeta português do Simbolismo: musicalidade, sugestão, tom de desencanto. Cai a identificação do movimento e do eu-lírico.",
+   "trecho": "Não sei se isto é amor. Procuro o teu olhar,\nSe alguma dôr me fere, em busca de um abrigo;\nE apesar d'isso, crê! nunca pensei num lar\nOnde fosses feliz, e eu feliz comtigo.\nPor ti nunca chorei nenhum ideal desfeito.\nE nunca te escrevi nenhuns versos romanticos.\nNem depois de acordar te procurei no leito\nComo a esposa sensual do _Cantico dos canticos_.\nSe é amar-te não sei. Não seí se te idealiso\nA tua côr sadia, o teu sorriso terno,\nMas sinto-me sorrir de ver esse sorriso\nQue me penetra bem, como este sol de inverno.\nPasso comtigo a tarde e sempre sem receio\nDa luz crepuscular, que enerva, que provoca.\nEu não demoro o olhar na curva do teu seio\nNem me lembrei jámais de te beijar na bôca.\nEu não sei se é amor. Será talvez começo...\nEu não sei que mudança a minha alma presente...\nAmor não sei se o é, mas sei que te estremeço,\nQue adoecia talvez de te saber doente.",
+   "obra_trecho": "Camilo Pessanha — Clepsidra (poema 'Não sei se isto é amor', o mesmo da questão)",
+   "fonte_trecho": "https://pt.wikisource.org/wiki/Não_sei_se_isto_é_amor._Procuro_o_teu_olhar",
+   "licenca_trecho": "Domínio público (autor falecido há mais de 70 anos); transcrição da Wikisource (CC BY-SA)"
+  },
+  {
+   "nome": "Olavo Bilac",
+   "tipo": "poeta",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2017-2",
+     "questoes": [
+      52,
+      53,
+      54
+     ],
+     "obra": "Incontentado"
+    }
+   ],
+   "resumo": "Olavo Brás Martins dos Guimarães Bilac, mais conhecido como Olavo Bilac, foi um poeta, jornalista, cronista e contista brasileiro. Alcunhado \"príncipe dos poetas brasileiros\", é considerado o principal autor do parnasianismo no país. Junto com Alberto de Oliveira e Raimundo Correia, integrou a chamada \"tríade parnasiana brasileira\".",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Olavo_Bilac",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Maior nome do Parnasianismo brasileiro: soneto, rima rica, vocabulário culto, forma rigorosa. Cai identificar a escola e a estrutura do soneto.",
+   "trecho": "Paixão sem grita, amor sem agonia,\nQue não oprime nem magoa o peito,\nQue nada mais do que possui queria,\nE com tão pouco vive satisfeito.\nAmor, que os exageros repudia,\nMisturado de estima e de respeito,\nE, tirando das mágoas alegria,\nFica farto, ficando sem proveito.\nViva sempre a paixão que me consome, \nSem uma queixa, sem um só lamento! \nArda sempre este amor que desanimas!\nEu eu tenha sempre, ao murmurar teu nome, \nO coração, malgrado o sofrimento,\nComo um rosal desabrochado em rimas.",
+   "obra_trecho": "Olavo Bilac — Incontentado",
+   "fonte_trecho": "https://pt.wikisource.org/wiki/Incontentado",
+   "licenca_trecho": "Domínio público (autor falecido há mais de 70 anos); transcrição da Wikisource (CC BY-SA)"
+  },
+  {
+   "nome": "Isaac Asimov",
+   "tipo": "escritor",
+   "disciplina": "Inglês",
+   "aparicoes": [
+    {
+     "prova": "2017-2",
+     "questoes": [
+      25,
+      26,
+      27,
+      28,
+      29
+     ],
+     "obra": "I, Robot (entrevista com Susan Calvin)"
+    }
+   ],
+   "resumo": "Isaac Asimov foi um escritor e bioquímico russo-americano, autor de obras de ficção científica e divulgação científica.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Isaac_Asimov",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Ficção científica e as Três Leis da Robótica. O texto em inglês cobra compreensão e vocabulário; modal verbs aparecem."
+  },
+  {
+   "nome": "Fiódor Dostoiévski",
+   "tipo": "escritor",
+   "disciplina": "Biologia",
+   "aparicoes": [
+    {
+     "prova": "2017-2",
+     "questoes": [
+      48
+     ],
+     "obra": "Crime e Castigo"
+    }
+   ],
+   "resumo": "Fiódor Mikhailovitch Dostoiévski foi um escritor, filósofo e jornalista russo. É considerado por muitos um dos maiores romancistas e pensadores da história, bem como um dos maiores «psicólogos» que já existiu, ao considerar a designação e etimologia mais ampla do termo, como investigador da psique.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Fi%C3%B3dor_Dostoi%C3%A9vski",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Romancista russo, realismo psicológico. Aqui é só moldura de uma questão de Biologia (fungos/mofo); não precisa estudar a obra."
+  },
+  {
+   "nome": "Machado de Assis",
+   "tipo": "escritor",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2018-1",
+     "questoes": [
+      51,
+      53
+     ],
+     "obra": "Memorial de Aires"
+    }
+   ],
+   "resumo": "Joaquim Maria Machado de Assis foi um escritor brasileiro, amplamente reconhecido por críticos, estudiosos, escritores e leitores como o maior expoente da literatura brasileira. Sua produção literária abrangeu praticamente todos os gêneros, incluindo poesia, romance, crônica, dramaturgia, conto, folhetim, jornalismo e crítica literária. Machado de Assis testemunhou a Abolição da Escravatura e a transição política do Brasil, com o golpe da proclamação da República em substituição ao Império, além de diversos eventos significativos no final do século XIX e início do século XX, sendo um notável comentador e relator dos acontecimentos…",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Machado_de_Assis",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Maior autor do Realismo brasileiro: ironia, narrador não confiável, análise psicológica (Dom Casmurro, Memórias Póstumas). Cai fases (romântica x realista), estilo e o último romance, Memorial de Aires.",
+   "trecho": "Ora bem, faz hoje um ano que voltei definitivamente da Europa. O que me lembrou esta data foi, estando a beber café, o pregão de um vendedor de vassouras e espanadores: \"Vai vassouras! vai espanadores!\" Costumo ouvi-lo outras manhãs, mas desta vez trouxe-me à memória o dia do desembarque, quando cheguei aposentado à minha terra, ao meu Catete, à minha língua. Era o mesmo que ouvi há um ano, em 1887, e talvez fosse a mesma boca.\nDurante os meus trinta e tantos anos de diplomacia algumas vezes vim ao Brasil, com licença. O mais do tempo vivi fora, em várias partes, e não foi pouco. Cuidei que não acabaria de me habituar novamente a esta outra vida de cá. Pois acabei. Certamente ainda me lembram coisas e pessoas de longe, diversões, paisagens, costumes, mas não morro de saudades por nada. Aqui estou, aqui vivo, aqui morrerei.",
+   "obra_trecho": "Machado de Assis — Memorial de Aires, 1908",
+   "fonte_trecho": "https://pt.wikisource.org/wiki/Memorial_de_Aires/1888/I",
+   "licenca_trecho": "Domínio público (autor falecido há mais de 70 anos); transcrição da Wikisource (CC BY-SA)"
+  },
+  {
+   "nome": "Clarice Lispector",
+   "tipo": "escritor",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2018-1",
+     "questoes": [
+      54
+     ],
+     "obra": "citada em exemplo de correlação verbal"
+    }
+   ],
+   "resumo": "Clarice Lispector, nascida Chaya Pinkhasivna Lispector, foi uma escritora e jornalista de origem ucraniana-judaica (asquenazita). Radicada no Brasil desde a primeira infância, naturalizou-se brasileira em 1943. Autora de romances, contos e ensaios, é considerada uma das escritoras brasileiras mais importantes do século XX. Sua obra está repleta de cenas cotidianas simples e tramas psicológicas, reputando-se como uma de suas principais características a epifania de personagens comuns em momentos do cotidiano. Quanto às suas identidades nacional e regional, declarava-se brasileira e pernambucana.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Clarice_Lispector",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Prosa intimista, fluxo de consciência, epifanias do cotidiano (Modernismo, geração de 45). Aqui é só citada numa frase de gramática."
+  },
+  {
+   "nome": "Carolina Maria de Jesus",
+   "tipo": "escritor",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2018-2",
+     "questoes": [
+      50,
+      52
+     ],
+     "obra": "Quarto de Despejo: diário de uma favelada"
+    }
+   ],
+   "resumo": "Carolina Maria de Jesus foi uma escritora, cantora, compositora e poetisa brasileira. Uma das primeiras escritoras negras do Brasil, De Jesus é considerada uma das mais importantes escritoras do país, de tal modo que sua obra e vida permanecem objetos de diversos estudos, tanto no Brasil quanto no exterior.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Carolina_Maria_de_Jesus",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Diário de uma catadora de papel sobre fome e favela. Cai a linguagem fora da norma culta como escolha legítima de gênero, e a comparação com charge sobre subemprego."
+  },
+  {
+   "nome": "Carlos Drummond de Andrade",
+   "tipo": "poeta",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2018-2",
+     "questoes": [
+      54
+     ],
+     "obra": "A Flor e a Náusea"
+    },
+    {
+     "prova": "2020-1",
+     "questoes": [
+      54
+     ],
+     "obra": "versos para paronomásia"
+    }
+   ],
+   "resumo": "Carlos Drummond de Andrade foi um poeta, contista e cronista brasileiro, considerado por muitos o mais influente poeta brasileiro do século XX.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Carlos_Drummond_de_Andrade",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Poeta da 2ª geração modernista: poesia social, ironia, 'gauche'. A Flor e a Náusea (A Rosa do Povo) é o clássico: poeta num mundo hostil que ainda vê beleza."
+  },
+  {
+   "nome": "Gonçalves Dias",
+   "tipo": "poeta",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2018-2",
+     "questoes": [
+      20
+     ],
+     "obra": "Como eu te amo"
+    }
+   ],
+   "resumo": "Antônio Gonçalves Dias foi um poeta, dramaturgo e etnólogo brasileiro, considerado o poeta nacional do Brasil. Sua obra, identificada com a primeira geração do romantismo brasileiro, contribuiu significativamente para a construção da literatura e da identidade cultural do Brasil. É geralmente lembrado pelo seu poema Canção do Exílio, apontado como o mais popular da literatura brasileira, sendo também exaltado por leitores e críticos pelos épicos I-Juca Pirama e Canção do Tamoio.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Gon%C3%A7alves_Dias",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Principal poeta da 1ª geração romântica (indianismo, nacionalismo, Canção do Exílio). O soneto cobrado vem com comparações do amor à natureza e linguagem sentimental.",
+   "trecho": "COMO EU TE AMO.\nComo se ama o silencio, a luz, o aroma,\nO orvalho n’uma flor, nos céos a estrella,\nNo largo mar a sombra de uma vela,\nQue lá na extrema do horisonte assoma;\nComo se ama o clarão da branca lua,\nDa noite na mudez os sons da flauta,\nAs canções saudosissimas do nauta,\nQuando em molle vai-vem a náo fluctua;\nComo se ama das aves o gemido,\nDa noite as sombras e do dia as cores,\nUm céo com luzes, um jardim com flores,\nUm canto quasi em lagrimas sumido;\nComo se ama o crepusculo da aurora,\nA mansa viração que o bosque ondeia,\nO susurro da fonte que serpeia,\nUma imagem risonha e seductora;\nComo se ama o calor e a luz querida,\nA harmonia, o frescor, os sons, os céos,\nO silencio, as cores, o perfume, a vida,\nAos paes e á patria e á virtude e á Deos.\nAssim eu te amo, assim; mais do que podem\nDizer-t’o os labios meus, — mais do que vale\nCantar a voz do trovador cançada:\nO que é bello, o que é justo, santo e grande\nAmo em ti. — Por tudo quanto soffro,\nPor quanto já soffri, por quanto ainda\nMe resta de soffrer, por tudo eu te amo.\nque espero, cobiço, almejo, ou temo\nDe ti, só de ti pende: oh! nunca saibas\nCom quanto amor eu te amo, e de que fonte\nTão terna, quanto amarga o vou nutrindo!\nEsta occulta paixão, que mal suspeitas,\nQue não vês, não suppões, nem te revelo,\nSó pode no silencio achar consolo,\nNa dôr augmento, interprete nas lagrimas.\nDe mim não saberás como te adoro;",
+   "obra_trecho": "Gonçalves Dias — Últimos Cantos (1851)",
+   "fonte_trecho": "https://pt.wikisource.org/wiki/Como_eu_te_amo",
+   "licenca_trecho": "Domínio público (autor falecido há mais de 70 anos); transcrição da Wikisource (CC BY-SA)"
+  },
+  {
+   "nome": "Graciliano Ramos",
+   "tipo": "escritor",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2019-1",
+     "questoes": [
+      54
+     ],
+     "obra": "Vidas Secas / São Bernardo"
+    }
+   ],
+   "resumo": "Graciliano Ramos de Oliveira foi um romancista, cronista, contista, jornalista, político e memorialista brasileiro, considerado um dos maiores nomes da literatura brasileira. Ele é mais conhecido por sua obra Vidas Secas (1938). Foi membro integrante do Partido Comunista Brasileiro (PCB).",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Graciliano_Ramos",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Romance de 30: seca, miséria, linguagem seca e enxuta. Vidas Secas (Fabiano, sinha Vitória, escola e educação) cai com frequência.",
+   "trecho": "Na planície avermelhada os juàzeiros alargavam duas manchas verdes. Os infelizes tinham caminhado o dia inteiro, estavam cansados e famintos. Ordinàriamente andavam pouco, mas como haviam repousado bastante na areia do rio sêco, a viagem progredira bem três léguas. Fazia horas que procuravam uma sombra. A folhagem dos juàzeiros apareceu longe, através dos galhos pelados da catinga rala.\nArrastaram-se para lá, devagar, sinha Victoria com o filho mais novo escanchado no quarto e o baú de fôlha na cabeça, Fabiano sombrio, cambaio, o aió a tiracolo, a cuia pendurada numa correia prêsa ao cinturão, a espingarda de pederneira no ombro. O menino mais velho e a cachorra Baleia iam atrás. \nOs juàzeiros aproximaram-se, recuaram, sumiram-se. O menino mais velho pôs-se a chorar, sentou-se no chão.\n— Anda, condenado do diabo, gritou-lhe o pai.\n Não obtendo resultado, fustigou-o com a bainha da faca de ponta. Mas o pequeno esperneou acuado, depois sossegou, deitou-se, fechou os olhos. Fabiano ainda lhe deu algumas pancadas e esperou que êle se levantasse. Como isto não acontecesse, espiou os quatro cantos, zangado, praguejando baixo.\nA catinga estendia-se, de um vermelho indeciso salpicado de manchas brancas que eram ossadas. O vôo negro dos urubus fazia círculos altos em redor de bichos moribundos.\n— Anda, excomungado.\nO pirralho não se mexeu, e Fabiano desejou matá-lo.",
+   "obra_trecho": "Graciliano Ramos — Vidas Secas (1938; ed. 1947)",
+   "fonte_trecho": "https://pt.wikisource.org/wiki/Vidas_Sêcas/Mudança",
+   "licenca_trecho": "Domínio público (autor falecido há mais de 70 anos); transcrição da Wikisource (CC BY-SA)"
+  },
+  {
+   "nome": "Érico Veríssimo",
+   "tipo": "escritor",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2019-1",
+     "questoes": [
+      54
+     ],
+     "obra": "Caminhos Cruzados"
+    }
+   ],
+   "resumo": "Érico Lopes Veríssimo foi um escritor brasileiro.[carece de fontes]? Com uma prosa simples e de fácil leitura, tornou-se um dos escritores mais populares da literatura brasileira.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/%C3%89rico_Ver%C3%ADssimo",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Romancista gaúcho (Romance de 30, depois O Tempo e o Vento). Aparece como uma das obras comparadas na questão de literatura e escola.",
+   "obs": "aparece em alternativa de questão; identifiquei só a citação 'Caminhos Cruzados'"
+  },
+  {
+   "nome": "Ferreira Gullar",
+   "tipo": "poeta",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2020-1",
+     "questoes": [
+      3,
+      4
+     ],
+     "obra": "O Açúcar"
+    }
+   ],
+   "resumo": "Ferreira Gullar, pseudônimo de José Ribamar Ferreira, foi um poeta, escritor, crítico de arte, biógrafo, tradutor, memorialista e ensaísta brasileiro, reconhecido como um dos principais e mais importantes poetas brasileiros da segunda metade do século XX.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Ferreira_Gullar",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Poeta engajado (Poema Sujo, poesia social). 'O Açúcar' mostra a desigualdade escondida no café do eu lírico; liga com História e Geografia."
+  },
+  {
+   "nome": "Manuel Bandeira",
+   "tipo": "poeta",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2020-1",
+     "questoes": [
+      54
+     ],
+     "obra": "Pneumotórax / versos citados"
+    }
+   ],
+   "resumo": "Manuel Carneiro de Sousa Bandeira Filho foi um poeta, crítico literário e de arte, professor e tradutor brasileiro, considerado um dos maiores expoentes da poesia brasileira e uma figura-chave do modernismo no Brasil. Sua obra poética, marcada pelo seu sofrimento decorrente da tuberculose, notabilizou-se pelo emprego do verso livre, pela oralidade e pela coloquialidade, e frequentemente abordava o erotismo, o pessimismo, a liberdade e a morte.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Manuel_Bandeira",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Poeta da 1ª geração modernista: verso livre, cotidiano, humor e dor (Libertinagem). Aparece como alternativa de comparação de figura sonora.",
+   "obs": "versos (Febre, hemoptise...) atribuídos na prova a Manuel Bandeira"
+  },
+  {
+   "nome": "Paul Verlaine",
+   "tipo": "poeta",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2020-1",
+     "questoes": [
+      54
+     ],
+     "obra": "Arte poética (versos)"
+    }
+   ],
+   "resumo": "Paul Marie Verlaine foi um poeta e crítico literário francês, considerado um dos principais representantes do decadentismo e do simbolismo, sendo também reconhecido como um dos fundadores da poesia moderna. Seus poemas eram marcados pela atenção ao ritmo, à sonoridade e à projeção sensitiva de imagens poéticas e pela recusa ao emprego de artifícios de argumentação e comoção retórica, na busca por uma poesia pura.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Paul_Verlaine",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Simbolista francês, 'a música antes de tudo'. Influenciou Pessanha e os simbolistas brasileiros."
+  },
+  {
+   "nome": "Conceição Evaristo",
+   "tipo": "escritor",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2022-2",
+     "questoes": [
+      25,
+      26,
+      27
+     ],
+     "obra": "Olhos d'água"
+    }
+   ],
+   "resumo": "Maria da Conceição Evaristo de Brito é uma linguista e escritora brasileira. Teve uma prolífica carreira como pesquisadora-docente universitária.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Concei%C3%A7%C3%A3o_Evaristo",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Literatura afro-brasileira, 'escrevivência', figuras como metáfora e personificação. O conto Olhos d'água é muito cobrado."
+  },
+  {
+   "nome": "Euclides da Cunha",
+   "tipo": "escritor",
+   "disciplina": "História",
+   "aparicoes": [
+    {
+     "prova": "2024-1",
+     "questoes": [
+      48
+     ],
+     "obra": "Os Sertões"
+    }
+   ],
+   "resumo": "Euclides Rodrigues Pimenta da Cunha foi um escritor, jornalista, engenheiro e ensaísta brasileiro, identificado com o pré-modernismo, conhecido por seu romance Os Sertões e por sua atividade intelectual nos primeiros anos da República Brasileira.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Euclides_da_Cunha",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Pré-Modernismo; Os Sertões narra a Guerra de Canudos em três partes: A Terra, O Homem, A Luta. Cai o contexto histórico (resistência de Canudos).",
+   "trecho": "O planalto central do Brazil desce, nos littoraes do Sul, em escarpas inteiriças, altas e abruptas. Assoberba os mares; e desata-se em chapadões nivelados pelos visos das cordilheiras maritimas, distendidas do Rio Grande á Minas. Mas ao derivar para as terras septentrionaes diminue gradualmente de altitude, ao mesmo tempo que descamba para a costa oriental em andares ou repetidos socalcos, que o despem da primitiva grandeza \nafastando-o consideravelmente para o interior.\nDe sorte que quem o contorna, seguindo para o norte, observa notaveis mudanças de relevos: a principio o traço continuo \ne dominante das montanhas, precintando-o, com destaque \nsaliente, sobre a linha projectante das praias; depois, no segmento de orla maritima entre o Rio de Janeiro e o Espirito\nSanto, um apparelho littoral revolto, feito da envergadura desarticulada \ndas serras, riçado de cumiadas e corroido de angras, e escancelando-se em bahias, e repartindo-se em ilhas, e desaggregando-se \nem recifes desnudos, á maneira de escombros do conflicto secular que alli se trava entre os mares e a terra; em seguida, transposto o 15º parallelo, a attenuação de todos os accidentes — serranias que se arredondam e suavisam as linhas dos taludes, fraccionadas em morros de encostas indistinctas no horizonte que se amplia; até que em plena faixa costeira da Bahia, o olhar, livre dos anteparos de serras que até lá",
+   "obra_trecho": "Euclides da Cunha — Os Sertões (1902)",
+   "fonte_trecho": "https://pt.wikisource.org/wiki/Os_Sertões/A_Terra/I",
+   "licenca_trecho": "Domínio público (autor falecido há mais de 70 anos); transcrição da Wikisource (CC BY-SA)"
+  },
+  {
+   "nome": "João Guimarães Rosa",
+   "tipo": "escritor",
+   "disciplina": "Geografia",
+   "aparicoes": [
+    {
+     "prova": "2024-1",
+     "questoes": [
+      50
+     ],
+     "obra": "Grande Sertão: Veredas"
+    }
+   ],
+   "resumo": "João Guimarães Rosa foi um médico, diplomata, escritor e poeta brasileiro, identificado com a terceira geração do modernismo no Brasil e reconhecido por muitos como o maior escritor brasileiro do século XX. Seu estilo é marcado por neologismos, coloquialidade e fluxo de consciência e sua ficção ambienta-se no sertão mineiro. Seu romance Grande Sertão: Veredas, sua magnum opus, é reconhecido internacionalmente entre os maiores romances do século XX.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Guimar%C3%A3es_Rosa",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Modernismo de 45, linguagem inventiva e sertão como metáfora. Aqui, a frase abre questão de Geografia (sub-região do sertão)."
+  },
+  {
+   "nome": "Antonio Candido",
+   "tipo": "escritor",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2024-1",
+     "questoes": [
+      51,
+      52,
+      53
+     ],
+     "obra": "Direito à Literatura"
+    }
+   ],
+   "resumo": "Antonio Candido de Mello e Souza foi um sociólogo, crítico literário e professor universitário brasileiro. Estudioso da literatura brasileira e estrangeira, é autor de uma obra crítica extensa, respeitada nas principais universidades do Brasil. Foi professor da Faculdade de Filosofia, Letras e Ciências Humanas da Universidade de São Paulo (FFLCH-USP) onde, entre outros feitos, introduziu, em 1962, a Literatura Comparada, transformando a disciplina de Teoria Literária em Teoria Literária e Literatura Comparada.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Antonio_Candido",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Crítico e sociólogo: literatura como direito humano, que organiza a mente e humaniza. Leitura de texto argumentativo, com foco em coesão e função da linguagem."
+  },
+  {
+   "nome": "O. Henry (William Sydney Porter)",
+   "tipo": "escritor",
+   "disciplina": "História",
+   "aparicoes": [
+    {
+     "prova": "2024-2",
+     "questoes": [
+      12
+     ],
+     "obra": "O Almirante (origem de 'república de bananas')"
+    }
+   ],
+   "resumo": "O. Henry era o pseudônimo de William Sydney Porter, um dos maiores contistas americanos do século XIX e um dos autores mais populares do seu tempo. Em seu conto \"The Caballero's Way\", publicado em 1907 na coletânea Heart of the West, criou o personagem Cisco Kid, descrito como um bandido no livro, tornou-se um herói em adaptações para o cinema.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/O._Henry",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Contista norte-americano de finais surpreendentes. Aqui é só referência para o termo 'república de bananas', ligado à história da América Latina."
+  },
+  {
+   "nome": "Eduardo Galeano",
+   "tipo": "escritor",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2024-2",
+     "questoes": [
+      26,
+      27
+     ],
+     "obra": "O Livro dos Abraços"
+    }
+   ],
+   "resumo": "Eduardo Hughes Galeano foi um jornalista e escritor uruguaio. É autor de mais de 40 livros, que já foram traduzidos em diversos idiomas. Suas obras transcendem gêneros ortodoxos, combinando ficção, jornalismo, análise política e História",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Eduardo_Galeano",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Escritor uruguaio da América Latina (As Veias Abertas da América Latina). Texto crítico sobre mídia e consumo; cai interpretação, ironia e coesão."
+  },
+  {
+   "nome": "Han Kang",
+   "tipo": "escritor",
+   "disciplina": "Matemática",
+   "aparicoes": [
+    {
+     "prova": "2025-2",
+     "questoes": [
+      37
+     ],
+     "obra": "A Vegetariana"
+    }
+   ],
+   "resumo": "Han Kang é uma escritora sul-coreana. Foi distinguida em 2024 com o Prémio Nobel de Literatura “pela sua intensa prosa poética que confronta traumas históricos e expõe a fragilidade da vida humana”.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Han_Kang",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Nobel de Literatura 2024. A obra é só pano de fundo de uma questão de conjuntos (Matemática)."
+  },
+  {
+   "nome": "Vinicius de Moraes",
+   "tipo": "poeta",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2026-2",
+     "questoes": [
+      56,
+      57
+     ],
+     "obra": "O Anjo das Pernas Tortas"
+    }
+   ],
+   "resumo": "Marcus Vinícius da Cruz de Mello Moraes, mais conhecido como Vinicius de Moraes, foi um poeta, dramaturgo, jornalista, diplomata, cantor e compositor brasileiro.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Vinicius_de_Moraes",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Poeta da 3ª geração modernista, também compositor da bossa nova. O poema (soneto sobre Garrincha) pede atenção a imagens, tempos verbais e forma."
+  },
+  {
+   "nome": "Mário de Andrade",
+   "tipo": "escritor",
+   "disciplina": "Arte",
+   "aparicoes": [
+    {
+     "prova": "2024-1",
+     "questoes": [
+      27
+     ],
+     "obra": "O Aleijadinho"
+    }
+   ],
+   "resumo": "Mário Raul de Morais Andrade foi um poeta, contista, cronista, romancista, musicólogo, historiador de arte, crítico e fotógrafo brasileiro. Um dos fundadores do modernismo no país, ele praticamente criou a poesia brasileira moderna com a publicação de sua Pauliceia Desvairada em 1922. Ele teve uma influência enorme na literatura brasileira moderna e, como estudioso e ensaísta, foi pioneiro no campo da etnomusicologia. Sua influência chegou muito além do Brasil.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/M%C3%A1rio_de_Andrade",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Líder do Modernismo (Macunaíma, Semana de 22); crítico de arte. O texto sobre o Aleijadinho entra em questão de Arte."
+  },
+  {
+   "nome": "Lewis Carroll",
+   "tipo": "escritor",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2017-1",
+     "questoes": [
+      50
+     ],
+     "obra": "citado: Alice no País das Maravilhas"
+    }
+   ],
+   "resumo": "Charles Lutwidge Dodgson, mais conhecido pelo seu pseudônimo Lewis Carroll, foi um romancista, contista, fabulista, poeta, desenhista, fotógrafo, matemático e reverendo anglicano britânico. Lecionou matemática no Christ College, em Oxford. É autor do clássico livro Alice no País das Maravilhas, além de outros poemas escritos em estilo nonsense ao longo de sua carreira literária, que são considerados políticos, em função das fusões e da disposição espacial das palavras, como precursores da poesia de vanguarda.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Lewis_Carroll",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Citado num texto sobre literatura e matemática. Não aparece como obra analisada."
+  },
+  {
+   "nome": "Edgar Allan Poe",
+   "tipo": "escritor",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2017-1",
+     "questoes": [
+      50
+     ],
+     "obra": "citado no texto sobre literatura e matemática"
+    }
+   ],
+   "resumo": "Edgar Allan Poe foi um escritor, editor e crítico literário estadunidense, integrante do romantismo em seu país. Conhecido por suas histórias que envolvem o mistério e o macabro, Poe foi um dos primeiros escritores norte-americanos de contos e é, geralmente, considerado o inventor do gênero ficção policial, também recebendo crédito por sua contribuição ao emergente gênero de ficção científica. Ele foi o primeiro escritor americano conhecido por tentar ganhar a vida através da escrita por si só, resultando em uma vida e carreira financeiramente difíceis.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Edgar_Allan_Poe",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Citado como autor de enigmas lógicos. Não aparece como obra analisada."
+  },
+  {
+   "nome": "Belchior",
+   "tipo": "compositor",
+   "disciplina": "Geografia",
+   "aparicoes": [
+    {
+     "prova": "2024-1",
+     "questoes": [
+      31
+     ],
+     "obra": "Fotografia 3x4"
+    }
+   ],
+   "resumo": "Antônio Carlos Belchior, conhecido mononimamente como Belchior, foi um cantor, poeta, compositor, músico, produtor, professor de biologia, desenhista e artista plástico brasileiro. Após décadas de carreira, o cantor faleceu aos 70 anos vitimado pelo rompimento de um aneurisma na aorta. Um dos membros do chamado Pessoal do Ceará, que incluía Fagner, Ednardo, Amelinha e outros, Belchior foi um dos primeiros cantores de MPB do nordeste brasileiro a fazer sucesso internacional, em meados da década de 1970. Durante uma entrevista, ao declarar o seu nome completo - Antônio Carlos Gomes Belchior Fontenelle Fernandes -, Belchior acrescentou, em tom…",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Belchior",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Cantor e compositor cearense: letra de migração e desilusão (Como Nossos Pais). Na prova a canção vira questão de Geografia (migração)."
+  },
+  {
+   "nome": "Arnaldo Antunes",
+   "tipo": "compositor",
+   "disciplina": "Biologia",
+   "aparicoes": [
+    {
+     "prova": "2024-1",
+     "questoes": [
+      33
+     ],
+     "obra": "O Pulso (Titãs)"
+    }
+   ],
+   "resumo": "Arnaldo Augusto Nora Antunes Filho é um músico, poeta, compositor, artista visual e escritor brasileiro.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Arnaldo_Antunes",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Poeta e compositor (ex-Titãs). A letra lista doenças, usada em questão de Biologia."
+  },
+  {
+   "nome": "Marcelo Fromer",
+   "tipo": "compositor",
+   "disciplina": "Biologia",
+   "aparicoes": [
+    {
+     "prova": "2024-1",
+     "questoes": [
+      33
+     ],
+     "obra": "O Pulso (coautor)"
+    }
+   ],
+   "resumo": "Marcelo Fromer foi um músico brasileiro, guitarrista da banda de pop-rock Titãs.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Marcelo_Fromer",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Coautor de O Pulso. Só entra como crédito da letra."
+  },
+  {
+   "nome": "Tony Bellotto",
+   "tipo": "compositor",
+   "disciplina": "Biologia",
+   "aparicoes": [
+    {
+     "prova": "2024-1",
+     "questoes": [
+      33
+     ],
+     "obra": "O Pulso (coautor)"
+    }
+   ],
+   "resumo": "Antônio Carlos Liberalli \"Tony\" Bellotto é um músico e escritor brasileiro.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Tony_Bellotto",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Coautor de O Pulso. Só entra como crédito da letra."
+  },
+  {
+   "nome": "NOFX",
+   "tipo": "compositor",
+   "disciplina": "Inglês",
+   "aparicoes": [
+    {
+     "prova": "2022-2",
+     "questoes": [
+      15
+     ],
+     "obra": "Idiots Are Taking Over"
+    }
+   ],
+   "resumo": "NOFX foi uma banda californiana de punk rock formada em Los Angeles em 1983. É composta por Erik Sandin (bateria), Eric Melvin (guitarra), El Hefe e Fat Mike baixo e vocal)",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/NOFX",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Banda de punk rock norte-americana. Letra crítica em inglês: cai interpretação de texto e vocabulário."
+  },
+  {
+   "nome": "Elton John",
+   "tipo": "compositor",
+   "disciplina": "Inglês",
+   "aparicoes": [
+    {
+     "prova": "2026-1",
+     "questoes": [
+      29,
+      30
+     ],
+     "obra": "Rocket Man"
+    }
+   ],
+   "resumo": "Sir Elton Hercules John CH, CBE é um pianista, cantor, compositor, produtor e filantropo britânico. Em 1969, John lançou seu primeiro álbum, \"Empty Sky\", mas foi com seu segundo álbum, autointitulado, de 1970, que ele alcançou sucesso mundial com o single, \"Your Song\". Desde então, ele emplacou vários sucessos e vendeu mais de 300 milhões de discos, tornando-o um dos músicos de maior sucesso no mundo. \"Candle in the Wind\", uma canção reescrita em 1997, em homenagem à amiga falecida princesa Diana, vendeu mais de 33 milhões de cópias em todo o mundo e entrou para o Guinness World Records como o single mais vendido da história",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Elton_John",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Rocket Man (1972) trata da solidão de um astronauta. Questão cobra 'in fact' e o contexto (exploração espacial)."
+  },
+  {
+   "nome": "Emicida",
+   "tipo": "compositor",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2025-2",
+     "questoes": [
+      28,
+      29,
+      30
+     ],
+     "obra": "Sementes"
+    }
+   ],
+   "resumo": "Leandro Roque de Oliveira, mais conhecido pelo nome artístico Emicida, é um rapper, cantor, compositor e apresentador brasileiro. É considerado uma das maiores revelações do hip hop do Brasil da década de 2000. O nome \"Emicida\" é uma fusão da sigla \"MC\" e do sufixo latino \"-cida\". Devido às suas constantes vitórias nas batalhas de improvisação, seus amigos começaram a falar que Leandro era um \"assassino\", e que \"matava\" seus adversários através de suas rimas",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Emicida",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Rapper e compositor brasileiro. A canção Sementes (com Drik Barbosa, Nave e Thiago Jamelão) aparece em Português (classes de palavras) e Raciocínio Lógico."
+  },
+  {
+   "nome": "Drik Barbosa",
+   "tipo": "compositor",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2025-2",
+     "questoes": [
+      28,
+      29,
+      30
+     ],
+     "obra": "Sementes (coautora)"
+    }
+   ],
+   "resumo": "Adriana Barbosa de Souza, mais conhecida como Drik Barbosa, é uma rapper, cantora e compositora brasileira.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Drik_Barbosa",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Coautora de Sementes, ao lado de Emicida, Nave e Thiago Jamelão."
+  },
+  {
+   "nome": "Thiago Jamelão",
+   "tipo": "compositor",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2025-2",
+     "questoes": [
+      28,
+      29,
+      30
+     ],
+     "obra": "Sementes (coautor)"
+    }
+   ],
+   "resumo": "",
+   "fonte_resumo": "",
+   "licenca": "",
+   "dica": "Coautor de Sementes.",
+   "obs": "sem página própria na Wikipédia pt (a busca retorna a fruta jamelão)"
+  },
+  {
+   "nome": "Piotr Ilitch Tchaikovsky",
+   "tipo": "compositor",
+   "disciplina": "Arte",
+   "aparicoes": [
+    {
+     "prova": "2024-1",
+     "questoes": [
+      46
+     ],
+     "obra": "O Lago dos Cisnes"
+    }
+   ],
+   "resumo": "Piotr Ilitch Tchaikovski foi um compositor russo do período romântico, cujas obras estão entre as mais populares do repertório clássico. Primeiro compositor russo a conquistar fama internacional, sua carreira foi impulsionada por sua participação como regente convidado em outros países da Europa e nos Estados Unidos. Como reconhecimento, em 1884 foi homenageado pelo imperador Alexandre III e recebeu uma pensão vitalícia.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Piotr_Ilitch_Tchaikovski",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Compositor russo do balé romântico; entra só em questão de Arte/História da dança."
+  },
+  {
+   "nome": "Heitor Villa-Lobos",
+   "tipo": "compositor",
+   "disciplina": "Arte",
+   "aparicoes": [
+    {
+     "prova": "2024-2",
+     "questoes": [
+      42
+     ],
+     "obra": "obras para violão"
+    }
+   ],
+   "resumo": "Heitor Villa-Lobos foi um compositor, maestro, violoncelista, pianista e violonista brasileiro, descrito como \"a figura criativa mais significativa do Século XX na música clássica brasileira\", e se tornando o compositor sul-americano mais conhecido de todos os tempos. Compositor prolífico, escreveu numerosas obras orquestrais, de câmara, instrumentais e vocais, totalizando mais de 2 mil obras até sua morte, em 1959.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Heitor_Villa-Lobos",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Maior compositor brasileiro de concerto; ligado ao nacionalismo musical e às Bachianas Brasileiras."
+  },
+  {
+   "nome": "Abraham Maslow",
+   "tipo": "cientista",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2018-1",
+     "questoes": [
+      1
+     ],
+     "obra": "hierarquia das necessidades"
+    }
+   ],
+   "resumo": "Abraham Harold Maslow foi um psicólogo americano, conhecido pela proposta Hierarquia de necessidades de Maslow. Maslow era o mais velho de sete irmãos, de uma família judia do Brooklyn, Nova Iorque, Trabalhou no MIT, fundando o centro de pesquisa National Laboratories for Group Dynamics.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Abraham_Maslow",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Psicólogo da hierarquia das necessidades. Aparece citado no texto e a prova pergunta a finalidade da citação."
+  },
+  {
+   "nome": "Herbert Marcuse",
+   "tipo": "outro",
+   "disciplina": "História",
+   "aparicoes": [
+    {
+     "prova": "2018-1",
+     "questoes": [
+      7
+     ],
+     "obra": "sociedade de massas e consumo"
+    }
+   ],
+   "resumo": "Herbert Marcuse foi um sociólogo e filósofo alemão naturalizado norte-americano, pertencente à Escola de Frankfurt. Está sepultado no Dorotheenstädtischer Friedhof em Berlim.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Herbert_Marcuse",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Filósofo da Escola de Frankfurt; crítica ao consumo na sociedade de massas."
+  },
+  {
+   "nome": "Jacques Delors",
+   "tipo": "outro",
+   "disciplina": "Redação",
+   "aparicoes": [
+    {
+     "prova": "2019-1",
+     "questoes": [],
+     "obra": "Educação: um tesouro a descobrir (texto II da redação)"
+    }
+   ],
+   "resumo": "Jacques Lucien Jean Delors foi um político francês que serviu como presidente da Comissão Europeia de 1985 a 1995. Delors desempenhou um papel fundamental na criação do mercado único europeu, do euro e na evolução da (então) Comunidade Econômica Europeia (CEE) para a moderna União Europeia (UE).",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Jacques_Delors",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Presidente da comissão da UNESCO que definiu os 4 pilares da educação (aprender a conhecer, fazer, conviver e ser)."
+  },
+  {
+   "nome": "Milton Santos",
+   "tipo": "cientista",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2023-1",
+     "questoes": [
+      12
+     ],
+     "obra": "A Natureza do Espaço"
+    }
+   ],
+   "resumo": "Milton Almeida dos Santos ComMC foi um geógrafo, escritor, cientista, jornalista, advogado e professor universitário brasileiro.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Milton_Santos",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Geógrafo brasileiro: espaço, técnica e globalização. Texto cobrado por paráfrase e reescrita."
+  },
+  {
+   "nome": "Eric Hobsbawm",
+   "tipo": "cientista",
+   "disciplina": "História",
+   "aparicoes": [
+    {
+     "prova": "2019-2",
+     "questoes": [
+      19
+     ],
+     "obra": "Era dos Extremos"
+    }
+   ],
+   "resumo": "Eric John Ernest Hobsbawm foi um historiador marxista britânico reconhecido como um importante nome da intelectualidade do século XX. Ao longo de toda a sua vida, Hobsbawm foi membro do Partido Comunista Britânico.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Eric_Hobsbawm",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Historiador do 'breve século XX' (1914–1991). Livro-base para Guerra Fria, guerras e crises do século."
+  },
+  {
+   "nome": "Rachel Carson",
+   "tipo": "cientista",
+   "disciplina": "História",
+   "aparicoes": [
+    {
+     "prova": "2025-2",
+     "questoes": [
+      4
+     ],
+     "obra": "Primavera Silenciosa"
+    }
+   ],
+   "resumo": "Rachel Louise Carson foi uma bióloga marinha, escritora, cientista e ecologista norte-americana. Através da publicação de Silent Spring (1962), artigos e outros livros sobre meio ambiente, Rachel ajudou a lançar a consciência ambiental moderna. Começou a carreira como bióloga marinha no United States Fish and Wildlife Service dos Estados Unidos, tornando-se escritora em tempo integral a partir dos anos 1950. Seu livro de 1951, The Sea Around Us, tornou-se um bestseller e ganhou o National Book Award, o que lhe deu segurança financeira e reconhecimento nacional",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Rachel_Carson",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Bióloga cujo livro (1962) denunciou o uso de pesticidas e impulsionou o ambientalismo."
+  },
+  {
+   "nome": "Jacques Le Goff",
+   "tipo": "cientista",
+   "disciplina": "História",
+   "aparicoes": [
+    {
+     "prova": "2025-2",
+     "questoes": [
+      11
+     ],
+     "obra": "Uma história do corpo na Idade Média"
+    }
+   ],
+   "resumo": "Jacques Le Goff foi um historiador francês especialista em Idade Média. Autor de dezenas de livros e trabalhos, era membro da Escola dos Annales, pertencente à terceira geração, empregou-se em antropologia histórica do ocidente medieval.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Jacques_Le_Goff",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Historiador da Idade Média e da Nova História francesa."
+  },
+  {
+   "nome": "Mary Del Priore",
+   "tipo": "cientista",
+   "disciplina": "História",
+   "aparicoes": [
+    {
+     "prova": "2020-1",
+     "questoes": [
+      18
+     ],
+     "obra": "citada como historiadora"
+    }
+   ],
+   "resumo": "Mary Lucy Murray Del Priore é uma historiadora, escritora e professora brasileira.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Mary_Del_Priore",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Historiadora brasileira da vida privada e das mulheres."
+  },
+  {
+   "nome": "Ernst Gombrich",
+   "tipo": "cientista",
+   "disciplina": "História",
+   "aparicoes": [
+    {
+     "prova": "2018-1",
+     "questoes": [
+      16
+     ],
+     "obra": "citado sobre templos gregos"
+    }
+   ],
+   "resumo": "Ernst Hans Josef Gombrich foi um dos mais célebres historiadores da arte do século XX, especialmente por seus estudos sobre o renascimento.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Ernst_Gombrich",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Historiador da arte (A História da Arte)."
+  },
+  {
+   "nome": "Lívia Barbosa",
+   "tipo": "cientista",
+   "disciplina": "Redação",
+   "aparicoes": [
+    {
+     "prova": "2018-2",
+     "questoes": [],
+     "obra": "O jeitinho brasileiro (redação)"
+    }
+   ],
+   "resumo": "",
+   "fonte_resumo": "",
+   "licenca": "",
+   "dica": "Antropóloga autora de O jeitinho brasileiro: a arte de ser mais igual que os outros (1992).",
+   "obs": "sem página própria na Wikipédia pt encontrada; atribuição pelo nome da referência"
+  },
+  {
+   "nome": "Temple Grandin",
+   "tipo": "cientista",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2019-1",
+     "questoes": [
+      50,
+      51,
+      52,
+      53
+     ],
+     "obra": "reportagem sobre bem-estar animal"
+    }
+   ],
+   "resumo": "Mary Temple Grandin é uma acadêmica, inventora e etóloga americana. Ela é uma defensora proeminente do tratamento humanitário de animais de criação para abate e autora de mais de 60 artigos científicos sobre comportamento animal. Grandin é consultora da indústria pecuária, onde oferece conselhos sobre comportamento animal.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Temple_Grandin",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Zootecnista autista que projetou currais mais calmos; a reportagem cobra trocadilho, metáfora e relação entre bem-estar animal e humano."
+  },
+  {
+   "nome": "Joaquín Torres-García",
+   "tipo": "outro",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2024-2",
+     "questoes": [
+      33,
+      34
+     ],
+     "obra": "mapa invertido da América do Sul"
+    }
+   ],
+   "resumo": "Joaquín Torres García ou Joaquín Torres-García foi um pintor, desenhista, escultor, escritor e professor uruguaio, que conquistou renome internacional. Ele era o marido da pintora espanhola-uruguaia Manolita Piña.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Joaqu%C3%ADn_Torres_Garc%C3%ADa",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Artista uruguaio do 'Norte é o Sul' (1943); identidade latino-americana."
+  },
+  {
+   "nome": "Lasar Segall",
+   "tipo": "outro",
+   "disciplina": "Arte",
+   "aparicoes": [
+    {
+     "prova": "2024-1",
+     "questoes": [
+      23
+     ],
+     "obra": "Bananal (releitura)"
+    }
+   ],
+   "resumo": "Lasar Segall foi um pintor, escultor e gravurista judeu nascido no território da atual Lituânia. O trabalho de Segall teve influências do impressionismo, expressionismo e modernismo. Seus temas mais significativos foram representações pictóricas do sofrimento humano: a guerra e a perseguição.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Lasar_Segall",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Pintor lituano-brasileiro do Expressionismo no Brasil.",
+   "obs": "número exato da questão incerto"
+  },
+  {
+   "nome": "Aristóteles",
+   "tipo": "outro",
+   "disciplina": "Arte",
+   "aparicoes": [
+    {
+     "prova": "2024-1",
+     "questoes": [
+      22
+     ],
+     "obra": "citação sobre o objetivo da arte"
+    }
+   ],
+   "resumo": "Aristóteles foi um filósofo e polímata da Grécia Antiga. Seus escritos abrangem as ciências naturais, a filosofia, a linguística, a economia, a política, a psicologia e as artes. Fundou a escola peripatética no Liceu de Atenas, dando início à tradição do aristotelismo, que esteve na origem de parte do desenvolvimento posterior das ciências.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Arist%C3%B3teles",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Filósofo grego; citado sobre a finalidade da arte.",
+   "obs": "número exato da questão incerto"
+  },
+  {
+   "nome": "João Ribeiro",
+   "tipo": "outro",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2018-1",
+     "questoes": [
+      50
+     ],
+     "obra": "citado: 'estilo' em entrevista a João do Rio"
+    }
+   ],
+   "resumo": "João Batista Ribeiro de Andrade Fernandes, mais conhecido como João Ribeiro, foi um jornalista, crítico literário, filólogo, historiador, pintor e tradutor brasileiro. Foi um membro da Academia Brasileira de Letras.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Jo%C3%A3o_Ribeiro_(escritor)",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Gramático e crítico citado no texto sobre estilo."
+  },
+  {
+   "nome": "João do Rio",
+   "tipo": "jornalista",
+   "disciplina": "Português",
+   "aparicoes": [
+    {
+     "prova": "2018-1",
+     "questoes": [
+      50
+     ],
+     "obra": "entrevistador de João Ribeiro (O Momento Literário)"
+    }
+   ],
+   "resumo": "João do Rio, pseudônimo de João Paulo Emílio Cristóvão dos Santos Coelho Barreto, foi um jornalista, cronista, contista, romancista, tradutor e teatrólogo brasileiro. Considerado um pioneiro da crônica reportagem, ele era membro da Academia Brasileira de Letras, tendo sido o membro mais jovem a ser eleito para compor a instituição, com apenas 28 anos.",
+   "fonte_resumo": "https://pt.wikipedia.org/wiki/Jo%C3%A3o_do_Rio",
+   "licenca": "CC BY-SA 4.0",
+   "dica": "Cronista carioca; citado no texto sobre estilo."
+  }
+ ],
+ "veiculos": [
+  {
+   "nome": "Folha de S.Paulo",
+   "aparicoes": [
+    {
+     "prova": "2018-1",
+     "questoes": [],
+     "obra": "redação: textos de Anna Rangel e Beatriz Braga (02.04.2017)"
+    }
+   ]
+  },
+  {
+   "nome": "Superinteressante (Super Abril)",
+   "aparicoes": [
+    {
+     "prova": "2018-1",
+     "questoes": [],
+     "obra": "redação: Super Abril sobre amar o que se faz"
+    },
+    {
+     "prova": "2024-1",
+     "questoes": [
+      1
+     ],
+     "obra": "edição 453, jul/2023"
+    }
+   ]
+  },
+  {
+   "nome": "The Guardian (jornal britânico)",
+   "aparicoes": [
+    {
+     "prova": "2017-2",
+     "questoes": [
+      2
+     ],
+     "obra": "relato de imigrante"
+    }
+   ]
+  },
+  {
+   "nome": "Valor Econômico",
+   "aparicoes": [
+    {
+     "prova": "2019-2",
+     "questoes": [
+      50
+     ],
+     "obra": "André Borges, 07.03.2010"
+    }
+   ]
+  },
+  {
+   "nome": "Revista Katálysis",
+   "aparicoes": [
+    {
+     "prova": "2020-1",
+     "questoes": [],
+     "obra": "redação: texto I (precarização do trabalho)"
+    }
+   ]
+  },
+  {
+   "nome": "Florida Today",
+   "aparicoes": [
+    {
+     "prova": "2020-1",
+     "questoes": [
+      1
+     ],
+     "obra": "charge de Jeff Parker"
+    }
+   ]
+  },
+  {
+   "nome": "The Denver Post",
+   "aparicoes": [
+    {
+     "prova": "2023-1",
+     "questoes": [
+      1
+     ],
+     "obra": "charge de Mike Keefe"
+    }
+   ]
+  },
+  {
+   "nome": "Quadrinhorama / Dragões de Garagem",
+   "aparicoes": [
+    {
+     "prova": "2022-2",
+     "questoes": [
+      40,
+      44
+     ],
+     "obra": "Cientirinhas"
+    },
+    {
+     "prova": "2024-2",
+     "questoes": [
+      48
+     ],
+     "obra": "Cientirinhas #251"
+    }
+   ]
+  },
+  {
+   "nome": "Revista Arqueologia Pública",
+   "aparicoes": [
+    {
+     "prova": "2024-1",
+     "questoes": [
+      2
+     ],
+     "obra": "arte rupestre"
+    }
+   ]
+  },
+  {
+   "nome": "Revista Espaço Acadêmico",
+   "aparicoes": [
+    {
+     "prova": "2024-1",
+     "questoes": [
+      30
+     ],
+     "obra": "geografia e música"
+    }
+   ]
+  },
+  {
+   "nome": "Revista de Estudos de Linguagem",
+   "aparicoes": [
+    {
+     "prova": "2024-2",
+     "questoes": [
+      1
+     ],
+     "obra": "topônimos latino-americanos"
+    }
+   ]
+  },
+  {
+   "nome": "Revista de História",
+   "aparicoes": [
+    {
+     "prova": "2024-2",
+     "questoes": [
+      54
+     ],
+     "obra": "Bartolomé de Las Casas"
+    }
+   ]
+  },
+  {
+   "nome": "Occupational and Environmental Medicine",
+   "aparicoes": [
+    {
+     "prova": "2018-2",
+     "questoes": [
+      7
+     ],
+     "obra": "promoção da saúde no trabalho"
+    }
+   ]
+  },
+  {
+   "nome": "Relatório da UNESCO (Delors)",
+   "aparicoes": [
+    {
+     "prova": "2019-1",
+     "questoes": [],
+     "obra": "redação"
+    }
+   ]
+  }
+ ]
+}

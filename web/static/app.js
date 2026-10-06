@@ -196,6 +196,8 @@
       if (fe) return mostraResultado(fe.id);
     }
     if (!id) {
+      // treino abandonado no meio não é retomado (cada treino sorteia questões novas): descarta
+      if (cfg.tipo === "treino") Object.keys(DB.sims).forEach(function (k) { if (DB.sims[k].tipo === "treino" && DB.sims[k].status === "andamento") delete DB.sims[k]; });
       id = cfg.tipo === "prova" ? "p" + cfg.prova + "-" + Date.now() : cfg.id;
       DB.sims[id] = { tipo: cfg.tipo, prova: cfg.prova || "", titulo: cfg.titulo, filtro: cfg.filtro || null, itens: cfg.questoes.map(function (q) { return q.k; }), respostas: {}, revisar: {}, status: "andamento", inicio: Date.now(), segundos: 0, atual: 0 };
       if (cfg.tipo === "treino") DB.sims[id].questoes = cfg.questoes;
