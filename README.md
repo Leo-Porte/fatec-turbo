@@ -1,13 +1,16 @@
 # Fatec Turbo
 
-Portal de estudo para o vestibular da Fatec, feito de leitura, simulados e redação. Sem vídeo, sem conta, sem servidor de dados: um programa só, que roda no seu computador e abre no navegador.
+Portal de estudo para o vestibular da Fatec, feito de leitura, simulados e redação. Sem vídeo. Um programa só, em dois modos:
+
+- **Local**: roda no seu computador, sem conta; o progresso fica no navegador.
+- **Servidor**: com Postgres e login criado pelo administrador, o progresso de cada aluno fica salvo no banco e aparece em qualquer aparelho. Passo a passo em [`docs/deploy.md`](docs/deploy.md).
 
 > Se você descobriu esse repo, me agradeça no futuro.
 
 ## O que tem
 
-- **Rotina de 10 semanas** até a prova (13/12/2026), com o que estudar a cada noite e o simulado de cada fim de semana.
-- **Lições** em texto: o que a Fatec cobra em cada tema, o que decorar, questões reais resolvidas e exercícios novos.
+- **Rotina de 10 semanas** até a prova (13/12/2026), com o que estudar a cada noite e o simulado de cada fim de semana. Todas as semanas abertas.
+- **Lições** em texto: o que a Fatec cobra em cada tema, o que decorar, questões reais resolvidas e exercícios novos. Seguem uma ordem de pré-requisitos ([`docs/catalogo_licoes.md`](docs/catalogo_licoes.md)): uma lição libera quando as anteriores são marcadas como lidas.
 - **Simulados** com as 15 provas oficiais de 2017 a 2026 (832 questões), cronômetro de 5 horas e correção por disciplina e por tema.
 - **Treinos rápidos** de 10 questões por disciplina ou tema, usando as provas de 2017 a 2020.
 - **Caderno de erros** montado sozinho a partir do que você errou.
@@ -16,27 +19,39 @@ Portal de estudo para o vestibular da Fatec, feito de leitura, simulados e reda�
 - **Revisão por IA, de qualquer fornecedor**: depois de um simulado ou teste, baixe o arquivo com as questões e suas respostas, copie o prompt e mande para a IA que preferir. O prompt obriga a IA a validar cada questão e calcular a sua porcentagem de acerto.
 - **Autores** que caíram nas provas, com resumo e dicas.
 
-O progresso fica no `localStorage` do navegador. Para trocar de aparelho, use **Seus dados → Exportar/Importar**.
+No modo local o progresso fica no `localStorage` do navegador; para trocar de aparelho, use **Seus dados → Exportar/Importar**.
 
 ## Rodar
 
-Baixe/compile o binário e execute. Ele sobe em `http://127.0.0.1:8027` e abre o navegador.
+Modo local: compile e execute. Sobe em `http://127.0.0.1:8027` e abre o navegador.
 
 ```
-fatec-turbo.exe            # Windows
-./fatec-turbo -addr 0.0.0.0:8027 -abrir=false   # servidor, por exemplo
+fatec-turbo.exe
 ```
+
+Modo servidor (com banco e login): veja [`docs/deploy.md`](docs/deploy.md). Em resumo, `docker compose up -d --build` e
+`docker compose exec app /fatec-turbo usuario criar <login> <nome>`.
+
+| Variável / flag | Para quê |
+|---|---|
+| `DATABASE_URL` / `-db` | Postgres. Vazio = modo local, sem login |
+| `FT_ADDR` / `-addr` | endereço (padrão `127.0.0.1:8027`) |
+| `FT_COOKIE_SEGURO=1` / `-cookie-seguro` | cookie de sessão só por HTTPS |
+| `FT_PROXY=1` / `-proxy` | confiar no IP vindo do Caddy (limite de tentativas de login) |
+| `FT_IMAGENS_URL` / `-imagens` | servir as imagens das questões por um CDN, ex.: `https://cdn.jsdelivr.net/gh/Leo-Porte/fatec-turbo@main/conteudo/q` |
+
+As migrations (`migrations/*.sql`) vão embutidas no binário e rodam sozinhas ao subir.
 
 ## Compilar
 
-Precisa de Go 1.25+ (ou Docker).
+Precisa de Go 1.26+ (ou Docker).
 
 ```
 go build -o fatec-turbo .
 # Windows a partir de qualquer sistema:
 GOOS=windows GOARCH=amd64 go build -ldflags="-s -w" -o fatec-turbo.exe .
 # Sem Go instalado, com Docker:
-docker run --rm -v "$PWD:/src" -w /src golang:1.25-alpine sh -c 'GOOS=windows GOARCH=amd64 go build -ldflags="-s -w" -o fatec-turbo.exe .'
+docker run --rm -v "$PWD:/src" -w /src golang:1.26-alpine sh -c 'GOOS=windows GOARCH=amd64 go build -ldflags="-s -w" -o fatec-turbo.exe .'
 ```
 
 Tudo vai embutido no binário: `dados/` (nosso material), `conteudo/` (recortes das provas) e `web/` (páginas e estilos).

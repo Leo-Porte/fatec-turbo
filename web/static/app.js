@@ -1,21 +1,53 @@
-// Fatec Turbo — todo o progresso fica no localStorage deste navegador (sem login, sem servidor de dados).
+// Fatec Turbo — progresso no localStorage do navegador; com login (portal com banco), sincronizado com o servidor.
 (function () {
   "use strict";
-  var KEY = "ft27";
   var DISC = ["Português", "Matemática", "Multidisciplinar", "Raciocínio Lógico", "Física", "Química", "Biologia", "História", "Geografia", "Inglês"];
+  var SRV = null;
+  try { SRV = JSON.parse(document.getElementById("ft-servidor").textContent || "null"); } catch (e) {}
+  var KEY = SRV ? "ft27:" + SRV.login : "ft27";
 
   // ---------- armazenamento ----------
   function vazio() { return { v: 1, rotina: {}, lidas: {}, ex: {}, testes: {}, sims: {}, reds: {} }; }
+  function completa(d) { if (!d || d.v !== 1) return null; var b = vazio(); for (var k in b) if (!d[k]) d[k] = b[k]; return d; }
   function load() {
-    try { var d = JSON.parse(localStorage.getItem(KEY) || "null"); if (d && d.v === 1) { var b = vazio(); for (var k in b) if (!d[k]) d[k] = b[k]; return d; } } catch (e) {}
+    if (SRV && SRV.dados) return completa(SRV.dados) || vazio();
+    try {
+      var d = completa(JSON.parse(localStorage.getItem(KEY) || "null"));
+      // primeiro acesso com login: aproveita o que já foi feito neste navegador sem login
+      if (!d && SRV) d = completa(JSON.parse(localStorage.getItem("ft27") || "null"));
+      if (d) return d;
+    } catch (e) {}
     return vazio();
   }
-  var DB = load(), salvoOk = true;
+  var DB = load(), salvoOk = true, versao = SRV ? SRV.versao : 0, pendente = false, envT = null, enviando = false;
   function save() {
     try { localStorage.setItem(KEY, JSON.stringify(DB)); salvoOk = true; }
-    catch (e) { if (salvoOk) toast("Não consegui salvar neste navegador (memória cheia ou modo privado). Exporte seus dados."); salvoOk = false; }
+    catch (e) { if (salvoOk && !SRV) toast("Não consegui salvar neste navegador (memória cheia ou modo privado). Exporte seus dados."); salvoOk = false; }
+    if (SRV) { pendente = true; clearTimeout(envT); envT = setTimeout(envia, 800); }
   }
-  window.addEventListener("storage", function (e) { if (e.key === KEY) DB = load(); });
+  // envia o estado inteiro; o servidor substitui ou, se outro aparelho gravou no meio, mescla
+  function envia() {
+    if (!SRV || !pendente) return;
+    if (enviando) { envT = setTimeout(envia, 500); return; }
+    enviando = true; pendente = false;
+    fetch("/api/progresso", { method: "PUT", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ base: versao, dados: DB }) })
+      .then(function (r) {
+        if (r.status === 401) { toast("Sua sessão expirou. Entre de novo para salvar no servidor."); throw 0; }
+        if (!r.ok) throw 0; return r.json();
+      })
+      .then(function (res) { versao = res.versao; if (res.mesclado && res.dados) mesclaLocal(res.dados); })
+      .catch(function (e) { pendente = true; if (e !== 0) toast("Sem conexão com o servidor. Seu progresso fica neste navegador e sobe quando a conexão voltar."); envT = setTimeout(envia, 15000); })
+      .then(function () { enviando = false; });
+  }
+  function mesclaLocal(d) { // traz o que outro aparelho gravou, sem trocar objetos em uso nesta página
+    Object.keys(d).forEach(function (k) { if (d[k] && typeof d[k] === "object" && DB[k]) Object.keys(d[k]).forEach(function (id) { if (!(id in DB[k])) DB[k][id] = d[k][id]; }); });
+    try { localStorage.setItem(KEY, JSON.stringify(DB)); } catch (e) {}
+  }
+  window.addEventListener("pagehide", function () {
+    if (SRV && pendente && navigator.sendBeacon) { pendente = false; navigator.sendBeacon("/api/progresso", new Blob([JSON.stringify({ base: versao, dados: DB })], { type: "application/json" })); }
+  });
+  if (SRV && !SRV.dados && Object.keys(DB.sims).length + Object.keys(DB.lidas).length + Object.keys(DB.reds).length > 0) save(); // sobe o progresso local no primeiro login
+  window.addEventListener("storage", function (e) { if (e.key === KEY && !SRV) DB = load(); });
 
   // ---------- utilidades ----------
   function $(s, r) { return (r || document).querySelector(s); }
@@ -91,8 +123,19 @@
     st("licoes", Object.keys(DB.lidas).length); st("red", Object.keys(DB.reds).filter(function (k) { return DB.reds[k].pdfEm; }).length);
   }
 
-  // ---------- LIÇÕES (lista) ----------
-  $$("[data-licao]").forEach(function (li) { if (DB.lidas[li.dataset.licao]) { var p = $("[data-lida]", li); if (p) p.hidden = false; } });
+  // ---------- LIÇÕES: pré-requisitos ----------
+  var NOMES = {}; try { NOMES = JSON.parse(($("#nomes-licoes") || {}).textContent || "{}"); } catch (e) {}
+  function faltam(req) { return (req || "").split(",").filter(function (r) { return r && !DB.lidas[r]; }); }
+  function nomesHTML(ids) { return ids.map(function (r) { return '<a href="/licoes/' + encodeURIComponent(r) + '">' + esc(NOMES[r] || r) + "</a>"; }).join(", "); }
+  $$("[data-licao]").forEach(function (li) {
+    if (DB.lidas[li.dataset.licao]) { var p = $("[data-lida]", li); if (p) p.hidden = false; }
+    var f = faltam(li.dataset.req);
+    if (f.length) {
+      li.classList.add("bloq"); $("[data-bloq]", li).hidden = false;
+      var fa = $("[data-falta]", li); fa.hidden = false; fa.innerHTML = "Leia antes: " + nomesHTML(f);
+      var b = $("[data-ler]", li); b.textContent = "Ver"; b.classList.add("ghost");
+    }
+  });
 
   // ---------- exercícios (lição: confere na hora; teste: corrige no fim) ----------
   function exercicios(raiz, chave, modoProva) {
@@ -121,7 +164,10 @@
   }
   var licao = $("#licao");
   if (licao) {
-    var id = licao.dataset.id;
+    var id = licao.dataset.id, falta = faltam(licao.dataset.req);
+    if (falta.length && !DB.lidas[id]) { // bloqueada: mostra o que ler antes e esconde o conteúdo
+      $("#bloqueio").hidden = false; $("#bloqueio-lista").innerHTML = nomesHTML(falta); $("#licao-corpo").hidden = true;
+    }
     if ($("#exs")) exercicios(licao, id, false);
     var bl = $("#marcar-lida");
     var pintaLida = function () { var l = !!DB.lidas[id]; bl.textContent = l ? "Lida ✓ (desmarcar)" : "Marcar como lida"; bl.classList.toggle("primary", !l); };
@@ -394,6 +440,7 @@
 
   // ---------- DADOS ----------
   var ex1 = $("#exportar");
+  if (ex1 && SRV) { $("#dados-local").hidden = true; $("#dados-servidor").hidden = false; }
   if (ex1) {
     ex1.onclick = function () {
       var b = new Blob([JSON.stringify(DB, null, 1)], { type: "application/json" }), a = document.createElement("a");

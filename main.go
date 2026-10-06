@@ -3,6 +3,7 @@
 package main
 
 import (
+	"bytes"
 	"embed"
 	"encoding/json"
 	"flag"
@@ -12,12 +13,14 @@ import (
 	"log"
 	"math/rand"
 	"net/http"
+	"os"
 	"os/exec"
 	"runtime"
 	"sort"
 	"strconv"
 	"strings"
 	"time"
+	_ "time/tzdata" // fuso de São Paulo mesmo em contêiner sem zoneinfo
 )
 
 //go:embed dados conteudo web
@@ -28,10 +31,45 @@ var (
 	tpls map[string]*template.Template
 )
 
+var (
+	ImgBase     = "/q/" // prefixo das imagens das questões; pode apontar para um CDN (ex.: jsDelivr)
+	confiaProxy bool
+)
+
 func main() {
-	addr := flag.String("addr", "127.0.0.1:8027", "endereço do servidor")
-	abrir := flag.Bool("abrir", true, "abrir o navegador ao iniciar")
+	// subcomandos de administração: fatec-turbo usuario ... | fatec-turbo migrar
+	if len(os.Args) > 1 && (os.Args[1] == "usuario" || os.Args[1] == "migrar") {
+		dsn := os.Getenv("DATABASE_URL")
+		if dsn == "" {
+			log.Fatal("defina DATABASE_URL")
+		}
+		db, err := conectaBanco(dsn)
+		if err != nil {
+			log.Fatal(err)
+		}
+		if err := migra(db); err != nil {
+			log.Fatal(err)
+		}
+		if os.Args[1] == "usuario" {
+			C = &Conteudo{PorTeste: map[string]*Teste{}}
+			if err := cmdUsuario(db, os.Args[2:]); err != nil {
+				fmt.Fprintln(os.Stderr, err)
+				os.Exit(1)
+			}
+		}
+		return
+	}
+
+	addr := flag.String("addr", envOu("FT_ADDR", "127.0.0.1:8027"), "endereço do servidor")
+	abrir := flag.Bool("abrir", os.Getenv("DATABASE_URL") == "", "abrir o navegador ao iniciar")
+	dsn := flag.String("db", os.Getenv("DATABASE_URL"), "Postgres (ex.: postgres://u:s@host/db). Vazio = modo local, sem login")
+	seguro := flag.Bool("cookie-seguro", os.Getenv("FT_COOKIE_SEGURO") == "1", "cookie de sessão só por HTTPS")
+	flag.BoolVar(&confiaProxy, "proxy", os.Getenv("FT_PROXY") == "1", "confiar em X-Forwarded-For (atrás do Caddy)")
+	img := flag.String("imagens", os.Getenv("FT_IMAGENS_URL"), "URL base das imagens das questões (vazio = servir do próprio binário)")
 	flag.Parse()
+	if *img != "" {
+		ImgBase = strings.TrimRight(*img, "/") + "/"
+	}
 
 	var err error
 	C, err = CarregaConteudo(embedded)
@@ -41,12 +79,21 @@ func main() {
 	if err := carregaTemplates(); err != nil {
 		log.Fatal(err)
 	}
+	if *dsn != "" {
+		if DB, err = conectaBanco(*dsn); err != nil {
+			log.Fatal(err)
+		}
+		if err := migra(DB); err != nil {
+			log.Fatal(err)
+		}
+	}
 
 	mux := http.NewServeMux()
 	static, _ := fs.Sub(embedded, "web/static")
 	mux.Handle("GET /static/", cache(http.StripPrefix("/static/", http.FileServerFS(static))))
 	qfs, _ := fs.Sub(embedded, "conteudo/q")
 	mux.Handle("GET /q/", cache(http.StripPrefix("/q/", http.FileServerFS(qfs))))
+	mux.HandleFunc("GET /saude", func(w http.ResponseWriter, r *http.Request) { w.Write([]byte("ok")) })
 
 	mux.HandleFunc("GET /{$}", pagInicio)
 	mux.HandleFunc("GET /licoes", pagLicoes)
@@ -62,22 +109,40 @@ func main() {
 	mux.HandleFunc("GET /desempenho", pagSimples("desempenho", "Desempenho"))
 	mux.HandleFunc("GET /erros", pagSimples("erros", "Caderno de erros"))
 	mux.HandleFunc("GET /dados", pagSimples("dados", "Seus dados"))
+	mux.HandleFunc("GET /entrar", pagEntrar)
+	mux.HandleFunc("POST /entrar", postEntrar(*seguro))
+	mux.HandleFunc("POST /sair", postSair)
 
 	mux.HandleFunc("POST /api/corrigir", apiCorrigir)
 	mux.HandleFunc("GET /api/questoes", apiQuestoes)
+	mux.HandleFunc("PUT /api/progresso", apiProgresso)
+	mux.HandleFunc("POST /api/progresso", apiProgresso) // sendBeacon ao fechar a página
 	mux.HandleFunc("POST /revisao/prova.pdf", postRevisaoProva)
 	mux.HandleFunc("POST /revisao/teste.md", postRevisaoTeste)
 	mux.HandleFunc("POST /redacao.pdf", postRedacaoPDF)
 
+	modo := "local, sem login"
+	if DB != nil {
+		modo = "com banco e login"
+	}
 	url := "http://" + *addr
-	log.Printf("Fatec Turbo no ar: %s  (%d provas, %d lições, %d testes)", url, len(C.Provas), len(C.Licoes), len(C.Testes))
+	log.Printf("Fatec Turbo no ar: %s  (%s; %d provas, %d lições, %d testes)", url, modo, len(C.Provas), len(C.Licoes), len(C.Testes))
 	if C.SemProvas {
-		log.Printf("Aviso: nenhuma prova em conteudo/q. Rode tools/recorta.py antes de compilar.")
+		log.Printf("Aviso: nenhuma prova em conteudo/q. Rode tools/baixar_provas.py antes de compilar.")
 	}
 	if *abrir {
 		go func() { time.Sleep(400 * time.Millisecond); abreNavegador(url) }()
 	}
-	log.Fatal(http.ListenAndServe(*addr, logReq(mux)))
+	srv := &http.Server{Addr: *addr, Handler: logReq(mesmaOrigem(comSessao(*seguro, mux))),
+		ReadHeaderTimeout: 10 * time.Second, ReadTimeout: 60 * time.Second, WriteTimeout: 120 * time.Second}
+	log.Fatal(srv.ListenAndServe())
+}
+
+func envOu(k, padrao string) string {
+	if v := os.Getenv(k); v != "" {
+		return v
+	}
+	return padrao
 }
 
 func abreNavegador(url string) {
@@ -128,6 +193,7 @@ func carregaTemplates() error {
 		"join":        strings.Join,
 		"dict2":       func(i int, e Exercicio) map[string]any { return map[string]any{"I": i, "E": e} },
 		"promptTeste": PromptRevisaoTeste,
+		"img":         func(prova, f string) string { return ImgBase + prova + "/" + f },
 	}
 	base, err := template.New("base").Funcs(funcs).ParseFS(embedded, "web/templates/base.html")
 	if err != nil {
@@ -147,13 +213,17 @@ func carregaTemplates() error {
 }
 
 type Pagina struct {
-	Titulo string
-	Aba    string
-	Dias   int
-	D      any
+	Titulo    string
+	Aba       string
+	Dias      int
+	D         any
+	Usuario   *Usuario
+	Servidor  bool        // progresso sincronizado com o banco
+	Progresso template.JS // estado salvo do usuário (JSON), quando há banco
+	Versao    int
 }
 
-func render(w http.ResponseWriter, nome, titulo, aba string, d any) {
+func render(w http.ResponseWriter, r *http.Request, nome, titulo, aba string, d any) {
 	t, ok := tpls[nome]
 	if !ok {
 		http.Error(w, "página não encontrada: "+nome, 500)
@@ -163,15 +233,27 @@ func render(w http.ResponseWriter, nome, titulo, aba string, d any) {
 	if dias < 0 {
 		dias = 0
 	}
+	pg := Pagina{Titulo: titulo, Aba: aba, Dias: dias, D: d, Progresso: "null"}
+	if u := usuarioDe(r); u != nil && DB != nil {
+		pg.Usuario, pg.Servidor = u, true
+		if dados, v, err := carregaProgresso(r.Context(), u.ID); err == nil {
+			// escapa < > & dentro do JSON: uma redação com "</script>" não pode quebrar a página
+			var buf bytes.Buffer
+			json.HTMLEscape(&buf, dados)
+			pg.Progresso, pg.Versao = template.JS(buf.String()), v
+		}
+	}
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
-	if err := t.ExecuteTemplate(w, "base", Pagina{titulo, aba, dias, d}); err != nil {
+	w.Header().Set("X-Content-Type-Options", "nosniff")
+	w.Header().Set("Referrer-Policy", "same-origin")
+	if err := t.ExecuteTemplate(w, "base", pg); err != nil {
 		log.Printf("template %s: %v", nome, err)
 	}
 }
 
 func pagSimples(nome, titulo string) http.HandlerFunc {
 	aba := map[string]string{"desempenho": "desempenho", "erros": "estudar", "dados": ""}[nome]
-	return func(w http.ResponseWriter, r *http.Request) { render(w, nome, titulo, aba, nil) }
+	return func(w http.ResponseWriter, r *http.Request) { render(w, r, nome, titulo, aba, nil) }
 }
 
 // ---------- páginas ----------
@@ -211,21 +293,23 @@ func tarefasSemana(s int) []Tarefa {
 }
 
 func pagInicio(w http.ResponseWriter, r *http.Request) {
-	s := SemanaAtual(time.Now())
-	type prox struct {
-		S          int
-		Datas, Txt string
+	atual := SemanaAtual(time.Now())
+	s := atual
+	if v, err := strconv.Atoi(r.URL.Query().Get("s")); err == nil && v >= 1 && v <= len(Plano) {
+		s = v
 	}
-	var ps []prox
-	for _, p := range Plano[s:] {
-		t := p.Foco
-		if p.Sim != "" {
-			t += " · simulado " + NomeProva(p.Sim)
-		}
-		ps = append(ps, prox{p.S, DatasSemana(p.S), t})
+	type sem struct {
+		S         int
+		Datas     string
+		Atual, Ve bool
 	}
-	render(w, "inicio", "Início", "inicio", map[string]any{
-		"Semana": Plano[s-1], "Datas": DatasSemana(s), "Tarefas": tarefasSemana(s), "Proximas": ps, "TotalLicoes": len(C.Licoes), "SemProvas": C.SemProvas,
+	var ss []sem
+	for _, p := range Plano {
+		ss = append(ss, sem{p.S, DatasSemana(p.S), p.S == atual, p.S == s})
+	}
+	render(w, r, "inicio", "Início", "inicio", map[string]any{
+		"Semana": Plano[s-1], "Datas": DatasSemana(s), "Tarefas": tarefasSemana(s), "Semanas": ss, "EAtual": s == atual,
+		"TotalLicoes": len(C.Licoes), "SemProvas": C.SemProvas,
 	})
 }
 
@@ -242,7 +326,7 @@ func pagLicoes(w http.ResponseWriter, r *http.Request) {
 		}
 		gs[len(gs)-1].Licoes = append(gs[len(gs)-1].Licoes, l)
 	}
-	render(w, "licoes", "Lições", "estudar", map[string]any{"Grupos": gs, "Testes": C.Testes})
+	render(w, r, "licoes", "Lições", "estudar", map[string]any{"Grupos": gs, "Testes": C.Testes, "Nomes": nomesLicoes()})
 }
 
 func pagLicao(w http.ResponseWriter, r *http.Request) {
@@ -269,7 +353,15 @@ func pagLicao(w http.ResponseWriter, r *http.Request) {
 	for i, e := range l.Exercicios {
 		gab[i] = e.Gabarito
 	}
-	render(w, "licao", l.Titulo, "estudar", map[string]any{"L": l, "Resolvidas": rs, "Gab": gab})
+	render(w, r, "licao", l.Titulo, "estudar", map[string]any{"L": l, "Resolvidas": rs, "Gab": gab, "Nomes": nomesLicoes()})
+}
+
+func nomesLicoes() map[string]string {
+	m := map[string]string{}
+	for _, l := range C.Licoes {
+		m[l.ID] = l.Titulo
+	}
+	return m
 }
 
 func pagSimulados(w http.ResponseWriter, r *http.Request) {
@@ -307,7 +399,7 @@ func pagSimulados(w http.ResponseWriter, r *http.Request) {
 			temas[q.Disc][q.Tema]++
 		}
 	}
-	render(w, "simulados", "Simulados", "simulados", map[string]any{"Provas": ps, "Disc": DiscOrdem, "Temas": temas})
+	render(w, r, "simulados", "Simulados", "simulados", map[string]any{"Provas": ps, "Disc": DiscOrdem, "Temas": temas})
 }
 
 // Dados que o executor de simulado recebe: sem gabarito (a correção é no servidor).
@@ -321,7 +413,7 @@ type QView struct {
 }
 
 func qview(q *Questao, chave string) QView {
-	pref := "/q/" + q.Prova + "/"
+	pref := ImgBase + q.Prova + "/"
 	v := QView{K: chave, P: q.Prova, N: q.N, Disc: q.Disc}
 	for _, f := range q.Imgs {
 		v.Imgs = append(v.Imgs, pref+f)
@@ -346,7 +438,7 @@ func pagSimulado(w http.ResponseWriter, r *http.Request) {
 	for _, q := range p.Questoes {
 		qs = append(qs, qview(q, strconv.Itoa(q.N)))
 	}
-	render(w, "executor", "Simulado Fatec "+p.Nome(), "simulados", map[string]any{
+	render(w, r, "executor", "Simulado Fatec "+p.Nome(), "simulados", map[string]any{
 		"Cfg": map[string]any{"id": "p" + p.ID, "tipo": "prova", "prova": p.ID, "titulo": "Simulado Fatec " + p.Nome(), "limite": 5 * 3600, "questoes": qs,
 			"prompt": PromptRevisaoProva("Revisão do simulado Fatec "+p.Nome(), len(qs))},
 	})
@@ -406,14 +498,14 @@ func pagTreino(w http.ResponseWriter, r *http.Request) {
 	if nome == "" {
 		nome = "misto"
 	}
-	render(w, "executor", "Treino: "+nome, "simulados", map[string]any{
+	render(w, r, "executor", "Treino: "+nome, "simulados", map[string]any{
 		"Cfg": map[string]any{"id": fmt.Sprintf("t%d", time.Now().UnixMilli()), "tipo": "treino", "titulo": "Treino: " + nome, "filtro": map[string]string{"disc": disc, "tema": tema}, "limite": len(qs) * 180, "questoes": qs,
 			"prompt": PromptRevisaoProva("Revisão do treino "+nome, len(qs))},
 	})
 }
 
 func pagTestes(w http.ResponseWriter, r *http.Request) {
-	render(w, "testes", "Testes", "estudar", map[string]any{"Testes": C.Testes})
+	render(w, r, "testes", "Testes", "estudar", map[string]any{"Testes": C.Testes})
 }
 
 func pagTeste(w http.ResponseWriter, r *http.Request) {
@@ -426,12 +518,12 @@ func pagTeste(w http.ResponseWriter, r *http.Request) {
 	for i, e := range t.Exercicios {
 		gab[i] = e.Gabarito
 	}
-	render(w, "teste", t.Titulo, "estudar", map[string]any{"T": t, "Gab": gab})
+	render(w, r, "teste", t.Titulo, "estudar", map[string]any{"T": t, "Gab": gab})
 }
 
 func pagRedacoes(w http.ResponseWriter, r *http.Request) {
 	s := SemanaAtual(time.Now())
-	render(w, "redacoes", "Redação", "redacao", map[string]any{"Provas": C.Provas, "Atual": Plano[s-1].Sim})
+	render(w, r, "redacoes", "Redação", "redacao", map[string]any{"Provas": C.Provas, "Atual": Plano[s-1].Sim})
 }
 
 func pagRedacao(w http.ResponseWriter, r *http.Request) {
@@ -442,9 +534,9 @@ func pagRedacao(w http.ResponseWriter, r *http.Request) {
 	}
 	var imgs []string
 	for _, f := range p.Redacao {
-		imgs = append(imgs, "/q/"+p.ID+"/"+f)
+		imgs = append(imgs, ImgBase+p.ID+"/"+f)
 	}
-	render(w, "redacao", "Redação "+p.Nome(), "redacao", map[string]any{"P": p, "Imgs": imgs, "Prompt": PromptRedacao(p.TemaRed)})
+	render(w, r, "redacao", "Redação "+p.Nome(), "redacao", map[string]any{"P": p, "Imgs": imgs, "Prompt": PromptRedacao(p.TemaRed)})
 }
 
 func pagAutores(w http.ResponseWriter, r *http.Request) {
@@ -455,7 +547,7 @@ func pagAutores(w http.ResponseWriter, r *http.Request) {
 		}
 		return as[i].Nome < as[j].Nome
 	})
-	render(w, "autores", "Autores", "estudar", map[string]any{"Autores": as, "Veiculos": C.Autores.Veiculos})
+	render(w, r, "autores", "Autores", "estudar", map[string]any{"Autores": as, "Veiculos": C.Autores.Veiculos})
 }
 
 // ---------- API ----------

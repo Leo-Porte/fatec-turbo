@@ -1,8 +1,11 @@
-{{define "conteudo"}}{{$l := .L}}<article class="read lesson" id="licao" data-id="{{$l.ID}}" data-gab="{{json .Gab}}">
+{{define "conteudo"}}{{$l := .L}}<article class="read lesson" id="licao" data-id="{{$l.ID}}" data-gab="{{json .Gab}}" data-req="{{join $l.Requisitos ","}}">
+<script type="application/json" id="nomes-licoes">{{json .Nomes}}</script>
 <a class="btn ghost small" href="/licoes">← Lições</a>
+<div class="notice gap-top" id="bloqueio" hidden><b>Esta lição depende de outra.</b> Leia antes: <span id="bloqueio-lista"></span>. Ela libera quando você marcar essas lições como lidas.</div>
 <p class="eyebrow gap-top">{{$l.Disciplina}} · {{$l.Minutos}} min</p>
 <h1>{{$l.Titulo}}</h1>
 {{if $l.PorQue}}<p class="muted">{{$l.PorQue}}</p>{{end}}
+<div id="licao-corpo">
 {{range $l.Secoes}}<h2>{{.Titulo}}</h2>{{md .Texto}}{{end}}
 {{if $l.Decorar}}<div class="box mark"><h3>De cor e salteado</h3><ul>{{range $l.Decorar}}<li>{{mdInline .}}</li>{{end}}</ul></div>{{end}}
 {{if $l.Pegadinhas}}<div class="box warnb"><h3>Pegadinhas</h3><ul>{{range $l.Pegadinhas}}<li>{{mdInline .}}</li>{{end}}</ul></div>{{end}}
@@ -18,4 +21,5 @@
   <textarea id="prompt-ex" class="prompt" readonly rows="6">{{promptTeste (printf "Exercícios: %s" $l.Titulo) (len $l.Exercicios)}}</textarea>
 </form>{{end}}
 <div class="row gap-top"><button class="btn primary" id="marcar-lida" type="button">Marcar como lida</button><a class="btn ghost" href="/licoes">Voltar às lições</a></div>
+</div>
 </article>{{end}}

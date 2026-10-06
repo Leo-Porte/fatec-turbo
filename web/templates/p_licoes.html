@@ -1,13 +1,14 @@
 {{define "conteudo"}}<div class="read">
 <p class="eyebrow">Leitura</p>
 <h1>Lições</h1>
-<p class="muted">Cada lição traz o que a Fatec cobra, o que decorar, questões reais resolvidas e exercícios novos. As lições de cada bloco entram antes da semana em que você vai estudá-las.</p>
+<p class="muted">Cada lição traz o que a Fatec cobra, o que decorar, questões reais resolvidas e exercícios novos. Todas estão abertas, mas algumas dependem de outras: a lição libera quando você marca as anteriores como lidas.</p>
+<script type="application/json" id="nomes-licoes">{{json .Nomes}}</script>
 <div class="row gap-top"><a class="btn" href="/erros">Caderno de erros</a><a class="btn ghost" href="/testes">Testes da semana</a><a class="btn ghost" href="/autores">Autores que caem</a></div>
 {{if not .Grupos}}<div class="empty gap-top">As primeiras lições estão sendo escritas.</div>{{end}}
 {{range .Grupos}}
 <h2>Semana {{.S}} <span class="small muted disp">{{.Datas}}</span></h2>
 <ul class="list">{{range .Licoes}}
-<li data-licao="{{.ID}}"><div class="row"><div class="grow"><span class="pill mute">{{.Disciplina}}</span> <span class="pill good" data-lida hidden>lida</span><h3 class="li-t">{{.Titulo}}</h3><span class="small muted disp">{{.Minutos}} min · {{len .Exercicios}} exercícios</span></div><a class="btn" href="/licoes/{{.ID}}">Ler</a></div></li>
+<li data-licao="{{.ID}}" data-req="{{join .Requisitos ","}}"><div class="row"><div class="grow"><span class="pill mute">{{.Disciplina}}</span> <span class="pill good" data-lida hidden>lida</span> <span class="pill warn" data-bloq hidden>bloqueada</span><h3 class="li-t">{{.Titulo}}</h3><span class="small muted disp">{{.Minutos}} min · {{len .Exercicios}} exercícios</span><p class="small muted mt0" data-falta hidden></p></div><a class="btn" href="/licoes/{{.ID}}" data-ler>Ler</a></div></li>
 {{end}}</ul>
 {{end}}
 </div>{{end}}

@@ -125,5 +125,8 @@
    "gabarito": "B",
    "resolucao": "1 parte de concentrado + 4 de água = 5 partes. Cada parte: 750 ÷ 5 = 150 mL. O concentrado é 1 parte = 150 mL (e a água, 600 mL). 187,5 é o erro de dividir por 4 em vez de 5."
   }
+ ],
+ "requisitos": [
+  "mat-porcentagem"
  ]
 }

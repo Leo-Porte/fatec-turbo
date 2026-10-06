@@ -18,18 +18,19 @@
       <a href="/redacao" {{if eq .Aba "redacao"}}aria-current="page"{{end}}>Redação</a>
       <a href="/desempenho" {{if eq .Aba "desempenho"}}aria-current="page"{{end}}>Desempenho</a>
     </nav>
-    <div class="countdown"><b>{{.Dias}}</b> dias para a prova</div>
+    <div class="countdown"><b>{{.Dias}}</b> dias para a prova{{if .Usuario}} · {{.Usuario.Nome}}{{end}}</div>
   </div>
 </header>
 <main id="app">
 {{template "conteudo" .D}}
 </main>
-<footer class="rodape"><a href="/dados">Seus dados</a> · <a href="/autores">Autores</a> · <button type="button" class="linklike" id="tema-btn">Tema claro/escuro</button></footer>
+<footer class="rodape"><a href="/dados">Seus dados</a> · <a href="/autores">Autores</a> · <button type="button" class="linklike" id="tema-btn">Tema claro/escuro</button>{{if .Usuario}} · <form method="post" action="/sair" class="inline"><button type="submit" class="linklike">Sair ({{.Usuario.Login}})</button></form>{{end}}</footer>
+<script type="application/json" id="ft-servidor">{{if .Servidor}}{"login":{{json .Usuario.Login}},"versao":{{.Versao}},"dados":{{.Progresso}}}{{else}}null{{end}}</script>
 <script src="/static/app.js"></script>
 </body>
 </html>{{end}}
 
-{{define "qimgs"}}{{range .Ctx}}<p class="ctxlabel">Texto de apoio</p><div class="sheet" data-zoom>{{range .}}<img src="/q/{{$.Prova}}/{{.}}" alt="Texto de apoio" loading="lazy">{{end}}</div>{{end}}<div class="sheet" data-zoom>{{range .Imgs}}<img src="/q/{{$.Prova}}/{{.}}" alt="Questão {{$.N}} da prova {{nomeProva $.Prova}}" loading="lazy">{{end}}</div>{{end}}
+{{define "qimgs"}}{{range .Ctx}}<p class="ctxlabel">Texto de apoio</p><div class="sheet" data-zoom>{{range .}}<img src="{{img $.Prova .}}" alt="Texto de apoio" loading="lazy">{{end}}</div>{{end}}<div class="sheet" data-zoom>{{range .Imgs}}<img src="{{img $.Prova .}}" alt="Questão {{$.N}} da prova {{nomeProva $.Prova}}" loading="lazy">{{end}}</div>{{end}}
 
 {{define "exercicio"}}<div class="exq" data-i="{{.I}}">
 <p class="disp"><b>{{add .I 1}}.</b></p>

@@ -198,3 +198,13 @@ label.lbl{display:block;font-family:var(--f-display);font-weight:700;font-size:.
   .countdown{display:none}
 }
 @media (prefers-reduced-motion:no-preference){.btn,.ans,.tabs a{transition:background .15s,border-color .15s}}
+
+/* semanas navegáveis, login, lições bloqueadas */
+.semanas{display:flex;flex-wrap:wrap;gap:.3rem;margin:0 0 1rem}
+.semanas a{font-family:var(--f-display);font-weight:700;font-size:.82rem;text-decoration:none;color:var(--muted);border:1px solid var(--rule);border-radius:.35rem;padding:.25rem .55rem;font-variant-numeric:tabular-nums}
+.semanas a.atual{border-color:var(--accent);color:var(--accent)}
+.semanas a.ve{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+form.inline{display:inline}
+input[type=password]{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--rule);border-radius:.45rem;padding:.6rem .8rem;width:100%}
+.entrar{max-width:24rem;margin-top:2rem}
+li[data-licao].bloq .li-t{color:var(--muted)}

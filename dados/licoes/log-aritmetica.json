@@ -125,5 +125,8 @@
    "gabarito": "D",
    "resolucao": "De 1º a 13 de dezembro são 12 dias. 12 = 7 + 5, resto 5. Voltando 5 dias a partir do domingo: sábado, sexta, quinta, quarta, terça. Outra forma: voltar 5 equivale a avançar 2 (7 − 5), e domingo + 2 = terça."
   }
+ ],
+ "requisitos": [
+  "mat-porcentagem"
  ]
 }

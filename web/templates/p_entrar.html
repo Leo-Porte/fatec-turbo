@@ -1,0 +1,12 @@
+{{define "conteudo"}}<div class="read entrar">
+<p class="eyebrow">Fatec Turbo</p>
+<h1>Entrar</h1>
+<p class="muted">Use o login e a senha que você recebeu.</p>
+{{if .Erro}}<div class="notice" role="alert">{{.Erro}}</div>{{end}}
+<form method="post" action="/entrar" class="panel">
+  <input type="hidden" name="volta" value="{{.Volta}}">
+  <label class="lbl" for="login">Login</label><input type="text" id="login" name="login" autocomplete="username" autocapitalize="off" value="{{.Login}}" required autofocus>
+  <label class="lbl" for="senha">Senha</label><input type="password" id="senha" name="senha" autocomplete="current-password" required>
+  <div class="row gap-top"><button class="btn primary" type="submit">Entrar</button></div>
+</form>
+</div>{{end}}

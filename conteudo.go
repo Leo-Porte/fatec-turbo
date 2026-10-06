@@ -100,6 +100,7 @@ type Licao struct {
 	Tema       string      `json:"tema"`
 	Titulo     string      `json:"titulo"`
 	Semana     int         `json:"semana"`
+	Requisitos []string    `json:"requisitos"`
 	Minutos    int         `json:"minutos"`
 	PorQue     string      `json:"por_que"`
 	Secoes     []Secao     `json:"secoes"`

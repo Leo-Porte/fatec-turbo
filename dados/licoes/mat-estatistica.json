@@ -174,5 +174,8 @@
     ]
    }
   }
+ ],
+ "requisitos": [
+  "mat-porcentagem"
  ]
 }

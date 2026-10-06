@@ -1,8 +1,9 @@
 {{define "conteudo"}}<div class="read">
-<p class="eyebrow">Semana {{.Semana.S}} de 10 · {{.Datas}}</p>
+<nav class="semanas" aria-label="Semanas do plano">{{range .Semanas}}<a href="/?s={{.S}}" class="{{if .Ve}}ve{{end}}{{if .Atual}} atual{{end}}" {{if .Ve}}aria-current="page"{{end}} title="{{.Datas}}">S{{.S}}</a>{{end}}</nav>
+<p class="eyebrow">Semana {{.Semana.S}} de 10 · {{.Datas}}{{if not .EAtual}} · <a href="/">voltar para a semana atual</a>{{end}}</p>
 <h1>{{.Semana.Foco}}</h1>
 {{if .Semana.Nota}}<div class="notice">{{.Semana.Nota}}</div>{{end}}
-{{if .SemProvas}}<div class="notice">As provas ainda não foram geradas. Rode <code>tools/recorta.py</code> (veja o README) e compile de novo.</div>{{end}}
+{{if .SemProvas}}<div class="notice">As provas ainda não foram geradas. Rode <code>tools/baixar_provas.py</code> (veja o README) e compile de novo.</div>{{end}}
 <div class="stats" id="stats">
   <div class="stat"><b data-stat="tarefas">–</b><span>tarefas da semana</span></div>
   <div class="stat"><b data-stat="ultimo">–</b><span>último simulado (0–100)</span></div>
@@ -13,6 +14,5 @@
 <ul class="list" id="rotina">
 {{range .Tarefas}}<li class="check" data-auto="{{.Auto}}"><input type="checkbox" id="{{.ID}}"><label class="t" for="{{.ID}}">{{.Txt}}</label>{{if .Link}}<a class="btn ghost small" href="{{.Link}}">Abrir</a>{{else}}<span></span>{{end}}</li>
 {{end}}</ul>
-<h2>Próximas semanas</h2>
-<ul class="list">{{range .Proximas}}<li><span class="pill mute">S{{.S}}</span> <span class="small muted disp">{{.Datas}}</span><br>{{.Txt}}</li>{{end}}</ul>
+<p class="small muted gap-top">Todas as semanas estão abertas: use S1 a S10 para adiantar ou revisar. As lições seguem a ordem de pré-requisitos: uma lição libera quando as anteriores estão marcadas como lidas.</p>
 </div>{{end}}

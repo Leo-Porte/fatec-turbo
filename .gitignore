@@ -432,3 +432,4 @@ fatec-turbo
 fatec-turbo.exe
 /provas_pdf/
 __pycache__/
+.env

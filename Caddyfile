@@ -1,0 +1,8 @@
+{$DOMINIO} {
+	encode zstd gzip
+	reverse_proxy app:8027
+	header {
+		Strict-Transport-Security "max-age=31536000"
+		X-Frame-Options "DENY"
+	}
+}

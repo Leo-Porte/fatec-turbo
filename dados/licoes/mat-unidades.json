@@ -120,5 +120,8 @@
    "gabarito": "C",
    "resolucao": "5 dias = 120 h; 120 ÷ 8 = 15 doses. 15 × 250 mg = 3.750 mg = 3,75 g (÷ 1.000). 1,25 g viria de contar só 5 doses (1 por dia), e 37,5 g de errar a vírgula na conversão."
   }
+ ],
+ "requisitos": [
+  "mat-porcentagem"
  ]
 }

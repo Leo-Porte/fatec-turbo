@@ -125,5 +125,8 @@
    "gabarito": "A",
    "resolucao": "Cada aperto é um par de pessoas, e a ordem não importa: C(5, 2) = 5 × 4 ÷ 2 = 10. Contagem alternativa: cada uma cumprimenta 4 outras → 5 × 4 = 20, mas cada aperto foi contado duas vezes → 20 ÷ 2 = 10."
   }
+ ],
+ "requisitos": [
+  "log-aritmetica"
  ]
 }
