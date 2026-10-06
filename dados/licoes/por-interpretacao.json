@@ -1,0 +1,131 @@
+{
+ "id": "por-interpretacao",
+ "disciplina": "Português",
+ "tema": "Interpretação de texto",
+ "titulo": "Interpretação de texto: técnica",
+ "semana": 7,
+ "requisitos": [],
+ "minutos": 30,
+ "por_que": "Interpretação de texto é o tema mais frequente de Português: 34 questões da disciplina nas 15 provas, fora as da Multidisciplinar que trazem texto em português (charge, tirinha, notícia, infográfico). A prova sempre dá o texto na própria página: dá para acertar sem saber nada de gramática, só com método.",
+ "secoes": [
+  {
+   "titulo": "1. A regra que resolve a maioria: o texto manda",
+   "texto": "A banca não quer saber o que você acha do assunto nem o que você sabe dele. Quer saber **o que o texto diz**. Toda alternativa certa tem apoio em alguma frase, número ou imagem que está na página. Toda alternativa errada falha por um destes motivos:\n\n- **Extrapola**: afirma algo que o texto não diz (\"garante\", \"sempre\", \"todos\", \"somente\", \"a única causa\").\n- **Inverte**: troca causa por consequência, ou o contrário do que o texto afirma.\n- **Troca um dado**: muda número, porcentagem, sujeito ou lugar (47% no lugar de 48%).\n- **Foge do assunto**: é verdadeira no mundo real, mas o texto não fala disso.\n- **Recorta pela metade**: repete uma parte do texto e esquece a outra que muda o sentido.\n\nPensa no texto como um mapa. A alternativa certa é um ponto que está no mapa. A errada é um ponto que alguém desenhou por conta própria, mesmo que o lugar exista de verdade."
+  },
+  {
+   "titulo": "2. Método de 4 passos (cerca de 2 minutos por questão)",
+   "texto": "1. **Leia o comando antes do texto.** \"De acordo com o texto\", \"o texto tem por objetivo\", \"é correto afirmar\" e \"pode-se inferir\" pedem coisas diferentes.\n2. **Leia o texto inteiro uma vez**, sem sublinhar nada. Fixe: tema, tese (o que o autor defende ou informa) e tom (neutro, crítico, irônico, humorístico).\n3. **Elimine alternativas** com os cinco defeitos da seção anterior. Quase sempre sobram duas.\n4. **Entre as duas, volte ao texto** e ache a frase que sustenta a escolhida. Se não achar a frase, ela é a errada.\n\nO erro clássico é ler as alternativas primeiro e sair \"procurando\" a que parece boa. Com isso, a mais bonita ganha da mais correta."
+  },
+  {
+   "titulo": "3. Os comandos que mais caem (e o que cada um pede)",
+   "texto": "- **\"De acordo com o texto\"** → informação explícita, escrita. Procure a frase. Nada de dedução.\n- **\"O texto tem por objetivo / finalidade\"** → o gênero decide. Texto que define e explica é **expositivo-informativo** (objetivo: expor um conceito). Que defende uma ideia é **argumentativo**. Que ensina a fazer algo é **instrucional**. Que avisa é **de aviso/notícia**.\n- **\"Infere-se / pode-se concluir\"** → dedução segura, que decorre do que está escrito, sem chute.\n- **Charge, tirinha, cartum, meme** → leia a imagem junto com o texto. O humor costuma nascer de um **contraste**: o que a personagem diz contra o que a cena mostra (ironia). Em muitas provas a resposta está na imagem, não no balão.\n- **Gráfico ou infográfico com texto** → o texto de apoio dá o contexto; a alternativa certa precisa bater com os números e com o contexto. Some e compare porcentagens em vez de confiar na memória.\n- **\"Paráfrase\"/\"reescrita\"** → a nova frase tem que manter o sentido: mesma relação entre as ideias (causa, oposição, finalidade), mesmo agente e mesmo paciente."
+  },
+  {
+   "titulo": "4. Palavras-armadilha nas alternativas",
+   "texto": "Desconfie de alternativas com termos absolutos: **todo, sempre, nunca, apenas, somente, garante, comprova, única, exclusivamente**. O texto científico ou jornalístico raramente é tão categórico. Já **pode, tende, costuma, em geral, há associação** dão margem, e é o que o texto costuma dizer.\n\nOutra armadilha é a **alternativa verdadeira que não vem do texto**. Se a questão diz \"de acordo com o texto\", uma frase correta na vida real mas ausente na página está errada na prova.\n\nPor fim, cuidado com **associação x causa**: \"quem dorme mais tira notas melhores\" não é o mesmo que \"dormir mais faz tirar notas melhores\". Quando o texto avisa que é só correlação, a alternativa que fala em causa extrapola."
+  },
+  {
+   "titulo": "5. Texto com imagem: ler o não verbal",
+   "texto": "Em charge, tirinha e cartum, siga esta ordem: (1) quem fala e para quem; (2) o que a cena mostra; (3) onde há **quebra de expectativa**. A graça, ou a crítica, mora nessa quebra. Exemplos do tipo de leitura que a Fatec cobra: um meme que finge um desejo (árvores dando Wi-Fi) para dizer que o que as árvores já fazem é valioso (ironia com função de conscientização); uma charge de cartão vermelho em que o cartão simboliza expulsar o preconceito.\n\nSe o enunciado traz a palavra \"charge\", \"tirinha\" ou \"meme\", provavelmente é pergunta de **ironia, crítica social ou finalidade**. Não responda pelo tema geral: responda pela intenção."
+  }
+ ],
+ "decorar": [
+  "Alternativa certa = tem frase, número ou imagem no texto que a sustenta.",
+  "Cinco defeitos das erradas: extrapola, inverte, troca dado, foge do assunto, recorta pela metade.",
+  "Objetivo do texto: expõe/define (informativo), defende (argumentativo), ensina (instrucional), avisa (aviso).",
+  "Termos absolutos (todo, sempre, nunca, apenas, garante, única) deixam a alternativa suspeita.",
+  "Correlação (associação) não é causa.",
+  "Ironia = dizer ou mostrar o contrário do que se pensa; o humor nasce do contraste entre fala e cena."
+ ],
+ "pegadinhas": [
+  "Escolher a alternativa que concorda com sua opinião. A banca cobra o que o texto diz, não o que você acha.",
+  "Cair em dado trocado: 36% discordam totalmente + 12% discordam em parte = 48%, não 47%. Sempre refaça a conta.",
+  "Confundir \"objetivo do texto\" com \"assunto do texto\". O assunto é sobre o que fala; o objetivo é o que o texto quer fazer (expor, convencer, avisar).",
+  "Ler só o balão da tirinha e ignorar a imagem.",
+  "Ficar entre duas alternativas e escolher pela forma. Volte ao texto e ache a frase que prova a escolhida."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-1",
+   "n": 59,
+   "resolucao": "O texto diz que startups do tipo deep techs são empresas inovadoras, que fornecem soluções baseadas em conhecimento científico para problemas complexos, e dá exemplos de segmentos. Ou seja: **define e explica** um conceito, sem contar uma história, sem defender superioridade e sem pedir nada ao leitor.\n\nElimine:\n- (B) não há narrativa de surgimento de empresa;\n- (C) o texto não compara nem diz que uma é superior;\n- (D) comunicação entre startups não aparece;\n- (E) não há convite a seguir canal.\n\nSobra a (A): expor o conceito de um novo tipo de empresa. **Gabarito A**, o mesmo do CSV."
+  },
+  {
+   "prova": "2026-1",
+   "n": 56,
+   "resolucao": "O texto de apoio diz que a pesquisa mediu a familiaridade com noções de Ciência e que os dados mostram a necessidade de ampliar a divulgação científica. O infográfico mostra as respostas à frase \"algumas vacinas podem causar autismo\": 14% concordam em partes, 21% concordam totalmente, 12% discordam em partes, 36% discordam totalmente, 0% não responderam, 17% não souberam.\n\nConfira cada alternativa:\n- (A) discordam = 12% + 36% = **48%**, não 47%. Dado trocado.\n- (B) 36% é quem **discorda totalmente** da frase; não fala de eficácia do método. Foge do dado.\n- (C) o texto não fala em senso comum desacreditando fake news; é o contrário, uma parte concorda com a ideia falsa.\n- (D) baixo letramento científico → mais espaço para fake news: é o que o texto de apoio sugere ao falar da necessidade de ampliar o conhecimento científico. Conclusão que o texto sustenta.\n- (E) 21% é quem concorda totalmente; nada fala de \"meios tradicionais de informação\". Inventa.\n\n**Gabarito D**, igual ao CSV."
+  },
+  {
+   "prova": "2026-2",
+   "n": 53,
+   "resolucao": "O texto fala do futebolês: expressões criadas pelo povo (bola murcha, bola pra frente, comer bola...) que, \"pouco a pouco\", se incorporaram à linguagem coloquial. Diz também que a criatividade de torcedores, técnicos, jogadores e narradores \"extrapola os limites da imaginação\", que a linguagem recebeu \"um tempero da culinária\" (cozinhar o jogo) e cita o jogo do bicho na origem de \"deu zebra\".\n\nConfira:\n- (A) dialoga com diferentes áreas (culinária, jogo do bicho) e entra na linguagem do dia a dia. Bate com o texto.\n- (B) o texto não fala de elite intelectual nem de dicionarização; diz até que as expressões \"não constavam nos dicionários\".\n- (C) o texto diz o contrário: é do povo, está na linguagem coloquial, não só de profissionais.\n- (D) \"limita-se a bola\" extrapola: há frangueiro, zebra, cozinhar...\n- (E) \"origina-se da culinária e do jogo do bicho\" recorta pela metade: são só dois exemplos de influência, não a origem de tudo.\n\n**Gabarito A**, igual ao CSV."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Leia o texto.\n\nEm 2024, a cidade de Vila Nova instalou 40 estações de bicicletas compartilhadas. Segundo a prefeitura, o número de viagens passou de 2 mil para 9 mil por mês. Contudo, a maior parte do uso se concentra no centro, e os bairros periféricos ainda não têm nenhuma estação.\n\nDe acordo com o texto,",
+   "alternativas": [
+    "todos os bairros da cidade já são atendidos pelo serviço.",
+    "o número de viagens por mês triplicou desde a instalação.",
+    "o uso do serviço cresceu, mas está concentrado no centro.",
+    "a prefeitura pretende levar estações aos bairros periféricos.",
+    "o serviço foi suspenso nos bairros fora do centro."
+   ],
+   "gabarito": "C",
+   "resolucao": "O texto traz crescimento (2 mil → 9 mil viagens) e concentração no centro. É exatamente o que diz a (C).\n\n- (A) contradiz: periferia sem estação.\n- (B) 9 mil ÷ 2 mil = 4,5 vezes, não 3. Dado trocado.\n- (D) o texto não fala de plano futuro da prefeitura; extrapola.\n- (E) \"suspenso\" não aparece: os bairros nunca tiveram estação.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia o trecho.\n\nPesquisadores acompanharam 300 estudantes durante um semestre. Os que dormiam ao menos oito horas por noite tiveram, em média, notas mais altas nas provas de Matemática. Os autores ressaltam que o estudo mostra uma associação, e não prova que o sono seja a única causa do desempenho.\n\nA conclusão que o trecho sustenta é:",
+   "alternativas": [
+    "dormir mais está associado a notas mais altas, sem que o sono seja apontado como causa única.",
+    "dormir oito horas por noite garante boas notas em Matemática.",
+    "estudantes que dormem pouco são sempre reprovados.",
+    "o sono é a única causa do bom desempenho escolar.",
+    "o resultado vale para todos os estudantes do país."
+   ],
+   "gabarito": "A",
+   "resolucao": "O texto afirma associação e nega expressamente que o sono seja a única causa. A (A) repete isso. As demais usam termos absolutos ou saem do que foi estudado: \"garante\" (B), \"sempre reprovados\" (C), \"única causa\" (D) e \"todos os estudantes do país\" (E), quando foram só 300 alunos.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia o aviso.\n\nATENÇÃO, MORADORES: na próxima terça-feira, das 8h às 14h, o fornecimento de água será interrompido para manutenção da rede. Recomenda-se armazenar água na segunda-feira à noite. O abastecimento será normalizado a partir das 14h.\n\nO texto tem por objetivo",
+   "alternativas": [
+    "convencer os moradores a economizar água de forma permanente.",
+    "denunciar uma falha na prestação do serviço de abastecimento.",
+    "narrar a história do sistema de abastecimento do bairro.",
+    "vender equipamentos para armazenamento de água.",
+    "avisar sobre uma interrupção temporária e orientar os moradores."
+   ],
+   "gabarito": "E",
+   "resolucao": "O aviso informa data e horário da interrupção, diz que é para manutenção e orienta a armazenar água. A finalidade é avisar e orientar: (E). O aviso não defende economia permanente (A), não denuncia falha (B), não conta história (C) e não vende nada (D).",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia a situação.\n\nDepois de esperar três horas na fila do banco, Rui olhou para o relógio e comentou: “Que serviço rápido, hein?”.\n\nO comentário de Rui",
+   "alternativas": [
+    "é um elogio sincero ao atendimento do banco.",
+    "é irônico, pois diz o contrário do que ele pensa para criticar a demora.",
+    "descreve de forma neutra o funcionamento do banco.",
+    "é um pedido de desculpas pelo atraso.",
+    "mostra que ele ficou satisfeito com a espera."
+   ],
+   "gabarito": "B",
+   "resolucao": "A cena (três horas de fila) contradiz o que a frase afirma (serviço rápido). Esse contraste entre o dito e o pensado é **ironia**, e a intenção é criticar a demora. Só a (B) diz isso; as outras tratam a frase ao pé da letra.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia a frase.\n\n“Embora o preço da passagem tenha caído, o número de passageiros continuou estável.”\n\nA reescrita que preserva o sentido da frase é:",
+   "alternativas": [
+    "Como o preço da passagem caiu, o número de passageiros aumentou.",
+    "O preço da passagem caiu porque o número de passageiros ficou estável.",
+    "O número de passageiros caiu, embora o preço da passagem tenha ficado estável.",
+    "O preço da passagem subiu e o número de passageiros continuou estável.",
+    "Apesar da queda no preço da passagem, o número de passageiros não aumentou."
+   ],
+   "gabarito": "E",
+   "resolucao": "\"Embora\" marca **concessão**: o preço caiu (o esperado seria mais passageiros), mas o número não mudou. \"Apesar de\" tem o mesmo valor: (E).\n\n- (A) cria causa e inventa aumento.\n- (B) inverte causa e consequência.\n- (C) troca os fatos: agora é o número que cai.\n- (D) troca \"caiu\" por \"subiu\".",
+   "figura": null
+  }
+ ]
+}

@@ -1,0 +1,174 @@
+{
+ "id": "mat-combinatoria",
+ "disciplina": "Matemática",
+ "tema": "Análise combinatória e probabilidade",
+ "titulo": "Combinatória e probabilidade",
+ "semana": 2,
+ "requisitos": [
+  "log-contagem",
+  "mat-porcentagem"
+ ],
+ "minutos": 35,
+ "por_que": "Análise combinatória e probabilidade caíram 15 vezes nas 15 provas, uma por prova: princípio da contagem (placas, senhas), anagramas, combinação em sorteio e probabilidade básica (casos favoráveis ÷ casos possíveis), às vezes lida de um gráfico. Matrizes e sistemas somam mais 4 questões, todas fáceis de ler e substituir.",
+ "secoes": [
+  {
+   "titulo": "1. Princípio multiplicativo: o que mais cai",
+   "texto": "Se uma escolha acontece em etapas, o total é o **produto** do número de opções de cada etapa. Já treinamos isso em Contagem e organização; aqui é o mesmo raciocínio, agora com números maiores.\n\nExemplos reais:\n\n- **2026/1, placa Mercosul** no formato LLL N L NN (4 letras e 3 algarismos), só com vogais: são 5 vogais para cada uma das 4 letras e 10 algarismos para cada um dos 3 números. Total = 5⁴ × 10³ = 625 × 1 000 = 625 000.\n- **2017/1**: 25 posições com 256 opções cada → 256²⁵.\n- **2024/1**, mandala com regiões coloridas: conte região por região, multiplicando, e confira na imagem as regiões que não podem ter a mesma cor da vizinha.\n\nDois detalhes que decidem a questão:\n\n- **Pode repetir?** Se sim, o número de opções é o mesmo em cada posição. Se não pode, cada posição tem uma opção a menos que a anterior (10 · 9 · 8 …).\n- **Restrição primeiro**: comece pela posição mais restrita (ex.: o primeiro dígito não pode ser 0, então ele tem 9 opções)."
+  },
+  {
+   "titulo": "2. Permutação e anagramas",
+   "texto": "**Permutação** é trocar de lugar todos os elementos: `n!` ordens possíveis com n elementos diferentes. O símbolo `n!` (fatorial) é `n · (n−1) · … · 2 · 1`. Exemplo: 5! = 120.\n\n**Com letras repetidas**, cada repetição derruba o resultado porque trocar uma letra repetida com a outra não gera palavra nova. Divide-se pelo fatorial de cada repetição:\n\n`n! ÷ (a! · b! · …)`\n\nNa 2025/2, SEMENTES tem 8 letras: E aparece 3 vezes e S aparece 2 vezes. Total = `8! ÷ (3! · 2!)`.\n\nNa 2024/2, os anagramas de nomes de países (só valia país da América Latina, México = 6 letras diferentes: 6! = 720).\n\n**Anagramas com condição** (começa com tal letra, letras juntas): trave a letra condicionada e permute o resto. Para começar com B em BANANA, fixa-se o B e sobra ANANA: 5! ÷ (3! · 2!) = 10."
+  },
+  {
+   "titulo": "3. Combinação: quando a ordem não importa",
+   "texto": "Para escolher grupos (comissão, time, sorteio de dois países), a ordem em que as pessoas são escolhidas **não** faz diferença. Isso é **combinação**:\n\n`C(n, p) = n! ÷ (p! · (n − p)!)`\n\nAtalho: C(n, 2) = n·(n−1) ÷ 2. C(6, 2) = 15; C(32, 2) = 496. C(5, 3) = C(5, 2) = 10 (escolher 3 para entrar é igual a escolher 2 para ficar de fora).\n\nComo saber se é combinação ou arranjo? Pergunte: trocar dois escolhidos de posição gera outro resultado? Se **não** (comissão, bolo de 3 sabores), é combinação. Se **sim** (presidente e vice, pódio), a ordem conta e é arranjo: `A(n, p) = n! ÷ (n − p)!`.\n\nNa 2020/1, 5 substâncias formam combinações de 3: C(5, 3) = 10. As que contêm as duas incompatíveis: escolhidas as duas, falta 1 das outras 3 → 3 combinações. Probabilidade = 3 ÷ 10 = 30%."
+  },
+  {
+   "titulo": "4. Probabilidade: casos favoráveis ÷ casos possíveis",
+   "texto": "`P = casos favoráveis ÷ casos possíveis`. O resultado vai de 0 a 1 (ou 0% a 100%). A conta é fácil; o trabalho está em **contar certo** os dois números.\n\nExemplos:\n\n- **2019/2**: sorteio com 50 casos possíveis e a pergunta era se o número é divisor de 30. Divisores: 1, 2, 3, 5, 6, 10, 15, 30 → 8 favoráveis. P = 8/50.\n- **2025/2**: de 5 jogadores, 4 já venceram alguma partida: P = 4/5 = 0,8.\n- **2026/2**: habilidades de 12 valores; contar quantos são ≤ 3 e dividir por 12.\n\nRegras de combinação de eventos:\n\n- **E** (os dois acontecem, eventos independentes): multiplica. P(A e B) = P(A) · P(B). Na 2025/2: 60% aderiram e, desses, 20% não atingiram a meta → 0,6 × 0,2 = 12%.\n- **OU** (um ou outro): soma, **se não podem acontecer juntos**. Se podem, subtraia a parte contada duas vezes: `P(A ou B) = P(A) + P(B) − P(A e B)`.\n- **Complementar**: P(não A) = 1 − P(A). Útil em \"pelo menos um\".\n\nProbabilidade lida de gráfico (2018/1, 2019/1, 2017/2): o gráfico dá as porcentagens. A pergunta quase sempre pede uma porcentagem **de outra porcentagem**, que é multiplicar (54% dos entrevistados são negros e, desses, uma fração está nas faixas pedidas).\n\n**Sorteio de dois** (2024/2): 32 países, 6 latino-americanos, sorteia-se dois. Favoráveis: C(6, 2) = 15. Possíveis: C(32, 2) = 496. P = 15 ÷ 496 ≈ 3,02%."
+  },
+  {
+   "titulo": "5. Matrizes: ler, multiplicar, somar",
+   "texto": "Matriz é uma tabela de números com **linhas** (horizontais) e **colunas** (verticais). O elemento `aᵢⱼ` está na **linha i, coluna j**. Cuidado com a ordem dos índices: o primeiro é sempre a linha.\n\n- **Diagonal principal**: elementos com i = j. Abaixo dela: i > j. Acima: i < j. Em uma matriz 5 × 5 há 5 elementos na diagonal, 10 abaixo e 10 acima (2017/1).\n- **Número por escalar**: multiplicar uma matriz por k multiplica **cada** elemento por k (2026/1).\n- **Soma de colunas ou linhas** dá totais (2023/1: total por fazenda).\n- **Produto de matrizes** (cada elemento é linha × coluna): multiplica-se **linha por coluna, termo a termo, e soma**. Se M tem as quantidades de cada produto vendido e P tem os preços, o produto M·P dá a receita de cada loja. O resultado tem o número de linhas da primeira e colunas da segunda.\n\nExemplo: loja com 10 camisas e 20 bonés, preços R$ 20 e R$ 15: receita = 10·20 + 20·15 = 500.\n\nOs **sistemas lineares** que acompanham o tema se resolvem por substituição ou soma: eliminar uma incógnita e achar a outra, com o mesmo cuidado de tradução do texto em equações que você viu em Funções."
+  }
+ ],
+ "decorar": [
+  "Princípio multiplicativo: multiplique as opções de cada etapa. Pode repetir → mesmo número em cada posição.",
+  "Permutação: `n!`. Com repetição: `n! ÷ (a!·b!·…)`.",
+  "Combinação: `C(n,p) = n! ÷ (p!·(n−p)!)`. `C(n,2) = n·(n−1) ÷ 2`. Arranjo (ordem importa): `n! ÷ (n−p)!`.",
+  "Probabilidade: `favoráveis ÷ possíveis`. E → multiplica (independentes). OU → soma, menos a interseção.",
+  "Complementar: `P(não A) = 1 − P(A)`.",
+  "`aᵢⱼ`: linha i, coluna j. Produto de matrizes: linha × coluna.",
+  "Multiplicar matriz por escalar: cada elemento é multiplicado."
+ ],
+ "pegadinhas": [
+  "Confundir combinação com arranjo. Pergunte se trocar a ordem dos escolhidos muda o resultado.",
+  "Em anagramas com letra repetida, esquecer de dividir (SEMENTES não vale 8!).",
+  "Somar em vez de multiplicar nas etapas: placa com 4 letras e 3 números não é 4 + 3 posições, é um produto.",
+  "Dividir pelo total errado na probabilidade: quando sorteia dois sem reposição, o total é C(n,2), não n².",
+  "Somar probabilidades de eventos que se sobrepõem sem tirar a interseção.",
+  "Não ler restrições do enunciado: \"só vogais\", \"só da América Latina\", \"primeiro dígito diferente de 0\".",
+  "Trocar linha por coluna em aᵢⱼ ou no produto de matrizes."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2025-2",
+   "n": 59,
+   "resolucao": "A palavra SEMENTES tem 8 letras: S, E, M, E, N, T, E, S. A repetição: E aparece 3 vezes (posições 2, 4 e 7) e S aparece 2 vezes (posições 1 e 8). M, N e T aparecem uma vez cada.\n\nPermutação de 8 letras com repetição: 8! ÷ (3! · 2!).\n\nAlternativa **B**. Gabarito oficial: B. ✔ Bateu."
+  },
+  {
+   "prova": "2026-1",
+   "n": 31,
+   "resolucao": "O formato é LLL N L NN: quatro letras (L) e três algarismos (N). Só podem ser usadas as vogais (A, E, I, O, U): 5 opções por letra. Os algarismos vão de 0 a 9: 10 opções cada e podem repetir.\n\nPrincípio multiplicativo: 5 · 5 · 5 · 5 · 10 · 10 · 10 = 5⁴ · 10³ = 625 · 1 000 = **625 000 placas**.\n\nAlternativa **D**. Gabarito oficial: D. ✔ Bateu."
+  },
+  {
+   "prova": "2024-2",
+   "n": 44,
+   "resolucao": "Participam 32 países, 6 latino-americanos. Dois países serão sorteados, e a ordem do sorteio não importa: combinação.\n\nCasos possíveis: C(32, 2) = 32 · 31 ÷ 2 = 496.\nCasos favoráveis (os dois latino-americanos): C(6, 2) = 6 · 5 ÷ 2 = 15.\n\nP = 15 ÷ 496 ≈ 0,0302 = 3,02%.\n\nIsso fica entre 2,2% e 3,3%. Alternativa **C**. Gabarito oficial: C. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Uma senha numérica tem 4 dígitos, de 0 a 9, e o primeiro dígito não pode ser zero. Os dígitos podem se repetir. O número de senhas possíveis é",
+   "alternativas": [
+    "4 536",
+    "5 040",
+    "6 561",
+    "9 000",
+    "10 000"
+   ],
+   "gabarito": "D",
+   "resolucao": "Primeiro dígito: 9 opções (1 a 9). Os outros três: 10 opções cada, pois podem repetir. Total: 9 · 10 · 10 · 10 = 9 000. O 10 000 esquece a restrição; 4 536 (9·9·8·7) supõe dígitos todos diferentes, e 5 040 (10·9·8·7) também; 6 561 é 9⁴.",
+   "figura": null
+  },
+  {
+   "enunciado": "Usando todas as letras da palavra BANANA, o número de anagramas distintos que se pode formar é",
+   "alternativas": [
+    "20",
+    "60",
+    "120",
+    "360",
+    "720"
+   ],
+   "gabarito": "B",
+   "resolucao": "BANANA tem 6 letras: A aparece 3 vezes e N aparece 2 vezes (B uma vez). Anagramas = 6! ÷ (3! · 2!) = 720 ÷ 12 = 60. Se usar 6! sem dividir, dá 720.",
+   "figura": null
+  },
+  {
+   "enunciado": "Uma turma tem 8 alunos, e três deles serão escolhidos para formar uma comissão, sem funções diferentes entre os membros. O número de comissões diferentes que podem ser formadas é",
+   "alternativas": [
+    "24",
+    "112",
+    "56",
+    "336",
+    "512"
+   ],
+   "gabarito": "C",
+   "resolucao": "Sem funções diferentes, a ordem não importa: combinação. C(8, 3) = 8 · 7 · 6 ÷ (3 · 2 · 1) = 336 ÷ 6 = 56. O valor 336 é o arranjo, que conta a ordem (8 · 7 · 6).",
+   "figura": null
+  },
+  {
+   "enunciado": "Uma loja fez uma pesquisa de satisfação com 400 clientes, conforme a tabela. Sorteando-se um desses clientes ao acaso, a probabilidade de ele ter avaliado o atendimento como Regular ou Ruim é de",
+   "alternativas": [
+    "30%",
+    "40%",
+    "60%",
+    "70%",
+    "80%"
+   ],
+   "gabarito": "A",
+   "resolucao": "Regular + Ruim = 80 + 40 = 120 clientes. P = 120 ÷ 400 = 0,30 = 30%. Os dois eventos não acontecem juntos (cada cliente deu uma nota só), então basta somar os casos. Quem responde 70% calculou Bom ou Ótimo (280 ÷ 400), o complementar.",
+   "figura": {
+    "lib": "tabela",
+    "cabecalho": [
+     "Avaliação",
+     "Ótimo",
+     "Bom",
+     "Regular",
+     "Ruim"
+    ],
+    "linhas": [
+     [
+      "Clientes",
+      "120",
+      "160",
+      "80",
+      "40"
+     ]
+    ]
+   }
+  },
+  {
+   "enunciado": "Duas lojas vendem camisas e bonés. A matriz M mostra as quantidades vendidas em um dia (linhas: lojas A e B; colunas: camisas e bonés), na tabela. Camisas custam R$ 25,00 cada e bonés R$ 15,00 cada. A receita da loja B nesse dia foi de",
+   "alternativas": [
+    "R$ 550,00",
+    "R$ 1.000,00",
+    "R$ 1.100,00",
+    "R$ 1.450,00",
+    "R$ 1.350,00"
+   ],
+   "gabarito": "E",
+   "resolucao": "A receita da loja B é a linha B vezes o vetor de preços: 30 · 25 + 40 · 15 = 750 + 600 = R$ 1.350,00. Quem troca os preços (30 · 15 + 40 · 25) chega a R$ 1.450,00; R$ 550,00 é a receita da loja A (10 · 25 + 20 · 15).",
+   "figura": {
+    "lib": "tabela",
+    "cabecalho": [
+     "Loja",
+     "Camisas",
+     "Bonés"
+    ],
+    "linhas": [
+     [
+      "A",
+      "10",
+      "20"
+     ],
+     [
+      "B",
+      "30",
+      "40"
+     ]
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "id": "ing-gramatica",
+ "disciplina": "Inglês",
+ "tema": "Gramática (outros)",
+ "titulo": "Inglês: modais, tempos verbais e conectivos",
+ "semana": 8,
+ "requisitos": [
+  "ing-leitura"
+ ],
+ "minutos": 35,
+ "por_que": "Gramática, conectivos e referência pronominal somam 13 questões nas 15 provas: modais (may, must, will have to), conectivos (despite, due to, so that), pronomes (it, its, that) e comparativos. É nota fácil, porque o conjunto de regras que cai é pequeno e se repete.",
+ "secoes": [
+  {
+   "titulo": "1. Verbos modais: o que mais cai",
+   "texto": "Modal é o verbo auxiliar que dá uma **atitude** à ação (obrigação, possibilidade, permissão). Vem seguido do verbo no infinitivo **sem to**: \"you must go\".\n\nO que a prova cobra:\n\n- **may** = possibilidade/probabilidade (\"it may rain\" = pode ser que chova) ou **permissão/pedido** (\"May I come in?\" = posso entrar?). Caiu em 2017/2 (pedido de permissão) e 2019/2 (possibilidade).\n- **might** = possibilidade mais fraca que may.\n- **can** = capacidade (\"I can swim\") ou permissão informal; **could** = passado de can, pedido educado ou possibilidade.\n- **must** = **obrigação** (\"you must wear a helmet\") ou **dedução** (\"you must be tired\" = você deve estar cansado). Caiu em 2026/1: o contexto decide.\n- **should** = conselho (\"you should sleep more\").\n- **will have to** = **obrigação/necessidade** no futuro (2019/1).\n- **mustn't** = proibição; **don't have to** = não é obrigatório (diferença que cai muito).\n\nTruque do **must**: se o verbo depois é de estado (be tired, be at home, be hungry), costuma ser dedução."
+  },
+  {
+   "titulo": "2. Conectivos: a lógica da frase",
+   "texto": "Quase toda questão de conectivo pede a **relação** entre as ideias (causa, contraste, finalidade...). Aprenda o grupo, não a tradução palavra por palavra.\n\n- **Causa**: because, since, as, **due to**, because of, owing to. Ex.: 2024/1: \"The deep red coloring is **due to** oxidized iron\" = causa.\n- **Contraste / concessão**: but, however, although, though, **despite**, in spite of, whereas, while. Ex.: 2024/2: \"**Despite** a challenging scenario, 2023 was not a bad year\" = apesar de.\n- **Finalidade**: **so that** (para que), in order to, to. Ex.: 2023/2.\n- **Conclusão**: so, therefore, thus, consequently.\n- **Adição**: and, also, moreover, besides, as well as.\n- **Condição**: if, unless (a menos que).\n\nRegra de ouro: **despite / in spite of** e **because of / due to** vêm **antes de substantivo** (despite the rain); **although / because** vêm **antes de oração** (although it rained)."
+  },
+  {
+   "titulo": "3. Referência pronominal: a quem se refere o \"it\"?",
+   "texto": "A questão mostra um pronome em destaque (it, its, they, their, which, that, those) e pergunta a que ele se refere.\n\nCaso real, 2026/2 q32: \"The Sociology of Football is the study of... **It** examines how football influences... as well as **its** role...\". Resposta: it = *the Sociology of Football*, its = *football*.\n\nAtenção: **o referente nem sempre é o substantivo mais próximo**. Em \"...football (soccer) as a global phenomenon. **It** examines...\", o substantivo mais perto é *phenomenon*, e não é ele. Teste com o sentido: substitua o pronome e veja se a frase faz sentido. Quem *examina*? A sociologia, não o fenômeno.\n\nRegras de apoio:\n\n- **it** = coisa ou ideia no singular; **they/them/their** = plural (pessoas ou coisas).\n- **which** = coisa (\"the book, which was long\"); **who** = pessoa; **that** = pessoa ou coisa. 2017/1: *that* = *which*.\n- **its** (sem apóstrofo) = dele/dela (de coisa); **it's** = it is."
+  },
+  {
+   "titulo": "4. Tempos verbais e o present perfect",
+   "texto": "Quatro tempos cobrem a maioria dos textos:\n\n- **Present simple**: fatos e hábitos (\"she works at a hospital\").\n- **Present continuous**: o que acontece agora ou fase atual (\"is growing\").\n- **Past simple**: ação terminada (\"sold\", \"rose\", \"was\").\n- **Present perfect (have/has + particípio)**: ação que começou no passado e **continua** ou tem relação com o presente. Em 2018/2: *have seen*. Com **since** (desde) e **for** (há, por): \"has worked here since 2015\" = começou em 2015 e continua.\n\nFuturo: **will** (previsão, decisão na hora) e **going to** (plano).\n\nDica: em notícia, o fato costuma vir no past simple e a situação atual no present perfect: \"The mystery has finally been solved\" (foi resolvido, e continua resolvido)."
+  },
+  {
+   "titulo": "5. Comparativos e outras estruturas pequenas",
+   "texto": "- **Superioridade**: adjetivo curto + **-er than** (bigger than, cheaper than); adjetivo longo: **more + adjetivo + than** (more expensive than). Caiu em 2025/2: \"bigger than\".\n- **Igualdade**: **as + adjetivo + as** (as big as). Em 2025/2: \"as much ... as\".\n- **Superlativo**: **the + -est / the most** (the biggest, the most important).\n- **Quanto mais..., mais...**: **the more..., the more...** (\"the more you practice, the better you become\").\n- **like** (preposição) = **como**, comparação: \"You play **like** a girl\" = você joga **como** uma menina (2026/2 q29). Não é o verbo gostar!\n- **too + adjetivo** = demais; **enough** = suficiente.\n- **Plural e posse**: *the students' books* (livros dos estudantes) × *the student's book* (livro do estudante).\n\nPrefixação e sufixação (un-, under-, -less, -ly) estão na lição de vocabulário."
+  }
+ ],
+ "decorar": [
+  "may = possibilidade ou permissão/pedido; must = obrigação ou dedução; will have to = obrigação futura",
+  "Despite / due to / because of + substantivo; although / because + oração",
+  "Causa: due to, because; contraste: despite, however, although; finalidade: so that",
+  "Referente do pronome: teste de sentido, não só o substantivo mais próximo",
+  "its (de coisa) ≠ it's (it is)",
+  "since / for + present perfect = começou antes e continua",
+  "as ... as = igualdade; -er than / more ... than = superioridade; the more..., the more...",
+  "like como preposição = como (comparação)"
+ ],
+ "pegadinhas": [
+  "Traduzir **must** sempre como obrigação. Com verbo de estado (be tired), é dedução.",
+  "Confundir **mustn't** (proibido) com **don't have to** (não é preciso).",
+  "Achar que o pronome sempre se refere ao substantivo mais próximo.",
+  "Usar **despite** antes de oração: ele pede substantivo; antes de oração, use although.",
+  "Trocar **its** por **it's**: o primeiro indica posse, o segundo é a contração de it is.",
+  "Ler \"like a girl\" como \"gostar de uma menina\": é comparação."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-2",
+   "n": 29,
+   "resolucao": "A charge mostra um estádio de Copa do Mundo com a faixa **\"YOU PLAY LIKE A GIRL!\"** e um balão: *\"Remember when that was an insult?\"* (lembram quando isso era um insulto?). A pergunta é qual o sentido de **like** na frase.\n\nAqui **like não é o verbo gostar**: vem depois de um verbo de ação (play) e antes de um substantivo (a girl). É preposição de **comparação**: \"você joga **como** uma menina\". Gabarito: **C (comparação)**, confere com o oficial."
+  },
+  {
+   "prova": "2024-2",
+   "n": 14,
+   "resolucao": "O texto abre: \"**Despite** a challenging macroeconomic and geopolitical scenario, 2023 was not a bad year for Latin America.\" **Despite** = apesar de, e aponta uma ideia que **contrasta**: o cenário é difícil, mas o ano não foi ruim.\n\nPortanto serve para **apresentar informações contrastantes** (B). A fala em causas; C em exemplos; D em \"suprimir o tom negativo\" (ele contrapõe, não elimina); E em consequências. Gabarito: **B**, confere com o oficial."
+  },
+  {
+   "prova": "2026-2",
+   "n": 32,
+   "resolucao": "Texto: \"The Sociology of Football is the study of the social dynamics, cultural significance, and institutional structures surrounding football (soccer) as a global phenomenon. **It** examines how football influences and reflects social identities, community relations, and power dynamics, as well as **its** role in shaping societal values and norms.\"\n\nO sujeito de *examines* é quem estuda: **the Sociology of Football**. Não é *a global phenomenon*, mesmo estando mais perto. Já em \"**its** role in shaping societal values\", quem tem papel nos valores sociais é **football**. Gabarito: **E**, confere com o oficial."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Leia: \"You must be tired after such a long trip.\" Nessa frase, o verbo modal must expressa",
+   "alternativas": [
+    "dedução (certeza lógica).",
+    "obrigação.",
+    "proibição.",
+    "permissão.",
+    "pedido educado."
+   ],
+   "gabarito": "A",
+   "resolucao": "**must + be tired**: verbo de estado, depois de uma viagem longa. Quem fala conclui, a partir do que viu, que a pessoa deve estar cansada: **dedução**. Obrigação seria \"you must rest\"; proibição seria *mustn't*.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia: \"She has worked at this hospital since 2015.\" Pela frase, é correto afirmar que ela",
+   "alternativas": [
+    "trabalhou no hospital somente em 2015.",
+    "deixou o hospital em 2015.",
+    "começará a trabalhar no hospital em 2015.",
+    "começou a trabalhar no hospital em 2015 e continua lá.",
+    "nunca trabalhou no hospital."
+   ],
+   "gabarito": "D",
+   "resolucao": "**has worked** (present perfect) + **since 2015** marca uma ação que começou no passado e continua no presente. Se tivesse parado, o texto usaria *worked* (past simple) com *in 2015*.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia: \"Although the test was difficult, most students passed.\" O conectivo Although expressa",
+   "alternativas": [
+    "causa.",
+    "contraste (concessão).",
+    "finalidade.",
+    "conclusão.",
+    "adição."
+   ],
+   "gabarito": "B",
+   "resolucao": "**Although** = embora. Liga duas ideias que se opõem: a prova foi difícil, e mesmo assim a maioria passou. É contraste/concessão, da mesma família de *despite* e *however*.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia: \"Maria gave her brother a book. He loved it.\" O pronome it refere-se a",
+   "alternativas": [
+    "Maria.",
+    "her brother.",
+    "a book.",
+    "Maria e o irmão.",
+    "o amor."
+   ],
+   "gabarito": "C",
+   "resolucao": "**It** substitui coisa ou ideia no singular. Quem gostou foi o irmão (**He**), e o que ele amou foi o presente: **a book**. Maria e o irmão são pessoas (he/she/they), e \"o amor\" não aparece na frase.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia: \"The more you practice, the better you become.\" Essa frase equivale a",
+   "alternativas": [
+    "Você pratica mais do que melhora.",
+    "Praticar é melhor do que ficar parado.",
+    "Quem pratica pouco fica melhor.",
+    "Você melhora, mas não por causa da prática.",
+    "Quanto mais se pratica, melhor se fica."
+   ],
+   "gabarito": "E",
+   "resolucao": "A estrutura **the more..., the + comparativo** significa \"quanto mais..., (tanto) mais/melhor...\". A prática e a melhora crescem juntas. As outras alternativas separam ou invertem essa relação.",
+   "figura": null
+  }
+ ]
+}

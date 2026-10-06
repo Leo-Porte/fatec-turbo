@@ -1,0 +1,133 @@
+{
+ "id": "geo-natureza",
+ "disciplina": "Geografia",
+ "tema": "Clima",
+ "titulo": "Clima, relevo, solos, hidrografia e biomas",
+ "semana": 5,
+ "requisitos": [],
+ "minutos": 35,
+ "por_que": "Os temas físicos somam 16 questões nas 15 provas: relevo e solos (6), biomas (6), clima (3) e hidrografia (1). São perguntas de conceito curtas, quase sempre de nível fácil: tipo de chuva, bioma pela descrição, placas tectônicas, calagem. Decorar a ficha de cada bioma e os três tipos de chuva já garante boa parte.",
+ "secoes": [
+  {
+   "titulo": "1. Biomas: reconhecer pela descrição",
+   "texto": "A Fatec descreve o bioma e pede o nome (ou o contrário). Decore uma frase para cada um:\n\n- **Amazônia**: maior bioma do país, floresta úmida, temperatura alta e chuva elevada o ano todo (clima equatorial). Solo pobre em nutrientes: a fertilidade vem da matéria orgânica que cai e se decompõe rápido.\n- **Cerrado**: segundo maior bioma (cerca de 22% do território, no Centro-Oeste e arredores), savana com árvores tortas e raízes profundas. É o **berço das águas**: nascem aqui rios de várias bacias. A **maior ameaça é a expansão da soja** (agricultura mecanizada), que é fronteira agrícola (2018/1).\n- **Caatinga**: bioma do **semiárido** nordestino, exclusivamente brasileiro. Plantas **xerófitas/xeromórficas**, adaptadas à seca: espinhos, folhas pequenas, raízes longas, perdem folhas na estiagem. O **Sertão** é a sub-região de clima semiárido e Caatinga (2024/1).\n- **Pantanal**: **planície alagável** da bacia do Alto Paraguai, em MT e MS, com cheia entre outubro e março (2019/2).\n- **Mata dos Cocais**: MA e PI, **transição** entre Amazônia, Cerrado e Caatinga, com palmeiras **babaçu e carnaúba** (2017/2).\n- **Mata Atlântica**: ocupou o litoral; é o bioma mais devastado, onde estão as maiores cidades.\n- **Pampa**: campos do Rio Grande do Sul.\n\nNa prova de 2017/1 apareceu um climograma: temperatura alta e chuva elevada o ano todo = domínio amazônico."
+  },
+  {
+   "titulo": "2. Relevo e placas tectônicas",
+   "texto": "A crosta terrestre é dividida em **placas tectônicas** que se movem sobre o manto. Onde elas se encontram, o relevo muda e a terra treme:\n\n- **Convergência (choque)**: uma placa pode mergulhar sob a outra (subducção) e levanta cadeias de montanhas, gera vulcões e terremotos. A **Placa de Nazca** mergulha sob a **Sul-Americana** e forma os **Andes**; por isso há terremotos no oeste da América do Sul (2024/2).\n- **Divergência (afastamento)**: as placas se afastam e surge crosta nova. O Oceano Atlântico nasceu assim.\n- **Círculo de Fogo do Pacífico**: faixa de fossas, vulcões e terremotos em volta do Pacífico. A **Indonésia** e o Japão estão nele (2019/1).\n\nO **Brasil está no centro da Placa Sul-Americana**, longe das bordas. Por isso quase não tem vulcão nem grande terremoto. O relevo brasileiro é antigo e desgastado: predominam **planaltos**, seguidos de planícies e depressões. Os Andes, os Alpes e o Himalaia são dobramentos modernos (altos e jovens).\n\nOs Andes subiram no Terciário e fizeram os rios da bacia Amazônica, que antes iam para o Pacífico, passarem a correr para o Atlântico (2020/1, nível difícil). Sobre as classificações do relevo, a prova de 2023/1 só pedia ler que o estudo evoluiu com a tecnologia: esboços, fotografias aéreas e, por fim, radar (projeto RADAMBRASIL)."
+  },
+  {
+   "titulo": "3. Intemperismo, erosão e solo (calagem)",
+   "texto": "**Intemperismo** é a decomposição da rocha no próprio lugar. **Erosão** é o transporte do material. Não confunda.\n\n- **Intemperismo físico**: a rocha **quebra** sem mudar a composição. Predomina em clima **árido**, com grande **amplitude térmica** (a rocha dilata de dia e contrai à noite), como no Sahel (2026/1).\n- **Intemperismo químico**: a rocha **muda de composição** pela água e reações. Predomina em clima **quente e úmido**.\n- **Intemperismo biológico**: raízes e organismos.\n\n**Solo ácido**: muitos solos brasileiros são ácidos, ruins para a lavoura. A **calagem** é a correção: **adicionar calcário** (CaCO₃) ao solo, que sobe o pH e fornece cálcio e magnésio (2023/2).\n\nFertilidade, para a prova: solos da Amazônia são pobres e frágeis; a **terra roxa** do Sul e do interior paulista é fértil; o **massapê** do litoral nordestino sustentou a cana no período colonial."
+  },
+  {
+   "titulo": "4. Tipos de chuva e temperatura",
+   "texto": "A chuva ocorre quando o vapor-d'água chega ao nível de saturação. O que muda é **o que faz o ar subir**:\n\n- **Orográfica** (ou de relevo): ar úmido é **forçado a subir uma serra** e forma nuvens densas. Ex.: Serra do Mar. É a resposta de 2026/1.\n- **Convectiva**: o solo esquenta, o ar quente sobe. Pancadas fortes no fim da tarde de verão.\n- **Frontal**: **encontro de massas de ar** quente e fria. Ex.: frente fria no Sul.\n\n**Amplitude térmica** = temperatura máxima − temperatura mínima (2023/1). Não confunda com a média.\n\n**Temperatura**: diminui com a **latitude** (mais frio perto dos polos) e com a **altitude** (cerca de 6 °C a cada 1 000 m). A Região Sul, quase toda ao sul do Trópico de Capricórnio, tem clima **subtropical**, mais ameno (2023/2)."
+  },
+  {
+   "titulo": "5. Hidrografia",
+   "texto": "Só uma questão, mas dá para decorar as nascentes (2018/2):\n\n- **São Francisco**: nasce em **MG**, na Serra da Canastra, e desemboca no Atlântico. É o \"rio da integração nacional\", liga Sudeste e Nordeste.\n- **Tocantins**: nasce em **GO**.\n- **Paraguai**: nasce em **MT** e forma o Pantanal.\n\nA **bacia Amazônica** é a maior do mundo. O **Aquífero Guarani**, grande reservatório subterrâneo, se estende sob Brasil, Argentina, Paraguai e Uruguai."
+  }
+ ],
+ "decorar": [
+  "Cerrado = berço das águas; ameaça: soja. Pantanal = planície alagável (MT/MS). Caatinga = xerófitas, semiárido. Mata dos Cocais = babaçu e carnaúba (MA/PI).",
+  "Orográfica = relevo. Convectiva = aquecimento. Frontal = massas de ar.",
+  "Amplitude térmica = máxima − mínima.",
+  "Nazca sob a Sul-Americana = Andes e terremotos no oeste da América do Sul.",
+  "Círculo de Fogo do Pacífico = vulcões e terremotos (Indonésia, Japão).",
+  "Intemperismo físico: clima árido, grande amplitude. Químico: quente e úmido.",
+  "Calagem = calcário no solo ácido, sobe o pH.",
+  "Nascentes: São Francisco (MG), Tocantins (GO), Paraguai (MT)."
+ ],
+ "pegadinhas": [
+  "Confundir chuva orográfica (serra) com convectiva (calor) ou frontal (massas de ar).",
+  "Amplitude térmica não é a média: é máxima menos mínima.",
+  "Intemperismo (decompõe a rocha) não é erosão (transporta).",
+  "Dizer que a Caatinga tem plantas latifoliadas ou ombrófilas: ela tem xerófitas, de clima seco.",
+  "Achar que o Brasil tem terremotos fortes por estar perto dos Andes: ele fica no centro da placa."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2024-1",
+   "n": 50,
+   "resolucao": "O Sertão é a sub-região do Nordeste de clima **semiárido** e vegetação da **Caatinga**, de plantas **xeromórficas** (xerófitas), adaptadas à seca.\n\nElimine: subtropical é o clima do Sul; halófitas vivem em solo salgado; deserto não é o clima do Sertão; plantas ombrófilas (da chuva) são de floresta úmida. Alternativa **E**."
+  },
+  {
+   "prova": "2026-1",
+   "n": 15,
+   "resolucao": "O texto fala de ar úmido que é **forçado a subir ao cruzar montanhas** e forma nuvens densas. Isso é chuva **orográfica** (de relevo). Alternativa **E**.\n\nConvectiva vem do aquecimento do solo; frontal, do encontro de massas de ar; ácidas é poluição; saraivas é granizo."
+  },
+  {
+   "prova": "2023-2",
+   "n": 46,
+   "resolucao": "O enunciado dá a definição: diminuir a acidez (subir o pH) e fornecer cálcio e magnésio. A calagem faz isso **adicionando calcário** ao solo. Alternativa **E**.\n\nHerbicida mata plantas daninhas; cloreto de sódio é sal e salinizaria o solo; os outros são ruído."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "As cidades do litoral paulista recebem chuvas intensas porque o ar úmido que vem do oceano sobe a Serra do Mar, resfria e forma nuvens densas. Esse tipo de precipitação é chamado de chuva",
+   "alternativas": [
+    "convectiva.",
+    "orográfica.",
+    "frontal.",
+    "ácida.",
+    "equatorial."
+   ],
+   "gabarito": "B",
+   "resolucao": "O que faz o ar subir é a **serra**, o relevo. Isso é chuva **orográfica**. Alternativa B. A convectiva depende do aquecimento do solo e a frontal, de massas de ar.",
+   "figura": null
+  },
+  {
+   "enunciado": "Em um dia de verão no sertão nordestino, o termômetro registrou 14 °C de mínima e 38 °C de máxima. A amplitude térmica diária registrada foi de",
+   "alternativas": [
+    "14 °C.",
+    "26 °C.",
+    "52 °C.",
+    "12 °C.",
+    "24 °C."
+   ],
+   "gabarito": "E",
+   "resolucao": "Amplitude térmica = máxima − mínima = 38 − 14 = **24 °C**. Alternativa E. A média seria 26 °C (B) e a soma, 52 °C (C): são os erros prováveis.",
+   "figura": null
+  },
+  {
+   "enunciado": "Chile e Peru sofrem terremotos frequentes. Essa instabilidade se explica principalmente pela",
+   "alternativas": [
+    "convergência entre as placas de Nazca e Sul-Americana, com subducção da primeira.",
+    "formação do Atlântico pelo afastamento das placas Africana e Sul-Americana.",
+    "intensidade do intemperismo químico nas áreas tropicais úmidas.",
+    "prática da calagem em solos ácidos.",
+    "erosão do litoral pelo mar."
+   ],
+   "gabarito": "A",
+   "resolucao": "A Placa de Nazca mergulha sob a Sul-Americana, e esse choque gera terremotos e levantou os Andes. Alternativa A. A B é verdadeira como fato, mas explica o Atlântico e não os terremotos do oeste do continente.",
+   "figura": null
+  },
+  {
+   "enunciado": "Em certa região do Nordeste o clima é semiárido, com chuvas irregulares. A vegetação tem arbustos com espinhos, folhas pequenas, raízes profundas e muitas plantas perdem as folhas na estiagem. Esse bioma, exclusivamente brasileiro, é",
+   "alternativas": [
+    "o Cerrado.",
+    "o Pantanal.",
+    "a Caatinga.",
+    "a Amazônia.",
+    "o Pampa."
+   ],
+   "gabarito": "C",
+   "resolucao": "Semiárido + plantas xerófitas adaptadas à seca = **Caatinga**. Alternativa C.",
+   "figura": null
+  },
+  {
+   "enunciado": "Nos desertos, o dia é muito quente e a noite é muito fria. Com a variação de temperatura, as rochas dilatam e contraem repetidamente até rachar, sem que sua composição química mude. Esse processo é chamado de",
+   "alternativas": [
+    "intemperismo químico.",
+    "erosão fluvial.",
+    "sedimentação.",
+    "intemperismo físico.",
+    "calagem."
+   ],
+   "gabarito": "D",
+   "resolucao": "A rocha **quebra sem mudar de composição** por causa da amplitude térmica: é **intemperismo físico**. Alternativa D. Se a composição mudasse, seria químico; a erosão é o transporte do material.",
+   "figura": null
+  }
+ ]
+}

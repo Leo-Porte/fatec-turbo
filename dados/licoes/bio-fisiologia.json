@@ -1,0 +1,108 @@
+{
+ "id": "bio-fisiologia",
+ "disciplina": "Biologia",
+ "tema": "Fisiologia humana",
+ "titulo": "Fisiologia humana",
+ "semana": 6,
+ "requisitos": ["bio-citologia"],
+ "minutos": 30,
+ "por_que": "Fisiologia humana caiu em 9 questões nas 15 provas: digestão e enzimas, sangue e hormônios (insulina, EPO), circulação, métodos contraceptivos, nutrição (ferro e vitamina C) e efeitos da altitude. São perguntas diretas sobre função de órgão ou hormônio.",
+ "secoes": [
+  {
+   "titulo": "1. Digestão: quem digere o quê",
+   "texto": "A digestão quebra o alimento em moléculas pequenas que passam ao sangue. Cada enzima trabalha em um lugar:\n\n- **Boca**: a amilase salivar começa a digerir o **amido** (carboidrato).\n- **Estômago**: o suco gástrico tem **HCl** (meio muito ácido) e **pepsina**, que começa a digerir **proteínas**. A pepsina só funciona em pH ácido.\n- **Fígado**: produz a **bile**, que **emulsifica as gorduras** (quebra em gotículas) e facilita a ação da lipase. Bile não é enzima.\n- **Pâncreas**: o suco pancreático tem várias enzimas, como **tripsina** (proteínas), amilase e lipase, e age no intestino delgado.\n- **Intestino delgado**: termina a digestão e **absorve** os nutrientes, com muitas vilosidades que aumentam a superfície.\n\nUma pegadinha típica: um tubo com suco gástrico **fervido** não digere, porque o calor desnatura as enzimas (como na lição de Citologia). Num experimento com vários tubos, olhe quais têm enzima funcionando no pH certo.\n\nNutrição: a **vitamina C** aumenta a absorção do ferro vegetal. **Café**, chás escuros, refrigerantes de cola e **laticínios** (cálcio) atrapalham. Beterraba tem pouco ferro: o melhor são vegetais verde-escuros, leguminosas e grãos integrais."
+  },
+  {
+   "titulo": "2. Sangue e circulação",
+   "texto": "- **Hemácias**: carregam O₂ pela **hemoglobina** (que tem ferro). Sem ferro, anemia.\n- **Leucócitos**: defesa. **Plaquetas**: coagulação.\n- **Plasma**: parte líquida, com os anticorpos.\n\nO coração humano tem **4 cavidades** (2 átrios e 2 ventrículos) e a circulação é **dupla**: o sangue venoso (pobre em O₂) vai aos pulmões, volta rico em O₂ e é bombeado ao corpo. Os dois sangues não se misturam.\n\nSe há uma comunicação entre os ventrículos (**CIV**), o sangue arterial e o venoso se **misturam** e o sangue que sai para o corpo carrega menos O₂, prejudicando a oxigenação dos tecidos.\n\nA falta de **eritropoietina (EPO)**, hormônio produzido sobretudo pelos rins e que estimula a medula óssea a produzir hemácias, causa menos hemácias, menos oxigenação e portanto **fadiga e intolerância ao esforço**."
+  },
+  {
+   "titulo": "3. Hormônios",
+   "texto": "- **Insulina** (pâncreas): **baixa a glicose** no sangue ao fazer a célula absorvê-la. É uma **proteína**.\n- **Diabetes tipo 1**: o corpo quase não produz insulina. **Tipo 2**: a insulina existe, mas as células respondem mal (**resistência à insulina**), ligada a dieta muito calórica.\n- **Tireoide**: hormônios que dependem de **iodo**.\n- **EPO**: hemácias (rins).\n- **Adrenalina**: resposta de alerta (coração mais rápido).\n\nA insulina usada em tratamento é produzida por **bactérias** com o gene humano (veja Genética e biotecnologia)."
+  },
+  {
+   "titulo": "4. Respiração e altitude",
+   "texto": "O ar entra pelas vias aéreas e chega aos **alvéolos** pulmonares, onde o O₂ passa ao sangue e o CO₂ sai. O **diafragma** é o músculo que baixa e faz o ar entrar.\n\nEm **grande altitude**, a pressão atmosférica é menor e há menos O₂ disponível no sangue: é o **mal da montanha**, com cansaço e dor de cabeça. Com a **aclimatação**, o corpo aumenta a produção de hemácias (via EPO) e ameniza o problema. Sente mais quem sobe uma diferença de altitude maior."
+  },
+  {
+   "titulo": "5. Reprodução e métodos contraceptivos",
+   "texto": "- **Preservativo (camisinha)**: barreira. Único que também **protege contra ISTs**.\n- **Pílula**: hormônios que impedem a ovulação.\n- **Diafragma e DIU**: métodos femininos (barreira e dispositivo no útero).\n- **Vasectomia**: corte dos **ductos deferentes**, e os espermatozoides não chegam à uretra. Método masculino.\n- **Laqueadura**: corte das tubas uterinas, método feminino.\n\nOs espermatozoides são produzidos nos testículos e o óvulo é liberado pelos ovários."
+  },
+  {
+   "titulo": "6. Defesa do corpo",
+   "texto": "- **Imunidade ativa**: o corpo produz anticorpos (após doença ou vacina).\n- **Imunidade passiva**: anticorpos prontos vêm de fora, pelo **soro** ou pelo **leite materno**, que passa anticorpos ao bebê. Dura pouco.\n\nDetalhes de vacinas e doenças estão na lição de Doenças."
+  }
+ ],
+ "decorar": [
+  "Amilase salivar: amido (boca). Pepsina: proteínas, estômago, pH ácido. Bile: emulsifica gorduras (fígado). Suco pancreático: tripsina.",
+  "Enzima fervida não digere (desnaturada).",
+  "Vitamina C aumenta a absorção de ferro. Café e laticínios diminuem.",
+  "Hemoglobina carrega O₂ e contém ferro.",
+  "CIV mistura sangue arterial e venoso e piora a oxigenação.",
+  "EPO estimula hemácias. Falta de EPO leva a fadiga.",
+  "Insulina baixa a glicose. Diabetes tipo 2 = resistência à insulina.",
+  "Altitude: menos pressão, menos O₂. Aclimatação aumenta hemácias.",
+  "Camisinha protege de IST. Vasectomia corta os ductos deferentes."
+ ],
+ "pegadinhas": [
+  "Achar que a bile é enzima. Ela só emulsifica gorduras.",
+  "Dizer que a pepsina age no intestino. Age no estômago, em meio ácido.",
+  "Achar que beterraba é rica em ferro por ser vermelha.",
+  "Esquecer que enzima fervida perde a função e que, num experimento, só tubos com enzima ativa e pH certo digerem.",
+  "Confundir vasectomia (masculina, ductos deferentes) com laqueadura (feminina, tubas uterinas)."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-2",
+   "n": 3,
+   "resolucao": "A EPO estimula a medula a produzir hemácias, que transportam O₂. Sem EPO, há **menos hemácias**, e portanto menos oxigênio chegando aos tecidos.\n\nA consequência direta é **fadiga e intolerância ao esforço**. Icterícia (A) vem de bilirrubina, hipertensão (C) não é consequência direta, o aumento da densidade óssea (D) e a fotofobia (E) não têm relação.\n\nGabarito: **B**."
+  },
+  {
+   "prova": "2024-1",
+   "n": 43,
+   "resolucao": "Procure os tubos onde há enzima ativa que digere proteína:\n\n- Tubo 1: HCl + pepsina, meio ácido ideal para a pepsina. **Digere.**\n- Tubo 2: suco gástrico (já tem HCl e pepsina). **Digere.**\n- Tubo 3: suco pancreático (tem tripsina). **Digere.**\n- Tubo 4: suco gástrico **fervido**, com enzima desnaturada. **Não digere.**\n\nFragmentos menores só aparecem nos tubos 1, 2 e 3. Gabarito: **D**."
+  },
+  {
+   "prova": "2023-2",
+   "n": 3,
+   "resolucao": "O texto diz que a vitamina C potencializa a absorção do ferro, e que café, chás escuros, refrigerantes de cola, chocolate e alimentos ricos em cálcio (como leite) **inibem** a absorção do ferro e devem ser evitados durante ou logo após as refeições.\n\n- A) Errada: carne vermelha e peixe não são fontes de vitamina C.\n- B) **Correta**: o café inibe a absorção de ferro.\n- C) Errada: a cor da beterraba não indica ferro.\n- D) Errada: o texto não fala de ovos assim, e a anemia não é eliminada por isso.\n- E) Errada: o cálcio **inibe**, não potencializa, a absorção de ferro.\n\nGabarito: **B**."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Uma pessoa mastiga um pedaço de pão por bastante tempo e percebe que ele começa a ficar adocicado. Isso acontece porque, na boca, a",
+   "alternativas": ["amilase salivar começa a digerir o amido, liberando açúcares mais simples.", "pepsina digere as proteínas do pão.", "bile emulsifica as gorduras do pão.", "tripsina quebra o amido em glicose.", "lipase digere os carboidratos da farinha."],
+   "gabarito": "A",
+   "resolucao": "A saliva contém **amilase**, que digere o amido (do pão) em açúcares menores, e isso dá o gosto adocicado. Pepsina e tripsina agem em proteínas e a bile só emulsifica gorduras.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um paciente tem glicemia alta. Os exames mostram que o pâncreas produz insulina normalmente, mas as células do corpo respondem pouco a ela. Esse quadro é característico de",
+   "alternativas": ["diabetes tipo 1, causada pela ausência da produção de insulina.", "hipertireoidismo, causado pelo excesso de iodo.", "anemia por deficiência de ferro.", "hemofilia, que impede a coagulação do sangue.", "diabetes tipo 2, em que há resistência à insulina."],
+   "gabarito": "E",
+   "resolucao": "Insulina produzida mas ineficaz, por resistência das células, é **diabetes tipo 2**. No tipo 1 praticamente não há produção de insulina.",
+   "figura": null
+  },
+  {
+   "enunciado": "A bile é uma substância produzida pelo fígado e armazenada na vesícula biliar. Sua principal função na digestão é",
+   "alternativas": ["digerir proteínas no estômago.", "quebrar o amido em açúcares mais simples.", "emulsificar as gorduras, facilitando a ação das enzimas que as digerem.", "neutralizar a ação do suco pancreático.", "absorver os nutrientes nas vilosidades."],
+   "gabarito": "C",
+   "resolucao": "A bile **emulsifica as gorduras**, ou seja, as divide em gotículas e aumenta a superfície para a lipase agir. Ela não é enzima e não digere proteínas nem amido.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um atleta treinou por algumas semanas em uma cidade de grande altitude e, ao competir ao nível do mar, apresentou melhor desempenho em provas de resistência. Uma explicação adequada é que, durante o treino na altitude, o organismo dele",
+   "alternativas": ["passou a ter menos hemácias, o que facilitou a circulação.", "aumentou a produção de hemácias, melhorando o transporte de oxigênio.", "reduziu a quantidade de hemoglobina para economizar ferro.", "deixou de usar oxigênio na produção de energia.", "aumentou a pressão atmosférica interna."],
+   "gabarito": "B",
+   "resolucao": "Em altitude há menos O₂ disponível. O corpo responde (aclimatação) produzindo **mais hemácias**, com ajuda da EPO, e isso melhora o transporte de oxigênio e o desempenho depois.",
+   "figura": null
+  },
+  {
+   "enunciado": "Entre os métodos contraceptivos abaixo, aquele que, além de evitar a gravidez, também protege contra infecções sexualmente transmissíveis é",
+   "alternativas": ["a pílula anticoncepcional.", "o dispositivo intrauterino (DIU).", "a laqueadura de trompas.", "o preservativo (camisinha).", "a vasectomia."],
+   "gabarito": "D",
+   "resolucao": "O **preservativo** é método de barreira e impede o contato com secreções, protegendo contra ISTs. Pílula, DIU, laqueadura e vasectomia evitam a gravidez, mas não protegem contra ISTs.",
+   "figura": null
+  }
+ ]
+}

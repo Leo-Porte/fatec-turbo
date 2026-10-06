@@ -1,0 +1,158 @@
+{
+ "id": "qui-solucoes",
+ "disciplina": "Química",
+ "tema": "Soluções",
+ "titulo": "Soluções e concentração",
+ "semana": 4,
+ "requisitos": [
+  "qui-estequiometria"
+ ],
+ "minutos": 30,
+ "por_que": "Soluções caíram em 7 questões nas 15 provas: concentração comum em g/L e mg/L (3 vezes), porcentagem em massa (título), solubilidade de gás com a temperatura e osmose. A conta é sempre uma divisão ou uma multiplicação simples; o difícil é a unidade.",
+ "secoes": [
+  {
+   "titulo": "1. Concentração comum: massa de soluto por volume",
+   "texto": "**Solução** é mistura homogênea de um **soluto** (quem é dissolvido) num **solvente** (quem dissolve, normalmente a água).\n\nA concentração diz quanto soluto existe numa quantidade de solução:\n\n`C = massa do soluto ÷ volume da solução`\n\nA unidade vem da conta: g/L, mg/L, µg/mL...\n\nA fórmula tem três usos. Esconda a incógnita:\n\n- achar C: `C = m ÷ V`\n- achar a massa: `m = C × V`\n- achar o volume: `V = m ÷ C`\n\nExemplos que a prova já usou:\n\n- Atleta tomou 0,042 g de sódio e a concentração do sangue é 140 mg/L = 0,140 g/L. Volume = 0,042 ÷ 0,140 = **0,3 L = 300 mL**.\n- Chumbo na água a 12 × 0,010 mg/L, bebendo 0,5 L: massa = 12 × 0,010 × 0,5 = **0,06 mg**.\n- Etanol: 8,02 g no sangue em 5 L → 8,02 ÷ 5 ≈ 1,6 g/L.\n\n**Atenção à unidade:** o volume tem que estar em litros se a concentração for em /L. 500 mL = 0,5 L; 140 mg/L = 0,140 g/L."
+  },
+  {
+   "titulo": "2. Porcentagem em massa (título) e partes por milhão",
+   "texto": "**Título em massa** = massa do soluto ÷ massa **total** da solução (soluto + solvente):\n\n`% em massa = (m soluto ÷ m solução) × 100`\n\nExemplo: 11 g de cafeína em 500 g de café → 11 ÷ 500 = 0,022 = **2,2%**.\n\nA mesma ideia vale para concentrações em massa por massa, como **µg/g** (micrograma por grama): mercúrio no cabelo, 25,2 µg em 4,2 g de cabelo = 25,2 ÷ 4,2 = **6 µg/g**. Dividido pelo limite de 2 µg/g, são 3 vezes o limite.\n\nCuidado: no título o denominador é a massa da **solução inteira**, não só do solvente. 30 g de açúcar em 270 g de água = 30 ÷ 300 = 10%, não 30 ÷ 270."
+  },
+  {
+   "titulo": "3. Molaridade e diluição",
+   "texto": "**Molaridade (M)** = mols de soluto por litro de solução:\n\n`M = n ÷ V` e `n = m ÷ massa molar`\n\nExemplo: 11,7 g de NaCl (58,5 g/mol) em 250 mL: n = 11,7 ÷ 58,5 = 0,2 mol; V = 0,25 L; M = 0,2 ÷ 0,25 = **0,8 mol/L**.\n\n**Diluição**: adicionar solvente não muda a quantidade de soluto, só o volume. Então o soluto antes é igual ao soluto depois:\n\n`C₁ × V₁ = C₂ × V₂`\n\nExemplo: 100 mL de 2 mol/L levados a 500 mL: 2 × 100 = C₂ × 500 → C₂ = **0,4 mol/L**.\n\nA diluição também explica o exemplo de etanol no sangue: massa total do etanol ingerido espalhada num volume maior de sangue."
+  },
+  {
+   "titulo": "4. Solubilidade e temperatura",
+   "texto": "**Solubilidade** é a quantidade máxima de soluto que se dissolve numa quantidade de solvente a uma dada temperatura (por exemplo, g de soluto por 100 g de água).\n\n- Passou do limite: a solução está **saturada** e o excesso fica no fundo (corpo de fundo).\n- **Sólidos**: na maioria dos casos a solubilidade **aumenta** com a temperatura (curva subindo), como o KNO₃.\n- **Gases**: a solubilidade em água **diminui** com a temperatura. Por isso o oxigênio dissolvido num rio aquecido cai (curva decrescente) e um refrigerante quente \"perde o gás\" mais rápido. A prova já cobrou a curva decrescente do O₂.\n\nPara ler um gráfico de solubilidade: ache a temperatura no eixo horizontal, suba até a curva e leia o valor no vertical. Esse valor é para 100 g de água; para outra quantidade de água, faça regra de três."
+  },
+  {
+   "titulo": "5. Osmose",
+   "texto": "Osmose é a passagem de água por uma membrana semipermeável do lado de menor concentração de soluto para o de maior concentração.\n\n- Meio **hipertônico** (mais soluto que a célula): a célula perde água e desidrata. É o princípio de conservar carne com sal: os microrganismos perdem água.\n- Meio **hipotônico** (menos soluto): a célula ganha água e pode inchar.\n- Meio **isotônico** (mesma concentração): sem movimento líquido. As bebidas isotônicas têm concentração de sais parecida com a do sangue."
+  }
+ ],
+ "decorar": [
+  "C = m ÷ V (g/L); m = C × V; V = m ÷ C",
+  "1 L = 1000 mL; 1 g = 1000 mg",
+  "% em massa = m soluto ÷ m solução × 100 (a massa da solução é soluto + solvente)",
+  "M = n ÷ V; n = m ÷ massa molar",
+  "Diluição: C₁V₁ = C₂V₂",
+  "Sólidos: solubilidade sobe com a temperatura; gases: desce",
+  "Hipertônico: célula perde água"
+ ],
+ "pegadinhas": [
+  "Converter mL em L (e mg em g) antes de dividir.",
+  "No título, o denominador é a solução inteira, não só o solvente.",
+  "Gás dissolvido se comporta ao contrário do sólido: esquentar diminui a solubilidade.",
+  "Na diluição, a massa de soluto não muda; o volume muda.",
+  "Solubilidade \"por 100 g de água\": se a prova der 200 g, multiplique por 2."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-2",
+   "n": 25,
+   "resolucao": "Dados: massa de sódio ingerida = 0,042 g; concentração no sangue = 140 mg/L = 0,140 g/L. Como a bebida é isotônica, tem a mesma concentração.\n\nDe C = m ÷ V, V = m ÷ C = 0,042 ÷ 0,140 = **0,3 L = 300 mL**.\n\nAtenção: se você deixar 140 mg/L sem converter, o resultado fica 1000 vezes errado. Gabarito oficial: **C**."
+  },
+  {
+   "prova": "2023-2",
+   "n": 32,
+   "resolucao": "Café de 500 g com 11 g de cafeína. A porcentagem em massa é 11 ÷ 500 × 100 = **2,2%**.\n\nNo quadro, 2,2% corresponde ao *Coffea canephora*. Gabarito oficial: **D**."
+  },
+  {
+   "prova": "2018-2",
+   "n": 24,
+   "resolucao": "O texto da prova informa que a concentração de chumbo na água de Vila Nova é 12 vezes o máximo permitido (0,010 mg/L, valor da tabela de potabilidade). Concentração = 12 × 0,010 = 0,12 mg/L.\n\nVolume bebido: 500 mL = 0,5 L.\n\nMassa = C × V = 0,12 × 0,5 = **0,06 mg = 6 × 10⁻² mg**.\n\nGabarito oficial: **D**."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Um aluno dissolveu 20 g de sal de cozinha em água suficiente para obter 500 mL de solução. A concentração dessa solução, em g/L, é",
+   "alternativas": [
+    "10",
+    "20",
+    "25",
+    "40",
+    "4"
+   ],
+   "gabarito": "D",
+   "resolucao": "500 mL = 0,5 L. C = 20 ÷ 0,5 = 40 g/L. Quem usa 500 direto, sem converter, acha 0,04.",
+   "figura": null
+  },
+  {
+   "enunciado": "Uma solução de ácido com concentração 2 mol/L teve 100 mL retirados e diluídos com água até completar 500 mL. A nova concentração, em mol/L, é",
+   "alternativas": [
+    "0,4",
+    "0,2",
+    "4",
+    "10",
+    "1"
+   ],
+   "gabarito": "A",
+   "resolucao": "C₁V₁ = C₂V₂ → 2 × 100 = C₂ × 500 → C₂ = 200 ÷ 500 = 0,4 mol/L.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um soro fisiológico foi preparado dissolvendo 11,7 g de NaCl (M = 58,5 g/mol) em água até completar 250 mL de solução. A molaridade dessa solução é",
+   "alternativas": [
+    "0,2 mol/L",
+    "0,4 mol/L",
+    "1,6 mol/L",
+    "2,0 mol/L",
+    "0,8 mol/L"
+   ],
+   "gabarito": "E",
+   "resolucao": "n = 11,7 ÷ 58,5 = 0,2 mol. V = 0,25 L. M = 0,2 ÷ 0,25 = 0,8 mol/L.",
+   "figura": null
+  },
+  {
+   "enunciado": "Para preparar uma calda, dissolveram-se 30 g de açúcar em 270 g de água. A porcentagem em massa de açúcar na solução é",
+   "alternativas": [
+    "11%",
+    "10%",
+    "9%",
+    "30%",
+    "90%"
+   ],
+   "gabarito": "B",
+   "resolucao": "Massa da solução = 30 + 270 = 300 g. % = 30 ÷ 300 × 100 = 10%. Os 11% vêm de dividir por 270 (só o solvente).",
+   "figura": null
+  },
+  {
+   "enunciado": "O gráfico mostra, de forma aproximada, a solubilidade do nitrato de potássio (KNO₃) em água, em gramas de sal por 100 g de água. Com base nele, a massa máxima de KNO₃ que se dissolve em 200 g de água a 60 °C é",
+   "alternativas": [
+    "55 g",
+    "110 g",
+    "220 g",
+    "338 g",
+    "440 g"
+   ],
+   "gabarito": "C",
+   "resolucao": "A 60 °C, a curva marca cerca de 110 g de KNO₃ por 100 g de água. Para 200 g de água, o dobro: 220 g. O valor 338 g seria para 80 °C (169 × 2).",
+   "figura": {
+    "lib": "chart",
+    "tipo": "line",
+    "titulo": "Solubilidade do KNO₃ em água",
+    "rotulos": [
+     "0 °C",
+     "20 °C",
+     "40 °C",
+     "60 °C",
+     "80 °C"
+    ],
+    "series": [
+     {
+      "nome": "KNO₃",
+      "dados": [
+       13,
+       32,
+       64,
+       110,
+       169
+      ]
+     }
+    ],
+    "eixoY": "g de sal / 100 g de água"
+   }
+  }
+ ]
+}

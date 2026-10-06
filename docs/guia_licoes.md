@@ -46,7 +46,7 @@ Desenhadas pelo próprio portal a partir destes dados. A figura tem que bater co
 
 Geometria e funções:
 ```json
-"figura": {"lib":"jsxgraph","bbox":[xmin,ymax,xmax,ymin],"eixos":false,"altura":260,
+"figura": {"lib":"jsxgraph","bbox":[xmin,ymax,xmax,ymin],"eixos":false,
  "elementos":[
   {"t":"ponto","id":"A","xy":[0,0],"rotulo":"A"},
   {"t":"segmento","de":"A","ate":"B","rotulo":"5 cm"},

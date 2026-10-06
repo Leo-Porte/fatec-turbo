@@ -1,0 +1,173 @@
+{
+ "id": "fis-cinematica",
+ "disciplina": "Física",
+ "tema": "Cinemática",
+ "titulo": "Cinemática",
+ "semana": 3,
+ "requisitos": [
+  "mat-unidades"
+ ],
+ "minutos": 35,
+ "por_que": "Cinemática caiu em 19 questões nas 15 provas. A grande maioria é só `v = Δs/Δt` com conversão de unidade (nó, km/h, ano-luz, UA); o resto é lançamento oblíquo (3 vezes nas últimas 5 provas) e leitura de gráfico.",
+ "secoes": [
+  {
+   "titulo": "1. Velocidade média: a conta que mais cai",
+   "texto": "Velocidade é **quanto você andou dividido pelo tempo que levou**. Se você sabe duas das três grandezas, acha a terceira:\n\n- `v = Δs ÷ Δt`\n- `Δs = v × Δt` (distância)\n- `Δt = Δs ÷ v` (tempo)\n\nExemplo: o metrô percorre 21 000 m em 45 min. Antes de dividir, **escolha a unidade da resposta**. Se pedem km/h: 21 km em 0,75 h → 21 ÷ 0,75 = **28 km/h**.\n\nA dificuldade da Fatec quase nunca é a conta, é a **unidade**. Metade das questões de cinemática é, na verdade, questão de conversão (veja a lição de Unidades)."
+  },
+  {
+   "titulo": "2. Conversões que aparecem sempre",
+   "texto": "- **km/h → m/s**: divida por 3,6. **m/s → km/h**: multiplique por 3,6. Ex.: 72 km/h = 20 m/s; 54 km/h = 15 m/s.\n- **Nó**: 1 nó = 1 milha náutica por hora = **1,852 km/h**. A prova costuma dar o valor arredondado (1,85 ou 1,9). Use o que o enunciado mandar.\n- **Tempo**: 1 h = 60 min = 3 600 s; 1 dia = 24 h = 86 400 s.\n- **Ano-luz** é unidade de **distância** (quanto a luz percorre em 1 ano), não de tempo. Um ano tem cerca de 3,2 × 10⁷ s, então 1 ano-luz ≈ 3 × 10⁸ × 3,2 × 10⁷ ≈ 9,6 × 10¹⁵ m.\n- **UA (unidade astronômica)**: também distância (média Terra–Sol, ≈ 1,5 × 10¹¹ m).\n\nCaiu em 2017/1, 2017/2, 2018/1, 2018/2, 2019/1, 2022/2 e 2024/2: sempre a mesma estrutura, texto longo, um dado de velocidade ou distância, e uma conta simples no final."
+  },
+  {
+   "titulo": "3. Lançamento oblíquo (chute, tiro, canhão)",
+   "texto": "A bola chutada em ângulo faz uma trajetória em forma de **parábola**. A ideia central: o movimento tem **duas partes independentes**.\n\n- **Na horizontal**: sem resistência do ar, nada empurra a bola para os lados. A velocidade horizontal (`vx`) é **constante** o voo inteiro. Por isso `alcance = vx × tempo total de voo`.\n- **Na vertical**: a gravidade puxa para baixo o tempo todo (g ≈ 10 m/s²). A bola sobe perdendo velocidade vertical (`vy`), **para por um instante no ponto mais alto** (`vy = 0`) e desce ganhando velocidade.\n\nNo ponto mais alto, então, a velocidade da bola **não é zero**: ela vale só `vx`. E a aceleração continua sendo g, para baixo, em qualquer ponto (inclusive no topo).\n\nPara chegar na resposta: se a bola andou 96 m em 6 s na horizontal, `vx = 96 ÷ 6 = 16 m/s` e esse valor vale do início ao fim do voo. Esse padrão apareceu em 2017/1, 2026/1 e 2026/2."
+  },
+  {
+   "titulo": "4. Gráficos: v × t e s × t",
+   "texto": "Gráfico de velocidade × tempo (v × t), o mais cobrado:\n\n- **Inclinação** (quão íngreme) = **aceleração**. Reta horizontal = velocidade constante; reta inclinada = aceleração constante (MRUV).\n- **Área embaixo da reta** = **distância percorrida**. Para reta inclinada saindo de v₀ até v, a área é um trapézio: `Δs = (v₀ + v) ÷ 2 × Δt`.\n\nGráfico de posição × tempo (s × t): a inclinação é a **velocidade**. Reta inclinada = velocidade constante; curva = velocidade variando.\n\nQueda com resistência do ar (2020/1): a velocidade sobe no começo e depois o gráfico vai **achatando** até virar uma reta horizontal. Isso é a **velocidade terminal**: a resistência do ar cresce até igualar o peso e a aceleração zera (é o caso do paraquedista).\n\nFórmulas do MRUV (aceleração constante), só para ter na mão: `v = v₀ + a·t` e `Δs = v₀·t + a·t²/2`."
+  },
+  {
+   "titulo": "5. Movimento circular (cai pouco, mas cai)",
+   "texto": "Quem gira percorre ângulo em vez de metros:\n\n- **Velocidade angular**: `ω = Δθ ÷ Δt` (rad/s ou rotações por segundo).\n- Relação com a velocidade linear: `v = ω × R` (R = raio). Quanto mais longe do centro, maior a velocidade linear.\n- Uma volta completa leva o **período** T: `v = 2πR ÷ T`.\n\nNa 2024/1 (fouetté, a pirueta do balé) a pegadinha era a alternativa que falava em \"força centrífuga\": num referencial parado no chão (inercial) ela não existe. O que age é a força que puxa para o centro (centrípeta, veja a lição de Dinâmica)."
+  }
+ ],
+ "decorar": [
+  "`v = Δs ÷ Δt`; `Δs = v·Δt`; `Δt = Δs ÷ v`",
+  "km/h ÷ 3,6 = m/s (e m/s × 3,6 = km/h)",
+  "1 nó = 1 milha náutica/h = 1,852 km/h (use o valor do enunciado)",
+  "Ano-luz e UA são unidades de distância",
+  "Lançamento oblíquo: `vx` constante; no topo `vy = 0` e a velocidade vale `vx`; aceleração = g sempre",
+  "Gráfico v × t: inclinação = aceleração, área = distância",
+  "Velocidade terminal: v constante, resistência do ar = peso",
+  "`ω = Δθ ÷ Δt` e `v = ω·R`"
+ ],
+ "pegadinhas": [
+  "Dividir sem converter: km com minuto, metro com hora. Ponha tudo na mesma unidade antes.",
+  "Achar que no ponto mais alto a bola \"para\". Só a componente vertical zera; a horizontal continua.",
+  "Achar que a aceleração é nula no topo da trajetória. Ela é g, para baixo.",
+  "Tratar ano-luz como unidade de tempo.",
+  "Responder o tempo em horas quando as alternativas estão em dias (ou o contrário). Leia as alternativas antes de terminar a conta.",
+  "Em gráfico v × t, ler a reta como se fosse posição. Confira os eixos."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-2",
+   "n": 35,
+   "resolucao": "O goleiro chutou a bola, que fez uma parábola e percorreu 96 m na horizontal em cerca de 6 s. Sem resistência do ar, a velocidade horizontal é constante: `vx = 96 ÷ 6 = 16 m/s`.\n\nNo ponto mais alto, a componente vertical da velocidade é nula (a bola para de subir e vai começar a descer) e só resta a horizontal.\n\nA) 576 m/s é 96 × 6: errado. B) e D) dizem que a vertical é 16 m/s no topo: errado, ela é zero. C) a velocidade \"oblíqua\" nunca é nula durante o voo. **E)** vertical nula e horizontal de 16 m/s no ponto mais alto: certo.\n\nGabarito oficial: E. ✔ Bateu."
+  },
+  {
+   "prova": "2024-2",
+   "n": 8,
+   "resolucao": "O texto do Canal do Panamá diz que o desvio pelo Cabo Horn tem cerca de 19 000 km. O navio faria 20 nós, com 1 nó = 1,9 km/h.\n\n- Velocidade: 20 × 1,9 = 38 km/h.\n- Tempo: `Δt = Δs ÷ v = 19 000 ÷ 38 = 500 h`.\n- Em dias: 500 ÷ 24 ≈ 20,8, o que dá aproximadamente **20 dias**.\n\nSe você parasse nas 500 h, não acharia alternativa. A conversão para dias é o passo escondido.\n\nGabarito oficial: D. ✔ Bateu."
+  },
+  {
+   "prova": "2019-2",
+   "n": 35,
+   "resolucao": "O trecho do metrô tem 21 000 m (21 km) e o tempo médio é de 45 min = 0,75 h.\n\n`v = Δs ÷ Δt = 21 ÷ 0,75 = 28 km/h`.\n\nA alternativa mais próxima de 28 é a **B (30)**.\n\nGabarito oficial: B. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Um carro viaja de uma cidade a outra, percorrendo 150 km em 2 h 30 min. A velocidade escalar média do carro nesse trecho, em km/h, foi de",
+   "alternativas": [
+    "75",
+    "65",
+    "60",
+    "50",
+    "45"
+   ],
+   "gabarito": "C",
+   "resolucao": "2 h 30 min = 2,5 h. `v = 150 ÷ 2,5 = 60 km/h`. 75 seria 150 ÷ 2 (ignorar os 30 min); 65 vem de ler \"2 h 30\" como 2,3 h.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um carro trafega a 72 km/h em linha reta e velocidade constante. O tempo que ele leva para percorrer 500 m é de",
+   "alternativas": [
+    "25 s",
+    "50 s",
+    "1,9 s",
+    "6,9 s",
+    "36 s"
+   ],
+   "gabarito": "A",
+   "resolucao": "72 km/h ÷ 3,6 = 20 m/s. `Δt = 500 ÷ 20 = 25 s`. 6,9 s vem de dividir 500 por 72 sem converter; 1,9 s de multiplicar 72 por 3,6 em vez de dividir (e depois dividir 500 por 259).",
+   "figura": null
+  },
+  {
+   "enunciado": "Uma sonda espacial está a 1 unidade astronômica da Terra (1 UA = 1,5 × 10¹¹ m). Considere a velocidade das ondas de rádio igual a 3,0 × 10⁸ m/s. O tempo, em segundos, que um sinal de rádio enviado pela sonda leva para chegar à Terra é de aproximadamente",
+   "alternativas": [
+    "2,0 × 10⁻³",
+    "5,0 × 10⁻¹",
+    "5,0 × 10¹",
+    "2,0 × 10³",
+    "5,0 × 10²"
+   ],
+   "gabarito": "E",
+   "resolucao": "`Δt = Δs ÷ v = 1,5 × 10¹¹ ÷ 3,0 × 10⁸ = 0,5 × 10³ = 5,0 × 10² s` (cerca de 8 min). A alternativa de 2,0 × 10⁻³ vem de inverter a divisão.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um jogador chuta uma bola, que descreve uma trajetória parabólica. Desprezando a resistência do ar, no ponto mais alto da trajetória a aceleração da bola é",
+   "alternativas": [
+    "nula, pois a velocidade vertical é nula.",
+    "igual à aceleração da gravidade, vertical e para baixo.",
+    "igual à aceleração da gravidade, horizontal e para a frente.",
+    "menor que a aceleração da gravidade, pois a bola quase parou.",
+    "igual à aceleração da gravidade, vertical e para cima, pois a bola ainda está subindo."
+   ],
+   "gabarito": "B",
+   "resolucao": "A gravidade age o tempo todo, em qualquer ponto do voo, sempre para baixo. No topo é a velocidade vertical que vale zero, não a aceleração.",
+   "figura": null
+  },
+  {
+   "enunciado": "O gráfico mostra a velocidade de um carro, em m/s, em função do tempo, entre 0 e 5 s: a velocidade cresce de forma linear, de 4 m/s até 14 m/s. A distância percorrida nesses 5 s é de",
+   "alternativas": [
+    "14 m",
+    "20 m",
+    "35 m",
+    "45 m",
+    "70 m"
+   ],
+   "gabarito": "D",
+   "resolucao": "A distância é a área sob a reta (trapézio): `(4 + 14) ÷ 2 × 5 = 9 × 5 = 45 m`. 70 m vem de usar a velocidade final (14 × 5) e 20 m de usar a inicial (4 × 5).",
+   "figura": {
+    "lib": "jsxgraph",
+    "bbox": [
+     -1,
+     16,
+     6,
+     -3
+    ],
+    "eixos": true,
+    "altura": 260,
+    "elementos": [
+     {
+      "t": "funcao",
+      "expr": "4+2*x",
+      "dominio": [
+       0,
+       5
+      ],
+      "rotulo": "v"
+     },
+     {
+      "t": "texto",
+      "xy": [
+       0.2,
+       15
+      ],
+      "txt": "v (m/s)"
+     },
+     {
+      "t": "texto",
+      "xy": [
+       5.1,
+       -1.2
+      ],
+      "txt": "t (s)"
+     }
+    ]
+   }
+  }
+ ]
+}

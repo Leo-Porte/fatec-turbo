@@ -1,0 +1,132 @@
+{
+ "id": "qui-atomistica",
+ "disciplina": "Química",
+ "tema": "Atomística e tabela periódica",
+ "titulo": "Átomo, tabela periódica e radioatividade",
+ "semana": 3,
+ "requisitos": [],
+ "minutos": 30,
+ "por_que": "Atomística e tabela periódica caíram em 11 questões nas 15 provas, quase sempre com a mesma conta: prótons, nêutrons e elétrons de um átomo ou íon (5 provas). O resto é reconhecer família da tabela, teste de chama/Bohr e meia-vida de elemento radioativo.",
+ "secoes": [
+  {
+   "titulo": "1. Prótons, nêutrons e elétrons (o que mais cai)",
+   "texto": "O átomo tem um núcleo (prótons + nêutrons) e uma nuvem de elétrons em volta. Três números resolvem quase tudo:\n\n- **Número atômico (Z)** = quantidade de prótons. É a \"identidade\" do elemento: Z = 20 é sempre cálcio.\n- **Número de massa (A)** = prótons + nêutrons.\n- **Nêutrons** = A − Z.\n\nNo átomo neutro, elétrons = prótons. A Fatec escreve o elemento assim: o A em cima à esquerda, o Z embaixo à esquerda. Exemplo: ⁴⁰₂₀Ca tem 20 prótons, 40 − 20 = 20 nêutrons e 20 elétrons.\n\nO erro mais comum é trocar A e Z, ou calcular nêutrons com o Z errado. Leia qual número está em cima e qual está embaixo."
+  },
+  {
+   "titulo": "2. Íons: mexeu na carga, mexeu só nos elétrons",
+   "texto": "Íon é átomo que ganhou ou perdeu **elétrons**. Prótons e nêutrons não mudam (o elemento continua o mesmo).\n\n- **Cátion** (carga positiva): perdeu elétrons. Ca²⁺ perdeu 2 → elétrons = Z − 2.\n- **Ânion** (carga negativa): ganhou elétrons. Cl⁻ ganhou 1 → elétrons = Z + 1.\n\nExemplos:\n\n- Ca²⁺ (Z = 20): 20 prótons, 18 elétrons.\n- K⁺ (Z = 19): 19 prótons, 18 elétrons.\n- S²⁻ (Z = 16): 16 prótons, 18 elétrons.\n\nCa²⁺ e K⁺ têm o mesmo número de elétrons (18). Isso se chama ser **isoeletrônico** e a prova já usou isso como pegadinha."
+  },
+  {
+   "titulo": "3. Tabela periódica: onde o elemento mora",
+   "texto": "A tabela tem **18 grupos (colunas)** e **7 períodos (linhas)**. Elementos da mesma coluna têm comportamento parecido; o número do período é a quantidade de camadas eletrônicas.\n\nFamílias que a Fatec pede pelo nome:\n\n- **Grupo 1**: metais alcalinos (Li, Na, K, Rb, Cs). O H fica nessa coluna mas não é alcalino. Formam cátion +1.\n- **Grupo 2**: alcalino-terrosos (Be, Mg, Ca, Sr, Ba, Ra). Formam cátion 2+.\n- **Grupo 16**: calcogênios (O, S, Se).\n- **Grupo 17**: halogênios (F, Cl, Br, I). Formam ânion 1−.\n- **Grupo 18**: gases nobres (He, Ne, Ar, Kr, Xe). Quase não reagem.\n- **Grupos 3 a 12**: metais de transição (Fe, Cu, Zn, Pt, Ir...). Platina (grupo 10) e irídio (grupo 9) são do mesmo período, o 6º.\n\nTendências: o **raio atômico** cresce de cima para baixo e da direita para a esquerda. A **eletronegatividade** (força de puxar elétrons) cresce no sentido oposto: o flúor é o mais eletronegativo. Por isso o alcalino de menor raio é o lítio (Li) e o halogênio do 2º período é o flúor (F)."
+  },
+  {
+   "titulo": "4. Modelo de Bohr e teste de chama",
+   "texto": "No modelo de Bohr os elétrons ocupam **níveis de energia**. Quando o átomo recebe energia (calor, eletricidade), o elétron pula para um nível mais alto (estado excitado). Ao voltar, devolve essa energia em forma de **luz**. Cada elemento emite uma cor própria porque a diferença de energia entre os níveis é própria dele.\n\nÉ isso que colore os fogos de artifício e o **teste de chama**:\n\n- Na⁺: amarelo\n- K⁺: lilás\n- Cu²⁺: verde\n- Sr²⁺: vermelho\n- Ca²⁺: laranja\n\nO ponto da prova é o mecanismo: absorve energia, elétron sobe, ao descer emite luz. Nada disso mexe no núcleo."
+  },
+  {
+   "titulo": "5. Radioatividade e meia-vida",
+   "texto": "Alguns núcleos são instáveis e se transformam emitindo radiação:\n\n- **Alfa (α)**: leva 2 prótons e 2 nêutrons. O elemento perde 2 em Z e 4 em A.\n- **Beta (β)**: um nêutron vira próton. Z aumenta 1, A não muda. É o caso do Sr-90 virando Y-90.\n\n**Meia-vida** é o tempo para metade da amostra radioativa se transformar. Depois de n meias-vidas:\n\n`restante = inicial ÷ 2ⁿ`\n\n`já transformado = inicial − restante`\n\nExemplo: 80 g com meia-vida de 5 anos. Em 15 anos são 3 meias-vidas, restam 80 ÷ 8 = 10 g e já se transformaram 70 g.\n\nSe o tempo não é um número exato de meias-vidas, a prova costuma dar um valor próximo (30 anos para meia-vida de 28 anos é \"cerca de 1 meia-vida\")."
+  }
+ ],
+ "decorar": [
+  "Z = prótons; A = prótons + nêutrons; nêutrons = A − Z",
+  "Cátion perdeu elétrons (elétrons = Z − carga); ânion ganhou (elétrons = Z + carga)",
+  "Grupo 1 alcalinos, 2 alcalino-terrosos, 16 calcogênios, 17 halogênios, 18 gases nobres",
+  "Eletronegatividade e energia de ionização crescem para cima e para a direita; flúor é o mais eletronegativo",
+  "Teste de chama: Na amarelo, K lilás, Cu verde, Sr vermelho, Ca laranja",
+  "Beta: Z sobe 1, A fica; alfa: Z cai 2, A cai 4",
+  "Após n meias-vidas resta inicial ÷ 2ⁿ"
+ ],
+ "pegadinhas": [
+  "Íon muda só os elétrons. Quem conta prótons a partir da carga erra.",
+  "Nêutrons = A − Z, não A − elétrons. Para um íon, confira se você usou o Z do elemento.",
+  "Isoeletrônico não é o mesmo elemento: Ca²⁺ e K⁺ têm 18 elétrons cada, mas Z diferente (20 e 19).",
+  "O hidrogênio fica no grupo 1 mas não é metal alcalino.",
+  "\"Quantidade que se transformou\" é o que sumiu (inicial − restante), não o que restou."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2023-2",
+   "n": 41,
+   "resolucao": "A questão pede para comparar cátions Na⁺, Ca²⁺, Fe³⁺ e K⁺ com a tabela: Na (Z = 11, A = 23), Ca (20, 40), Fe (26, 56), K (19, 40).\n\nFaça o quadro de cada um:\n\n- Na⁺: perdeu 1 elétron → 11 − 1 = 10 elétrons.\n- Ca²⁺: 20 − 2 = 18 elétrons.\n- Fe³⁺: 26 − 3 = 23 elétrons; nêutrons = 56 − 26 = 30.\n- K⁺: 19 − 1 = 18 elétrons; massa 40; Z = 19.\n\nAgora as alternativas:\n\n- (A) Ca²⁺ e K⁺ têm o mesmo número de elétrons: 18 = 18. **Correta.**\n- (B) Nêutrons do Fe³⁺ é 29: são 30. Errada.\n- (C) Elétrons do Na⁺ é 11: são 10. Errada.\n- (D) Massa do K⁺ é 19: é 40 (19 é o Z). Errada.\n- (E) Z do Ca²⁺ igual ao do K⁺: 20 ≠ 19. Errada.\n\nGabarito oficial: **A**."
+  },
+  {
+   "prova": "2018-2",
+   "n": 23,
+   "resolucao": "O íon é ¹¹²₄₈Cd²⁺: A = 112 (em cima), Z = 48 (embaixo), carga 2+.\n\n- Prótons = Z = **48**.\n- Nêutrons = A − Z = 112 − 48 = **64**.\n- Elétrons = 48 − 2 = **46** (cátion perdeu 2).\n\nProcurando a alternativa com 48 prótons e 46 elétrons: é a **(E)**. As alternativas A e B erram os prótons (46 é o número de elétrons); C erra os nêutrons (67); D diz 48 elétrons, que seria o átomo neutro.\n\nGabarito oficial: **E**."
+  },
+  {
+   "prova": "2017-1",
+   "n": 23,
+   "resolucao": "O texto diz que o acidente foi em 1986 (30 anos antes de 2016) e que a meia-vida do Sr-90 é de aproximadamente 28 anos. Então se passou cerca de **1 meia-vida**.\n\nApós 1 meia-vida resta metade: `inicial ÷ 2¹ = inicial ÷ 2`.\n\nA pergunta é sobre a quantidade que **se transformou** em Y-90, que é `inicial − inicial ÷ 2 = inicial ÷ 2`, ou seja, aproximadamente **1/2**.\n\nGabarito oficial: **E** (1/2)."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Um aluno precisa descrever o íon sulfeto, S²⁻, de número atômico Z = 16 e número de massa A = 32. Assinale a alternativa que traz a quantidade correta de prótons, nêutrons e elétrons, nessa ordem.",
+   "alternativas": [
+    "16, 16 e 16",
+    "16, 16 e 18",
+    "18, 14 e 16",
+    "16, 18 e 14",
+    "32, 16 e 18"
+   ],
+   "gabarito": "B",
+   "resolucao": "Prótons = Z = 16. Nêutrons = A − Z = 32 − 16 = 16. O ânion S²⁻ ganhou 2 elétrons: 16 + 2 = 18. Resposta: 16, 16 e 18.",
+   "figura": null
+  },
+  {
+   "enunciado": "O alumínio é usado em embalagens e utensílios. O cátion Al³⁺ tem Z = 13 e A = 27. O número de elétrons e o número de nêutrons desse cátion são, respectivamente,",
+   "alternativas": [
+    "13 e 14",
+    "16 e 14",
+    "10 e 13",
+    "10 e 14",
+    "13 e 10"
+   ],
+   "gabarito": "D",
+   "resolucao": "Elétrons = 13 − 3 = 10 (perdeu 3). Nêutrons = 27 − 13 = 14. A alternativa com 13 elétrons esquece que o cátion perdeu elétrons.",
+   "figura": null
+  },
+  {
+   "enunciado": "Os elementos cálcio e magnésio, presentes em suplementos alimentares, são vizinhos de coluna na tabela periódica. Assinale a alternativa que traz um par de elementos que pertence à mesma família.",
+   "alternativas": [
+    "Na e Cl",
+    "O e N",
+    "Mg e Ca",
+    "F e Ne",
+    "Li e Be"
+   ],
+   "gabarito": "C",
+   "resolucao": "Mg e Ca são do grupo 2 (alcalino-terrosos). Na e Cl são de grupos 1 e 17; O e N, de 16 e 15; F e Ne, de 17 e 18; Li e Be, de 1 e 2.",
+   "figura": null
+  },
+  {
+   "enunciado": "O iodo-131 é usado em tratamentos médicos e tem meia-vida de 8 dias. Uma amostra de 80 g desse isótopo, após 24 dias, terá restante, aproximadamente, a massa de",
+   "alternativas": [
+    "40 g",
+    "26,7 g",
+    "20 g",
+    "12,5 g",
+    "10 g"
+   ],
+   "gabarito": "E",
+   "resolucao": "24 dias ÷ 8 dias = 3 meias-vidas. Restante = 80 ÷ 2³ = 80 ÷ 8 = 10 g. 40 g seria só 1 meia-vida; 20 g, 2; 26,7 g é dividir por 3 (erro comum).",
+   "figura": null
+  },
+  {
+   "enunciado": "Nos fogos de artifício, sais de cobre produzem cor verde quando aquecidos. Isso ocorre porque, ao serem aquecidos, os elétrons dos íons de cobre",
+   "alternativas": [
+    "absorvem energia, passam para níveis mais altos e, ao retornar, emitem luz de cor característica.",
+    "são retirados do átomo, formando um novo elemento.",
+    "têm o núcleo dividido, liberando luz verde.",
+    "passam a ocupar o núcleo e emitem luz.",
+    "ganham prótons e se transformam em outro metal."
+   ],
+   "gabarito": "A",
+   "resolucao": "É o modelo de Bohr: o elétron absorve energia e sobe de nível; ao voltar, emite luz, e a cor depende da diferença de energia, própria de cada elemento. O núcleo não participa.",
+   "figura": null
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "id": "fis-ondas",
+ "disciplina": "Física",
+ "tema": "Ondulatória",
+ "titulo": "Ondas, som e luz",
+ "semana": 4,
+ "requisitos": [
+  "fis-cinematica"
+ ],
+ "minutos": 40,
+ "por_que": "Esse bloco reúne 22 questões nas 15 provas: ondulatória (12), óptica (6) e física moderna (4). A fórmula `v = λ·f` e a conversão de unidade (nm, MHz, THz) dominam; o resto é conceito curto (espectro, Doppler, reflexão total).",
+ "secoes": [
+  {
+   "titulo": "1. A equação da onda: v = λ · f",
+   "texto": "Uma onda se repete no espaço e no tempo.\n\n- **λ (comprimento de onda)**: distância de uma repetição (de crista a crista).\n- **f (frequência)**: quantas repetições por segundo. Unidade: hertz (Hz = 1/s).\n- **T (período)**: tempo de uma repetição. `T = 1 ÷ f` e `f = 1 ÷ T`.\n- **v**: velocidade da onda: `v = λ · f`.\n\nPara ondas eletromagnéticas no ar ou no vácuo, v = c ≈ 3,0 × 10⁸ m/s. Daí `f = c ÷ λ`.\n\nCuidado com o prefixo: nm = 10⁻⁹ m; MHz = 10⁶ Hz; THz = 10¹² Hz; Å (angström) = 10⁻¹⁰ m.\n\nExemplos que já caíram:\n\n- 2023/1: λ = 22 m, `f = 3 × 10⁸ ÷ 22 ≈ 1,36 × 10⁷ Hz = 13,6 MHz`.\n- 2026/1: λ = 1 000 nm = 10⁻⁶ m, `f = 3 × 10⁸ ÷ 10⁻⁶ = 3 × 10¹⁴ Hz`. A pergunta era a **ordem de grandeza**.\n- 2026/2: câmera de 500 quadros por segundo, `T = 1 ÷ 500 = 2,0 × 10⁻³ s`."
+  },
+  {
+   "titulo": "2. Ordem de grandeza (cai com onda e com notação científica)",
+   "texto": "Escreva o número como `a × 10ⁿ` com 1 ≤ a < 10. A ordem de grandeza é:\n\n- `10ⁿ` se `a` for **menor que ≈ 3,16** (a raiz quadrada de 10);\n- `10ⁿ⁺¹` se `a` for **maior ou igual a 3,16**.\n\nOs 3 × 10¹⁴ Hz da 2026/1 têm a = 3 < 3,16, então a ordem de grandeza é **10¹⁴**."
+  },
+  {
+   "titulo": "3. Espectro eletromagnético",
+   "texto": "Luz, rádio, micro-ondas, raios X: tudo é **onda eletromagnética**. Elas são transversais, **não precisam de meio** (propagam-se no vácuo) e andam a c ≈ 3 × 10⁸ m/s.\n\nEm ordem **crescente de frequência**: ondas de rádio → micro-ondas → infravermelho → **luz visível** (vermelho → laranja → amarelo → verde → azul → violeta) → ultravioleta → raios X → raios gama.\n\nComo `v = λ·f` e v é fixa, **frequência e comprimento de onda são inversamente proporcionais**: maior f = menor λ.\n\n- Violeta tem a maior f e o menor λ do visível; vermelho tem a menor f e o maior λ (2023/2).\n- UVB tem frequência maior (e λ menor) que UVA (2017/2).\n\nNos leitores ópticos (código de barras, 2026/1) a luz é refletida pelas barras brancas e absorvida pelas pretas. É isso que gera o sinal."
+  },
+  {
+   "titulo": "4. Som, Doppler e superposição",
+   "texto": "**Som é onda mecânica e longitudinal**: precisa de meio material, **não se propaga no vácuo**. No ar, a velocidade é ≈ 340 m/s.\n\n- **Agudo × grave**: som mais agudo = **maior frequência**. (Volume, ou intensidade, tem relação com a amplitude.)\n- **Efeito Doppler** (2019/2): fonte se **aproximando** → frequência percebida **maior** (mais agudo). Fonte se **afastando** → frequência **menor** (mais grave). A sirene de uma ambulância muda de tom quando ela passa por você.\n- **Violão** (2024/2): a frequência da corda aumenta com a **tensão** e diminui com o comprimento. A caixa de ressonância amplifica o som.\n- **Superposição** (2019/1): quando duas ondas se cruzam, as amplitudes se somam naquele instante e depois **cada uma segue como era**, com a mesma velocidade e frequência."
+  },
+  {
+   "titulo": "5. Óptica geométrica",
+   "texto": "- **Reflexão**: ângulo de incidência = ângulo de reflexão. **Espelho convexo** (retrovisor, esfera de enfeite): imagem **virtual, direita e menor**, sempre entre o foco e o vértice (2019/1). Antirreflexo em painel solar (2025/2): menos luz refletida = mais luz absorvida.\n- **Refração**: a luz muda de velocidade ao mudar de meio. Lei de Snell: `n₁ · sen θ₁ = n₂ · sen θ₂`.\n- **Reflexão total** (2019/2, fibra óptica): acontece quando a luz vai do meio **mais refringente para o menos refringente** e o ângulo de incidência é **maior que o ângulo limite**. A luz fica \"presa\" dentro da fibra.\n- **Lentes**: equação de Gauss, `1 ÷ f = 1 ÷ p + 1 ÷ p'`. Vergência (grau da lente): `V = 1 ÷ f`, com f em **metros**, dá dioptrias (di).\n- **Eclipse solar** (2020/1): a **Lua** fica entre o Sol e a Terra e projeta sombra na Terra."
+  },
+  {
+   "titulo": "6. Física moderna (só o que cai)",
+   "texto": "- **Relatividade restrita** (2020/1): perto da velocidade da luz, o tempo se dilata (passa mais devagar para quem se move) e o comprimento se contrai na direção do movimento.\n- **Radioatividade** (2022/2): núcleos instáveis emitem partículas (alfa, beta) e radiação eletromagnética (gama).\n- Partículas subatômicas, como o méson pi (2024/2), pertencem à **Física de Partículas**; raios cósmicos ligam esse assunto à astrofísica."
+  }
+ ],
+ "decorar": [
+  "`v = λ·f`; `f = 1/T`; no vácuo v = c ≈ 3 × 10⁸ m/s",
+  "nm = 10⁻⁹ m; Å = 10⁻¹⁰ m; MHz = 10⁶ Hz; THz = 10¹² Hz",
+  "Ordem de grandeza: a < 3,16 mantém o n; a ≥ 3,16 sobe um",
+  "Espectro (f crescente): rádio, micro-ondas, IV, visível, UV, X, gama",
+  "f e λ são inversamente proporcionais",
+  "Som: mecânico, longitudinal, não vai no vácuo; agudo = f maior",
+  "Doppler: aproxima → f maior; afasta → f menor",
+  "Reflexão total: meio mais refringente → menos refringente, ângulo > limite",
+  "Gauss: `1/f = 1/p + 1/p'`; `V = 1/f` (m → di)",
+  "Espelho convexo: imagem virtual, direita e menor"
+ ],
+ "pegadinhas": [
+  "Errar o prefixo (nm, MHz, THz) e perder potências de 10. Converta antes de dividir.",
+  "Ordem de grandeza de 3 × 10¹⁴: é 10¹⁴, não 10¹⁵ (3 < 3,16).",
+  "Achar que som viaja no vácuo ou que a luz precisa de meio.",
+  "Confundir frequência alta com comprimento de onda grande. É o contrário.",
+  "Efeito Doppler: confundir aproximar (mais agudo) com afastar (mais grave).",
+  "Reflexão total: só ocorre indo do meio mais refringente para o menos refringente.",
+  "Vergência: usar f em cm em vez de m."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-1",
+   "n": 10,
+   "resolucao": "Dados: `c = 3,0 × 10⁸ m/s` e `λ = 1 000 nm = 1 000 × 10⁻⁹ m = 10⁻⁶ m`.\n\n`f = c ÷ λ = 3,0 × 10⁸ ÷ 10⁻⁶ = 3,0 × 10¹⁴ Hz`.\n\nOrdem de grandeza: a mantissa é 3,0, menor que 3,16, então a ordem é **10¹⁴**.\n\nGabarito oficial: B. ✔ Bateu."
+  },
+  {
+   "prova": "2023-1",
+   "n": 33,
+   "resolucao": "Usando `v = λ · f` com v = 3,0 × 10⁸ m/s (ondas de rádio) e λ = 22 m:\n\n`f = v ÷ λ = 3,0 × 10⁸ ÷ 22 ≈ 1,36 × 10⁷ Hz`.\n\nComo M (mega) = 10⁶: `1,36 × 10⁷ Hz = 13,6 × 10⁶ Hz = 13,6 MHz`.\n\nGabarito oficial: C. ✔ Bateu."
+  },
+  {
+   "prova": "2026-2",
+   "n": 37,
+   "resolucao": "As câmeras filmam a 500 quadros por segundo, ou seja, a frequência de disparo é 500 Hz.\n\nO período é o inverso: `T = 1 ÷ f = 1 ÷ 500 = 0,002 s = 2,0 × 10⁻³ s`.\n\nGabarito oficial: D. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Uma emissora de rádio FM transmite na frequência de 100 MHz. Considerando que as ondas de rádio se propagam no ar com velocidade de 3,0 × 10⁸ m/s, o comprimento de onda dessa transmissão é de",
+   "alternativas": [
+    "0,3 m",
+    "0,33 m",
+    "3,0 m",
+    "30 m",
+    "300 m"
+   ],
+   "gabarito": "C",
+   "resolucao": "100 MHz = 100 × 10⁶ = 10⁸ Hz. `λ = v ÷ f = 3,0 × 10⁸ ÷ 10⁸ = 3,0 m`. 0,33 m vem de dividir f por v (inverter).",
+   "figura": null
+  },
+  {
+   "enunciado": "A nota lá de um instrumento musical tem frequência de 440 Hz. O período dessa onda sonora é de aproximadamente",
+   "alternativas": [
+    "4,4 × 10² s",
+    "4,4 × 10⁻² s",
+    "2,3 × 10² s",
+    "2,3 × 10⁻¹ s",
+    "2,3 × 10⁻³ s"
+   ],
+   "gabarito": "E",
+   "resolucao": "`T = 1 ÷ f = 1 ÷ 440 ≈ 0,0023 s = 2,3 × 10⁻³ s`.",
+   "figura": null
+  },
+  {
+   "enunciado": "Assinale a alternativa em que as radiações do espectro eletromagnético estão em ordem crescente de frequência.",
+   "alternativas": [
+    "raios gama, luz visível, micro-ondas",
+    "ondas de rádio, infravermelho, ultravioleta",
+    "ultravioleta, luz visível, infravermelho",
+    "raios X, ultravioleta, micro-ondas",
+    "luz visível, infravermelho, ondas de rádio"
+   ],
+   "gabarito": "B",
+   "resolucao": "A ordem crescente de frequência é: rádio, micro-ondas, infravermelho, visível, ultravioleta, raios X, raios gama. Só rádio → infravermelho → ultravioleta (B) respeita essa ordem. As outras estão invertidas ou fora de ordem.",
+   "figura": null
+  },
+  {
+   "enunciado": "Uma ambulância com a sirene ligada passa por uma pessoa parada na calçada. Em relação ao som emitido pela sirene, a pessoa percebe que ele",
+   "alternativas": [
+    "é mais agudo quando a ambulância se aproxima e mais grave quando ela se afasta.",
+    "é mais grave quando a ambulância se aproxima e mais agudo quando ela se afasta.",
+    "tem sempre o mesmo tom, pois a fonte emite uma frequência fixa.",
+    "é mais forte quando a ambulância se afasta, por causa da amplitude.",
+    "deixa de ser ouvido quando a ambulância passa pela pessoa."
+   ],
+   "gabarito": "A",
+   "resolucao": "Efeito Doppler: fonte se aproximando → frequência percebida maior (mais agudo); se afastando → menor (mais grave). A fonte emite sempre a mesma frequência, mas quem escuta percebe outra.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um objeto é colocado a 30 cm de uma lente convergente de distância focal 10 cm. A imagem se forma a uma distância da lente de",
+   "alternativas": [
+    "7,5 cm",
+    "20 cm",
+    "40 cm",
+    "15 cm",
+    "30 cm"
+   ],
+   "gabarito": "D",
+   "resolucao": "Equação de Gauss: `1/f = 1/p + 1/p'`, logo `1/p' = 1/10 − 1/30 = 3/30 − 1/30 = 2/30`. Então `p' = 15 cm`. 7,5 cm vem de somar os inversos (erro de sinal).",
+   "figura": null
+  }
+ ]
+}

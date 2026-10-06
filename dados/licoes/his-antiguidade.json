@@ -1,0 +1,139 @@
+{
+ "id": "his-antiguidade",
+ "disciplina": "História",
+ "tema": "Antiguidade",
+ "titulo": "Pré-história, Antiguidade e Idade Média",
+ "semana": 5,
+ "requisitos": [],
+ "minutos": 35,
+ "por_que": "Antiguidade caiu 12 vezes e Idade Média 6 nas 15 provas. O formato típico é um texto curto de apoio (jogos de bola no Egito, mumificação, aquedutos) e uma pergunta que exige reconhecer o período e o que ele implica. Quem sabe o 'pacote' de cada civilização acerta quase de olhos fechados.",
+ "secoes": [
+  {
+   "titulo": "1. Pré-história: o que mudou do Paleolítico para o Neolítico",
+   "texto": "É o assunto mais repetido da Antiguidade na prova (2018/2, 2023/1, 2023/2). A ideia é simples: dois modos de vida.\n\n- **Paleolítico** (pedra lascada): grupos **nômades**, vivem de **caça, pesca e coleta**, fazem ferramentas lascando pedra e **dominam o fogo**. Cozinhar o alimento facilitou a digestão e é associado ao crescimento do corpo e do cérebro dos hominídeos (foi o que a 2023/2 pediu).\n- **Neolítico** (pedra polida): a **Revolução Neolítica**, por volta de 12 mil anos atrás, é a passagem para a **agricultura e a criação de animais**. Quem planta precisa esperar a colheita, então **fixa moradia** (sedentarização), surgem aldeias, cerâmica para guardar grãos, excedente de comida e, depois, divisão do trabalho e desigualdade.\n\nA **escrita** não é da pré-história: ela marca o começo da História, e aparece na Mesopotâmia, já na Antiguidade. A 2023/1 usou isso como pegadinha (alternativa dizendo que a escrita era tecnologia do Paleolítico).\n\nPense assim: a agricultura prendeu o ser humano ao lugar. Tudo o que vem depois (cidade, Estado, escrita) depende de ter comida sobrando."
+  },
+  {
+   "titulo": "2. Egito Antigo: o Nilo, o faraó e a vida após a morte",
+   "texto": "Aparece em 2017/2, 2024/1 e 2026/2. O pacote do Egito:\n\n- **Nilo**: o Egito é descrito como “dádiva do Nilo” (frase de Heródoto). As **cheias anuais** deixavam limo fértil nas margens e permitiam agricultura no meio do deserto. A vida e a economia se organizavam em torno do rio.\n- **Poder**: o **faraó** é rei e também considerado divino (poder político e religioso juntos). Sociedade rígida: faraó, sacerdotes e escribas, camponeses.\n- **Religião**: politeísta e muito ligada à **vida após a morte**. Daí a **mumificação**: tratar o corpo para preservá-lo. Efeito colateral importante: os embalsamadores acumularam **conhecimento de anatomia** e de tratamentos de saúde (resposta da 2024/1).\n- **Escrita**: hieróglifos, em papiro.\n\nA 2026/2 (questão 40) trouxe jogos de bola no Egito e na China antigos: a lógica é de interpretação, jogo coletivo com regras compartilhadas desenvolve cooperação e habilidades sociais e cognitivas. Não precisa saber nada de Egito além do texto."
+  },
+  {
+   "titulo": "3. Grécia: pólis, democracia, deuses e Helenismo",
+   "texto": "Em 2018/1, 2019/1, 2026/1 e 2026/2.\n\n- **Pólis**: cidade-Estado independente. As duas famosas: **Atenas** (democracia, comércio, cultura) e **Esparta** (militarismo, educação voltada à guerra).\n- **Democracia ateniense**: **direta** (o cidadão vota na assembleia, não elege representante). Mas “cidadão” era só **homem livre, adulto, nascido em Atenas**. Ficavam de fora mulheres, escravos e estrangeiros. É pegadinha clássica: democracia grega não era para todos.\n- **Religião**: deuses **antropomórficos** (com forma e defeitos humanos: vaidade, ciúme, raiva), mas **imortais** (2018/1).\n- **Filosofia e ciência**: nascem aqui o pensamento racional e as discussões sobre política, ética e natureza (Sócrates, Platão, Aristóteles).\n- **Esporte**: Jogos Olímpicos e jogos coletivos, como o *epískyros*, que a 2026/2 (questão 41) usou, valorizando condicionamento físico e espírito de equipe.\n- **Helenismo** (2019/1): depois das conquistas de **Alexandre, o Grande** (século IV a.C.), a cultura grega se mistura com a oriental (egípcia, persa). Alexandria, no Egito, vira centro de ciência. Nela trabalhou **Eratóstenes**, que calculou a circunferência da Terra usando sombras e geometria (2026/1, questão 19): a Terra esférica já era conhecida na Antiguidade."
+  },
+  {
+   "titulo": "4. Roma: República, Império, legado e queda",
+   "texto": "Em 2022/2 (aquedutos) e 2026/2 (*harpastum*).\n\nLinha do tempo que vale decorar:\n\n- **509 a.C.**: começa a **República** (Senado, magistrados).\n- **27 a.C.**: Otávio vira Augusto e começa o **Império**.\n- **313**: Édito de Milão (Constantino): cristianismo tolerado. **380**: Teodósio torna o cristianismo religião oficial.\n- **476**: queda do Império Romano do **Ocidente** (marco do fim da Antiguidade). O do **Oriente** (Bizantino, capital Constantinopla) sobrevive até **1453**.\n\n**Legado romano** que a prova gosta: **direito** (base de muitos códigos modernos), **latim** (origem do português, espanhol, italiano, francês), **engenharia** (estradas, pontes e **aquedutos**: canais de pedra ou tijolo levemente inclinados que levavam água por **gravidade** até as cidades, 2022/2).\n\n**Pão e circo**: política de dar alimento e espetáculo (lutas de gladiadores, corridas) ao povo.\n\nNa 2026/2 (questão 41), o *harpastum* romano, descrito como violento, é visto como útil para o treino militar. Isso mostra o traço romano: a prática esportiva servia a objetivos práticos (guerra), enquanto os gregos valorizavam cooperação e condicionamento."
+  },
+  {
+   "titulo": "5. Idade Média: feudalismo e a economia do campo",
+   "texto": "A Idade Média vai de **476** (queda de Roma) a **1453** (queda de Constantinopla). O que mais aparece é a economia e a sociedade.\n\n- **Feudalismo**: a terra (feudo) é a riqueza. **Senhor feudal** dono da terra, **servos** que a cultivam. O servo **não é escravo**: não pode ser vendido como mercadoria, mas fica **preso à terra**, paga ao senhor com parte da produção e dias de trabalho, e recebe proteção em troca.\n- **Hierarquia**: reis, senhores (suseranos), vassalos (que juram fidelidade em troca de feudo), clero e camponeses. A **Igreja Católica** é a instituição mais poderosa e dá sentido à vida (clero, nobreza e trabalhadores).\n- **Técnica**: a **rotação trienal** (2025/2): o campo é dividido em três partes, e a cada ano uma descansa (**pousio**) para recuperar a fertilidade do solo, enquanto as outras duas são cultivadas. Vem do aumento da produtividade e da população.\n\nPense no feudo como um pequeno país fechado: produz quase tudo que consome, quase sem moeda e sem comércio."
+  },
+  {
+   "titulo": "6. Idade Média: cidades, crise do século XIV e o mundo islâmico",
+   "texto": "**Renascimento urbano e comercial** (séculos XI a XIII, 2023/1): com a produtividade maior, sobra comida, e muita gente passa a viver de artesanato e comércio. Surgem **burgos** (cidades), **feiras** e **corporações de ofício** (associações de artesãos de uma mesma profissão, com oficinas e vários ofícios). As **Cruzadas** (a partir de 1096) reabriram a ligação comercial com o Oriente.\n\n**Crise do século XIV** (2023/2 e 2020/1):\n\n- Chuvas fortes arruinaram colheitas, o preço do trigo disparou e veio a **grande fome (1314–1319, no texto da prova)**.\n- Pessoas debilitadas e mal alimentadas ficam mais vulneráveis a doenças. Veio a **Peste Negra (1347–1351)**, que matou cerca de **um terço da população europeia**. Quem lê o gráfico da 2020/1 vê a população cair e demorar para se recuperar.\n\n**Mundo islâmico na Península Ibérica** (2017/1, 2018/2): a partir do **século VIII** os muçulmanos dominaram a Ibéria (Al-Andalus) e ficaram até o **século XV** (Reconquista cristã, fechada em **1492**). Deixaram marcas no **idioma** (muitas palavras do português vêm do árabe), na **arquitetura** e na **ciência**. Córdoba e Toledo foram centros comerciais e intelectuais."
+  }
+ ],
+ "decorar": [
+  "Paleolítico = nômade, caça e coleta, pedra lascada, fogo. Neolítico = agricultura, sedentarização, pedra polida, cerâmica (~12 mil anos atrás).",
+  "Escrita marca o começo da História (Mesopotâmia), não existe na pré-história.",
+  "Egito = “dádiva do Nilo” (cheias fertilizam), faraó divino, mumificação ligada à vida após a morte e que gerou conhecimento de anatomia.",
+  "Democracia ateniense = direta, mas só para homens livres atenienses (sem mulheres, escravos, estrangeiros).",
+  "Helenismo = mistura grega + oriental após Alexandre, o Grande (séc. IV a.C.). Eratóstenes (Alexandria) mediu a circunferência da Terra.",
+  "Roma: República 509 a.C., Império 27 a.C., queda do Ocidente 476. Legado: direito, latim, aquedutos (levam água por gravidade).",
+  "Idade Média: 476 a 1453. Feudalismo (senhor, servo preso à terra), rotação trienal (um terço em pousio).",
+  "Séc. XI–XIII: renascimento urbano e comercial (burgos, corporações de ofício). Séc. XIV: fome (1314–1319) e Peste Negra (1347–1351, ~1/3 dos europeus).",
+  "Muçulmanos na Ibéria: séc. VIII ao XV; deixaram idioma, arquitetura e ciência."
+ ],
+ "pegadinhas": [
+  "“Servo” não é “escravo”: o servo não é vendido como coisa, mas é preso à terra e deve obrigações ao senhor.",
+  "Democracia grega não incluía todo mundo. Se a alternativa diz que “todos votavam”, está errada.",
+  "Alternativa que põe a escrita ou a agricultura no Paleolítico é armadilha: agricultura é do Neolítico, escrita é da Antiguidade.",
+  "Mumificação não era para escravos nem uma resposta a epidemias: era ligada à crença na vida após a morte e praticada nas camadas altas da sociedade.",
+  "Em questão de interpretação, a resposta tem que estar no texto. Alternativa que inventa dado (“individualmente”, “apenas mulheres”, “sem função militar”) contradiz o enunciado.",
+  "Não confunda a fome de 1314–1319 com a Peste Negra (1347–1351): uma enfraqueceu a população antes da outra chegar."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-2",
+   "n": 41,
+   "resolucao": "É uma questão de **comparar dois textos curtos** dentro de um só.\n\nO que o texto diz:\n- *Epískyros* (Grécia): jogo coletivo, exigia agilidade, precisão, resistência. Era apreciado por melhorar o condicionamento e fortalecer o **espírito de equipe**. Não era considerado adequado para competições atléticas sérias.\n- *Harpastum* (Roma): descrito como exercício **violento**, com imobilizações, golpes e socos. Sua versão enérgica era boa para o **treinamento militar**.\n\nA alternativa **E** resume exatamente isso: gregos valorizam movimento e cooperação; romanos, utilidade militar e competição violenta.\n\nPor que as outras falham: A diz que não há semelhança, mas o texto diz que os romanos foram **inspirados** no jogo grego. B inverte (o jogo grego não é descrito como preparação para guerra). C cria “inferioridade cultural”, que o texto não afirma. D inventa que era “exclusivamente feminino”.\n\nGabarito oficial: E. ✔ Bateu."
+  },
+  {
+   "prova": "2024-1",
+   "n": 38,
+   "resolucao": "Aqui o conhecimento de contexto decide. O enunciado dá o fato (mumificação preserva corpos retirando vísceras) e pergunta o que se pode afirmar sobre o processo.\n\nContexto: para os egípcios, o corpo precisava ser preservado para a **vida após a morte**. Para isso, abriam o cadáver, retiravam órgãos e os tratavam. Resultado: acumularam **noções de anatomia** e de tratamentos.\n\n- A: errada, a mumificação era praticada pela elite (faraó e família eram mumificados, não cremados).\n- B: errada, o processo é muito anterior a qualquer epidemia de varíola.\n- **C: certa.** Religião (vida após a morte) + anatomia + saúde.\n- D: errada, não havia essa crítica da sociedade em geral.\n- E: errada, havia embalsamadores especializados, não era obrigação da família.\n\nGabarito oficial: C. ✔ Bateu."
+  },
+  {
+   "prova": "2023-2",
+   "n": 25,
+   "resolucao": "Questão de **Idade Média tardia** com texto de apoio sobre a crise do século XIV. Estratégia: confira cada alternativa linha por linha contra o texto.\n\nO que o texto diz: de **1314 a 1319**, chuvas arruinaram plantações, o preço dos alimentos (principalmente trigo) subiu, a fome voltou. Em **Flandres**, cerca de **10%** da população morreu de fome. Em **Winchester**, as mortes em **1317** foram o **dobro** das de 1310. No **Baixo Reno (França)**, um cronista relatou que as pessoas chegaram a comer **animais mortos por doenças**, o que teria dado origem a **pestes epidêmicas**.\n\n- A: contradiz o texto, que fala de chuvas fortes e fome, não de aumento da produção.\n- B: contradiz o texto, que diz que o início do século XIV marcou o **começo** dos períodos de má colheita.\n- C: contradiz o texto, as mortes em Winchester dobraram.\n- D: diz “um quinto”, mas o texto diz **10%** (um décimo), e atribui a morte à fome, não ao preço.\n- **E: certa.** Falta de alimento levou a comer animais doentes e a epidemias.\n\nGabarito oficial: E. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Em um sítio arqueológico foram encontrados restos de sementes cultivadas, foices de pedra polida, vasos de cerâmica para guardar grãos e as fundações de casas agrupadas em um povoado. Esses vestígios são característicos de",
+   "alternativas": [
+    "grupos nômades do Paleolítico, que viviam da caça e da coleta e usavam pedra lascada.",
+    "comunidades do Neolítico, que passaram a plantar, criar animais e se fixar em um lugar.",
+    "uma cidade da Idade Média, com burgos e corporações de ofício.",
+    "um império da Antiguidade, com escrita e exército profissional.",
+    "uma sociedade industrial, com máquinas e trabalho assalariado."
+   ],
+   "gabarito": "B",
+   "resolucao": "Sementes cultivadas, pedra **polida**, cerâmica para armazenar e casas fixas mostram **agricultura e sedentarização**: é a Revolução Neolítica (~12 mil anos atrás). Paleolítico (A) seria pedra lascada e vida nômade. Os itens C, D e E são de períodos muito posteriores e teriam outros vestígios (escrita, moeda, máquinas).",
+   "figura": null
+  },
+  {
+   "enunciado": "Na Atenas do século V a.C., as leis eram votadas em assembleia, na qual cada cidadão podia falar e votar sem intermediários. Sobre essa democracia, é correto afirmar que",
+   "alternativas": [
+    "todos os habitantes da pólis participavam, incluindo mulheres, escravos e estrangeiros.",
+    "os cidadãos elegiam representantes que votavam as leis em seu nome, como nas democracias atuais.",
+    "foi criada por Esparta e imposta às demais cidades gregas.",
+    "o voto era obrigatório e decidido por sorteio entre os moradores da cidade.",
+    "era direta, porém restrita aos homens livres, adultos e nascidos em Atenas, o que excluía a maioria da população."
+   ],
+   "gabarito": "E",
+   "resolucao": "A democracia ateniense era **direta** (sem representantes, o que descarta B). Mas “cidadão” era só homem livre, adulto e filho de atenienses; mulheres, escravos e estrangeiros ficavam de fora (descarta A). Esparta era militarista e não criou a democracia (C). D inventa regra que não existia.",
+   "figura": null
+  },
+  {
+   "enunciado": "O historiador grego Heródoto afirmou que o Egito era “uma dádiva do Nilo”. Essa frase pode ser explicada porque",
+   "alternativas": [
+    "as cheias anuais do rio depositavam limo fértil nas margens, permitindo a agricultura em meio ao deserto.",
+    "o Nilo corta o continente europeu e ligava o Egito aos povos gregos e romanos.",
+    "o rio era utilizado para gerar energia elétrica nas cidades egípcias.",
+    "as águas do Nilo eram sagradas e, por isso, os egípcios não podiam usá-las para irrigação.",
+    "o Nilo impedia as invasões estrangeiras por ser impossível de atravessar."
+   ],
+   "gabarito": "A",
+   "resolucao": "O Nilo cheia todo ano e, ao baixar, deixa uma camada de limo muito fértil. Isso viabilizava a agricultura numa região desértica e sustentava a economia e o Estado egípcio. B é falsa (o Nilo está na África). C é anacronismo. D inverte o fato, já que a irrigação era essencial. E exagera e não explica a frase.",
+   "figura": null
+  },
+  {
+   "enunciado": "Em um feudo da Europa medieval, um camponês cultivava terras que pertenciam a um senhor. Ele entregava ao senhor parte do que colhia e trabalhava alguns dias da semana nas terras dele, e em troca recebia proteção. Sobre a situação desse trabalhador, é correto afirmar que ele era",
+   "alternativas": [
+    "um escravo, pois podia ser vendido como mercadoria em qualquer mercado.",
+    "um trabalhador assalariado, que recebia moeda e podia mudar de patrão quando quisesse.",
+    "um comerciante livre, que vendia seus produtos nas feiras sem pagar nada ao senhor.",
+    "um cidadão com direito a voto nas decisões do reino.",
+    "um servo, ligado à terra e com obrigações para com o senhor, em troca de proteção."
+   ],
+   "gabarito": "E",
+   "resolucao": "O servo não é escravo (A): não era vendido como coisa. Também não era assalariado (B), pois quase não havia moeda no feudalismo. Era **preso à terra**, devia parte da produção e dias de trabalho e recebia proteção. Comércio livre (C) e voto (D) não combinam com a sociedade feudal.",
+   "figura": null
+  },
+  {
+   "enunciado": "A partir do século XI, a Europa viu crescer as cidades (burgos), as feiras e as corporações de ofício, num processo chamado renascimento urbano e comercial. Um dos fatores que ajudam a explicar esse processo foi",
+   "alternativas": [
+    "a Peste Negra, que eliminou a população do campo e obrigou todos a migrarem para as cidades.",
+    "o fim do feudalismo, que já estava totalmente extinto no século X.",
+    "o aumento da produtividade agrícola, com novas técnicas como a rotação trienal, que gerou excedentes e liberou gente para o artesanato e o comércio.",
+    "a queda do Império Romano do Ocidente, em 476, que acabou de imediato com a economia rural.",
+    "o domínio muçulmano da Ibéria, que proibiu o comércio no Mediterrâneo."
+   ],
+   "gabarito": "C",
+   "resolucao": "Com novas técnicas (rotação trienal, arado pesado), o campo passou a produzir mais e a sustentar mais gente. A sobra de alimentos permitiu que parte da população vivesse de ofícios e comércio nas cidades. A Peste Negra é do século XIV, bem depois (A). O feudalismo ainda existia (B). 476 é muito anterior (D). E é falsa, o comércio com o mundo muçulmano foi importante.",
+   "figura": null
+  }
+ ]
+}

@@ -1,0 +1,182 @@
+{
+ "id": "fis-eletricidade",
+ "disciplina": "Física",
+ "tema": "Eletrodinâmica",
+ "titulo": "Eletricidade: corrente, tensão, potência",
+ "semana": 4,
+ "requisitos": [
+  "fis-energia"
+ ],
+ "minutos": 35,
+ "por_que": "Eletrodinâmica caiu em 9 questões nas 15 provas (mais 1 de eletrostática). O padrão: `P = U·i` com dados de uma placa ou bateria, unidades (A·h é carga, kWh é energia), Ohm e associação de resistores.",
+ "secoes": [
+  {
+   "titulo": "1. As grandezas e suas unidades",
+   "texto": "- **Corrente elétrica (i)**: quantidade de carga que passa por segundo. Unidade: ampère (A) = coulomb por segundo (C/s).\n- **Tensão (U), ddp ou potencial elétrico**: a \"força\" que empurra a corrente. Unidade: volt (V).\n- **Resistência (R)**: a dificuldade que o material impõe à corrente. Unidade: ohm (Ω).\n- **Carga elétrica (Q)**: `Q = i × Δt`. Unidade: coulomb (C).\n\nAs pegadinhas de unidade caíram duas vezes:\n\n- **A·h (ampère-hora) é unidade de carga elétrica** (2022/2): `A·h = (C/s) × s = C`. Uma bateria de 3 Ah guarda `3 × 3 600 = 10 800 C`. Bateria de celular em mAh (miliampère-hora) é carga.\n- **kWh é unidade de energia**, não de carga (2023/2).\n\nCorrente só passa se houver **diferença de potencial** entre dois pontos. Passarinho pousado num fio de alta tensão não leva choque porque os dois pés estão no mesmo potencial; o perigo é tocar dois pontos de potenciais diferentes (2023/1)."
+  },
+  {
+   "titulo": "2. Potência elétrica: P = U · i (o que mais cai)",
+   "texto": "`P = U × i` e `E = P × Δt`.\n\nCom P em W, U em V, i em A. Daí sai tudo:\n\n- **Placa de dados** (2026/1): 127 V e 1 270 W → `i = P ÷ U = 1 270 ÷ 127 = 10 A`. Os 60 Hz são a frequência da corrente alternada da rede; não é a rotação do motor. As temperaturas na placa são dos modos de uso do aparelho.\n- **Energia da bateria** (2025/2): `E = U × i × t`. Uma bateria de 5 V e 3 Ah guarda `5 × 3 = 15 Wh`. 3 000 mAh = 3 Ah.\n\nWh é energia, como o kWh da lição de Energia. Para a conta de luz: `energia (kWh) = potência (kW) × tempo (h)`."
+  },
+  {
+   "titulo": "3. Lei de Ohm e gráfico U × i",
+   "texto": "`U = R × i`, ou seja, `R = U ÷ i`.\n\nPara um resistor comum (ôhmico) o gráfico de U contra i é uma **reta que sai da origem**. O **coeficiente angular** (a inclinação) é a resistência (2017/1): se a reta passa por (i = 4 A, U = 20 V), então R = 20 ÷ 4 = 5 Ω.\n\nCombinando com `P = U·i`: `P = R·i²` e `P = U² ÷ R`. Para uma mesma tensão, quanto **menor** a resistência, **maior** a potência (por isso o chuveiro esquenta mais na posição \"inverno\").\n\nO calor gerado pela corrente num resistor é o efeito Joule. É o que faz funcionar chuveiro, ferro e forno elétrico."
+  },
+  {
+   "titulo": "4. Associação de resistores",
+   "texto": "**Em série** (um depois do outro, a corrente é a mesma): `R_eq = R₁ + R₂ + ...`\n\n**Em paralelo** (ligados nos mesmos dois pontos, a tensão é a mesma): `1 ÷ R_eq = 1 ÷ R₁ + 1 ÷ R₂ + ...`\n\nPara dois resistores em paralelo: `R_eq = (R₁ × R₂) ÷ (R₁ + R₂)`. Dois iguais em paralelo dão metade de um (12 Ω ∥ 12 Ω = 6 Ω). O equivalente em paralelo é **menor** que o menor deles.\n\nNas questões (2019/1): ache o R_eq do circuito, depois `i = U ÷ R_eq`. Exemplo: 6 Ω e 3 Ω em paralelo → `R_eq = 18 ÷ 9 = 2 Ω`; com 12 V, `i = 12 ÷ 2 = 6 A`."
+  },
+  {
+   "titulo": "5. Componentes e eletrostática (curtos)",
+   "texto": "- **Diodo e LED** (2017/2): conduzem corrente em **um só sentido**. Polarizado diretamente, o LED acende.\n- **Eletrostática**: cargas de mesmo sinal se repelem; de sinais opostos se atraem. Um **campo elétrico** (criado por uma diferença de potencial) empurra cargas. Nas baterias, os íons se movem por causa do campo elétrico (2025/2).\n- Transmissão de dados combina corrente elétrica e ondas eletromagnéticas (2022/2): o assunto é eletricidade e eletromagnetismo."
+  }
+ ],
+ "decorar": [
+  "`i = Q ÷ Δt`; A = C/s; `Q = i·Δt`",
+  "A·h é carga (1 Ah = 3 600 C); kWh e Wh são energia",
+  "`P = U·i`; `E = P·Δt`; `E = U·i·t`",
+  "`U = R·i`; `P = R·i² = U²/R`",
+  "Série: soma de R, mesma corrente; paralelo: `1/Req = Σ 1/R`, mesma tensão",
+  "Dois R iguais em paralelo: R/2",
+  "Gráfico U × i: inclinação = R",
+  "Corrente só circula com diferença de potencial"
+ ],
+ "pegadinhas": [
+  "Chamar Ah ou kWh de unidade de \"potência\" ou \"corrente\". Ah é carga; kWh é energia.",
+  "Esquecer de converter mAh em Ah antes de usar `E = U·i·t`.",
+  "Em paralelo, somar as resistências em vez de somar os inversos.",
+  "Esquecer de inverter no final: `1/R_eq = 1/R₁ + 1/R₂`; o resultado é o inverso.",
+  "Achar que 60 Hz da rede é velocidade de rotação ou que 127 V é potência.",
+  "Achar que o passarinho no fio precisa estar isolado. O que importa é a diferença de potencial entre os pontos tocados."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-1",
+   "n": 7,
+   "resolucao": "A placa indica 127 V, 1 270 W e 60 Hz.\n\nA) `P = U·i` → `i = 1 270 ÷ 127 = 10 A`. **Certo**.\n\nB) 127 V é tensão, não potência. C) 1 270 W é potência, não ddp. D) 60 Hz é a frequência da rede (corrente alternada), não a rotação do motor. E) as temperaturas da placa (25 °C a 150 °C) são as dos modos de uso do aparelho (Frio a Alta), não a temperatura ambiente.\n\nGabarito oficial: A. ✔ Bateu."
+  },
+  {
+   "prova": "2025-2",
+   "n": 17,
+   "resolucao": "O texto diz que gerar uma imagem consome tanta energia quanto carregar completamente um celular. A bateria tem 3 000 mAh e opera em 5,0 V.\n\n3 000 mAh = 3 Ah.\n\n`E = U · i · t = 5,0 V × 3 Ah = 15 Wh`.\n\nAs outras alternativas (0,000 000 15; 0,000 15; 15 000; 15 000 000) são erros de potência de 10 ao converter mAh ou usar mili/kilo.\n\nGabarito oficial: C. ✔ Bateu."
+  },
+  {
+   "prova": "2022-2",
+   "n": 39,
+   "resolucao": "A unidade é A·h: ampère (C/s) vezes hora (s).\n\n`A × h = (C/s) × s = C`, ou seja, **coulomb**, a unidade de carga elétrica. Isso faz sentido: capacidade de bateria é \"quanta carga ela guarda\" (`Q = i·Δt`).\n\nCorrente seria A; potencial, V; resistência, Ω; capacitância, F.\n\nGabarito oficial: A. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Um chuveiro elétrico tem potência de 4 400 W e é ligado a uma tomada de 220 V. A corrente elétrica que passa pelo chuveiro é de",
+   "alternativas": [
+    "0,05 A",
+    "2,0 A",
+    "10 A",
+    "200 A",
+    "20 A"
+   ],
+   "gabarito": "E",
+   "resolucao": "`i = P ÷ U = 4 400 ÷ 220 = 20 A`. 0,05 A vem de dividir U por P (inverter).",
+   "figura": null
+  },
+  {
+   "enunciado": "A bateria de um celular tem capacidade de 2 000 mAh. A carga elétrica máxima que essa bateria pode armazenar, em coulombs, é de",
+   "alternativas": [
+    "2 000 C",
+    "3 600 C",
+    "7 200 C",
+    "120 C",
+    "7,2 × 10⁶ C"
+   ],
+   "gabarito": "C",
+   "resolucao": "2 000 mAh = 2 Ah. `Q = 2 × 3 600 s = 7 200 C`. 7,2 × 10⁶ C é o que sai de usar 2 000 Ah (esquecer o \"mili\").",
+   "figura": null
+  },
+  {
+   "enunciado": "Dois resistores, de 6 Ω e 3 Ω, são associados em paralelo e ligados a uma fonte de 12 V. A corrente total fornecida pela fonte é de",
+   "alternativas": [
+    "6 A",
+    "1,3 A",
+    "4 A",
+    "2 A",
+    "24 A"
+   ],
+   "gabarito": "A",
+   "resolucao": "`R_eq = (6 × 3) ÷ (6 + 3) = 18 ÷ 9 = 2 Ω`. `i = U ÷ R_eq = 12 ÷ 2 = 6 A`. 1,3 A vem de tratar como série (R = 9 Ω → 12 ÷ 9).",
+   "figura": null
+  },
+  {
+   "enunciado": "Um ferro elétrico de 1 200 W fica ligado 30 minutos por dia durante 30 dias. Se o kWh custa R$ 0,80, o custo mensal de energia desse ferro é de",
+   "alternativas": [
+    "R$ 0,48",
+    "R$ 28,80",
+    "R$ 18,00",
+    "R$ 14,40",
+    "R$ 14 400,00"
+   ],
+   "gabarito": "D",
+   "resolucao": "1 200 W = 1,2 kW; 30 min = 0,5 h. Por dia: `1,2 × 0,5 = 0,6 kWh`. Em 30 dias: `0,6 × 30 = 18 kWh`. Custo: `18 × 0,80 = R$ 14,40`. R$ 18,00 é a energia sem multiplicar pelo preço; R$ 28,80 seria 1 h por dia.",
+   "figura": null
+  },
+  {
+   "enunciado": "O gráfico mostra a tensão aplicada em um resistor em função da corrente que passa por ele: uma reta que sai da origem e passa pelo ponto (i = 4 A, U = 20 V). A resistência desse resistor é de",
+   "alternativas": [
+    "0,2 Ω",
+    "5 Ω",
+    "20 Ω",
+    "80 Ω",
+    "25 Ω"
+   ],
+   "gabarito": "B",
+   "resolucao": "`R = U ÷ i = 20 ÷ 4 = 5 Ω` (é a inclinação da reta). 0,2 Ω vem de dividir i por U; 80 Ω é o produto 20 × 4, que não é nenhuma lei.",
+   "figura": {
+    "lib": "jsxgraph",
+    "bbox": [
+     -1,
+     25,
+     6,
+     -4
+    ],
+    "eixos": true,
+    "altura": 260,
+    "elementos": [
+     {
+      "t": "funcao",
+      "expr": "5*x",
+      "dominio": [
+       0,
+       5
+      ],
+      "rotulo": "U"
+     },
+     {
+      "t": "ponto",
+      "id": "P",
+      "xy": [
+       4,
+       20
+      ],
+      "rotulo": "(4 A; 20 V)"
+     },
+     {
+      "t": "texto",
+      "xy": [
+       0.2,
+       24
+      ],
+      "txt": "U (V)"
+     },
+     {
+      "t": "texto",
+      "xy": [
+       5.1,
+       -2
+      ],
+      "txt": "i (A)"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "id": "por-literatura",
+ "disciplina": "Português",
+ "tema": "Literatura",
+ "titulo": "Literatura: o que cai",
+ "semana": 8,
+ "requisitos": ["por-interpretacao"],
+ "minutos": 25,
+ "por_que": "Literatura teve 6 questões nas 15 provas, todas entre 2017-1 e 2019-1 (Simbolismo, Parnasianismo, Machado de Assis, Modernismo, Graciliano Ramos); variação linguística teve mais uma. Nas provas recentes o tema sumiu do bloco de Português, então a lição é curta: o suficiente para reconhecer escola e estilo se voltar.",
+ "secoes": [
+  {
+   "titulo": "1. Como a Fatec cobra literatura",
+   "texto": "Quase nunca é decoreba de data ou de lista de obras. A prova traz **um trecho** (poema ou prosa) e pergunta qual escola ou conceito combina com ele, ou o que o texto retrata. Por isso o trabalho é o mesmo da interpretação: ler o trecho com atenção, aliado a **um mapa mental das escolas**.\n\nMapa que resolve quase tudo:\n- **Romantismo** (século XIX): emoção, subjetividade, idealização da mulher e da natureza, nacionalismo, saudade da pátria. Gonçalves Dias: “Minha terra tem palmeiras, onde canta o Sabiá”.\n- **Realismo** (fim do século XIX): observação da realidade, crítica social, ironia, análise psicológica. Machado de Assis.\n- **Parnasianismo**: arte pela arte, rigor formal, métrica e rima perfeitas, descrição objetiva. Olavo Bilac. Soneto: 2 quartetos + 2 tercetos (14 versos).\n- **Simbolismo**: musicalidade, sugestão em vez de descrição, aliteração e assonância, subjetividade e mistério. Camilo Pessanha (poeta português).\n- **Modernismo** (a partir de 1922, Semana de Arte Moderna): verso livre, linguagem coloquial, temas nacionais, crítica social. Drummond, Graciliano Ramos."
+  },
+  {
+   "titulo": "2. Machado de Assis (já caiu e é o mais provável)",
+   "texto": "Machado de Assis é o grande nome do **Realismo brasileiro**. Duas coisas para saber:\n\n- **Romance psicológico**: o interesse está no que se passa dentro das personagens, nos motivos íntimos de suas escolhas, mais do que na ação externa. É o caso de *Dom Casmurro* e de *Memorial de Aires* (o último romance dele, de 1908, ano da morte do autor). *Memorial de Aires* é escrito em forma de diário.\n- **Crítica irônica da sociedade**: a elite brasileira do século XIX aparece retratada com ironia, hipocrisia e futilidade, quase sempre com o tom elegante de quem finge elogiar.\n\nPara a prova: se a alternativa diz que Machado **não** tem ironia, ou que suas personagens apenas realizam seus objetivos sem conflito íntimo, desconfie. A trilogia realista clássica é formada por *Memórias Póstumas de Brás Cubas*, *Quincas Borba* e *Dom Casmurro*."
+  },
+  {
+   "titulo": "3. Modernismo: o que ler no texto",
+   "texto": "**Segunda geração modernista (1930-1945)**: foco no Brasil real, com prosa regionalista e poesia social e reflexiva.\n\n- **Graciliano Ramos, *Vidas Secas***: a seca, a miséria e a falta de oportunidades no sertão nordestino, em linguagem enxuta e seca como o ambiente. Fabiano e sinha Vitória sonham em ter os meninos na escola, como acesso à oportunidade e à dignidade.\n- **Carlos Drummond de Andrade, *A Flor e a Náusea***: o eu lírico, preso à sua classe e a um tempo difícil (\"o tempo é ainda de fezes, maus poemas\"), vê uma **flor furar o asfalto**. A flor é símbolo de **esperança**: a possibilidade de mudança em meio ao tédio, ao nojo e ao ódio da cidade.\n\nA leitura é de interpretação: ache a **imagem central** (flor no asfalto, seca no sertão) e diga o sentimento ou a crítica que ela carrega."
+  },
+  {
+   "titulo": "4. Variação linguística (cai com Literatura)",
+   "texto": "**Variação linguística** é o fato de a língua mudar conforme a região, o grupo social, a época e a situação. Não existe \"fala errada\" em si; existe **fala adequada ou não à situação**.\n\n- **Norma culta**: a variedade da escrita formal, de documentos, redação e concursos.\n- **Registro informal ou coloquial**: fala do dia a dia, com marcas de oralidade (\"pra\", \"tá\", \"a gente\"), perfeitamente legítimo entre amigos ou num texto que quer representar uma fala.\n- Um texto pode usar linguagem informal **de propósito**, como recurso expressivo, por exemplo ao dar voz a quem fala assim para denunciar a fome e a pobreza (como no diário de Carolina Maria de Jesus).\n\nNa prova, as alternativas que condenam a variedade como \"errada\" ou \"de gente sem estudo\" costumam ser falsas; a certa fala em **adequação ao contexto** ou em **intenção do autor**."
+  }
+ ],
+ "decorar": [
+  "Romantismo = emoção, subjetividade, nacionalismo, saudade.",
+  "Realismo (Machado) = ironia, crítica social, análise psicológica; Dom Casmurro e Memorial de Aires = romance psicológico.",
+  "Parnasianismo = arte pela arte, métrica e rima perfeitas (Bilac); soneto = 14 versos (2 quartetos + 2 tercetos).",
+  "Simbolismo = musicalidade, aliteração, assonância, sugestão (Camilo Pessanha).",
+  "Modernismo começa em 1922 (Semana de Arte Moderna); 2ª geração = Graciliano e Drummond.",
+  "A flor que fura o asfalto = esperança; Vidas Secas = seca, miséria e sonho de escola.",
+  "Variação linguística: não há fala errada, há fala adequada ou não à situação."
+ ],
+ "pegadinhas": [
+  "Confundir Parnasianismo (objetividade, forma) com Romantismo (emoção): olhe se o trecho descreve com rigor ou desabafa.",
+  "Achar que Machado é só ironia leve: nas questões, \"romance psicológico\" é a chave.",
+  "Responder só pela palavra do trecho (flor) sem ler o sentido (esperança).",
+  "Tomar linguagem informal por \"erro\" quando o texto a usa de propósito.",
+  "Lembrar o autor mas esquecer a escola: Camilo Pessanha é Simbolismo, Bilac é Parnasianismo."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2019-1",
+   "n": 54,
+   "resolucao": "O texto-base fala da crise de sentido da educação e, para o Brasil dos anos 1950, da pressão das camadas médias por escola, ligada à ideia de cidadania. Pede-se o trecho literário que retrata **situação semelhante**, isto é, o desejo de acesso à escola como oportunidade.\n\n- (A) Clarimundo, homem do relógio, estudioso: personagem culto, nada de escola.\n- (B) Colégio e saúde de Luisinha: escola, mas o foco é a doença.\n- (C) Fabiano e sinha Vitória: sonham ir para o sul, com os \"meninos em escolas, aprendendo coisas difíceis e necessárias\". Escola como esperança de ascensão. Bate.\n- (D) Narrador que reúne amigos para um projeto de letras e jornal: nada sobre acesso à escola.\n- (E) O menino que perde a folia na escola: disciplina e relação com o mestre.\n\n**Gabarito C**, igual ao CSV."
+  },
+  {
+   "prova": "2018-2",
+   "n": 54,
+   "resolucao": "Trecho de *A Flor e a Náusea*, de Drummond. O eu lírico caminha \"preso à minha classe\" por uma rua cinzenta e vê uma flor que **fura o asfalto**, \"feia\", mas \"realmente uma flor\". Pede-se o conceito adequado.\n\n- (A) Disciplina: não há obediência.\n- (B) Dissimulação: o eu lírico não esconde a reação; ele a declara.\n- (C) **Esperança**: a flor que nasce onde parecia impossível mostra que a mudança é possível. Bate.\n- (D) Nostalgia: não há saudade da terra natal.\n- (E) Resignação: ele se revolta, não se conforma.\n\n**Gabarito C**, igual ao CSV."
+  },
+  {
+   "prova": "2018-1",
+   "n": 53,
+   "resolucao": "O enunciado informa que *Memorial de Aires* (1908) é o último romance de Machado, em forma de diário, sobre os relacionamentos amorosos e a futilidade da elite, e traz o trecho da \"Advertência\". Pede-se o que é **correto**:\n\n- (A) *O Alienista* e *Memorial de Aires* sem ironia: falso, a ironia é marca de Machado.\n- (B) Protagonistas que atingem seus objetivos: não é a característica da obra.\n- (C) *Memórias Póstumas* tem narrador em 1ª pessoa (Brás Cubas), não em 3ª.\n- (D) *Iaiá Garcia* e *Memorial de Aires* não compõem a trilogia realista (*Memórias Póstumas*, *Quincas Borba* e *Dom Casmurro*).\n- (E) *Dom Casmurro* e *Memorial de Aires* seguem a tradição do **romance psicológico**, mergulhando nos motivos íntimos das personagens. Correta.\n\n**Gabarito E**, igual ao CSV."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Leia os versos de Gonçalves Dias.\n\n“Minha terra tem palmeiras,\nOnde canta o Sabiá;\nAs aves, que aqui gorjeiam,\nNão gorjeiam como lá.”\n\nOs versos são característicos do Romantismo porque",
+   "alternativas": [
+    "descrevem de forma impessoal e objetiva a realidade social do país.",
+    "exaltam a terra natal com emoção e saudade, em tom subjetivo.",
+    "buscam a perfeição formal e a impessoalidade, sem expressar sentimentos.",
+    "criticam cientificamente os problemas da sociedade brasileira.",
+    "rompem com a métrica e usam linguagem coloquial própria do Modernismo."
+   ],
+   "gabarito": "B",
+   "resolucao": "Saudade da pátria, exaltação da natureza e subjetividade (\"minha terra\", \"lá\" e \"aqui\") são marcas do **Romantismo**. A (objetividade) e C (impessoalidade e perfeição formal) seriam Parnasianismo; D, Realismo/Naturalismo; E, Modernismo.",
+   "figura": null
+  },
+  {
+   "enunciado": "Machado de Assis é considerado o grande nome do Realismo brasileiro. Uma característica de sua obra que justifica essa classificação é",
+   "alternativas": [
+    "a idealização do indígena como herói nacional.",
+    "o culto à forma e a defesa da arte pela arte.",
+    "o uso de verso livre e de linguagem coloquial.",
+    "a observação crítica da sociedade, com ironia e análise psicológica das personagens.",
+    "a fuga para o mundo dos sonhos, da morte e do misticismo."
+   ],
+   "gabarito": "D",
+   "resolucao": "Realismo = observação da realidade, crítica social, ironia e análise psicológica: (D). A (idealização do índio) é Romantismo; B é Parnasianismo; C, Modernismo; E lembra o Simbolismo.",
+   "figura": null
+  },
+  {
+   "enunciado": "O romance *Vidas Secas* (1938), de Graciliano Ramos, retrata",
+   "alternativas": [
+    "a miséria e a falta de oportunidades de uma família de retirantes do sertão nordestino, em linguagem enxuta.",
+    "o cotidiano da elite carioca do século XIX, entre bailes e salões.",
+    "a vida na corte de D. João VI no Rio de Janeiro.",
+    "o fascínio de um poeta pelo mundo das imagens e do mistério.",
+    "a exaltação de um herói indígena que defende a mata."
+   ],
+   "gabarito": "A",
+   "resolucao": "*Vidas Secas* é obra da 2ª geração modernista: retrata a seca, a miséria e a falta de acesso a direitos de uma família sertaneja, em linguagem seca como o ambiente. As demais alternativas descrevem outros temas e escolas.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um poeta escreve um soneto com métrica e rimas rigorosas, descrição objetiva e preocupação com a perfeição da forma, em nome da “arte pela arte”. Esse conjunto de características define o",
+   "alternativas": [
+    "Romantismo.",
+    "Simbolismo.",
+    "Modernismo.",
+    "Realismo.",
+    "Parnasianismo."
+   ],
+   "gabarito": "E",
+   "resolucao": "Forma rigorosa, objetividade e \"arte pela arte\" são o núcleo do **Parnasianismo** (por exemplo, Olavo Bilac). O Romantismo é emoção; o Simbolismo, sugestão e musicalidade; o Modernismo, liberdade formal; o Realismo, crítica social.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia a fala.\n\n“Vamo lá, que o ônibus já tá chegando.”\n\nSobre a variedade linguística empregada, é correto afirmar que",
+   "alternativas": [
+    "está errada e deve ser evitada em qualquer situação.",
+    "é usada apenas por pessoas sem escolaridade.",
+    "é uma variedade informal, adequada a situações descontraídas.",
+    "é a norma culta exigida em textos de redação.",
+    "é uma linguagem técnica, própria do trabalho."
+   ],
+   "gabarito": "C",
+   "resolucao": "A fala usa marcas de oralidade (\"vamo\", \"tá\"): **registro informal**, legítimo entre amigos ou em conversas descontraídas. Não é \"errada\" por si só (A), não depende de escolaridade (B), não é a norma culta da redação (D) e nem é técnica (E).",
+   "figura": null
+  }
+ ]
+}

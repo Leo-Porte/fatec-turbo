@@ -1,0 +1,140 @@
+{
+ "id": "fis-energia",
+ "disciplina": "Física",
+ "tema": "Energia, trabalho e potência",
+ "titulo": "Energia, trabalho, potência e dinâmica",
+ "semana": 3,
+ "requisitos": [
+  "fis-cinematica"
+ ],
+ "minutos": 40,
+ "por_que": "Esse bloco reúne 22 questões nas 15 provas: energia e potência (11, quase sempre com kWh, Wh e prefixos), leis de Newton e quantidade de movimento (6), hidrostática (3) e gravitação (2). O que mais cai é conta de energia com unidade.",
+ "secoes": [
+  {
+   "titulo": "1. Energia, potência e as unidades (o que mais cai)",
+   "texto": "**Potência é a rapidez com que a energia é gasta ou transformada**. Um aparelho de 100 W gasta 100 joules a cada segundo.\n\n- `P = E ÷ Δt` e `E = P × Δt`\n- Unidade no SI: watt (W) = joule por segundo (J/s). Energia: joule (J).\n- **kWh e Wh são unidades de energia**, não de potência: `1 kWh = 1 000 W × 3 600 s = 3,6 × 10⁶ J`.\n\nPrefixos (cai o tempo todo): k = 10³, M = 10⁶, G = 10⁹.\n\nExemplos que já caíram:\n\n- 2024/1: o texto diz 50 kWh numa hora. `P = 50 kWh ÷ 1 h = 50 kW = 50 000 W`.\n- 2025/2: 450 MWh gastos por uma cidade e 50 kWh por habitante. 450 MWh = 450 000 kWh, e `450 000 ÷ 50 = 9 000` habitantes.\n- 2018/2: uma sonda de 300 W funciona por 10 anos. 10 anos ≈ 3,15 × 10⁸ s, então `E = 300 × 3,15 × 10⁸ ≈ 9,5 × 10¹⁰ J`.\n\nRegra prática: converta **tudo para o SI** (W, s, J) antes de multiplicar, ou então fique todo em kW e h. Misturar é o erro clássico."
+  },
+  {
+   "titulo": "2. Energia cinética e trabalho",
+   "texto": "**Energia cinética** é a energia do movimento: `Ec = m·v² ÷ 2`, com m em kg e **v em m/s**.\n\nO v está ao quadrado. Dobrar a velocidade multiplica a energia por 4.\n\nExemplo (2024/2): moto + piloto de 200 kg a 250 m/s → `Ec = 200 × 250² ÷ 2 = 100 × 62 500 = 6,25 × 10⁶ J`.\n\n**Trabalho** de uma força é a energia que ela transfere: `W = F × d` (força na direção do movimento). Dois jeitos de calcular que caem:\n\n- **Teorema trabalho–energia**: o trabalho da força resultante é a variação da energia cinética, `W = ΔEc`. Na 2026/2, uma bola de 0,42 kg sai do repouso e chega a 31 m/s: `W = ½ × 0,42 × 31² ≈ 202 J`.\n- **Área sob o gráfico F × d** é o trabalho (2017/2, gráfico tensão × deformação)."
+  },
+  {
+   "titulo": "3. Rendimento e tipos de energia",
+   "texto": "**Rendimento** = energia útil ÷ energia total gasta. Um motor que recebe 1 000 J e entrega 250 J de energia útil tem rendimento de 25%. O resto virou calor.\n\nOutras energias que aparecem:\n\n- **Potencial gravitacional**: `Ep = m·g·h` (altura h, g ≈ 10 m/s²).\n- **Potencial elástica**: guardada em mola ou corda esticada. Na corda elástica da 2024/1, no ponto de **máxima deflexão** a velocidade é zero (Ec mínima) e a energia elástica é máxima.\n- **Resiliência** (2018/2): energia máxima que o material absorve ao se deformar e devolve ao voltar. Mais resiliência = acumula mais energia elástica.\n\nSem atrito, a energia mecânica se **conserva**: o que se perde de uma forma aparece em outra."
+  },
+  {
+   "titulo": "4. Leis de Newton, peso e quantidade de movimento",
+   "texto": "- **1ª lei (inércia)**: sem força resultante, o corpo continua parado ou em linha reta e velocidade constante.\n- **2ª lei**: `F = m·a`. Força resultante é massa vezes aceleração.\n- **3ª lei (ação e reação)**: se A empurra B, B empurra A com a mesma força, em sentido oposto. As duas forças atuam em **corpos diferentes**, por isso não se anulam. É o que faz o foguete subir: ele joga os gases para baixo e os gases o empurram para cima (2022/2).\n- **Peso**: `P = m·g`.\n- **Atrito**: depende do contato entre as superfícies. Ranhuras no pneu (2026/1) escoam a água e mantêm o atrito com a pista, evitando a aquaplanagem.\n- **Resistência do ar** depende da densidade do ar: em grande altitude o ar é rarefeito e a resistência é menor (2026/2).\n\n**Quantidade de movimento**: `Q = m·v`, em kg·m/s, com v em m/s. Caiu duas vezes e nas duas o passo-chave era converter km/h em m/s (720 km/h = 200 m/s; 11 km/h ≈ 3,05 m/s).\n\n**Força centrípeta** (aponta para o centro da curva): `Fc = m·v² ÷ R`."
+  },
+  {
+   "titulo": "5. Hidrostática: pressão, empuxo e vasos comunicantes",
+   "texto": "- **Pressão** = força ÷ área: `p = F ÷ A`. Unidades úteis: 1 bar = 10⁵ Pa; 1 atm ≈ 10⁵ Pa. Na 2023/2, 5 bar = 5,0 × 10⁵ Pa.\n- **Vasos comunicantes**: um líquido em recipientes ligados atinge o **mesmo nível** nos dois. É o princípio das eclusas do Canal do Panamá (2024/2).\n- **Empuxo**: a força para cima que o líquido faz num corpo mergulhado, `E = ρ·V·g` (ρ do líquido, V do volume deslocado). Se o corpo **flutua em repouso**, empuxo = peso. Na 2019/1, navio de 4,5 × 10⁶ kg parado: `E = m·g = 4,5 × 10⁶ × 10 = 4,5 × 10⁷ N`."
+  },
+  {
+   "titulo": "6. Gravitação",
+   "texto": "A força de atração entre duas massas é `F = G·M·m ÷ d²`.\n\n- Aumentar a distância ao dobro divide a força por 4 (d fica ao quadrado).\n- Use **d em metros**: 3,5 × 10⁵ km = 3,5 × 10⁸ m (2018/2).\n\nNa 2023/1 (telescópios Hubble e James Webb) bastava comparar as altitudes: 1,5 milhão de km ÷ 530 km ≈ 2 800, ou seja, \"cerca de três mil vezes\"."
+  }
+ ],
+ "decorar": [
+  "`P = E ÷ Δt`; `E = P·Δt`; kWh e Wh são energia",
+  "1 kWh = 3,6 × 10⁶ J; k = 10³, M = 10⁶, G = 10⁹",
+  "`Ec = m·v² ÷ 2` (v em m/s)",
+  "`W = F·d`; `W = ΔEc`; área sob F × d = trabalho",
+  "Rendimento = energia útil ÷ energia total",
+  "`F = m·a`; `P = m·g`; ação e reação atuam em corpos diferentes",
+  "`Q = m·v`; `Fc = m·v² ÷ R`",
+  "`p = F ÷ A`; flutuando: empuxo = peso; `F = G·M·m ÷ d²`"
+ ],
+ "pegadinhas": [
+  "Tratar kWh como unidade de potência. kW é potência; kWh é energia.",
+  "Esquecer de converter km/h em m/s antes de usar `Ec = m·v²/2` ou `Q = m·v`.",
+  "Esquecer o ½ da energia cinética ou o quadrado da velocidade.",
+  "Achar que ação e reação se anulam. Estão em corpos diferentes.",
+  "Na gravitação, usar a distância em km em vez de metros.",
+  "Misturar W e kW na mesma conta. Escolha uma unidade e converta todo mundo."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-2",
+   "n": 39,
+   "resolucao": "O texto dá a velocidade da bola: ≈ 31 m/s. A bola tem 0,42 kg e parte do repouso. O trabalho da força resultante é a variação da energia cinética:\n\n`W = ΔEc = ½ · m · v² = 0,5 × 0,42 × 31²`\n\n31² = 961, então `W = 0,21 × 961 ≈ 202 J`.\n\nA velocidade já vem em m/s (o texto traz 110,79 km/h e o valor aproximado em m/s), então não precisa converter.\n\nGabarito oficial: B. ✔ Bateu."
+  },
+  {
+   "prova": "2024-2",
+   "n": 24,
+   "resolucao": "O motociclista estava a ≈ 250 m/s e o conjunto tem 200 kg. A velocidade já está em m/s, então vai direto:\n\n`Ec = m·v² ÷ 2 = 200 × 250² ÷ 2 = 100 × 62 500 = 6 250 000 J = 6,25 × 10⁶ J`\n\nA alternativa mais próxima é a **D (6,2 × 10⁶)**.\n\nGabarito oficial: D. ✔ Bateu."
+  },
+  {
+   "prova": "2024-1",
+   "n": 41,
+   "resolucao": "O texto diz que a principal operadora consome **50 kWh por transação** e que a Argentina consome cerca de 120 × 10⁹ kWh por ano.\n\nA) Falso: a mineração é computacional, não tem relação com jazidas. B) Falso: NFT usa criptografia e blockchain. C) Falso: 120 × 10⁹ kWh são 120 **bilhões** de kWh, não milhões. D) Falso: o texto compara o consumo da rede blockchain inteira (não de uma operadora) com o da Argentina. **E)** 50 kWh em 1 h dá `P = 50 kWh ÷ 1 h = 50 kW = 50 000 W`. Certo.\n\nGabarito oficial: E. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Um chuveiro elétrico de 5 400 W é usado durante 20 minutos por dia. Ao longo de 30 dias, a energia elétrica consumida por esse chuveiro é, em kWh, de",
+   "alternativas": [
+    "1,8",
+    "54",
+    "32,4",
+    "162",
+    "5 400"
+   ],
+   "gabarito": "B",
+   "resolucao": "5 400 W = 5,4 kW; 20 min = 1/3 h. Por dia: `5,4 × 1/3 = 1,8 kWh`. Em 30 dias: `1,8 × 30 = 54 kWh`. 1,8 é só um dia; 162 seria 1 h por dia.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um carro de 1 000 kg trafega a 36 km/h. A energia cinética do carro, em joules, é de",
+   "alternativas": [
+    "5,0 × 10³",
+    "1,0 × 10⁵",
+    "6,5 × 10⁵",
+    "3,6 × 10⁴",
+    "5,0 × 10⁴"
+   ],
+   "gabarito": "E",
+   "resolucao": "36 km/h ÷ 3,6 = 10 m/s. `Ec = 1 000 × 10² ÷ 2 = 5,0 × 10⁴ J`. 1,0 × 10⁵ é a conta sem o ½; 6,5 × 10⁵ vem de usar 36 em vez de 10 m/s.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um motor elétrico levanta uma carga de 200 kg a uma altura de 10 m em 20 s, com velocidade constante. Adotando g = 10 m/s², a potência útil desse motor é de",
+   "alternativas": [
+    "1 000 W",
+    "2 000 W",
+    "400 W",
+    "20 000 W",
+    "200 W"
+   ],
+   "gabarito": "A",
+   "resolucao": "Trabalho = `m·g·h = 200 × 10 × 10 = 20 000 J`. Potência = `20 000 ÷ 20 = 1 000 W`. 20 000 é a energia, não a potência; 2 000 vem de dividir por 10 s.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um barco de massa 2 000 kg flutua em repouso em um lago. Adotando g = 10 m/s², o empuxo que a água exerce sobre o barco é de",
+   "alternativas": [
+    "2 000 N",
+    "200 N",
+    "20 000 N",
+    "0 N",
+    "200 000 N"
+   ],
+   "gabarito": "C",
+   "resolucao": "Flutuando em repouso, empuxo = peso: `E = m·g = 2 000 × 10 = 20 000 N`. 2 000 é a massa sem multiplicar por g.",
+   "figura": null
+  },
+  {
+   "enunciado": "Uma bola de 0,5 kg é chutada e sai com velocidade de 72 km/h. A quantidade de movimento da bola, em kg·m/s, é de",
+   "alternativas": [
+    "36",
+    "7,2",
+    "5",
+    "10",
+    "100"
+   ],
+   "gabarito": "D",
+   "resolucao": "72 km/h ÷ 3,6 = 20 m/s. `Q = m·v = 0,5 × 20 = 10 kg·m/s`. 36 vem de usar 72 sem converter (0,5 × 72); 100 é a energia cinética (½·m·v² ≈ 100 J), outra grandeza.",
+   "figura": null
+  }
+ ]
+}

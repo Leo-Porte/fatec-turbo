@@ -1,0 +1,133 @@
+{
+ "id": "por-sintaxe",
+ "disciplina": "Português",
+ "tema": "Gramática – sintaxe",
+ "titulo": "Sintaxe, concordância, regência, crase e pontuação",
+ "semana": 8,
+ "requisitos": ["por-classes"],
+ "minutos": 30,
+ "por_que": "Sintaxe caiu 6 vezes nas 15 provas, quase sempre em duas formas: \"qual é o sujeito/qual o tipo de sujeito\" e \"qual reescrita mantém o sentido\" (voz ativa x passiva, ordem das orações, número de orações do período). Concordância, regência, crase e pontuação aparecem como apoio nas alternativas e valem também na redação.",
+ "secoes": [
+  {
+   "titulo": "1. Sujeito: o campeão da sintaxe",
+   "texto": "**Sujeito** é o termo com o qual o verbo **concorda** em número e pessoa. Para achá-lo, pergunte \"**quem** (ou **o que**) + verbo?\". Em \"A natureza traz o fruto\": quem traz? A natureza. O verbo \"traz\" está na 3ª pessoa do singular, concordando com ela.\n\nTipos de sujeito:\n- **Simples**: um núcleo. \"A velha caiu.\"\n- **Composto**: dois ou mais núcleos. \"Pedro e Ana chegaram.\"\n- **Desinencial (oculto, elíptico)**: não aparece, mas se identifica pela terminação do verbo. \"**Deu** um grito fraco e **caiu**\" → o sujeito é *ela*, deduzido pelas terminações. É sujeito determinado, **não** inexistente.\n- **Indeterminado**: o sujeito existe, mas não se quer ou não se pode identificar. Verbo na 3ª pessoa do plural sem referente (\"Disseram que vai chover\") ou verbo + se (\"Precisa-se de ajuda\").\n- **Oração sem sujeito (sujeito inexistente)**: verbos impessoais. **Chover, ventar, nevar** (fenômenos da natureza), **haver** com sentido de existir (\"Há problemas\"), **fazer** indicando tempo decorrido (\"Faz dois anos\"). O verbo fica no singular.\n\nÀs vezes o sujeito fica longe do verbo, separado por um trecho intercalado. Corte o que está entre vírgulas e refaça a pergunta. Atenção: **o termo que parece ser o assunto da frase nem sempre é o sujeito**: em \"Senhoras guerreiras, vão à luta\", \"senhoras\" é vocativo (chamamento), e o sujeito é \"vocês\", oculto."
+  },
+  {
+   "titulo": "2. Voz ativa, voz passiva e a paráfrase de manchete",
+   "texto": "Na **voz ativa**, o sujeito pratica a ação (agente): \"A arbitragem suspendeu o jogador.\" Na **voz passiva**, o sujeito sofre a ação (paciente) e o agente vem depois da preposição \"por\": \"O jogador foi suspenso pela arbitragem.\"\n\nA paráfrase de manchete costuma trocar de voz e mexer na ordem. Teste: **pergunte \"quem fez o quê a quem?\" na frase original e na reescrita**. Se agente e paciente se inverteram, a reescrita mudou o sentido.\n\nExemplo da prova: \"Jogador do Bragantino pega 12 jogos de suspensão por falas sexistas contra arbitragem.\" Quem fez as falas sexistas? O jogador. Contra quem? A arbitragem. Quem sofre a suspensão? O jogador. Qualquer reescrita que passe a falar de falas da arbitragem ou de suspensão da equipe de arbitragem inverteu os papéis."
+  },
+  {
+   "titulo": "3. Período, oração e classificação das orações",
+   "texto": "Um **período** é uma frase que termina em ponto final. Uma **oração** tem um verbo (ou locução verbal). Para contar orações, conte os verbos: um período tem **tantas orações quanto verbos ou locuções verbais**.\n\n- **Período simples**: uma oração.\n- **Período composto**: duas ou mais.\n\nDuas formas de ligar orações:\n- **Coordenação**: orações independentes, ligadas por conjunção coordenativa (e, mas, ou, portanto, pois...). \"Deu um grito e caiu\" (coordenada aditiva).\n- **Subordinação**: uma depende da outra. Pode ser substantiva (completa o verbo: \"Disse **que viria**\"), adjetiva (funciona como adjetivo, começa por pronome relativo: \"o livro **que li**\") ou adverbial (dá circunstância: causa, tempo, finalidade, concessão: \"**Embora chova**, saio\").\n\nA oração **reduzida de gerúndio** (verbo em -ndo) costuma ser subordinada adverbial: \"**Chegando** tarde, perdeu o início\" (tempo ou causa). Reduzida sempre depende da principal."
+  },
+  {
+   "titulo": "4. Concordância e regência em poucas regras",
+   "texto": "**Concordância verbal**\n- Verbo concorda com o núcleo do sujeito, não com o que está perto: \"A lista de reclamações **chegou**\".\n- **Haver** (existir) e **fazer** (tempo) ficam no singular: \"**Houve** problemas\"; \"**Faz** dois anos\".\n- Voz passiva com *se* concorda com o paciente: \"**Vendem-se** casas\"; \"**Aluga-se** casa\".\n\n**Regência**: o verbo (ou nome) pede uma preposição.\n- **Assistir** (ver) → *a*: \"Assistimos **ao** filme\".\n- **Aspirar** (desejar) → *a*: \"Aspiram **a** uma vaga\".\n- **Preferir** → *a*: \"Prefiro café **a** chá\" (sem \"mais\" e sem \"do que\").\n- **Chegar/ir** → *a*: \"Chegou **a** São Paulo\" (na fala se diz \"em\", na norma culta, a).\n- **Obedecer/desobedecer** → *a*.\n- **Correspondentes a** (regência nominal)."
+  },
+  {
+   "titulo": "5. Crase e pontuação",
+   "texto": "**Crase** é a fusão da preposição **a** com o artigo **a(s)** (ou com pronomes como aquele, aquela). Só há crase se o verbo/nome **pede \"a\"** e a palavra seguinte **aceita artigo \"a\"**.\n\nTestes rápidos:\n- Troque a palavra feminina por uma masculina: se aparecer \"ao\", há crase. \"Entreguei o convite **à** diretora\" (entreguei ao diretor).\n- **Não há crase**: diante de verbo (\"começou a falar\"), de palavra masculina (\"a pé\"), de pronome pessoal (\"a ela\") e de \"uma\" (\"vou a uma festa\").\n- **Há crase** nas locuções femininas: à noite, às vezes, às pressas, à vista.\n\n**Vírgula**: separa o **aposto** (\"Maria, minha vizinha, é professora\"), o **vocativo** (\"Alunos, atenção\"), orações adverbiais deslocadas (\"Quando chegou, ele saiu\") e itens de enumeração. Não separa **sujeito do verbo** nem **verbo do complemento**: \"Os alunos, estudaram\" e \"Eu disse, que viria\" estão errados.\n\n**Ponto e vírgula** separa orações coordenadas longas ou itens com vírgulas internas; **dois-pontos** introduzem explicação, enumeração ou fala."
+  }
+ ],
+ "decorar": [
+  "Sujeito = termo com o qual o verbo concorda; pergunte \"quem + verbo?\".",
+  "Sujeito desinencial (oculto) é determinado; indeterminado é quando não se identifica quem; inexistente é com verbo impessoal (chover, haver, fazer tempo).",
+  "Um período tem tantas orações quanto verbos ou locuções verbais.",
+  "Reduzida de gerúndio = subordinada adverbial.",
+  "Haver e fazer (tempo) ficam no singular; Vendem-se casas (verbo concorda com o paciente).",
+  "Crase = a (preposição) + a (artigo); teste: troque por masculino e veja \"ao\".",
+  "Não se separa sujeito de verbo com vírgula; aposto e vocativo vão entre vírgulas."
+ ],
+ "pegadinhas": [
+  "Achar que o termo sublinhado mais perto do verbo é o sujeito: vocativo e complemento enganam.",
+  "Chamar sujeito oculto de inexistente ou indeterminado.",
+  "Trocar agente e paciente ao reescrever manchete (\"árbitra elimina\" por \"declarações contra a árbitra\").",
+  "Contar orações pelas vírgulas em vez de contar verbos.",
+  "Pôr crase antes de verbo, de palavra masculina ou de \"uma\".",
+  "Flexionar \"haver\" (existir) no plural (\"haviam problemas\")."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2025-2",
+   "n": 47,
+   "resolucao": "Pede-se a alternativa em que o termo sublinhado é **sujeito**, isto é, o termo com o qual o verbo concorda. Teste cada verso (versos do canto das quebradeiras de coco babaçu):\n\n- (A) \"**Terra** fértil, olha a riqueza no chão\": \"terra\" é chamamento (vocativo); o verbo \"olha\" fala com alguém (tu/você).\n- (B) \"Folhas verdes, oh que **maravilha**\": é exclamação, sem verbo para concordar.\n- (C) \"A **natureza** traz o fruto, a perfeição\": quem traz? A natureza. O verbo concorda com ela. **Sujeito**.\n- (D) \"custear **alimentação**\": complemento (o que se custeia) do verbo.\n- (E) \"chegou em outras **nações**\": faz parte do adjunto de lugar.\n\n**Gabarito C**, igual ao CSV."
+  },
+  {
+   "prova": "2026-2",
+   "n": 59,
+   "resolucao": "As manchetes são do jogador do Bragantino suspenso por falas sexistas contra a arbitragem (texto II) e das declarações misóginas de um zagueiro que marcaram a eliminação do time (texto I). Em cada alternativa, pergunte: **quem fez a fala? contra quem? quem sofreu a punição?**\n\n- (A) fala-se de declarações misóginas \"da árbitra contra zagueiro\": inverte agente e alvo.\n- (B) \"Devido a falas sexistas contra a arbitragem, jogador do Bragantino é suspenso por 12 jogos\": voz passiva, mesmo agente, mesmo alvo e mesma punição. Equivale ao texto II. Correta.\n- (C) \"Arbitragem suspende...\": quem suspendeu foi o tribunal, não a arbitragem; também diz \"seu jogador\", inventando vínculo.\n- (D) \"Árbitra elimina Bragantino por declarações de zagueiro contra a misoginia\": quem elimina e o que a fala era mudam.\n- (E) \"Zagueiro elimina Bragantino por se declarar misógino\": muda o motivo, e a fala era contra a árbitra.\n\n**Gabarito B**, igual ao CSV."
+  },
+  {
+   "prova": "2017-2",
+   "n": 51,
+   "resolucao": "Trecho de Crime e Castigo: \"**Deu** um grito fraco e **caiu**, tendo tido, no entanto, tempo de levar as mãos à cabeça.\" Quem deu o grito e caiu? \"A velha\", mencionada na frase anterior, retomada por **ela** (que não aparece).\n\nOs verbos \"deu\" e \"caiu\" estão na 3ª pessoa do singular, e a terminação mostra que o sujeito é *ela*: **sujeito desinencial (oculto)**, que é determinado.\n\n- (A) indeterminado: o sujeito é conhecido.\n- (C) composto: há um só núcleo.\n- (D) inexistente: o sujeito existe, só não está escrito.\n- (E) simples, mas a justificativa errada: o motivo não é estar no singular.\n\n**Gabarito B**, igual ao CSV."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Leia a frase.\n\n“Choveu muito na serra durante a noite.”\n\nO sujeito da oração é",
+   "alternativas": [
+    "simples.",
+    "composto.",
+    "inexistente.",
+    "indeterminado.",
+    "oculto."
+   ],
+   "gabarito": "C",
+   "resolucao": "\"Chover\" é verbo de fenômeno da natureza: impessoal, não tem sujeito. Trata-se de **oração sem sujeito (sujeito inexistente)**. Não confunda com oculto (que existe e se deduz) nem com indeterminado (existe, mas não se identifica).",
+   "figura": null
+  },
+  {
+   "enunciado": "Assinale a frase que está de acordo com a norma-padrão quanto à concordância verbal.",
+   "alternativas": [
+    "Haviam muitos candidatos na fila.",
+    "Fazem dois anos que ele viajou.",
+    "Existe muitas dúvidas sobre o edital.",
+    "Aluga-se salas comerciais no centro.",
+    "Houve muitos candidatos na fila."
+   ],
+   "gabarito": "E",
+   "resolucao": "\"Haver\" no sentido de existir é impessoal e fica no singular: \"Houve muitos candidatos\" (E). Em A, \"haviam\" está no plural. Em B, \"fazer\" indicando tempo também fica no singular (\"Faz dois anos\"). Em C, \"existir\" concorda com o sujeito plural (\"existem dúvidas\"). Em D, o verbo concorda com o paciente (\"alugam-se salas\").",
+   "figura": null
+  },
+  {
+   "enunciado": "Assinale a frase em que a crase está empregada corretamente.",
+   "alternativas": [
+    "Cheguei à pé ao trabalho.",
+    "Entreguei o convite à diretora.",
+    "Ele começou à falar de política.",
+    "Iremos à uma festa no sábado.",
+    "Vi à professora no corredor."
+   ],
+   "gabarito": "B",
+   "resolucao": "Teste do masculino: \"entreguei o convite ao diretor\" → crase em \"à diretora\". Em A, \"a pé\" é palavra masculina; em C, diante de verbo (falar) não há crase; em D, diante de \"uma\" não há; em E, \"ver\" não pede preposição.",
+   "figura": null
+  },
+  {
+   "enunciado": "Assinale a frase que está de acordo com a norma-padrão quanto à regência.",
+   "alternativas": [
+    "Os alunos aspiram a uma vaga na Fatec.",
+    "Prefiro mais estudar do que dormir.",
+    "O filme que assisti foi ótimo.",
+    "Eles obedecem os conselhos dos pais.",
+    "Chegamos na cidade ao meio-dia."
+   ],
+   "gabarito": "A",
+   "resolucao": "\"Aspirar\" no sentido de desejar pede a preposição *a*: aspiram **a uma** vaga. Em B, \"preferir\" não leva \"mais\" nem \"do que\". Em C, o certo é \"o filme a que assisti\". Em D, \"obedecer\" pede \"a\". Em E, \"chegar\" pede \"a\" na norma culta.",
+   "figura": null
+  },
+  {
+   "enunciado": "Assinale a frase em que a vírgula está empregada corretamente.",
+   "alternativas": [
+    "O ministro, chegou ontem a Brasília.",
+    "Os alunos, estudaram para a prova.",
+    "Eu disse, que viria.",
+    "Maria, minha vizinha, é professora.",
+    "A cidade, é muito bonita."
+   ],
+   "gabarito": "D",
+   "resolucao": "\"Minha vizinha\" é aposto e deve vir entre vírgulas (D). Em A, B e E há vírgula separando sujeito de verbo; em C, separa o verbo do seu complemento. Esses usos são errados.",
+   "figura": null
+  }
+ ]
+}

@@ -1,0 +1,519 @@
+{
+ "id": "mat-geometria-plana",
+ "disciplina": "Matemática",
+ "tema": "Geometria plana",
+ "titulo": "Geometria plana e trigonometria básica",
+ "semana": 2,
+ "requisitos": [
+  "mat-unidades"
+ ],
+ "minutos": 35,
+ "por_que": "Geometria plana caiu 8 vezes e trigonometria 4 vezes nas 15 provas. Quase tudo é área (retângulo, triângulo, círculo), um triângulo retângulo com seno ou cosseno dado, ou uma semelhança. Raramente passa de uma ou duas contas.",
+ "secoes": [
+  {
+   "titulo": "1. Áreas: a tabela que resolve metade das questões",
+   "texto": "Primeiro, o que a área mede: quantos quadradinhos de 1 unidade cabem na figura. As fórmulas:\n\n- **Retângulo**: `A = base × altura`. Quadrado: `A = lado²`.\n- **Triângulo**: `A = base × altura ÷ 2`. A altura é perpendicular à base (não é o lado inclinado).\n- **Paralelogramo**: `A = base × altura`.\n- **Trapézio**: `A = (B + b) × h ÷ 2`.\n- **Círculo**: `A = π·r²`. Comprimento da circunferência: `C = 2·π·r = π·d`.\n\nAtenção ao **raio e diâmetro**: a prova dá o diâmetro e a fórmula pede o raio (r = d ÷ 2). Na 2023/2 eram dois discos de pizza e a pergunta era a diferença entre as áreas. Faça `π·(r₁² − r₂²)`, que poupa uma conta (com π = 3, deu cerca de 309,56 cm²).\n\nQuase sempre a questão manda **adotar π = 3**. Faça a conta com 3 mesmo, sem pensar em 3,14.\n\n**Área de figura composta**: divida em figuras conhecidas, ou calcule a figura grande e **subtraia** o que sobra. Exemplo (2019/1): retângulo de 20 × 40 (área 800) com triângulos retângulos isósceles marcados nele; a área branca é 800 menos a soma das áreas dos triângulos (cateto² ÷ 2 cada um)."
+  },
+  {
+   "titulo": "2. Triângulo retângulo: Pitágoras e os triângulos prontos",
+   "texto": "No triângulo retângulo, os lados que formam o ângulo reto são os **catetos**, e o lado maior (oposto ao ângulo reto) é a **hipotenusa**.\n\n**Pitágoras**: `hipotenusa² = cateto₁² + cateto₂²`.\n\nTriângulos que já vêm \"prontos\" e valem decorar, porque a prova adora:\n\n- **3-4-5** (e múltiplos: 6-8-10, 9-12-15, 5-12-13 também fecha).\n- **Triângulo retângulo isósceles** (catetos iguais a): hipotenusa = a·√2. É o triângulo de metade de um quadrado, a diagonal do quadrado de lado a é a·√2.\n\nExemplo clássico: uma escada de 13 m apoiada na parede com o pé a 5 m dela. Altura atingida: √(13² − 5²) = √144 = 12 m."
+  },
+  {
+   "titulo": "3. Seno, cosseno e tangente",
+   "texto": "Em um triângulo retângulo, escolha um dos ângulos agudos θ. O cateto **oposto** a ele é o que está do lado de lá; o **adjacente** é o que encosta nele.\n\n- `sen θ = cateto oposto ÷ hipotenusa`\n- `cos θ = cateto adjacente ÷ hipotenusa`\n- `tg θ = cateto oposto ÷ cateto adjacente`\n\nNa 2026/1, um drone percorre 20 km formando ângulo θ com o solo, com sen θ = 0,8. A altura h é o cateto oposto: h = 20 × 0,8 = 16 km. Quando a prova dá o valor de sen e cos no enunciado, é só multiplicar.\n\nValores que decoram (aparecem sem serem dados):\n\n- 30°: sen = 1/2, cos = √3/2, tg = √3/3\n- 45°: sen = √2/2, cos = √2/2, tg = 1\n- 60°: sen = √3/2, cos = 1/2, tg = √3\n\nPara decorar: o seno sobe com o ângulo (1/2, √2/2, √3/2) e o cosseno desce (o contrário). Em 30° e 60° eles trocam de valor, o que faz sentido: sen 30° = cos 60°.\n\nSe a função for senoidal (altura de uma roda-gigante, maré), o máximo dela é o termo constante mais a amplitude, e o mínimo é o termo constante menos a amplitude."
+  },
+  {
+   "titulo": "4. Área com seno: triângulo e paralelogramo inclinados",
+   "texto": "Quando o enunciado dá dois lados e o **ângulo entre eles**, mas não dá a altura, use:\n\n`A (triângulo) = ½ · a · b · sen θ`\n\nJá a altura fica `h = lado × sen θ`, e a área do paralelogramo é `base × lado × sen θ`.\n\nFoi o que a 2020/1 cobrou: uma praça triangular com lados de 240 m e 300 m formando 60° (o ângulo entre a Rua Fibonacci e a Avenida Bhaskara, que é paralela à Descartes). Área = ½ × 240 × 300 × sen 60° = 36 000 × (√3/2) = 18 000·√3 m².\n\nAqui o ângulo \"escondido\" veio de **retas paralelas cortadas por uma transversal**: ângulos correspondentes são iguais, e os que formam um par na mesma reta somam 180°. Desenhe a figura e marque os ângulos que o texto dá antes de calcular.\n\nNa 2026/2, o gráfico de radar com 6 eixos tem ângulo de 60° entre eixos consecutivos (360° ÷ 6), e a área é a soma de 6 triângulos `½·lᵢ·lⱼ·sen 60°`."
+  },
+  {
+   "titulo": "5. Semelhança: razão de lados, áreas e volumes",
+   "texto": "Duas figuras são semelhantes quando uma é ampliação ou redução da outra: todos os lados se multiplicam pela mesma **razão k**.\n\n- **Lados** (comprimentos, perímetros): × k.\n- **Áreas**: × k².\n- **Volumes**: × k³ (veja Geometria espacial).\n\nExemplo: foto de 10 × 15 cm ampliada para 30 × 45 cm. k = 3, perímetro × 3, área × 9 (150 vira 1 350 cm²).\n\nCaso famoso (2019/1): o papel da série A, que ao ser dobrado ao meio gera um retângulo semelhante ao original. Se o lado maior é x e o menor y, vale `x ÷ y = y ÷ (x ÷ 2)`, daí x² = 2y² e **x = y·√2**.\n\n**Lei dos senos** (apareceu na 2017/2): em qualquer triângulo, `a ÷ sen A = b ÷ sen B = c ÷ sen C`, sempre lado com o ângulo oposto a ele. Serve quando o triângulo não tem ângulo reto e a questão dá dois ângulos e um lado."
+  }
+ ],
+ "decorar": [
+  "Triângulo `A = b·h ÷ 2`; trapézio `A = (B+b)·h ÷ 2`; círculo `A = π·r²`; circunferência `C = 2·π·r`.",
+  "Raio = diâmetro ÷ 2. Quando a prova diz \"adote π = 3\", use 3.",
+  "Pitágoras: `a² = b² + c²`. Triângulos 3-4-5 e 5-12-13; catetos iguais a, hipotenusa a·√2.",
+  "`sen = oposto ÷ hip`; `cos = adjacente ÷ hip`; `tg = oposto ÷ adjacente`.",
+  "30°: sen 1/2, cos √3/2. 45°: √2/2 e √2/2. 60°: sen √3/2, cos 1/2.",
+  "Área com ângulo: `A = ½·a·b·sen θ`. Altura = lado × sen θ.",
+  "Semelhança: lados × k, áreas × k², volumes × k³."
+ ],
+ "pegadinhas": [
+  "Usar o diâmetro no lugar do raio em π·r². Na 2023/2 o enunciado dava o diâmetro das pizzas, e a conta usa o raio.",
+  "Usar o lado inclinado como altura do triângulo ou do paralelogramo. A altura é sempre perpendicular à base.",
+  "Trocar oposto e adjacente: o cateto \"oposto\" depende de qual ângulo você escolheu.",
+  "Trocar sen e cos de 30° e 60° (ficam 1/2 e √3/2, mas em posições invertidas).",
+  "Na semelhança, aplicar k à área (certo é k²). Se as medidas dobram, a área quadruplica.",
+  "Esquecer de subtrair a parte \"vazada\" em figuras compostas (canteiro dentro de terreno, buraco dentro de chapa).",
+  "Deixar de conferir as unidades: m² e cm² não se misturam; 1 m² = 10 000 cm²."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-1",
+   "n": 38,
+   "resolucao": "Um drone sai de A, percorre 20 km em linha reta subindo com ângulo θ e chega a B, a uma altura h do solo. Dados: cos θ = 0,6 e sen θ = 0,8.\n\nNa figura, o segmento AB (20 km) é a **hipotenusa**; a altura h é o cateto **oposto** a θ.\n\nsen θ = h ÷ 20 → h = 20 × 0,8 = **16 km**.\n\n(Conferindo com Pitágoras: o cateto adjacente é 20 × 0,6 = 12, e 12² + 16² = 144 + 256 = 400 = 20² ✔.)\n\nAlternativa **D**. Gabarito oficial: D. ✔ Bateu."
+  },
+  {
+   "prova": "2020-1",
+   "n": 34,
+   "resolucao": "A praça é o triângulo escuro do mapa: um lado de 240 m sobre a Rua Fibonacci e a base de 300 m sobre a Avenida Bhaskara. O ângulo agudo entre a Rua Fibonacci e a Avenida Descartes é 60°, e a Bhaskara é paralela à Descartes. Por serem paralelas, o ângulo entre a Fibonacci e a Bhaskara também é 60° (ângulos correspondentes).\n\nOs dois lados de 240 m e 300 m formam um ângulo de 60° entre eles:\n\nA = ½ · 240 · 300 · sen 60° = 36 000 · (√3/2) = **18 000·√3 m²**.\n\nAlternativa **D**. Gabarito oficial: D. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Um terreno retangular de 30 m por 20 m tem, em seu interior, um canteiro circular de raio 3 m, que não será gramado. Adotando π = 3, a área do terreno que será gramada, em metros quadrados, é",
+   "alternativas": [
+    "492",
+    "573",
+    "582",
+    "591",
+    "600"
+   ],
+   "gabarito": "B",
+   "resolucao": "Área do terreno: 30 × 20 = 600 m². Canteiro: π·r² = 3 · 3² = 27 m². Gramada: 600 − 27 = 573 m². Os erros típicos: usar o diâmetro (3·6² = 108, dá 492), calcular 2πr = 18 (dá 582) ou πr = 9 (dá 591).",
+   "figura": {
+    "lib": "jsxgraph",
+    "bbox": [
+     -2,
+     24,
+     32,
+     -2
+    ],
+    "elementos": [
+     {
+      "t": "ponto",
+      "id": "A",
+      "xy": [
+       0,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "B",
+      "xy": [
+       30,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "C",
+      "xy": [
+       30,
+       20
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "D",
+      "xy": [
+       0,
+       20
+      ]
+     },
+     {
+      "t": "poligono",
+      "pts": [
+       "A",
+       "B",
+       "C",
+       "D"
+      ]
+     },
+     {
+      "t": "segmento",
+      "de": "A",
+      "ate": "B",
+      "rotulo": "30 m"
+     },
+     {
+      "t": "segmento",
+      "de": "B",
+      "ate": "C",
+      "rotulo": "20 m"
+     },
+     {
+      "t": "ponto",
+      "id": "P",
+      "xy": [
+       15,
+       10
+      ]
+     },
+     {
+      "t": "circulo",
+      "centro": "P",
+      "raio": 3
+     },
+     {
+      "t": "texto",
+      "xy": [
+       15,
+       5.5
+      ],
+      "txt": "r = 3 m"
+     }
+    ]
+   }
+  },
+  {
+   "enunciado": "Uma escada de 13 m de comprimento está apoiada em uma parede vertical, com o pé a 5 m da base da parede, em solo plano e horizontal. A altura, em metros, que a escada atinge na parede é",
+   "alternativas": [
+    "8",
+    "10",
+    "12",
+    "13,9",
+    "18"
+   ],
+   "gabarito": "C",
+   "resolucao": "A escada é a hipotenusa. Pitágoras: h² + 5² = 13² → h² = 169 − 25 = 144 → h = 12 m. Quem soma os quadrados (13² + 5² = 194) acha 13,9; quem subtrai direto (13 − 5) acha 8.",
+   "figura": {
+    "lib": "jsxgraph",
+    "bbox": [
+     -4,
+     13.5,
+     10,
+     -1.5
+    ],
+    "elementos": [
+     {
+      "t": "ponto",
+      "id": "A",
+      "xy": [
+       0,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "B",
+      "xy": [
+       5,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "C",
+      "xy": [
+       0,
+       12
+      ]
+     },
+     {
+      "t": "poligono",
+      "pts": [
+       "A",
+       "B",
+       "C"
+      ]
+     },
+     {
+      "t": "segmento",
+      "de": "A",
+      "ate": "B",
+      "rotulo": "5 m"
+     },
+     {
+      "t": "segmento",
+      "de": "C",
+      "ate": "A",
+      "rotulo": "h"
+     },
+     {
+      "t": "segmento",
+      "de": "B",
+      "ate": "C",
+      "rotulo": "13 m"
+     }
+    ]
+   }
+  },
+  {
+   "enunciado": "Uma rampa de acesso, com 10 m de comprimento, forma um ângulo de 30° com o solo horizontal. Sabendo que sen 30° = 1/2, cos 30° = √3/2 e tg 30° = √3/3, a altura do topo da rampa em relação ao solo, em metros, é",
+   "alternativas": [
+    "5",
+    "5√2",
+    "5√3",
+    "10√3",
+    "20"
+   ],
+   "gabarito": "A",
+   "resolucao": "A rampa é a hipotenusa e a altura é o cateto oposto ao ângulo de 30°: h = 10 · sen 30° = 10 · 1/2 = 5 m. A alternativa 5√3 é a distância horizontal percorrida (10 · cos 30°), que responde a outra pergunta.",
+   "figura": {
+    "lib": "jsxgraph",
+    "bbox": [
+     -2,
+     7,
+     12,
+     -2
+    ],
+    "elementos": [
+     {
+      "t": "ponto",
+      "id": "A",
+      "xy": [
+       0,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "B",
+      "xy": [
+       8.66,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "C",
+      "xy": [
+       8.66,
+       5
+      ]
+     },
+     {
+      "t": "poligono",
+      "pts": [
+       "A",
+       "B",
+       "C"
+      ]
+     },
+     {
+      "t": "segmento",
+      "de": "A",
+      "ate": "C",
+      "rotulo": "10 m"
+     },
+     {
+      "t": "segmento",
+      "de": "B",
+      "ate": "C",
+      "rotulo": "h"
+     },
+     {
+      "t": "angulo",
+      "pts": [
+       "B",
+       "A",
+       "C"
+      ],
+      "rotulo": "30°"
+     }
+    ]
+   }
+  },
+  {
+   "enunciado": "Uma foto retangular de 10 cm por 15 cm será ampliada, mantendo a mesma forma (figuras semelhantes), de modo que o lado menor passe a medir 30 cm. A área da foto ampliada, em cm², será de",
+   "alternativas": [
+    "450",
+    "900",
+    "1 200",
+    "1 350",
+    "4 050"
+   ],
+   "gabarito": "D",
+   "resolucao": "O lado menor passa de 10 para 30: razão k = 3. O outro lado passa a 15 × 3 = 45 cm. Área = 30 × 45 = 1 350 cm², que é a área original (150) × k² = 150 × 9. Erros comuns: multiplicar a área por 3 (450) ou por 6 (900).",
+   "figura": {
+    "lib": "jsxgraph",
+    "bbox": [
+     -2,
+     47,
+     46,
+     -3
+    ],
+    "elementos": [
+     {
+      "t": "ponto",
+      "id": "A",
+      "xy": [
+       0,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "B",
+      "xy": [
+       10,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "C",
+      "xy": [
+       10,
+       15
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "D",
+      "xy": [
+       0,
+       15
+      ]
+     },
+     {
+      "t": "poligono",
+      "pts": [
+       "A",
+       "B",
+       "C",
+       "D"
+      ]
+     },
+     {
+      "t": "segmento",
+      "de": "A",
+      "ate": "B",
+      "rotulo": "10 cm"
+     },
+     {
+      "t": "segmento",
+      "de": "B",
+      "ate": "C",
+      "rotulo": "15 cm"
+     },
+     {
+      "t": "ponto",
+      "id": "E",
+      "xy": [
+       14,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "F",
+      "xy": [
+       44,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "G",
+      "xy": [
+       44,
+       45
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "H",
+      "xy": [
+       14,
+       45
+      ]
+     },
+     {
+      "t": "poligono",
+      "pts": [
+       "E",
+       "F",
+       "G",
+       "H"
+      ]
+     },
+     {
+      "t": "segmento",
+      "de": "E",
+      "ate": "F",
+      "rotulo": "30 cm"
+     },
+     {
+      "t": "texto",
+      "xy": [
+       29,
+       22
+      ],
+      "txt": "área = ?"
+     }
+    ]
+   }
+  },
+  {
+   "enunciado": "Um terreno tem formato triangular. Dois de seus lados medem 50 m e 40 m e formam entre si um ângulo de 30°, como mostra a figura. Dado que sen 30° = 1/2, a área do terreno, em metros quadrados, é",
+   "alternativas": [
+    "250",
+    "500√3",
+    "1 000",
+    "1 000√3",
+    "500"
+   ],
+   "gabarito": "E",
+   "resolucao": "Com dois lados e o ângulo entre eles: A = ½ · 50 · 40 · sen 30° = ½ · 2 000 · ½ = 500 m². Quem esquece o ½ da fórmula encontra 1 000; quem usa sen 60° em vez de sen 30° encontra um valor com √3.",
+   "figura": {
+    "lib": "jsxgraph",
+    "bbox": [
+     -5,
+     25,
+     55,
+     -5
+    ],
+    "elementos": [
+     {
+      "t": "ponto",
+      "id": "A",
+      "xy": [
+       0,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "B",
+      "xy": [
+       50,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "C",
+      "xy": [
+       34.64,
+       20
+      ]
+     },
+     {
+      "t": "poligono",
+      "pts": [
+       "A",
+       "B",
+       "C"
+      ]
+     },
+     {
+      "t": "segmento",
+      "de": "A",
+      "ate": "B",
+      "rotulo": "50 m"
+     },
+     {
+      "t": "segmento",
+      "de": "A",
+      "ate": "C",
+      "rotulo": "40 m"
+     },
+     {
+      "t": "angulo",
+      "pts": [
+       "B",
+       "A",
+       "C"
+      ],
+      "rotulo": "30°"
+     }
+    ]
+   }
+  }
+ ]
+}

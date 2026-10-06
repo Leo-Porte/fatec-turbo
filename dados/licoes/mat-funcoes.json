@@ -1,0 +1,230 @@
+{
+ "id": "mat-funcoes",
+ "disciplina": "Matemática",
+ "tema": "Funções (1º e 2º grau)",
+ "titulo": "Funções de 1º e 2º grau, PA e PG",
+ "semana": 2,
+ "requisitos": [
+  "mat-proporcao"
+ ],
+ "minutos": 35,
+ "por_que": "Funções de 1º e 2º grau caíram 11 vezes nas 15 provas, quase sempre como problema do cotidiano (tarifa, tabela de pontos, receita). Somando progressões (4), exponencial e logaritmo (4) e equações (3), são 22 questões: dá uma ou duas por prova.",
+ "secoes": [
+  {
+   "titulo": "1. Função do 1º grau: valor fixo + taxa",
+   "texto": "É o tipo que mais cai. A ideia: algo cresce (ou diminui) sempre no mesmo ritmo. Isso é uma função afim (**função do 1º grau**): `y = ax + b`.\n\n- `b` é o **valor fixo**, o que já existe quando x = 0 (bandeirada do táxi, saldo inicial, taxa de adesão).\n- `a` é a **taxa de variação**, quanto y muda a cada 1 unidade de x. Se a > 0 a reta sobe; se a < 0, desce.\n\nQuando o enunciado dá dois pontos (ou dois valores em dois momentos), a taxa é a variação de y dividida pela variação de x: `a = Δy ÷ Δx`.\n\nExemplo (2017/2): a população da Síria cai de 20,7 milhões (2010, x = 0) para 17,7 milhões (2016, x = 6). Taxa = (17,7 − 20,7) ÷ 6 = −0,5 milhão por ano. Valor inicial 20,7, logo `h(x) = −0,5x + 20,7`.\n\nDois atalhos que a Fatec usa:\n\n- **Extrapolar**: achada a taxa, é só continuar. Se de 2010 a 2014 o valor subiu 8 pontos, a taxa é 2 por ano, e em 2018 sobe mais 8.\n- **Valor no meio de um intervalo**: numa função afim, o valor no ponto médio é a média dos valores nas pontas."
+  },
+  {
+   "titulo": "2. Função do 2º grau: parábola, vértice e Bhaskara",
+   "texto": "`y = ax² + bx + c`. O gráfico é uma parábola. O que importa para a prova:\n\n- **a < 0**: abre para baixo, tem **ponto de máximo**. **a > 0**: abre para cima, tem **ponto de mínimo**.\n- **c** é onde a curva corta o eixo y (valor em x = 0).\n- **Vértice**: `xv = −b ÷ (2a)` e `yv` = a função calculada em xv. É o máximo ou o mínimo. Aparece em questão de \"receita máxima\", \"altura máxima\", \"lucro máximo\".\n- **Raízes** (onde y = 0, ou onde a função vale um valor dado): Bhaskara, `x = (−b ± √Δ) ÷ 2a`, com `Δ = b² − 4ac`.\n\nExemplo (2020/1): receita R(x) = (50 − x)(40 + 2x) = −2x² + 60x + 2 000. Máximo em xv = −60 ÷ (2·(−2)) = 15, e R(15) = 35 × 70 = 2 450. Se a função já vem fatorada, dá para achar o vértice como a **média das raízes**: raízes 50 e −20, média 15.\n\nTrês situações que se repetem:\n\n- **\"Qual valor de x dá y = tal?\"** Substitua y e resolva a equação do 2º grau. Depois **confira o domínio**: se o enunciado diz 4 ≤ v ≤ 16, descarte a raiz que cai fora.\n- **Função a partir de pontos da tabela**: substitua cada ponto na forma geral e monte um sistema. Se A(0) = 0, então c = 0 e sobram só dois coeficientes.\n- **Ler o gráfico**: em y = ax² + c, o c é o ponto onde a parábola corta o eixo y (o vértice, se não há termo em x); o sinal de a diz se abre para cima ou para baixo."
+  },
+  {
+   "titulo": "3. Substituir na função (função composta, f(2 − x))",
+   "texto": "Quando a prova pede `f(2 − x)` ou `f(−1)`, o truque é trabalhar com o que está entre parênteses. Na 2025/2: se o enunciado dá `f(2 − x) = 3x²` e pede `f(−1)`, ache x tal que 2 − x = −1, ou seja x = 3, e então f(−1) = 3 × 3² = 27.\n\nRegra: **iguale o argumento ao valor pedido, ache o x, e use o x na fórmula**. Não tente \"desmontar\" a função."
+  },
+  {
+   "titulo": "4. Exponencial e logaritmo: o que cai de verdade",
+   "texto": "**Exponencial** é crescimento por multiplicação: algo que dobra, triplica, cresce x% a cada período. O modelo típico:\n\n`N = N₀ · 2^(t ÷ g)`, em que N₀ é o valor inicial e g é o tempo para dobrar.\n\nExemplo (2026/1): 1 000 bactérias viram 8 000 em 45 min. Como 8 000 = 1 000 × 2³, a população dobrou 3 vezes, então 45 ÷ g = 3 e g = 15 min. O caminho é sempre o mesmo: **reduza os dois lados à mesma base** e compare os expoentes.\n\nNa 2025/2: N(t) = 70 · 2^(t−2016). Para t = 2025 o expoente é 9, e 70 × 2⁹ = 70 × 512 = 35 840.\n\n**Logaritmo** é o expoente: `log₁₀ 1 000 = 3`, porque 10³ = 1 000. Só precisa de três propriedades:\n\n- `log (a·b) = log a + log b`\n- `log (a ÷ b) = log a − log b`\n- `log (aⁿ) = n · log a`, e `log 10ⁿ = n`\n\nExemplo (2026/1, pH): pH = −log[H⁺]. Com [H⁺] = 2 × 10⁻⁷ e log 2 = 0,3: log(2 × 10⁻⁷) = 0,3 − 7 = −6,7, e o pH = 6,7. A questão sempre dá os valores de log necessários.\n\nQuando a incógnita está no expoente e as bases não fecham (caso 2017/2: 1,1ⁿ = 2), a saída é o log dos dois lados: `n = log 2 ÷ log 1,1`."
+  },
+  {
+   "titulo": "5. PA e PG",
+   "texto": "**PA (progressão aritmética)**: soma-se sempre o mesmo valor, a razão r.\n\n- Termo geral: `aₙ = a₁ + (n − 1)·r`. Exemplo (2026/1): começa em 50 e sobe 15 por ano; no 10º ano, 50 + 9 × 15 = 185.\n- **Termo do meio é a média dos vizinhos**: se três valores estão em PA, o central é a média dos extremos. Na 2025/2, as distâncias 2, 6 + x, 18 estão em PA: 6 + x = (2 + 18) ÷ 2 = 10.\n- Soma dos n primeiros termos: `Sₙ = (a₁ + aₙ)·n ÷ 2`.\n\n**PG (progressão geométrica)**: multiplica-se sempre pela mesma razão q. Termo geral `aₙ = a₁·q^(n−1)`.\n\n- **Soma infinita**, quando |q| < 1: `S = a₁ ÷ (1 − q)`. Na 2022/2: a₁ = 14, q = 1/2, então S = 14 ÷ 0,5 = 28. A massa tende a 95 − 28 = 67 kg.\n\nDica de reconhecimento: \"aumenta 15 por ano\" é PA; \"aumenta 15% por ano\" ou \"dobra a cada\" é PG (e portanto exponencial)."
+  },
+  {
+   "titulo": "6. Equações e inequações do cotidiano",
+   "texto": "Aqui o trabalho é **traduzir o texto em equação**. Escolha x para a coisa que você não sabe e escreva cada frase como uma igualdade.\n\n- **Oferta e demanda (2023/2)**: o preço de equilíbrio é onde oferta = demanda. Com qo = 3p + 50 e qd = −2p + 500, iguale: 3p + 50 = −2p + 500, 5p = 450, p = 90. A quantidade é 3 × 90 + 50 = 320.\n- **Frações de x (2019/1)**: o problema se resumia a x/6 + x/3 + x = 240. Multiplique tudo pelo MMC dos denominadores (6) para sumir com as frações: x + 2x + 6x = 1 440.\n- **Percentuais de uma incógnita (2018/1)**: x + 0,62x + 0,57x = 4 380 → 2,19x = 4 380 → x = 2 000.\n\nEm inequação vale a regra de ouro: **se multiplicar ou dividir por número negativo, o sinal da desigualdade vira**."
+  }
+ ],
+ "decorar": [
+  "Função afim: `y = ax + b`; b é o valor fixo, a é a taxa; com dois pontos, `a = Δy ÷ Δx`.",
+  "Parábola: `xv = −b ÷ 2a`; a < 0 tem máximo, a > 0 tem mínimo; c é a ordenada em x = 0.",
+  "Bhaskara: `Δ = b² − 4ac`, `x = (−b ± √Δ) ÷ 2a`. Conferir a raiz no domínio dado.",
+  "Exponencial de dobrar: `N = N₀·2^(t ÷ g)`. Reduza à mesma base e compare expoentes.",
+  "`log(a·b) = log a + log b`; `log aⁿ = n·log a`; `log 10ⁿ = n`; `pH = −log[H⁺]`.",
+  "PA: `aₙ = a₁ + (n−1)·r`; termo do meio = média dos vizinhos. PG infinita (|q|<1): `S = a₁ ÷ (1−q)`.",
+  "Equilíbrio de mercado: iguale oferta e demanda."
+ ],
+ "pegadinhas": [
+  "Trocar o valor fixo pela taxa. Em \"R$ 4,60 fixos e R$ 1,10 por km\", o b é 4,60 e o a é 1,10, não o contrário.",
+  "Dividir a variação pelo número errado de períodos. De 2010 a 2014 são 4 anos (14 − 10), não 5.",
+  "Esquecer de conferir o domínio: a equação do 2º grau dá duas raízes e só uma costuma estar no intervalo permitido.",
+  "Sinal de a: em V = −5v² + 160v − 470, o a é negativo (máximo). Na hora de aplicar Bhaskara, não perca o sinal de a e de b.",
+  "Confundir PA com PG: soma fixa é PA; multiplica por fator (ou % ) é PG.",
+  "No log, usar as propriedades ao contrário: `log(a + b)` **não** vale `log a + log b`.",
+  "Em inequação, não inverter o sinal ao multiplicar por negativo."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-2",
+   "n": 14,
+   "resolucao": "A bola é descrita por uma função do 2º grau A(t) e a tabela traz (t; A) = (0; 0), (1; 8), (5; 20).\n\nForma geral: A(t) = at² + bt + c.\n\n- Em t = 0, A = 0, então **c = 0**. Sobra A(t) = at² + bt.\n- Em t = 1: a + b = 8.\n- Em t = 5: 25a + 5b = 20, ou, dividindo por 5, 5a + b = 4.\n\nSubtraindo a primeira da segunda: 4a = −4, logo **a = −1** e b = 8 − (−1) = **9**.\n\nA(t) = −t² + 9t. Conferindo em t = 5: −25 + 45 = 20 ✔.\n\nAlternativa **A**. Gabarito oficial: A. ✔ Bateu."
+  },
+  {
+   "prova": "2025-2",
+   "n": 14,
+   "resolucao": "O enunciado quer a velocidade do vento v para a qual P(v) = −5v² + 160v − 470 vale 630 kW, com 4 ≤ v ≤ 16.\n\nIguale: −5v² + 160v − 470 = 630 → −5v² + 160v − 1 100 = 0. Divida por −5: v² − 32v + 220 = 0.\n\nBhaskara: Δ = 32² − 4·1·220 = 1 024 − 880 = 144, √Δ = 12.\n\nv = (32 ± 12) ÷ 2, então v = 22 ou v = 10.\n\nO domínio é 4 ≤ v ≤ 16, então v = 22 não serve. **v = 10 m/s**.\n\nAlternativa **C**. Gabarito oficial: C. ✔ Bateu."
+  },
+  {
+   "prova": "2026-1",
+   "n": 36,
+   "resolucao": "N(t) = 1 000 · 2^(t ÷ g). Em t = 45, N = 8 000.\n\n8 000 = 1 000 · 2^(45 ÷ g) → 2^(45 ÷ g) = 8 = 2³.\n\nMesma base, expoentes iguais: 45 ÷ g = 3 → **g = 15 minutos**.\n\nAlternativa **A**. Gabarito oficial: A. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Um aplicativo de transporte cobra uma taxa fixa de R$ 5,00 mais R$ 1,60 por quilômetro rodado. Maria pagou R$ 24,20 por uma corrida. A distância percorrida, em quilômetros, foi de",
+   "alternativas": [
+    "10",
+    "12",
+    "14",
+    "15",
+    "16"
+   ],
+   "gabarito": "B",
+   "resolucao": "O valor é y = 5 + 1,6x. Com y = 24,20: 1,6x = 24,20 − 5 = 19,20, e x = 19,20 ÷ 1,6 = 12 km. Erro comum: dividir 24,20 por 1,6 sem tirar a taxa fixa (daria cerca de 15,1).",
+   "figura": {
+    "lib": "jsxgraph",
+    "bbox": [
+     -2,
+     30,
+     16,
+     -3
+    ],
+    "eixos": true,
+    "elementos": [
+     {
+      "t": "funcao",
+      "expr": "5+1.6*x",
+      "dominio": [
+       0,
+       15
+      ],
+      "rotulo": "preço (R$)"
+     }
+    ]
+   }
+  },
+  {
+   "enunciado": "Um reservatório continha 1 200 litros de água. Uma válvula o esvazia em ritmo constante e, depois de 4 horas, restavam 880 litros. Mantido esse ritmo, o reservatório ficará completamente vazio depois de",
+   "alternativas": [
+    "11 horas",
+    "12 horas",
+    "14 horas",
+    "15 horas",
+    "20 horas"
+   ],
+   "gabarito": "D",
+   "resolucao": "Em 4 h saíram 1 200 − 880 = 320 L, então a taxa é 320 ÷ 4 = 80 L/h. Para esvaziar tudo: 1 200 ÷ 80 = 15 horas. (11 horas seria 880 ÷ 80, que é o tempo que ainda falta depois das 4 primeiras, e não o total.)",
+   "figura": {
+    "lib": "jsxgraph",
+    "bbox": [
+     -1,
+     1400,
+     17,
+     -100
+    ],
+    "eixos": true,
+    "elementos": [
+     {
+      "t": "ponto",
+      "id": "P0",
+      "xy": [
+       0,
+       1200
+      ],
+      "rotulo": "1 200 L"
+     },
+     {
+      "t": "ponto",
+      "id": "P1",
+      "xy": [
+       4,
+       880
+      ],
+      "rotulo": "880 L (4 h)"
+     },
+     {
+      "t": "segmento",
+      "de": "P0",
+      "ate": "P1"
+     }
+    ]
+   }
+  },
+  {
+   "enunciado": "O lucro mensal de uma fábrica, em milhares de reais, é dado por L(x) = −2x² + 40x − 120, em que x é a quantidade produzida, em milhares de unidades. O lucro máximo mensal, em milhares de reais, é igual a",
+   "alternativas": [
+    "60",
+    "70",
+    "80",
+    "100",
+    "120"
+   ],
+   "gabarito": "C",
+   "resolucao": "A parábola tem a < 0, então o máximo está no vértice: xv = −40 ÷ (2·(−2)) = 10. L(10) = −2·100 + 400 − 120 = 80. O lucro máximo é 80 mil reais. Quem para em xv = 10 e marca 10 errou a pergunta: x é a quantidade, não o lucro.",
+   "figura": {
+    "lib": "jsxgraph",
+    "bbox": [
+     -1,
+     100,
+     19,
+     -30
+    ],
+    "eixos": true,
+    "elementos": [
+     {
+      "t": "funcao",
+      "expr": "-2*x^2+40*x-120",
+      "dominio": [
+       4,
+       16
+      ],
+      "rotulo": "L"
+     }
+    ]
+   }
+  },
+  {
+   "enunciado": "Em um laboratório, uma cultura começa com 500 bactérias e a população dobra a cada 20 minutos. Considerando esse crescimento, o número de bactérias após 1 hora e 40 minutos será de",
+   "alternativas": [
+    "16 000",
+    "10 000",
+    "2 500",
+    "8 000",
+    "32 000"
+   ],
+   "gabarito": "A",
+   "resolucao": "1 h 40 min = 100 min, e 100 ÷ 20 = 5 dobras. N = 500 · 2⁵ = 500 · 32 = 16 000. Quem faz 500 × 20 = 10 000 trata como crescimento linear; 500 × 5 = 2 500 também.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um atleta planeja treinar 3 km na primeira semana e, a cada semana seguinte, aumentar 1,5 km em relação à anterior, como mostra a tabela. Mantido esse padrão, a distância treinada na 8ª semana será de",
+   "alternativas": [
+    "11,0 km",
+    "12,0 km",
+    "12,5 km",
+    "15,0 km",
+    "13,5 km"
+   ],
+   "gabarito": "E",
+   "resolucao": "É uma PA com a₁ = 3 e r = 1,5. a₈ = 3 + (8 − 1)·1,5 = 3 + 10,5 = 13,5 km. Quem usa 8 em vez de 7 na fórmula obtém 15 km.",
+   "figura": {
+    "lib": "tabela",
+    "cabecalho": [
+     "Semana",
+     "1ª",
+     "2ª",
+     "3ª"
+    ],
+    "linhas": [
+     [
+      "Distância (km)",
+      "3",
+      "4,5",
+      "6"
+     ]
+    ]
+   }
+  }
+ ]
+}

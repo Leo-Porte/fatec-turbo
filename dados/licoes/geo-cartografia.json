@@ -1,0 +1,139 @@
+{
+ "id": "geo-cartografia",
+ "disciplina": "Geografia",
+ "tema": "Cartografia",
+ "titulo": "Cartografia: escala, fusos e projeções",
+ "semana": 5,
+ "requisitos": [
+  "mat-proporcao"
+ ],
+ "minutos": 35,
+ "por_que": "Cartografia caiu em 9 questões nas 15 provas. Quatro delas pedem conta (fuso horário e escala, duas vezes como questão multidisciplinar com Matemática) e as outras testam conceito: projeção, GPS, hemisférios, rosa dos ventos. A conta é curta; quem sabe a regra do fuso e a conversão de escala acerta todas.",
+ "secoes": [
+  {
+   "titulo": "1. Fuso horário: a conta que mais cai",
+   "texto": "A Terra gira de **oeste para leste**, então o Sol aparece primeiro para quem está mais a leste. Por isso, **quanto mais a leste, mais tarde é** (horário adiantado). Quem está mais a oeste está com o relógio atrasado.\n\nA Terra dá uma volta de 360° em 24 h, então:\n\n`360° ÷ 24 h = 15° por hora`\n\nCada fuso tem 15° de longitude e 1 hora de diferença para o vizinho. O fuso de referência é o do meridiano de Greenwich (0°), chamado **UTC** (ou GMT). O número depois do UTC diz quantas horas aquele lugar está de Greenwich: UTC−3 está 3 h atrás, UTC+9 está 9 h à frente.\n\n**Receita de 3 passos:**\n\n- 1. Diferença de fuso = subtraia os números do UTC (UTC−3 e UTC−5 → 2 h).\n- 2. Descubra quem está mais a leste: é o que tem o **maior** número (−3 é maior que −5). Esse tem horário adiantado.\n- 3. Some a diferença a quem está adiantado, ou subtraia de quem está atrasado. Se passar de 24 h ou ficar negativo, o dia muda.\n\nExemplo: no Acre (UTC−5) são 19 h. Em São Paulo (UTC−3) são 19 + 2 = **21 h**. Foi exatamente o que caiu na prova de 2026/2.\n\nO Brasil tem 4 fusos: Fernando de Noronha e ilhas oceânicas (UTC−2), Brasília (UTC−3), estados como MT, MS e AM (UTC−4) e o Acre (UTC−5). Todos atrás de Greenwich. Na prova, o enunciado sempre diz o UTC; não precisa decorar o mapa."
+  },
+  {
+   "titulo": "2. Fuso + viagem: o horário de chegada",
+   "texto": "Na prova de 2024/2 a questão juntou Geografia com Física: voo entre La Paz (−7) e Chile (−4), 9 000 km a 900 km/h, saindo às 9h45.\n\nFaça em duas etapas, sem misturar:\n\n- **Duração do voo**: `Δt = Δs ÷ v` = 9 000 ÷ 900 = **10 h**.\n- **Chegada no relógio de saída**: 9h45 + 10 h = 19h45 (ainda na hora de La Paz).\n- **Correção do fuso**: o Chile (−4) está 3 h à frente de La Paz (−7). 19h45 + 3 h = **22h45**.\n\nRegra de ouro: o tempo de voo é o mesmo para quem está no avião. O relógio do destino é que anda diferente. Sempre converta o fuso **depois** de somar a duração.\n\nSe a questão der só a **longitude** em vez do UTC, use 15° = 1 h: 30° de diferença são 2 h."
+  },
+  {
+   "titulo": "3. Escala: distância no mapa ÷ distância real",
+   "texto": "A escala diz quantas vezes a realidade foi reduzida para caber no papel:\n\n`escala = distância no mapa ÷ distância real` (as duas na mesma unidade)\n\nEscala **numérica** 1:3 000 000 quer dizer que 1 cm no mapa vale 3 000 000 cm na realidade (30 km). Escala **gráfica** é a régua desenhada no mapa.\n\nNa prova de 2020/1: distância real de 1 500 km, no mapa 50 cm. Passe tudo para centímetro: 1 km = 100 000 cm, então 1 500 km = 150 000 000 cm. Escala = 50 ÷ 150 000 000 = 1 ÷ 3 000 000. Resposta 1:3 000 000.\n\nPara o caminho inverso (achar a distância real), multiplique: distância no mapa × denominador.\n\n**Escala grande × pequena** (pega muita gente): quanto **menor** o denominador, **maior** a escala. 1:1 000 é escala grande, mostra pouca área com muito detalhe (planta de bairro). 1:50 000 000 é escala pequena, mostra muita área com pouco detalhe (mapa-múndi)."
+  },
+  {
+   "titulo": "4. Projeções cartográficas",
+   "texto": "A Terra é uma esfera e o mapa é plano. Passar de um para o outro sempre deforma alguma coisa. **Projeção cartográfica** é o método para representar a superfície esférica num plano. Nenhuma é perfeita; cada uma preserva uma característica e sacrifica outra.\n\n- **Conforme** (preserva as formas e os ângulos, distorce as áreas): **Mercator** é a mais famosa. Distorce mais quanto maior a latitude, por isso a Groenlândia parece gigante e a África parece menor do que é. Era boa para navegação.\n- **Equivalente** (preserva as áreas, distorce as formas): a de **Peters** é a clássica.\n- Quanto à superfície em que se projeta: **cilíndrica** (Mercator), **cônica** e **azimutal** (plana, muito usada para os polos).\n\nA Fatec já perguntou o que é projeção (2024/1) e as propriedades de Mercator (2018/1). Frase para decorar: **Mercator preserva as formas e distorce as áreas.**"
+  },
+  {
+   "titulo": "5. Coordenadas, hemisférios e rosa dos ventos",
+   "texto": "- **Paralelos** são círculos paralelos ao Equador e medem a **latitude** (0° a 90°, Norte ou Sul).\n- **Meridianos** vão de polo a polo e medem a **longitude** (0° a 180°, Leste ou Oeste). O meridiano de origem é **Greenwich**.\n- O **Equador** (0° de latitude) separa o hemisfério **Norte** (setentrional, boreal) do **Sul** (meridional, austral). Greenwich separa o **Leste** (oriental) do **Oeste** (ocidental).\n- O Brasil é cortado pelo Equador (no norte) e pelo Trópico de Capricórnio (em SP): fica na maior parte no hemisfério Sul e quase todo no Ocidental.\n\n**Rosa dos ventos**: pontos **cardeais** (N, S, L, O), **colaterais** (NE, NO, SE, SO) e **subcolaterais** (como ENE, SSO). Em inglês, W = oeste e E = leste (a prova de 2026/2 cobrou isso com SW, SSW etc.). Para dar a direção entre dois lugares, olhe onde o segundo está em relação ao primeiro."
+  },
+  {
+   "titulo": "6. GPS e mapas temáticos",
+   "texto": "O **GPS** (Sistema de Posicionamento Global) usa uma rede de satélites que enviam sinais. O receptor (celular, carro) calcula a distância até vários satélites ao mesmo tempo e descobre sua posição no globo, em qualquer lugar e em qualquer condição de tempo (2023/1).\n\n**Mapa de uso e ocupação do solo** mostra o que há em cada área (casas, lavoura, floresta). Serve para **planejamento urbano**, por exemplo para orientar a expansão da cidade (2017/1). **Sensoriamento remoto** é obter informação da superfície a distância, por satélite ou avião."
+  }
+ ],
+ "decorar": [
+  "Fuso: 360° ÷ 24 h = 15° = 1 hora. Mais a leste = mais tarde.",
+  "UTC−3 está 2 h à frente de UTC−5 (19h no Acre = 21h em SP).",
+  "Tempo de voo: Δt = Δs ÷ v; só depois corrija o fuso.",
+  "Escala = mapa ÷ real, na mesma unidade. 1 km = 100 000 cm.",
+  "Escala grande = denominador pequeno = muito detalhe, pouca área.",
+  "Mercator: projeção conforme, preserva formas, distorce áreas (mais perto dos polos).",
+  "Equador: Norte × Sul. Greenwich: Leste × Oeste.",
+  "GPS: satélites + receptor, posição em qualquer tempo."
+ ],
+ "pegadinhas": [
+  "Somar o fuso em vez de subtrair (ou ao contrário). Teste: quem está a leste tem relógio **maior**.",
+  "Corrigir o fuso antes de somar a duração do voo. Some a duração primeiro, no relógio de saída.",
+  "Esquecer de converter a unidade da escala: km para cm antes de dividir.",
+  "Dizer que a escala 1:1 000 é pequena. Escala grande é a que mostra detalhe.",
+  "Achar que Mercator preserva áreas. Preserva formas; as áreas ficam exageradas longe do Equador."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-2",
+   "n": 21,
+   "resolucao": "Partida às 19 h no Acre (UTC−5). São Paulo está em UTC−3, que é o **maior** número, ou seja, mais a leste e com relógio adiantado.\n\nDiferença: (−3) − (−5) = 2 h.\n\nHorário em SP: 19 h + 2 h = **21 h**. Alternativa D."
+  },
+  {
+   "prova": "2024-2",
+   "n": 21,
+   "resolucao": "Passo 1, duração: 9 000 km ÷ 900 km/h = 10 h.\n\nPasso 2, no relógio de La Paz: 9h45 + 10 h = 19h45.\n\nPasso 3, fuso: La Paz −7 e Chile −4. O Chile está 3 h à frente. 19h45 + 3 h = **22h45**. Alternativa E.\n\nQuem esquece o fuso marca 19h45 (D), a armadilha da questão."
+  },
+  {
+   "prova": "2020-1",
+   "n": 42,
+   "resolucao": "Escala = distância no mapa ÷ distância real, mesma unidade.\n\nReal: 1 500 km = 1 500 × 100 000 cm = 150 000 000 cm. Mapa: 50 cm.\n\n50 ÷ 150 000 000 = 1 ÷ 3 000 000. Escala **1:3 000 000**, alternativa D."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Em um mapa de escala 1:2 000 000, a distância entre duas cidades mede 12 cm. A distância real entre elas é de",
+   "alternativas": [
+    "24 km",
+    "120 km",
+    "240 km",
+    "2 400 km",
+    "24 000 km"
+   ],
+   "gabarito": "C",
+   "resolucao": "Distância real = distância no mapa × denominador = 12 × 2 000 000 = 24 000 000 cm.\n\nPara km, divida por 100 000: 24 000 000 ÷ 100 000 = **240 km**. Alternativa C. Quem não converteu direito cai em 24 km ou 2 400 km.",
+   "figura": null
+  },
+  {
+   "enunciado": "Uma reunião online foi marcada para terça-feira, às 8 h, no horário de Tóquio (UTC+9). Um participante em Brasília (UTC−3) deve entrar na reunião",
+   "alternativas": [
+    "na terça-feira, às 8 h.",
+    "na terça-feira, às 12 h.",
+    "na segunda-feira, às 17 h.",
+    "na segunda-feira, às 23 h.",
+    "na segunda-feira, às 20 h."
+   ],
+   "gabarito": "E",
+   "resolucao": "Diferença de fuso: 9 − (−3) = 12 h. Tóquio está a leste, com o relógio adiantado.\n\nBrasília = Tóquio − 12 h. Terça 8 h − 12 h = segunda **20 h**. Alternativa E. A \"8 h de terça\" ignora o fuso e a \"12 h de terça\" soma em vez de subtrair.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um avião decola de São Paulo (UTC−3) na segunda-feira, às 22 h, rumo a Lisboa, que, nessa data, está em UTC+0. O voo dura 9 horas. O horário local de chegada em Lisboa é",
+   "alternativas": [
+    "7 h de terça-feira.",
+    "10 h de terça-feira.",
+    "13 h de terça-feira.",
+    "19 h de segunda-feira.",
+    "1 h de terça-feira."
+   ],
+   "gabarito": "B",
+   "resolucao": "Etapa 1, no relógio de São Paulo: segunda 22 h + 9 h = terça 7 h.\n\nEtapa 2, fuso: Lisboa (UTC+0) está 3 h à frente de São Paulo (UTC−3). Terça 7 h + 3 h = terça **10 h**. Alternativa B. A alternativa A esquece o fuso.",
+   "figura": null
+  },
+  {
+   "enunciado": "Duas cidades estão sobre os meridianos de 45° O e de 75° O. Quando é meio-dia na cidade de 75° O, o horário na cidade de 45° O é",
+   "alternativas": [
+    "10 h.",
+    "12 h.",
+    "13 h.",
+    "14 h.",
+    "15 h."
+   ],
+   "gabarito": "D",
+   "resolucao": "Diferença de longitude: 75° − 45° = 30°. Com 15° = 1 h, são 2 h.\n\nA cidade de 45° O está mais a **leste** (menos longitude oeste), então o relógio dela está adiantado: 12 h + 2 h = **14 h**. Alternativa D.",
+   "figura": null
+  },
+  {
+   "enunciado": "Num mapa-múndi feito na projeção de Mercator, a Groenlândia aparece com tamanho comparável ao da África, embora seja muito menor. Isso ocorre porque essa projeção",
+   "alternativas": [
+    "preserva as formas e distorce as áreas, exagerando-as nas latitudes altas.",
+    "preserva as áreas e distorce as formas, reduzindo as terras próximas aos polos.",
+    "preserva as distâncias entre todos os pontos do planeta.",
+    "só representa regiões do hemisfério Sul.",
+    "usa uma escala diferente em cada continente por conveniência política."
+   ],
+   "gabarito": "A",
+   "resolucao": "Mercator é uma projeção **conforme**: preserva as formas e os ângulos, mas distorce as áreas, e a distorção cresce com a latitude. A Groenlândia, perto do polo, fica inflada. Alternativa A. A B descreve uma projeção equivalente (como a de Peters).",
+   "figura": null
+  }
+ ]
+}

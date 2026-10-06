@@ -1,0 +1,131 @@
+{
+ "id": "por-figuras",
+ "disciplina": "Português",
+ "tema": "Semântica e figuras de linguagem",
+ "titulo": "Figuras de linguagem e sentido",
+ "semana": 7,
+ "requisitos": ["por-interpretacao"],
+ "minutos": 30,
+ "por_que": "Semântica e figuras de linguagem somam 18 questões nas 15 provas, quase uma por prova, e as funções da linguagem e gêneros (charge, meme, vocativo) acrescentam mais 4. Cai metáfora, ironia, personificação, hipérbole, antítese, além de sinonímia e provérbios.",
+ "secoes": [
+  {
+   "titulo": "1. Sentido real e sentido figurado",
+   "texto": "Toda figura de linguagem parte de uma mesma ideia: usar a palavra com um sentido diferente do dicionário, ou combinar palavras de um jeito que chama atenção.\n\n- **Sentido denotativo**: o sentido \"de dicionário\", literal. \"A água está quente.\"\n- **Sentido conotativo (figurado)**: o sentido que a palavra ganha pelo contexto. \"A discussão ficou quente.\"\n\nAs aspas em palavras como \"folhear\" (usada fora do papel) indicam, em geral, sentido figurado ou um uso diferente do comum. Quando a questão fala em \"sentido conotativo\", procure a palavra que não pode ser lida ao pé da letra."
+  },
+  {
+   "titulo": "2. As figuras que mais caem",
+   "texto": "Decore esta lista com o exemplo ao lado. É praticamente o que a prova cobra.\n\n- **Metáfora**: comparação **sem** conectivo (como, tal qual). \"O planeta é um vasto subúrbio.\" \"A fome é a escravatura atual.\" Se tem \"como\", é **comparação**, não metáfora.\n- **Comparação**: igual à metáfora, mas com conectivo. \"Seus olhos brilham como estrelas.\"\n- **Ironia**: dizer o contrário do que se pensa, com intenção crítica ou humorística. \"Que serviço rápido!\" depois de três horas de fila.\n- **Personificação (prosopopeia)**: dar ação ou traço humano a um ser inanimado ou abstrato. \"A natureza traz o fruto.\" \"As labaredas pareciam debochar.\"\n- **Hipérbole**: exagero expressivo. \"Já te falei mil vezes.\"\n- **Antítese**: palavras ou ideias de sentido oposto lado a lado. \"Rico de esperança e pobre de recursos.\"\n- **Eufemismo**: suavizar algo duro. \"Ele nos deixou\" (morreu).\n- **Sinestesia**: mistura de sensações de sentidos diferentes. \"Palavras amargas\" (paladar + audição).\n- **Paronomásia**: aproximar palavras de som parecido e sentido diferente (ímpar/preza).\n- **Catacrese**: metáfora já gasta, sem outra palavra para o objeto. \"Pé da mesa\", \"braço da cadeira\"."
+  },
+  {
+   "titulo": "3. Como diferenciar as parecidas",
+   "texto": "- **Metáfora x personificação**: na personificação o ser inanimado **age como gente** (traz, debocha, sorri). Na metáfora, uma coisa é identificada com outra (a vida é uma viagem).\n- **Metáfora x comparação**: procure o \"como\". Com conectivo, comparação.\n- **Ironia x antítese**: antítese é oposição de ideias dentro do texto; ironia é o autor dizer algo para dar a entender o oposto.\n- **Hipérbole x metáfora**: hipérbole é exagero de quantidade ou intensidade (\"morrendo de rir\"); metáfora troca uma coisa por outra.\n- **Eufemismo x ironia**: eufemismo suaviza para não ferir; ironia usa o oposto para criticar.\n\nTruque: nomeie o efeito. Se a frase quer **suavizar**, é eufemismo. Se quer **exagerar**, hipérbole. Se quer **criticar dizendo o contrário**, ironia. Se quer **dar vida a coisa**, personificação."
+  },
+  {
+   "titulo": "4. Sinonímia, paráfrase e provérbios",
+   "texto": "A Fatec também pede para **trocar uma palavra por outra** mantendo o sentido. Regra: troque pela classe equivalente e confira no contexto. Pares que já caíram:\n\n- pouco a pouco = progressivamente\n- extrapola = supera (vai além dos limites)\n- deliberadamente = intencionalmente\n- provavelmente = talvez (indica possibilidade)\n\nArmadilhas: \"tardiamente\" não é \"progressivamente\"; \"excede\" e \"supera\" servem para \"extrapola\", mas \"limita-se a\" é o contrário; \"seguramente\" e \"decerto\" indicam certeza, não dúvida.\n\n**Provérbios** pedem leitura do sentido, não das palavras. A expressão \"bola pra frente\" (seguir adiante sem remoer o passado) combina com \"Águas passadas não movem moinhos\" (o que passou já não age). \"Quem semeia vento colhe tempestade\" é consequência dos próprios atos; \"A cavalo dado não se olham os dentes\" é não criticar o que se ganha de graça. Antes de olhar as opções, diga com suas palavras o que a frase de base quer dizer."
+  },
+  {
+   "titulo": "5. Funções da linguagem e gêneros (o que cai de vez em quando)",
+   "texto": "- **Charge**: humor crítico sobre um **fato atual** (política, sociedade). É diferente de tirinha (narrativa curta em quadros), de cartum (humor mais atemporal) e de meme (imagem com texto, circula na internet).\n- **Vocativo**: palavra que chama o interlocutor (\"queridos irmãos e irmãs\"). Cria proximidade e tem função conativa (de apelo) e fática (de contato).\n- **Registro informal** em podcast ou fala: vocabulário acessível, repetições, marcas de oralidade."
+  }
+ ],
+ "decorar": [
+  "Metáfora = comparação sem conectivo; com \"como\" é comparação.",
+  "Personificação = ser inanimado ou abstrato com ação humana.",
+  "Ironia = dizer o contrário do que se pensa; Hipérbole = exagero; Antítese = oposição; Eufemismo = suavização.",
+  "Sinestesia = sensações misturadas (palavras amargas).",
+  "Pouco a pouco = progressivamente; deliberadamente = intencionalmente; provavelmente = talvez.",
+  "Bola pra frente ≈ Águas passadas não movem moinhos."
+ ],
+ "pegadinhas": [
+  "Chamar de metáfora o que tem \"como\" (é comparação).",
+  "Confundir personificação com metáfora: a personificação exige ação ou sentimento humano.",
+  "Trocar \"provavelmente\" por \"decerto\" ou \"seguramente\" (certeza no lugar de possibilidade).",
+  "Responder provérbio pelas palavras: a frase é parecida, mas o sentido é outro.",
+  "Esquecer a imagem do meme ou da charge: a figura costuma estar na combinação texto + imagem."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-1",
+   "n": 54,
+   "resolucao": "O meme diz \"Imagine se árvores dessem Wi-Fi. Estaríamos plantando como loucos.\" e fecha com \"É uma pena que elas apenas dão o oxigênio que respiramos.\" A frase finge lamentar que as árvores só produzam oxigênio, quando na verdade oxigênio é essencial à vida. O autor **diz o contrário do que pensa** para criticar o valor que damos à tecnologia e esquecemos da natureza.\n\nIsso é **ironia**. Anáfora é repetição de palavra no início de frases, eufemismo é suavizar, catacrese é metáfora gasta e onomatopeia imita som. **Gabarito A**, igual ao CSV."
+  },
+  {
+   "prova": "2025-2",
+   "n": 49,
+   "resolucao": "O verso é \"A natureza traz o fruto, a perfeição\". Quem \"traz o fruto\" é a natureza, um ser abstrato, que recebe uma ação própria de gente (trazer, oferecer). Isso é **personificação (prosopopeia)**.\n\nNão é antítese (não há oposição), nem paradoxo (não há ideias que se contradizem), nem catacrese, nem eufemismo (nada está sendo suavizado). **Gabarito E**, igual ao CSV."
+  },
+  {
+   "prova": "2026-2",
+   "n": 54,
+   "resolucao": "\"Bola pra frente\" é expressão do futebolês: seguir adiante, sem remoer o passado ou o erro. Procure o provérbio com esse sentido:\n- (A) \"A cavalo dado não se olham os dentes\": não reclamar de presente. Outro sentido.\n- (B) \"Antes só do que mal acompanhado\": melhor sozinho que em má companhia.\n- (C) \"Águas passadas não movem moinhos\": o que passou já não tem força; é seguir adiante. Bate.\n- (D) \"Dai a César o que é de César\": dar a cada um o que lhe é devido.\n- (E) \"Quem semeia vento colhe tempestade\": os atos têm consequências.\n\n**Gabarito C**, igual ao CSV."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Leia a frase.\n\n“O novo goleiro é uma muralha: ninguém consegue passar por ele.”\n\nNessa frase ocorre",
+   "alternativas": [
+    "comparação, pois há um conectivo entre os elementos.",
+    "hipérbole, pois o exagero é a única marca do trecho.",
+    "antítese, pois há ideias de sentido oposto.",
+    "eufemismo, pois a frase suaviza uma ideia dura.",
+    "metáfora, pois o goleiro é identificado com uma muralha sem conectivo."
+   ],
+   "gabarito": "E",
+   "resolucao": "O goleiro é chamado diretamente de \"muralha\", sem \"como\": **metáfora**. Não há conectivo (A), o ponto da frase é a identificação, não só o exagero (B), não há palavras opostas (C) e nada é suavizado (D).",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia a frase.\n\n“Já te disse mil vezes para fechar essa porta!”\n\nA expressão “mil vezes” constitui",
+   "alternativas": [
+    "hipérbole, pois exagera a quantidade para dar ênfase.",
+    "eufemismo, pois suaviza a cobrança feita ao ouvinte.",
+    "ironia, pois diz o contrário do que se pensa.",
+    "antítese, pois opõe duas quantidades.",
+    "prosopopeia, pois atribui ação humana a um objeto."
+   ],
+   "gabarito": "A",
+   "resolucao": "Ninguém disse literalmente mil vezes; é exagero para dar ênfase ao incômodo: **hipérbole**. Não suaviza (B), não diz o contrário (C), não há oposição (D) e a porta não age como gente (E).",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia a frase.\n\n“Meu avô nos deixou na semana passada.”\n\nAo escolher o verbo “deixou”, o falante recorre a",
+   "alternativas": [
+    "ironia, pois quer dizer o contrário.",
+    "antítese, pois contrapõe estar e deixar.",
+    "eufemismo, pois suaviza a ideia de morte.",
+    "hipérbole, pois exagera a tristeza.",
+    "catacrese, pois não há outra palavra para a ideia."
+   ],
+   "gabarito": "C",
+   "resolucao": "\"Nos deixou\" é um modo mais delicado de dizer \"morreu\": **eufemismo**. Ironia (A) exige dizer o oposto; antítese (B) exige termos opostos; hipérbole (D) exagera; catacrese (E) seria o caso de uma metáfora que virou nome da coisa, o que não ocorre aqui.",
+   "figura": null
+  },
+  {
+   "enunciado": "Em qual das frases a palavra “quente” está empregada em sentido conotativo?",
+   "alternativas": [
+    "“A água do chuveiro está quente.”",
+    "“A discussão ficou quente na assembleia.”",
+    "“Tome o café enquanto está quente.”",
+    "“O forno quente assa o pão mais rápido.”",
+    "“Pegue um casaco leve: o dia está quente.”"
+   ],
+   "gabarito": "B",
+   "resolucao": "Em (B), \"quente\" não mede temperatura: significa **acalorada, tensa**. É sentido figurado (conotativo). Nas demais, a palavra descreve temperatura real: sentido denotativo.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia o trecho.\n\n“Era um povo rico de esperança e pobre de recursos.”\n\nA figura de linguagem predominante é",
+   "alternativas": [
+    "prosopopeia, pois o povo é humanizado.",
+    "hipérbole, pois há exagero de sentimentos.",
+    "eufemismo, pois se evita falar da pobreza.",
+    "antítese, pois se contrapõem “rico” e “pobre”.",
+    "ironia, pois o autor diz o contrário do que pensa."
+   ],
+   "gabarito": "D",
+   "resolucao": "\"Rico\" e \"pobre\" são palavras de sentido oposto lado a lado: **antítese**. O povo já é humano (A não faz sentido), não há exagero (B), a pobreza é dita abertamente (C) e o autor diz o que pensa (E).",
+   "figura": null
+  }
+ ]
+}

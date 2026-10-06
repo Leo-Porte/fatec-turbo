@@ -1,0 +1,136 @@
+{
+ "id": "fis-magnetismo",
+ "disciplina": "Física",
+ "tema": "Magnetismo",
+ "titulo": "Magnetismo e indução",
+ "semana": 4,
+ "requisitos": [
+  "fis-eletricidade"
+ ],
+ "minutos": 25,
+ "por_que": "Magnetismo caiu em 7 questões nas 15 provas, sempre conceitual: campo do ímã, campo criado por corrente (eletroímã, fios paralelos) e indução de Faraday. Quase não tem conta; é saber a regra certa.",
+ "secoes": [
+  {
+   "titulo": "1. Ímã e campo magnético",
+   "texto": "Todo ímã tem **dois polos, norte (N) e sul (S)**, e eles são inseparáveis: se você parte um ímã ao meio, cada pedaço vira um ímã novo com seu próprio N e S. **Monopolo magnético não existe** (2026/1).\n\n- Polos **iguais se repelem**; polos **diferentes se atraem**.\n- **Linhas de campo**: fora do ímã saem do polo **norte** e chegam ao polo **sul**. Por dentro do ímã elas fecham o caminho, indo do sul ao norte.\n- A **Terra é um grande ímã**: a bússola alinha sua agulha com esse campo. O polo norte geográfico está perto do polo **sul** magnético da Terra, por isso o norte da agulha aponta para lá.\n\nNa 2026/1 o ímã era de neodímio, ferro e boro, uma liga de ímã permanente muito forte. O neodímio é parte essencial da liga, não opcional."
+  },
+  {
+   "titulo": "2. Corrente elétrica cria campo magnético",
+   "texto": "Corrente elétrica é carga em movimento, e **carga em movimento cria campo magnético** (Oersted).\n\n- **Fio reto**: as linhas de campo são **círculos ao redor do fio**, em planos perpendiculares a ele. Intensidade: `B = μ₀·i ÷ (2π·r)`, ou seja, cai com a distância e cresce com a corrente.\n- **Bobina ou solenoide** (fio enrolado): os campos das espiras se somam e dão um campo parecido com o de um ímã de barra.\n- **Eletroímã** (2023/1, mala mágica): bobina com núcleo de ferro. O campo só existe **enquanto passa corrente**. Liga a corrente, atrai o ferro; desliga, solta (é o princípio do guindaste de ferro-velho).\n\nUnidades: campo magnético em **tesla (T)**. A constante μ₀ tem unidade T·m/A (2018/1: isolando μ₀ na lei de Biot–Savart `B = μ₀·i·L·senθ ÷ r²`, sai T·m/A)."
+  },
+  {
+   "titulo": "3. Fios paralelos: força entre correntes",
+   "texto": "Um fio com corrente cria campo magnético e esse campo atua sobre o outro fio com corrente. Entre dois fios paralelos:\n\n- Correntes no **mesmo sentido** → os fios se **atraem**.\n- Correntes em **sentidos opostos** → os fios se **repelem**.\n\nCaiu na 2019/2. Decore assim, que parece o contrário do que a intuição pede: com cargas elétricas \"iguais repelem\", mas com correntes paralelas \"iguais atraem\".\n\nSe os fios estão perpendiculares ao papel (como no desenho da prova), as linhas de campo de cada um são círculos **dentro** do plano do papel, em volta do fio."
+  },
+  {
+   "titulo": "4. Indução eletromagnética (lei de Faraday)",
+   "texto": "Se o **fluxo magnético** (Φ) que atravessa uma espira ou bobina **varia**, aparece nela uma **força eletromotriz induzida** (fem, ε):\n\n`ε = |ΔΦ| ÷ Δt`\n\nO ponto-chave: só há fem se o fluxo **variar**. Ímã parado dentro da bobina não induz nada; ímã se movendo, sim. Quanto **maior** a variação de fluxo ou **menor** o tempo, **maior** a fem.\n\nÉ a ideia por trás do detector de metais (2018/1: o metal ferromagnético perturba o campo e varia o fluxo) e do GoalRef (2026/2: a bola altera o campo das bobinas da baliza e gera a fem).\n\nLei de Lenz (só para saber): o sentido da corrente induzida é o que se **opõe** à variação do fluxo que a causou. O gerador de usina e o transformador usam a indução."
+  },
+  {
+   "titulo": "5. Força sobre carga em movimento",
+   "texto": "Uma partícula carregada que se move em campo magnético sofre uma força **perpendicular à velocidade**: `F = q·v·B·senθ`. Ela **desvia** a trajetória, mas não acelera a partícula.\n\nÉ o que acontece com o vento solar (partículas carregadas vindas do Sol): o campo magnético da Terra as desvia e protege a superfície. Tempestades solares fortes perturbam comunicações e GPS (2018/2)."
+  }
+ ],
+ "decorar": [
+  "Todo ímã tem N e S; não existe monopolo",
+  "Polos iguais repelem; diferentes atraem",
+  "Linhas de campo (fora do ímã): saem do N, chegam ao S",
+  "Corrente cria campo: fio reto → círculos em volta do fio",
+  "Eletroímã: campo só com corrente",
+  "Fios paralelos: correntes no mesmo sentido atraem; opostas repelem",
+  "Faraday: `ε = |ΔΦ| ÷ Δt` (só com fluxo variando)",
+  "Campo magnético em tesla (T); μ₀ em T·m/A"
+ ],
+ "pegadinhas": [
+  "Achar que ao partir um ímã sobram um polo só norte e outro só sul.",
+  "Esquecer que as linhas de campo entram pelo sul e saem pelo norte (do lado de fora).",
+  "Inverter a regra dos fios paralelos: correntes de **mesmo** sentido atraem.",
+  "Achar que ímã parado dentro de uma bobina induz corrente. Precisa variar o fluxo.",
+  "Trocar a fórmula de Faraday: a fem é ΔΦ **sobre** Δt, não Δt sobre ΔΦ.",
+  "Achar que um eletroímã continua magnetizado com a corrente desligada."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-2",
+   "n": 36,
+   "resolucao": "O texto diz que a variação do fluxo magnético (Δφ) num intervalo de tempo (t) induz uma força eletromotriz (ε), e que \"quanto maior a variação do fluxo ou menor o tempo, maior a fem\".\n\nIsso é a lei de Faraday: `ε = |Δφ| ÷ Δt`. Se Δφ aumenta, ε aumenta; se Δt diminui, ε aumenta.\n\nAs demais alternativas inverteram a fórmula (Δt sobre Δφ, ou Δε sobre Δφ) e não correspondem ao texto.\n\nGabarito oficial: A. ✔ Bateu."
+  },
+  {
+   "prova": "2019-2",
+   "n": 39,
+   "resolucao": "Dois fios retos, longos, paralelos, perpendiculares ao papel, com correntes de **mesmo sentido** e mesma intensidade.\n\nA) e B) Falsos: o campo de cada fio tem linhas circulares em volta do fio, que ficam **no plano do papel** (não perpendiculares nem \"ao plano\"). C) Falso: \"campos repulsivos\" não é uma ideia que se aplique; o que repele ou atrai são os fios. D) Falso: correntes no mesmo sentido não repelem. **E)** Certo: correntes paralelas no mesmo sentido **se atraem**.\n\nGabarito oficial: E. ✔ Bateu."
+  },
+  {
+   "prova": "2026-1",
+   "n": 12,
+   "resolucao": "O ímã é feito de uma liga de neodímio, ferro e boro, um ímã permanente forte.\n\nA) Falso: o neodímio é componente da liga, não opcional. B) Falso: a liga é produzida, e o campo geomagnético é da Terra, não do ímã. C) Falso: monopolo magnético não existe, todo ímã tem N e S. **D)** Certo: um ímã forte tem campo intenso e, **fora** dele, as linhas vão do polo norte ao sul. E) Falso: o campo é intenso, e \"leste para oeste\" não descreve nada em um ímã (a orientação é entre os polos).\n\nGabarito oficial: D. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Um ímã em forma de barra é serrado ao meio, transversalmente, entre seus polos norte e sul. Em relação aos dois pedaços obtidos, é correto afirmar que",
+   "alternativas": [
+    "cada pedaço é um ímã completo, com polos norte e sul.",
+    "um pedaço fica somente com polo norte e o outro somente com polo sul.",
+    "ambos perdem o magnetismo.",
+    "cada pedaço fica com um único polo, mas de campo mais fraco.",
+    "os dois pedaços sempre se repelem, qualquer que seja a posição."
+   ],
+   "gabarito": "A",
+   "resolucao": "Os polos são inseparáveis: cada metade vira um ímã novo com N e S. Não existe monopolo magnético.",
+   "figura": null
+  },
+  {
+   "enunciado": "A agulha de uma bússola aponta, aproximadamente, para o norte geográfico da Terra porque",
+   "alternativas": [
+    "o polo norte magnético da Terra coincide com o norte geográfico e atrai o norte da agulha.",
+    "a agulha é feita de um material que sempre se alinha com o Sol.",
+    "o campo magnético da Terra não atua sobre materiais metálicos.",
+    "a agulha tem apenas polo norte.",
+    "o norte geográfico está próximo do polo sul magnético da Terra, que atrai o polo norte da agulha."
+   ],
+   "gabarito": "E",
+   "resolucao": "A Terra funciona como um grande ímã. O polo sul magnético fica perto do norte geográfico, e polos diferentes se atraem. Por isso o polo norte da agulha aponta para lá.",
+   "figura": null
+  },
+  {
+   "enunciado": "Dois fios retos, longos e paralelos são percorridos por correntes elétricas de mesma intensidade, mas em sentidos opostos. Nessas condições, os fios",
+   "alternativas": [
+    "se atraem.",
+    "não interagem, pois os campos se anulam.",
+    "se repelem.",
+    "giram em torno do próprio eixo.",
+    "só interagem se as correntes tiverem intensidades diferentes."
+   ],
+   "gabarito": "C",
+   "resolucao": "Correntes paralelas de mesmo sentido se atraem; de sentidos opostos se repelem. Para a interação basta haver corrente nos dois fios, mesmo com intensidades iguais.",
+   "figura": null
+  },
+  {
+   "enunciado": "O fluxo magnético através de uma espira varia de 0,6 Wb para 0,2 Wb em um intervalo de 0,1 s. O módulo da força eletromotriz média induzida na espira é de",
+   "alternativas": [
+    "0,04 V",
+    "0,4 V",
+    "2 V",
+    "6 V",
+    "4 V"
+   ],
+   "gabarito": "E",
+   "resolucao": "`ε = |ΔΦ| ÷ Δt = |0,2 − 0,6| ÷ 0,1 = 0,4 ÷ 0,1 = 4 V`. 6 V vem de usar só o fluxo inicial (0,6 ÷ 0,1); 2 V de usar só o final (0,2 ÷ 0,1).",
+   "figura": null
+  },
+  {
+   "enunciado": "Um guindaste de ferro-velho usa um eletroímã para levantar sucata de ferro. Quando o operador desliga a corrente elétrica da bobina, a sucata cai porque",
+   "alternativas": [
+    "a sucata perde massa.",
+    "o campo magnético da bobina só existe enquanto há corrente elétrica passando por ela.",
+    "o ferro deixa de ser material ferromagnético.",
+    "o campo magnético da Terra deixa de atuar.",
+    "a corrente elétrica passa a empurrar a sucata para baixo."
+   ],
+   "gabarito": "B",
+   "resolucao": "Eletroímã é uma bobina em que o campo é criado pela corrente. Sem corrente, não há campo, e a sucata deixa de ser atraída.",
+   "figura": null
+  }
+ ]
+}

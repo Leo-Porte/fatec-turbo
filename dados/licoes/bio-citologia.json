@@ -1,0 +1,107 @@
+{
+ "id": "bio-citologia",
+ "disciplina": "Biologia",
+ "tema": "Citologia",
+ "titulo": "Célula, bioquímica e nutrição",
+ "semana": 5,
+ "requisitos": [],
+ "minutos": 35,
+ "por_que": "Bioquímica e citologia somam 14 questões nas 15 provas: valor energético dos nutrientes (caiu em 2023 e 2026, sempre com conta), funções de proteínas e sais minerais, enzimas, respiração e fermentação, e transcrição do DNA em RNA. Quase tudo é conteúdo direto, sem pegadinha de interpretação.",
+ "secoes": [
+  {
+   "titulo": "1. Nutrientes e energia: a conta que a Fatec ama",
+   "texto": "O corpo tira energia de três nutrientes. A prova dá a tabela com os gramas de cada um e você multiplica:\n\n- **Carboidrato**: 4 kcal por grama.\n- **Proteína**: 4 kcal por grama.\n- **Lipídio (gordura)**: 9 kcal por grama.\n\nExemplo: um lanche com 30 g de carboidrato, 5 g de proteína e 2 g de lipídio tem 30 × 4 + 5 × 4 + 2 × 9 = 120 + 20 + 18 = **158 kcal**.\n\nO erro clássico é usar 4 kcal para a gordura. Leia também o comando: às vezes a questão manda considerar só proteínas e carboidratos (foi assim em 2026/2), e aí a gordura fica de fora da conta.\n\nOutra conta que cai: o **% do valor diário (%VD)** é só uma regra de três, como vimos em Porcentagem: quantidade do alimento ÷ quantidade de referência × 100."
+  },
+  {
+   "titulo": "2. Para que serve cada molécula",
+   "texto": "A prova pergunta a função, então decore a associação:\n\n- **Carboidratos**: energia rápida (glicose é o combustível da célula).\n- **Lipídios**: reserva de energia, **isolante térmico**, e fazem parte da membrana (fosfolipídios).\n- **Proteínas**: muitas funções. **Enzimas** (aceleram reações), **anticorpos** (defesa), **hemoglobina** (transporta O₂), **insulina** (hormônio que baixa a glicose no sangue), colágeno e queratina (estrutura).\n- **Ácidos nucleicos (DNA e RNA)**: guardam e usam a informação genética.\n- **Água**: solvente de tudo, transporta substâncias e regula a temperatura.\n\n**Sais minerais** e o que cada um faz:\n\n- **Cálcio**: ossos e dentes, contração muscular, coagulação.\n- **Ferro**: faz parte da hemoglobina (falta causa anemia).\n- **Iodo**: hormônios da tireoide.\n- **Fósforo**: ATP, ácidos nucleicos, ossos.\n\nA **vitamina C** ajuda a absorver o ferro de origem vegetal, e o café e os laticínios (por causa do cálcio) atrapalham essa absorção. Beterraba não é boa fonte de ferro, apesar da cor."
+  },
+  {
+   "titulo": "3. Enzimas",
+   "texto": "Enzima é uma **proteína** que funciona como acelerador de uma reação química, sem ser gasta no processo (catalisador biológico). Cada enzima é **específica**: encaixa em um substrato, como chave e fechadura.\n\nO que atrapalha a enzima:\n\n- **Calor demais** ou **pH extremo** mudam a forma da proteína, e ela perde a função. Isso é **desnaturação**. Enzima fervida não funciona mais.\n- Cada enzima tem seu pH ideal: a **pepsina** trabalha no estômago, em meio ácido (HCl).\n\nExemplos que já caíram: a **papaína** (do mamão) é uma enzima que quebra proteínas, por isso amacia a carne. A pepsina e as enzimas do suco pancreático (como a tripsina) digerem proteínas."
+  },
+  {
+   "titulo": "4. Respiração, fermentação e fotossíntese",
+   "texto": "Todo ser vivo precisa de ATP, a moeda de energia da célula. Ele sai da quebra da glicose:\n\n- **Respiração aeróbica** (com O₂): glicose + O₂ → CO₂ + H₂O + **muito ATP**. Acontece em boa parte nas **mitocôndrias**.\n- **Fermentação** (sem O₂): glicose é quebrada só até certo ponto e sobra **pouco ATP**. Há dois tipos que caem:\n- **Fermentação lática**: produz **lactato** (ácido lático). Ocorre nas fibras musculares em exercício intenso, quando falta O₂, e em bactérias do iogurte e do queijo.\n- **Fermentação alcoólica**: produz **etanol + CO₂**. É a das leveduras (*Saccharomyces cerevisiae*). O CO₂ faz a massa de pão crescer.\n\n**Fotossíntese** é o contrário em termos de matéria: CO₂ + H₂O + luz → glicose + O₂. Acontece nos **cloroplastos** de plantas e algas.\n\nPasteur mostrou que a fermentação é feita por micro-organismos vivos, e não é só uma reação química solta."
+  },
+  {
+   "titulo": "5. Estrutura da célula e membrana",
+   "texto": "- **Procarionte** (bactérias): sem núcleo organizado, DNA solto no citoplasma. **Eucarionte** (animais, plantas, fungos, protozoários): com núcleo e organelas.\n- **Membrana plasmática**: bicamada de lipídios com proteínas, controla o que entra e sai. O experimento de Gorter e Grendel extraiu os lipídios das hemácias e viu que, espalhados, ocupavam o **dobro** da área das hemácias: logo, são duas camadas.\n- **Ribossomo**: fabrica proteínas. **Mitocôndria**: respiração. **Cloroplasto**: fotossíntese. **Núcleo**: guarda o DNA.\n- **Microscópio eletrônico**: tem alto poder de resolução e mostra a ultraestrutura da célula, o que o óptico não consegue."
+  },
+  {
+   "titulo": "6. Do DNA à proteína",
+   "texto": "A informação segue um caminho: **DNA → RNA → proteína**.\n\n- **Transcrição**: o DNA serve de molde e uma enzima (RNA polimerase) monta um **RNA mensageiro (RNAm)**. Sem fator de transcrição ligado ao DNA, não há transcrição e, portanto, não há RNA.\n- **Tradução**: nos ribossomos, o RNAm é lido e vira proteína.\n\nPara montar o RNAm, pareie letra a letra com o molde. No RNA **não existe T**, existe **U**:\n\n- DNA A → RNA **U**\n- DNA T → RNA **A**\n- DNA G → RNA **C**\n- DNA C → RNA **G**\n\nAs fitas são **antiparalelas**: se o molde está escrito de 3' para 5', o RNA sai escrito de 5' para 3'. Exemplo: molde `3' TACGGA 5'` gera `5' AUGCCU 3'`."
+  }
+ ],
+ "decorar": [
+  "Carboidrato e proteína: 4 kcal/g. Lipídio: 9 kcal/g.",
+  "Lipídios: reserva de energia e isolante térmico.",
+  "Cálcio: ossos, músculo, coagulação. Ferro: hemoglobina. Iodo: tireoide. Fósforo: ATP e DNA.",
+  "Enzima = proteína. Calor forte ou pH extremo a desnatura.",
+  "Respiração aeróbica: muito ATP. Fermentação: pouco ATP.",
+  "Fermentação lática produz lactato (músculo, iogurte). Alcoólica produz etanol + CO₂ (levedura, pão).",
+  "Fotossíntese no cloroplasto. Respiração na mitocôndria. Proteína no ribossomo.",
+  "RNA troca T por U. DNA→RNA: A→U, T→A, G→C, C→G, e as fitas são antiparalelas."
+ ],
+ "pegadinhas": [
+  "Usar 4 kcal/g para a gordura. Gordura vale 9, a não ser que o comando diga para considerar só proteínas e carboidratos.",
+  "Dizer que fermentação produz mais ATP que respiração aeróbica. É o contrário.",
+  "Confundir fermentação lática (lactato) com alcoólica (etanol e CO₂). A do músculo é a lática.",
+  "Escrever T no RNA. No RNA é U.",
+  "Esquecer que o RNAm é antiparalelo ao molde: a direção 5'→3' inverte."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-2",
+   "n": 1,
+   "resolucao": "O texto diz que, com pouco O₂, as fibras musculares fazem **fermentação lática**, que gera menos ATP que a aeróbica, mas mantém a contração.\n\n- A) Errada: libera **menos** ATP que o processo aeróbico.\n- B) Errada: CO₂ não é liberado dentro de ribossomo (ribossomo faz proteína), e a fermentação lática acidifica a célula.\n- C) Errada: o produto é ácido **lático**, não acético.\n- D) **Correta**: o lactato é o produto da quebra da glicose e a fermentação permite seguir gerando ATP rápido.\n- E) Errada: etanol é da fermentação alcoólica (leveduras), não da muscular.\n\nGabarito: **D**."
+  },
+  {
+   "prova": "2026-2",
+   "n": 6,
+   "resolucao": "A questão manda considerar **só proteínas e carboidratos** (4 kcal/g cada), então some os dois gramas de cada item e multiplique por 4:\n\n- Ovos: 30 + 4 = 34 g → 136 kcal.\n- Abacate: 2 + 9 = 11 g → 44 kcal.\n- Iogurte grego: 30 + 10 = 40 g → 160 kcal.\n- Granola: 3 + 20 = 23 g → 92 kcal.\n- Suco de laranja: 1,5 + 21 = 22,5 g → 90 kcal.\n\nO maior é o iogurte. Gabarito: **C**.\n\nSe você incluísse os lipídios (× 9), os ovos ficariam com 289 kcal contra 286 do iogurte e a resposta mudaria. Por isso o comando importa."
+  },
+  {
+   "prova": "2018-1",
+   "n": 47,
+   "resolucao": "O gene escrito `3' AGACATATA 5'` é o molde. O RNAm pareia com ele (A→U, G→C, A→U, C→G, A→U, T→A, A→U, T→A, A→U), dando `UCUGUAUAU`, e como as fitas são antiparalelas ele fica escrito de 5' para 3': `5' UCUGUAUAU 3'`.\n\nA sequência esperada é transcrita (não traduzida) em **RNAm**. Isso elimina as alternativas com RNAt ou tradução.\n\n- C) transcrita em RNAm `5' UCUGUAUAU 3'`: correta.\n- D) copiaria o DNA com T, e RNA não tem T.\n\nGabarito: **C**."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "O rótulo de um lanche informa: 20 g de carboidratos, 10 g de proteínas e 5 g de lipídios. Considerando 4 kcal/g para carboidratos e proteínas e 9 kcal/g para lipídios, o valor energético total desse lanche é, em kcal, de",
+   "alternativas": ["35", "140", "165", "315", "120"],
+   "gabarito": "C",
+   "resolucao": "Carboidratos: 20 × 4 = 80 kcal. Proteínas: 10 × 4 = 40 kcal. Lipídios: 5 × 9 = 45 kcal. Total: 80 + 40 + 45 = **165 kcal**.\n\nOs erros prováveis: somar só os gramas (35), usar 4 kcal para a gordura (140) ou esquecer os lipídios (120).",
+   "figura": null
+  },
+  {
+   "enunciado": "Um estudante aqueceu uma solução de enzima até a fervura e depois a misturou com o substrato. Não houve reação. A explicação mais adequada é que",
+   "alternativas": ["o calor desnaturou a enzima, alterando a forma da proteína e fazendo-a perder a função.", "o calor consumiu todo o substrato antes de a enzima agir.", "as enzimas são lipídios, que derretem em temperaturas altas.", "a fervura transformou a enzima em substrato.", "a enzima foi gasta na reação anterior e não pode ser reaproveitada."],
+   "gabarito": "A",
+   "resolucao": "Enzimas são **proteínas**. Calor excessivo muda a forma da molécula (desnaturação), e sem a forma certa ela não encaixa no substrato. As demais alternativas inventam processos: enzima não é lipídio e não é gasta na reação.",
+   "figura": null
+  },
+  {
+   "enunciado": "Ao preparar pão, a massa fica cheia de bolhas e aumenta de volume depois de misturada com fermento biológico. Essas bolhas são formadas principalmente por",
+   "alternativas": ["gás oxigênio, liberado pela fotossíntese da levedura.", "ácido lático, produzido na fermentação lática.", "etanol, que se evapora e infla a massa.", "vapor de água, liberado pela respiração da farinha.", "gás carbônico, liberado na fermentação alcoólica das leveduras."],
+   "gabarito": "E",
+   "resolucao": "O fermento biológico contém leveduras (*Saccharomyces cerevisiae*), que fazem **fermentação alcoólica**: glicose → etanol + CO₂. O gás carbônico fica preso na massa e a faz crescer. Levedura não faz fotossíntese, e o ácido lático é de outra fermentação.",
+   "figura": null
+  },
+  {
+   "enunciado": "As células do músculo cardíaco têm um número muito grande de mitocôndrias. Isso se explica porque essas organelas",
+   "alternativas": ["fabricam as proteínas contráteis a partir do RNA mensageiro.", "realizam a respiração aeróbica, que produz grande quantidade de ATP para o trabalho contínuo do coração.", "fazem fotossíntese e fornecem glicose ao músculo.", "guardam o DNA da célula muscular.", "digerem as gorduras que chegam ao músculo."],
+   "gabarito": "B",
+   "resolucao": "A mitocôndria é a sede principal da respiração aeróbica, que rende muito ATP. Um músculo que trabalha o tempo todo precisa de muita energia, daí tantas mitocôndrias. Proteínas são feitas nos ribossomos, fotossíntese ocorre em cloroplastos e o DNA fica no núcleo.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um trecho de DNA, usado como molde, tem a sequência 3' TACGGA 5'. O RNA mensageiro transcrito a partir dele terá a sequência",
+   "alternativas": ["5' ATGCCT 3'", "5' UACGGA 3'", "3' AUGCCU 5'", "5' AUGCCU 3'", "5' TACGGA 3'"],
+   "gabarito": "D",
+   "resolucao": "Pareando letra a letra: T→A, A→U, C→G, G→C, G→C, A→U, o que dá AUGCCU. Como as fitas são antiparalelas, o RNA fica escrito de 5' para 3': `5' AUGCCU 3'`.\n\nA) tem T, que não existe no RNA. B) copiou o molde trocando T por U. C) escreveu a direção errada. E) é uma cópia do próprio molde.",
+   "figura": null
+  }
+ ]
+}

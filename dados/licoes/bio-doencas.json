@@ -1,0 +1,107 @@
+{
+ "id": "bio-doencas",
+ "disciplina": "Biologia",
+ "tema": "Microbiologia e doenças",
+ "titulo": "Doenças: agente, transmissão e prevenção",
+ "semana": 5,
+ "requisitos": ["bio-citologia"],
+ "minutos": 40,
+ "por_que": "Microbiologia e doenças caiu em 17 questões nas 15 provas, uma das maiores frequências de Biologia. O formato é quase sempre o mesmo: o enunciado descreve uma doença e pede o agente, a forma de transmissão ou a prevenção (dengue, Chagas, esquistossomose, tuberculose, verminoses, poliomielite).",
+ "secoes": [
+  {
+   "titulo": "1. O método: três perguntas para cada doença",
+   "texto": "Para qualquer doença, responda: **quem causa** (vírus, bactéria, protozoário, verme ou fungo)? **Como chega até a pessoa** (vetor, água, ar, contato)? **Como se evita**? A prova cobra exatamente esse trio, e muitas alternativas erradas trocam uma das respostas.\n\nO tipo de agente já diz muita coisa:\n\n- **Vírus**: não são células e não respondem a **antibiótico**. Prevenção é por vacina e medidas contra a transmissão.\n- **Bactérias**: procariontes, tratadas com antibiótico.\n- **Protozoários**: eucariontes unicelulares.\n- **Vermes**: nematódeos (redondos) ou platelmintos (achatados).\n- **Fungos**: micoses e mofo."
+  },
+  {
+   "titulo": "2. Doenças com vetor (transmitidas por inseto)",
+   "texto": "O **vetor** é o animal que carrega o agente de uma pessoa para outra. Prevenir é atacar o vetor.\n\n- **Dengue** (vírus): mosquito *Aedes aegypti*. Prevenção: não deixar **água parada** (pneumáticos, vasos, caixas). Vírus não se trata com antibiótico. O mesmo mosquito transmite zika, chikungunya e febre amarela urbana.\n- **Doença de Chagas** (protozoário *Trypanosoma cruzi*): inseto hematófago, o **barbeiro**, que defeca perto da picada, e o parasita entra pela pele ou mucosa. Prevenção: combater o barbeiro e melhorar a moradia (casa de pau a pique favorece o inseto). Já caiu em 2024.\n- **Malária** (protozoário *Plasmodium*): fêmea do mosquito *Anopheles*.\n- **Leishmaniose** (protozoário *Leishmania*): flebotomíneo, o **mosquito-palha**. Prevenção: combater o vetor, mosquiteiro e tela.\n- **Filariose** (verme *Wuchereria*): mosquito *Culex*. Causa a elefantíase."
+  },
+  {
+   "titulo": "3. Doenças de água e alimento contaminado (fecal-oral)",
+   "texto": "O agente sai nas fezes e chega à boca de outra pessoa por água, alimento ou mão sujos. A prevenção quase sempre é **saneamento básico** (água tratada, esgoto) e higiene.\n\n- **Verminoses por nematódeos**: **ascaridíase** (*Ascaris lumbricoides*, ovos ingeridos) e **tricuríase**. **Ancilostomose** ou amarelão: as larvas do verme **penetram pela pele dos pés** em solo contaminado e o verme provoca anemia (por isso o nome amarelão).\n- **Teníase** (*Taenia*): comer **carne de porco ou de boi crua ou mal cozida** com a larva. Prevenção: cozinhar bem a carne.\n- **Esquistossomose** (verme *Schistosoma mansoni*): as larvas se desenvolvem em **caramujos** de água doce e penetram na pele de quem entra na água. Prevenção: saneamento e evitar água contaminada.\n- **Cólera** (bactéria *Vibrio cholerae*): água e alimento contaminados.\n- **Poliomielite** (vírus): fecal-oral, evitada por **vacina**.\n- **Hepatite A** (vírus): fecal-oral.\n- **Amebíase** e **giardíase** (protozoários): água e alimento contaminados.\n- **Toxoplasmose** (protozoário): carne mal passada, água ou alimento contaminado e fezes de gato."
+  },
+  {
+   "titulo": "4. Doenças respiratórias e de contato",
+   "texto": "- **Tuberculose** (bactéria *Mycobacterium tuberculosis*): **gotículas no ar**, exaladas na tosse, fala ou espirro. Prevenção: máscara perto de doente, ambientes arejados, vacina BCG. Não é viral e a água não transmite.\n- **Gripe, sarampo, COVID**: vírus, também por gotículas.\n- **Leptospirose** (bactéria *Leptospira*): urina de **rato** em água de enchente, entrando pela pele ferida ou mucosas.\n- **Tétano** (bactéria *Clostridium tetani*): ferimentos contaminados. Prevenção: vacina.\n- **Hanseníase** (bactéria): contato prolongado.\n- **Sífilis**, **HIV**, **hepatite B**: transmissão sexual e por sangue. Preservativo protege.\n- **Raiva** (vírus): mordida de animal infectado.\n- **Micoses** (fungos): pele úmida e mofo. Fungos são heterótrofos e se espalham por esporos, e ambiente úmido favorece o mofo, enquanto ambiente seco e arejado dificulta."
+  },
+  {
+   "titulo": "5. Vacina, soro e imunidade coletiva",
+   "texto": "- **Vacina**: traz o antígeno (agente morto, enfraquecido ou pedaço dele). O corpo **produz** anticorpos e guarda memória. É **prevenção**, e a imunidade é ativa e duradoura.\n- **Soro**: traz **anticorpos prontos**. Age na hora, mas dura pouco (imunidade passiva). Usado em **emergência**, como o soro antiofídico depois de picada de cobra. O leite materno também passa anticorpos ao bebê, e isso é imunidade passiva.\n- **Imunidade coletiva (de rebanho)**: quando muita gente é vacinada, o agente quase não circula e protege até os não vacinados. Com a queda da cobertura vacinal surgem bolsões de pessoas suscetíveis, e a doença volta (como poliomielite e sarampo).\n\nPara o sarampo, a fração de vacinados necessária é p = (1 − 1/R₀) × 100%. Com R₀ = 12, dá cerca de 91,7%.\n\n**Antibiótico** age só em bactérias. Contra vírus não adianta, e tomar \"preventivamente\" não evita doença viral."
+  },
+  {
+   "titulo": "6. Micro-organismos úteis e conservação de alimentos",
+   "texto": "Nem todo micro-organismo causa doença. Bactérias lácticas fazem iogurte e queijo (consomem a **lactose**, o açúcar do leite, e liberam substâncias de sabor e aroma). Leveduras fazem pão e bebidas alcoólicas.\n\nMétodos de conservação que já caíram:\n\n- **Pasteurização**: aquecimento por tempo curto para reduzir micro-organismos.\n- **Liofilização**: desidratação por congelamento e **sublimação** do gelo.\n- **Defumação**: a fumaça ajuda a conservar.\n\nDoença profissional (por exemplo, LER, lesão por esforço repetitivo) é causada pelo **trabalho**, e não é infecciosa."
+  }
+ ],
+ "decorar": [
+  "Vírus não responde a antibiótico. Dengue = vírus, Aedes aegypti, evitar água parada.",
+  "Chagas = protozoário, barbeiro. Malária = Plasmodium, Anopheles. Leishmaniose = mosquito-palha.",
+  "Esquistossomose = verme, caramujo, larva penetra na pele na água. Teníase = carne mal cozida.",
+  "Ascaridíase = ovos ingeridos (fecal-oral). Ancilostomose = larvas pelos pés, anemia.",
+  "Tuberculose = bactéria, gotículas no ar, máscara. Cólera e leptospirose = bactérias.",
+  "Leptospirose = urina de rato, enchente.",
+  "Poliomielite e sarampo = vírus, vacina. Imunidade coletiva protege não vacinados.",
+  "Vacina = antígeno (ativa). Soro = anticorpos prontos (passiva, emergência)."
+ ],
+ "pegadinhas": [
+  "Dizer que leptospirose ou cólera é viral. São bacterianas.",
+  "Associar esquistossomose a inseto hematófago. O transmissor é o caramujo (hospedeiro intermediário).",
+  "Prescrever antibiótico para dengue, gripe ou sarampo. São virais.",
+  "Confundir vacina com soro. Vacina previne (você produz anticorpos), soro trata na hora (anticorpos prontos).",
+  "Trocar o vetor de Chagas (barbeiro) pelo mosquito, e esquecer que o barbeiro transmite pelas fezes."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-2",
+   "n": 2,
+   "resolucao": "Tuberculose é **bacteriana** (*Mycobacterium tuberculosis*) e passa por **gotículas** no ar, saídas pela tosse, fala ou espirro.\n\n- A) Errada: não existe forma viral, e exercício não gera imunidade contra ela.\n- B) Errada: água tratada protege de doenças de veiculação hídrica, não de tuberculose.\n- C) **Correta**: máscara reduz a inalação das gotículas contaminadas.\n- D) Errada: fruta e verdura higienizadas combatem verminoses, e a doença não é parasitária.\n- E) Errada: antibiótico não é preventivo, e a doença é bacteriana, não viral.\n\nGabarito: **C**."
+  },
+  {
+   "prova": "2026-1",
+   "n": 4,
+   "resolucao": "O texto descreve transmissão **fecal-oral**: ovos presentes nas fezes chegam à boca por água, alimento ou mãos sujas.\n\n- A) Esquistossomose: larvas do verme penetram a pele na água com caramujos.\n- B) Leptospirose: bactéria, transmitida pela urina de rato, não é verminose.\n- C) **Ascaridíase**: o *Ascaris* é ingerido na forma de ovos, e é o caso do texto.\n- D) Teníase: vem de carne mal cozida.\n- E) Filariose: transmitida por mosquito.\n\nGabarito: **C**."
+  },
+  {
+   "prova": "2025-2",
+   "n": 18,
+   "resolucao": "- A) Errada: cólera é **bacteriana** (*Vibrio cholerae*) e não passa por picada de inseto.\n- B) Errada: leptospirose é bacteriana e vem da urina de rato. A alternativa mistura o barbeiro, que é o vetor da doença de Chagas, com a leptospirose.\n- C) Errada: leptospirose não é viral nem sexual.\n- D) **Correta**: esquistossomose é parasitária, causada por um verme (*Schistosoma*) cujas larvas se desenvolvem em caramujos aquáticos.\n- E) Errada: telas combatem insetos, e a esquistossomose não é transmitida por inseto.\n\nGabarito: **D**."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Após uma enchente em um bairro com muitos roedores, vários moradores apresentaram febre e dores musculares depois de caminhar na água. O quadro resume algumas doenças. Com base nele, a doença de maior risco nessa situação e o seu agente são",
+   "alternativas": ["dengue, um vírus.", "leptospirose, uma bactéria.", "doença de Chagas, um protozoário.", "teníase, um verme.", "dengue, uma bactéria."],
+   "gabarito": "B",
+   "resolucao": "A leptospirose é causada por bactéria e é transmitida pela **urina de ratos** na água de enchente, que entra pela pele ou mucosas. O quadro mostra isso. Dengue é viral e vem do mosquito; Chagas, do barbeiro; teníase, de carne mal cozida.",
+   "figura": {"lib": "tabela", "cabecalho": ["Doença", "Agente", "Transmissão", "Prevenção"], "linhas": [["Dengue", "Vírus", "Picada do mosquito Aedes aegypti", "Eliminar água parada"], ["Leptospirose", "Bactéria", "Contato com água ou lama contaminada pela urina de ratos", "Saneamento e evitar contato com água de enchente"], ["Doença de Chagas", "Protozoário", "Fezes do barbeiro em contato com a pele ou mucosas", "Combater o barbeiro e melhorar a moradia"], ["Teníase", "Verme", "Carne de porco ou boi crua ou mal cozida", "Cozinhar bem a carne"]]}
+  },
+  {
+   "enunciado": "Uma criança tomou a vacina contra o sarampo. O principal efeito dessa vacina no organismo é",
+   "alternativas": ["introduzir anticorpos prontos, que agem imediatamente e logo desaparecem.", "matar o vírus por ação de antibióticos presentes na vacina.", "conferir imunidade passiva, igual à do leite materno.", "estimular a produção de anticorpos e de células de memória contra o vírus.", "tratar a doença já instalada no organismo."],
+   "gabarito": "D",
+   "resolucao": "A vacina traz o antígeno (vírus enfraquecido ou inativado), e o próprio corpo passa a **produzir anticorpos** e guarda memória: imunidade ativa. Anticorpos prontos são o soro, e antibiótico não age em vírus.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um trabalhador rural, que costuma andar descalço em terreno contaminado por fezes, apresentou palidez e cansaço. O exame mostrou anemia e um verme que se alimenta de sangue no intestino. A doença mais provável é a",
+   "alternativas": ["ascaridíase, adquirida pela ingestão de ovos.", "teníase, adquirida pela ingestão de carne mal cozida.", "filariose, transmitida pelo mosquito Culex.", "esquistossomose, transmitida pelo caramujo em água de lagoa.", "ancilostomose, com larvas que penetram pela pele dos pés."],
+   "gabarito": "E",
+   "resolucao": "Andar descalço em solo contaminado e anemia indicam **ancilostomose** (amarelão): as larvas penetram pela pele e o verme se alimenta de sangue no intestino. Ascaridíase é por ingestão de ovos, teníase por carne e esquistossomose depende de água com caramujo.",
+   "figura": null
+  },
+  {
+   "enunciado": "Uma pessoa com gripe procura o médico e pede antibiótico. O médico explica que o medicamento não resolverá o problema, porque",
+   "alternativas": ["a gripe é causada por vírus, e antibióticos agem sobre bactérias.", "a gripe é causada por protozoário.", "o antibiótico só funciona para quem não tomou vacina.", "a gripe é uma doença genética.", "o antibiótico acelera a multiplicação do vírus."],
+   "gabarito": "A",
+   "resolucao": "Antibióticos atuam em **bactérias**. A gripe é viral, então o antibiótico não tem efeito sobre o agente. As demais alternativas inventam causas.",
+   "figura": null
+  },
+  {
+   "enunciado": "A alternativa que associa corretamente a doença e a forma de transmissão é",
+   "alternativas": ["cólera: picada de mosquito.", "tuberculose: consumo de água contaminada.", "malária: picada da fêmea do mosquito Anopheles.", "hepatite A: contato sexual e transfusão de sangue.", "doença de Chagas: ingestão de carne crua de porco."],
+   "gabarito": "C",
+   "resolucao": "A malária é causada por *Plasmodium* e transmitida pela fêmea do *Anopheles*. Cólera é de água contaminada, tuberculose é por gotículas, hepatite A é fecal-oral e Chagas é por fezes do barbeiro.",
+   "figura": null
+  }
+ ]
+}

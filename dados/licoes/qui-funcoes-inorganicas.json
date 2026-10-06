@@ -1,0 +1,134 @@
+{
+ "id": "qui-funcoes-inorganicas",
+ "disciplina": "Química",
+ "tema": "Funções inorgânicas",
+ "titulo": "Ácidos, bases, sais e óxidos",
+ "semana": 4,
+ "requisitos": [
+  "qui-ligacoes"
+ ],
+ "minutos": 30,
+ "por_que": "Funções inorgânicas caíram em 9 questões nas 15 provas: escrever a fórmula de sal, achar número de oxidação, balancear neutralização e classificar óxidos. Todas têm a mesma lógica de cargas que vimos em Ligações.",
+ "secoes": [
+  {
+   "titulo": "1. As quatro funções em uma frase cada",
+   "texto": "- **Ácido** (Arrhenius): em água libera H⁺. Exemplos: HCl, H₂SO₄, HNO₃, H₃PO₄, H₂CO₃.\n- **Base**: em água libera OH⁻. Exemplos: NaOH, Ca(OH)₂, Mg(OH)₂. A amônia também age como base: NH₃ + H₂O → NH₄⁺ + OH⁻.\n- **Sal**: composto iônico com um cátion (que não é H⁺) e um ânion (que não é OH⁻). Exemplos: NaCl, CaSO₄, CaCO₃.\n- **Óxido**: composto de **só dois elementos, sendo um deles o oxigênio**. Exemplos: CO₂, ZnO, CaO.\n\nSe aparecer o par ácido + base, o produto é sal + água. É a **neutralização**."
+  },
+  {
+   "titulo": "2. Fórmula do sal: cruze as cargas",
+   "texto": "Mesma regra de Ligações: a soma das cargas tem que dar zero. Ânions que você precisa saber de cor:\n\n- Cl⁻ (cloreto), Br⁻, I⁻\n- SO₄²⁻ (sulfato), CO₃²⁻ (carbonato), NO₃⁻ (nitrato), PO₄³⁻ (fosfato)\n- OH⁻ (hidróxido), ClO⁻ (hipoclorito)\n\nCátions: grupo 1 → 1+, grupo 2 → 2+, Al³⁺, Zn²⁺, NH₄⁺.\n\nExemplos:\n\n- Ca²⁺ + SO₄²⁻ → **CaSO₄** (cargas 2+ e 2− se anulam, sem índice).\n- Na⁺ + CO₃²⁻ → **Na₂CO₃**.\n- Mg²⁺ + PO₄³⁻ → **Mg₃(PO₄)₂** (3 × 2+ = 6+ e 2 × 3− = 6−).\n- Zn²⁺ + O²⁻ → **ZnO** (óxido de zinco, pigmento branco).\n\nO erro comum é botar índice onde as cargas já se anulam (Ca₂SO₄ está errado)."
+  },
+  {
+   "titulo": "3. Número de oxidação (nox)",
+   "texto": "Nox é a carga \"imaginária\" que o átomo teria se todos os elétrons de cada ligação fossem para o mais eletronegativo. Regras:\n\n- Substância simples (O₂, Cl₂, Fe): nox **0**.\n- Íon simples: nox = carga (Na⁺ = +1).\n- **Oxigênio**: −2 (nos peróxidos, −1).\n- **Hidrogênio**: +1 (nos hidretos metálicos, −1).\n- Grupo 1: +1; grupo 2: +2.\n- Soma dos nox = carga total da espécie (zero se neutra).\n\nExemplos:\n\n- SO₄²⁻: x + 4(−2) = −2 → x = **+6**.\n- ClO⁻: x + (−2) = −1 → x = **+1**.\n- H₃PO₄: 3(+1) + x + 4(−2) = 0 → x = **+5**.\n- KMnO₄: (+1) + x + 4(−2) = 0 → x = **+7**."
+  },
+  {
+   "titulo": "4. Neutralização e balanceamento",
+   "texto": "**ácido + base → sal + água**\n\nO ânion do ácido e o cátion da base formam o sal. O H⁺ e o OH⁻ viram H₂O.\n\nComo balancear sem decorar: escreva a fórmula do sal pelas cargas e depois acerte os coeficientes átomo a átomo. Exemplo H₃PO₄ + Mg(OH)₂:\n\n- Sal: Mg²⁺ e PO₄³⁻ → Mg₃(PO₄)₂.\n- 3 Mg e 2 PO₄ no produto → 3 Mg(OH)₂ e 2 H₃PO₄.\n- H: 2×3 = 6 do ácido + 3×2 = 6 da base = 12 → 6 H₂O.\n\n**2 H₃PO₄ + 3 Mg(OH)₂ → Mg₃(PO₄)₂ + 6 H₂O**\n\nOutras reações que caem:\n\n- **Carbonato + ácido → sal + água + CO₂** (por isso antiácidos de carbonato e o calcário fazem borbulhar).\n- **Cl₂ + H₂O → HCl + HClO** (ácido clorídrico + ácido hipocloroso; é como o cloro desinfeta a água).\n- **2 HCl + Ca(OH)₂ → CaCl₂ + 2 H₂O** (neutralizando o HCl liberado na queima do PVC)."
+  },
+  {
+   "titulo": "5. Óxidos: ácido, básico, neutro, anfótero",
+   "texto": "- **Óxido ácido** (ametal + O): reage com água formando ácido e com base formando sal. CO₂, SO₂, SO₃. CO₂ + H₂O → H₂CO₃.\n- **Óxido básico** (metal + O): reage com água formando base e com ácido formando sal. Na₂O, CaO.\n- **Óxido neutro**: não reage com água, ácidos nem bases. **CO, NO, N₂O**.\n- **Óxido anfótero**: reage com ácidos e bases. ZnO, Al₂O₃.\n\nPara decorar os neutros: CO, NO e N₂O. É o que a Fatec cobrou ao classificar o óxido nítrico (NO)."
+  }
+ ],
+ "decorar": [
+  "Ácido libera H⁺; base libera OH⁻; ácido + base → sal + H₂O",
+  "Fórmula do sal: cruzar cargas (CaSO₄, Na₂CO₃, Mg₃(PO₄)₂)",
+  "Ânions: Cl⁻, SO₄²⁻, CO₃²⁻, NO₃⁻, PO₄³⁻, ClO⁻",
+  "Nox: simples 0; H +1; O −2; grupo 1 +1; grupo 2 +2; soma = carga",
+  "Carbonato + ácido → sal + H₂O + CO₂",
+  "Cl₂ + H₂O → HCl + HClO",
+  "Óxidos neutros: CO, NO, N₂O"
+ ],
+ "pegadinhas": [
+  "CaSO₄, não Ca₂SO₄: quando as cargas já se anulam, não tem índice.",
+  "Em ânion, o nox é calculado para a soma ser a carga do íon, não zero (SO₄²⁻ soma −2).",
+  "Balancear neutralização: confira O e H no final; geralmente o H₂O é o último a ser ajustado.",
+  "NH₃ é base de Arrhenius porque, ao reagir com a água, gera OH⁻, mesmo sem ter OH na fórmula.",
+  "Óxido neutro existe: CO, NO e N₂O não viram ácido nem base."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2019-1",
+   "n": 22,
+   "resolucao": "Neutralização total de H₃PO₄ (ácido fosfórico) com Mg(OH)₂. Produtos: sal + água.\n\nSal: Mg²⁺ + PO₄³⁻ → **Mg₃(PO₄)₂**. Isso já descarta as alternativas A (MgPO₄) e as que usam H₃PO₃ (fosforoso), que não é o ácido citado.\n\nBalanceando: 3 Mg → 3 Mg(OH)₂; 2 PO₄ → 2 H₃PO₄. H: 6 + 6 = 12 → 6 H₂O. O: 8 + 6 = 14 = 8 + 6 ✓.\n\n**2 H₃PO₄ + 3 Mg(OH)₂ → Mg₃(PO₄)₂ + 6 H₂O**. Gabarito oficial: **B**."
+  },
+  {
+   "prova": "2018-1",
+   "n": 21,
+   "resolucao": "O texto cita sulfato de cálcio formado pela união de íons Ca²⁺ e SO₄²⁻.\n\nCargas: 2+ e 2− se anulam na proporção 1:1. Fórmula: **CaSO₄**, sem índice nenhum.\n\nAs demais alternativas trocam as proporções: Ca(SO₄)₂ teria carga −2 sobrando, Ca₃(SO₄)₂ teria 6+ e 4−, Ca₂SO₄ teria 4+ e 2−. Gabarito oficial: **C**."
+  },
+  {
+   "prova": "2018-1",
+   "n": 22,
+   "resolucao": "Nox do enxofre em SO₄²⁻: x + 4 × (−2) = −2 → x − 8 = −2 → **x = +6**.\n\nNox do cloro em ClO⁻: x + (−2) = −1 → **x = +1**.\n\nRespectivamente +6 e +1. Alternativa (D). Gabarito oficial: **D**."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "O fósforo é um elemento essencial para o crescimento das plantas e está presente no ácido fosfórico, H₃PO₄, usado na fabricação de fertilizantes. O número de oxidação do fósforo nesse ácido é",
+   "alternativas": [
+    "+3",
+    "+4",
+    "+1",
+    "+6",
+    "+5"
+   ],
+   "gabarito": "E",
+   "resolucao": "H = +1 (três deles: +3), O = −2 (quatro deles: −8). Soma zero: 3 + x − 8 = 0 → x = +5.",
+   "figura": null
+  },
+  {
+   "enunciado": "O carbonato de sódio, conhecido como barrilha, é usado na fabricação de vidro. Sabendo que o íon carbonato é CO₃²⁻ e o sódio forma Na⁺, a fórmula da barrilha é",
+   "alternativas": [
+    "NaCO₃",
+    "Na(CO₃)₂",
+    "Na₂CO₃",
+    "NaHCO₃",
+    "Na₃CO₃"
+   ],
+   "gabarito": "C",
+   "resolucao": "Cruzando as cargas: 2 Na⁺ (2+) e 1 CO₃²⁻ (2−). NaHCO₃ é o bicarbonato, outro composto.",
+   "figura": null
+  },
+  {
+   "enunciado": "O ácido nítrico, HNO₃, pode ser neutralizado pelo hidróxido de cálcio, Ca(OH)₂, formando nitrato de cálcio e água. A equação química balanceada dessa neutralização é",
+   "alternativas": [
+    "2 HNO₃ + Ca(OH)₂ → Ca(NO₃)₂ + 2 H₂O",
+    "HNO₃ + Ca(OH)₂ → CaNO₃ + H₂O",
+    "HNO₃ + Ca(OH)₂ → Ca(NO₃)₂ + H₂O",
+    "2 HNO₃ + Ca(OH)₂ → CaNO₃ + 2 H₂O",
+    "2 HNO₃ + Ca(OH)₂ → Ca(NO₃)₂ + H₂O"
+   ],
+   "gabarito": "A",
+   "resolucao": "Nitrato de cálcio: Ca²⁺ e NO₃⁻ → Ca(NO₃)₂. Precisa de 2 NO₃ → 2 HNO₃. H: 2 + 2 = 4 → 2 H₂O. O: 6 + 2 = 8 = 6 + 2 ✓.",
+   "figura": null
+  },
+  {
+   "enunciado": "O monóxido de carbono, CO, produzido na combustão incompleta de combustíveis, é classificado como um óxido",
+   "alternativas": [
+    "ácido.",
+    "básico.",
+    "anfótero.",
+    "neutro.",
+    "peróxido."
+   ],
+   "gabarito": "D",
+   "resolucao": "CO não reage com água, ácidos nem bases, como o NO e o N₂O. Fica no grupo dos óxidos neutros.",
+   "figura": null
+  },
+  {
+   "enunciado": "Os antiácidos à base de carbonato de cálcio, CaCO₃, neutralizam o excesso de ácido clorídrico do estômago. Além de sal e água, o gás liberado nessa reação é o",
+   "alternativas": [
+    "O₂",
+    "CO₂",
+    "H₂",
+    "CO",
+    "Cl₂"
+   ],
+   "gabarito": "B",
+   "resolucao": "Carbonato + ácido → sal + H₂O + CO₂: CaCO₃ + 2 HCl → CaCl₂ + H₂O + CO₂. O gás vem do íon carbonato.",
+   "figura": null
+  }
+ ]
+}

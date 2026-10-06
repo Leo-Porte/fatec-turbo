@@ -1,0 +1,139 @@
+{
+ "id": "ing-vocabulario",
+ "disciplina": "Inglês",
+ "tema": "Vocabulário em contexto",
+ "titulo": "Inglês: vocabulário e falsos cognatos",
+ "semana": 7,
+ "requisitos": [
+  "ing-leitura"
+ ],
+ "minutos": 35,
+ "por_que": "Vocabulário em contexto caiu 12 vezes nas 15 provas (quase uma por prova), em palavras como ingenuity, longstanding, lack, thrive e food miles. Muitas vezes o texto explica a palavra, e outras vezes há um falso cognato esperando quem traduz no automático.",
+ "secoes": [
+  {
+   "titulo": "1. Como a Fatec cobra vocabulário",
+   "texto": "Quase nunca a questão é \"o que significa X?\" solto. O formato é **\"a palavra/expressão X, no texto, indica/significa...\"**. O significado vem do **contexto** (como vimos em Leitura estratégica), e a palavra costuma ser de três tipos:\n\n- **Falso cognato** (ingenuity, actually, attend).\n- **Palavra de contraste ou ênfase** (in fact, finally, still, despite).\n- **Termo técnico explicado no próprio texto** (food miles, cherry picking): a definição vem logo depois.\n\nNos dois últimos casos, leia a frase inteira. No primeiro, é preciso conhecer a armadilha."
+  },
+  {
+   "titulo": "2. Falsos cognatos: os que mais enganam",
+   "texto": "Falso cognato é palavra que **parece** com uma do português e **não** tem o mesmo sentido. Em prova, a alternativa \"óbvia\" costuma ser a errada.\n\nCaso real: na 2026/2 q28, o texto fala em \"exceptional **ingenuity** and agility\" do mascote Zayu. **Ingenuity = engenhosidade, criatividade**, não ingenuidade (que seria *naivety*). Resposta: força, agilidade e criatividade.\n\nLista para decorar:\n\n- **actually** = na verdade (não \"atualmente\", que é *currently*)\n- **attend** = comparecer, frequentar (não \"atender\")\n- **lecture** = palestra, aula expositiva (não \"leitura\", que é *reading*)\n- **library** = biblioteca (livraria é *bookstore*)\n- **college** = faculdade (colégio é *high school*)\n- **eventually** = por fim, com o tempo (não \"eventualmente\")\n- **pretend** = fingir (não \"pretender\", que é *intend*)\n- **realize** = perceber, dar-se conta (não \"realizar\", que é *carry out*)\n- **resume** = retomar (currículo é *résumé* ou *CV*)\n- **support** = apoiar (não \"suportar\", que é *stand*)\n- **parents** = pais (parentes são *relatives*)\n- **push** = empurrar (puxar é *pull*)\n- **sensible** = sensato (sensível é *sensitive*)\n- **injury** = lesão\n- **costume** = fantasia (hábito é *habit* ou *custom*)\n- **fabric** = tecido\n- **prejudice** = preconceito"
+  },
+  {
+   "titulo": "3. Palavras que já caíram nas provas",
+   "texto": "Lista tirada da coluna conceito_chave das questões de Inglês. Se uma delas voltar, é questão ganha.\n\n**Falsos cognatos e palavras de sentido enganoso**\n- ingenuity = engenhosidade, criatividade (2026/2)\n- lack (verbo) = faltar; (substantivo) = falta (2023/2)\n- plenty of = muitos, bastante; few = poucos; much = muito, só com incontáveis (2023/1)\n\n**Palavras de ênfase e tempo**\n- in fact = na verdade (reforça ou contrasta com a frase anterior) (2026/1)\n- longstanding = de longa data; finally = finalmente (2024/1)\n- still = ainda\n\n**Pares de antônimos**\n- dip = queda; spike = pico (2023/1)\n- rise ↔ fall; increase ↔ decrease; above ↔ below\n\n**Sinônimos pedidos nas alternativas**\n- thrive = prosper = prosperar (2019/1)\n- hot (skill) = muito procurada, em alta (2019/2)\n- lifelong = ao longo da vida; lifelong learning = aprendizagem contínua (2019/2)\n\n**Termos explicados no texto**\n- food miles = distância percorrida pelo alimento até o consumidor (2025/2)\n- cherry picking = destacar só os fatos que servem a um lado (2023/1)\n- detachment breaks = pausas para se desligar do trabalho (2018/2)\n- hard time (starting) = dificuldade em (começar) (2017/1)\n- middle-aged = de meia-idade (2017/1)\n- cautious optimism = otimismo cauteloso (2024/2)\n- overt = declarado, aberto (2020/1)\n- stuffy = enfadonho, pesado (resenha de 2022/2)\n- inward significance = significado interior (2024/1)"
+  },
+  {
+   "titulo": "4. Vocabulário de alto rendimento por tema",
+   "texto": "Os textos giram em torno dos mesmos assuntos, então vale ter um kit por tema.\n\n**Trabalho e economia**: job, work, employee, employer, hire (contratar), skill (habilidade), salary / wage (salário), income (renda), unemployment (desemprego), growth (crescimento), demand (demanda), shortage (escassez), gap (lacuna).\n\n**Subir e descer**: rise, increase, grow, surge, soar (disparar) × drop, fall, decline, decrease, dip, plunge (despencar).\n\n**Tecnologia e informação**: fake news, false, source (fonte), check (checar), share (compartilhar), platform, data, research, researchers, findings (descobertas), claim (afirmar).\n\n**Meio ambiente e alimentação**: climate, waste (desperdício; também lixo), harm (dano), threat (ameaça), sustainable, local, imported (importado), seasonal (sazonal), carbon dioxide (gás carbônico).\n\n**Sociedade**: gender, equality, discrimination, community, belonging (pertencimento), heritage (herança), minority, rent (aluguel)."
+  },
+  {
+   "titulo": "5. Prefixos e sufixos que decifram palavras",
+   "texto": "Com poucos pedaços você deduz dezenas de palavras:\n\n- **un-, in-, im-, dis-, ir-** = negação: unfair (injusto), unexpected (inesperado), impossible, disagree (discordar), irreal.\n- **re-** = de novo: rebuild, review.\n- **under-** = abaixo, insuficiente: undercook (cozinhar mal), underpaid (mal pago); **over-** = em excesso: overwork.\n- **-less** = sem: homeless (sem teto), useless; **-ful** = cheio de: helpful, careful.\n- **-ness** = qualidade: kindness; **-ment** = ação ou resultado: development, employment.\n- **-er / -or / -ist** = quem faz: researcher, worker, scientist.\n- **-ly** = -mente: finally, slightly (ligeiramente), mostly (principalmente).\n\nA 2018/1 q29 usou isso: *undercook* é formado por prefixação (under- + cook), como **in-/des-** em português (irreal, desfazer)."
+  },
+  {
+   "titulo": "6. Expressões que mudam o sentido da frase",
+   "texto": "- **in fact**, **actually**: na verdade. Ou reforçam a ideia anterior, ou a corrigem. Olhe a frase de antes.\n- **plenty of** = muitos/bastante; **a lot of** = muito/muitos; **few** = poucos; **a few** = alguns; **little** = pouco; **a little** = um pouco.\n- **hardly** = quase nunca/quase não; **still** = ainda; **yet** = ainda (em negativas e perguntas); **already** = já.\n- **as well as** = assim como; **such as** = como (exemplo); **like** = como (comparação) ou gostar.\n\nCuidado com **few × a few**: \"few people came\" = poucas pessoas vieram (ideia negativa); \"a few people came\" = algumas vieram (ideia neutra ou positiva)."
+  }
+ ],
+ "decorar": [
+  "ingenuity = engenhosidade, criatividade (não ingenuidade)",
+  "actually = na verdade; attend = comparecer; lecture = palestra; library = biblioteca; college = faculdade; eventually = por fim; pretend = fingir; realize = perceber",
+  "lack = faltar / falta; shortage = escassez",
+  "plenty of = bastante; few = poucos; a few = alguns",
+  "in fact = na verdade; finally = finalmente; longstanding = de longa data",
+  "dip = queda; spike = pico; thrive = prosperar; lifelong = ao longo da vida",
+  "food miles = distância percorrida pelo alimento até o consumidor",
+  "un-, in-, dis- = negação; -less = sem; -ly = -mente"
+ ],
+ "pegadinhas": [
+  "Traduzir pela palavra parecida em português (falso cognato). Se a frase fica estranha, desconfie.",
+  "Esquecer que a mesma palavra muda de sentido conforme a frase (waste: desperdício ou lixo; like: como ou gostar).",
+  "Confundir few (poucos) com a few (alguns).",
+  "Marcar uma alternativa que repete palavra do texto, mas não explica a palavra pedida.",
+  "Não ler a frase anterior ao \"in fact\" ou \"actually\": o sentido (reforço ou correção) depende dela."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-2",
+   "n": 28,
+   "resolucao": "O texto sobre o mascote Zayu diz que o nome é inspirado em **unity, strength and joy** e que ele mostra \"exceptional **ingenuity** and **agility**\". A pergunta quer o que o jaguar retrata.\n\nPonto de atenção: **ingenuity = engenhosidade/criatividade**, falso cognato de ingenuidade. **Strength = força**, **agility = agilidade**. A alternativa B (\"força, agilidade e criatividade\") junta os três com o sentido correto. A inclui \"ingenuidade\" (a armadilha); as demais usam palavras que o texto não traz. Gabarito: **B**, confere com o oficial."
+  },
+  {
+   "prova": "2024-1",
+   "n": 8,
+   "resolucao": "A frase: \"The **longstanding** mystery surrounding Antarctica's Blood Falls has **finally** been solved.\" **Longstanding** = de longa data; **finally** = finalmente, depois de muito tempo. Juntas, mostram um mistério antigo resolvido depois de longa espera.\n\nO texto diz que as cachoeiras vermelhas foram descobertas em 1911 e que a hipótese das algas nunca foi verificada: uma busca de mais de um século por respostas sobre as manchas vermelhas no gelo da **Antártida (Polo Sul)**. A D diz isso. A acusa incompetência dos pesquisadores (não está no texto); B fala em Polo Norte e aquecimento global (não está); C acusa impaciência do autor; E fala em \"prostração\", exagero que o texto não sustenta. Gabarito: **D**, confere com o oficial."
+  },
+  {
+   "prova": "2025-2",
+   "n": 56,
+   "resolucao": "A questão pede o sentido de **food miles**. O próprio texto define: \"Food miles are the distance a certain food has to travel from its point of origin to its destination - our kitchen table.\" Ou seja, a distância que o alimento percorre da origem até a mesa do consumidor.\n\nA alternativa D diz exatamente isso. A, B, C e E trocam o conceito por quantidade de fruta, turismo, saladas ou gás carbônico (este aparece no texto só como consequência do transporte, não como definição). Gabarito: **D**, confere com o oficial."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Leia: \"The students attended the lecture about renewable energy and took notes.\" As palavras attended e lecture significam, respectivamente:",
+   "alternativas": [
+    "atenderam – leitura",
+    "compareceram a – palestra",
+    "cuidaram de – lição",
+    "esperaram – leitura",
+    "ignoraram – palestra"
+   ],
+   "gabarito": "B",
+   "resolucao": "**Attend** é falso cognato de \"atender\": significa comparecer, frequentar. **Lecture** é palestra, aula expositiva (leitura seria *reading*). A pista do contexto é *took notes* (anotaram): quem anota esteve presente e prestou atenção. Só a B tem os dois sentidos corretos.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia: \"There was a shortage of nurses at the hospital, so many patients had to wait for hours.\" A palavra shortage indica",
+   "alternativas": [
+    "excesso.",
+    "greve.",
+    "demissão.",
+    "escassez.",
+    "melhoria."
+   ],
+   "gabarito": "D",
+   "resolucao": "**Shortage** = escassez, falta. O contexto confirma: faltaram enfermeiros, **so** (por isso) muitos pacientes esperaram horas. \"Excesso\" faria o inverso: com enfermeiros de sobra, a espera não aumentaria.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia: \"The decision was unfair and unexpected.\" O prefixo un- nega o sentido da palavra que vem depois. Assim, unfair e unexpected significam, respectivamente:",
+   "alternativas": [
+    "injusta – inesperada",
+    "justa – esperada",
+    "justa – inesperada",
+    "injusta – esperada",
+    "inevitável – inesperada"
+   ],
+   "gabarito": "A",
+   "resolucao": "**fair** = justo, e **un-** + fair = injusto. **expected** = esperado, e unexpected = inesperado. Só a A nega as duas palavras. As demais negam uma só ou trazem um sentido que não vem do prefixo.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia: \"There are few seats left, but there is plenty of standing room.\" Segundo a frase,",
+   "alternativas": [
+    "há muitos assentos livres e pouco espaço em pé.",
+    "não há assentos nem espaço em pé.",
+    "restam assentos suficientes e o espaço em pé é pequeno.",
+    "há assentos demais e nenhum espaço em pé.",
+    "restam poucos assentos, mas há bastante espaço em pé."
+   ],
+   "gabarito": "E",
+   "resolucao": "**few** = poucos (poucos assentos); **but** marca contraste; **plenty of** = bastante (bastante espaço em pé). A inverte as quantidades, e as outras criam relações que a frase não faz.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia: \"I thought the exam was today, but actually it is tomorrow.\" A palavra actually, no texto, significa",
+   "alternativas": [
+    "atualmente.",
+    "felizmente.",
+    "na verdade.",
+    "infelizmente.",
+    "provavelmente."
+   ],
+   "gabarito": "C",
+   "resolucao": "**Actually** é falso cognato de \"atualmente\" (que em inglês é *currently*). Significa **na verdade**, e aqui corrige a ideia anterior (\"achei que era hoje, mas na verdade é amanhã\"). Os outros advérbios acrescentam um juízo (felizmente, infelizmente, provavelmente) que o texto não faz.",
+   "figura": null
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "id": "his-revolucoes",
+ "disciplina": "História",
+ "tema": "Revoluções (Industrial/Francesa/Americana)",
+ "titulo": "Revoluções Industrial, Francesa e Americana",
+ "semana": 6,
+ "requisitos": [
+  "his-moderna"
+ ],
+ "minutos": 35,
+ "por_que": "Revoluções caíram 10 vezes nas 15 provas, e 7 delas são sobre a Revolução Industrial (1ª, 2ª e até 4ª). O resto é Revolução Francesa (Declaração dos Direitos, mulheres, Napoleão). Americana quase não aparece, mas explica o pacote de ideias.",
+ "secoes": [
+  {
+   "titulo": "1. Revolução Industrial: a 1ª, a 2ª, a 3ª e a 4ª",
+   "texto": "É o assunto mais cobrado do bloco (2018/1, 2018/2, 2019/1, 2022/2, 2025/2, 2026/1). A prova pede principalmente que você **diferencie as fases**.\n\n**1ª Revolução Industrial** (Inglaterra, a partir de meados do século **XVIII**):\n\n- Fonte de energia: **carvão mineral** e **máquina a vapor**.\n- Setor-chave: **têxtil** (algodão) e depois ferrovias.\n- **Fábrica**: máquinas substituem o trabalho manual, com **divisão do trabalho**.\n- Gente nova na sociedade: o **proletariado** (operários) e a **burguesia industrial**.\n\n**2ª Revolução Industrial** (a partir da metade do século **XIX**, até o início do XX):\n\n- Energia: **eletricidade e petróleo**. Material: **aço**. Indústria **química**.\n- Invenções: **automóvel, telefone, telégrafo, lâmpada elétrica**, motor a combustão.\n- A **ciência aplicada à indústria**: parceria entre ciência, técnica e indústria.\n- Chegam EUA, Alemanha e Japão. Nasce a **sociedade de massas**: grandes cidades e mercados consumidores (2018/1).\n\n**3ª Revolução Industrial** (após a 2ª Guerra Mundial): eletrônica, computador, internet, telefone celular.\n\n**4ª Revolução Industrial** (atual): **fusão de tecnologias físicas, digitais e biológicas** (internet móvel, inteligência artificial).\n\nTruque de memória: **vapor → eletricidade → computador → inteligência artificial**."
+  },
+  {
+   "titulo": "2. Por que a Inglaterra? E o que mudou para quem trabalhava",
+   "texto": "**Por que a 1ª Revolução começou na Inglaterra?** Era a combinação de fatores:\n\n- **Carvão e ferro** em abundância no próprio país.\n- **Capital acumulado** pelo comércio e pelas colônias (dinheiro para investir).\n- **Mercado consumidor** (colônias).\n- **Mão de obra disponível**: os **cercamentos** (enclosures) expulsaram camponeses das terras comuns, que foram para as cidades procurar trabalho.\n- Estado e burguesia fortes, com certa liberdade econômica.\n\n**Watt e a máquina a vapor** (2026/1): o primeiro motor a vapor é de **Savery (1698)**, aperfeiçoado por **Newcomen (1712)**. Em **1760**, **James Watt** criou o **condensador separado**, que **aumentou a eficiência** e **reduziu o gasto de carvão**. Isso tornou a máquina **economicamente viável** e **impulsionou a Revolução Industrial**.\n\n**Efeito sobre o trabalho** (2025/2): o **artesão deixou de ser dono** dos instrumentos e do produto e virou **trabalhador assalariado**, com **longas jornadas** e ritmo imposto pela máquina e pelo relógio. As fábricas eram **barulhentas, quentes e poluídas**, com muita agressão à saúde. O trabalho de mulheres e crianças era comum e mais barato.\n\nA reação: **ludismo** (operários que quebravam máquinas, achando que elas roubavam empregos), **sindicatos** e movimentos pelos direitos trabalhistas. No campo das ideias: **liberalismo** (a favor do livre mercado) e, como crítica, o **socialismo** (Marx e Engels)."
+  },
+  {
+   "titulo": "3. Revolução Francesa (1789): o fim do Antigo Regime",
+   "texto": "Em 2018/2, 2022/2 e 2018/1.\n\n**Antes (Antigo Regime)**: sociedade dividida em três **estados**:\n\n- **Clero** e **nobreza**: poucos, com **privilégios**, isentos de muitos impostos.\n- **Terceiro Estado**: todo o resto (burguesia, camponeses, artesãos, trabalhadores urbanos), que pagava os impostos. É a maioria.\n\nA crise financeira do Estado francês, a fome e as ideias do **Iluminismo** (razão, liberdade, igualdade) puxaram a revolução. Em **14 de julho de 1789**, o povo tomou a **Bastilha** (prisão símbolo do poder do rei).\n\n**O que a prova cobra (2018/2)**:\n\n- Fim das **obrigações feudais** e privilégios (agosto de 1789).\n- **Declaração dos Direitos do Homem e do Cidadão** (agosto de 1789): **igualdade de todos perante a lei** e **liberdade, propriedade, segurança e resistência à opressão** como direitos naturais. O lema da revolução é **Liberdade, Igualdade, Fraternidade**.\n\n**Fases**: monarquia constitucional → **República** (1792), o rei **Luís XVI** é executado → o **Terror** (jacobinos, Robespierre) → Diretório → **Napoleão**.\n\n**Era Napoleônica** (2018/1): Napoleão toma o poder em **1799** e é coroado imperador em **1804**. Promulga o **Código Civil de 1804**, que consolidou a **igualdade civil**, o **fim dos direitos feudais**, legalizou o **divórcio** e separou Igreja e Estado. Foi derrotado em Waterloo (**1815**)."
+  },
+  {
+   "titulo": "4. Mulheres na Revolução Francesa (a pegadinha de 2022/2)",
+   "texto": "A questão 52 da 2022/2 pedia a **contradição** entre os ideais da revolução e a situação das mulheres.\n\n- As mulheres **participaram ativamente**: protestos, reuniões da Assembleia, mais de 60 associações femininas.\n- **Olympe de Gouges** escreveu a **Declaração dos Direitos da Mulher e da Cidadã (1791)**, reivindicando para as mulheres os mesmos direitos políticos.\n- O que conquistaram: **direito ao divórcio**.\n- O que **não** conquistaram: **direitos políticos** (voto, cargos). Foram **excluídas** da participação política.\n\nA contradição: a revolução falava em **liberdade e igualdade** para todos, mas deixou as mulheres de fora do voto. Resposta: **conquista de direitos civis (como o divórcio) e, ao mesmo tempo, proibição da participação política**.\n\nPense assim: a promessa era “todos são iguais”, mas o “todos” ainda era mais estreito do que a palavra sugere."
+  },
+  {
+   "titulo": "5. Revolução Americana (1776): independência e república",
+   "texto": "Cai pouco, mas aparece como base de outros temas.\n\n- **13 colônias inglesas** na América do Norte. A Inglaterra, endividada pela guerra contra a França, passou a **cobrar novos impostos** sem consultar os colonos (Lei do Selo, taxa do chá). Lema: “**sem representação, sem tributação**”. A **Festa do Chá de Boston** (1773) é o símbolo do protesto.\n- **4 de julho de 1776**: **Declaração de Independência**, escrita sobretudo por **Thomas Jefferson**. A guerra durou até 1783.\n- **Constituição de 1787**: república federativa, **separação de poderes** e presidencialismo.\n- **Limites**: a escravidão foi mantida (especialmente no Sul) e mulheres, indígenas e escravizados ficaram fora dos direitos políticos.\n\nA Revolução Americana mostrou ao mundo (inclusive à América Latina e ao Brasil) que **uma colônia podia se tornar independente e virar república**."
+  }
+ ],
+ "decorar": [
+  "1ª RI: Inglaterra, séc. XVIII, carvão + vapor, têxtil, fábrica, divisão do trabalho, proletariado.",
+  "2ª RI: séc. XIX–XX, aço, eletricidade, petróleo, química; automóvel, telefone, telégrafo, lâmpada; ciência aplicada à indústria; sociedade de massas.",
+  "3ª RI: pós-2ª Guerra, computador, internet, celular. 4ª RI: fusão de tecnologias físicas, digitais e biológicas (IA).",
+  "Watt (1760): condensador separado, mais eficiência, menos carvão, impulsionou a Revolução Industrial.",
+  "Industrialização: artesão perde os meios de produção e vira assalariado; longas jornadas; saúde agredida.",
+  "Revolução Francesa (1789): Antigo Regime (3 estados) → fim dos privilégios feudais → Declaração dos Direitos do Homem e do Cidadão (igualdade, liberdade, propriedade).",
+  "Mulheres: Olympe de Gouges (1791), tiveram o divórcio, mas ficaram sem direitos políticos.",
+  "Napoleão: Código Civil de 1804 (igualdade civil, fim dos direitos feudais, divórcio).",
+  "Revolução Americana: 1776, 13 colônias, “sem representação, sem tributação”, Constituição de 1787."
+ ],
+ "pegadinhas": [
+  "Não troque as fases: carvão e vapor é 1ª; aço, eletricidade e petróleo é 2ª; computador e internet é 3ª.",
+  "Invenções da 2ª RI: automóvel, telefone, telégrafo, lâmpada. Tear manual, imprensa e bússola são anteriores.",
+  "Alternativa que fala em “biocombustíveis”, “energia solar e eólica” ou “eliminação do trabalho braçal” para a 1ª RI está errada: o vapor e o carvão eram a base e o trabalho braçal aumentou.",
+  "Watt não inventou a primeira máquina a vapor (Savery e Newcomen vieram antes), e o objetivo dele não era trocar carvão por energia hidráulica: era usar menos carvão e ganhar eficiência.",
+  "Revolução Francesa não deu direitos políticos às mulheres. Elas ganharam divórcio, mas ficaram fora do voto. Se a alternativa diz “igualdade total”, é falsa.",
+  "Código Civil napoleônico: igualdade civil e divórcio, sim. Ele não criou a União Europeia nem o Tratado de Versalhes (que é de 1919)."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2025-2",
+   "n": 23,
+   "resolucao": "É uma questão de **identificar o período pela descrição**. O texto fala de: mudanças na **propriedade dos meios de produção** e no produto do trabalho, **artesãos que deixam de ser donos dos instrumentos**, **massa de trabalhadores assalariados**, **longas jornadas**, **novos ritmos**, instalações e materiais que agridem a saúde (vibração, ruído, temperatura, poluentes).\n\nTudo isso é a vida na **fábrica**: Revolução Industrial.\n\n- A: economia feudal tinha servos presos à terra, não assalariados em fábricas.\n- B: Revolução Francesa é política.\n- **C**: Revolução Industrial.\n- D: na Grécia Antiga não havia trabalho assalariado como regra.\n- E: escravidão colonial é outro sistema (o trabalhador não é assalariado).\n\nGabarito oficial: C. ✔ Bateu."
+  },
+  {
+   "prova": "2018-2",
+   "n": 18,
+   "resolucao": "Texto: em agosto de 1789 a **Assembleia Nacional Constituinte** aboliu o **dízimo eclesiástico** e as **obrigações feudais** que pesavam sobre os camponeses, e aprovou a **Declaração dos Direitos do Homem e do Cidadão**, com 17 artigos: igualdade perante a lei, liberdade, propriedade, segurança e resistência à opressão.\n\nIsso é inconfundível: **1789 + Declaração dos Direitos do Homem e do Cidadão = Revolução Francesa**.\n\nOutras alternativas: Confederação do Equador (1824, Brasil), Independência do México, Guerra Civil Americana (1861–1865), Inconfidência Mineira (1789, mas é no Brasil e não aboliu dízimos nem feudalismo).\n\nGabarito oficial: E. ✔ Bateu."
+  },
+  {
+   "prova": "2022-2",
+   "n": 52,
+   "resolucao": "O enunciado diz que as mulheres, durante a Revolução Francesa, reivindicaram direitos civis e cidadania política, participaram de protestos e criaram mais de 60 associações. Mas o desenrolar da Revolução mostrou **uma contradição** entre Liberdade, Igualdade e Fraternidade e a legislação. Pede como a contradição se expressa **no caso das mulheres**.\n\nSabendo que as francesas conquistaram o **divórcio** mas foram **excluídas da política**:\n\n- A: equiparação aos escravizados das colônias: não é o que aconteceu.\n- B: a Declaração dos Direitos da Mulher (Olympe de Gouges) **não foi promulgada como lei** e não assegurou superioridade a ninguém.\n- C: 8 de março é do século XX, e não houve equiparação salarial.\n- D: não há “abolição do trabalho doméstico”.\n- **E**: conquista de direitos como o divórcio e, ao mesmo tempo, proibição da participação política. É a contradição.\n\nGabarito oficial: E. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "A Revolução Industrial teve início na Inglaterra, em meados do século XVIII. Entre os fatores que explicam por que ela começou ali, estão",
+   "alternativas": [
+    "a ausência de burguesia e a inexistência de colônias, o que obrigou o país a inventar máquinas.",
+    "a abundância de carvão e ferro, o capital acumulado no comércio e nas colônias e a mão de obra disponível após os cercamentos.",
+    "a posse de grandes jazidas de petróleo e a eletricidade já espalhada pelo país.",
+    "o predomínio de uma economia feudal, que garantia trabalho servil nas fábricas.",
+    "a proibição de qualquer comércio com outros países, o que forçou o país a produzir tudo internamente."
+   ],
+   "gabarito": "B",
+   "resolucao": "A Inglaterra tinha carvão e ferro, dinheiro acumulado pelo comércio e pelas colônias, mercado consumidor e camponeses expulsos pelos cercamentos, prontos para trabalhar nas fábricas. Petróleo e eletricidade (C) são da 2ª RI. A economia feudal (D) já tinha acabado. Burguesia e colônias existiam (A). Proibir o comércio (E) é o contrário do que ocorreu.",
+   "figura": null
+  },
+  {
+   "enunciado": "Na França do Antigo Regime, a sociedade era dividida em três estados. O Terceiro Estado, que reuniu o povo na Revolução de 1789, era formado por",
+   "alternativas": [
+    "bispos e padres, isentos de impostos.",
+    "nobres, que tinham o direito de cobrar tributos dos camponeses.",
+    "o rei, a rainha e seus conselheiros.",
+    "juízes e generais, que governavam o país em nome do clero.",
+    "burgueses, camponeses, artesãos e trabalhadores urbanos, que pagavam a maior parte dos impostos e não tinham privilégios."
+   ],
+   "gabarito": "E",
+   "resolucao": "O Primeiro Estado era o clero e o Segundo, a nobreza, ambos com privilégios. O Terceiro Estado era todo o resto da sociedade, a imensa maioria, que pagava os impostos. As alternativas A, B, C e D descrevem grupos privilegiados.",
+   "figura": null
+  },
+  {
+   "enunciado": "Em 1773, colonos da América do Norte jogaram no mar, no porto de Boston, carregamentos de chá da Companhia inglesa. O protesto estava ligado ao lema “sem representação, sem tributação”, que expressava",
+   "alternativas": [
+    "a recusa em pagar impostos criados pela Inglaterra sem que os colonos tivessem representantes que os aprovassem.",
+    "o desejo dos colonos de continuar sob o domínio inglês, sem independência.",
+    "o apoio dos colonos à cobrança de novos tributos pela metrópole.",
+    "a exigência de que a Inglaterra deixasse de comprar produtos americanos.",
+    "o pedido de abolição imediata da escravidão nas treze colônias."
+   ],
+   "gabarito": "A",
+   "resolucao": "O lema significa que os colonos não aceitavam pagar impostos sem terem voz na decisão. O protesto de Boston foi um dos passos que levaram à independência de 1776. As demais alternativas contradizem o fato (B, C) ou tratam de outros temas (D, E).",
+   "figura": null
+  },
+  {
+   "enunciado": "Entre o final do século XIX e o início do XX, a produção industrial passou a utilizar aço, energia elétrica e petróleo, e surgiram inventos como o automóvel, o telefone e a lâmpada elétrica. Esse conjunto de mudanças é conhecido como",
+   "alternativas": [
+    "Primeira Revolução Industrial.",
+    "Revolução Francesa.",
+    "Segunda Revolução Industrial.",
+    "Revolução Americana.",
+    "Terceira Revolução Industrial."
+   ],
+   "gabarito": "C",
+   "resolucao": "Aço, eletricidade, petróleo, automóvel, telefone e lâmpada formam o pacote da 2ª Revolução Industrial. A 1ª usava carvão e vapor. A 3ª, bem depois, é a da eletrônica e da informática. Francesa e Americana são revoluções políticas.",
+   "figura": null
+  },
+  {
+   "enunciado": "Nas primeiras décadas do século XIX, grupos de operários ingleses destruíram máquinas em fábricas têxteis. Esse movimento, conhecido como ludismo, pode ser compreendido como",
+   "alternativas": [
+    "um protesto contra o fim da escravidão no Império britânico.",
+    "uma celebração da chegada da máquina a vapor.",
+    "um movimento de nobres contra o fim do feudalismo.",
+    "uma reação dos trabalhadores às más condições de trabalho e ao medo de perder o emprego para as máquinas.",
+    "uma ação do governo para modernizar as fábricas."
+   ],
+   "gabarito": "D",
+   "resolucao": "Os ludistas, operários da indústria têxtil, quebravam máquinas por acreditar que elas tiravam seus empregos e pioravam suas condições de vida (salários baixos, longas jornadas). Não tinham relação com a escravidão (A), com o fim do feudalismo (C) nem com o governo (E).",
+   "figura": null
+  }
+ ]
+}

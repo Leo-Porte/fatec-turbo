@@ -1,0 +1,127 @@
+{
+ "id": "por-coesao",
+ "disciplina": "Português",
+ "tema": "Coesão e conectivos",
+ "titulo": "Coesão e conectivos",
+ "semana": 8,
+ "requisitos": ["por-classes"],
+ "minutos": 30,
+ "por_que": "Coesão e conectivos caíram 10 vezes nas 15 provas, em dois formatos: (1) \"a que termo o pronome retoma?\" e (2) \"qual conectivo/reescrita mantém o sentido?\" (finalidade, causa, concessão, conclusão).",
+ "secoes": [
+  {
+   "titulo": "1. O que é coesão (em linguagem normal)",
+   "texto": "Coesão são os **fios que costuram as frases** para que o texto não vire uma lista de frases soltas. Esses fios são de dois tipos:\n\n- **Referencial**: uma palavra retoma ou antecipa outra. Pronomes (ele, o, que, o qual, isso), sinônimos e expressões (\"esse tipo de empresa\").\n- **Sequencial**: conectivos que ligam ideias e dizem **que relação** elas têm (causa, oposição, conclusão...).\n\nA prova cobra as duas. Em ambas, a pergunta real é: **o que a palavra está ligando e que sentido ela dá?**"
+  },
+  {
+   "titulo": "2. Coesão referencial: a que termo o pronome retoma?",
+   "texto": "Regra de ouro: o pronome retoma, em geral, o **termo mais próximo que combina em gênero, número e sentido**. Faça a troca: coloque o termo candidato no lugar do pronome e veja se a frase continua sensata.\n\nPronomes que mais caem:\n- **Que (relativo)**: retoma o antecedente imediato. \"o relatório, **que** mostra queda\" → que = relatório. \"capitais latinas **que** não se apresentavam como sedes\" → que = capitais.\n- **O/a/os/as e lo/la/no/na (oblíquos)**: retomam o complemento do verbo. \"deve restaurar a natureza e **restaurá-la**\" → la = natureza.\n- **O qual / a qual / os quais**: igual ao \"que\", mas deixa claro o gênero e o número quando há ambiguidade. \"em Montevidéu, **o qual** objetivava...\" → o qual = o movimento artístico (e não o autor).\n- **Ele / ela / eles**: retomam o sujeito ou um substantivo já citado. \"combatendo o comportamento que **ele** chamou de 'exilados da Europa'\" → ele = o autor.\n- **Isso, este, aquele**: apontam para a frase inteira ou para uma ideia; \"isso\" costuma retomar o que veio antes.\n\nA armadilha típica é **retomar o termo errado por ficar mais perto no papel**: o pronome pode retomar o sujeito, o objeto ou uma oração inteira. Teste de gênero e número primeiro."
+  },
+  {
+   "titulo": "3. Coesão sequencial: conectivos e suas relações",
+   "texto": "Decore a relação, não só a palavra. Cada relação tem vários conectivos intercambiáveis:\n\n- **Causa**: porque, pois (antes do verbo), já que, visto que, uma vez que, como (no início), devido a.\n- **Consequência**: tanto que, de modo que, por isso, assim.\n- **Conclusão**: portanto, logo, por conseguinte, então.\n- **Oposição (adversativa)**: mas, porém, contudo, todavia, entretanto, no entanto.\n- **Concessão**: embora, apesar de (que), ainda que, mesmo que, conquanto. Dizem: \"houve um obstáculo, mas ele não impediu\".\n- **Condição**: se, caso, desde que, a menos que.\n- **Finalidade**: para que, a fim de que, **visando a**, com o intuito de. \"visando reforçar a educação\" = a fim de que a educação seja reforçada.\n- **Tempo**: quando, enquanto, assim que, mal, logo que.\n- **Proporção**: à medida que, quanto mais... mais.\n- **Comparação**: como, que (depois de mais/menos), tal qual.\n- **Adição**: e, nem, bem como, além disso.\n\nA oração reduzida de gerúndio vira conectivo na reescrita: \"**sendo** a água essencial\" costuma equivaler a \"já que a água é essencial\" (causa); \"visando\" (gerúndio de visar) vira finalidade."
+  },
+  {
+   "titulo": "4. Paráfrase com conectivos: como não errar",
+   "texto": "Na reescrita, a banca troca o conectivo e mexe nos verbos. O seu trabalho é checar, **em ordem**:\n\n1. **Relação** (causa, oposição, finalidade...) idêntica à original?\n2. **Quem faz e quem sofre** a ação? A voz passiva troca sujeito, mas o sentido tem que sobreviver.\n3. **Tempo e modo do verbo**: \"para que\", \"a fim de que\" e \"embora\" pedem **subjuntivo** (seja reforçada, tenha estudado).\n4. **Nada novo**: a nova frase não pode acrescentar um dado que o texto não tinha.\n\nExemplo de alternativa errada típica: trocar \"visando reforçar\" (finalidade) por \"porque deve ser visada\" (causa) ou \"uma vez que foi reforçada\" (causa, e passado). A relação mudou: erro."
+  }
+ ],
+ "decorar": [
+  "O pronome retoma o termo mais próximo que combina em gênero, número e sentido: teste trocando.",
+  "Pronome oblíquo (o, a, lo, la, no, na): complemento do verbo, já citado.",
+  "Embora, apesar de, ainda que = concessão.",
+  "Visando / a fim de / para que = finalidade (pedem subjuntivo com \"que\").",
+  "Portanto, logo, por conseguinte = conclusão; mas, porém, todavia = oposição.",
+  "Como no início da frase pode ser causa (= porque)."
+ ],
+ "pegadinhas": [
+  "Retomar um termo só porque está perto, sem checar gênero e número.",
+  "Confundir concessão (embora) com causa ou condição.",
+  "Trocar finalidade (para, visando) por causa (porque).",
+  "Esquecer que \"pois\" depois do verbo é conclusivo, e antes do verbo é explicativo.",
+  "Ignorar o tempo verbal da reescrita: \"visando reforçar\" = \"a fim de que seja reforçada\", não \"foi reforçada\"."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2025-2",
+   "n": 3,
+   "resolucao": "Trecho do texto I: \"a economia deve salvaguardar a natureza, **restaurá-la** e investir nela\". O pronome \"-la\" é um oblíquo átono: o verbo \"restaurar\" termina em r, então \"a\" virou \"la\". Quem é restaurado? O que acabou de ser citado como objeto: \"a natureza\".\n\nOs outros candidatos não combinam: \"bem-estar\" (masculino), \"as pessoas\" (plural), \"a equidade\" (não se restaura natureza com equidade) e \"a mesma qualidade\" (não faz sentido restaurar a qualidade). **Gabarito E**, igual ao CSV."
+  },
+  {
+   "prova": "2026-1",
+   "n": 57,
+   "resolucao": "A passagem é \"visando reforçar a educação científica da população\". \"Visando\" é gerúndio de visar e tem **valor de finalidade**: o objetivo é reforçar. Equivale a \"a fim de que\".\n\n- (A) \"porque ... deve ser visada\": causa. Muda.\n- (B) \"a fim de que a educação científica da população seja reforçada\": finalidade, com subjuntivo. Bate.\n- (C) \"uma vez que ... foi reforçada\": causa e passado.\n- (D) \"com intuito de a população reforçar a educação\": finalidade, mas inverte quem faz (a população reforçaria, no original a educação é reforçada pelas políticas).\n- (E) \"enquanto se visa\": tempo.\n\n**Gabarito B**, igual ao CSV."
+  },
+  {
+   "prova": "2024-2",
+   "n": 34,
+   "resolucao": "Texto II (sobre o mapa artístico de Torres-García). Para cada alternativa, teste a troca do pronome pelo termo:\n\n- (A) \"que\" do 1º parágrafo retoma \"mapas convencionais\" (não \"mapa artístico\"); \"o\" do 2º parágrafo retoma o mapa/obra que o autor \"publicou\". Mistura os referentes: errada.\n- (B) \"o qual\" retoma \"movimento artístico\" (\"para inaugurar um movimento artístico..., em Montevidéu, o qual objetivava\"), não o artista.\n- (C) \"ele\" no 3º parágrafo retoma o autor, mas \"o\" no 2º retoma a obra: afirmação errada.\n- (D) \"ele\" do 3º parágrafo = \"esse autor\", não \"comportamento\".\n- (E) \"que\" em \"principais capitais latinas **que** não se apresentavam como sedes\" retoma \"as principais capitais latinas\". Certa.\n\n**Gabarito E**, igual ao CSV."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Leia a frase.\n\n“Embora tenha estudado durante semanas, Laura não passou na prova.”\n\nO conectivo “embora” estabelece uma relação de",
+   "alternativas": [
+    "causa.",
+    "finalidade.",
+    "conclusão.",
+    "concessão.",
+    "condição."
+   ],
+   "gabarito": "D",
+   "resolucao": "Estudar muito levaria a esperar aprovação; o resultado contraria a expectativa, mas não é impedido por ela. Isso é **concessão**. Causa explicaria o motivo, finalidade indicaria o objetivo, conclusão indicaria consequência lógica e condição, \"se\".",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia a frase.\n\n“Como o ônibus atrasou, perdemos a primeira aula.”\n\nSem alterar o sentido, a palavra “como” pode ser substituída por",
+   "alternativas": [
+    "conforme.",
+    "visto que.",
+    "embora.",
+    "caso.",
+    "para que."
+   ],
+   "gabarito": "B",
+   "resolucao": "No início da frase e antes de verbo no indicativo, \"como\" expressa **causa** (= porque). \"Visto que\" tem o mesmo valor. \"Conforme\" (A) é conformidade, \"embora\" (C) é concessão, \"caso\" (D) é condição e \"para que\" (E) é finalidade.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia o trecho.\n\n“Os pesquisadores entregaram ao ministro o relatório, que mostra queda de 12% nas queimadas.”\n\nNesse trecho, o pronome “que” retoma",
+   "alternativas": [
+    "“os pesquisadores”.",
+    "“o ministro”.",
+    "“a queda”.",
+    "“as queimadas”.",
+    "“o relatório”."
+   ],
+   "gabarito": "E",
+   "resolucao": "O pronome relativo retoma o antecedente imediato que faz sentido: \"o relatório, que mostra\". Quem mostra a queda é o relatório. \"Os pesquisadores\" é plural e o verbo \"mostra\" está no singular; \"o ministro\" concorda em número, mas não faz sentido: quem mostra dados é o documento. \"A queda\" e \"as queimadas\" aparecem depois do verbo e não podem ser o sujeito dele.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia o trecho.\n\n“A represa está quase vazia; ____, o racionamento continuará nos próximos meses.”\n\nA palavra que completa corretamente a lacuna, mantendo a relação de conclusão entre as orações, é",
+   "alternativas": [
+    "portanto",
+    "porém",
+    "embora",
+    "porque",
+    "conforme"
+   ],
+   "gabarito": "A",
+   "resolucao": "Represa vazia → racionamento: o segundo fato é consequência do primeiro. \"Portanto\" é conjunção conclusiva. \"Porém\" (B) é oposição, \"embora\" (C) é concessão, \"porque\" (D) é causa (inverteria a relação) e \"conforme\" (E) é conformidade.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia a frase.\n\n“À medida que o rio sobe, aumenta o risco de enchente.”\n\nA reescrita que mantém o sentido da frase é:",
+   "alternativas": [
+    "Embora o rio suba, o risco de enchente aumenta.",
+    "Se o rio subiu, o risco de enchente acabou.",
+    "Quanto mais o rio sobe, maior é o risco de enchente.",
+    "O rio sobe para que o risco de enchente aumente.",
+    "Como o rio subiu, o risco de enchente não existe."
+   ],
+   "gabarito": "C",
+   "resolucao": "\"À medida que\" expressa **proporção**: o risco cresce junto com o nível do rio. \"Quanto mais... maior\" tem o mesmo valor. As demais mudam a relação: concessão (A), condição com sentido oposto (B), finalidade (D) e causa que nega o risco (E).",
+   "figura": null
+  }
+ ]
+}

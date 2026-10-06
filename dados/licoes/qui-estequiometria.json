@@ -1,0 +1,154 @@
+{
+ "id": "qui-estequiometria",
+ "disciplina": "Química",
+ "tema": "Estequiometria",
+ "titulo": "Mol e estequiometria",
+ "semana": 4,
+ "requisitos": [
+  "qui-atomistica",
+  "mat-proporcao"
+ ],
+ "minutos": 35,
+ "por_que": "Estequiometria é o maior tema de Química: 15 questões nas 15 provas. Quase todas cabem em três movimentos: balancear a equação, converter massa em mol e fazer regra de três com os coeficientes. A regra de três é a de Razão e proporção, só que agora os coeficientes são a proporção.",
+ "secoes": [
+  {
+   "titulo": "1. Massa molar e mol: a ponte entre grama e quantidade",
+   "texto": "Átomo e molécula são pequenos demais para contar um a um, então a química conta em pacotes: o **mol** é um pacote de **6 × 10²³** partículas (constante de Avogadro).\n\n- **Massa molar (M)**: massa de 1 mol, em g/mol. Vem da tabela periódica somando as massas de cada átomo.\n- Exemplos (use as massas que a prova fornece): CO₂ = 12 + 2 × 16 = **44 g/mol**; H₂O = 2 × 1 + 16 = **18 g/mol**; C₈H₁₈ = 8 × 12 + 18 × 1 = **114 g/mol**.\n\nConversão que você vai usar o tempo todo:\n\n`n (mol) = massa (g) ÷ M (g/mol)`\n\n`nº de moléculas = n × 6 × 10²³`\n\nExemplo: 10 g de um composto de M = 84 g/mol → n = 10 ÷ 84 mol → moléculas = (10 ÷ 84) × 6 × 10²³ ≈ 7,1 × 10²²."
+  },
+  {
+   "titulo": "2. Balanceamento: contar átomos dos dois lados",
+   "texto": "Os coeficientes da equação são **a quantidade de mols** de cada substância. Balancear é acertar os coeficientes para ter o mesmo número de cada átomo nos dois lados.\n\nRoteiro: comece pelo átomo que aparece em menos substâncias (geralmente C, depois metais), deixe H e O para o fim.\n\nExemplo, síntese do metanol: CO₂ + H₂ → CH₃OH + H₂O.\n\n- C: 1 de cada lado ✓.\n- O: 2 no CO₂ e 1 + 1 no lado direito ✓.\n- H: o lado direito tem 4 + 2 = 6 → precisa de 3 H₂.\n\n**CO₂ + 3 H₂ → CH₃OH + H₂O**\n\nCombustão completa de hidrocarboneto CₓHᵧ: produz **x CO₂** e **y/2 H₂O**, consumindo `x + y/4` mol de O₂.\n\n- C₈H₁₈ + 25/2 O₂ → 8 CO₂ + 9 H₂O.\n- C₄H₈ + 6 O₂ → 4 CO₂ + 4 H₂O.\n- C₂₂H₄₆ → 22 CO₂ + 23 H₂O.\n\nOutro exemplo que caiu: H₃BO₃ + 3 NaHCO₃ → Na₃BO₃ + 3 H₂O + 3 CO₂ (confira Na, H, B, C, O)."
+  },
+  {
+   "titulo": "3. O método em três passos (regra de três com os coeficientes)",
+   "texto": "Qualquer problema de massa pela equação resolve assim:\n\n- **1.** Equação balanceada.\n- **2.** Escreva em cima de cada substância o que o enunciado dá (massa) e embaixo o que a equação diz (coeficiente × massa molar, em gramas).\n- **3.** Regra de três.\n\nExemplo: 4 Li + O₂ → 2 Li₂O. Quanta massa de Li reage com 32 g de O₂ (M = 32)?\n\n- A equação: 4 mol de Li (4 × 7 = 28 g) para 1 mol de O₂ (32 g).\n- 28 g de Li ----- 32 g de O₂\n- x ------------- 32 g de O₂ → x = 28 g.\n\nSe o enunciado der **kg**, pode manter kg dos dois lados na regra de três, desde que os dois sejam kg. Se um lado estiver em kg e o outro em g, converta antes."
+  },
+  {
+   "titulo": "4. Porcentagem em massa de um elemento",
+   "texto": "`% do elemento = (nº de átomos × massa do átomo ÷ massa molar do composto) × 100`\n\nExemplo: porcentagem de carbono no CO₂: 12 ÷ 44 × 100 ≈ 27,3%.\n\nAparece também em composto fluorado (PFAS) e no sal de cloro C₃O₃N₃NaCl₂ (M = 220 g/mol; o Cl₂ pesa 71, logo 71 ÷ 220)."
+  },
+  {
+   "titulo": "5. Gases: PV = nRT",
+   "texto": "Quando o enunciado fala de volume de gás:\n\n`P × V = n × R × T`\n\n- P em atm, V em litros, n em mol, T em **kelvin** (K = °C + 273).\n- R = 0,082 atm·L/(mol·K) (a prova fornece).\n\nPasso a passo: ache n pela massa (n = m ÷ M), depois isole V = nRT ÷ P. Em CNTP (0 °C, 1 atm) 1 mol de gás ocupa 22,4 L; em condições ambientes, o enunciado costuma dar o volume molar (ex.: 30 L/mol). Use o dado que ele fornecer.\n\nExemplo: 6,5 g de Zn + 2 HCl → ZnCl₂ + H₂, a 27 °C e 1 atm. n(Zn) = 6,5 ÷ 65 = 0,1 mol → 0,1 mol de H₂ → V = 0,1 × 0,082 × 300 ÷ 1 = 2,46 L."
+  }
+ ],
+ "decorar": [
+  "n = m ÷ M; moléculas = n × 6 × 10²³",
+  "Coeficiente da equação balanceada = proporção em mol",
+  "CₓHᵧ + O₂ → x CO₂ + (y/2) H₂O",
+  "Massas molares usuais: H₂O 18, CO₂ 44, CH₄ 16, C₈H₁₈ 114, O₂ 32",
+  "% em massa = (átomos × massa atômica ÷ M composto) × 100",
+  "PV = nRT, T em kelvin, R = 0,082 atm·L/(mol·K)"
+ ],
+ "pegadinhas": [
+  "Não esqueça de **multiplicar a massa molar pelo coeficiente** na regra de três (4 Li = 28 g, não 7 g).",
+  "Balanceie ANTES de qualquer conta.",
+  "Unidades iguais nos dois lados da regra de três (kg com kg, g com g).",
+  "T em PV = nRT vai em kelvin, não em °C.",
+  "\"Emite 10%\" em relação ao fóssil: calcule o fóssil primeiro e depois aplique 10%."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2024-2",
+   "n": 18,
+   "resolucao": "Equação: C₈H₁₈ + 25/2 O₂ → 8 CO₂ + 9 H₂O. O motor queimou 114 g de gasolina fóssil (M = 114 g/mol): isso é **1 mol** de C₈H₁₈.\n\nA equação diz que 1 mol de C₈H₁₈ produz 8 mol de CO₂. Massa de CO₂ = 8 × 44 = **352 g** (fóssil).\n\nA gasolina sintética emite só 10% disso: 0,10 × 352 = **35,2 g**, aproximadamente 35 g.\n\nGabarito oficial: **D** (35). O 352 da alternativa B é a armadilha de esquecer os 10%."
+  },
+  {
+   "prova": "2019-2",
+   "n": 21,
+   "resolucao": "But-1-eno tem 4 carbonos e uma dupla: **C₄H₈**. Isso já elimina C₃H₆ e C₄H₁₀.\n\nCombustão completa: C₄H₈ + 6 O₂ → 4 CO₂ + 4 H₂O (O₂ = x + y/4 = 4 + 2 = 6).\n\nMassas: C₄H₈ = 4 × 12 + 8 = 56 g/mol; O₂ = 32 g/mol.\n\nRegra de três em kg: 56 kg de C₄H₈ reagem com 6 × 32 = 192 kg de O₂ (basta ver como 1 mol = 56 g ↔ 6 mol = 192 g). Para 5,6 kg (a décima parte): 192 ÷ 10 = **19,2 kg** de O₂.\n\nGabarito oficial: **B** (C₄H₈ e 19,2 kg)."
+  },
+  {
+   "prova": "2017-1",
+   "n": 21,
+   "resolucao": "Equação: 4 Li + O₂ → 2 Li₂O. Massas molares: Li = 7 g/mol, O₂ = 32 g/mol (2 × 16).\n\nPela equação: 4 mol de Li (4 × 7 = 28 g) reagem com 1 mol de O₂ (32 g).\n\nRegra de três em kg: 28 kg de Li ----- 32 kg de O₂; x ----- 3,2 kg de O₂ → x = 28 × 3,2 ÷ 32 = **2,8 kg**.\n\nGabarito oficial: **C**."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "O dióxido de carbono, CO₂, é um gás de efeito estufa. Sendo as massas atômicas C = 12 e O = 16, a quantidade de matéria, em mol, contida em 88 g de CO₂ é",
+   "alternativas": [
+    "0,5",
+    "1",
+    "2",
+    "4",
+    "8"
+   ],
+   "gabarito": "C",
+   "resolucao": "M(CO₂) = 12 + 2 × 16 = 44 g/mol. n = 88 ÷ 44 = 2 mol.",
+   "figura": {
+    "lib": "tabela",
+    "cabecalho": [
+     "Elemento",
+     "Massa atômica (u)"
+    ],
+    "linhas": [
+     [
+      "Carbono (C)",
+      "12"
+     ],
+     [
+      "Hidrogênio (H)",
+      "1"
+     ],
+     [
+      "Oxigênio (O)",
+      "16"
+     ]
+    ]
+   }
+  },
+  {
+   "enunciado": "O propano, C₃H₈, é o principal componente do gás de botijão. Na combustão completa ele produz CO₂ e H₂O. Ao balancear a equação com os menores coeficientes inteiros, a soma de todos os coeficientes (reagentes e produtos) é",
+   "alternativas": [
+    "10",
+    "11",
+    "12",
+    "13",
+    "14"
+   ],
+   "gabarito": "D",
+   "resolucao": "C₃H₈ + 5 O₂ → 3 CO₂ + 4 H₂O. C: 3 = 3. H: 8 = 4 × 2. O: 10 = 6 + 4. Soma: 1 + 5 + 3 + 4 = 13.",
+   "figura": null
+  },
+  {
+   "enunciado": "O metano, CH₄ (M = 16 g/mol), é queimado completamente segundo a equação CH₄ + 2 O₂ → CO₂ + 2 H₂O. A massa de CO₂ (M = 44 g/mol) produzida na queima de 16 g de metano é",
+   "alternativas": [
+    "11 g",
+    "16 g",
+    "22 g",
+    "32 g",
+    "44 g"
+   ],
+   "gabarito": "E",
+   "resolucao": "16 g de CH₄ = 1 mol. Pela equação, 1 mol de CH₄ gera 1 mol de CO₂ = 44 g.",
+   "figura": null
+  },
+  {
+   "enunciado": "A porcentagem em massa de carbono no dióxido de carbono, CO₂ (C = 12 e O = 16), é, aproximadamente,",
+   "alternativas": [
+    "27%",
+    "36%",
+    "44%",
+    "73%",
+    "12%"
+   ],
+   "gabarito": "A",
+   "resolucao": "M(CO₂) = 44. % de C = 12 ÷ 44 × 100 ≈ 27%. Os 73% são o oxigênio (32 ÷ 44).",
+   "figura": null
+  },
+  {
+   "enunciado": "O zinco reage com ácido clorídrico segundo a equação Zn + 2 HCl → ZnCl₂ + H₂. Colocando 6,5 g de zinco (M = 65 g/mol) para reagir completamente, a 27 °C e 1 atm, o volume de H₂ produzido, em litros, é aproximadamente (dados: R = 0,082 atm·L/(mol·K); T(K) = °C + 273)",
+   "alternativas": [
+    "1,23",
+    "2,46",
+    "4,92",
+    "6,5",
+    "24,6"
+   ],
+   "gabarito": "B",
+   "resolucao": "n(Zn) = 6,5 ÷ 65 = 0,1 mol. A proporção Zn : H₂ é 1 : 1, então n(H₂) = 0,1 mol. V = nRT ÷ P = 0,1 × 0,082 × 300 ÷ 1 = 2,46 L.",
+   "figura": null
+  }
+ ]
+}

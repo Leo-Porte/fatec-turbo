@@ -1,0 +1,135 @@
+{
+ "id": "ing-leitura",
+ "disciplina": "Inglês",
+ "tema": "Interpretação de texto",
+ "titulo": "Inglês: leitura estratégica",
+ "semana": 7,
+ "requisitos": [],
+ "minutos": 30,
+ "por_que": "Inglês vale 5 questões por prova e a maioria é interpretação de texto: nas 15 provas foram mais de 40 questões desse tipo, sempre com enunciado e alternativas em português. Quem lê com método acerta sem saber inglês avançado.",
+ "secoes": [
+  {
+   "titulo": "1. O que a prova realmente pede",
+   "texto": "A prova de Inglês traz textos curtos (notícia, resenha, infográfico, charge, tirinha, letra de música, cartaz) e **perguntas em português**. Você não precisa traduzir o texto: precisa **achar a informação que a pergunta pede** e conferir qual alternativa a sustenta.\n\nOs temas costumam conversar com a redação e com o resto da prova: trabalho e carreira (2017, 2018, 2019), fake news e tecnologia, meio ambiente e alimentação, discriminação, arte, futebol e sociedade. Reconhecer o assunto já ajuda a adivinhar o tom do texto.\n\nPense no texto como um mapa e na pergunta como o endereço: você só precisa chegar ao endereço, não conhecer a cidade inteira."
+  },
+  {
+   "titulo": "2. O método em 4 passos",
+   "texto": "- **Passo 1: leia o enunciado e as alternativas primeiro** (estão em português, são rápidos). Isso diz o que procurar.\n- **Passo 2: leia o título, a primeira frase de cada parágrafo e a legenda/fonte.** Dão o assunto e a ideia central.\n- **Passo 3: volte ao trecho certo** e leia só ele com atenção, procurando a palavra-chave do enunciado (um nome, um número, um verbo).\n- **Passo 4: elimine as alternativas** que contradizem o texto, que dizem mais do que ele diz ou que usam uma palavra do texto em sentido trocado.\n\nSe uma palavra desconhecida não está no trecho que responde à pergunta, **ignore-a**. A maioria das palavras difíceis é decorativa."
+  },
+  {
+   "titulo": "3. Cognatos: o aliado mais barato",
+   "texto": "Cognatos são palavras parecidas nas duas línguas, com o mesmo sentido: **economy** (economia), **society** (sociedade), **discrimination**, **technology**, **information**, **environment**, **energy**, **organization**. Só com elas você entende boa parte do texto.\n\nExistem padrões que viram regra: **-tion → -ção** (information → informação), **-ity → -dade** (community → comunidade), **-ly → -mente** (finally → finalmente), **-ous → -oso** (famous → famoso), **-ent/-ant → -ente/-ante** (important).\n\nCuidado: há **falsos cognatos** (parecem iguais e não são). Eles têm lição própria (Inglês: vocabulário). Aqui vale uma regra: se a tradução \"óbvia\" deixa a frase sem sentido, desconfie."
+  },
+  {
+   "titulo": "4. Os tipos de pergunta que mais caem",
+   "texto": "- **Informação explícita** (\"de acordo com o texto...\"): a resposta está escrita, só com outras palavras. Ex.: 2026/2 q31, Sociologia do Futebol.\n- **Inferência** (\"infere-se que\", \"o texto sugere\"): a resposta não está escrita, mas decorre do que está. Ex.: 2024/2 q13, América Latina.\n- **Ideia central / objetivo do texto**: leia título e primeira frase.\n- **Gênero e finalidade** (cartaz, convite, resenha, notícia): olhe a forma e o verbo de ação (\"Join us\", \"Buy\", \"Review\").\n- **Texto verbal + não verbal** (charge, tirinha, cartum): a graça costuma estar na **contradição** entre imagem e fala (ironia).\n- **Referência pronominal e vocabulário**: têm lições à parte, mas aparecem dentro de textos de interpretação."
+  },
+  {
+   "titulo": "5. Números, comparações e gráficos",
+   "texto": "Notícias e infográficos trazem números, e a Fatec cobra **comparações**: maior que, menor que, acima/abaixo da média, subiu/caiu, \"mais do que o esperado\".\n\nPalavras que valem ouro: **rise / increase / grow / surge** (subir), **drop / fall / decline / dip** (cair), **above / below** (acima / abaixo), **expected / projected** (esperado / projetado), **average** (média), **still** (ainda), **but / however / although** (contraste).\n\nNa 2024/2 q13: o crescimento ficou em 2,2%, \"um pouco melhor que os 1,7% inicialmente projetados, mas ainda abaixo da média global de 3,2%\". Quem lê só o primeiro número cai na alternativa \"acima da média\"; quem lê o **\"but still below\"** acerta."
+  },
+  {
+   "titulo": "6. Armadilhas das alternativas",
+   "texto": "As alternativas erradas costumam ser de poucos tipos:\n\n- **Extrapolação**: o texto diz \"expected to decline\" (esperado cair) e a alternativa afirma \"impedirá\", \"será agravado\" (certeza que o texto não dá).\n- **Generalização**: \"todos\", \"sempre\", \"nenhum\", quando o texto diz \"most\" (a maioria) ou \"some\" (alguns).\n- **Inversão**: troca quem faz e quem sofre, ou sobe/desce.\n- **Palavra do texto no lugar errado**: cita um termo do texto, mas liga-o a uma ideia que o texto não liga.\n- **Verdade fora do texto**: verdadeira no mundo real, mas o texto não diz. A prova pede o que **o texto** diz.\n\nRegra prática: a alternativa certa costuma ser **mais branda e mais genérica** que as erradas."
+  },
+  {
+   "titulo": "7. Palavra desconhecida: como se virar",
+   "texto": "Antes de travar, tente três saídas:\n\n- **Contexto**: a frase traz contraste (\"but\", \"however\") ou explicação (\"that is\", \"such as\")? Dá para deduzir se a palavra é positiva ou negativa.\n- **Prefixo e sufixo**: **un-/in-/dis-** nega (unfair = injusto), **re-** repete (rebuild), **-less** = sem (homeless), **-ful** = cheio de (helpful), **-er/-or** = quem faz (researcher).\n- **Família da palavra**: \"unemployment\" → \"employ\" → emprego.\n\nSe ainda assim não fechar, leia as alternativas: às vezes só uma encaixa no resto do texto."
+  }
+ ],
+ "decorar": [
+  "Ler enunciado e alternativas antes do texto",
+  "Palavra-chave do enunciado → localizar o trecho → eliminar alternativas",
+  "Cognatos: -tion = -ção, -ity = -dade, -ly = -mente",
+  "Inferência = o que decorre do texto, sem extrapolar",
+  "Charge/tirinha: o humor está na contradição entre imagem e texto",
+  "Contraste (but, however, although, despite) costuma esconder a resposta",
+  "Alternativa certa: mais branda; errada: \"todos\", \"sempre\", \"impedirá\""
+ ],
+ "pegadinhas": [
+  "Traduzir o texto inteiro: gasta tempo e não garante acerto. Procure só o trecho da pergunta.",
+  "Ler só o primeiro número ou a primeira frase de um trecho com \"but\"/\"still\": a ideia final vem depois do contraste.",
+  "Marcar alternativa verdadeira no mundo real que o texto não diz.",
+  "Cair no falso cognato (ingenuity ≠ ingenuidade).",
+  "Ignorar a legenda e a fonte: às vezes mostram o gênero (resenha, notícia)."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-2",
+   "n": 31,
+   "resolucao": "O texto: \"The Sociology of Football is the study of the social dynamics, cultural significance, and institutional structures surrounding football (soccer)...\". A pergunta é de **informação explícita**: o que a Sociologia do Futebol estuda.\n\nPalavras-chave: **social dynamics** (dinâmicas sociais), **cultural significance** (significado cultural). A alternativa D diz \"as relações sociais e culturais em torno do futebol\", que é isso com outras palavras.\n\nAs outras falham por extrapolação: A cita \"desigualdades\", que o texto não menciona; B fala em \"fenômenos globalizados\" (o texto diz só que o futebol é um fenômeno global); C inventa \"violência\"; E restringe tudo a \"classificação esportiva\". Gabarito: **D**, confere com o oficial."
+  },
+  {
+   "prova": "2024-2",
+   "n": 13,
+   "resolucao": "Pergunta de **inferência**. O texto diz que 2023 \"was not a bad year\", que o crescimento deve fechar em 2,2%, \"somewhat better than the 1.7% initially projected, but still below the global average of 3.2%\", e que há \"cautious optimism\" (otimismo cauteloso).\n\nLogo: há **certo otimismo** diante de um crescimento **melhor que o esperado** (2,2% > 1,7%). Essa é a D.\n\nA: \"impedirá\" é certeza demais; B: o crescimento não é negativo; C: o texto fala em otimismo, não em pessimismo enorme; E: o crescimento está **abaixo** da média mundial (o \"but still below\"). Gabarito: **D**, confere com o oficial."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Leia o texto: \"Remote work has changed how many companies operate. Although some employees miss the office, most say they save time because they no longer commute. However, managers report that new workers learn more slowly when they work from home.\" De acordo com o texto, os gestores afirmam que",
+   "alternativas": [
+    "todos os funcionários preferem trabalhar no escritório.",
+    "o trabalho remoto eliminou a necessidade de gestores.",
+    "os funcionários novos aprendem mais devagar quando trabalham em casa.",
+    "o trabalho remoto aumentou o tempo gasto em deslocamento.",
+    "as empresas deixaram de operar com o trabalho remoto."
+   ],
+   "gabarito": "C",
+   "resolucao": "Palavra-chave: **managers report** (gestores relatam). O trecho depois do **However** traz a resposta: new workers learn more slowly at home (novos funcionários aprendem mais devagar em casa). A: o texto diz \"some\" sentem falta do escritório, não \"todos\". B e E inventam. D inverte: as pessoas **economizam** tempo por não se deslocarem (no longer commute).",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia: \"Maria checked the weather forecast three times before leaving. She put an umbrella and a raincoat in her bag, even though the sky was blue.\" Infere-se do texto que",
+   "alternativas": [
+    "o céu estava nublado quando Maria saiu.",
+    "a previsão do tempo provavelmente indicava chuva.",
+    "Maria ficou em casa por causa do tempo.",
+    "Maria não se importava com o clima.",
+    "a previsão indicava um dia de sol."
+   ],
+   "gabarito": "B",
+   "resolucao": "Inferência: Maria conferiu a previsão três vezes e levou guarda-chuva e capa **mesmo com o céu azul** (even though the sky was blue). A explicação mais razoável é que a previsão falava em chuva. A contradiz o texto (céu azul); C inventa (ela saiu); D contradiz o cuidado dela; E não explicaria o guarda-chuva.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia: \"In 2022, the company sold 40,000 bikes. In 2023, sales rose to 50,000, but profit fell because the cost of materials increased.\" De acordo com o texto, em 2023",
+   "alternativas": [
+    "as vendas caíram e o lucro subiu.",
+    "as vendas e o lucro aumentaram.",
+    "as vendas caíram porque os materiais ficaram mais caros.",
+    "as vendas aumentaram em 10.000 unidades, mas o lucro diminuiu.",
+    "o lucro subiu porque o custo dos materiais caiu."
+   ],
+   "gabarito": "D",
+   "resolucao": "**rose** = subiu: de 40.000 para 50.000, ou seja, +10.000 bicicletas. **but profit fell** = mas o lucro caiu, por causa do custo dos materiais (increased = aumentou). Só a D junta as duas coisas. A inverte tudo; B esquece o \"but\"; C liga a queda ao lugar errado (caiu o lucro, não as vendas); E inverte causa e efeito.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia: \"Sleep is not a waste of time. During the night, the brain organizes memories and removes toxins that build up during the day. Students who sleep less than six hours often have more difficulty concentrating.\" A ideia central do texto é que",
+   "alternativas": [
+    "o sono é importante para o cérebro e para o desempenho dos estudantes.",
+    "dormir é perda de tempo para quem estuda.",
+    "o cérebro descansa completamente durante a noite.",
+    "as toxinas só são produzidas enquanto se dorme.",
+    "estudantes devem dormir exatamente seis horas."
+   ],
+   "gabarito": "A",
+   "resolucao": "A primeira frase já dá a ideia central: **Sleep is not a waste of time** (dormir não é perda de tempo). O resto mostra por quê: o cérebro organiza memórias e elimina toxinas, e dormir pouco prejudica a concentração. B é o oposto; C diz que o cérebro \"descansa\", quando o texto diz que ele **trabalha**; D inverte (as toxinas se acumulam durante o dia); E transforma \"menos de seis horas\" em \"exatamente seis\".",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia o cartaz: \"SALE! Everything must go. Up to 70% off. Last week only!\" A finalidade desse texto é",
+   "alternativas": [
+    "oferecer vagas de emprego.",
+    "convidar para um evento cultural.",
+    "alertar sobre um perigo.",
+    "apresentar o resultado de uma pesquisa.",
+    "divulgar uma liquidação por tempo limitado."
+   ],
+   "gabarito": "E",
+   "resolucao": "**SALE**, **70% off** e **Last week only** (só nesta semana) indicam liquidação com prazo. Gênero: cartaz publicitário. As outras opções não têm nenhuma palavra de apoio no texto.",
+   "figura": null
+  }
+ ]
+}

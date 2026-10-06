@@ -285,11 +285,38 @@ func CarregaConteudo(dados fs.FS) (*Conteudo, error) {
 		c.Licoes = append(c.Licoes, &l)
 		c.PorLicao[l.ID] = &l
 	}
-	sort.Slice(c.Licoes, func(i, j int) bool {
-		if c.Licoes[i].Semana != c.Licoes[j].Semana {
-			return c.Licoes[i].Semana < c.Licoes[j].Semana
+	// ordem de estudo: semana, depois profundidade na cadeia de pré-requisitos (a base vem antes de quem depende dela)
+	prof := map[string]int{}
+	var calcula func(id string, visitando map[string]bool) int
+	calcula = func(id string, visitando map[string]bool) int {
+		if p, ok := prof[id]; ok {
+			return p
 		}
-		return c.Licoes[i].ID < c.Licoes[j].ID
+		l, ok := c.PorLicao[id]
+		if !ok || visitando[id] { // requisito inexistente ou ciclo: não trava a ordenação
+			return 0
+		}
+		visitando[id] = true
+		p := 0
+		for _, r := range l.Requisitos {
+			p = max(p, calcula(r, visitando)+1)
+		}
+		delete(visitando, id)
+		prof[id] = p
+		return p
+	}
+	for _, l := range c.Licoes {
+		calcula(l.ID, map[string]bool{})
+	}
+	sort.Slice(c.Licoes, func(i, j int) bool {
+		a, b := c.Licoes[i], c.Licoes[j]
+		if a.Semana != b.Semana {
+			return a.Semana < b.Semana
+		}
+		if prof[a.ID] != prof[b.ID] {
+			return prof[a.ID] < prof[b.ID]
+		}
+		return a.ID < b.ID
 	})
 	testes, _ := fs.Glob(dados, "dados/testes/*.json")
 	for _, f := range testes {

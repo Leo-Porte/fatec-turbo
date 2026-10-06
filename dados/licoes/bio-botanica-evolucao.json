@@ -1,0 +1,107 @@
+{
+ "id": "bio-botanica-evolucao",
+ "disciplina": "Biologia",
+ "tema": "Botânica",
+ "titulo": "Botânica, zoologia e evolução",
+ "semana": 6,
+ "requisitos": ["bio-ecologia"],
+ "minutos": 35,
+ "por_que": "Botânica (7), evolução (7) e zoologia (4) somam 18 questões nas 15 provas. Em botânica: grupos de plantas, hormônios, anéis de crescimento, fotossíntese e adaptação à seca. Em evolução: Darwin x Lamarck, seleção artificial, cladogramas e nomenclatura. Em zoologia: características de grupos (mamíferos, aracnídeos).",
+ "secoes": [
+  {
+   "titulo": "1. Grupos de plantas e ciclo de vida",
+   "texto": "Os quatro grandes grupos, do mais simples ao mais complexo:\n\n- **Briófitas** (musgos): pequenas, **sem vasos condutores**, **sem flores, frutos nem sementes**; dependem de água e vivem em lugar úmido.\n- **Pteridófitas** (samambaias): **com vasos** condutores, mas **sem sementes**.\n- **Gimnospermas** (pinheiros, araucária): têm **sementes**, mas sem frutos (a semente fica exposta).\n- **Angiospermas**: **flores, frutos e sementes**. É o grupo mais diverso.\n\nNo ciclo de vida das plantas há **alternância de gerações**: uma fase diploide (esporófito) e uma haploide (gametófito). A meiose forma esporos, e nas samambaias ela ocorre no esporófito, que é a fase dominante e diploide.\n\nCompare com os ciclos em geral: o que muda é o **momento da meiose**. No ciclo **haplonte** a meiose é zigótica, no **diplonte** é gamética e no **diplobionte** (plantas) é espórica."
+  },
+  {
+   "titulo": "2. Fotossíntese, ponto de compensação e adaptações",
+   "texto": "A planta faz **fotossíntese** (produz matéria orgânica e O₂) e **respira** (consome matéria orgânica) o tempo todo. O **ponto de compensação fótico (PCF)** é a intensidade de luz em que as duas taxas se igualam: não sobra matéria orgânica para crescer.\n\n- **Acima do PCF**: fotossíntese > respiração, a planta cresce.\n- **Abaixo do PCF por muito tempo**: respiração > fotossíntese, ela consome mais do que produz, esgota as reservas e morre depois de um tempo.\n\nAdaptação à seca (**xerófitas**): o **cacto** tem folhas modificadas em **espinhos**, o que reduz a transpiração. Plantas **caducifólias** perdem as folhas na seca para economizar água."
+  },
+  {
+   "titulo": "3. Hormônios vegetais, vasos e anéis do tronco",
+   "texto": "**Fitormônios**:\n\n- **Auxina**: alongamento celular e crescimento do caule.\n- **Etileno**: gás que promove o **amadurecimento dos frutos** e a **queda de folhas**.\n- **Giberelina**: crescimento do caule e germinação.\n- **Ácido abscísico**: fecha estômatos e mantém a dormência.\n\n**Vasos condutores**: o **xilema** leva água e sais minerais (**seiva bruta**) da raiz para cima. O **floema** distribui a **seiva elaborada** (açúcares da fotossíntese).\n\n**Anéis de crescimento**: o **câmbio** gera o crescimento secundário (aumento de espessura) e produz xilema. Em regiões de clima com estações marcadas, o ritmo de crescimento muda ao longo do ano e forma anéis visíveis no tronco. Contar anéis dá a idade da árvore."
+  },
+  {
+   "titulo": "4. Evolução: Darwin x Lamarck",
+   "texto": "**Lamarck** (anterior a Darwin) propôs o **uso e desuso** e a herança de **caracteres adquiridos**: o órgão usado se desenvolve e isso passa aos filhos. Está superado.\n\n**Darwin**, depois de explorar a costa da América do Sul e Galápagos, propôs a **seleção natural**:\n\n- Os indivíduos de uma população **variam**.\n- Alguns têm características que os deixam **mais bem adaptados** ao ambiente.\n- Esses **sobrevivem mais e deixam mais descendentes**, e a característica se espalha.\n\nA genética moderna (**neodarwinismo**) explica de onde vem a variação: **mutações** e recombinação.\n\n**Seleção artificial**: o ser humano escolhe quem cruza (por exemplo aves de corte com maior eficiência metabólica), gerando linhagens mais produtivas e baratas de criar.\n\n**Fósseis** mostram a história da vida, e microfósseis servem para identificar camadas geológicas e pistas sobre petróleo."
+  },
+  {
+   "titulo": "5. Classificação e cladograma",
+   "texto": "A classificação vai do grupo mais amplo ao mais específico: reino, filo, classe, ordem, família, gênero e espécie.\n\n**Nomenclatura binomial**: o nome científico é **Gênero espécie**, em latim, em itálico, com o gênero em letra inicial maiúscula (*Homo sapiens*, *Hydrochoerus hydrochaeris*).\n\n**Cladograma** é um esquema de parentesco. Grupos ligados por um ramo recente têm **ancestral comum** recente e compartilham características. Dois grupos são **parentes** porque descendem de um ancestral comum, não porque um deriva do outro (humanos e chimpanzés não descendem uns dos outros). Sistemas de classificação mais antigos eram **artificiais** (critérios ecológicos e fisiológicos), enquanto os atuais tentam refletir a **filogenia**."
+  },
+  {
+   "titulo": "6. Zoologia: o que a prova pergunta",
+   "texto": "- **Mamíferos**: **pelos**, **glândulas mamárias** e **diafragma** são exclusivos. Coração de 4 cavidades e endotermia também ocorrem nas aves, então não servem como característica exclusiva.\n- **Aves, répteis e mamíferos**: são os **amniotas**: o embrião se desenvolve protegido por membranas (ovo amniótico).\n- **Artrópodes**: **exoesqueleto de quitina**. **Insetos**: 3 pares de patas e 1 par de antenas. **Aracnídeos** (aranhas, escorpiões, carrapatos): **4 pares de patas, sem antenas**, com quelíceras. O carrapato é hematófago. O escorpião inocula veneno pelo **ferrão** (télson) na cauda.\n- **Serpentes** são répteis (sem exoesqueleto de quitina).\n- **Predadores** (aranhas, por exemplo) controlam populações de insetos."
+  }
+ ],
+ "decorar": [
+  "Briófita: sem vasos, flores, frutos e sementes. Pteridófita: vasos, sem sementes. Gimnosperma: sementes sem fruto. Angiosperma: flor, fruto e semente.",
+  "Abaixo do PCF por muito tempo, a planta consome mais do que produz e morre.",
+  "Etileno amadurece frutos e derruba folhas. Xilema leva seiva bruta. Floema leva seiva elaborada.",
+  "Anéis do tronco: câmbio, clima sazonal, um anel por ciclo.",
+  "Darwin: seleção natural. Lamarck: uso e desuso e caracteres adquiridos.",
+  "Nome científico: Gênero espécie (itálico, gênero com maiúscula).",
+  "Mamíferos: pelos, glândulas mamárias, diafragma.",
+  "Aracnídeos: 4 pares de patas, sem antenas."
+ ],
+ "pegadinhas": [
+  "Atribuir a Darwin o uso e desuso, que é de Lamarck.",
+  "Dizer que coração de 4 cavidades ou endotermia é exclusivo de mamíferos (as aves também têm).",
+  "Achar que, abaixo do PCF, a planta morre na hora. Ela vive enquanto tiver reservas e depois morre.",
+  "Confundir xilema (seiva bruta, água) com floema (seiva elaborada, açúcares).",
+  "Ler o cladograma como se um grupo descendesse do outro. O que importa é o ancestral comum."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-1",
+   "n": 2,
+   "resolucao": "No ponto de compensação, fotossíntese = respiração. **Abaixo** da luz do PCF, a respiração passa a ser maior que a fotossíntese: a planta consome mais matéria orgânica do que produz, vai esgotando as reservas e **morre depois de algum tempo**.\n\n- A) **Correta**: continua viva por um tempo e depois morre, sem reservas.\n- B) Errada: inverte os termos (o que diminui é a matéria produzida pela fotossíntese).\n- C) Errada: não morre rapidamente.\n- D) e E) Erradas: a planta não cresce nessa condição.\n\nGabarito: **A**."
+  },
+  {
+   "prova": "2024-2",
+   "n": 32,
+   "resolucao": "Darwin desenvolveu a ideia da **seleção natural**: sobrevivem e se reproduzem os mais bem adaptados.\n\n- A) Errada: caracteres adquiridos e geração espontânea não são de Darwin.\n- B) e C) Erradas: biotecnologia, clonagem e genoma humano são do século XX em diante, bem depois de Darwin.\n- D) **Correta**: estudos dos processos de sobrevivência dos mais bem adaptados.\n- E) Errada: uso e desuso é de Lamarck.\n\nGabarito: **D**."
+  },
+  {
+   "prova": "2024-2",
+   "n": 4,
+   "resolucao": "A pergunta pede o que é **exclusivo** dos mamíferos (a capivara é um mamífero).\n\n- Escamas são de répteis (não mamíferos), então A e B caem.\n- Coração de 3 cavidades não é de mamífero (C cai).\n- Ectotermia não é de mamífero (D cai).\n- E) **Correta**: pelos, glândulas mamárias e diafragma são exclusivos da classe.\n\nGabarito: **E**."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Girafas atuais têm pescoço longo. Segundo a teoria da seleção natural de Darwin, essa característica pode ser explicada porque",
+   "alternativas": ["as girafas esticavam o pescoço para alcançar as folhas, e os filhos nasciam com o pescoço mais longo.", "o pescoço das girafas deixou de ser usado e desapareceu.", "indivíduos com pescoço mais longo, que já existiam na população, alcançavam mais alimento, sobreviviam mais e deixavam mais descendentes.", "o ambiente modificou diretamente o pescoço de cada girafa.", "todas as girafas nascem com o mesmo tamanho de pescoço."],
+   "gabarito": "C",
+   "resolucao": "Darwin parte da **variação** que já existe e da sobrevivência e reprodução dos mais aptos. A alternativa A descreve a ideia de Lamarck (uso e herança de caracteres adquiridos).",
+   "figura": null
+  },
+  {
+   "enunciado": "Uma planta pequena, que cresce rente a uma pedra úmida, não tem flores, frutos, sementes nem vasos condutores. Esse vegetal pertence ao grupo das",
+   "alternativas": ["gimnospermas, como os pinheiros.", "angiospermas, como o feijão.", "pteridófitas, como as samambaias.", "briófitas, como os musgos.", "angiospermas, como as orquídeas."],
+   "gabarito": "D",
+   "resolucao": "Sem vasos, flores, frutos e sementes, e preso a ambiente úmido: **briófita** (musgo). Pteridófitas têm vasos, gimnospermas têm sementes e angiospermas têm flores e frutos.",
+   "figura": null
+  },
+  {
+   "enunciado": "A seiva elaborada, rica em açúcares produzidos na fotossíntese, é transportada das folhas para as outras partes da planta pelo",
+   "alternativas": ["floema.", "xilema.", "estômato.", "câmbio.", "córtex da raiz."],
+   "gabarito": "A",
+   "resolucao": "O **floema** conduz a seiva elaborada (açúcares). O xilema conduz água e sais minerais (seiva bruta), do solo para cima.",
+   "figura": null
+  },
+  {
+   "enunciado": "Para acelerar o amadurecimento de mamões verdes, uma pessoa os coloca em um saco de papel junto com bananas maduras. O hormônio vegetal envolvido nesse processo é o",
+   "alternativas": ["ácido abscísico.", "giberelina.", "auxina.", "citocinina.", "etileno."],
+   "gabarito": "E",
+   "resolucao": "Frutos maduros liberam **etileno**, gás que promove o amadurecimento de outros frutos próximos.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um animal tem corpo dividido em cefalotórax e abdome, quatro pares de patas, não possui antenas e apresenta exoesqueleto de quitina. Esse animal pertence à classe dos",
+   "alternativas": ["insetos.", "aracnídeos.", "crustáceos.", "mamíferos.", "répteis."],
+   "gabarito": "B",
+   "resolucao": "Quatro pares de patas, ausência de antenas e corpo em cefalotórax e abdome caracterizam os **aracnídeos** (aranhas, escorpiões, carrapatos). Insetos têm 3 pares de patas e antenas.",
+   "figura": null
+  }
+ ]
+}

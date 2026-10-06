@@ -1,0 +1,491 @@
+{
+ "id": "mat-geometria-espacial",
+ "disciplina": "Matemática",
+ "tema": "Geometria espacial",
+ "titulo": "Geometria espacial: áreas e volumes",
+ "semana": 2,
+ "requisitos": [
+  "mat-geometria-plana"
+ ],
+ "minutos": 35,
+ "por_que": "Geometria espacial caiu 15 vezes nas 15 provas, uma por prova. Domina o volume de cilindro e de bloco retangular, mas também cai pirâmide, esfera, tronco e semelhança de sólidos. Quase sempre vem com conversão de unidade no final (m³ para litros).",
+ "secoes": [
+  {
+   "titulo": "1. Volume = área da base × altura (prisma, bloco, cilindro)",
+   "texto": "A regra mais útil da lição: em todo sólido \"reto\" que tem a mesma seção do começo ao fim (bloco, prisma, cilindro), o volume é a **área da base vezes a altura**.\n\n- **Bloco retangular** (paralelepípedo): `V = a · b · c` (comprimento × largura × altura).\n- **Cubo**: `V = a³`.\n- **Cilindro**: `V = π · r² · h`. A base é um círculo, então vira π·r² × h.\n- **Prisma qualquer**: `V = Ab · h`, em que Ab é a área da base (que pode ser polígono, decomposto em retângulos e triângulos).\n\nExemplo (2018/2): prisma cuja base foi calculada por decomposição em retângulos, 240 + 32 − 50 = 222; o volume é 222 vezes a altura.\n\nExemplo (2022/2): piscina olímpica 50 × 25 × 2 = 2 500 m³. Com densidade 0,9 kg/L, a massa vem depois de converter o volume para litros (2 500 000 L).\n\n**Sólido com parte tirada** (subtração): calcule o volume do sólido inteiro e tire o do buraco ou da parte que saiu. Na 2019/1: garrafa de 3 × 16 × 13 = 624 cm³ de suco, menos o copo despejado, 3 × 4 × 7 = 84, restam 540 cm³. Caso parecido na 2019/2: paralelepípedo menos um semicilindro (metade do cilindro)."
+  },
+  {
+   "titulo": "2. Unidades: onde mais gente erra",
+   "texto": "Volume sempre acaba em unidade cúbica, e as conversões **não são lineares**:\n\n- `1 m³ = 1 000 L` (porque 1 m³ = 1 000 dm³ e 1 dm³ = 1 L).\n- `1 L = 1 000 cm³ = 1 000 mL`, ou seja, **1 cm³ = 1 mL**.\n- `1 m³ = 10⁶ cm³`.\n- `1 mm³ = 10⁻⁹ m³` (cada mm é 10⁻³ m, e o cubo é 10⁻⁹).\n\nPadrão de prova: as medidas vêm em metros, o volume dá em m³ e a pergunta é em litros. Na 2025/2, um piscinão cilíndrico com base de 200 000 m² e altura 5 m tem V = 200 000 × 5 = 10⁶ m³ = 10⁹ L, ou seja, 1 000 000 000 de litros.\n\nNa 2024/2: 6 000 grânulos cilíndricos (r = 0,5 mm, h = 1 mm, π = 3): cada um tem 3 × 0,25 × 1 = 0,75 mm³; o total passa por 10⁻⁹ para chegar a m³.\n\nRegra para não errar: **converta tudo para a mesma unidade antes de calcular** ou converta o resultado no fim, mas só uma vez."
+  },
+  {
+   "titulo": "3. Áreas de sólidos: lateral, total e custo",
+   "texto": "- **Cilindro**: lateral `2·π·r·h` (um retângulo enrolado: base 2πr e altura h). Total = lateral + 2 bases (2·π·r²).\n- **Bloco retangular**: total `2·(ab + ac + bc)`.\n- **Pirâmide**: total = base + lateral (soma das faces triangulares).\n\nPergunta típica: \"quanto de rótulo/tinta/metal/embalagem é necessário?\" ou \"qual o custo?\". A resposta é a área vezes o preço por m². Na 2024/1, a área lateral de um cilindro (2πrh) dividida pela área que cada receita cobre dá o número de receitas.\n\n**Pirâmide regular** (2018/1): base quadrada de lado 6 m e faces triangulares. A altura de cada face (apótema) fecha um triângulo retângulo 3-4-5 com o centro da base: apótema 5. Área de uma face = 6 × 5 ÷ 2 = 15; quatro faces = 60; mais a base 36 = **96 m²**.\n\n**Tronco de pirâmide** (2023/2, caixinha de comida chinesa): é uma pirâmide com a ponta cortada. Área total = base menor + base maior + 4 trapézios laterais. Cada trapézio tem base menor e maior iguais aos lados dos quadrados, e a altura do trapézio é a medida inclinada lateral da vista de lado."
+  },
+  {
+   "titulo": "4. Pirâmide, cone e esfera",
+   "texto": "- **Pirâmide**: `V = ⅓ · Ab · h`. É um terço do prisma de mesma base e altura.\n- **Cone**: `V = ⅓ · π · r² · h`.\n- **Esfera**: `V = 4/3 · π · r³` e área `A = 4·π·r²`.\n\nA esfera costuma dar o dado de forma indireta: a **circunferência** em vez do raio. Na 2026/2, a bola Trionda \"tem cerca de 69 cm de circunferência\". Então 2·π·r = 69 → r = 69 ÷ 6 = 11,5 cm (π = 3). Volume = (4/3)·3·11,5³ = 4 · 1 520,875 ≈ 6 084 cm³.\n\nDica de cálculo: com π = 3, a fórmula `(4/3)·π·r³` vira simplesmente `4·r³`.\n\n**Poliedros** (2023/1 e 2026/2): o tetraedro regular tem 4 faces triangulares iguais, 6 arestas e 4 vértices. Cubo: 6 faces, 12 arestas, 8 vértices. Relação de Euler: `V − A + F = 2`. Os cinco sólidos de Platão são tetraedro, cubo, octaedro, dodecaedro e icosaedro, e os dois que aparecem juntos com a geometria molecular são o tetraedro (CH₄) e o octaedro (SF₆)."
+  },
+  {
+   "titulo": "5. Semelhança de sólidos: k, k² e k³",
+   "texto": "Duas figuras espaciais semelhantes (uma é cópia ampliada ou reduzida da outra) têm medidas lineares na mesma razão **k**:\n\n- Comprimentos, raios, alturas, arestas: × k.\n- Áreas (lateral, total): × k².\n- Volumes (e capacidade, e massa se for o mesmo material): × k³.\n\nExemplo (2018/1): pirâmide menor semelhante à maior com k = 0,9. Razão dos volumes = 0,9³ = 0,729. A área lateral muda por 0,9² = 0,81, e o custo da obra acompanha a área.\n\nNa 2024/1, dois cilindros semelhantes: se o raio vai de 10 para 2 (k = 1/5), a altura vai de 30 para 6, também na razão 1/5.\n\nTruque de leitura: maquete na **escala 1:50** quer dizer k = 1/50 entre maquete e real. O volume real é 50³ = 125 000 vezes o da maquete."
+  }
+ ],
+ "decorar": [
+  "Volume de sólido reto: `V = Ab · h`. Bloco `a·b·c`; cubo `a³`; cilindro `π·r²·h`.",
+  "Pirâmide `⅓·Ab·h`; cone `⅓·π·r²·h`; esfera `4/3·π·r³` (com π = 3, vira `4·r³`).",
+  "Área lateral do cilindro `2·π·r·h`; esfera `4·π·r²`; bloco `2(ab+ac+bc)`.",
+  "`1 m³ = 1 000 L`; `1 cm³ = 1 mL`; `1 m³ = 10⁶ cm³`; `1 mm³ = 10⁻⁹ m³`.",
+  "Semelhança: comprimentos × k, áreas × k², volumes × k³.",
+  "Circunferência `C = 2·π·r` dá o raio da esfera: `r = C ÷ 2π`.",
+  "Euler: `V − A + F = 2`. Tetraedro regular: 4 faces, 6 arestas, 4 vértices."
+ ],
+ "pegadinhas": [
+  "Converter m³ para litros multiplicando por 100 em vez de 1 000. Lembre: 1 m³ é o cubo de 10 dm, ou seja, 1 000 dm³ = 1 000 L.",
+  "Usar o diâmetro no lugar do raio em π·r²·h. O erro multiplica o volume por 4.",
+  "Esquecer o ⅓ na pirâmide e no cone.",
+  "Na área lateral da pirâmide, usar a altura do sólido em vez da altura da face (apótema). A altura da face é a hipotenusa de um triângulo retângulo.",
+  "Aplicar k à área ou ao volume (a razão é k² e k³).",
+  "Misturar unidades: raio em mm e altura em cm. Padronize antes.",
+  "Num sólido com furo, somar em vez de subtrair o volume do buraco."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2019-1",
+   "n": 31,
+   "resolucao": "A garrafa é um cilindro de diâmetro da base 8 cm (raio 4 cm). O suco está a 13 cm da base. O copo, cilíndrico, tem base de diâmetro 4 cm (raio 2 cm) e altura 7 cm, e fica totalmente cheio com o suco despejado. Adote π = 3.\n\nVolume de suco na garrafa antes: V = π·r²·h = 3 · 4² · 13 = 3 · 16 · 13 = 624 cm³.\n\nVolume que sai (enche o copo): 3 · 2² · 7 = 3 · 4 · 7 = 84 cm³.\n\nRestante: 624 − 84 = **540 cm³**.\n\nAlternativa **C**. Gabarito oficial: C. ✔ Bateu."
+  },
+  {
+   "prova": "2025-2",
+   "n": 53,
+   "resolucao": "Piscinão cilíndrico: altura 5 m e área da base 200 000 m². Volume = área da base × altura = 200 000 × 5 = 1 000 000 m³ = 10⁶ m³.\n\nConverter para litros: 1 m³ = 1 000 L, então 10⁶ m³ = 10⁶ × 10³ = 10⁹ L = **1 000 000 000 L**.\n\nAlternativa **E**. Gabarito oficial: E. ✔ Bateu."
+  },
+  {
+   "prova": "2026-2",
+   "n": 12,
+   "resolucao": "O texto de apoio diz que o modelo Pro da bola Trionda tem cerca de 69 cm de circunferência. A questão pede o volume aproximado, com V = (4/3)·π·r³ e π = 3.\n\nPrimeiro o raio: C = 2·π·r → 69 = 2 · 3 · r → r = 69 ÷ 6 = 11,5 cm.\n\nVolume: V = (4/3) · 3 · 11,5³ = 4 · 11,5³. Como 11,5² = 132,25 e 11,5³ = 1 520,875, então V = 4 · 1 520,875 = 6 083,5 ≈ **6 084 cm³**.\n\nAlternativa **B**. Gabarito oficial: B. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Uma caixa-d'água tem formato de bloco retangular com 2 m de comprimento, 1,5 m de largura e 1,2 m de altura. Totalmente cheia, ela comporta, em litros,",
+   "alternativas": [
+    "36",
+    "360",
+    "2 400",
+    "3 600",
+    "4 700"
+   ],
+   "gabarito": "D",
+   "resolucao": "V = 2 · 1,5 · 1,2 = 3,6 m³. Como 1 m³ = 1 000 L, V = 3 600 L. Erros: somar as medidas (2 + 1,5 + 1,2 = 4,7, vira 4 700) ou errar a conversão (por 10 ou por 100, dando 36 ou 360).",
+   "figura": {
+    "lib": "jsxgraph",
+    "bbox": [
+     -2,
+     7,
+     11,
+     -1.5
+    ],
+    "elementos": [
+     {
+      "t": "ponto",
+      "id": "A",
+      "xy": [
+       0,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "B",
+      "xy": [
+       6,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "C",
+      "xy": [
+       6,
+       3.6
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "D",
+      "xy": [
+       0,
+       3.6
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "E",
+      "xy": [
+       2,
+       1.5
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "F",
+      "xy": [
+       8,
+       1.5
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "G",
+      "xy": [
+       8,
+       5.1
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "H",
+      "xy": [
+       2,
+       5.1
+      ]
+     },
+     {
+      "t": "poligono",
+      "pts": [
+       "A",
+       "B",
+       "C",
+       "D"
+      ]
+     },
+     {
+      "t": "poligono",
+      "pts": [
+       "E",
+       "F",
+       "G",
+       "H"
+      ]
+     },
+     {
+      "t": "segmento",
+      "de": "A",
+      "ate": "E"
+     },
+     {
+      "t": "segmento",
+      "de": "B",
+      "ate": "F"
+     },
+     {
+      "t": "segmento",
+      "de": "C",
+      "ate": "G"
+     },
+     {
+      "t": "segmento",
+      "de": "D",
+      "ate": "H"
+     },
+     {
+      "t": "segmento",
+      "de": "A",
+      "ate": "B",
+      "rotulo": "2 m"
+     },
+     {
+      "t": "segmento",
+      "de": "B",
+      "ate": "C",
+      "rotulo": "1,2 m"
+     },
+     {
+      "t": "segmento",
+      "de": "B",
+      "ate": "F",
+      "rotulo": "1,5 m"
+     }
+    ]
+   }
+  },
+  {
+   "enunciado": "Uma lata de conserva tem formato cilíndrico, com 8 cm de diâmetro e 10 cm de altura. O rótulo cobre toda a superfície lateral da lata, sem sobreposição. Adotando π = 3, a área do rótulo, em cm², é",
+   "alternativas": [
+    "120",
+    "240",
+    "480",
+    "960",
+    "1 920"
+   ],
+   "gabarito": "B",
+   "resolucao": "Área lateral = 2·π·r·h, com r = 8 ÷ 2 = 4 cm: 2 · 3 · 4 · 10 = 240 cm². Se usar o diâmetro como se fosse o raio, dá 480; se esquecer o 2, dá 120.",
+   "figura": {
+    "lib": "jsxgraph",
+    "bbox": [
+     -3,
+     12,
+     12,
+     -2
+    ],
+    "elementos": [
+     {
+      "t": "ponto",
+      "id": "A",
+      "xy": [
+       0,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "B",
+      "xy": [
+       8,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "C",
+      "xy": [
+       8,
+       10
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "D",
+      "xy": [
+       0,
+       10
+      ]
+     },
+     {
+      "t": "poligono",
+      "pts": [
+       "A",
+       "B",
+       "C",
+       "D"
+      ]
+     },
+     {
+      "t": "segmento",
+      "de": "A",
+      "ate": "B",
+      "rotulo": "8 cm"
+     },
+     {
+      "t": "segmento",
+      "de": "B",
+      "ate": "C",
+      "rotulo": "10 cm"
+     },
+     {
+      "t": "texto",
+      "xy": [
+       4,
+       5
+      ],
+      "txt": "vista lateral"
+     }
+    ]
+   }
+  },
+  {
+   "enunciado": "Uma embalagem tem formato de pirâmide regular de base quadrada com 8 cm de lado e altura de 3 cm, conforme o corte da figura. Toda a superfície da embalagem, inclusive a base, será revestida com papel. A área de papel necessária, em cm², é",
+   "alternativas": [
+    "80",
+    "112",
+    "144",
+    "224",
+    "256"
+   ],
+   "gabarito": "C",
+   "resolucao": "A altura de cada face triangular (apótema) é a hipotenusa de um triângulo retângulo de catetos 3 (altura da pirâmide) e 4 (metade do lado da base): √(3² + 4²) = 5 cm. Cada face: 8 · 5 ÷ 2 = 20 cm²; as quatro faces: 80 cm². Base: 8² = 64 cm². Total: 80 + 64 = 144 cm². Erros: esquecer a base (80), usar 3 como altura da face (4 · 12 + 64 = 112) ou esquecer o ÷ 2 (160 + 64 = 224).",
+   "figura": {
+    "lib": "jsxgraph",
+    "bbox": [
+     -6,
+     4.5,
+     6,
+     -1.5
+    ],
+    "elementos": [
+     {
+      "t": "ponto",
+      "id": "A",
+      "xy": [
+       -4,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "B",
+      "xy": [
+       4,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "C",
+      "xy": [
+       0,
+       3
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "M",
+      "xy": [
+       0,
+       0
+      ]
+     },
+     {
+      "t": "poligono",
+      "pts": [
+       "A",
+       "B",
+       "C"
+      ]
+     },
+     {
+      "t": "segmento",
+      "de": "A",
+      "ate": "B",
+      "rotulo": "8 cm"
+     },
+     {
+      "t": "segmento",
+      "de": "M",
+      "ate": "C",
+      "rotulo": "3 cm"
+     }
+    ]
+   }
+  },
+  {
+   "enunciado": "Uma empresa constrói uma maquete de um reservatório na escala 1:50 (cada medida da maquete é 1/50 da medida real). Se a maquete tem capacidade de 2 litros, a capacidade do reservatório real, em m³, é de",
+   "alternativas": [
+    "250",
+    "5",
+    "100",
+    "0,1",
+    "2 500"
+   ],
+   "gabarito": "A",
+   "resolucao": "As medidas reais são 50 vezes maiores, então o volume real é 50³ = 125 000 vezes o da maquete. Maquete: 2 L = 2 000 cm³. Real: 2 000 × 125 000 = 250 000 000 cm³. Como 1 m³ = 10⁶ cm³, dá 250 m³. Erros: multiplicar só por 50 (0,1 m³) ou por 2 500 (5 m³).",
+   "figura": null
+  },
+  {
+   "enunciado": "Um bloco de madeira tem a forma de um bloco de base quadrada de 10 cm de lado e altura de 5 cm. Foi feito nele um furo cilíndrico de raio 2 cm que atravessa todo o bloco, de cima a baixo, conforme a vista superior da figura. Adotando π = 3, o volume de madeira que restou, em cm³, é",
+   "alternativas": [
+    "260",
+    "380",
+    "470",
+    "500",
+    "440"
+   ],
+   "gabarito": "E",
+   "resolucao": "Volume do bloco: 10 · 10 · 5 = 500 cm³. Volume do furo (cilindro de raio 2 e altura 5): 3 · 2² · 5 = 60 cm³. Restou 500 − 60 = 440 cm³. Erros: usar o diâmetro 4 no lugar do raio (500 − 240 = 260) ou esquecer o quadrado do raio (500 − 30 = 470).",
+   "figura": {
+    "lib": "jsxgraph",
+    "bbox": [
+     -2,
+     12,
+     12,
+     -2
+    ],
+    "elementos": [
+     {
+      "t": "ponto",
+      "id": "A",
+      "xy": [
+       0,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "B",
+      "xy": [
+       10,
+       0
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "C",
+      "xy": [
+       10,
+       10
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "D",
+      "xy": [
+       0,
+       10
+      ]
+     },
+     {
+      "t": "poligono",
+      "pts": [
+       "A",
+       "B",
+       "C",
+       "D"
+      ]
+     },
+     {
+      "t": "segmento",
+      "de": "A",
+      "ate": "B",
+      "rotulo": "10 cm"
+     },
+     {
+      "t": "ponto",
+      "id": "P",
+      "xy": [
+       5,
+       5
+      ]
+     },
+     {
+      "t": "ponto",
+      "id": "Q",
+      "xy": [
+       7,
+       5
+      ]
+     },
+     {
+      "t": "circulo",
+      "centro": "P",
+      "raio": 2
+     },
+     {
+      "t": "segmento",
+      "de": "P",
+      "ate": "Q",
+      "rotulo": "2 cm"
+     },
+     {
+      "t": "texto",
+      "xy": [
+       5,
+       9
+      ],
+      "txt": "altura do bloco: 5 cm"
+     }
+    ]
+   }
+  }
+ ]
+}

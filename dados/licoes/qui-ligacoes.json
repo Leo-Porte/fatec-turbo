@@ -1,0 +1,133 @@
+{
+ "id": "qui-ligacoes",
+ "disciplina": "Química",
+ "tema": "Ligações químicas",
+ "titulo": "Ligações químicas e geometria molecular",
+ "semana": 3,
+ "requisitos": [
+  "qui-atomistica"
+ ],
+ "minutos": 30,
+ "por_que": "Ligações químicas caíram em 6 questões nas 15 provas: decidir se a ligação é iônica ou covalente, escrever a fórmula do composto e reconhecer a interação entre moléculas (íon-dipolo, polaridade e absorção de água).",
+ "secoes": [
+  {
+   "titulo": "1. Iônica ou covalente: quem se combina com quem",
+   "texto": "Átomos ligam para ficar mais estáveis, e o jeito depende de quem está se juntando. Como vimos em Atomística, metais tendem a perder elétrons e ametais tendem a ganhar.\n\n- **Metal + ametal → ligação iônica.** O metal doa elétron, vira cátion; o ametal recebe, vira ânion; os dois se atraem. Exemplo: Ca (grupo 2) + Cl (grupo 17) → Ca²⁺ e Cl⁻.\n- **Ametal + ametal (ou semimetal, como B) → ligação covalente.** Compartilham pares de elétrons. Exemplos: H₂O, CO₂, ligações entre B, O e C num polímero.\n- **Metal + metal → ligação metálica.** Cátions mergulhados num \"mar\" de elétrons livres. Explica por que metais conduzem eletricidade.\n\nA pergunta clássica da Fatec é: dado o cartão com o isótopo, em que família ele está e o que acontece quando se junta com outro."
+  },
+  {
+   "titulo": "2. Fórmula do composto iônico: cruzar as cargas",
+   "texto": "O composto é neutro: a soma das cargas dos íons tem que dar zero. Atalho: o número da carga de um vira o índice do outro (e simplifique).\n\n- Ca²⁺ + Cl⁻ → Ca₁Cl₂ → **CaCl₂**\n- Na⁺ + O²⁻ → **Na₂O**\n- Al³⁺ + O²⁻ → **Al₂O₃**\n- Mg²⁺ + O²⁻ → cruza dá Mg₂O₂, simplifica para **MgO**\n\nCarga mais comum por família: grupo 1 → 1+, grupo 2 → 2+, grupo 13 → 3+, grupo 17 → 1−, grupo 16 → 2−. Quando o ânion é composto, como SO₄²⁻, e precisa de índice, ele vai entre parênteses: Al₂(SO₄)₃."
+  },
+  {
+   "titulo": "3. Polaridade e interações entre moléculas",
+   "texto": "Ligação **polar** é aquela em que um átomo puxa o elétron com mais força que o outro (diferença de eletronegatividade). A **molécula** é polar quando essas \"puxadas\" não se cancelam.\n\nForças entre moléculas (da mais fraca para a mais forte):\n\n- **Dipolo instantâneo-dipolo induzido** (forças de London): em moléculas apolares, como CH₄, O₂, CO₂.\n- **Dipolo-dipolo**: entre moléculas polares, como HCl.\n- **Ligação de hidrogênio**: H ligado a F, O ou N, atraído por F, O ou N de outra molécula. Presente na água, em álcoois e em ácidos carboxílicos. É a mais forte das três.\n- **Íon-dipolo**: entre um íon e uma molécula polar. É o que acontece quando o Na⁺ interage com o oxigênio parcialmente negativo (δ⁻) do grupo C=O do PVAc, ou quando o NaCl se dissolve na água.\n\nRegra prática: **semelhante dissolve semelhante.** Polar dissolve polar; apolar dissolve apolar. Quanto mais forte a interação entre moléculas, maior o ponto de ebulição."
+  },
+  {
+   "titulo": "4. Polaridade e tecidos: o caso do algodão e do poliéster",
+   "texto": "Esse tipo de questão já caiu: a fórmula estrutural mostra o que decide.\n\n- **Algodão (celulose)**: cheio de grupos OH, que fazem ligação de hidrogênio com a água. Molécula **muito polar**, **absorve e retém água**.\n- **Poliéster (dry fit)**: cadeia com anel aromático e grupos éster, muito menos polar. **Pouca absorção de água**, por isso a água (suor) \"escorre\" e seca rápido.\n\nEnxergou vários OH → polar → gosta de água."
+  },
+  {
+   "titulo": "5. Geometria molecular (o que costuma aparecer)",
+   "texto": "O arranjo depende de quantos pares de elétrons existem em volta do átomo central:\n\n- **Linear** (180°): CO₂, BeCl₂. Apolar se os dois lados são iguais.\n- **Angular**: H₂O (≈ 104,5°). Polar.\n- **Trigonal plana** (120°): BF₃. Apolar.\n- **Piramidal**: NH₃. Polar.\n- **Tetraédrica** (109,5°): CH₄. Apolar.\n\nO CO₂ tem ligações polares, mas é linear e simétrico, então os dipolos se cancelam e a molécula é apolar. A água é angular, os dipolos não se cancelam e ela é polar."
+  }
+ ],
+ "decorar": [
+  "Metal + ametal = iônica; ametal + ametal = covalente; metal + metal = metálica",
+  "Fórmula iônica: cruze as cargas e simplifique (Ca²⁺ + Cl⁻ → CaCl₂)",
+  "Ligação de hidrogênio: H ligado a F, O ou N",
+  "Íon-dipolo: íon + molécula polar (Na⁺ com água ou com C=O)",
+  "Semelhante dissolve semelhante",
+  "CO₂ linear apolar; H₂O angular polar; NH₃ piramidal polar; CH₄ tetraédrica apolar; BF₃ trigonal plana apolar"
+ ],
+ "pegadinhas": [
+  "Ligação polar não é molécula polar: CO₂ tem ligações polares e molécula apolar.",
+  "Ligação de hidrogênio é interação **entre** moléculas, não ligação interna da molécula.",
+  "Cuidado com a ordem na fórmula iônica: cátion primeiro (CaCl₂, não Cl₂Ca).",
+  "Metal de transição ou semimetal podem confundir; leia o grupo na tabela do enunciado.",
+  "Misturar \"íon-íon\" (sólido iônico) com \"íon-dipolo\" (íon com molécula polar)."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2017-1",
+   "n": 22,
+   "resolucao": "Os cartões de Júlia e Pedro mostram os isótopos ⁴⁰₂₀Ca (Z = 20) e ³⁵₁₇Cl (Z = 17).\n\n- Ca (Z = 20): família 2, perde 2 elétrons → **Ca²⁺**. É metal.\n- Cl (Z = 17): família 17, ganha 1 elétron → **Cl⁻**. É ametal.\n\nMetal + ametal → ligação **iônica**. Fórmula: cruzando as cargas, Ca²⁺ e Cl⁻ pedem 1 Ca para 2 Cl: **CaCl₂**.\n\nAlternativa (B). Gabarito oficial: **B**."
+  },
+  {
+   "prova": "2020-1",
+   "n": 22,
+   "resolucao": "O texto mostra o Na⁺ (um **íon**) próximo ao oxigênio do grupo C=O do PVAc. Esse oxigênio tem carga parcial negativa (δ⁻), é uma região polar da molécula (um **dipolo**).\n\nÍon atraindo extremo polar de uma molécula = **íon-dipolo**.\n\nDescartando as outras: dipolo-dipolo seria entre duas moléculas polares (não é, um lado é íon); dipolo instantâneo-dipolo induzido é de moléculas apolares; ligação de hidrogênio exige H ligado a F, O ou N; íon-íon seria entre dois íons.\n\nGabarito oficial: **D**."
+  },
+  {
+   "prova": "2026-2",
+   "n": 26,
+   "resolucao": "Observe as estruturas: o **algodão (celulose)** tem vários grupos OH, que fazem ligação de hidrogênio com a água. Logo: polaridade (I) **alta** e absorção de água (III) **alta**, o que combina com \"retém suor\".\n\nO **dry fit (poliéster)** tem anel aromático e grupos éster, bem menos polar: polaridade (II) **baixa** e absorção de água (IV) **baixa**, o que combina com \"espalha\" o suor.\n\nSequência (I) alta, (II) baixa, (III) alta, (IV) baixa. Alternativa (B). Gabarito oficial: **B**."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "O fluoreto de magnésio é usado em revestimentos ópticos. Magnésio é do grupo 2 e flúor é do grupo 17. A fórmula do composto formado entre eles é",
+   "alternativas": [
+    "MgF",
+    "Mg₂F",
+    "Mg₂F₃",
+    "MgF₂",
+    "Mg₃F₂"
+   ],
+   "gabarito": "D",
+   "resolucao": "Mg forma Mg²⁺ e F forma F⁻. Cruzando: Mg₁F₂ = MgF₂. A soma das cargas é 2+ + 2(1−) = 0.",
+   "figura": null
+  },
+  {
+   "enunciado": "Entre as substâncias abaixo, aquela formada por moléculas polares é",
+   "alternativas": [
+    "H₂O",
+    "CO₂",
+    "CH₄",
+    "BF₃",
+    "N₂"
+   ],
+   "gabarito": "A",
+   "resolucao": "A água é angular e as ligações O–H não se cancelam, então é polar. CO₂ (linear), CH₄ (tetraédrica) e BF₃ (trigonal plana) são simétricas e apolares; N₂ é formada por dois átomos iguais.",
+   "figura": null
+  },
+  {
+   "enunciado": "Qual das substâncias abaixo apresenta ligações de hidrogênio entre suas moléculas?",
+   "alternativas": [
+    "CH₄",
+    "CO₂",
+    "NH₃",
+    "H₂S",
+    "C₂H₆"
+   ],
+   "gabarito": "C",
+   "resolucao": "A ligação de hidrogênio exige H ligado a F, O ou N. Só o NH₃ tem H ligado a N. CH₄ e C₂H₆ são apolares; CO₂ não tem H; H₂S tem H ligado a S, que não conta.",
+   "figura": null
+  },
+  {
+   "enunciado": "A amônia, NH₃, é usada em produtos de limpeza. A geometria da molécula de NH₃ é",
+   "alternativas": [
+    "linear.",
+    "angular.",
+    "trigonal plana.",
+    "tetraédrica.",
+    "piramidal."
+   ],
+   "gabarito": "E",
+   "resolucao": "O N tem 3 ligações e 1 par de elétrons livre; isso empurra os hidrogênios para formar uma pirâmide de base triangular. É polar.",
+   "figura": null
+  },
+  {
+   "enunciado": "Ao colocar sal de cozinha (NaCl) em água, ele se dissolve. A principal interação responsável por manter os íons Na⁺ e Cl⁻ cercados pela água é do tipo",
+   "alternativas": [
+    "dipolo instantâneo-dipolo induzido.",
+    "íon-dipolo.",
+    "ligação metálica.",
+    "ligação covalente entre Na e O.",
+    "ligação de hidrogênio entre Na⁺ e H."
+   ],
+   "gabarito": "B",
+   "resolucao": "A água é polar e tem extremos parcialmente positivo e negativo. Cada íon é rodeado pelo extremo oposto das moléculas de água: interação íon-dipolo.",
+   "figura": null
+  }
+ ]
+}

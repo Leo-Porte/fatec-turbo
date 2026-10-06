@@ -1,0 +1,131 @@
+{
+ "id": "qui-organica",
+ "disciplina": "Química",
+ "tema": "Química orgânica",
+ "titulo": "Química orgânica: funções e isomeria",
+ "semana": 4,
+ "requisitos": [
+  "qui-ligacoes"
+ ],
+ "minutos": 30,
+ "por_que": "Química orgânica caiu em 12 questões nas 15 provas. A maioria é reconhecer a função orgânica pelo grupo característico em uma fórmula estrutural (álcool, fenol, ácido carboxílico, éster) e algumas reações (hidrólise de éster, eliminação).",
+ "secoes": [
+  {
+   "titulo": "1. O que é orgânico e como ler a fórmula estrutural",
+   "texto": "Composto orgânico é aquele que tem **carbono** em cadeia, ligado principalmente a H, O e N. O carbono faz sempre **4 ligações**; os hidrogênios que \"faltam\" para completar 4 ficam implícitos nos desenhos em linha (cada vértice e ponta é um C).\n\nPrefixo pelo número de carbonos na cadeia principal: 1 **met**, 2 **et**, 3 **prop**, 4 **but**, 5 **pent**, 6 **hex**, 7 **hept**, 8 **oct**.\n\nLigações: só simples = **an**o; uma dupla = **en**o; uma tripla = **in**o. Exemplo: but-1-eno é CH₃CH₂CH=CH₂ (C₄H₈).\n\nPara fórmula molecular: conte C e depois H. Num hidrocarboneto de cadeia aberta com só ligações simples, H = 2C + 2 (alcano); cada dupla tira 2 H."
+  },
+  {
+   "titulo": "2. Funções orgânicas: procure o grupo",
+   "texto": "A função é definida por um **grupo característico**. Treine a bater o olho:\n\n- **Álcool**: –OH ligado a carbono **saturado** (só ligações simples). Ex.: etanol, etano-1,2-diol.\n- **Fenol**: –OH ligado diretamente a um **anel aromático** (benzeno). É o grupo comum da adrenalina e da dopamina.\n- **Aldeído**: –CHO (carbonila na ponta da cadeia).\n- **Cetona**: C=O entre dois carbonos (no meio da cadeia).\n- **Ácido carboxílico**: –COOH. Ex.: ácido acético (vinagre).\n- **Éster**: –COO– entre dois carbonos (C(=O)–O–C). Ex.: acetato de etila, PVAc.\n- **Éter**: –O– entre dois carbonos, sem C=O.\n- **Amina**: N ligado a carbono (–NH₂). **Amida**: C(=O)–N.\n\nDiferença que a Fatec explora: álcool × fenol (o OH está num carbono saturado ou no anel?) e ácido × éster (o –COOH tem H na ponta, o éster tem um carbono no lugar do H)."
+  },
+  {
+   "titulo": "3. Reações que caem",
+   "texto": "**Hidrólise de éster**: éster + água → álcool + ácido carboxílico. É o caso do PVAc + água → álcool polivinílico (PVA) + ácido acético. O composto X dessa equação é o ácido acético, função ácido carboxílico.\n\n**Esterificação**: o caminho inverso, ácido + álcool → éster + água.\n\n**Eliminação (desidrohalogenação)**: composto com halogênio + base forte → alceno + sal + água. O halogênio sai do carbono 1, o H sai do carbono vizinho e surge a ligação dupla entre eles. Exemplo: 1-clorobutano + KOH → **but-1-eno** (CH₃CH₂CH=CH₂) + KCl + H₂O.\n\n**Combustão completa**: composto orgânico + O₂ → CO₂ + H₂O. (Balanceamento em Estequiometria.) Exemplo: etanol: C₂H₆O + 3 O₂ → 2 CO₂ + 3 H₂O.\n\n**COVs (compostos orgânicos voláteis)**: evaporam à temperatura ambiente porque têm **alta pressão de vapor e baixo ponto de ebulição**. Benzeno, tolueno e formol são exemplos de COVs (o \"cheiro de carro novo\")."
+  },
+  {
+   "titulo": "4. Isomeria: mesma fórmula, estrutura diferente",
+   "texto": "**Isômeros** são compostos com a mesma fórmula molecular e estruturas diferentes. O que muda decide o nome:\n\n- **Isomeria de função**: grupos diferentes. Etanol (CH₃CH₂OH, álcool) e metoxi-metano (CH₃OCH₃, éter) são C₂H₆O.\n- **Isomeria de posição**: o grupo ou a dupla muda de lugar. But-1-eno e but-2-eno.\n- **Isomeria de cadeia**: esqueleto diferente (butano e metilpropano).\n- **Isomeria geométrica (cis-trans)**: dupla ligação com grupos diferentes em cada carbono, posições diferentes no espaço.\n\nPara o teste rápido: calcule a fórmula molecular das duas; se for igual, são isômeros."
+  }
+ ],
+ "decorar": [
+  "Álcool: OH em C saturado; fenol: OH em anel aromático",
+  "Ácido carboxílico: –COOH; éster: –COO– entre carbonos; éter: –O–",
+  "Aldeído: –CHO na ponta; cetona: C=O no meio",
+  "Hidrólise de éster: éster + H₂O → ácido + álcool",
+  "Eliminação: halogênio + base → alceno (dupla entre o C do halogênio e o vizinho)",
+  "Prefixos: met, et, prop, but, pent, hex, hept, oct",
+  "Isômeros: mesma fórmula molecular, estrutura diferente",
+  "COVs: baixo ponto de ebulição, alta pressão de vapor"
+ ],
+ "pegadinhas": [
+  "OH ligado ao anel é fenol, não álcool.",
+  "Ácido carboxílico (COOH) e éster (COO entre carbonos) parecem iguais: veja se o H na ponta existe.",
+  "Hidrólise é quebra pela água, esterificação é a formação do éster. Não troque.",
+  "Na eliminação, a dupla surge no carbono do halogênio, não longe dele.",
+  "Mesma massa molar não significa isômero; tem que ser a mesma fórmula molecular."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2020-1",
+   "n": 23,
+   "resolucao": "Na equação 2, o PVAc (cadeia com grupos éster, –O–C(=O)–CH₃) reage com água e vira PVA (grupos –OH) mais o composto X.\n\nÉster + água → álcool + ácido: a reação de quebra pela água é **hidrólise**.\n\nO composto X é H₃C–C(=O)–OH, que tem o grupo –COOH: **ácido carboxílico** (é o ácido acético).\n\nHidrólise e ácido carboxílico. Gabarito oficial: **C**."
+  },
+  {
+   "prova": "2017-1",
+   "n": 24,
+   "resolucao": "Androstenol: tem um –OH ligado a um anel saturado (só ligações simples; a única dupla está no anel de cinco carbonos, longe do OH). OH em carbono saturado é **álcool**. Não é fenol porque esse anel não é aromático.\n\nCopulina: H₃C–CH₂–CH₂–C(=O)–OH. Tem o grupo –COOH: **ácido carboxílico**.\n\nÁlcool e ácido carboxílico. Gabarito oficial: **B**."
+  },
+  {
+   "prova": "2017-2",
+   "n": 24,
+   "resolucao": "Eliminação: o Cl do carbono 1 sai junto com um H do carbono vizinho (carbono 2), formando dupla entre C1 e C2.\n\n1-clorobutano: Cl–CH₂–CH₂–CH₂–CH₃ (Cl no C1). Depois da reação: CH₂=CH–CH₂–CH₃, o **but-1-eno**, 4 carbonos com a dupla na ponta.\n\nA estrutura da alternativa (C) é essa. As alternativas A e B têm 3 carbonos (A) ou dupla no meio (B); D e E têm 5 carbonos.\n\nGabarito oficial: **C**."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "O propan-1-ol (CH₃CH₂CH₂OH) é usado como solvente. A função orgânica a que pertence esse composto é",
+   "alternativas": [
+    "aldeído.",
+    "cetona.",
+    "álcool.",
+    "éster.",
+    "éter."
+   ],
+   "gabarito": "C",
+   "resolucao": "O grupo –OH está ligado a um carbono saturado (só ligações simples): álcool.",
+   "figura": null
+  },
+  {
+   "enunciado": "O vinagre contém ácido acético, CH₃COOH. O grupo funcional que caracteriza esse composto é o da função",
+   "alternativas": [
+    "álcool.",
+    "aldeído.",
+    "cetona.",
+    "éster.",
+    "ácido carboxílico."
+   ],
+   "gabarito": "E",
+   "resolucao": "O grupo –COOH (carbonila + hidroxila no mesmo carbono) é o grupo dos ácidos carboxílicos.",
+   "figura": null
+  },
+  {
+   "enunciado": "Isômeros são compostos que têm a mesma fórmula molecular, mas estruturas diferentes. Assinale a alternativa que traz um par de isômeros.",
+   "alternativas": [
+    "Propan-1-ol (CH₃CH₂CH₂OH) e propan-2-ol (CH₃CHOHCH₃)",
+    "Metano e etano",
+    "Etanol e etanal",
+    "Propano e propeno",
+    "Ácido acético e etanol"
+   ],
+   "gabarito": "A",
+   "resolucao": "Propan-1-ol e propan-2-ol são ambos C₃H₈O, com o OH em posições diferentes (isomeria de posição). Nas demais as fórmulas diferem: metano CH₄ e etano C₂H₆; etanol C₂H₆O e etanal C₂H₄O; propano C₃H₈ e propeno C₃H₆; ácido acético C₂H₄O₂ e etanol C₂H₆O.",
+   "figura": null
+  },
+  {
+   "enunciado": "O acetato de etila (CH₃COOCH₂CH₃) é um éster com cheiro frutal. A hidrólise dessa substância, ou seja, a reação com água, produz",
+   "alternativas": [
+    "etano e CO₂.",
+    "etanol e éter.",
+    "metanol e ácido propanoico.",
+    "ácido acético e etanol.",
+    "acetona e água."
+   ],
+   "gabarito": "D",
+   "resolucao": "Éster + água → ácido carboxílico + álcool. O pedaço que vem do C=O (CH₃COO–) vira ácido acético; o pedaço –OCH₂CH₃ vira etanol.",
+   "figura": null
+  },
+  {
+   "enunciado": "O etanol (C₂H₆O) é queimado completamente segundo a equação C₂H₆O + x O₂ → 2 CO₂ + 3 H₂O. O valor de x que balanceia a equação é",
+   "alternativas": [
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+   ],
+   "gabarito": "B",
+   "resolucao": "O: 1 + 2x = 4 + 3 = 7 → 2x = 6 → x = 3. Confira: C = 2 = 2 e H = 6 = 3 × 2.",
+   "figura": null
+  }
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "id": "fis-termologia",
+ "disciplina": "Física",
+ "tema": "Termologia",
+ "titulo": "Termologia",
+ "semana": 3,
+ "requisitos": [
+  "mat-unidades"
+ ],
+ "minutos": 30,
+ "por_que": "Termologia caiu em 9 questões nas 15 provas: escalas de temperatura (Kelvin), calorimetria com `Q = m·c·Δθ` (4 vezes), gás ideal, dilatação e evaporação. Quase tudo é conta curta com uma fórmula dada no enunciado.",
+ "secoes": [
+  {
+   "titulo": "1. Escalas de temperatura e o Kelvin",
+   "texto": "A escala Kelvin (K) começa no **zero absoluto**, a menor temperatura possível. A conversão é só somar:\n\n- `T(K) = T(°C) + 273`\n- Zero absoluto: 0 K = −273 °C.\n\nExemplo (2022/2): o hidrogênio líquido do navio estava a −253 °C. Em kelvin: −253 + 273 = **20 K**, ou seja, 20 K **acima** do zero absoluto. Quem esquece de somar 273 acha −253 K, que nem existe.\n\nDetalhe que cai: **uma variação** de temperatura vale igual nas duas escalas. Subir 1 000 °C é subir 1 000 K (2020/1). Só o ponto de partida muda.\n\nFahrenheit (cai pouco): `(°F − 32) ÷ 9 = °C ÷ 5`."
+  },
+  {
+   "titulo": "2. Gases: a pressão muda quando a temperatura muda",
+   "texto": "Para uma quantidade fixa de gás ideal, a relação abaixo vale sempre:\n\n`P₀·V₀ ÷ T₀ = P₁·V₁ ÷ T₁`\n\nO enunciado costuma entregar a fórmula. O truque é **a temperatura sempre em kelvin**. Se uma grandeza fica constante, ela some da equação:\n\n- **Volume constante** (isovolumétrica ou isocórica, recipiente rígido): `P₀ ÷ T₀ = P₁ ÷ T₁`. Aqueceu, a pressão sobe.\n- **Pressão constante** (isobárica): `V₀ ÷ T₀ = V₁ ÷ T₁`.\n- **Temperatura constante** (isotérmica): `P₀·V₀ = P₁·V₁`.\n\nNo gráfico P × V, o **trabalho** do gás é a **área sob a curva** (2018/1). Na transformação isocórica (reta vertical) o volume não muda e o trabalho é **zero**."
+  },
+  {
+   "titulo": "3. Calorimetria: quanto calor para mudar a temperatura",
+   "texto": "`Q = m · c · Δθ`\n\n- **m**: massa; **c**: calor específico (quanto calor 1 kg precisa para subir 1 °C); **Δθ**: variação de temperatura.\n- Água: c = 1 cal/g·°C = 4 200 J/kg·°C (aprox.). O enunciado costuma dar o valor.\n- Se vem em joules, o resultado vem em joules; cuidado ao misturar cal e J.\n\nEncontre a incógnita isolando-a. Na 2025/2 (telhado verde): `Q = 75 MJ = 75 × 10⁶ J`, m = 5 000 kg, c = 1 000 J/kg·°C. `Δθ = Q ÷ (m·c) = 75 × 10⁶ ÷ (5 000 × 1 000) = 15 °C`. Com o telhado verde reduzindo 5 °C, a variação seria de **10 °C**.\n\nQuando o calor vem de um aparelho elétrico (2019/2), junte as duas fórmulas: `Q = P·t = U·i·t` e `Q = m·c·Δθ`. Se um forno de 220 V e 10 A fica ligado 60 s e esquenta 1 kg em 220 °C, `c = (220 × 10 × 60) ÷ (1 × 220) = 600 J/kg·°C`."
+  },
+  {
+   "titulo": "4. Mudança de estado e evaporação",
+   "texto": "Enquanto uma substância muda de estado (gelo derretendo, água fervendo), ela **recebe calor e a temperatura não muda**. O calor necessário é `Q = m·L` (L = calor latente).\n\n**Evaporação retira calor** do que está evaporando. É por isso que o suor resfria o corpo. Em dia de **ar muito úmido** (muito vapor de água já no ar) a evaporação fica **dificultada**, o suor não sai e você sente mais calor (2026/2).\n\nPropagação do calor, para reconhecer: **condução** (pelo material, como o cabo da panela), **convecção** (correntes de fluido quente subindo e frio descendo) e **irradiação** (ondas, como o calor do Sol, que viaja até no vácuo)."
+  },
+  {
+   "titulo": "5. Dilatação: tudo cresce quando esquenta",
+   "texto": "Dilatação linear de uma barra: `ΔL = L₀ · α · Δθ` (α é o coeficiente do material, L₀ o comprimento inicial).\n\nQuanto maior o α, mais o material dilata para o mesmo aquecimento.\n\n**Lâmina bimetálica** (2017/2): duas lâminas coladas de metais diferentes. Ao esquentar, a de **maior α** dilata mais e fica do lado **de fora** (externo) da curva. É a ideia dos termostatos e dos disjuntores térmicos."
+  }
+ ],
+ "decorar": [
+  "`T(K) = T(°C) + 273`; ΔT em K = Δ em °C",
+  "Zero absoluto: 0 K = −273 °C",
+  "Gás: `P₀V₀/T₀ = P₁V₁/T₁`, T sempre em K",
+  "Volume constante: `P/T` constante; pressão constante: `V/T` constante",
+  "`Q = m·c·Δθ`; água: c = 1 cal/g·°C ≈ 4 200 J/kg·°C",
+  "Mudança de estado: `Q = m·L`, temperatura constante",
+  "Evaporação retira calor; ar úmido dificulta",
+  "`ΔL = L₀·α·Δθ`; maior α dilata mais"
+ ],
+ "pegadinhas": [
+  "Usar °C na equação dos gases. Tem que ser kelvin.",
+  "Esquecer de somar 273 (ou somar 273 duas vezes numa variação, que vale igual nas duas escalas).",
+  "Misturar cal e J, g e kg na `Q = m·c·Δθ`. Confira as unidades do c.",
+  "Usar a temperatura final no lugar da **variação** Δθ.",
+  "Achar que \"quanto mais úmido, mais o suor evapora\". É o contrário.",
+  "Na lâmina bimetálica, errar o lado: o metal que dilata mais fica do lado de fora da curva."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-2",
+   "n": 38,
+   "resolucao": "Bola calibrada a 0,90 atm a 27 °C; depois a temperatura sobe a 57 °C com o volume constante. Como V é constante, ele sai da equação: `P₀ ÷ T₀ = P₁ ÷ T₁`.\n\nConverta para kelvin: T₀ = 27 + 273 = 300 K; T₁ = 57 + 273 = 330 K.\n\n`P₁ = P₀ × T₁ ÷ T₀ = 0,90 × 330 ÷ 300 = 0,99 atm ≈ 1,0 atm`.\n\nO intervalo permitido é de 0,60 a 1,10 atm, então a bola **foi mantida**, com pressão ≈ 1,00 atm.\n\nGabarito oficial: C. ✔ Bateu."
+  },
+  {
+   "prova": "2025-2",
+   "n": 60,
+   "resolucao": "Sem telhado verde: `Q = m·c·Δθ`, com Q = 75 MJ = 75 × 10⁶ J, m = 5 000 kg e c = 1 000 J/kg·°C.\n\n`Δθ = 75 × 10⁶ ÷ (5 000 × 1 000) = 75 × 10⁶ ÷ 5 × 10⁶ = 15 °C`.\n\nCom o telhado verde, a temperatura seria reduzida em 5 °C: 15 − 5 = **10 °C**.\n\nA pegadinha é responder 15 (a variação sem telhado verde). A pergunta é a variação **com** o telhado verde.\n\nGabarito oficial: D. ✔ Bateu."
+  },
+  {
+   "prova": "2022-2",
+   "n": 33,
+   "resolucao": "O texto diz que o hidrogênio líquido está a −253 °C. Conversão: `T(K) = −253 + 273 = 20 K`.\n\nComo o zero absoluto é 0 K, 20 K é uma temperatura **20 K acima do zero absoluto**.\n\nGabarito oficial: B. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "A temperatura normal do corpo humano é de aproximadamente 37 °C. Essa temperatura, na escala Kelvin, vale aproximadamente",
+   "alternativas": [
+    "236 K",
+    "273 K",
+    "300 K",
+    "310 K",
+    "37 K"
+   ],
+   "gabarito": "D",
+   "resolucao": "`T(K) = 37 + 273 = 310 K`. 236 K vem de subtrair 273 (37 − 273 = −236) em vez de somar.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um recipiente rígido contém ar a 27 °C e pressão de 2,0 atm. O recipiente é aquecido até 87 °C. Considerando o ar um gás ideal, a pressão final é de aproximadamente",
+   "alternativas": [
+    "2,4 atm",
+    "6,4 atm",
+    "2,0 atm",
+    "3,0 atm",
+    "1,7 atm"
+   ],
+   "gabarito": "A",
+   "resolucao": "Volume constante, então `P₁ = P₀ × T₁ ÷ T₀`. T₀ = 300 K e T₁ = 360 K. `P₁ = 2,0 × 360 ÷ 300 = 2,4 atm`. 6,4 atm vem de usar °C (2 × 87 ÷ 27); 1,7 atm de inverter a razão.",
+   "figura": null
+  },
+  {
+   "enunciado": "Para aquecer 2 kg de água de 20 °C até 70 °C, utiliza-se um aquecedor. O calor específico da água é 4 200 J/kg·°C. A quantidade de calor absorvida pela água, em joules, é de",
+   "alternativas": [
+    "8,4 × 10³",
+    "4,2 × 10⁴",
+    "4,2 × 10⁵",
+    "4,2 × 10⁶",
+    "2,1 × 10⁵"
+   ],
+   "gabarito": "C",
+   "resolucao": "Δθ = 70 − 20 = 50 °C. `Q = m·c·Δθ = 2 × 4 200 × 50 = 420 000 J = 4,2 × 10⁵ J`. A alternativa 2,1 × 10⁵ aparece quando se esquece a massa.",
+   "figura": null
+  },
+  {
+   "enunciado": "Em dias de calor intenso e ar muito úmido, as pessoas se sentem mais incomodadas do que em dias de ar seco com a mesma temperatura. Isso ocorre porque, com muita umidade,",
+   "alternativas": [
+    "a pessoa deixa de produzir suor.",
+    "o suor evapora mais rápido e retira calor demais do corpo.",
+    "a temperatura do ar aumenta com a umidade.",
+    "a pele deixa de trocar calor com o ambiente por irradiação.",
+    "a evaporação do suor, que retira calor do corpo, fica dificultada."
+   ],
+   "gabarito": "E",
+   "resolucao": "Evaporar retira calor. No ar já cheio de vapor de água, o suor evapora com dificuldade e o corpo perde menos calor, o que aumenta a sensação de calor.",
+   "figura": null
+  },
+  {
+   "enunciado": "Uma barra de aço de 2,0 m de comprimento a 20 °C é aquecida até 120 °C. O coeficiente de dilatação linear do aço é 1,2 × 10⁻⁵ °C⁻¹. O aumento de comprimento da barra é de",
+   "alternativas": [
+    "0,24 mm",
+    "2,4 mm",
+    "24 mm",
+    "1,2 mm",
+    "4,8 mm"
+   ],
+   "gabarito": "B",
+   "resolucao": "`ΔL = L₀·α·Δθ = 2,0 × 1,2 × 10⁻⁵ × 100 = 2,4 × 10⁻³ m = 2,4 mm`.",
+   "figura": null
+  }
+ ]
+}

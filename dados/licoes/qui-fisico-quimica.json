@@ -1,0 +1,164 @@
+{
+ "id": "qui-fisico-quimica",
+ "disciplina": "Química",
+ "tema": "Termoquímica",
+ "titulo": "Termoquímica, cinética, equilíbrio, pH e eletroquímica",
+ "semana": 4,
+ "requisitos": [
+  "qui-estequiometria"
+ ],
+ "minutos": 40,
+ "por_que": "Esta lição junta cinco temas que somam 21 questões nas 15 provas: Termoquímica (6), Equilíbrio químico e pH (5), Química ambiental (4), Cinética (3) e Eletroquímica (3). Cada um aparece com uma ideia só; aprenda a ideia, não a teoria inteira.",
+ "secoes": [
+  {
+   "titulo": "1. Termoquímica: a energia da reação",
+   "texto": "Toda reação troca energia com o ambiente. A entalpia (**H**) mede a energia guardada nas substâncias, e a variação **ΔH = H dos produtos − H dos reagentes** diz o que aconteceu.\n\n- **Exotérmica**: libera calor. Produtos com menos energia que os reagentes, **ΔH < 0**. A combustão é exotérmica; o gráfico desce.\n- **Endotérmica**: absorve calor. Produtos com mais energia, **ΔH > 0**. O gráfico sobe.\n\n**Cálculo a partir das entalpias de formação:**\n\n`ΔH = Σ (ΔHf dos produtos × coeficientes) − Σ (ΔHf dos reagentes × coeficientes)`\n\nExemplo de combustão do benzeno: C₆H₆(ℓ) + 15/2 O₂ → 6 CO₂ + 3 H₂O(ℓ), com ΔHf = +50 (C₆H₆), −394 (CO₂), −286 (H₂O) kJ/mol. O₂ é substância simples e vale 0.\n\nΔH = [6 × (−394) + 3 × (−286)] − [+50] = (−2364 − 858) − 50 = **−3272 kJ/mol**.\n\n**Lei de Hess**: o ΔH total é a soma dos ΔH das etapas. Se você **inverter** a reação, o ΔH troca de sinal; se **multiplicar** os coeficientes, multiplica o ΔH.\n\nTambém cai conta de energia: energia = massa × (energia por kg) × rendimento."
+  },
+  {
+   "titulo": "2. Equilíbrio químico: Kc e Le Chatelier",
+   "texto": "Numa reação reversível (⇌), reagentes viram produtos e produtos voltam a reagentes. No **equilíbrio** as duas velocidades são iguais e as concentrações param de mudar (a reação não parou, só está balanceada).\n\n**Constante de equilíbrio (Kc)**: produtos em cima, reagentes embaixo, cada concentração elevada ao coeficiente. Só entram gases e substâncias aquosas (sólido e líquido puro ficam de fora).\n\nCH₄ + H₂O ⇌ 3 H₂ + CO → `Kc = [CO][H₂]³ ÷ ([CH₄][H₂O])`\n\n**Princípio de Le Chatelier**: se você perturbar um equilíbrio, ele se desloca para reduzir a perturbação.\n\n- Adicionar reagente → desloca para os produtos.\n- Retirar produto → desloca para os produtos.\n- **Aumentar a pressão** → desloca para o lado com **menos mols de gás**.\n- Aumentar a temperatura → favorece o sentido endotérmico.\n- Catalisador não desloca o equilíbrio, só acelera os dois sentidos.\n\nExemplo da amônia: N₂ + 3 H₂ ⇌ 2 NH₃. São 4 mols de gás à esquerda e 2 à direita. Aumentar a pressão favorece o lado direito: mais NH₃."
+  },
+  {
+   "titulo": "3. pH e equilíbrio da água",
+   "texto": "`pH = −log [H⁺]`  e  `[H⁺] = 10⁻ᵖᴴ`\n\nSe [H⁺] = 10⁻⁴·⁸ mol/L, o pH é 4,8. Menor pH = mais ácido (a 25 °C): ácido tem pH < 7, neutro 7, básico > 7. Cada unidade de pH é um fator 10 em [H⁺].\n\n**Água**: Kw = [H⁺][OH⁻] = 10⁻¹⁴ a 25 °C. Daí `pH + pOH = 14`. A água pura é sempre neutra porque [H⁺] = [OH⁻], mesmo que a temperatura mude o valor do pH (a pegadinha de 2019).\n\nBase fraca: a concentração de OH⁻ de uma base fraca (constante Kb, concentração C) é `[OH⁻] = √(Kb × C)`.\n\nEscala de referência: limão ≈ 3, tomate ≈ 4, leite ≈ 6, água pura 7, ovo 8, bicarbonato 9, amoníaco 11, sabão 12."
+  },
+  {
+   "titulo": "4. Cinética: velocidade da reação",
+   "texto": "Para reagir, as moléculas precisam **colidir com energia suficiente** (energia de ativação) e na orientação certa. A velocidade aumenta com:\n\n- **Temperatura**: mais colisões efetivas (por isso o saco preto aquece mais e acelera o processo).\n- **Concentração** (ou pressão, para gases).\n- **Superfície de contato**: sólido em pó reage mais rápido que em pedaço.\n- **Catalisador**: **diminui a energia de ativação** (cria um caminho mais fácil) **sem alterar o ΔH** e sem ser consumido. No gráfico de energia, a barreira fica menor, mas reagentes e produtos ficam nos mesmos níveis.\n\n**Meia-vida** (também em Atomística): tempo para a quantidade cair à metade. 200 mg → 12,5 mg são 4 meias-vidas (200 → 100 → 50 → 25 → 12,5). Se isso levou 12 anos, a meia-vida é 12 ÷ 4 = 3 anos."
+  },
+  {
+   "titulo": "5. Eletroquímica: elétrons que passam",
+   "texto": "**Oxidação**: perde elétrons (nox sobe). **Redução**: ganha elétrons (nox desce).\n\n- **Agente redutor**: quem se **oxida** (cede os elétrons).\n- **Agente oxidante**: quem se **reduz** (recebe os elétrons).\n\nExemplo: PH₃ vai de nox −3 para +5: ele se oxida, portanto é o agente redutor; o O₂ recebe elétrons e é o oxidante.\n\n**Pilha ou bateria** (reação espontânea que gera energia): **ânodo = polo negativo = oxidação**; **cátodo = polo positivo = redução**. Os **elétrons** vão do ânodo ao cátodo pelo fio externo; os **íons** circulam pelo eletrólito. Na bateria de íons lítio, os cátions Li⁺ fluem pelo eletrólito para o cátodo.\n\n**Eletrólise** (precisa de energia elétrica para forçar a reação): **ânodo = polo positivo = oxidação**; **cátodo = polo negativo = redução**. Na cromação, o cátion metálico se reduz e deposita no cátodo.\n\nMacete: **ânodo sempre oxida** e **cátodo sempre reduz**. O que muda entre pilha e eletrólise é o sinal do polo."
+  },
+  {
+   "titulo": "6. Química ambiental (o que a prova pergunta)",
+   "texto": "Costuma ser interpretação de texto com um conceito de química:\n\n- **Carbono neutro**: o CO₂ emitido na queima é o mesmo captado do ar na produção do combustível (balanço de carbono zero).\n- **Cores do hidrogênio**: **verde** = eletrólise da água com energia renovável; **turquesa** = pirólise do metano; **marrom** = gaseificação do carvão; **cinza** = reforma a vapor do gás natural.\n- **Combustão incompleta** produz CO (tóxico); completa, CO₂.\n- **Efeito estufa**: CO₂ e CH₄ retêm calor na atmosfera.\n\nSe a questão pedir cálculo (massa de CO₂, rendimento), é Estequiometria; se pedir energia, é Termoquímica."
+  }
+ ],
+ "decorar": [
+  "Exotérmica: ΔH < 0; endotérmica: ΔH > 0",
+  "ΔH = ΣΔHf produtos − ΣΔHf reagentes (substância simples = 0)",
+  "Hess: inverter troca o sinal; multiplicar multiplica ΔH",
+  "Kc: produtos ÷ reagentes, expoente = coeficiente, sem sólido e líquido puro",
+  "Pressão alta desloca para o lado com menos mols de gás",
+  "pH = −log[H⁺]; pH + pOH = 14 (25 °C); menor pH = mais ácido",
+  "Catalisador: ↓ energia de ativação, não muda ΔH nem equilíbrio",
+  "Ânodo oxida, cátodo reduz; pilha: ânodo negativo; eletrólise: ânodo positivo",
+  "Redutor se oxida; oxidante se reduz"
+ ],
+ "pegadinhas": [
+  "Substância simples (O₂, H₂, C grafite) tem ΔHf = 0. Não some 0 como se fosse valor da tabela.",
+  "Multiplique o ΔHf pelo coeficiente da equação antes de somar (6 × (−394), não só −394).",
+  "Catalisador não altera ΔH nem desloca equilíbrio.",
+  "Ácido tem pH **menor** que 7 e [H⁺] **maior**; pH 3 é mais ácido que 4.",
+  "Na pilha, o ânodo é negativo; na eletrólise, o ânodo é positivo. A regra \"ânodo oxida\" vale nos dois."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2018-1",
+   "n": 24,
+   "resolucao": "Equação: C₆H₆(ℓ) + 15/2 O₂(g) → 6 CO₂(g) + 3 H₂O(ℓ). Entalpias de formação (kJ/mol): C₆H₆ = +50; CO₂ = −394; H₂O = −286. O₂ é simples e vale 0.\n\nΔH = Σ produtos − Σ reagentes.\n\n- Produtos: 6 × (−394) + 3 × (−286) = −2364 − 858 = −3222.\n- Reagentes: +50.\n- ΔH = −3222 − 50 = **−3272 kJ/mol**.\n\nO sinal negativo mostra que a combustão libera calor (exotérmica). Gabarito oficial: **A**."
+  },
+  {
+   "prova": "2023-2",
+   "n": 33,
+   "resolucao": "Amostra A: [H⁺] = 10⁻⁴·⁸ → pH = 4,8. Amostra B: [H⁺] = 10⁻⁴ → pH = 4,0.\n\nPela escala: limão 3, tomate 4, leite 6. Menor pH = mais ácido.\n\n- (A) B tem pH 4,0 (certo), mas dizer \"mais ácida que o limão\" (pH 3) é falso.\n- (B) B com pH 4,8: errado, é 4,0.\n- (C) A com pH 4,0: errado.\n- (D) A tem pH 4,8 (certo), mas \"mais ácida que o tomate\" (pH 4) é falso: 4,8 > 4, então A é menos ácida.\n- (E) A tem pH 4,8 e é mais ácida que o leite (pH 6): 4,8 < 6. **Correta.**\n\nGabarito oficial: **E**."
+  },
+  {
+   "prova": "2026-1",
+   "n": 42,
+   "resolucao": "Meia-vida é o tempo para a quantidade cair pela metade. Partindo de 200 mg e chegando a 12,5 mg:\n\n200 → 100 → 50 → 25 → 12,5, ou seja, **4 meias-vidas**. Conferindo com a fórmula: 200 ÷ 2ⁿ = 12,5 → 2ⁿ = 16 → n = 4.\n\nO tempo total foi 12 anos, então meia-vida = 12 ÷ 4 = **3 anos**.\n\nGabarito oficial: **C**."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "A combustão completa do metano ocorre segundo a equação CH₄(g) + 2 O₂(g) → CO₂(g) + 2 H₂O(ℓ). Considerando as entalpias de formação do quadro, a variação de entalpia dessa reação, em kJ/mol, é",
+   "alternativas": [
+    "+891",
+    "−1041",
+    "−605",
+    "−891",
+    "−1397"
+   ],
+   "gabarito": "D",
+   "resolucao": "ΔH = [(−394) + 2 × (−286)] − [(−75) + 2 × 0] = (−394 − 572) + 75 = −966 + 75 = −891 kJ/mol. A alternativa −1041 vem de somar o −75 em vez de subtrair; −605 esquece o coeficiente 2 da água.",
+   "figura": {
+    "lib": "tabela",
+    "cabecalho": [
+     "Substância",
+     "ΔHf (kJ/mol)"
+    ],
+    "linhas": [
+     [
+      "CH₄(g)",
+      "−75"
+     ],
+     [
+      "CO₂(g)",
+      "−394"
+     ],
+     [
+      "H₂O(ℓ)",
+      "−286"
+     ],
+     [
+      "O₂(g)",
+      "0"
+     ]
+    ]
+   }
+  },
+  {
+   "enunciado": "Uma solução aquosa a 25 °C tem concentração de íons OH⁻ igual a 10⁻⁵ mol/L. Sabendo que pH + pOH = 14 nessa temperatura, o pH dessa solução é",
+   "alternativas": [
+    "5",
+    "9",
+    "14",
+    "10",
+    "7"
+   ],
+   "gabarito": "B",
+   "resolucao": "pOH = −log 10⁻⁵ = 5. pH = 14 − 5 = 9, solução básica.",
+   "figura": null
+  },
+  {
+   "enunciado": "A síntese da amônia ocorre pelo equilíbrio N₂(g) + 3 H₂(g) ⇌ 2 NH₃(g). Ao aumentar a pressão sobre o sistema em equilíbrio, observa-se que o equilíbrio",
+   "alternativas": [
+    "se desloca para a esquerda, pois o lado dos reagentes tem menos mols de gás.",
+    "se desloca para a esquerda, pois a pressão não interfere em gases.",
+    "não se altera, porque a pressão só afeta sólidos.",
+    "se desloca para a direita, pois o catalisador aumenta o rendimento.",
+    "se desloca para a direita, pois o lado dos produtos tem menos mols de gás (2 contra 4)."
+   ],
+   "gabarito": "E",
+   "resolucao": "Reagentes: 1 + 3 = 4 mol de gás; produtos: 2 mol. O aumento de pressão favorece o lado com menos mols de gás: a direita, formando mais NH₃. O catalisador não desloca equilíbrio.",
+   "figura": null
+  },
+  {
+   "enunciado": "Comprimidos efervescentes dissolvem mais rápido em água quente do que em água fria, e mais rápido ainda quando triturados. Triturar o comprimido acelera a reação porque",
+   "alternativas": [
+    "aumenta a superfície de contato entre os reagentes.",
+    "aumenta a energia de ativação da reação.",
+    "diminui o valor do ΔH da reação.",
+    "desloca o equilíbrio no sentido dos reagentes.",
+    "diminui a temperatura do sistema."
+   ],
+   "gabarito": "A",
+   "resolucao": "Em pó, a superfície exposta ao líquido é muito maior, então ocorrem mais colisões por segundo e a velocidade aumenta. O ΔH e a energia de ativação não mudam por triturar.",
+   "figura": null
+  },
+  {
+   "enunciado": "Na reação Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s), os átomos de zinco perdem elétrons e os íons cobre os recebem. Nessa reação, o agente redutor é",
+   "alternativas": [
+    "Cu²⁺",
+    "Zn²⁺",
+    "Zn",
+    "Cu",
+    "os elétrons."
+   ],
+   "gabarito": "C",
+   "resolucao": "O zinco passa de nox 0 para +2: ele se oxida e, ao ceder elétrons, reduz o Cu²⁺. Quem se oxida é o agente redutor: o Zn.",
+   "figura": null
+  }
+ ]
+}

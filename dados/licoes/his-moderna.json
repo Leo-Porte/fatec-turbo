@@ -1,0 +1,137 @@
+{
+ "id": "his-moderna",
+ "disciplina": "História",
+ "tema": "Idade Moderna",
+ "titulo": "Idade Moderna: Renascimento, Reforma, navegações",
+ "semana": 5,
+ "requisitos": [
+  "his-antiguidade"
+ ],
+ "minutos": 30,
+ "por_que": "Idade Moderna caiu 8 vezes nas 15 provas: Renascimento (3x), Grandes Navegações e colonização espanhola (4x) e Reforma/Gutenberg (2x). É tema recorrente porque é a ponte entre a Idade Média e o Brasil colonial, e a prova gosta de ligar texto curto a um conceito (antropocentrismo, mercantilismo, esfericidade da Terra).",
+ "secoes": [
+  {
+   "titulo": "1. Renascimento: o ser humano no centro",
+   "texto": "Foi o tema mais cobrado (2017/2, 2024/1, 2023/1). Em linguagem normal: a partir do final da Idade Média, na **Itália** (cidades ricas e comerciais como Florença), artistas e pensadores voltam os olhos para a **Antiguidade clássica** (Grécia e Roma) e passam a valorizar o ser humano e a razão.\n\nOs conceitos que a prova repete:\n\n- **Humanismo**: o ser humano, sua dignidade e seu saber viram o assunto principal.\n- **Antropocentrismo**: o homem no centro (no lugar do **teocentrismo** medieval, com Deus no centro de tudo).\n- **Racionalismo e método científico**: observar, medir, experimentar.\n- **Retorno à natureza e à Antiguidade clássica**: proporção, equilíbrio, realismo.\n- **Mecenato**: burgueses e nobres ricos pagam artistas.\n\nLeonardo da Vinci é o exemplo preferido da prova. O **Homem Vitruviano** (2024/1) mostra um corpo humano desenhado dentro de um círculo e de um quadrado, com medidas matemáticas, juntando arte, ciência e a ideia de que o homem é a medida das coisas. Se aparecer essa imagem, a resposta é **antropocentrismo + fazer científico racional**.\n\n**Gutenberg** (2023/1, 2018/1): no século XV inventou a **prensa de tipos móveis**. Os livros ficaram mais baratos e as ideias circularam muito mais rápido, o que ajudou o Renascimento e a Reforma."
+  },
+  {
+   "titulo": "2. Grandes Navegações: por que, quem e o que provou",
+   "texto": "Em 2019/1, 2023/2 e 2018/2.\n\n**Por que a Europa foi ao mar?**\n\n- Queria **especiarias** (pimenta, cravo, canela) e produtos do Oriente, sem pagar intermediários italianos e muçulmanos.\n- Queria metais preciosos (ouro e prata).\n- Estados fortes (reis com poder centralizado) e uma **burguesia** interessada em lucro bancavam as viagens.\n- Havia técnica: caravela, bússola, astrolábio, mapas melhores.\n- Também havia o desejo de expandir a fé católica.\n\n**Quem foi primeiro?** **Portugal** (litoral voltado ao Atlântico, Estado centralizado cedo) e depois a **Espanha**.\n\nMarcos que a prova cobra:\n\n- **1492**: Colombo chega à América, a serviço da Espanha.\n- **1494**: Tratado de **Tordesilhas** divide as terras entre Portugal e Espanha.\n- **1498**: Vasco da Gama chega à Índia.\n- **1500**: Cabral chega ao Brasil.\n- **1519–1522**: expedição de **Magalhães e Elcano** dá a primeira volta ao mundo e **comprova a esfericidade da Terra** (2019/1).\n\nCuidado: Magalhães morreu no caminho (nas Filipinas); quem completou a viagem foi Elcano."
+  },
+  {
+   "titulo": "3. Colonização espanhola e troca de produtos",
+   "texto": "Em 2024/2, 2018/2 e 2023/2.\n\nNa **América espanhola** a Coroa montou **vice-reinos** e explorou principalmente **metais preciosos**, em especial a **prata** (a mina de **Potosí**, na atual Bolívia, é a mais famosa). A mão de obra era **indígena**, em sistemas como a **encomienda**, em que os nativos eram entregues a um colono para trabalhar e pagar tributo, e o **repartimiento** e a **mita** (trabalho obrigatório por turnos).\n\nO resultado foi uma colonização marcada por **violência, exploração e morte** dos povos nativos. O frei dominicano **Bartolomeu de Las Casas** denunciou isso. Na 2024/2 (questão 54), o texto dele chama as conquistas de “injustíssimas”, critica as *encomiendas* e diz que as riquezas foram roubadas. A resposta é a que fala em **opressão e violência contra os povos nativos**.\n\n**Troca de produtos** (a 2023/2 mostrou um mapa): depois da chegada à América, plantas, animais e doenças circularam pelo mundo. O **cacau**, nativo da América, foi difundido pelos colonizadores espanhóis a partir do **século XVI**. Também vieram da América milho, batata, tomate e mandioca; e para lá foram cavalo, boi e trigo. Os europeus trouxeram também doenças que dizimaram muitos indígenas."
+  },
+  {
+   "titulo": "4. Reforma Protestante e Contrarreforma",
+   "texto": "Em 2018/1 (Lutero traduz a Bíblia).\n\n- **Reforma**: em **1517**, na Alemanha, o monge **Martinho Lutero** critica a venda de **indulgências** (perdão de pecados em troca de dinheiro) e defende que a salvação vem da fé e que cada um deve ler a Bíblia. Ele a **traduziu para o alemão**, e a imprensa de Gutenberg espalhou o texto e as ideias.\n- Outros reformadores: **Calvino** (Suíça, ideia de predestinação, forte entre burgueses) e, na Inglaterra, o rei **Henrique VIII**, que rompeu com Roma e criou a Igreja Anglicana (1534), em parte por razões políticas.\n- **Contrarreforma** (reação católica): **Concílio de Trento**, **Inquisição** (tribunal contra os considerados hereges), **Companhia de Jesus** (jesuítas), que depois educaram e catequizaram na América, inclusive no Brasil.\n\nA ligação importante: sem a **imprensa**, a Reforma não teria se espalhado tão rápido."
+  },
+  {
+   "titulo": "5. Mercantilismo e Absolutismo",
+   "texto": "Eles explicam a **lógica econômica e política** da época, e voltam em questões de Brasil Colônia (2019/2).\n\n**Mercantilismo** = política econômica dos Estados modernos para ficarem ricos e fortes:\n\n- **Metalismo**: riqueza = acumular ouro e prata.\n- **Balança comercial favorável**: exportar mais do que importar.\n- **Monopólio colonial** (pacto colonial): a colônia só pode vender para a metrópole e só comprar dela.\n- Intervenção do Estado na economia.\n\n**Absolutismo** = rei com poder concentrado (**Luís XIV**, na França, é o símbolo). O rei faz as leis, controla exército e impostos. O mercantilismo e o absolutismo andam juntos: o rei precisa de dinheiro para manter o Estado e o exército, e a burguesia quer proteção ao comércio.\n\nPense assim: o Estado era uma empresa que queria lucro, e as colônias eram as fontes de matéria-prima e de metal."
+  }
+ ],
+ "decorar": [
+  "Renascimento = humanismo + antropocentrismo + racionalismo + volta à Antiguidade clássica (Itália). Contra o teocentrismo medieval.",
+  "Homem Vitruviano (Leonardo da Vinci) = ser humano como medida do universo, ciência e arte juntas.",
+  "Gutenberg (século XV) = prensa de tipos móveis, difundiu livros e ideias (Renascimento e Reforma).",
+  "Navegações: Colombo 1492, Tordesilhas 1494, Vasco da Gama 1498, Cabral 1500, Magalhães-Elcano 1519–1522 (esfericidade da Terra).",
+  "Motivos das navegações: especiarias, metais, burguesia + Estado centralizado, técnicas náuticas.",
+  "América espanhola: vice-reinos, prata (Potosí), trabalho indígena (encomienda, mita). Crítico: Las Casas.",
+  "Cacau e outros produtos circularam pelo mundo a partir do século XVI.",
+  "Reforma: Lutero, 1517, contra venda de indulgências; Bíblia traduzida. Contrarreforma: Trento, Inquisição, jesuítas.",
+  "Mercantilismo = metalismo, balança comercial favorável, monopólio colonial. Andava com o Absolutismo."
+ ],
+ "pegadinhas": [
+  "Renascimento é antropocentrismo, não teocentrismo. Alternativa que cita “vanguarda”, “psicanálise” ou “socialismo” mistura épocas (anacronismo).",
+  "Magalhães não completou a volta ao mundo: morreu antes. A viagem de 1519–1522 é de Magalhães e Elcano.",
+  "A colonização espanhola da América não foi harmoniosa: foi violenta e explorou os indígenas. Desconfie de alternativas que falam em convivência pacífica.",
+  "O cacau é originário da América, não da Ásia. Se o mapa mostra rotas que saem da América Central, é cacau (ou milho, batata).",
+  "Não confunda Reforma (Lutero, protestantes) com Contrarreforma (reação católica).",
+  "Cuidado com datas trocadas de propósito: 1492 (Colombo) não é 1500 (Cabral no Brasil)."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2024-1",
+   "n": 29,
+   "resolucao": "A imagem é o **Homem Vitruviano**, de Leonardo da Vinci: um corpo humano com braços e pernas abertos dentro de um círculo e um quadrado, com anotações.\n\nPasso 1: identifique o período. Leonardo da Vinci = **Renascimento** (final da Idade Média e início da Moderna).\n\nPasso 2: lembre o pacote do período: antropocentrismo, razão, ciência, medidas e proporções.\n\nPasso 3: alternativas.\n- A fala de dor e angústia e psicanálise: isso é de outro estilo e de outra época.\n- B fala em vanguarda e imagens bizarras: é arte do século XX.\n- C fala em socialismo: anacronismo (socialismo é do século XIX).\n- **D** fala em fazer científico racional e homem no centro das medições, antropocentrismo: é exatamente o Renascimento.\n- E fala de crítica social em muros e paredes: grafite, é arte contemporânea.\n\nGabarito oficial: D. ✔ Bateu."
+  },
+  {
+   "prova": "2024-2",
+   "n": 54,
+   "resolucao": "Questão de **leitura de fonte**. O texto é de um missionário dominicano (Las Casas), em 1565, que escreve ao rei da Espanha.\n\nO que ele diz: as guerras de conquista são “injustíssimas”, os espanhóis “usurparam” reinos, *encomiendas* e *repartimientos* de índios são “cruéis e tirânicos”, o ouro e a prata “são roubados”. Ele pede que os espanhóis devolvam tudo.\n\nContexto que ajuda: a colonização espanhola da América foi marcada por violência e exploração dos indígenas. Las Casas é conhecido como defensor dos nativos.\n\n- A e D falam da Ásia: o texto trata das “Índias”, isto é, da América, e os espanhóis são os agressores, não vítimas.\n- B diz que as guerras foram resposta justa: o autor diz o contrário.\n- C fala em harmonia: contradiz o texto.\n- **E**: a conquista espanhola foi marcada por opressão e violência contra os nativos. É o que o texto afirma.\n\nGabarito oficial: E. ✔ Bateu."
+  },
+  {
+   "prova": "2023-2",
+   "n": 14,
+   "resolucao": "É uma questão de **ler um mapa** e ligá-lo a um processo histórico. O mapa mostra setas partindo da **América Central e do norte da América do Sul** em direção à Europa, à África e à Ásia.\n\nSe o produto sai da América e vai para o resto do mundo, só há um grande processo que explica isso: a **colonização e as Grandes Navegações** (a partir do século XVI).\n\n- A fala de arroz na Ásia, há 5 mil anos: origem asiática, não bate com o mapa.\n- B fala de pimenta indo da Índia para a América no século XVIII: o sentido da seta seria outro.\n- C fala de café da Etiópia para o Iêmen: rota pequena, só no Oriente Médio.\n- D fala de gergelim na Malásia e na Indonésia: fora do mapa.\n- **E** fala de cacau difundido a partir do século XVI pelos colonizadores espanhóis da América: as setas saem da região de origem do cacau.\n\nGabarito oficial: E. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Pintores e escultores do início da Idade Moderna passaram a estudar anatomia, perspectiva e proporções matemáticas, além de se inspirar em obras da Grécia e de Roma. Essa mudança de mentalidade, que coloca o ser humano e a razão como valores centrais, está ligada ao",
+   "alternativas": [
+    "feudalismo, pois valorizava a vida no campo e a fé como explicação do mundo.",
+    "teocentrismo medieval, que colocava Deus como centro de todas as explicações.",
+    "humanismo e antropocentrismo renascentistas, que valorizavam o ser humano, a razão e a observação da natureza.",
+    "iluminismo do século XVIII, que defendia as liberdades individuais contra o absolutismo.",
+    "romantismo do século XIX, que valorizava as emoções e as lendas nacionais."
+   ],
+   "gabarito": "C",
+   "resolucao": "Estudo de anatomia e proporções, inspiração na Antiguidade clássica e razão como valor são características do Renascimento: humanismo e antropocentrismo. O teocentrismo (B) e o feudalismo (A) são medievais. O iluminismo (D) e o romantismo (E) vêm séculos depois.",
+   "figura": null
+  },
+  {
+   "enunciado": "Em meados do século XV, o alemão Johannes Gutenberg desenvolveu a prensa de tipos móveis. Uma consequência dessa invenção foi",
+   "alternativas": [
+    "o barateamento e a multiplicação de livros, o que ajudou a difundir as ideias do Renascimento e da Reforma.",
+    "o fim da Igreja Católica, que perdeu todos os seus seguidores na Europa.",
+    "a descoberta da América, pois permitiu imprimir os mapas de Colombo.",
+    "o surgimento da máquina a vapor, que passou a movimentar as prensas.",
+    "o desaparecimento dos livros copiados à mão em todo o mundo, já no século XV."
+   ],
+   "gabarito": "A",
+   "resolucao": "A prensa reduziu o custo e o tempo de produzir livros e panfletos, e isso espalhou ideias renascentistas e protestantes (a Bíblia de Lutero foi muito impressa). A Igreja continuou existindo (B). Colombo é de 1492 e não dependeu da prensa (C). A máquina a vapor é do século XVIII (D). Cópias à mão continuaram por algum tempo (E).",
+   "figura": null
+  },
+  {
+   "enunciado": "No final do século XV, Portugal e Espanha lideraram a expansão marítima europeia. Entre os fatores que ajudam a explicar esse pioneirismo, estão",
+   "alternativas": [
+    "a derrota dos reis diante da burguesia e o fim das monarquias na Península Ibérica.",
+    "o domínio da rota terrestre para a Ásia e a falta de interesse por produtos do Oriente.",
+    "a proibição da Igreja de viajar pelo mar e a expansão do feudalismo.",
+    "o desinteresse por metais preciosos e a criação de mercados internos na Europa Central.",
+    "a existência de Estados centralizados, o interesse da burguesia comercial em especiarias e metais e o avanço das técnicas de navegação."
+   ],
+   "gabarito": "E",
+   "resolucao": "Reis com poder centralizado, burguesia interessada em comércio, desejo por especiarias e metais e técnicas náuticas (caravela, bússola, astrolábio) formaram o conjunto de fatores. As demais alternativas inventam o oposto: fim das monarquias (A), falta de interesse no Oriente (B), proibição da Igreja (C) ou desinteresse por metais (D).",
+   "figura": null
+  },
+  {
+   "enunciado": "No contexto do mercantilismo, os Estados europeus da Idade Moderna adotaram a prática do metalismo e buscaram uma balança comercial favorável. Isso significava, na prática, que o governo procurava",
+   "alternativas": [
+    "comprar o máximo possível de produtos estrangeiros e vender pouco, para agradar o consumidor.",
+    "acumular ouro e prata e exportar mais do que importar, enriquecendo o Estado.",
+    "abrir mão do comércio colonial para que cada colônia vendesse a quem quisesse.",
+    "eliminar a intervenção do Estado na economia para deixar o mercado agir livremente.",
+    "substituir o dinheiro por trocas diretas, evitando acumular metais."
+   ],
+   "gabarito": "B",
+   "resolucao": "Metalismo é a ideia de que riqueza é acumular metais preciosos. Balança comercial favorável é exportar mais do que importar, para que entre mais metal do que saia. Comprar mais do que vender (A) faz o contrário. Abrir mão do monopólio (C) e do controle do Estado (D) contraria o mercantilismo, que defendia o monopólio colonial e a intervenção do Estado. E não faz sentido nesse contexto.",
+   "figura": null
+  },
+  {
+   "enunciado": "Em 1517, o monge alemão Martinho Lutero divulgou críticas a práticas da Igreja Católica, entre elas a venda de indulgências. O movimento que se seguiu, a Reforma Protestante, teve como resposta da Igreja Católica",
+   "alternativas": [
+    "a proibição imediata da imprensa em toda a Europa, que foi cumprida.",
+    "a criação das capitanias hereditárias na América portuguesa.",
+    "a aceitação de todas as críticas e a extinção da Igreja Católica.",
+    "a Contrarreforma, com o Concílio de Trento, a Inquisição e a criação de ordens como a Companhia de Jesus.",
+    "a Revolução Industrial, que afastou as pessoas da religião."
+   ],
+   "gabarito": "D",
+   "resolucao": "A reação católica à Reforma é chamada de Contrarreforma: o Concílio de Trento reafirmou doutrinas e corrigiu abusos, a Inquisição perseguiu os considerados hereges, e os jesuítas educaram e catequizaram. Não houve proibição geral e eficaz da imprensa (A). Capitanias hereditárias (B) são uma medida da Coroa portuguesa para ocupar o Brasil, não uma resposta de Roma. A Igreja não se extinguiu (C). A Revolução Industrial (E) é do século XVIII.",
+   "figura": null
+  }
+ ]
+}

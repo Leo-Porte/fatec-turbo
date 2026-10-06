@@ -1,0 +1,132 @@
+{
+ "id": "geo-ambiente-economia",
+ "disciplina": "Geografia",
+ "tema": "Meio ambiente e sustentabilidade",
+ "titulo": "Meio ambiente, agropecuária, indústria e energia",
+ "semana": 6,
+ "requisitos": [
+  "geo-natureza"
+ ],
+ "minutos": 35,
+ "por_que": "Meio ambiente (10), agropecuária (6) e indústria e energia (5) somam 21 questões nas 15 provas. Muitas são multidisciplinares com Biologia e quase todas de nível fácil ou médio: efeito estufa, crédito de carbono, economia circular, tecnologia no campo, biocombustíveis.",
+ "secoes": [
+  {
+   "titulo": "1. Efeito estufa, aquecimento global e crédito de carbono",
+   "texto": "O **efeito estufa** é natural e mantém a Terra habitável: gases na atmosfera retêm parte do calor. O problema é o **efeito estufa intensificado** pelas emissões humanas. O principal gás é o **CO₂** (dióxido de carbono), vindo da **queima de combustíveis fósseis** (petróleo, carvão, gás) e do desmatamento (2019/2). Metano (CH₄) vem da pecuária e de aterros.\n\nA ciência mostra que a temperatura média global está subindo e que a última década foi a mais quente, por causa das emissões humanas, o que desmente o negacionismo climático (2026/1).\n\nO **Acordo de Paris** (2015) tem o objetivo de limitar o aquecimento bem abaixo de 2 °C, buscando 1,5 °C.\n\n**Crédito de carbono** é um mecanismo que premia quem **reduz ou remove emissões**: cada crédito equivale a **1 tonelada de CO₂** equivalente que deixou de ir para a atmosfera. Projetos de **energia limpa e renovável**, reflorestamento e eficiência energética geram crédito (2025/2). Queimar combustível fóssil ou desmatar **não gera** crédito."
+  },
+  {
+   "titulo": "2. Sustentabilidade, economia circular e resíduos",
+   "texto": "**Desenvolvimento sustentável**: atender às necessidades do presente sem comprometer as das gerações futuras (Relatório Brundtland, 1987).\n\n**Economia circular** (2025/2): modelo que **elimina o desperdício**, reutilizando, reciclando e regenerando recursos e materiais. Contrasta com a economia linear (extrair, produzir, descartar). Algumas alternativas erradas falam em \"aumentar o consumo\" ou em \"dependência de fósseis\", que é o oposto.\n\n**Ciclo de vida do produto**: da extração da matéria-prima ao descarte final. **Produção mais Limpa** busca reduzir os impactos em todas as etapas (2022/2).\n\n**Lixão** é o despejo a céu aberto, sem controle; **aterro sanitário** tem impermeabilização e tratamento.\n\n**Valor da floresta em pé** (2025/2): preservar a Amazônia vale mais do que explorá-la, porque o desmatamento destrói riqueza e biodiversidade.\n\n**Queimadas**: na Amazônia, floresta úmida **não adaptada ao fogo**, as queimadas são por ação humana; na Austrália, a vegetação seca é adaptada, mas as mudanças climáticas agravam ambos (2022/2).\n\n**Barragem de rejeitos**: armazena os resíduos do beneficiamento do minério. Os rompimentos de **Mariana** (2015) e **Brumadinho** (2019), em Minas Gerais, são os casos clássicos (2018/2)."
+  },
+  {
+   "titulo": "3. Agropecuária: o que a Fatec cobra",
+   "texto": "- **Revolução Verde** (décadas de 1960–70): mecanização, adubos, fertilizantes, agrotóxicos e melhoramento genético para **aumentar a produção** (2025/2).\n- **Agricultura de precisão**: sensores, GPS e drones geram mapas de produtividade, medem umidade e minerais do solo e aumentam a produtividade (2023/1 e 2023/2). Já é usada no Brasil.\n- **Pecuária extensiva**: gado **solto em grandes áreas**, alimentado majoritariamente em pastagem. **Pecuária intensiva**: **confinamento** e alta tecnologia, com muitos animais em pouco espaço (2023/2).\n- **Soja no Cerrado** (2018/1): o cultivo mecanizado de soja é a maior ameaça ao bioma, avançando como **fronteira agrícola**.\n- **Coivara** (2026/1): sistema indígena de derrubada e queima, com policultivo e abandono da área para a floresta se regenerar; baixo impacto.\n- **Plantation**: modelo colonial de latifúndio, monocultura, mão de obra escrava e exportação.\n\nO Brasil é grande exportador de soja, carne bovina, café e açúcar. **Calagem** (calcário no solo ácido) foi vista na lição de natureza."
+  },
+  {
+   "titulo": "4. Indústria e energia",
+   "texto": "**Fatores de localização industrial**: matéria-prima, energia, mão de obra, mercado consumidor, transporte e incentivos. A **CSN** (1941), em **Volta Redonda** (RJ), foi instalada entre São Paulo e Rio e perto do Quadrilátero Ferrífero, em Minas (2017/1).\n\n**Energia renovável**: hídrica, solar, eólica, biomassa, biocombustíveis. **Não renovável**: petróleo, gás natural, **carvão mineral** (rocha sedimentar formada por florestas soterradas por milhões de anos, poluente) e urânio (nuclear) (2019/2). No Brasil, a eletricidade vem principalmente de hidrelétricas (como Itaipu); há usinas nucleares em Angra dos Reis (RJ).\n\n**Biocombustíveis**: etanol (da cana) e biodiesel. O **Proálcool** (1975) foi uma resposta à crise do petróleo (2025/2). Pontos negativos: podem **competir com áreas de alimento** e elevar o preço da comida; pontos positivos: reduzem a emissão de fósseis e aproveitam resíduos como biogás.\n\n**Terras-raras** (2019/1): 17 elementos (lantanídeos mais escândio e ítrio) que ocorrem **dispersos em baixa concentração**, com as maiores reservas na China. Usadas em eletrônicos e tecnologias limpas."
+  }
+ ],
+ "decorar": [
+  "Gás do aumento do efeito estufa: CO₂, da queima de combustíveis fósseis.",
+  "Crédito de carbono: 1 crédito = 1 t de CO₂ evitada ou removida. Energia limpa gera crédito.",
+  "Economia circular: eliminar desperdício (reutilizar, reciclar, regenerar).",
+  "Barragem de rejeitos: resíduos do beneficiamento do minério (Mariana, Brumadinho).",
+  "Revolução Verde: mecanização, adubos, agrotóxicos, melhoramento genético.",
+  "Pecuária extensiva: solto em grandes áreas. Intensiva: confinamento e tecnologia.",
+  "Soja = maior ameaça ao Cerrado.",
+  "Proálcool (1975): resposta à crise do petróleo. Biocombustível pode competir com alimento.",
+  "Carvão mineral: rocha sedimentar, não renovável e poluente."
+ ],
+ "pegadinhas": [
+  "Economia circular não é aumentar consumo nem emitir mais gases: é eliminar desperdício.",
+  "Crédito de carbono vem de reduzir ou remover emissões, nunca de emitir mais ou desmatar.",
+  "Pecuária extensiva é a que usa grande área; o confinamento é intensivo.",
+  "Carvão mineral é fóssil e não renovável, mesmo sendo 'natural'.",
+  "Floresta em pé vale mais do que floresta derrubada: a alternativa 'desmatar não gera impacto' é sempre errada."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2025-2",
+   "n": 64,
+   "resolucao": "O crédito de carbono é gerado por ações que **reduzem ou removem emissões** de CO₂. A alternativa que faz isso é desenvolver **tecnologias de energia limpa e renovável** para reduzir os gases do efeito estufa. Alternativa **E**.\n\nAmpliar combustíveis fósseis, derrubar florestas e incentivar emissões vão no sentido contrário; queimar lixo em altos-fornos também emite."
+  },
+  {
+   "prova": "2025-2",
+   "n": 19,
+   "resolucao": "Economia circular propõe um modelo que **elimina o desperdício**, reutilizando, reciclando e regenerando recursos naturais e materiais. Alternativa **C**.\n\nA diz \"potencializando impactos negativos\" (contraditório), B fala em aumentar a dependência de fósseis, D e E não têm relação com o conceito."
+  },
+  {
+   "prova": "2023-2",
+   "n": 8,
+   "resolucao": "O enunciado trata da pecuária. Sistema **extensivo**: gado **solto em grandes áreas**, com dieta baseada em pastagem e suplementos minerais. Alternativa **A**.\n\nC, D e E descrevem o sistema intensivo (confinamento, tecnologia, inseminação, fertilizantes de alto desempenho)."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Entre as atividades humanas, a que mais contribui diretamente para o aumento da concentração de dióxido de carbono (CO₂) na atmosfera é",
+   "alternativas": [
+    "o reflorestamento de áreas degradadas.",
+    "o uso de energia solar em residências.",
+    "o tratamento de esgoto doméstico.",
+    "a ampliação do uso de bicicletas nas cidades.",
+    "a queima de petróleo e carvão para gerar energia e movimentar veículos."
+   ],
+   "gabarito": "E",
+   "resolucao": "A queima de combustíveis fósseis libera CO₂ que estava armazenado. É a principal fonte. Alternativa E. Reflorestamento e energia solar reduzem o CO₂.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um projeto de energia eólica evitou a emissão de 5 000 toneladas de CO₂. Considerando que cada crédito de carbono equivale a 1 tonelada de CO₂ evitada e que cada crédito foi vendido por R$ 60,00, o valor arrecadado com os créditos foi de",
+   "alternativas": [
+    "R$ 12 000,00.",
+    "R$ 300 000,00.",
+    "R$ 3 000,00.",
+    "R$ 83,00.",
+    "R$ 65 000,00."
+   ],
+   "gabarito": "B",
+   "resolucao": "5 000 créditos × R$ 60,00 = R$ **300 000,00**. Alternativa B. Dividir 5 000 por 60 (erro) daria cerca de 83.",
+   "figura": null
+  },
+  {
+   "enunciado": "A expansão da soja sobre áreas de Cerrado, impulsionada pela agricultura mecanizada, tem como principal consequência ambiental",
+   "alternativas": [
+    "o aumento da cobertura vegetal nativa.",
+    "a recuperação de nascentes e rios.",
+    "a redução do uso de máquinas agrícolas.",
+    "o fim da fronteira agrícola brasileira.",
+    "a perda de vegetação nativa e de biodiversidade."
+   ],
+   "gabarito": "E",
+   "resolucao": "O avanço da soja é a maior ameaça ao Cerrado: substitui a vegetação nativa por lavoura e reduz a biodiversidade. Alternativa E.",
+   "figura": null
+  },
+  {
+   "enunciado": "Entre as fontes de energia a seguir, a que NÃO é renovável é",
+   "alternativas": [
+    "o carvão mineral.",
+    "a energia eólica.",
+    "a energia solar.",
+    "a biomassa da cana-de-açúcar.",
+    "a energia hidráulica."
+   ],
+   "gabarito": "A",
+   "resolucao": "O carvão mineral é um combustível fóssil, formado ao longo de milhões de anos: não é renovável. Alternativa A.",
+   "figura": null
+  },
+  {
+   "enunciado": "Uma montadora decide instalar uma nova fábrica no interior de São Paulo. Um dos fatores de localização que mais explicam essa escolha é",
+   "alternativas": [
+    "a proximidade de jazidas de carvão mineral.",
+    "a abundância de terras agrícolas muito baratas.",
+    "a boa malha de rodovias, a mão de obra qualificada e o mercado consumidor próximo.",
+    "a ausência de infraestrutura de transporte, que reduz custos.",
+    "a proximidade de nascentes de rios no litoral."
+   ],
+   "gabarito": "C",
+   "resolucao": "Para uma montadora pesam transporte, mão de obra e mercado consumidor. O interior paulista tem rodovias, trabalhadores qualificados e grande mercado. Alternativa C.",
+   "figura": null
+  }
+ ]
+}

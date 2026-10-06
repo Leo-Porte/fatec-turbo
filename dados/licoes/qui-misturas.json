@@ -1,0 +1,127 @@
+{
+ "id": "qui-misturas",
+ "disciplina": "Química",
+ "tema": "Propriedades da matéria e separação de misturas",
+ "titulo": "Propriedades da matéria e separação de misturas",
+ "semana": 3,
+ "requisitos": [],
+ "minutos": 25,
+ "por_que": "Esse tema caiu em 7 questões nas 15 provas, quase sempre em duas formas: o nome da mudança de estado (condensação, sublimação) ou o nome do método de separação descrito num texto (decantação, filtração, levigação, separação magnética).",
+ "secoes": [
+  {
+   "titulo": "1. Mudanças de estado: o nome pelo caminho",
+   "texto": "Decore o nome pelo \"de onde para onde\":\n\n- **Fusão**: sólido → líquido.\n- **Solidificação**: líquido → sólido.\n- **Vaporização**: líquido → gás. Pode ser evaporação (devagar, só na superfície), ebulição (borbulhando, na temperatura de ebulição) ou calefação (gota num metal muito quente).\n- **Condensação** (ou liquefação): gás/vapor → líquido. O orvalho é vapor de água condensando numa superfície fria. Quando o CO₂ gasoso é pressurizado e armazenado como líquido, também é condensação (liquefação).\n- **Sublimação**: sólido ↔ gás, sem passar por líquido. Gelo seco (CO₂ sólido), naftalina, iodo.\n\nO erro típico é chamar gás → líquido de \"vaporização\" ou \"fusão\". Faça o desenho do caminho antes de olhar as alternativas."
+  },
+  {
+   "titulo": "2. Substância e mistura",
+   "texto": "- **Substância pura**: um só tipo de composto ou elemento, com propriedades fixas (ponto de fusão e ebulição, densidade). **Simples** quando tem um só elemento (O₂, H₂, Fe); **composta** quando tem mais de um (H₂O, CO₂).\n- **Mistura homogênea** (solução): uma fase só, você não distingue os componentes. Exemplos: água e álcool, ar filtrado, vinagre.\n- **Mistura heterogênea**: mais de uma fase visível. Exemplos: água e óleo, areia e água, granito.\n\nSubstância pura tem **temperatura constante** durante a mudança de estado. Mistura comum não tem patamar: a temperatura vai mudando."
+  },
+  {
+   "titulo": "3. Métodos de separação: qual usar",
+   "texto": "Pense no que difere nos componentes (tamanho, densidade, magnetismo, ponto de ebulição, solubilidade):\n\n**Heterogêneas:**\n- **Decantação**: sólido que se deposita no fundo (ou líquidos que não se misturam, óleo e água, com funil de decantação).\n- **Filtração**: separa sólido de líquido (ou gás) por um filtro (papel, tecido).\n- **Centrifugação**: acelera a decantação girando a mistura.\n- **Levigação**: separa sólidos de densidades diferentes com **corrente de água** (a bateia dos garimpeiros: o ouro, mais denso, fica; a areia é levada).\n- **Separação magnética**: ímã atrai material magnético (ferro). Já apareceu numa questão sobre remoção de nanoplásticos com ímã.\n- **Peneiração**: separa por tamanho do grão.\n- **Catação**: separa à mão.\n- **Flotação**: o menos denso boia (separação de minérios).\n\n**Homogêneas:**\n- **Destilação simples**: sólido dissolvido num líquido (água salgada → água). Aproveita a diferença grande de ponto de ebulição.\n- **Destilação fracionada**: líquidos com pontos de ebulição próximos (petróleo, álcool e água).\n- **Evaporação/cristalização**: recupera o sólido dissolvido deixando o líquido evaporar.\n\nTruque de leitura: o enunciado quase sempre descreve o processo (\"deixar assentar\", \"passar por um filtro\", \"corrente de água\"). Traduza a frase para o nome."
+  },
+  {
+   "titulo": "4. Densidade e propriedades da matéria",
+   "texto": "**Densidade** = massa ÷ volume (g/cm³ ou kg/L). A água vale 1 g/cm³: o que é menos denso boia, o que é mais denso afunda. É isso que sustenta decantação, levigação e flotação.\n\nPropriedades gerais (massa, volume, inércia) dependem da quantidade de matéria. Propriedades específicas (densidade, ponto de fusão e ebulição, solubilidade) identificam a substância.\n\nQuestão clássica de Lavoisier: **substância simples** é a formada por um só elemento. Oxigênio (\"ar vital\") e hidrogênio (\"ar inflamável\") são simples."
+  }
+ ],
+ "decorar": [
+  "Gás → líquido: condensação (liquefação); sólido ↔ gás: sublimação",
+  "Fusão: sólido → líquido; solidificação: líquido → sólido; vaporização: líquido → gás",
+  "Decantação: sedimentação; filtração: sólido do líquido por filtro; centrifugação: decantação acelerada",
+  "Levigação: separa sólidos de densidades diferentes com água; magnética: ímã",
+  "Destilação simples: sólido dissolvido; fracionada: líquidos de PE próximos",
+  "Substância pura tem PF e PE constantes (patamar no gráfico)"
+ ],
+ "pegadinhas": [
+  "Condensação não é vaporização: é o caminho inverso (gás → líquido).",
+  "Sublimação é sólido ↔ gás direto. Se passou por líquido, não é sublimação.",
+  "Destilação é para mistura homogênea; para areia e água use decantação/filtração.",
+  "Decantação e filtração aparecem juntas no mesmo texto: leia qual etapa descreve \"sólido que vai ao fundo\" e qual descreve o filtro.",
+  "Levigação e decantação se confundem: na levigação há corrente de água arrastando o mais leve."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2024-1",
+   "n": 40,
+   "resolucao": "O texto descreve garimpeiros usando **bateia e água** para separar pequenas partículas de ouro da areia. A água em movimento leva a areia, mais leve, e o ouro, mais denso, fica no fundo.\n\nSeparar sólidos de densidades diferentes com corrente de água é a **levigação**.\n\nDescarte: dissolução fracionada usa solvente; sublimação é mudança de estado; decantação e filtração não usam essa corrente de água.\n\nGabarito oficial: **A** (levigação)."
+  },
+  {
+   "prova": "2018-1",
+   "n": 20,
+   "resolucao": "O sachê é despejado na água suja e a mistura é mexida por cinco minutos. O sulfato de cálcio formado **vai ao fundo do recipiente junto com a sujeira**. Sólido indo ao fundo é **decantação**.\n\nDepois a água é passada por um filtro (uma camiseta de algodão limpa): sólido retido num filtro é **filtração**.\n\nOs dois processos são decantação e filtração.\n\nGabarito oficial: **B**."
+  },
+  {
+   "prova": "2024-2",
+   "n": 15,
+   "resolucao": "No processo (I), o CO₂ vem do ar atmosférico (gás) e é armazenado no estado **líquido** por pressurizadores e condensadores. O caminho é gás → líquido.\n\nGás → líquido é **condensação** (liquefação). Vaporização é o inverso; sublimação pula o líquido; fusão é sólido → líquido; ebulição é uma forma de vaporização.\n\nGabarito oficial: **A**."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Para obter água potável a partir da água do mar, em regiões costeiras, usa-se um processo que aquece a água salgada e recolhe o vapor condensado. O nome do método de separação empregado é",
+   "alternativas": [
+    "filtração.",
+    "decantação.",
+    "destilação.",
+    "catação.",
+    "peneiração."
+   ],
+   "gabarito": "C",
+   "resolucao": "O sal está dissolvido na água (mistura homogênea). Aquecer, evaporar a água e condensar o vapor é destilação simples.",
+   "figura": null
+  },
+  {
+   "enunciado": "O gelo seco (CO₂ sólido) usado em shows de efeitos \"some\" quando exposto ao ar, formando uma névoa, sem deixar líquido. A mudança de estado físico que ocorre com o CO₂ é a",
+   "alternativas": [
+    "fusão.",
+    "vaporização.",
+    "condensação.",
+    "solidificação.",
+    "sublimação."
+   ],
+   "gabarito": "E",
+   "resolucao": "Passar de sólido direto para gás, sem líquido, é sublimação. A névoa branca é vapor de água do ar condensando perto do gás frio.",
+   "figura": null
+  },
+  {
+   "enunciado": "Uma mistura de limalha de ferro e pó de enxofre pode ser separada usando um ímã, pois só o ferro é atraído. Esse método é chamado de",
+   "alternativas": [
+    "separação magnética.",
+    "decantação.",
+    "filtração.",
+    "destilação.",
+    "centrifugação."
+   ],
+   "gabarito": "A",
+   "resolucao": "Ímã atraindo o componente magnético (ferro) é separação magnética.",
+   "figura": null
+  },
+  {
+   "enunciado": "Assinale a alternativa que contém uma mistura homogênea.",
+   "alternativas": [
+    "Água e óleo",
+    "Areia e água",
+    "Granito",
+    "Água e álcool",
+    "Água e cascalho"
+   ],
+   "gabarito": "D",
+   "resolucao": "Água e álcool se misturam totalmente e formam uma fase só (solução). As demais têm mais de uma fase visível.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um bloco de gelo puro é aquecido, ao nível do mar, e sua temperatura é medida durante a fusão. Durante o processo de fusão, a temperatura do sistema",
+   "alternativas": [
+    "aumenta gradativamente.",
+    "permanece constante enquanto houver gelo e água líquida.",
+    "diminui até 0 °C.",
+    "oscila sem padrão.",
+    "sobe até 100 °C e depois cai."
+   ],
+   "gabarito": "B",
+   "resolucao": "Substância pura tem ponto de fusão constante: durante a mudança de estado a energia recebida é usada para romper as interações, e a temperatura fica no patamar de 0 °C.",
+   "figura": null
+  }
+ ]
+}

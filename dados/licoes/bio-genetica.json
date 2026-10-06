@@ -1,0 +1,108 @@
+{
+ "id": "bio-genetica",
+ "disciplina": "Biologia",
+ "tema": "Genética",
+ "titulo": "Genética e biotecnologia",
+ "semana": 5,
+ "requisitos": ["bio-citologia"],
+ "minutos": 35,
+ "por_que": "Genética caiu 8 vezes e biotecnologia 4 nas 15 provas: heredogramas, sistema ABO (transfusão e paternidade), herança ligada ao sexo e aneuploidias, mais DNA recombinante (insulina) e enzimas de restrição com eletroforese. São questões de raciocínio curto, bem treináveis.",
+ "secoes": [
+  {
+   "titulo": "1. Heredograma: três regras que resolvem quase tudo",
+   "texto": "Heredograma é o desenho da família: quadrado é homem, círculo é mulher, preenchido é afetado. Você quase nunca precisa de teoria longa, só destas regras:\n\n- **Pais normais com filho afetado** → a característica é **recessiva**, e os pais são **heterozigotos** (Aa).\n- **Pais afetados com filho normal** → a característica é **dominante**, e os pais são **heterozigotos** (Aa).\n- Se um **pai afetado** tem **filha normal**, descarta-se herança dominante ligada ao X (todas as filhas de pai com um X dominante receberiam esse X).\n\nQuem tem a característica **recessiva** é sempre **aa** (ou XᵃXᵃ / XᵃY). Quem aparece com a dominante é AA ou Aa, e só dá para cravar Aa quando há um filho recessivo ou um pai recessivo na história."
+  },
+  {
+   "titulo": "2. Primeira lei de Mendel e probabilidade",
+   "texto": "Cada pessoa tem dois alelos de cada gene e passa **um** para cada filho, ao acaso. O cruzamento mais cobrado é **Aa × Aa**:\n\n- 1/4 AA, 1/2 Aa, 1/4 aa.\n- Fenótipo: 3/4 dominante e 1/4 recessivo (proporção 3 : 1).\n\nComo montar a conta: **e** significa multiplicar (dois eventos juntos), **ou** significa somar (alternativas que se excluem). Probabilidade de dois filhos seguidos serem aa: 1/4 × 1/4 = 1/16.\n\nCada nascimento é independente: ter tido um filho aa não muda a chance do próximo, que continua 1/4.\n\nSe a pergunta já informa que a pessoa tem o fenótipo dominante, ela é AA ou Aa, e a chance de ser Aa é **2/3** (descarte o aa do quadro: sobram 3 casas, 2 delas Aa)."
+  },
+  {
+   "titulo": "3. Sistema ABO: a tabela que você tem que saber de cabeça",
+   "texto": "O sangue é classificado pelo **antígeno (aglutinogênio)** na hemácia e pelo **anticorpo (aglutinina)** no plasma:\n\n- **A**: antígeno A, anticorpo anti-B. Genótipo IᴬIᴬ ou Iᴬi.\n- **B**: antígeno B, anticorpo anti-A. Genótipo IᴮIᴮ ou Iᴮi.\n- **AB**: antígenos A e B, sem anticorpos. Genótipo IᴬIᴮ.\n- **O**: sem antígenos, anticorpos anti-A e anti-B. Genótipo ii.\n\nIᴬ e Iᴮ são **codominantes** (os dois se expressam) e ambos dominam i.\n\nTransfusão: o perigo é o plasma do receptor ter o anticorpo contra o antígeno do sangue que entra. Por isso:\n\n- **O** é doador universal (não tem antígeno) e só recebe de O.\n- **AB** é receptor universal (não tem anticorpo) e só doa para AB.\n- A doa para A e AB. B doa para B e AB.\n\nPaternidade: filho do tipo O é ii, então recebeu um i de cada genitor. Um homem AB não pode ser pai de filho O (AB não tem i). Quem tem o antígeno Rh é Rh positivo."
+  },
+  {
+   "titulo": "4. Herança ligada ao cromossomo X",
+   "texto": "O homem tem XY e a mulher XX. Genes que ficam no X aparecem mais nos homens porque eles têm um X só: se ele tem o alelo recessivo, manifesta. Exemplos clássicos recessivos: **daltonismo** e **hemofilia**.\n\nRegras de ouro:\n\n- O homem passa o **X** para todas as filhas e o **Y** para todos os filhos. Ele nunca passa o X para um filho homem.\n- O filho homem recebe o X da **mãe**.\n\nExemplo: mulher portadora (XᴰXᵈ) × homem normal (XᴰY).\n\n- Filhas: metade XᴰXᴰ e metade XᴰXᵈ (nenhuma daltônica, metade portadora).\n- Filhos: metade XᴰY e metade XᵈY (metade daltônicos).\n- De todos os filhos do casal (qualquer sexo), a chance de ser menino daltônico é 1/2 × 1/2 = **1/4**.\n\nCuidado com a pergunta: é entre os meninos (1/2) ou entre todos os filhos (1/4)?"
+  },
+  {
+   "titulo": "5. Alterações no número de cromossomos (aneuploidias)",
+   "texto": "A pessoa normal tem 46 cromossomos. Três casos caem:\n\n- **Síndrome de Down**: trissomia do cromossomo 21 (47 cromossomos).\n- **Síndrome de Turner**: 45 cromossomos, só um X (**X0**). É **mulher**.\n- **Síndrome de Klinefelter**: 47 cromossomos, **XXY**. É **homem**.\n\nQuem tem Y é homem, mesmo com X extra."
+  },
+  {
+   "titulo": "6. Biotecnologia: o que a prova pergunta",
+   "texto": "- **DNA recombinante (engenharia genética)**: o gene humano que codifica a **insulina** é inserido em uma bactéria (como *Escherichia coli*). A bactéria passa a fabricar insulina idêntica à humana, em grande escala, para tratar diabetes. A bactéria é unicelular. Organismo que recebe gene de outra espécie é **transgênico**.\n- **Enzimas de restrição (endonucleases)**: cortam o DNA em **pontos específicos**, gerando fragmentos de tamanhos diferentes.\n- **Eletroforese em gel**: separa esses fragmentos pelo **tamanho** (os menores correm mais longe no gel). O padrão de fragmentos é usado para identificar pessoas e em testes de paternidade.\n- **Biotecnologia tradicional**: já usava micro-organismos na produção de pão, vinho, queijo e iogurte (fermentações). A moderna usa o DNA.\n- **DNA antigo**: pode ser extraído até de materiais pequenos (já caiu o DNA do cimento de lêndeas de piolho, que revelou o hospedeiro de populações antigas)."
+  }
+ ],
+ "decorar": [
+  "Pais normais, filho afetado → recessivo, pais Aa. Pais afetados, filho normal → dominante, pais Aa.",
+  "Aa × Aa → 1/4 AA, 1/2 Aa, 1/4 aa (3 : 1). Cada filho é independente.",
+  "A: antígeno A, anti-B. B: antígeno B, anti-A. AB: A e B, sem anticorpo. O: nenhum antígeno, anti-A e anti-B.",
+  "O doa para todos. AB recebe de todos e só doa para AB.",
+  "Iᴬ e Iᴮ codominantes. O = ii.",
+  "Pai passa X às filhas e Y aos filhos. Filho recebe o X da mãe.",
+  "Down = trissomia 21. Turner = X0, mulher. Klinefelter = XXY, homem.",
+  "Enzima de restrição corta o DNA. Eletroforese separa os fragmentos por tamanho.",
+  "Insulina humana é feita por bactéria que recebeu o gene (DNA recombinante)."
+ ],
+ "pegadinhas": [
+  "Achar que o filho afetado de pais normais indica dominância. É recessivo.",
+  "Inverter o doador/receptor universal: O doa para todos, AB recebe de todos.",
+  "Trocar chance entre todos os filhos (1/4) pela chance entre os meninos (1/2).",
+  "Dizer que Turner é homem. X0 é mulher; Klinefelter (XXY) é homem.",
+  "Pensar que o filho anterior muda a probabilidade do próximo. Cada filho é um evento independente."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-1",
+   "n": 1,
+   "resolucao": "Pelo quadro: A tem anti-B, B tem anti-A, AB não tem anticorpo e O tem anti-A e anti-B. O sangue que entra não pode ter antígeno que o plasma do receptor ataque.\n\n- A) Errada: O tem anti-A e anti-B, então só pode receber de O.\n- B) Errada: AB não tem anticorpos, então pode receber de todos os tipos.\n- C) **Correta**: os antígenos A e B das hemácias de AB seriam atacados pelos anticorpos de A (anti-B), de B (anti-A) e de O (os dois). AB só doa para AB.\n- D) Errada: A tem antígeno A e B tem anti-A, então A não doa para B.\n- E) Errada: B não pode receber de AB (AB tem antígeno A e B tem anti-A).\n\nGabarito: **C**."
+  },
+  {
+   "prova": "2026-1",
+   "n": 3,
+   "resolucao": "No heredograma, o casal 1 e 2 é normal e tem a filha 4 afetada (círculo preenchido). Pais normais com filho afetado indica característica **recessiva** e pais **heterozigotos**.\n\n- A) Errada: o indivíduo 3 é normal, mas pode ser AA ou Aa (filha de dois Aa), então não é obrigatoriamente homozigoto.\n- B) **Correta**: 1 e 2 são heterozigotos.\n- C) Errada: não é dominante, porque pais normais tiveram filha afetada.\n- D) Errada: afetados em herança recessiva são homozigotos (aa).\n- E) Errada: pessoas sem a anomalia podem ser AA.\n\nGabarito: **B**."
+  },
+  {
+   "prova": "2019-2",
+   "n": 45,
+   "resolucao": "Na geração I, o pai (I-1) e a mãe (I-2) são afetados. Eles têm uma filha **normal** (II-2) e outros filhos afetados.\n\nPais afetados que têm filho normal indicam característica **dominante** e pais heterozigotos. Como uma **filha** de pai afetado está normal, não pode ser dominante ligada ao X (o pai passaria seu X dominante a todas as filhas). Então é **dominante autossômica**.\n\n- A) Errada: pais II-4 e II-5 (II-5 normal, II-4 afetada) têm filhas normais, o que não prova recessividade.\n- B) Errada: não sustenta recessivo.\n- C) Errada: Y só passa de pai para filho, e há mulheres afetadas.\n- D) **Correta**.\n- E) Errada: a filha II-2 é normal, contrariando a regra do ligado ao X dominante.\n\nGabarito: **D**."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Um casal de pele normal tem um filho albino. O albinismo é uma característica recessiva. O quadro mostra o cruzamento entre os pais, ambos heterozigotos (Aa). A probabilidade de que o próximo filho do casal seja albino é de",
+   "alternativas": ["0", "1/4", "1/2", "3/4", "1"],
+   "gabarito": "B",
+   "resolucao": "No quadro, só uma das quatro casas é aa (albino): **1/4**. O filho anterior não altera a probabilidade, porque cada nascimento é independente.",
+   "figura": {"lib": "tabela", "cabecalho": ["", "A", "a"], "linhas": [["A", "AA", "Aa"], ["a", "Aa", "aa"]]}
+  },
+  {
+   "enunciado": "Um homem do grupo sanguíneo A (genótipo IᴬI) casa-se com uma mulher do grupo B (genótipo IᴮI). A probabilidade de o casal ter um filho do grupo O é de",
+   "alternativas": ["0", "1/2", "3/4", "1/4", "1"],
+   "gabarito": "D",
+   "resolucao": "Filho O é ii. O pai passa i com probabilidade 1/2 e a mãe também. Os dois eventos acontecem juntos: 1/2 × 1/2 = **1/4**.",
+   "figura": null
+  },
+  {
+   "enunciado": "Uma mulher portadora de daltonismo (XᴰXᵈ) casa-se com um homem de visão normal. Entre os meninos desse casal, a probabilidade de um deles ser daltônico é de",
+   "alternativas": ["50%", "0%", "25%", "75%", "100%"],
+   "gabarito": "A",
+   "resolucao": "O menino recebe o Y do pai e um X da mãe. A mãe passa Xᴰ ou Xᵈ com chance 1/2 cada. Se recebe Xᵈ, ele é daltônico: **50%** entre os meninos. (Entre todos os filhos, a chance de ser menino daltônico seria 25%.)",
+   "figura": null
+  },
+  {
+   "enunciado": "Em um exame para identificação de pessoas, o DNA é cortado por enzimas de restrição e os fragmentos são colocados em um gel, onde migram sob corrente elétrica. Nesse procedimento, os fragmentos de DNA são separados de acordo com o seu",
+   "alternativas": ["cor, que depende do tipo de nucleotídeo.", "número de cromossomos de cada pessoa.", "tipo de enzima usada para a tradução.", "grupo sanguíneo de origem.", "tamanho, e os menores migram mais longe no gel."],
+   "gabarito": "E",
+   "resolucao": "A eletroforese em gel separa fragmentos pelo **tamanho**: os menores atravessam o gel com mais facilidade e chegam mais longe. O padrão de bandas serve para comparar pessoas.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um bebê é diagnosticado com apenas 45 cromossomos, sendo um único cromossomo sexual X e nenhum Y. Trata-se de uma pessoa com",
+   "alternativas": ["síndrome de Down, do sexo feminino.", "síndrome de Klinefelter, do sexo masculino.", "síndrome de Turner, do sexo feminino.", "síndrome de Turner, do sexo masculino.", "síndrome de Klinefelter, do sexo feminino."],
+   "gabarito": "C",
+   "resolucao": "Um X e nenhum Y (45,X0) é a síndrome de **Turner**, e a pessoa é do sexo **feminino** (sem Y). Down é trissomia do 21 e Klinefelter é XXY (masculino).",
+   "figura": null
+  }
+ ]
+}

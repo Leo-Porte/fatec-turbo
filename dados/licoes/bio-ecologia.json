@@ -1,0 +1,104 @@
+{
+ "id": "bio-ecologia",
+ "disciplina": "Biologia",
+ "tema": "Ecologia",
+ "titulo": "Ecologia",
+ "semana": 6,
+ "requisitos": ["bio-citologia"],
+ "minutos": 35,
+ "por_que": "Ecologia é o tema de Biologia que mais cai: 20 questões nas 15 provas. Aparece como cadeia alimentar, relações entre espécies, ciclo do nitrogênio, espécies invasoras, biodiversidade, poluição e sustentabilidade. A maioria pede raciocínio de causa e efeito em cima de um texto.",
+ "secoes": [
+  {
+   "titulo": "1. Cadeia alimentar e fluxo de energia",
+   "texto": "A cadeia mostra quem come quem. Cada degrau é um **nível trófico**:\n\n- **Produtor**: faz fotossíntese (plantas, algas). É a base e a porta de entrada da energia.\n- **Consumidor primário**: herbívoro (come o produtor).\n- **Consumidor secundário**: carnívoro que come o herbívoro.\n- **Consumidor terciário**: carnívoro que come o secundário.\n- **Decompositores** (fungos e bactérias): quebram a matéria orgânica morta e devolvem os nutrientes ao ambiente.\n\nExemplo: planta → gafanhoto → passarinho → gavião. Gafanhoto é consumidor primário, passarinho secundário, gavião terciário.\n\nA energia **só flui num sentido**, do sol para os produtores e deles para cima, e boa parte é perdida em cada nível, principalmente como calor. Por isso as cadeias são curtas e há menos indivíduos no topo.\n\nEfeito em cascata: se aumentam os gaviões, diminuem os passarinhos, aumentam os gafanhotos e diminuem as plantas. Raciocine uma seta por vez. Predadores também controlam a população das presas e mantêm o equilíbrio do ecossistema."
+  },
+  {
+   "titulo": "2. Relações ecológicas",
+   "texto": "Duas perguntas classificam qualquer relação: são da **mesma espécie** (intraespecífica) ou de espécies diferentes (interespecífica)? Os dois saem ganhando (+), um perde (−) ou é indiferente (0)?\n\n**Harmônicas** (ninguém é prejudicado):\n\n- **Mutualismo** (+/+): os dois dependem da relação. Líquen (alga + fungo), **micorriza** (fungo + raiz: o fungo aumenta a absorção de minerais e recebe compostos orgânicos), *Rhizobium* + leguminosa.\n- **Protocooperação** (+/+): os dois ganham, mas podem viver separados.\n- **Comensalismo** (+/0): um se beneficia sem prejudicar o outro.\n\n**Desarmônicas**:\n\n- **Predação** (+/−): um mata e come o outro.\n- **Parasitismo** (+/−): vive à custa do hospedeiro sem matá-lo logo.\n- **Competição** (−/−): disputam o mesmo recurso.\n\n**Intraespecíficas**: sociedades (cooperação entre indivíduos da mesma espécie, como abelhas e formigas) são harmônicas, e a competição dentro da espécie é desarmônica.\n\nUma consequência prática: **plantas da mesma espécie distantes** dificultam o ataque de pragas específicas dessa espécie."
+  },
+  {
+   "titulo": "3. Ciclos da matéria: nitrogênio e carbono",
+   "texto": "**Nitrogênio.** O ar tem cerca de 78% de N₂, mas as plantas **não conseguem usar N₂**. Quem converte é um grupo de bactérias:\n\n- **Fixação biológica do nitrogênio (FBN)**: bactérias como o *Rhizobium* vivem em **nódulos nas raízes de leguminosas** (feijão, soja) e transformam N₂ em compostos nitrogenados que a planta aproveita. A planta devolve matéria orgânica da fotossíntese. É mutualismo.\n- Resultado: leguminosas enriquecem o solo (**adubação verde**), reduzindo adubo químico e a poluição que ele causa.\n\n**Carbono.** A fotossíntese **retira** CO₂ do ar. Respiração, decomposição, queimadas e combustão de combustíveis **devolvem** CO₂. O excesso de CO₂ (e de outros gases, como o metano) reforça o **efeito estufa** e contribui para as mudanças climáticas."
+  },
+  {
+   "titulo": "4. Desequilíbrios e impactos ambientais",
+   "texto": "- **Espécie exótica invasora**: foi introduzida fora de sua área, não tem predador natural, se reproduz muito e se adapta bem. Resultado: desequilíbrio, competição com as nativas. O javali no Brasil é o exemplo que caiu em 2026.\n- **Ameaças à biodiversidade**: desmatamento, tráfico de animais, retirada ilegal de madeira, mudanças climáticas. A **biopirataria** (apropriação ilegal de recursos genéticos e do conhecimento tradicional) reduz a biodiversidade.\n- **Eutrofização**: esgoto e adubo despejados num lago fornecem nutrientes em excesso, as algas se multiplicam, depois morrem e a decomposição consome o oxigênio da água. Peixes morrem por falta de O₂. Sem saneamento também aumentam as doenças (veja a lição de doenças).\n- **Plástico nos oceanos**: bloqueia o trato digestório da fauna marinha, prejudica a reprodução e leva poluentes pela cadeia alimentar. O plástico resiste à biodegradação.\n- **Acúmulo ao longo da cadeia**: substâncias que não são eliminadas, como metais pesados, se concentram mais nos organismos do **topo da cadeia**.\n- **Controle biológico**: usar um organismo (predador, fungo) para reduzir uma praga, sem agrotóxico."
+  },
+  {
+   "titulo": "5. Sustentabilidade e eventos ambientais",
+   "texto": "- **Desenvolvimento sustentável**: atender às necessidades de hoje sem comprometer as das gerações futuras. Sistemas agroflorestais são um exemplo.\n- **Eco-92 (Rio-92)**: conferência da ONU que gerou a **Agenda 21**, programa para o desenvolvimento sustentável no século XXI.\n- **Algas** na alimentação: são produtoras, fazem fotossíntese e absorvem nutrientes da água, sem precisar de terra fértil nem fertilizante.\n- **Pantanal**: maior planície alagável do planeta, com fauna rica (peixes, aves, jacarés, capivaras, onças) e vegetação mista. Detalhes de biomas ficam na lição de Geografia."
+  }
+ ],
+ "decorar": [
+  "Produtor → consumidor 1º (herbívoro) → 2º → 3º. Decompositor: fungos e bactérias.",
+  "Energia flui em um sentido e é perdida (calor) a cada nível.",
+  "Mutualismo: +/+ obrigatório. Predação e parasitismo: +/−. Competição: −/−.",
+  "Micorriza = mutualismo (fungo + raiz). Rhizobium + leguminosa = mutualismo.",
+  "Plantas não usam N₂. Bactérias fixadoras (Rhizobium, nódulos de leguminosas) o convertem em compostos nitrogenados.",
+  "Fotossíntese retira CO₂. Respiração, decomposição e queima devolvem.",
+  "Espécie exótica invasora: sem predador, reprodução alta, desequilíbrio.",
+  "Eutrofização: excesso de nutrientes → algas → decomposição consome O₂.",
+  "Eco-92 → Agenda 21. Desenvolvimento sustentável: pensar nas gerações futuras."
+ ],
+ "pegadinhas": [
+  "Contar o herbívoro como consumidor secundário. Ele é primário.",
+  "Esquecer o efeito em cascata: raciocine uma seta de cada vez, sem pular nível.",
+  "Confundir mutualismo (obrigatório) com protocooperação (facultativa), e parasitismo com predação.",
+  "Dizer que o decompositor produz carboidrato. Ele devolve nutrientes ao ambiente.",
+  "Achar que o plástico, ou uma espécie exótica, traz algum benefício ao ambiente. A prova sempre vai pelo impacto negativo."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-2",
+   "n": 5,
+   "resolucao": "O enunciado descreve o javali como espécie **exótica invasora**: agressivo, fácil de adaptar, reprodução descontrolada e sem predadores naturais, com impactos no ambiente. Então o que é verdadeiro é o que o próprio texto diz: **alta taxa reprodutiva e grande adaptabilidade**.\n\nAs outras alternativas atribuem benefícios que o texto não sustenta: reduzir erosão, ajudar a criação de bois, controlar lagartas ou dispersar árvores raras. O texto fala em impactos negativos.\n\nGabarito: **E**."
+  },
+  {
+   "prova": "2019-2",
+   "n": 49,
+   "resolucao": "A cadeia é planta → gafanhoto → passarinho → gavião.\n\n- A) Errada: passarinho come gafanhoto (herbívoro), então é consumidor **secundário**.\n- B) **Correta**: mais gaviões → menos passarinhos → mais gafanhotos → menos plantas.\n- C) Errada: gafanhoto não fixa nitrogênio, quem faz isso são bactérias.\n- D) Errada: menos passarinhos significa menos predadores, e os gafanhotos aumentam.\n- E) Errada: bactérias decompõem a matéria orgânica, devolvendo nutrientes, e não produzem carboidratos.\n\nGabarito: **B**."
+  },
+  {
+   "prova": "2025-2",
+   "n": 7,
+   "resolucao": "FBN é a fixação biológica do nitrogênio. As bactérias (*Rhizobium*) vivem nos nódulos das raízes das leguminosas, **convertem N₂ do ar em compostos nitrogenados** que a planta assimila e recebem em troca matéria orgânica da fotossíntese (mutualismo).\n\n- A) Errada: não é decomposição.\n- B) Errada: não transformam nitratos em carboidratos.\n- C) Errada: não corrigem acidez do solo.\n- D) Errada: não reduzem a capacidade das raízes, e sódio e potássio são nutrientes.\n- E) **Correta**.\n\nGabarito: **E**."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Em uma lagoa, a cadeia alimentar é: capim → gafanhoto → sapo → cobra. Considerando essa cadeia, é correto afirmar que",
+   "alternativas": ["a cobra é consumidora primária.", "o capim é decompositor.", "o gafanhoto é consumidor secundário.", "o sapo é produtor.", "a redução na população de sapos tende a aumentar a de gafanhotos."],
+   "gabarito": "E",
+   "resolucao": "Menos sapos significa menos predadores de gafanhotos, então os gafanhotos tendem a aumentar. O capim é produtor, o gafanhoto é consumidor primário, o sapo é secundário e a cobra, terciária.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um líquen é formado por uma alga e um fungo. A alga faz fotossíntese e fornece matéria orgânica ao fungo, que oferece proteção e retém água. A relação entre eles é um exemplo de",
+   "alternativas": ["parasitismo.", "comensalismo.", "mutualismo.", "competição.", "predação."],
+   "gabarito": "C",
+   "resolucao": "Os dois organismos se beneficiam e dependem da associação: **mutualismo**. Em parasitismo e predação um sai prejudicado, e em comensalismo só um ganha.",
+   "figura": null
+  },
+  {
+   "enunciado": "Esgoto não tratado foi lançado em um lago. Algumas semanas depois, a água ficou esverdeada por excesso de algas e, em seguida, muitos peixes morreram. Isso aconteceu porque",
+   "alternativas": ["a decomposição da matéria orgânica por micro-organismos consumiu o oxigênio dissolvido na água.", "o excesso de nutrientes aumentou a quantidade de oxigênio, que é tóxico para os peixes.", "a água esverdeada passou a receber mais luz, o que mata os peixes.", "faltaram nutrientes para as algas, que morreram e liberaram toxinas.", "os peixes passaram a fazer fotossíntese e a consumir todo o gás carbônico."],
+   "gabarito": "A",
+   "resolucao": "É a eutrofização: o esgoto traz muitos nutrientes, as algas se multiplicam e depois morrem. A decomposição dessa matéria orgânica por micro-organismos **consome o oxigênio** da água, e os peixes morrem por falta dele.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um metal pesado, que o organismo não consegue eliminar, é despejado em um lago. Ao longo do tempo, a maior concentração desse metal tende a ser encontrada",
+   "alternativas": ["nas algas, que são produtoras.", "no plâncton, que está na base da cadeia.", "nos decompositores, que se alimentam de matéria morta.", "nos peixes predadores que estão no topo da cadeia alimentar.", "na água, igualmente distribuída."],
+   "gabarito": "D",
+   "resolucao": "Substâncias que não são eliminadas se acumulam nos tecidos e passam de presa a predador, concentrando-se mais **no topo da cadeia**, nos peixes predadores.",
+   "figura": null
+  },
+  {
+   "enunciado": "Entre os processos abaixo, aquele que retira gás carbônico da atmosfera e o incorpora à matéria orgânica é",
+   "alternativas": ["a respiração celular.", "a fotossíntese.", "a decomposição de restos de animais.", "a queima de combustíveis fósseis.", "as queimadas florestais."],
+   "gabarito": "B",
+   "resolucao": "A **fotossíntese** usa CO₂, água e luz para formar glicose. Respiração, decomposição, queima de combustíveis e queimadas **liberam** CO₂.",
+   "figura": null
+  }
+ ]
+}

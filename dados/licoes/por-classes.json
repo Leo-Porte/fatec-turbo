@@ -1,0 +1,132 @@
+{
+ "id": "por-classes",
+ "disciplina": "Português",
+ "tema": "Gramática – morfologia/classes",
+ "titulo": "Classes de palavras e morfologia",
+ "semana": 7,
+ "requisitos": [],
+ "minutos": 30,
+ "por_que": "Morfologia e classes de palavras caíram 11 vezes nas 15 provas, quase sempre em Português, em formato de texto curto com palavras destacadas em negrito: \"classifique o termo destacado\" (que, portanto, pra, a), pronome oblíquo, formação de palavras, tempos e modos verbais.",
+ "secoes": [
+  {
+   "titulo": "1. Classificar a palavra destacada: o que mais cai",
+   "texto": "A pergunta clássica é: \"qual a classe da palavra em negrito?\". A palavra sozinha não decide; **a função na frase decide**. Faça duas perguntas: o que ela liga? o que ela substitui ou modifica?\n\n**\"Que\"** é o campeão:\n- **Pronome relativo**: retoma um termo anterior (o antecedente) e pode ser trocado por \"o qual\". \"As mulheres **que** exercem a atividade...\" (que = as mulheres).\n- **Conjunção integrante**: introduz uma oração que completa o verbo e não retoma nada. \"Ele disse **que** viria.\" Teste: não dá para trocar por \"o qual\".\n- **Conjunção comparativa**: depois de mais/menos/maior. \"Mais alto **que** o irmão.\"\n\n**\"Se\"**: conjunção condicional (\"**Se** tem pressão, não desenvolve\"), integrante (\"não sei **se** ele vem\") ou pronome (reflexivo ou apassivador).\n\n**\"Como\"**: conjunção comparativa (\"**como** flor é pra florir\") ou causal (\"**como** chovia, não saí\"); conforme o contexto, equivale a \"assim como\", \"conforme\" ou \"porque\"."
+  },
+  {
+   "titulo": "2. Conjunções e preposições (liga as palavras e dá o sentido)",
+   "texto": "Preposição liga **termos**; conjunção liga **orações** (ou termos de mesma função).\n\n**Preposições** que caem: a, de, em, com, para/pra, por, sem. O sentido muda com a preposição: \"com\" indica instrumento, matéria ou companhia; \"em\" indica lugar ou tempo; **\"pra\"** (informal) = para, e com infinitivo vira finalidade (\"pra ser um adulto\" = a fim de ser). Regência nominal: \"correspondentes **a**\", a preposição é pedida pela palavra.\n\n**Conjunções coordenativas** (ligam orações independentes), com o sentido de cada uma:\n- aditiva: e, nem\n- adversativa: mas, porém, contudo, todavia, entretanto\n- alternativa: ou, ora... ora\n- **conclusiva**: logo, portanto, por isso, então, pois (depois do verbo)\n- explicativa: pois (antes do verbo), porque, que\n\n**Portanto** é conjunção conclusiva: \"O extrativismo é, **portanto**, elemento fundamental...\" = então, logo, por isso. A coesão e as subordinativas (causal, concessiva, finalidade) são tema da lição de Coesão."
+  },
+  {
+   "titulo": "3. Pronomes: oblíquo átono e pronome relativo",
+   "texto": "O pronome oblíquo átono (o, a, os, as, lhe, me, se...) **retoma um termo que já apareceu** e mostra como a coesão funciona. Quem é retomado? **O termo que o verbo completa**, geralmente o mais próximo de sentido: \"deve salvaguardar a natureza, **restaurá-la** e investir nela\" → \"la\" = a natureza.\n\nForma do pronome conforme a terminação do verbo:\n- verbo termina em **r, s ou z**: o/a/os/as viram **lo, la, los, las** (restaurar + a → restaurá-la; fiz + o → fi-lo).\n- verbo termina em **som nasal (am, em, ão, õe)**: o/a/os/as viram **no, na, nos, nas** (encontraram + as → encontraram-nas; põe + o → põe-no).\n- outros casos: o, a, os, as (comprei + o → comprei-o).\n\n**Lhe** substitui complemento com preposição \"a\" (entreguei **a ele** → entreguei-**lhe**), nunca o direto."
+  },
+  {
+   "titulo": "4. Verbos: tempo, modo e imperativo",
+   "texto": "Em Fatec cai, com frequência, \"transponha para...\" e \"complete com o verbo adequado\".\n\n**Imperativo afirmativo**: tu → tira o \"s\" do presente do indicativo (tu vais → **vai**). Você → presente do subjuntivo (**vá**). Vós → tira o \"s\" da 2ª pessoa do plural do presente (vós ides → **ide**). Nós → **vamos**. O verbo **ir** é irregular: vai, vá, vamos, ide, vão. \"Senhoras guerreiras, vão à luta\" no imperativo de vós = \"**ide** à luta\".\n\n**Correlação de tempos**: o verbo da oração subordinada acompanha o tempo da principal. Principal no pretérito (perfeito ou imperfeito) pede subjuntivo imperfeito: \"Ele leu o texto para que todos **pudessem** entender\". Principal no presente pede subjuntivo presente: \"Ele lê o texto para que todos **possam** entender\".\n\n**Presente histórico**: verbo no presente para narrar fato passado, aproximando a ação do leitor (efeito de ver a cena acontecer)."
+  },
+  {
+   "titulo": "5. Formação de palavras",
+   "texto": "A pergunta é: de onde vem a palavra?\n\n- **Derivação prefixal**: prefixo + palavra. O prefixo **des-** indica negação ou oposição (despreparado = não preparado; desabrigo = sem abrigo). Outros: in-/im- (negação), re- (repetição), anti- (contra).\n- **Derivação sufixal**: palavra + sufixo. leal → lealdade.\n- **Prefixal e sufixal**: as duas coisas, mas cada uma pode ser tirada sozinha (desconstrução: des- + construir + -ção).\n- **Derivação regressiva**: o **verbo** perde a terminação e vira substantivo (atacar → **ataque**, desmanchar → **desmanche**). Dica: o substantivo vem do verbo e é mais curto.\n- **Composição por justaposição**: duas palavras unidas sem alterar (guarda-chuva, pontapé).\n- **Composição por aglutinação**: unidas com perda de som (plano + alto → planalto).\n- **Parassíntese**: prefixo e sufixo juntos que não funcionam separados (entardecer: não existe \"entarde\" nem \"ardecer\")."
+  }
+ ],
+ "decorar": [
+  "Que relativo = retoma antecedente (dá para trocar por \"o qual\"); que integrante = completa o verbo, não retoma.",
+  "Portanto, logo, por isso = conjunção conclusiva.",
+  "Pra = para: finalidade (a fim de) quando vem com infinitivo.",
+  "Verbo em r/s/z: lo, la, los, las. Terminação nasal: no, na, nos, nas.",
+  "Imperativo de ir: vai (tu), vá (você), vamos (nós), ide (vós), vão (vocês).",
+  "Prefixo des- = negação ou oposição.",
+  "Derivação regressiva: verbo → substantivo sem a terminação (atacar → ataque)."
+ ],
+ "pegadinhas": [
+  "Classificar \"que\" sempre como pronome relativo: se não houver antecedente a retomar, é conjunção integrante.",
+  "Trocar a forma do pronome: \"restaurá-las\" para \"a natureza\" (singular) está errado; \"restaurá-la\" é o certo.",
+  "Confundir derivação regressiva com sufixal: na regressiva a palavra fica **menor**.",
+  "Ler \"pois\" como explicativo quando vem depois do verbo (valor conclusivo).",
+  "Em \"no imperativo, 2ª pessoa do plural\" usar a forma de \"vocês\" (vão/venham) em vez de vós (ide)."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2025-2",
+   "n": 2,
+   "resolucao": "O texto trazia termos em negrito: \"significativamente\", \"princípios-chave\", \"mesma\", \"que\" (as mulheres **que** exercem...) e \"portanto\".\n\n- (A) \"significativamente\" é **advérbio** (modifica o verbo \"reduzindo\"), não substantivo.\n- (B) \"princípios-chave\" é substantivo composto em que \"chave\" funciona como aposto e fica invariável; o plural está correto, então dizer que está incorreto é falso.\n- (C) \"mesma\" em \"a mesma qualidade de vida\" é adjetivo (igual); não retoma \"equidade\".\n- (D) \"que\" em \"mulheres que exercem a atividade\" é pronome relativo, mas o antecedente é \"mulheres\", não \"grupo\".\n- (E) \"portanto\" = conjunção conclusiva (então, logo). Correta.\n\n**Gabarito E**, igual ao CSV."
+  },
+  {
+   "prova": "2025-2",
+   "n": 51,
+   "resolucao": "O texto é uma charge: a placa \"Prevenidos\" aponta para uma sala e \"Despreparados\" para as outras 99. Em **des-preparado** o prefixo **des-** indica **negação** (despreparado = não preparado).\n\nProcure outra palavra em que \"des-\" é prefixo de negação ou oposição:\n- (A) apático: a- (negação) + pathos; é prefixo **a-**, não des-.\n- (B) diálogo: prefixo **dia-** (através de).\n- (C) alinhado: **a-** + linha + sufixo; sem \"des\".\n- (D) **des**abrigo: des- + abrigo = sem abrigo. Mesmo prefixo.\n- (E) denunciado: **de-** (anunciar), não \"des\".\n\nCuidado: o teste não é a sequência de letras, mas se o pedaço **funciona como prefixo** (denunciado tem \"de\" mas não tem \"des\"). **Gabarito D**, igual ao CSV."
+  },
+  {
+   "prova": "2025-2",
+   "n": 48,
+   "resolucao": "O verso é \"Senhoras guerreiras, vão à luta\". Pede-se a forma do **imperativo afirmativo, 2ª pessoa do plural (vós)**.\n\nPresente do indicativo de ir: eu vou, tu vais, ele vai, nós vamos, **vós ides**, eles vão. Tirando o \"s\", vós ides → **ide**.\n\n- (A) vá = você; (B) vai = tu; (D) vamos = nós; (E) venham = verbo vir.\n\n**Gabarito C**, igual ao CSV."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Em qual das frases a palavra “que” é conjunção integrante?",
+   "alternativas": [
+    "A casa que visitamos é antiga.",
+    "Todos souberam que o evento foi cancelado.",
+    "O aluno que faltou fará a prova depois.",
+    "Os livros que você pediu chegaram.",
+    "O remédio que ela tomou é forte."
+   ],
+   "gabarito": "B",
+   "resolucao": "Em (B), \"que\" introduz a oração que completa o verbo \"souberam\" (souberam o quê?) e não retoma nenhum termo: **conjunção integrante**. Em A, C, D e E, \"que\" retoma um antecedente (casa, aluno, livros, remédio) e pode ser trocado por \"o qual\": pronome relativo.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia a frase.\n\n“A equipe treinou muito, mas perdeu a final.”\n\nA conjunção “mas” expressa ideia de",
+   "alternativas": [
+    "adição.",
+    "causa.",
+    "conclusão.",
+    "oposição.",
+    "finalidade."
+   ],
+   "gabarito": "D",
+   "resolucao": "\"Mas\" é conjunção coordenativa **adversativa**: liga duas ideias que se opõem (treinar muito faria esperar vitória, mas houve derrota). Adição seria \"e\"; conclusão, \"portanto\"; causa e finalidade são subordinadas.",
+   "figura": null
+  },
+  {
+   "enunciado": "Em qual alternativa a palavra foi formada por derivação regressiva?",
+   "alternativas": [
+    "o ataque (de atacar)",
+    "desigual",
+    "guarda-chuva",
+    "lealdade",
+    "planalto"
+   ],
+   "gabarito": "A",
+   "resolucao": "\"Ataque\" vem do verbo atacar, que perdeu a terminação: derivação **regressiva** (verbo → substantivo). \"Desigual\" é prefixal; \"guarda-chuva\" é composição por justaposição; \"lealdade\" é sufixal (leal + -dade); \"planalto\" é composição por aglutinação (plano + alto, com perda do \"o\").",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia a frase.\n\n“Os fiscais encontraram as fraudes.”\n\nSubstituindo “as fraudes” por pronome oblíquo, de acordo com a norma-padrão, tem-se:",
+   "alternativas": [
+    "Os fiscais encontraram-las.",
+    "Os fiscais encontraram-as.",
+    "Os fiscais encontraram-lhes.",
+    "Os fiscais encontrou-nas.",
+    "Os fiscais encontraram-nas."
+   ],
+   "gabarito": "E",
+   "resolucao": "O verbo termina em som nasal (-am); por isso o pronome \"as\" vira **-nas**: encontraram-nas. \"-las\" só aparece após verbo terminado em r, s ou z (A). \"Encontraram-as\" (B) não faz o ajuste. \"Lhes\" (C) substitui complemento com \"a\", não o direto. \"Encontrou\" (D) deixa o verbo no singular e o sujeito é plural.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia a frase.\n\n“As meninas ficaram meio nervosas.”\n\nA palavra “meio” é, nessa frase,",
+   "alternativas": [
+    "adjetivo, e por isso deveria concordar com “meninas” (meias).",
+    "substantivo, pois indica o ponto central de alguma coisa.",
+    "advérbio de intensidade, equivalente a “um pouco”, e por isso invariável.",
+    "numeral fracionário, indicando metade de algo.",
+    "preposição que liga “ficaram” a “nervosas”."
+   ],
+   "gabarito": "C",
+   "resolucao": "\"Meio\" modifica o adjetivo \"nervosas\" e dá a ideia de \"um pouco\": é **advérbio de intensidade**, e advérbio não varia. Por isso \"meio nervosas\" está correto, e \"meias nervosas\" estaria errado. Numeral seria \"meia pizza\"; substantivo, \"no meio da rua\".",
+   "figura": null
+  }
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "id": "red-pratica",
+ "disciplina": "Redação",
+ "tema": "Redação",
+ "titulo": "Redação: da proposta ao texto em 1 hora",
+ "semana": 7,
+ "requisitos": [
+  "red-repertorio"
+ ],
+ "minutos": 35,
+ "por_que": "A redação vale 20% da nota e as 15 provas anteriores trouxeram sempre um tema social ou de atualidade. Quem treina com relógio chega ao dia da prova com um roteiro de 1 hora, sem travar na folha em branco e sem cair nas causas de nota zero.",
+ "secoes": [
+  {
+   "titulo": "1. O relógio: 60 minutos, quatro blocos",
+   "texto": "Um roteiro simples, para treinar e usar na prova:\n\n- **10 min: planejar.** Leia a proposta e a coletânea, **sublinhe a pergunta do tema**, escreva a tese em uma frase e anote 2 argumentos com 1 repertório cada, mais o esboço da proposta (quem, o quê, como, para quê).\n- **25 min: escrever o rascunho.** Siga o esqueleto: introdução, 2 desenvolvimentos, conclusão. Escreva limpo, já pensando em ser o texto final.\n- **10 min: revisar.** Releia em voz baixa, na ordem do item 4.\n- **15 min: passar a limpo** para a Folha de Redação, com caneta preta ou azul, letra legível e respeitando o espaço reservado.\n\nSe o relógio apertar, **corte o tamanho do texto, não o planejamento**. Texto curto com tese e proposta bem feitas rende mais que texto longo desgovernado (lembre: 5 linhas ou menos zera, então não abra mão de um mínimo decente).\n\nNa prova, confira o limite de linhas e as instruções na própria folha e no edital da edição."
+  },
+  {
+   "titulo": "2. Planejamento em 10 minutos: a ficha",
+   "texto": "Antes de escrever uma linha, preencha uma ficha mental (ou no rascunho) com cinco itens:\n\n- **Pergunta do tema**, copiada com suas palavras. (\"Como combater a insegurança alimentar?\")\n- **Tese**: sua resposta em uma frase. (\"A insegurança alimentar persiste porque o alimento é abundante, mas mal distribuído.\")\n- **Argumento 1** + repertório.\n- **Argumento 2** + repertório.\n- **Proposta**: quem, o quê, como, para quê.\n\nTransformar a pergunta em tese é o truque: \"Qual o papel da escola...?\" vira \"A escola deve formar para o trabalho sem abrir mão da cidadania\". Se a pergunta do tema é um \"como\", os argumentos podem ser as **causas do problema** e a conclusão traz as **soluções**.\n\nA coletânea serve para entender o tema e achar ideias. Não copie trecho dela."
+  },
+  {
+   "titulo": "3. Checklist anti-nota-zero",
+   "texto": "Passe por estes itens **antes de passar a limpo**:\n\n- O texto responde **ao tema** e está no **gênero** pedido (dissertativo-argumentativo)?\n- Tem **mais de 5 linhas** (sem contar o título)?\n- Está escrito em **português** e em **prosa** (nunca em versos ou lista)?\n- **Não há nome, rubrica, assinatura, sinal ou marca** que identifique você? (Nem \"Atenciosamente\", nem cidade e data no fim, nem desenho.)\n- Não é **cópia** de trechos da coletânea?\n- A letra será **legível** e o texto final ficará **dentro do espaço reservado**?\n- Não defende **violência, discriminação ou desrespeito a direitos humanos**?\n\nE para não ficar com nota **limitada a 50**:\n\n- Tem **título** (a falta reduz a nota)?\n- Cada parágrafo **volta ao tema** (nada de hipertrofia do exemplo)?\n- O tema é **aprofundado**, e não só tocado de leve (tangenciamento)?"
+  },
+  {
+   "titulo": "4. Revisão em 10 minutos: do que pesa mais ao que pesa menos",
+   "texto": "Revisar tudo ao mesmo tempo não funciona. Faça em **camadas**, nessa ordem:\n\n- **Camada 1, tema e tese (2 min):** a pergunta está respondida? A tese está clara na introdução e retomada na conclusão?\n- **Camada 2, estrutura e argumentos (3 min):** cada desenvolvimento tem ideia, repertório e elo? A conclusão tem proposta com quem, o quê, como e para quê? Não surgiu argumento novo na conclusão?\n- **Camada 3, coesão (2 min):** os conectivos fazem sentido (oposição, causa, conclusão)? Os parágrafos começam com marcadores (em primeiro lugar, ademais, por fim)?\n- **Camada 4, gramática (3 min):** concordância, crase, vírgulas, grafia, acentuação. Leia de trás para frente, frase por frase, para achar erro de grafia.\n\nSe você não tem tempo para tudo, **fique com as camadas 1 e 2**, que decidem se o texto pontua. Um erro de vírgula custa menos que uma tese ausente."
+  },
+  {
+   "titulo": "5. Redação comentada: tema 2019/1",
+   "texto": "Tema: **\"Qual o papel da escola na formação do jovem para o mercado de trabalho do século XXI?\"**\n\nTexto escrito para estudo (modelo, não cópia):\n\n> **Escola: formar para o trabalho e para a vida**\n>\n> A Constituição Federal de 1988 estabelece, no artigo 205, que a educação deve visar ao pleno desenvolvimento da pessoa, ao preparo para a cidadania e à qualificação para o trabalho. Entretanto, no século XXI, em que as profissões mudam com rapidez, muitos jovens saem da escola sem saber como aplicar o que aprenderam. Nesse sentido, a escola deve preparar o jovem para o mercado de trabalho sem abandonar a formação cidadã, pois precisa desenvolver tanto habilidades práticas quanto a capacidade crítica e de aprender continuamente.\n>\n> Em primeiro lugar, o mercado atual exige que o profissional aprenda ao longo da vida. Com a automação e a Quarta Revolução Industrial, descrita por Klaus Schwab, tarefas repetitivas passam a ser feitas por máquinas, enquanto crescem as funções que pedem criatividade e capacidade de resolver problemas. Dessa forma, uma escola que apenas faz o aluno memorizar conteúdos o deixa despreparado, ao passo que projetos, pesquisas e trabalhos em grupo treinam justamente o que as empresas procuram.\n>\n> Em segundo lugar, formar para o trabalho não significa formar apenas mão de obra. Paulo Freire criticou a chamada \"educação bancária\", na qual o aluno só recebe informações depositadas pelo professor. Ao contrário, o jovem que aprende a questionar e a argumentar também sabe reconhecer seus direitos trabalhistas e escolher com autonomia a sua carreira. Assim, a formação cidadã é parte do preparo profissional, e não um obstáculo a ele.\n>\n> Portanto, cabe ao Ministério da Educação, em parceria com as secretarias estaduais e as escolas técnicas, ampliar projetos de aprendizagem prática e de orientação profissional no ensino médio, por meio de estágios supervisionados e de visitas a empresas, a fim de que o jovem conclua a escola preparado para trabalhar e para exercer a cidadania.\n\nComo ler esse texto:\n\n- **Título**: curto, ligado ao tema, não copia a pergunta.\n- **Introdução**: contexto (art. 205) → problema (jovens saem sem saber aplicar) → **tese** (\"a escola deve preparar para o mercado sem abandonar a formação cidadã\") → razões anunciadas (habilidades práticas e capacidade crítica).\n- **1º desenvolvimento**: ideia (aprender ao longo da vida) → repertório (Quarta Revolução Industrial, Schwab) → elo (\"dessa forma\", memorizar não basta; projetos treinam o que o mercado procura). O repertório ocupa duas linhas; o resto volta ao tema.\n- **2º desenvolvimento**: ideia (formar para o trabalho não é formar só mão de obra) → repertório (Paulo Freire, educação bancária) → elo (\"assim\", cidadania faz parte do preparo profissional).\n- **Conclusão**: retoma a tese e traz a proposta completa: **quem** (MEC com secretarias e escolas técnicas), **o quê** (ampliar projetos de aprendizagem prática e orientação profissional), **como** (estágios supervisionados e visitas) e **para quê** (jovem preparado para trabalhar e exercer a cidadania).\n- **Coesão**: entretanto, nesse sentido, pois, em primeiro lugar, dessa forma, ao passo que, em segundo lugar, ao contrário, assim, portanto, a fim de que. Cada um liga ideias de um jeito diferente.\n- **Pontos que um corretor aprovaria**: posicionamento claro, os dois argumentos sustentados por repertório real, proposta detalhada, sem argumento novo na conclusão, sem identificação."
+  },
+  {
+   "titulo": "6. Como treinar nas próximas semanas",
+   "texto": "- **Primeira semana de treino**: faça duas redações completas, com 1 hora no relógio, em temas do banco (por exemplo 2023/2 e 2026/1). Não consulte nada.\n- **Depois de cada uma**: confira o checklist do item 3 e marque o que faltou. Se faltou tese, repertório ou proposta, refaça só aquele parágrafo.\n- **Troque de tema, não de método**: o esqueleto de 4 parágrafos e a ficha do item 2 não mudam.\n- **Monte o caderno de repertórios** (lição anterior): para cada um, escreva uma linha com \"o que prova\" e uma frase pronta de elo.\n- **Meta realista**: terminar 3 a 6 redações dos 15 temas antigos até a semana da prova, e treinar a passada a limpo com caneta pelo menos uma vez.\n\nNenhum desses treinos precisa de outra pessoa corrigindo para valer a pena: o checklist funciona como corretor."
+  }
+ ],
+ "decorar": [
+  "Relógio de 60 min: 10 planejar, 25 rascunho, 10 revisar, 15 passar a limpo",
+  "Ficha: pergunta do tema, tese, argumento 1 + repertório, argumento 2 + repertório, proposta",
+  "Anti-zero: tema e gênero, mais de 5 linhas, português, sem identificação, sem cópia, letra legível, dentro do espaço",
+  "Título obrigatório; cada parágrafo volta ao tema",
+  "Revisão em camadas: tema e tese → estrutura → coesão → gramática",
+  "Proposta: quem + o quê + como + para quê",
+  "Se o tempo apertar: encurte o texto, não o planejamento"
+ ],
+ "pegadinhas": [
+  "Assinar, escrever \"Atenciosamente\" ou colocar cidade e data no fim: é identificação e pode zerar.",
+  "Começar a escrever sem planejar e descobrir no segundo parágrafo que não tem tese.",
+  "Gastar 40 minutos no rascunho e não ter tempo de passar a limpo.",
+  "Revisar só vírgula e ortografia e deixar passar fuga do tema.",
+  "Copiar trecho da coletânea: cópia não conta como ideia própria.",
+  "Escrever a redação em versos, em lista ou com desenhos."
+ ],
+ "resolvidas": [],
+ "exercicios": [
+  {
+   "enunciado": "Em um roteiro de 1 hora para a redação, a divisão de tempo mais equilibrada entre planejar, escrever o rascunho, revisar e passar a limpo é",
+   "alternativas": [
+    "2 min, 50 min, 3 min e 5 min.",
+    "10 min, 25 min, 10 min e 15 min.",
+    "30 min, 10 min, 10 min e 10 min.",
+    "5 min, 5 min, 5 min e 45 min.",
+    "0 min, 40 min, 0 min e 20 min."
+   ],
+   "gabarito": "B",
+   "resolucao": "Planejar 10, rascunhar 25, revisar 10 e passar a limpo 15 equilibra as etapas. Pouco planejamento (A, D, E) leva a texto sem tese; pouco tempo de revisão e de passar a limpo põe em risco legibilidade e correção gramatical. C gasta tempo demais pensando e quase nenhum escrevendo.",
+   "figura": null
+  },
+  {
+   "enunciado": "Segundo os critérios oficiais, qual das situações a seguir pode levar a redação à nota zero?",
+   "alternativas": [
+    "Esquecer uma vírgula em duas frases.",
+    "Usar um conectivo repetido no texto.",
+    "Deixar a conclusão sem a proposta de solução.",
+    "Assinar o próprio nome no final do texto.",
+    "Escrever um parágrafo mais curto que os outros."
+   ],
+   "gabarito": "D",
+   "resolucao": "Nome, rubrica, assinatura, sinal ou marca que identifique o candidato zera a redação. As demais falhas (vírgula, conectivo repetido, proposta incompleta, parágrafo curto) apenas reduzem a nota dentro dos critérios de gramática e de desenvolvimento do conteúdo.",
+   "figura": null
+  },
+  {
+   "enunciado": "Na etapa de revisão, com poucos minutos, a ordem mais eficiente de conferência é",
+   "alternativas": [
+    "tema e tese; estrutura e argumentos; conectivos; gramática e grafia.",
+    "grafia; vírgulas; conectivos; tema e tese.",
+    "apenas a letra e a margem.",
+    "gramática; depois reescrever a introdução inteira.",
+    "conectivos; título; assinatura."
+   ],
+   "gabarito": "A",
+   "resolucao": "Primeiro o que decide se o texto pontua: responder ao tema e ter tese clara. Depois estrutura e argumentos, em seguida coesão e, por último, detalhes de grafia e pontuação. Inverter a ordem faz perder tempo com vírgula enquanto o texto foge do tema.",
+   "figura": null
+  },
+  {
+   "enunciado": "Leia a conclusão de um rascunho: \"Em suma, a educação é muito importante. Todos devem se esforçar mais. Além disso, a corrupção também prejudica o país.\" O principal problema desse parágrafo é",
+   "alternativas": [
+    "o uso do conectivo \"em suma\".",
+    "a falta de um título.",
+    "não retomar a tese com clareza, não trazer proposta com agente, ação e meio, e ainda abrir um argumento novo (a corrupção).",
+    "a presença de três frases curtas.",
+    "o uso da expressão \"muito importante\" apenas."
+   ],
+   "gabarito": "C",
+   "resolucao": "A conclusão deve **retomar a tese** e **propor um caminho** (quem, o quê, como, para quê) sem introduzir argumento novo. O trecho faz o contrário: generaliza (\"todos\"), não diz quem faz o quê, e abre a corrupção como assunto novo. Título é do texto inteiro, não do parágrafo; o conectivo em si não é o erro.",
+   "figura": null
+  },
+  {
+   "enunciado": "Aos 40 minutos, você percebe que o segundo argumento do rascunho fugiu do tema. A melhor atitude é",
+   "alternativas": [
+    "manter o parágrafo, pois já foi escrito.",
+    "apagar tudo e recomeçar do zero.",
+    "trocar o tema por outro mais fácil.",
+    "aumentar a conclusão para compensar.",
+    "reescrever só aquele parágrafo, voltando à pergunta do tema, enquanto ainda sobra tempo para revisar e passar a limpo."
+   ],
+   "gabarito": "E",
+   "resolucao": "Fuga do tema pode zerar ou limitar a nota a 50, então precisa ser corrigida, mas com **custo mínimo**: refazer só o parágrafo problemático preserva introdução e conclusão. Manter o erro é arriscado; recomeçar tudo gasta o tempo de revisão; trocar o tema é fugir da proposta (fuga ao tema zera).",
+   "figura": null
+  }
+ ]
+}

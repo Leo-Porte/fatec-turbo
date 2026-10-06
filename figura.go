@@ -42,20 +42,32 @@ func svgGeo(f *Figura) string {
 	if xmax <= xmin || ymax <= ymin {
 		return ""
 	}
+	// Geometria pura: mesma escala em x e y (círculo redondo, ângulo certo); "altura" só limita a exibição.
+	// Gráfico com eixos ou função: cada eixo com a sua escala, numa caixa de altura fixa
+	// (senão y de 0 a 1400 com x de 0 a 20 vira uma tira altíssima).
 	W := 420.0
-	H := W * (ymax - ymin) / (xmax - xmin)
-	if f.Altura > 0 {
-		H = float64(f.Altura)
+	grafico := f.Eixos
+	for _, e := range f.Elementos {
+		if e.T == "funcao" {
+			grafico = true
+		}
 	}
-	if H > 520 {
-		H = 520
+	H := W * (ymax - ymin) / (xmax - xmin)
+	estilo := ""
+	if grafico {
+		H = 280
+		if f.Altura > 0 {
+			H = math.Min(float64(f.Altura), 420)
+		}
+	} else if f.Altura > 0 {
+		estilo = fmt.Sprintf(` style="max-height:%dpx"`, f.Altura)
 	}
 	X := func(x float64) float64 { return (x - xmin) / (xmax - xmin) * W }
 	Y := func(y float64) float64 { return (ymax - y) / (ymax - ymin) * H }
 	sx, sy := W/(xmax-xmin), H/(ymax-ymin)
 
 	var b strings.Builder
-	fmt.Fprintf(&b, `<svg class="fig" viewBox="-14 -14 %s %s" role="img" aria-label="Figura da questão">`, num(W+28), num(H+28))
+	fmt.Fprintf(&b, `<svg class="fig" viewBox="-14 -14 %s %s"%s role="img" aria-label="Figura da questão">`, num(W+28), num(H+28), estilo)
 
 	if f.Eixos {
 		if 0 >= ymin && 0 <= ymax {
@@ -153,7 +165,7 @@ func svgGeo(f *Figura) string {
 				fmt.Fprintf(&b, `<path class="fn" d="%s"/>`, d.String())
 				if e.Rotulo != "" {
 					y := expr(z)
-					fmt.Fprintf(&b, `<text class="lb" x="%s" y="%s">%s</text>`, num(X(z)-4), num(Y(y)-6), esc(e.Rotulo))
+					fmt.Fprintf(&b, `<text class="lb" x="%s" y="%s" text-anchor="end">%s</text>`, num(X(z)-4), num(Y(y)-8), esc(e.Rotulo))
 				}
 			case fase == 1 && e.T == "angulo" && len(e.Pts) == 3:
 				p, ok1 := pts[e.Pts[0]]

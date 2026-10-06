@@ -1,0 +1,133 @@
+{
+ "id": "geo-populacao",
+ "disciplina": "Geografia",
+ "tema": "População e urbanização",
+ "titulo": "População e urbanização",
+ "semana": 6,
+ "requisitos": [],
+ "minutos": 35,
+ "por_que": "População e urbanização caíram em 11 questões nas 15 provas, mais 4 de Geografia do Brasil/regional. Os assuntos que mais se repetem são fecundidade e envelhecimento, migrações (êxodo, pendular, transumância) e problemas urbanos como enchentes e favelas.",
+ "secoes": [
+  {
+   "titulo": "1. Natalidade, fecundidade e crescimento",
+   "texto": "- **Natalidade**: nascimentos por mil habitantes ao ano. **Mortalidade**: óbitos por mil.\n- **Crescimento vegetativo (natural)** = natalidade − mortalidade.\n- **Crescimento total** = crescimento vegetativo + saldo migratório (quem chega menos quem sai).\n- **Taxa de fecundidade**: número médio de filhos por mulher. O nível de **reposição** é **2,1 filhos por mulher**. Abaixo disso, a população tende a parar de crescer e depois **diminuir** (sem imigração).\n\nO Brasil está nessa curva: a fecundidade caiu por décadas e o crescimento é cada vez mais lento, o que o IBGE mostra com alta de 0,39% ao ano em 2025 (2026/1). A resposta da Fatec: \"cresce, mas em ritmo cada vez mais lento porque a fecundidade diminuiu\". Cuidado: natalidade e fecundidade não são a mesma coisa, e crescer lentamente não é \"exponencialmente\".\n\n**Transição demográfica**: países passam de alta natalidade e alta mortalidade (população jovem, quase estável) para queda da mortalidade (crescimento rápido), depois queda da natalidade (crescimento lento) e, no fim, **envelhecimento**."
+  },
+  {
+   "titulo": "2. Pirâmide etária e envelhecimento",
+   "texto": "A pirâmide etária mostra homens e mulheres por faixa de idade.\n\n- **Base larga e topo estreito**: muitos jovens, natalidade alta (países pobres, como em partes da África).\n- **Base estreita e topo largo**: poucos jovens e mais idosos, natalidade baixa, **envelhecimento** (Japão, Rússia, Europa, e o Brasil se encaminha para isso).\n- Nas idades mais altas há **mais mulheres que homens**, porque a mortalidade masculina é maior (2017/2).\n\nQuando a fecundidade fica abaixo de 2,1 (a Rússia com 1,48), a população nativa tende a encolher. Por isso o governo russo propôs incentivos financeiros para famílias com filhos (2022/2). A resposta não é imigração nem \"escassez de recursos\".\n\n**Densidade demográfica** = população ÷ área (hab/km²). Mede a ocupação, não a distribuição. A **Austrália** tem o interior desértico e por isso concentra a população no litoral leste e sudeste (2017/2)."
+  },
+  {
+   "titulo": "3. Migrações: cada palavra tem um sentido",
+   "texto": "Migração é deslocamento de pessoas. A Fatec distingue os tipos:\n\n- **Êxodo rural**: do campo para a cidade. No Brasil intensificou-se a partir de meados do século XX com a industrialização.\n- **Emigração** é sair do país e **imigração** é entrar. Os **dekasseguis** são brasileiros (muitos descendentes de japoneses) que foram trabalhar no Japão nos anos 1980–90, em meio à crise econômica no Brasil (2017/2).\n- **Migração pendular**: ida e volta **diária** entre casa e trabalho ou escola, geralmente entre cidades vizinhas.\n- **Transumância**: deslocamento **sazonal de pastores** com seus rebanhos.\n- **Migração de retorno**: volta ao lugar de origem.\n- **Refugiados**: fogem de guerra ou perseguição.\n\nO **êxodo nordestino** para o Sudeste (a música *Fotografia 3x4*, de Belchior, retrata o migrante que \"desce do norte pra cidade grande\") foi tema de 2024/1: a resposta falava da questão da migração e das agruras do migrante.\n\nNa época do Império, **imigrantes alemães e italianos** receberam pequenas propriedades no Sul para povoar e garantir o território (2019/2)."
+  },
+  {
+   "titulo": "4. Urbanização e problemas urbanos",
+   "texto": "O Brasil é um país **urbano**: mais de 80% da população mora em cidades, resultado de uma urbanização rápida e desordenada.\n\n- **Impermeabilização do solo**: asfalto e concreto impedem a infiltração da chuva. A água escoa mais rápido pela superfície e causa **enchentes e inundações** (2026/2). Transformar várzeas em área construída agrava.\n- **Favelas** resultam da falta de políticas habitacionais e de investimento em moradia popular (2026/1), e não de \"escolha\" dos moradores.\n- **Ilha de calor**: o centro urbano fica mais quente que os arredores, por causa do concreto, do asfalto e da falta de vegetação.\n- **Conurbação**: junção das áreas urbanas de cidades vizinhas. **Metrópole**: grande cidade que comanda uma região.\n\n**Renda e emprego**: o **Bolsa Família** é transferência de renda condicionada, com o Estado como agente de redistribuição (2022/2). O desemprego é maior entre os jovens, por falta de experiência e qualificação. Mulheres ganham, em média, menos que homens de mesma idade e instrução, em parte por causa da visão de que o cuidado da família é função feminina (2017/1)."
+  },
+  {
+   "titulo": "5. Geografia do Brasil regional",
+   "texto": "Perguntas curtas sobre as regiões:\n\n- **Sudeste**: concentra população e economia. **São Paulo** tem terciário forte, com a maior rede bancária do país e a bolsa de valores (2018/2). A **Estrada de Ferro Noroeste do Brasil** (Bauru ao Mato Grosso do Sul) fez crescer Bauru, Lins e Penápolis (2019/1).\n- **Nordeste**: subdividido em Zona da Mata, Agreste, Sertão e Meio-Norte. O **rio São Francisco** nasce em MG e deságua no Atlântico.\n- **Norte**: a **Transamazônica** foi construída nos anos 1970.\n- **Sul**: colonização por imigrantes europeus em pequenas propriedades.\n\n**Setentrional** significa norte e **meridional**, sul."
+  }
+ ],
+ "decorar": [
+  "Crescimento vegetativo = natalidade − mortalidade.",
+  "Reposição = 2,1 filhos por mulher. Abaixo: população nativa tende a diminuir.",
+  "Base estreita + topo largo = envelhecimento.",
+  "Êxodo rural: campo → cidade. Pendular: ida e volta diária. Transumância: pastores com rebanho, sazonal.",
+  "Impermeabilização do solo = menos infiltração = mais enchente.",
+  "Densidade demográfica = população ÷ área.",
+  "Ilha de calor: centro urbano mais quente que os arredores.",
+  "Dekasseguis: brasileiros no Japão (anos 1980–90, crise no Brasil)."
+ ],
+ "pegadinhas": [
+  "Natalidade e fecundidade não são sinônimos: fecundidade é filhos por mulher.",
+  "Brasil crescendo 0,39% ao ano não é crescimento rápido nem exponencial.",
+  "Migração pendular é diária; transumância é de pastores. Não troque.",
+  "Impermeabilizar o solo diminui a infiltração e aumenta o escoamento, nunca o contrário.",
+  "Densidade demográfica média não diz onde as pessoas moram (Austrália: litoral)."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-1",
+   "n": 17,
+   "resolucao": "O texto: 213,4 milhões de habitantes, alta de apenas 0,39% no ano. Crescimento pequeno e cada vez menor, que se explica pela **queda da taxa de fecundidade** (transição demográfica).\n\nElimine A, C, E (\"rapidamente\", \"mais do que o esperado\", \"exponencialmente\"), que contradizem o 0,39%. A D diz que a fertilidade está em ascensão, que é falso. Alternativa **B**."
+  },
+  {
+   "prova": "2022-2",
+   "n": 19,
+   "resolucao": "Fecundidade de 1,48 filho por mulher, abaixo da reposição (2,1). Se continuar assim, a população nativa **diminui** em números absolutos. Por isso o governo quer elevar a taxa. Alternativa **C**.\n\nA A inverte a situação (diz que há imigrantes demais), a B diz que a densidade é alta (a Rússia é pouco densa), a D inventa uma exigência da UNICEF e a E trata de distribuição, que não é a razão das propostas."
+  },
+  {
+   "prova": "2024-1",
+   "n": 31,
+   "resolucao": "A letra de Belchior fala de um jovem que \"desce do norte pra cidade grande\", chega cansado, é parado por guardas e estranha o lugar. Isso retrata a **migração** do Nordeste e as **agruras** vividas por quem migra. Alternativa **A**.\n\nPendular é diário; transumância é de pastores; as outras citam países que a letra não menciona."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Em um país, a natalidade é de 15 por mil e a mortalidade é de 7 por mil. Sem considerar migrações, o crescimento da população por ano, em porcentagem, é de",
+   "alternativas": [
+    "0,08%.",
+    "0,8%.",
+    "8%.",
+    "22%.",
+    "2,2%."
+   ],
+   "gabarito": "B",
+   "resolucao": "Crescimento vegetativo = 15 − 7 = 8 por mil. 8 por mil = 8 ÷ 1 000 = 0,008 = **0,8%**. Alternativa B. A soma 15 + 7 = 22 por mil levaria a 2,2% (erro).",
+   "figura": null
+  },
+  {
+   "enunciado": "A pirâmide etária de um país tem base estreita e topo relativamente largo. Esse formato indica",
+   "alternativas": [
+    "alta natalidade e população predominantemente jovem.",
+    "mortalidade infantil elevada e baixa expectativa de vida.",
+    "êxodo rural intenso nas últimas décadas.",
+    "crescimento populacional acelerado.",
+    "baixa fecundidade e envelhecimento da população."
+   ],
+   "gabarito": "E",
+   "resolucao": "Base estreita = poucos jovens (baixa natalidade e fecundidade); topo largo = muitos idosos. É **envelhecimento populacional**. Alternativa E.",
+   "figura": null
+  },
+  {
+   "enunciado": "Uma enfermeira mora em Osasco e todos os dias vai trabalhar na capital paulista, voltando para casa à noite. Esse deslocamento é um exemplo de migração",
+   "alternativas": [
+    "pendular.",
+    "de transumância.",
+    "de êxodo rural.",
+    "de emigração.",
+    "de retorno."
+   ],
+   "gabarito": "A",
+   "resolucao": "Ida e volta **diária** entre cidades vizinhas é migração **pendular**. Alternativa A.",
+   "figura": null
+  },
+  {
+   "enunciado": "Em áreas centrais de grandes cidades, o excesso de asfalto e concreto e a pouca vegetação fazem com que a temperatura seja mais alta do que nos arredores. Esse fenômeno é conhecido como",
+   "alternativas": [
+    "inversão térmica.",
+    "efeito estufa.",
+    "chuva ácida.",
+    "conurbação.",
+    "ilha de calor."
+   ],
+   "gabarito": "E",
+   "resolucao": "Centro urbano mais quente que a periferia é **ilha de calor**. Inversão térmica retém poluentes perto do solo; conurbação é a união de cidades. Alternativa E.",
+   "figura": null
+  },
+  {
+   "enunciado": "Um país tem 60 milhões de habitantes e área de 300 000 km². Sua densidade demográfica é de",
+   "alternativas": [
+    "0,2 hab/km².",
+    "20 hab/km².",
+    "200 hab/km².",
+    "2 000 hab/km².",
+    "360 hab/km²."
+   ],
+   "gabarito": "C",
+   "resolucao": "Densidade = população ÷ área = 60 000 000 ÷ 300 000 = **200 hab/km²**. Alternativa C.",
+   "figura": null
+  }
+ ]
+}
