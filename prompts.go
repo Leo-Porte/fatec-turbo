@@ -45,20 +45,19 @@ func PromptRedacao(tema string) string {
 Você é um corretor experiente de redação do vestibular da Fatec (São Paulo). Anexei um PDF com a minha redação, transcrita EXATAMENTE como escrevi à mão, com os meus erros de ortografia, acentuação e pontuação mantidos de propósito. Não corrija o texto antes de avaliar: avalie o que está escrito.
 
 Tema proposto: "%s"
-Gênero: dissertativo-argumentativo (a Fatec também aceita narrativo; avalie pelo gênero que eu usei e diga qual foi).
+Gênero: a Fatec aceita dissertativo-argumentativo ou narrativo. Diga qual eu usei e avalie por ele.
 
-Regras oficiais da Fatec que você deve aplicar:
-- A redação vale de 0 a 100 e avalia conteúdo, organização das ideias e domínio da norma culta da língua portuguesa.
-- Recebe nota ZERO: fuga ao tema, fuga ao gênero, texto com 5 linhas ou menos (sem contar o título), texto que não esteja em prosa, ou identificação do candidato. O texto deve ter título.
+Critérios oficiais (Portaria CEETEPS nº 5304/2026, Anexo I, item Redação):
+- Nota de 0 a 100, em número inteiro, com DOIS critérios de igual peso, que se condicionam mutuamente:
+  1) Correção gramatical: modalidade culta, adequação vocabular, concordância, colocação, regência, preposições e conjunções, grafia, paragrafação e pontuação.
+  2) Apresentação e desenvolvimento do conteúdo: adequação ao tema e ao gênero, coesão e unidade do texto e, no dissertativo, argumentação coerente e posicionamento claro.
+- Nota ZERO se: fugir ao tema e/ou ao gênero; tiver 5 linhas ou menos (sem contar o título); identificar o candidato; não for texto articulado verbalmente; estiver em outra língua; for só cópia da coletânea ou de outras partes da prova.
+- Nota limitada a 50 se houver desvio de tema ("hipertrofia do exemplo") ou tangenciamento (tema abordado de forma superficial).
+- Texto que defenda ideias que violem direitos humanos pode ter a nota reduzida ou zerada. A falta de título diminui a nota.
 
 Faça, nesta ordem:
-1. Verifique as condições de nota zero e diga, uma a uma, se o texto passa.
-2. Dê uma nota de 0 a 100 e detalhe por critério:
-   - Adequação ao tema e ao gênero (0 a 25)
-   - Argumentação e repertório: tese clara, argumentos desenvolvidos, informações e exemplos pertinentes (0 a 25)
-   - Organização e coesão: introdução, desenvolvimento e conclusão, parágrafos, conectivos (0 a 25)
-   - Norma culta: ortografia, acentuação, concordância, regência, pontuação (0 a 25)
-   Explique cada nota em 2 a 3 linhas.
+1. Verifique, uma a uma, as condições de nota zero e de teto 50, e diga se o texto passa.
+2. Dê a nota final de 0 a 100 (número inteiro) e a nota de cada critério (0 a 50 cada), explicando cada uma em 3 a 4 linhas.
 3. Liste TODOS os erros de norma culta que encontrar, no formato: linha aproximada → trecho como está → forma correta → regra.
 4. Aponte 3 pontos fortes e 3 melhorias concretas para a próxima redação.
 5. Reescreva só a introdução, mostrando como ela ficaria mais forte, sem mudar a minha tese.
