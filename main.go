@@ -591,12 +591,12 @@ func apiCorrigir(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	out := struct {
-		Acertos int                `json:"acertos"`
-		Total   int                `json:"total"`
-		Nota    int                `json:"nota"`
-		PorDisc map[string][2]int  `json:"porDisc"`
-		PorTema map[string][2]int  `json:"porTema"`
-		Itens   []ResultadoItem    `json:"itens"`
+		Acertos int               `json:"acertos"`
+		Total   int               `json:"total"`
+		Nota    int               `json:"nota"`
+		PorDisc map[string][2]int `json:"porDisc"`
+		PorTema map[string][2]int `json:"porTema"`
+		Itens   []ResultadoItem   `json:"itens"`
 	}{PorDisc: map[string][2]int{}, PorTema: map[string][2]int{}}
 	for _, k := range p.Itens {
 		q := achaQuestao(k)

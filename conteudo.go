@@ -14,9 +14,9 @@ import (
 // Questao é uma questão real de prova: imagens recortadas do PDF oficial + classificação.
 type Questao struct {
 	N     int        `json:"n"`
-	Imgs  []string   `json:"imgs"`  // caminhos relativos a conteudo/q/<prova>/
-	Ctx   [][]string `json:"ctx"`   // textos de apoio, cada um com suas imagens
-	Gab   string     `json:"gab"`   // letra oficial ou "ANULADA"
+	Imgs  []string   `json:"imgs"` // caminhos relativos a conteudo/q/<prova>/
+	Ctx   [][]string `json:"ctx"`  // textos de apoio, cada um com suas imagens
+	Gab   string     `json:"gab"`  // letra oficial ou "ANULADA"
 	Disc  string     `json:"disc"`
 	Tema  string     `json:"tema"`
 	Sub   string     `json:"sub"`
