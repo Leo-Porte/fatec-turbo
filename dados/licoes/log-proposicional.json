@@ -1,0 +1,154 @@
+{
+ "id": "log-proposicional",
+ "disciplina": "Raciocínio Lógico",
+ "tema": "Lógica proposicional",
+ "titulo": "Lógica proposicional, negações e conjuntos",
+ "semana": 2,
+ "minutos": 35,
+ "por_que": "Lógica proposicional é o tema mais cobrado de Raciocínio Lógico: 18 questões nas 15 provas, quase sempre pedindo a negação de uma frase, uma conclusão que decorre de condicionais ou uma operação com conjuntos (diagrama de Venn). As regras são poucas e se repetem.",
+ "secoes": [
+  {
+   "titulo": "1. Proposição e conectivos",
+   "texto": "**Proposição** é uma frase declarativa que pode ser julgada verdadeira (V) ou falsa (F). \"Hoje chove\" é proposição. Pergunta (\"Vai chover?\"), ordem (\"Estude!\") e exclamação não são.\n\nOs conectivos que a prova usa:\n\n- **não** (¬): inverte V e F.\n- **e** (∧): só é V se **as duas** forem V.\n- **ou** (∨): é V se **pelo menos uma** for V (inclusive as duas).\n- **ou… ou…** (exclusivo): é V se **exatamente uma** for V.\n- **se… então** (→): só é F quando a primeira é V e a segunda é F.\n- **se e somente se** (↔): V quando as duas têm o mesmo valor.\n\nA condicional é a que mais pega: \"se P então Q\" não diz nada sobre o que acontece quando P é falso."
+  },
+  {
+   "titulo": "2. Negações para decorar",
+   "texto": "Negar uma frase é escrever a que é **verdadeira exatamente quando a original é falsa**. Quem decorar esta lista resolve a maioria das questões:\n\n- \"**Todo** A é B\" → \"**Algum** A **não** é B\" (existe um A que não é B).\n- \"**Nenhum** A é B\" → \"**Algum** A é B\".\n- \"**Algum** A é B\" → \"**Nenhum** A é B\".\n- \"**não (A e B)**\" → \"**não A ou não B**\" (De Morgan).\n- \"**não (A ou B)**\" → \"**não A e não B**\" (De Morgan).\n- \"**não (se A então B)**\" → \"**A e não B**\".\n\nA negação de \"todos\" **não** é \"nenhum\". Basta um contraexemplo para negar \"todos\": se nem todas as vagas são de nível superior, então existe pelo menos uma que não é."
+  },
+  {
+   "titulo": "3. A condicional e a contrapositiva",
+   "texto": "\"**Se A então B**\" (A → B) tem dois jeitos **equivalentes** de ser dita:\n\n- A **contrapositiva**: \"se **não B**, então **não A**\".\n- \"**não A ou B**\".\n\nE tem dois jeitos que **parecem** equivalentes mas **não são**:\n\n- A **recíproca**: \"se B, então A\".\n- A **inversa**: \"se não A, então não B\".\n\nExemplo: \"Se Ceci for, Iracema vai\" é equivalente a \"se Iracema **não** for, Ceci **não** vai\". Não é equivalente a \"se Iracema for, Ceci vai\".\n\nAs formas de linguagem: \"A só se B\" significa A → B (a ideia é: só pode ocorrer A se B ocorrer). \"Ceci só vai se Iracema for\" = Ceci vai → Iracema vai."
+  },
+  {
+   "titulo": "4. Silogismo e quantificadores",
+   "texto": "**Silogismo** é um raciocínio com duas premissas e uma conclusão que decorre delas.\n\nExemplo: \"Todo A é B. Todo B é C. Logo, todo A é C.\" Para testar, desenhe **conjuntos**: A dentro de B, B dentro de C → A dentro de C.\n\nQuantificadores: **todo** (A está contido em B), **nenhum** (A e B não têm interseção), **algum** (A e B têm interseção, ao menos um elemento). Atenção: **\"algum\" não exclui \"todos\"**, só afirma que pelo menos um existe.\n\nQuando as premissas são \"nenhuma pesquisadora é filha de Rose\" e \"todas as filhas de Alfredo são pesquisadoras\", os conjuntos \"filhas de Alfredo\" e \"filhas de Rose\" não se tocam. É o tipo de conclusão que a Fatec cobra (2026/1)."
+  },
+  {
+   "titulo": "5. Conjuntos e diagrama de Venn",
+   "texto": "Quando a questão fala em \"quantos fazem A **e** B\", \"A **ou** B\", \"nenhum\", pense em diagrama de Venn.\n\nFórmula principal (união de dois conjuntos):\n\n`n(A ∪ B) = n(A) + n(B) − n(A ∩ B)`\n\nSomamos A e B e **subtraímos** a interseção, que foi contada duas vezes. E o que não está em nenhum dos dois é `total − n(A ∪ B)`.\n\nExemplo: 60 pessoas; 35 assistem a séries (A), 28 a filmes (B), 10 a ambos. União = 35 + 28 − 10 = 53. Nenhum dos dois: 60 − 53 = **7**.\n\nTrês operações que a Fatec usa com símbolo:\n\n- `A ∩ B`: elementos que estão em A **e** B.\n- `A ∪ B`: elementos que estão em A **ou** B.\n- `A − B`: elementos de A que **não** estão em B. Em 2025/2: se A é o que a pessoa comia antes e C o que tem carne, o que ela pode comer agora (B) é `A − C`."
+  },
+  {
+   "titulo": "6. Método para qualquer questão",
+   "texto": "1. **Passe a frase para símbolos** ou diagrama. Não confie na intuição.\n2. Para negação, aplique a **tabela da seção 2** (troque todo/algum e coloque \"não\" no outro lado).\n3. Em condicional, procure a **contrapositiva** ou teste cada alternativa com um caso (\"se Ceci vai, Iracema vai\").\n4. Em dúvida entre duas alternativas, ache um **contraexemplo** para cada. A que resistir é a certa.\n\nÉ comum a alternativa errada ser a **recíproca** da frase original, parecendo a certa só porque troca as peças."
+  }
+ ],
+ "decorar": [
+  "¬(todo A é B) = algum A não é B; ¬(nenhum A é B) = algum A é B",
+  "¬(A e B) = ¬A ou ¬B; ¬(A ou B) = ¬A e ¬B",
+  "¬(A → B) = A e ¬B",
+  "A → B ≡ ¬B → ¬A (contrapositiva). **Não** ≡ B → A",
+  "\"A só se B\" = A → B; \"ou… ou…\" é exclusivo; \"se e somente se\" é ↔",
+  "`n(A ∪ B) = n(A) + n(B) − n(A ∩ B)`; `A − B` = em A e **não** em B"
+ ],
+ "pegadinhas": [
+  "Negar \"todos\" com \"nenhum\". A negação correta é \"algum não\".",
+  "Confundir a recíproca (B → A) com a contrapositiva (¬B → ¬A).",
+  "Esquecer que \"ou\" inclui o caso das duas serem verdadeiras (só o \"ou… ou…\" exclui).",
+  "Concluir algo da condicional quando a primeira parte é falsa. \"Se P então Q\" não afirma nada sobre P falso.",
+  "Somar n(A) + n(B) sem subtrair a interseção."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2024-2",
+   "n": 38,
+   "resolucao": "Premissas: (I) Ceci só vai se Iracema for. Em símbolos: **Ceci → Iracema**. (II) se Peri for, Ceci também irá: **Peri → Ceci**.\n\nAchamos a contrapositiva de (I): ¬Iracema → ¬Ceci, ou seja, \"se Iracema não for, Ceci também não vai\".\n\nAlternativa **D** diz exatamente isso. As outras: B diz \"se Ceci vai, Peri não\", que não decorre de nada; C diz \"se Peri vai, Iracema não\", o contrário do que a cadeia Peri → Ceci → Iracema dá.\n\nGabarito oficial: D. ✔ Bateu."
+  },
+  {
+   "prova": "2025-2",
+   "n": 37,
+   "resolucao": "A: o que Yeong-hye comia antes. C: alimentos que contêm carne. B: o que ela pode comer agora, mudando apenas o fato de que não come mais carne.\n\nDeve sair de A tudo o que tem carne: B = elementos de A que **não** estão em C, ou seja, **A − C** (E). Gabarito oficial: E. ✔ Bateu.\n\nO erro típico é escolher C − A (que seria o que tem carne e ela não comia) ou A ∩ C (que seria justamente o que ela não pode mais comer)."
+  },
+  {
+   "prova": "2019-1",
+   "n": 11,
+   "resolucao": "A questão informa que a negação de \"todo homem ama lógica\" é \"existe um homem que não ama\". Pede a negação de **\"todas as vagas deste vestibular são de ensino superior\"**.\n\nPela regra, negar \"todo A é B\" dá \"existe A que não é B\": **existem vagas deste vestibular que não são de ensino superior** (B). A \"nenhuma\" (C) e a \"todas não\" (E) são exageros, e A e D (\"algumas são\", \"pelo menos uma é\") não negam nada: podem ser verdadeiras com a original verdadeira.\n\nGabarito oficial: B. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Considere a afirmação: \"Todos os candidatos aprovados no teste são maiores de idade\". A negação lógica dessa afirmação é",
+   "alternativas": [
+    "Nenhum candidato aprovado no teste é maior de idade.",
+    "Todos os candidatos aprovados no teste são menores de idade.",
+    "Algum candidato aprovado no teste é maior de idade.",
+    "Nenhum candidato aprovado no teste é menor de idade.",
+    "Algum candidato aprovado no teste não é maior de idade."
+   ],
+   "gabarito": "E",
+   "resolucao": "Negação de \"todo A é B\" é \"algum A não é B\". As alternativas com \"nenhum\" (A e D) e a que fala em \"menores de idade\" (B) são exageros: a original pode ser falsa sem que tudo isso seja verdade. A alternativa C (\"algum é maior de idade\") é compatível com a original verdadeira, então não a nega."
+  },
+  {
+   "enunciado": "Considere a afirmação: \"Marina vai ao cinema ou vai ao teatro\". Para essa afirmação ser falsa, é necessário que",
+   "alternativas": [
+    "Marina não vá ao cinema ou não vá ao teatro.",
+    "Marina vá ao cinema e vá ao teatro.",
+    "Marina não vá ao cinema e não vá ao teatro.",
+    "Marina vá ao cinema e não vá ao teatro.",
+    "Marina não vá ao cinema ou vá ao teatro."
+   ],
+   "gabarito": "C",
+   "resolucao": "De Morgan: ¬(A ∨ B) = ¬A ∧ ¬B. Para \"cinema ou teatro\" ser falsa, ela não pode ir a nenhum dos dois. A alternativa com \"ou\" (A) só garante que um dos dois falta, e isso não torna a original falsa."
+  },
+  {
+   "enunciado": "Considere a afirmação: \"Se chover, então o jogo será cancelado\". A negação dessa afirmação é",
+   "alternativas": [
+    "Chove e o jogo não é cancelado.",
+    "Se não chover, então o jogo não será cancelado.",
+    "Não chove e o jogo é cancelado.",
+    "Se o jogo for cancelado, então choveu.",
+    "Chove e o jogo é cancelado."
+   ],
+   "gabarito": "A",
+   "resolucao": "¬(A → B) = A ∧ ¬B. A condicional só é falsa quando a primeira parte é verdadeira e a segunda é falsa: chove e o jogo não é cancelado. A alternativa B é a inversa e a D é a recíproca; nenhuma delas nega a original."
+  },
+  {
+   "enunciado": "Sabe-se que é verdadeira a afirmação: \"Se o aluno estuda todos os dias, então ele é aprovado\". Com base nela, é necessariamente verdadeira a afirmação:",
+   "alternativas": [
+    "Se o aluno é aprovado, então ele estuda todos os dias.",
+    "Se o aluno não estuda todos os dias, então ele não é aprovado.",
+    "O aluno estuda todos os dias e não é aprovado.",
+    "Se o aluno não é aprovado, então ele não estuda todos os dias.",
+    "Todo aluno aprovado estuda todos os dias."
+   ],
+   "gabarito": "D",
+   "resolucao": "A contrapositiva de A → B é ¬B → ¬A: \"se não é aprovado, então não estuda todos os dias\". A primeira e a última alternativa são a recíproca, e a segunda é a inversa; nenhuma é garantida (um aluno pode ser aprovado sem estudar todo dia). A terceira é a negação da condicional, ou seja, necessariamente falsa."
+  },
+  {
+   "enunciado": "Uma pesquisa com 60 pessoas perguntou se assistem a séries ou a filmes. Constatou-se que 35 assistem a séries, 28 assistem a filmes e 10 assistem a ambos. O número de pessoas que não assistem nem a séries nem a filmes é",
+   "alternativas": [
+    "3",
+    "7",
+    "10",
+    "13",
+    "25"
+   ],
+   "gabarito": "B",
+   "resolucao": "n(séries ∪ filmes) = 35 + 28 − 10 = 53 (a interseção foi contada duas vezes e precisa ser subtraída). Nenhum dos dois: 60 − 53 = 7. Quem esquece de subtrair a interseção acha 63 pessoas em dois conjuntos de um total de 60, o que é impossível: sinal de que faltou subtrair.",
+   "figura": {
+    "lib": "tabela",
+    "cabecalho": [
+     "Grupo",
+     "Pessoas"
+    ],
+    "linhas": [
+     [
+      "Total pesquisado",
+      "60"
+     ],
+     [
+      "Assistem a séries",
+      "35"
+     ],
+     [
+      "Assistem a filmes",
+      "28"
+     ],
+     [
+      "Assistem a ambos",
+      "10"
+     ]
+    ]
+   }
+  }
+ ]
+}

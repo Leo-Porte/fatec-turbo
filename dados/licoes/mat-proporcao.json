@@ -1,0 +1,129 @@
+{
+ "id": "mat-proporcao",
+ "disciplina": "Matemática",
+ "tema": "Razão, proporção e regra de três",
+ "titulo": "Razão, proporção, regra de três e escala",
+ "semana": 1,
+ "minutos": 35,
+ "por_que": "Razão, proporção e regra de três apareceu em 9 questões das 15 provas (regra de três com taxa por minuto, mistura de combustíveis, escala de planta baixa, divisão proporcional). A escala também é cobrada em Geografia, com a mesma conta.",
+ "secoes": [
+  {
+   "titulo": "1. Razão: uma divisão com nome",
+   "texto": "**Razão** entre dois números é a divisão de um pelo outro. \"A razão entre gasolina e álcool é 2:3\" quer dizer que, para cada 2 partes de gasolina, existem 3 partes de álcool. Não diz quantos litros, só a proporção.\n\nO jeito mais seguro de lidar com razão é pensar em **partes**. Mistura de 50 L na razão 2:3 tem 2 + 3 = 5 partes. Cada parte vale 50 ÷ 5 = 10 L. Logo: gasolina = 2 × 10 = 20 L e álcool = 3 × 10 = 30 L.\n\n**Atenção à ordem**: \"razão de gasolina e álcool, nessa ordem\" é gasolina:álcool. Inverter a ordem inverte a resposta."
+  },
+  {
+   "titulo": "2. Regra de três direta",
+   "texto": "Duas grandezas são **diretamente proporcionais** quando, se uma dobra, a outra dobra. Receita: 6 pessoas usam 450 g de farinha; para 10 pessoas, usa mais farinha.\n\nMonte a tabela e multiplique em cruz:\n\n- 6 pessoas ↔ 450 g\n- 10 pessoas ↔ x\n\n`6·x = 10·450` → x = 4.500 ÷ 6 = **750 g**.\n\nAtalho que muitos preferem: ache o valor de **uma unidade** (450 ÷ 6 = 75 g por pessoa) e multiplique (75 × 10 = 750). Funciona sempre e é difícil de errar.\n\nExemplo real da Fatec (2017/2): são 24 pessoas deslocadas por minuto; em 40 segundos? Converta 40 s para 40/60 min e multiplique: 24 × 40/60 = 16."
+  },
+  {
+   "titulo": "3. Regra de três inversa",
+   "texto": "Duas grandezas são **inversamente proporcionais** quando, se uma dobra, a outra cai pela metade. Mais pedreiros → menos dias. Mais velocidade → menos tempo.\n\nExemplo: 5 pedreiros constroem um muro em 12 dias. Com 8 pedreiros?\n\nO produto fica constante: 5 × 12 = 8 × x → x = 60 ÷ 8 = **7,5 dias**.\n\nTeste de sanidade antes de multiplicar: com mais gente, a resposta tem que dar **menos** dias. Deu 7,5 (menor que 12), faz sentido. Se tivesse dado 19,2, você inverteu a conta."
+  },
+  {
+   "titulo": "4. Regra de três composta",
+   "texto": "Quando há três ou mais grandezas, compare cada uma com a que você quer descobrir, uma de cada vez, perguntando \"se esta aumenta, a incógnita aumenta ou diminui?\".\n\nExemplo: 8 máquinas fazem 400 peças em 5 horas. Quanto tempo 10 máquinas levam para fazer 600 peças? Parta das 5 horas e ajuste uma grandeza por vez:\n\n- Mais máquinas (8 → 10): o tempo **diminui** (inversa) → multiplica por 8/10.\n- Mais peças (400 → 600): o tempo **aumenta** (direta) → multiplica por 600/400.\n\nTempo = 5 × 8/10 × 600/400 = 5 × 0,8 × 1,5 = **6 horas**.\n\nNa prática, a Fatec raramente pede composta com muitas variáveis (a questão 2019/1 sobre equipe duplicada se resolve achando a **taxa**: quanto da obra se faz por hora, e depois dividindo). Ache a taxa e vá multiplicando."
+  },
+  {
+   "titulo": "5. Escala",
+   "texto": "Escala é uma razão entre a medida **no desenho** e a medida **real**, as duas na **mesma unidade**:\n\n`escala = medida no desenho ÷ medida real`\n\nEscala 1:500 quer dizer que 1 cm no desenho vale 500 cm na realidade (= 5 m). Para achar a medida real, multiplique a do desenho por 500 e depois converta a unidade.\n\nPassos que evitam erro: (1) multiplique pelo número da escala, (2) o resultado sai na mesma unidade do desenho (cm), (3) converta para a unidade pedida (cm → m divide por 100; cm → km divide por 100.000).\n\nExemplo: mapa 1:2.000.000 com 3,5 cm entre duas cidades → 3,5 × 2.000.000 = 7.000.000 cm = 70.000 m = **70 km**."
+  },
+  {
+   "titulo": "6. Divisão em partes proporcionais",
+   "texto": "Dois sócios investiram R$ 3.000 e R$ 5.000 e vão dividir um lucro de R$ 24.000 **em proporção ao investimento**. Some as partes: 3 + 5 = 8. Cada parte vale 24.000 ÷ 8 = R$ 3.000. O primeiro recebe 3 × 3.000 = R$ 9.000 e o segundo 5 × 3.000 = R$ 15.000.\n\nSempre o mesmo caminho: **some as partes, divida o total pela soma, multiplique pela parte de cada um**. É o mesmo raciocínio da mistura de combustíveis da seção 1."
+  }
+ ],
+ "decorar": [
+  "Razão a:b → total dividido em (a + b) partes; cada parte = total ÷ (a + b)",
+  "Direta: multiplicar em cruz. Inversa: o produto das grandezas é constante",
+  "Ache o valor de 1 unidade e multiplique: funciona em regra de três direta",
+  "`escala = desenho ÷ real` (mesma unidade); real = desenho × denominador da escala",
+  "1 m = 100 cm; 1 km = 100.000 cm",
+  "Partes proporcionais: some as partes, divida o total pela soma, multiplique"
+ ],
+ "pegadinhas": [
+  "Tratar como direta uma grandeza inversa (mais operários → menos dias). Faça o teste de sanidade: a resposta faz sentido?",
+  "Misturar unidades: segundos com minutos, cm com m. Converta tudo antes de calcular.",
+  "Esquecer a mudança de estado da mistura: quando se acrescenta só álcool, a quantidade de gasolina fica igual, e só o álcool muda.",
+  "Inverter a ordem da razão: \"gasolina e álcool, nessa ordem\" é gasolina primeiro.",
+  "Em escala, parar no resultado em cm. A questão da prova 2023/1 pedia metros; faltava converter."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2023-1",
+   "n": 43,
+   "resolucao": "A escala é 1:500 (1 m real = 0,2 cm na planta). O desenho é um polígono só com ângulos retos (formato em L com degraus).\n\nPara o perímetro de uma figura assim, os lados horizontais somam 2 × (10,5 + 11,9), pois, indo pelo contorno, o que \"sobra\" nos degraus se cancela. Os verticais somam 2 × 24,4.\n\nPerímetro no desenho = 2 × (10,5 + 11,9) + 2 × 24,4 = 44,8 + 48,8 = 93,6 cm.\n\nNa realidade: 93,6 × 500 = 46.800 cm = **468 m** (E). Gabarito oficial: E. ✔ Bateu.\n\nA alternativa C (93,6) é a armadilha de quem esqueceu de aplicar a escala."
+  },
+  {
+   "prova": "2020-1",
+   "n": 32,
+   "resolucao": "Mistura de 50 L na razão 2:3 (gasolina:álcool): são 5 partes de 10 L. Gasolina = 20 L, álcool = 30 L.\n\nAcrescenta-se N litros de álcool. A gasolina continua 20 L, e o álcool vira 30 + N. A nova razão é 1:3:\n\n20 ÷ (30 + N) = 1 ÷ 3 → 30 + N = 60 → N = **30** (C). Gabarito oficial: C. ✔ Bateu."
+  },
+  {
+   "prova": "2017-2",
+   "n": 30,
+   "resolucao": "O texto de apoio diz que, em 2015, são 24 pessoas deslocadas por minuto. O candidato leu em exatos 40 segundos.\n\n40 s = 40/60 min = 2/3 min. Pessoas = 24 × 2/3 = **16** (B). Gabarito oficial: B. ✔ Bateu.\n\nA armadilha é multiplicar 24 por 40, esquecendo que a taxa é por minuto, não por segundo."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Uma receita de bolo para 6 pessoas usa 450 g de farinha. Mantidas as proporções, para preparar o mesmo bolo para 10 pessoas serão necessários",
+   "alternativas": [
+    "600 g de farinha",
+    "675 g de farinha",
+    "720 g de farinha",
+    "750 g de farinha",
+    "900 g de farinha"
+   ],
+   "gabarito": "D",
+   "resolucao": "Por pessoa: 450 ÷ 6 = 75 g. Para 10 pessoas: 75 × 10 = 750 g. Regra de três direta: 6·x = 10·450 → x = 750."
+  },
+  {
+   "enunciado": "Cinco pedreiros, trabalhando no mesmo ritmo, constroem um muro em 12 dias. Se a obra fosse feita por 8 pedreiros, no mesmo ritmo, o muro ficaria pronto em",
+   "alternativas": [
+    "7,5 dias",
+    "19,2 dias",
+    "8 dias",
+    "6,5 dias",
+    "20 dias"
+   ],
+   "gabarito": "A",
+   "resolucao": "Mais pedreiros, menos dias: grandezas inversas. 5 × 12 = 8 × x → x = 60 ÷ 8 = 7,5. A resposta 19,2 vem de tratar como direta (12 × 8 ÷ 5), o que dá mais dias com mais gente, o que não faz sentido."
+  },
+  {
+   "enunciado": "Em um mapa, a escala é 1:2.000.000. Duas cidades distam 3,5 cm no mapa. A distância real entre elas, em linha reta, é de",
+   "alternativas": [
+    "7 km",
+    "35 km",
+    "70 km",
+    "700 km",
+    "7.000 km"
+   ],
+   "gabarito": "C",
+   "resolucao": "3,5 × 2.000.000 = 7.000.000 cm. 7.000.000 cm ÷ 100 = 70.000 m ÷ 1.000 = 70 km. Quem para em 7.000.000 cm ou erra uma conversão cai nas outras opções."
+  },
+  {
+   "enunciado": "Dois sócios investiram R$ 3.000,00 e R$ 5.000,00 em uma microempresa e decidiram dividir o lucro de R$ 24.000,00 proporcionalmente ao valor investido. O sócio que investiu mais recebeu",
+   "alternativas": [
+    "R$ 8.000,00",
+    "R$ 9.000,00",
+    "R$ 12.000,00",
+    "R$ 14.400,00",
+    "R$ 15.000,00"
+   ],
+   "gabarito": "E",
+   "resolucao": "Partes: 3 + 5 = 8. Cada parte = 24.000 ÷ 8 = 3.000. Sócio maior: 5 × 3.000 = 15.000 (o outro recebe 9.000). R$ 12.000 seria dividir meio a meio, que ignora a proporção."
+  },
+  {
+   "enunciado": "Um suco concentrado deve ser diluído na razão de 1 parte de concentrado para 4 partes de água. Para preparar 750 mL de suco pronto, a quantidade de concentrado necessária é",
+   "alternativas": [
+    "125 mL",
+    "150 mL",
+    "187,5 mL",
+    "200 mL",
+    "250 mL"
+   ],
+   "gabarito": "B",
+   "resolucao": "1 parte de concentrado + 4 de água = 5 partes. Cada parte: 750 ÷ 5 = 150 mL. O concentrado é 1 parte = 150 mL (e a água, 600 mL). 187,5 é o erro de dividir por 4 em vez de 5."
+  }
+ ]
+}

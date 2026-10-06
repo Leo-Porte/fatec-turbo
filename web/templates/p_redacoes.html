@@ -1,0 +1,10 @@
+{{define "conteudo"}}<div class="read">
+<p class="eyebrow">Redação · vale 20% da nota</p>
+<h1>Redação</h1>
+<p class="muted">Escreva no papel, com 1 hora no relógio, como no dia da prova. Depois transcreva aqui exatamente como escreveu, com os erros. O portal gera a folha de redação em PDF e um prompt para você mandar para a IA que quiser corrigir.</p>
+<div class="notice"><b>Regras que zeram na Fatec:</b> fugir do tema ou do gênero, texto com 5 linhas ou menos, ou se identificar. O texto precisa de título e ser em prosa.</div>
+<h2>Propostas</h2>
+<ul class="list">{{range .Provas}}
+<li data-red="{{.ID}}"><div class="row"><div class="grow"><b class="disp">Fatec {{nomeProva .ID}}</b>{{if eq .ID $.Atual}} <span class="pill">desta semana</span>{{end}} <span class="pill good" data-transcrita hidden>transcrita</span><br><span class="small muted">{{.TemaRed}}</span></div><a class="btn{{if eq .ID $.Atual}} primary{{end}}" href="/redacao/{{.ID}}">Escrever</a></div></li>
+{{end}}</ul>
+</div>{{end}}

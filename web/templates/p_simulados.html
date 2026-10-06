@@ -1,0 +1,29 @@
+{{define "conteudo"}}<div class="read">
+<p class="eyebrow">Prática</p>
+<h1>Simulados</h1>
+<p class="muted">Prova inteira com cronômetro de 5 horas e correção na hora, por disciplina e por tema. As provas de 2022 a 2026 ficam para os fins de semana; as de 2017 a 2020 alimentam os treinos rápidos.</p>
+
+<h2 id="treino">Treino rápido</h2>
+<form class="panel" method="get" action="/treino" id="form-treino">
+  <p class="small muted mt0">10 questões reais de 2017 a 2020 sobre uma disciplina ou tema. Bom para as noites.</p>
+  <div class="grid2">
+    <div><label class="lbl" for="tr-disc">Disciplina</label><select id="tr-disc" name="disc"><option value="">Todas</option>{{range .Disc}}<option>{{.}}</option>{{end}}</select></div>
+    <div><label class="lbl" for="tr-tema">Tema</label><select id="tr-tema" name="tema"><option value="">Todos</option></select></div>
+  </div>
+  <input type="hidden" name="visto" id="tr-visto">
+  <div class="row gap-top"><button class="btn primary" type="submit">Começar treino</button><span class="small muted" id="tr-n"></span></div>
+  <script type="application/json" id="temas-json">{{json .Temas}}</script>
+</form>
+
+<h2>Provas completas</h2>
+<ul class="list">{{range .Provas}}
+<li data-prova="{{.P.ID}}"><div class="row"><div class="grow">
+  <h3 class="li-t">Fatec {{nomeProva .P.ID}}</h3>
+  <span class="small muted disp">{{len .P.Questoes}} questões{{if .Semana}} · semana {{.Semana}} ({{.Datas}}){{else if .Treino}} · usada nos treinos{{end}}</span>
+  <span class="pill good" data-nota hidden></span> <span class="pill warn" data-andamento hidden>em andamento</span>{{if .Atual}} <span class="pill">desta semana</span>{{end}}
+</div><a class="btn{{if .Atual}} primary{{end}}" href="/simulado/{{.P.ID}}" data-acao>Começar</a></div></li>
+{{end}}</ul>
+
+<h2>Histórico</h2>
+<ul class="list" id="historico"><li class="muted small">Nenhum simulado ou treino feito ainda.</li></ul>
+</div>{{end}}

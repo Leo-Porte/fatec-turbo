@@ -1,0 +1,9 @@
+{{define "conteudo"}}<div class="read">
+<p class="eyebrow">Questões novas</p>
+<h1>Testes da semana</h1>
+<p class="muted">Questões inéditas no estilo da Fatec, publicadas aqui a cada semana sobre os temas do bloco. Figuras e gráficos são gerados pelo próprio portal.</p>
+{{if not .Testes}}<div class="empty gap-top">Nenhum teste publicado ainda. Enquanto isso, os exercícios das lições servem de treino.</div>{{end}}
+<ul class="list">{{range .Testes}}
+<li data-teste="{{.ID}}"><div class="row"><div class="grow"><span class="pill mute">Semana {{.Semana}}</span> <span class="pill good" data-feito hidden></span><h3 class="li-t">{{.Titulo}}</h3><span class="small muted">{{.Descricao}} · {{len .Exercicios}} questões</span></div><a class="btn" href="/testes/{{.ID}}">Fazer</a></div></li>
+{{end}}</ul>
+</div>{{end}}

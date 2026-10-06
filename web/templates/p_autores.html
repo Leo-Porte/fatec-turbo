@@ -1,0 +1,16 @@
+{{define "conteudo"}}<div class="read">
+<p class="eyebrow">Repertório</p>
+<h1>Autores que caem na Fatec</h1>
+<p class="muted">Escritores, poetas, cartunistas e jornalistas cujos textos apareceram nas 15 provas analisadas, do que mais apareceu para o que menos apareceu. Os resumos vêm da Wikipédia (licença CC BY-SA); as dicas são nossas.</p>
+{{if not .Autores}}<div class="empty gap-top">A lista de autores está sendo montada.</div>{{end}}
+<div class="row gap-top"><input type="text" id="filtro-autor" placeholder="Filtrar por nome, tipo ou disciplina" aria-label="Filtrar autores"></div>
+<ul class="list" id="autores">{{range .Autores}}
+<li data-busca="{{.Nome}} {{.Tipo}} {{.Disciplina}}">
+  <h3 class="li-t">{{.Nome}} <span class="pill mute">{{.Tipo}}</span> <span class="pill mute">{{.Disciplina}}</span></h3>
+  <p class="small muted mt0">Caiu em: {{range $i, $a := .Aparicoes}}{{if $i}}; {{end}}{{nomeProva $a.Prova}}{{if $a.Obra}} (“{{$a.Obra}}”){{end}}{{end}}</p>
+  {{if .Resumo}}<p>{{.Resumo}} {{if .FonteResumo}}<a class="small" href="{{.FonteResumo}}" target="_blank" rel="noopener">Wikipédia</a>{{end}}</p>{{end}}
+  {{if .Dica}}<p class="box mark small"><b>O que costuma cair:</b> {{.Dica}}</p>{{end}}
+  {{if .Trecho}}<details><summary class="sumlink small">Trecho em domínio público</summary><blockquote>{{.Trecho}}</blockquote>{{if .FonteTrecho}}<a class="small" href="{{.FonteTrecho}}" target="_blank" rel="noopener">fonte</a>{{end}}</details>{{end}}
+</li>{{end}}</ul>
+{{if .Veiculos}}<h2>Jornais, revistas e sites citados</h2><ul class="list">{{range .Veiculos}}<li><b class="disp">{{.Nome}}</b> <span class="small muted">{{range $i, $a := .Aparicoes}}{{if $i}}, {{end}}{{nomeProva $a.Prova}}{{end}}</span></li>{{end}}</ul>{{end}}
+</div>{{end}}

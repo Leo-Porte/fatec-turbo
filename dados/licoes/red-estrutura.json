@@ -1,0 +1,126 @@
+{
+ "id": "red-estrutura",
+ "disciplina": "Redação",
+ "tema": "Redação",
+ "titulo": "Redação: estrutura do texto dissertativo-argumentativo",
+ "semana": 1,
+ "minutos": 40,
+ "por_que": "A redação vale 20% da nota final (o mesmo peso de 15 questões objetivas) e as 15 provas anteriores trouxeram sempre um tema social ou de atualidade, com opção entre dissertar e narrar. Uma estrutura fixa e conhecida de cor garante a nota e afasta os erros que zeram o texto.",
+ "secoes": [
+  {
+   "titulo": "1. O que a Fatec avalia (critérios oficiais)",
+   "texto": "A prova vale de 0 a 100 pontos, sempre em número inteiro (0, 10, 20 etc.). Para atribuir a nota, a banca considera **dois critérios com igual peso**:\n\n- **Correção gramatical**: manutenção da modalidade culta ao longo do texto (coerência estilística), adequação vocabular, sintaxe de concordância, colocação e regência, emprego correto de preposições e conjunções, grafia das palavras, paragrafação e pontuação.\n- **Apresentação e desenvolvimento do conteúdo**: adequação ao tema e ao gênero, organicidade e unidade (coesão, um conjunto articulado de partes em torno do tema) e, no texto dissertativo, **argumentação coerente e posicionamento claro**.\n\nO manual do candidato explica que os dois critérios são \"mutuamente condicionantes\": insuficiência em um deles, ou nos dois, pode anular a redação. Ou seja, um texto bonito que fuja do tema zera, e um texto no tema cheio de erros graves também não pontua.\n\nFonte: Portaria CEETEPS-Presidência nº 5304, de 25 de agosto de 2026 (Processo Seletivo Vestibular Fatec, 1º semestre de 2027), Anexo I, item Redação, disponível em vestibular.fatec.sp.gov.br/documentos/portaria.asp. Reforçado pelo Manual do Candidato, item 10.1."
+  },
+  {
+   "titulo": "2. O gênero: por que escolher o dissertativo-argumentativo",
+   "texto": "A proposta permite **dissertar** (expor criticamente, com tese e argumentos) ou **narrar** (contar uma história com narrador, personagens, enredo, tempo e espaço). Para quem estuda sozinho, o recomendado é treinar **só o dissertativo-argumentativo**: a estrutura é fixa, previsível e fácil de conferir.\n\nUm texto dissertativo-argumentativo faz três coisas, nessa ordem:\n\n- **Toma posição** sobre o tema (a tese).\n- **Defende** essa posição com razões e exemplos (os argumentos).\n- **Fecha** retomando a posição e, quando o tema pergunta \"como\", propondo um caminho (a solução).\n\nSeu texto precisa ser em **prosa** (nunca em versos), organizado em **parágrafos** e ter **título**. Tem que expor **ideias próprias**, sem copiar trechos da coletânea. Pode usar a coletânea como ponto de partida, mas não reproduzir."
+  },
+  {
+   "titulo": "3. O esqueleto: 4 parágrafos",
+   "texto": "Estrutura simples e fácil de decorar:\n\n- **1º parágrafo: introdução.** Contexto (1 ou 2 frases) → **tese** (sua posição, clara) → anúncio das duas razões que você vai desenvolver.\n- **2º parágrafo: 1º argumento.** Ideia central → **repertório** (dado, fato histórico, lei, autor, notícia) → explicação de como isso prova a sua tese.\n- **3º parágrafo: 2º argumento.** Mesma estrutura, com outra ideia e outro repertório.\n- **4º parágrafo: conclusão.** Retomada da tese → **proposta** (quem faz, o quê, como e para quê).\n\nTítulo: curto, relacionado ao tema, não é uma pergunta copiada da proposta. A ausência de título reduz a nota. Faça a redação de modo que o leitor consiga resumir em uma frase o que você defende."
+  },
+  {
+   "titulo": "4. Introdução: contexto, tese e razões",
+   "texto": "Modelo de introdução, com o tema da prova de 2023/2: **\"Como combater a insegurança alimentar no Brasil?\"**\n\n> *Contexto:* Desde a Emenda Constitucional nº 64, de 2010, a alimentação é um direito social garantido pela Constituição brasileira. *Problema:* Entretanto, milhões de brasileiros ainda não têm acesso regular a comida, o que revela uma contradição entre o texto legal e a realidade. *Tese:* Nesse sentido, a insegurança alimentar persiste no país porque o alimento é abundante, mas mal distribuído. *Razões:* Isso ocorre tanto pela desigualdade de renda quanto pelo desperdício ao longo da cadeia de produção.\n\nNote o que ela faz: dá o contexto, expõe o problema, **diz sua posição** em uma frase e anuncia os dois argumentos que virão (desigualdade de renda e desperdício). Quem lê já sabe o roteiro.\n\nErro típico: introduzir sem posição (\"a fome é um problema de todos nós\"). Não é tese, é lugar-comum."
+  },
+  {
+   "titulo": "5. Desenvolvimento: ideia, repertório, explicação",
+   "texto": "Cada parágrafo de desenvolvimento tem **três partes**:\n\n- **Ideia**: a frase que abre o parágrafo e diz o que ele vai provar. (\"Em primeiro lugar, a desigualdade de renda impede o acesso ao alimento.\")\n- **Repertório**: o fato que sustenta a ideia (um dado, uma lei, um fato histórico, um autor, uma notícia).\n- **Explicação**: a ligação entre o repertório e a ideia. É o que mais se esquece. Sem ela, o dado fica solto.\n\nExemplo de parágrafo: \"Em primeiro lugar, a desigualdade de renda limita o acesso ao alimento. Embora o Brasil seja um grande exportador de produtos agrícolas, o preço da comida compete com aluguel e transporte no orçamento de famílias de baixa renda. Dessa forma, a abundância na produção não chega ao prato de quem mais precisa.\"\n\nRepertório coringa (serve em vários temas): Revolução Industrial e 4ª Revolução Industrial, desigualdade de gênero (dados do IBGE), Constituição de 1988 (direitos sociais), desinformação e redes sociais, sustentabilidade e Agenda 2030, Paulo Freire (educação). Monte um caderno com 8 a 10 repertórios e o que cada um prova. **Só use dado que você tem certeza** (invente um número e o texto perde credibilidade; na dúvida, escreva \"segundo estudos\" sem cifra)."
+  },
+  {
+   "titulo": "6. Conclusão e proposta de solução",
+   "texto": "A conclusão faz duas coisas: **retoma a tese** com outras palavras e **propõe um caminho**. A Fatec não exige um formato fechado de \"proposta de intervenção\" como outros vestibulares, mas os temas \"Como combater…?\" e \"Como superar…?\" **perguntam como**, e uma proposta concreta mostra que você respondeu à pergunta.\n\nUma boa proposta responde a quatro perguntas:\n\n- **Quem** faz? (Governo Federal, escolas, empresas, a mídia, a sociedade civil)\n- **O quê**? (a ação)\n- **Como**? (por meio de que instrumento: campanhas, leis, parcerias, financiamento)\n- **Para quê**? (qual resultado se espera)\n\nExemplo: \"Portanto, cabe ao Governo Federal, por meio do Ministério do Desenvolvimento e Assistência Social, ampliar os restaurantes populares e os bancos de alimentos, mediante parcerias com supermercados, a fim de reduzir o desperdício e garantir refeições a quem tem fome.\"\n\nNão introduza argumento novo na conclusão."
+  },
+  {
+   "titulo": "7. Coesão: conectivos que organizam o texto",
+   "texto": "A banca avalia o emprego correto de conectivos (conjunções e preposições). Alguns pares que resolvem 90% dos casos:\n\n- **Adição**: além disso, ademais, bem como.\n- **Oposição**: mas, porém, entretanto, contudo, todavia.\n- **Causa**: porque, pois, já que, uma vez que.\n- **Conclusão**: portanto, logo, por isso, dessa forma.\n- **Finalidade**: para, a fim de, com o objetivo de.\n- **Concessão**: embora, apesar de, ainda que.\n- **Sequência de parágrafos**: em primeiro lugar, ademais, por fim.\n\nCuidado com o par do mesmo valor lógico: \"o desemprego cresceu; **entretanto**, muitos empreendem\" é adversidade (mas); \"o desemprego cresceu; **por isso**, muitos empreendem\" é conclusão. Ler a frase pensando na relação entre as duas ideias evita o conectivo errado."
+  },
+  {
+   "titulo": "8. O que zera e o que derruba a nota (Anexo I)",
+   "texto": "**Nota zero** se a redação:\n\n- fugir ao tema e/ou ao gênero propostos;\n- apresentar nome, rubrica, assinatura, sinal, iniciais ou marcas que identifiquem o candidato;\n- estiver em branco;\n- for composta de texto não articulado verbalmente (desenhos, sinais, números, séries de interjeições, palavras soltas);\n- for escrita em outra língua que não o português;\n- tiver letra ilegível;\n- tiver o texto definitivo fora do espaço reservado;\n- tiver **5 linhas ou menos** (sem contar o título);\n- for composta inteiramente por cópia de trechos da coletânea ou de outras partes da prova.\n\n**Nota limitada a 50** se houver **desvio de tema** (\"hipertrofia do exemplo\": o texto se desenvolve em torno do exemplo e deixa o tema de lado) ou **tangenciamento** (aborda o tema só de forma superficial, sem aprofundar).\n\n**Penalização**: texto que defenda ou legitime ideias que violem direitos humanos (violência, discriminação, misoginia, xenofobia etc.) pode ter a nota bastante reduzida ou zerada. **A falta de título** diminui a nota final.\n\nA versão definitiva só será corrigida se transcrita com caneta esferográfica preta ou azul para a Folha de Redação.\n\nFonte: Portaria CEETEPS-Presidência nº 5304, de 25 de agosto de 2026 (Processo Seletivo Vestibular Fatec, 1º semestre de 2027), Anexo I, item Redação, disponível em vestibular.fatec.sp.gov.br/documentos/portaria.asp. Reforçado pelo Manual do Candidato, item 10.1."
+  },
+  {
+   "titulo": "9. Os 15 temas antigos: use como treino",
+   "texto": "As 15 provas de 2017/1 a 2026/2 deram estes temas. Faça pelo menos 6 deles, com 1 hora no relógio, seguindo o esqueleto:\n\n- 2017/1: Perspectivas de igualdade entre mulheres e homens no mundo do trabalho.\n- 2017/2: Impactos da imigração no mercado de trabalho.\n- 2018/1: O emprego perfeito: realidade ou ficção?\n- 2018/2: O jeitinho brasileiro é uma forma de resiliência ou falta de honestidade?\n- 2019/1: Qual o papel da escola na formação do jovem para o mercado de trabalho do século XXI?\n- 2019/2: Tecnologia e informação: como transformar opinião em conhecimento?\n- 2020/1: Empreendedorismo na sociedade brasileira do século XXI.\n- 2022/2: Desigualdade de gênero e mercado de trabalho no Brasil contemporâneo.\n- 2023/1: Como se preparar para o mercado de trabalho diante dos avanços tecnológicos da 4ª Revolução Industrial?\n- 2023/2: Como combater a insegurança alimentar no Brasil?\n- 2024/1: A importância da representatividade na arte para a sociedade.\n- 2024/2: Como superar a permanente exploração da América Latina?\n- 2025/2: Como a tecnologia pode afetar o desenvolvimento de uma economia sustentável?\n- 2026/1: Como utilizar a tecnologia para combater a desinformação e disseminar o conhecimento científico?\n- 2026/2: Qual deve ser o papel do futebol no enfrentamento dos preconceitos sociais?\n\nPadrão: em 7 das 15 o tema envolve trabalho, tecnologia ou mercado. Os demais são problemas sociais. Aprenda a **transformar a pergunta do tema em tese**: \"Qual o papel da escola…?\" vira \"A escola deve formar o jovem para o trabalho sem abrir mão da formação cidadã, pois…\"."
+  }
+ ],
+ "decorar": [
+  "Dois critérios, igual peso: correção gramatical e conteúdo (tema, gênero, coesão, argumentação)",
+  "Esqueleto: introdução (contexto + tese + 2 razões) → 2 argumentos → conclusão (tese + proposta)",
+  "Argumento = ideia + repertório + explicação",
+  "Proposta = quem + o quê + como + para quê",
+  "Zera: fuga ao tema ou gênero, 5 linhas ou menos, identificação, em branco, cópia, outra língua",
+  "Tangenciamento e hipertrofia do exemplo: nota máxima 50; sem título: nota reduzida"
+ ],
+ "pegadinhas": [
+  "Fugir do tema por falar do assunto em geral. A pergunta do tema precisa estar respondida.",
+  "Escrever tese sem posição (\"a fome é um problema\"). Diga o que você defende.",
+  "Dado solto, sem explicar como ele sustenta o argumento.",
+  "Esquecer o título, ou escrever em versos, ou assinar.",
+  "Copiar trechos da coletânea. Use-a só para entender o tema.",
+  "Argumento novo na conclusão: ela só retoma e propõe."
+ ],
+ "resolvidas": [],
+ "exercicios": [
+  {
+   "enunciado": "Leia a introdução: \"Nas últimas décadas, as redes sociais mudaram a forma como os brasileiros se informam. Contudo, a velocidade com que notícias falsas circulam preocupa. Nesse sentido, a tecnologia, se bem usada, é a principal aliada contra a desinformação, pois amplia o acesso à ciência e permite verificar fatos em segundos.\" A tese (posição defendida pelo autor) está no trecho:",
+   "alternativas": [
+    "\"as redes sociais mudaram a forma como os brasileiros se informam\"",
+    "\"a velocidade com que notícias falsas circulam preocupa\"",
+    "\"pois amplia o acesso à ciência\"",
+    "\"a tecnologia, se bem usada, é a principal aliada contra a desinformação\"",
+    "\"permite verificar fatos em segundos\""
+   ],
+   "gabarito": "D",
+   "resolucao": "A tese é a **posição** do autor sobre o tema: a tecnologia é a principal aliada contra a desinformação. A primeira alternativa é o contexto; a segunda, o problema; as duas últimas são as razões (argumentos anunciados), e não a tese."
+  },
+  {
+   "enunciado": "Para defender a tese de que o futebol pode ajudar no combate ao preconceito, um estudante escreveu um parágrafo de desenvolvimento. O trecho que reúne os três elementos de um bom argumento (ideia, repertório e explicação) é:",
+   "alternativas": [
+    "\"Primeiramente, o futebol, por reunir multidões, funciona como vitrine social. A Constituição afirma que todos são iguais perante a lei; logo, quando clubes punem atos racistas, reforçam esse princípio diante de milhões de torcedores.\"",
+    "\"O futebol é muito importante. Todo mundo gosta de futebol. Por isso, o futebol é bom.\"",
+    "\"Eu acho que o preconceito é ruim e tem que acabar.\"",
+    "\"Como diz o ditado, quem ama o futebol não tem preconceito.\"",
+    "\"Neymar ganhou muito dinheiro jogando futebol.\""
+   ],
+   "gabarito": "A",
+   "resolucao": "O primeiro trecho abre com a ideia (o futebol como vitrine social), traz um repertório (a Constituição) e explica como o fato reforça a ideia (punir racismo reforça a igualdade diante de milhões). As demais são circulares, são opinião sem sustentação, usam senso comum ou trazem um dado que não se liga ao tema."
+  },
+  {
+   "enunciado": "Em uma redação sobre insegurança alimentar, o trecho que apresenta uma proposta de solução completa (quem, o quê, como e para quê) é:",
+   "alternativas": [
+    "\"É preciso acabar com a fome no Brasil.\"",
+    "\"O governo deve fazer alguma coisa a respeito.\"",
+    "\"O Governo Federal, por meio do Ministério do Desenvolvimento e Assistência Social, deve ampliar restaurantes populares e bancos de alimentos, mediante parcerias com supermercados, a fim de reduzir o desperdício e garantir refeições a quem tem fome.\"",
+    "\"Todos devem colaborar para construir um Brasil melhor.\"",
+    "\"A fome é causada pela desigualdade social.\""
+   ],
+   "gabarito": "C",
+   "resolucao": "A alternativa correta traz o agente (Governo Federal, Ministério), a ação (ampliar restaurantes e bancos de alimentos), o meio (parcerias com supermercados) e a finalidade (reduzir o desperdício, garantir refeições). As demais são genéricas (sem quem nem como) ou apenas uma constatação, e não uma proposta."
+  },
+  {
+   "enunciado": "Complete a frase de uma redação com o conectivo que expressa **conclusão**: \"O desemprego entre os jovens cresceu nos últimos anos; ______, muitos deles passaram a empreender por necessidade.\"",
+   "alternativas": [
+    "entretanto",
+    "porém",
+    "embora",
+    "todavia",
+    "consequentemente"
+   ],
+   "gabarito": "E",
+   "resolucao": "A segunda ideia é consequência da primeira, então o conectivo precisa expressar conclusão: consequentemente (também: por isso, portanto, logo). \"Entretanto\", \"porém\" e \"todavia\" indicam oposição, e \"embora\" indica concessão."
+  },
+  {
+   "enunciado": "Segundo os critérios de correção do Anexo I da Portaria do Vestibular Fatec, uma redação receberá **nota zero** quando",
+   "alternativas": [
+    "não tiver título.",
+    "apresentar cinco linhas ou menos, sem contar o título.",
+    "apresentar um erro de concordância verbal.",
+    "tangenciar o tema, abordando-o de forma superficial.",
+    "desenvolver-se em torno do exemplo, deixando o tema de lado (hipertrofia do exemplo)."
+   ],
+   "gabarito": "B",
+   "resolucao": "Cinco linhas ou menos (sem contar o título) é causa de nota zero. A falta de título reduz a nota; o tangenciamento e a hipertrofia do exemplo limitam a nota a no máximo 50; um erro de concordância é descontado dentro do critério de correção gramatical, e não zera."
+  }
+ ]
+}

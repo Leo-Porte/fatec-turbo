@@ -1,0 +1,129 @@
+{
+ "id": "log-sequencias",
+ "disciplina": "Raciocínio Lógico",
+ "tema": "Sequências e padrões",
+ "titulo": "Sequências e padrões",
+ "semana": 2,
+ "minutos": 30,
+ "por_que": "Sequências e padrões caíram em 14 questões nas 15 provas. O formato mais repetido é o padrão que se repete a cada n termos, em que a posição pedida se resolve com o resto da divisão. Também aparecem PA, regra de formação de figuras e códigos de letras.",
+ "secoes": [
+  {
+   "titulo": "1. Padrão que se repete: use o resto",
+   "texto": "Se um bloco se repete (ABCDE ABCDE ABCDE…), a letra na posição **p** depende só do **resto da divisão de p pelo tamanho do bloco**.\n\n- Resto 1 → 1ª letra do bloco; resto 2 → 2ª; …\n- Resto **0** → a **última** letra do bloco (o bloco acabou de fechar).\n\nExemplo (prova 2026/2): o grito \"ALLEZ\" repetido sem parar, 5 letras. Qual a letra na posição 1.985? 1.985 ÷ 5 = 397, resto 0 → última letra do bloco, **Z**.\n\nOutro exemplo: \"VESTIB\" repetida (6 letras), posição 2.026. 2.026 ÷ 6 = 337, resto 4 → 4ª letra: V, E, S, **T**."
+  },
+  {
+   "titulo": "2. A pegadinha: a numeração começa em 0?",
+   "texto": "Leia a tabela do enunciado. Se a contagem começa em **0** (a primeira letra é a posição 0), a conta muda: a posição p corresponde ao resto **r** da divisão de p por n, em que a posição do bloco é r + 1 (resto 0 → 1ª letra, resto 1 → 2ª…).\n\nNa prova 2018/2, a palavra FATEC foi escrita muitas vezes, com a tabela marcando F = 0, A = 1, T = 2, E = 3, C = 4, F = 5… A posição 2.018: 2.018 ÷ 5 = 403, resto 3. Posição 3 do bloco (começando em 0) = **E**.\n\nRegra prática: se a primeira posição é 0, o resto serve **direto** como número da letra (0 = 1ª letra do bloco). Se a primeira posição é 1, o resto 0 é a **última** letra. Teste sempre com a primeira posição do enunciado."
+  },
+  {
+   "titulo": "3. Padrão que \"vai e volta\"",
+   "texto": "Às vezes o ciclo não é uma lista simples, e sim um vai-e-volta (zigue-zague). A solução é achar **o período**, o tamanho do bloco que se repete, e usar o resto.\n\nNa prova 2017/1, os números 0, 1, 2, … foram escritos em linhas: 0 na 1ª linha, 1 na 2ª, 2 na 3ª, 3 na 4ª, 4 na 5ª, 5 de volta na 4ª, 6 na 3ª, 7 na 2ª, 8 na 1ª, e assim por diante. Linha de cada resto: 0→1ª, 1→2ª, 2→3ª, 3→4ª, 4→5ª, 5→4ª, 6→3ª, 7→2ª. O ciclo fecha em **8 números**. Para 2.017: 2.017 ÷ 8 = 252, resto 1 → **2ª linha**."
+  },
+  {
+   "titulo": "4. Progressão aritmética (PA): soma sempre a mesma coisa",
+   "texto": "Na PA, de um termo para o seguinte, soma-se sempre o mesmo valor, a **razão** r.\n\n`aₙ = a₁ + (n − 1) · r`\n\nExemplo: 7, 12, 17, … tem r = 5. O 20º termo é 7 + 19 × 5 = **102**. Se a razão for negativa (523, 520, 517…, r = −3), os termos diminuem.\n\nO \"n − 1\" confunde: entre o 1º e o 20º termo há **19** saltos, não 20. Teste com n = 1: a₁ = a₁ + 0, ok."
+  },
+  {
+   "titulo": "5. Progressão geométrica (PG): multiplica sempre pelo mesmo",
+   "texto": "Na PG, multiplica-se sempre pela mesma **razão** q.\n\n`aₙ = a₁ · qⁿ⁻¹`\n\nExemplo: 2, 6, 18, 54… tem q = 3. O 5º termo é 54 × 3 = **162** (ou 2 × 3⁴ = 162).\n\nRegra para decidir entre as duas: **diferenças iguais** entre termos vizinhos → PA. **Razões iguais** (um termo ÷ o anterior) → PG. Para quantidades que dobram a cada período (bactérias, meia-vida ao contrário), é PG de razão 2."
+  },
+  {
+   "titulo": "6. Outras regras de formação",
+   "texto": "Quando nem é PA nem é PG, olhe:\n\n- **As diferenças entre termos**. Em 1, 2, 4, 7, 11, 16: as diferenças são 1, 2, 3, 4, 5, então o próximo salto é 6 → 16 + 6 = **22**.\n- **A posição de cada letra** no alfabeto (A = 1, B = 2…). Em códigos, A = 0 também é comum: leia o enunciado.\n- **Troca de lugar**: em 2022/2, SIDA virou AIDS trocando a 1ª e a 4ª letras. A mesma regra aplicada a 1246 dá 6241.\n- **Ordem alfabética** ou numérica oculta (2023/2: banana, coco, ___, especiarias, flores → B, C, D, E, F → \"doces\").\n\nDica: escreva as 5 primeiras posições e **teste sua regra em todas** antes de aplicar. Uma regra que só funciona em alguns termos não é a regra."
+  }
+ ],
+ "decorar": [
+  "Bloco que repete: posição = resto da divisão por n; resto 0 = última letra do bloco (se começa em 1)",
+  "Verifique se a contagem começa em 0 ou em 1",
+  "PA: `aₙ = a₁ + (n−1)r`; PG: `aₙ = a₁ · qⁿ⁻¹`",
+  "Diferenças constantes → PA; razões constantes → PG",
+  "Vai-e-volta: ache o período (ciclo completo) e use o resto",
+  "Teste a regra em todos os termos dados antes de aplicar"
+ ],
+ "pegadinhas": [
+  "Resto 0 não significa \"não existe\": significa a última do bloco (quando a contagem começa em 1).",
+  "Esquecer de olhar se a tabela começa em 0.",
+  "Usar n em vez de n − 1 na fórmula da PA.",
+  "Confundir PA e PG: some ou multiplique?",
+  "Escolher a regra olhando só dois termos. Teste em todos."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-2",
+   "n": 47,
+   "resolucao": "O termo em negrito, ALLEZ, tem 5 letras e é repetido sem parar: ALLEZALLEZALLEZ…\n\nA posição 1.985 é a letra de resto: 1.985 ÷ 5 = 397, resto **0**. Como a contagem começa em 1, resto 0 é a **última** letra do bloco: **Z** (D). Gabarito oficial: D. ✔ Bateu."
+  },
+  {
+   "prova": "2018-2",
+   "n": 12,
+   "resolucao": "A tabela numera as letras a partir do **0**: F = 0, A = 1, T = 2, E = 3, C = 4, F = 5, A = 6…, o bloco FATEC tem 5 letras.\n\nPosição 2.018: 2.018 ÷ 5 = 403, resto 3. Como a primeira posição é 0, o resto serve direto: posição 3 do bloco = **E** (D). Gabarito oficial: D. ✔ Bateu.\n\nSe você achasse que a numeração começa em 1, resto 3 daria T (3ª letra). É a armadilha."
+  },
+  {
+   "prova": "2017-1",
+   "n": 10,
+   "resolucao": "A figura numera de 0 em diante, subindo da 1ª à 5ª linha e descendo de volta: 0 (1ª), 1 (2ª), 2 (3ª), 3 (4ª), 4 (5ª), 5 (4ª), 6 (3ª), 7 (2ª), 8 (1ª), 9 (2ª)… O ciclo se repete a cada **8** números.\n\n2.017 ÷ 8 = 252, resto 1. Resto 1 = mesma linha que o número 1: **2ª linha** (B). Gabarito oficial: B. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "A palavra VESTIB é escrita repetidamente, sem espaços: VESTIBVESTIBVESTIB… Considerando que a 1ª letra (V) ocupa a posição 1, a letra que ocupa a posição 2.026 é",
+   "alternativas": [
+    "V",
+    "E",
+    "T",
+    "S",
+    "B"
+   ],
+   "gabarito": "C",
+   "resolucao": "O bloco tem 6 letras. 2.026 ÷ 6 = 337, resto 4 (6 × 337 = 2.022). Resto 4 = 4ª letra do bloco: V, E, S, T."
+  },
+  {
+   "enunciado": "Os termos de uma sequência são 7, 12, 17, 22, … e cada termo, a partir do segundo, é o anterior mais 5. O 20º termo dessa sequência é",
+   "alternativas": [
+    "102",
+    "97",
+    "105",
+    "107",
+    "110"
+   ],
+   "gabarito": "A",
+   "resolucao": "PA de razão 5: a₂₀ = 7 + (20 − 1) × 5 = 7 + 95 = 102. 97 é o 19º termo e 107 é o 21º."
+  },
+  {
+   "enunciado": "Uma faixa decorativa repete, em ordem, as cores vermelho, verde, azul e amarelo, nessa sequência e sem parar. Considerando que a 1ª listra é vermelha, a cor da 150ª listra é",
+   "alternativas": [
+    "vermelho",
+    "azul",
+    "amarelo",
+    "impossível de determinar",
+    "verde"
+   ],
+   "gabarito": "E",
+   "resolucao": "Bloco de 4 cores. 150 ÷ 4 = 37, resto 2 (4 × 37 = 148). Resto 2 = 2ª cor do bloco: verde."
+  },
+  {
+   "enunciado": "Observe a sequência: 2, 6, 18, 54, … Mantida a regra de formação, o próximo termo é",
+   "alternativas": [
+    "108",
+    "162",
+    "216",
+    "72",
+    "486"
+   ],
+   "gabarito": "B",
+   "resolucao": "Razões: 6 ÷ 2 = 3, 18 ÷ 6 = 3, 54 ÷ 18 = 3 → PG de razão 3. Próximo: 54 × 3 = 162. 108 viria de somar 54 de novo (PA, que não vale: as diferenças são 4, 12, 36)."
+  },
+  {
+   "enunciado": "Observe a sequência: 1, 2, 4, 7, 11, 16, … Mantida a regra de formação, o próximo termo é",
+   "alternativas": [
+    "20",
+    "21",
+    "23",
+    "22",
+    "24"
+   ],
+   "gabarito": "D",
+   "resolucao": "Diferenças entre termos vizinhos: 1, 2, 3, 4, 5. A próxima diferença é 6, e 16 + 6 = 22."
+  }
+ ]
+}

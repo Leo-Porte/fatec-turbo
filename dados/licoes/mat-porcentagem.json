@@ -1,0 +1,129 @@
+{
+ "id": "mat-porcentagem",
+ "disciplina": "Matemática",
+ "tema": "Aritmética e porcentagem",
+ "titulo": "Porcentagem e aritmética",
+ "semana": 1,
+ "minutos": 35,
+ "por_que": "Aritmética e porcentagem caiu em 19 questões nas 15 provas: conta de parte e total, variação percentual, descontos e aumentos sucessivos, quase sempre dentro de uma notícia ou gráfico. É a base de quase tudo que vem depois em Matemática, Física e Química.",
+ "secoes": [
+  {
+   "titulo": "1. O que é porcentagem, de verdade",
+   "texto": "Porcentagem é uma fração de denominador 100. **30%** quer dizer 30 em cada 100, ou seja, `30/100 = 0,30`. Na prática você sempre troca o `%` por um número decimal e multiplica.\n\n- 50% = 0,50 (metade)\n- 25% = 0,25 (um quarto)\n- 10% = 0,10 (é só andar a vírgula uma casa)\n- 1% = 0,01\n- 5% = metade de 10%\n\nTruque de prova: 10% de qualquer número é só andar a vírgula uma casa para a esquerda. 10% de 1.300 = 130. 5% = 65. 15% = 130 + 65 = 195. Dá para montar quase qualquer porcentagem com 10%, 5% e 1%."
+  },
+  {
+   "titulo": "2. As três perguntas possíveis",
+   "texto": "Toda questão simples de porcentagem é uma destas três:\n\n- **Achar a parte**: quanto é 18% de 800? `parte = % × total` → 0,18 × 800 = 144.\n- **Achar o total**: 144 é 18% de quanto? `total = parte ÷ %` → 144 ÷ 0,18 = 800.\n- **Achar a porcentagem**: 144 é quanto por cento de 800? `% = parte ÷ total` → 144 ÷ 800 = 0,18 = 18%.\n\nO jeito de não errar é descobrir primeiro **quem é o total** (a coisa que vale 100%) e **quem é a parte**. O texto costuma dizer \"em relação a\" ou \"do preço de\": o que vem depois disso é o total."
+  },
+  {
+   "titulo": "3. Aumento e desconto: use o fator",
+   "texto": "Em vez de calcular o aumento e depois somar, use o **fator multiplicador**:\n\n- Aumento de 20% → multiplica por **1,20** (100% + 20%).\n- Desconto de 15% → multiplica por **0,85** (100% − 15%).\n\nExemplo: camisa de R$ 80 com 15% de desconto custa 80 × 0,85 = R$ 68. Uma conta só, sem passo intermediário.\n\nO fator também resolve a conta ao contrário: se depois de um aumento de 20% o preço é R$ 240, o preço original é 240 ÷ 1,20 = R$ 200."
+  },
+  {
+   "titulo": "4. Variação percentual",
+   "texto": "Quando a prova pergunta \"de quantos por cento foi o crescimento\" (ou a queda, ou a redução), a conta é sempre a mesma:\n\n`variação = (valor final − valor inicial) ÷ valor inicial`\n\nO denominador é **sempre o valor inicial**, nunca o final. Exemplo: população de 250 mil para 275 mil → (275 − 250) ÷ 250 = 25 ÷ 250 = 0,10 = **10%**. Se der negativo, é queda.\n\nQuando a questão fala em \"redução\" (como na prova 2023/1, água de 40 para 1 litro), a conta é a mesma: (40 − 1) ÷ 40 = 97,5%."
+  },
+  {
+   "titulo": "5. Aumentos e descontos sucessivos (a pegadinha clássica)",
+   "texto": "Se um preço sobe 10% e depois cai 20%, **não** dá −10%. As porcentagens incidem sobre bases diferentes. Você multiplica os fatores:\n\n1,10 × 0,80 = 0,88 → o preço final é 88% do original, ou seja, **queda de 12%**.\n\nPense assim: R$ 100 sobe 10% e vira R$ 110. Agora os 20% de queda são sobre R$ 110 (não sobre 100): 110 × 0,20 = 22. Fica R$ 88.\n\nA mesma lógica vale para \"porcentagem de porcentagem\": 45% de 17,7% é 0,45 × 0,177 ≈ 0,08 = 8%."
+  },
+  {
+   "titulo": "6. Média e MMC (o resto da aritmética)",
+   "texto": "**Média aritmética** = soma dos valores ÷ quantidade deles. A Fatec gosta de dar a média e pedir um valor que falta (a soma total é média × quantidade).\n\n**MMC** (mínimo múltiplo comum) aparece quando dois eventos se repetem em ciclos diferentes e a pergunta é quando coincidem. Dois ônibus que passam de 13 em 13 min e de 17 em 17 min voltam a passar juntos em MMC(13, 17) = 221 min, porque 13 e 17 são primos. Mais sobre isso na lição de lógica aritmética."
+  }
+ ],
+ "decorar": [
+  "`parte = % × total`; `total = parte ÷ %`; `% = parte ÷ total`",
+  "Aumento de i% → fator 1 + i/100; desconto de i% → fator 1 − i/100",
+  "`variação = (final − inicial) ÷ inicial` (sempre dividir pelo inicial)",
+  "Sucessivos se multiplicam: +10% e −20% → 1,10 × 0,80 = 0,88 → queda de 12%",
+  "10% de um número = andar a vírgula uma casa para a esquerda",
+  "Média = soma ÷ quantidade; soma = média × quantidade"
+ ],
+ "pegadinhas": [
+  "Somar ou subtrair porcentagens sucessivas (+10% −20% ≠ −10%). Multiplique os fatores.",
+  "Dividir pelo valor final na variação percentual. O denominador é o valor inicial.",
+  "Não identificar o total. Em \"quanto X representa em relação a Y\", o total (100%) é Y.",
+  "\"Reduziu 97,5%\" é diferente de \"ficou em 97,5%\": reduzir de 40 para 1 é reduzir 97,5%, e o que sobrou é 2,5%.",
+  "Arredondar cedo demais: 100/1300 = 7,69% ≈ 8%. Só arredonde no final, e confira qual alternativa está mais perto."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-2",
+   "n": 13,
+   "resolucao": "O enunciado diz que o modelo Mini custa R$ 100,00 e o texto de apoio diz que o modelo Pro custa R$ 1.300,00. Pergunta quanto o Mini representa **em relação ao Pro**, então o total (100%) é o preço do Pro.\n\n`% = parte ÷ total` = 100 ÷ 1.300 ≈ 0,0769 ≈ 7,7%.\n\nA alternativa mais próxima é **8%** (B). Gabarito oficial: B. ✔ Bateu."
+  },
+  {
+   "prova": "2022-2",
+   "n": 22,
+   "resolucao": "A renda dos 10% mais pobres teve duas variações em sequência: aumento de 10% (fator 1,10) e depois redução de 20% (fator 0,80).\n\nFator acumulado = 1,10 × 0,80 = 0,88. Isso é 88% da renda original, então a **queda acumulada é de 12%** (C).\n\nErro tentador: 10% − 20% = −10% (alternativa A). Não vale, porque são bases diferentes. Gabarito oficial: C. ✔ Bateu."
+  },
+  {
+   "prova": "2022-2",
+   "n": 38,
+   "resolucao": "Estavam fora da escola 3% (100% − 97%) das crianças, e esses 3% correspondem a 1,5 milhão de pessoas.\n\nTotal = parte ÷ % = 1,5 ÷ 0,03 = 50 milhões.\n\nMatriculados = 97% de 50 milhões = 0,97 × 50 = **48,5 milhões** (A). Atalho: 50 − 1,5 = 48,5. Gabarito oficial: A. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Uma loja anunciou camisetas de R$ 80,00 com desconto de 15% para pagamento à vista. Quem pagar à vista pagará, por camiseta,",
+   "alternativas": [
+    "R$ 12,00",
+    "R$ 65,00",
+    "R$ 68,00",
+    "R$ 72,00",
+    "R$ 92,00"
+   ],
+   "gabarito": "C",
+   "resolucao": "Desconto de 15% → fator 0,85. 80 × 0,85 = 68,00. O desconto em si é 12 (alternativa que só dá o valor abatido), 65 é 80 − 15 (tirou 15 reais em vez de 15%) e 92 é o preço com acréscimo de 15%."
+  },
+  {
+   "enunciado": "Um produto custava R$ 200,00. Ele sofreu um aumento de 20% e, algumas semanas depois, uma redução de 20% sobre o novo preço. O preço final do produto é",
+   "alternativas": [
+    "R$ 160,00",
+    "R$ 192,00",
+    "R$ 200,00",
+    "R$ 208,00",
+    "R$ 240,00"
+   ],
+   "gabarito": "B",
+   "resolucao": "Fatores: 1,20 × 0,80 = 0,96. 200 × 0,96 = 192. Primeiro 200 → 240 (aumento de 20%). Depois 240 × 0,20 = 48, e 240 − 48 = 192. O preço final é 4% menor que o original; 200 seria a ideia errada de que \"+20% −20% se anula\"."
+  },
+  {
+   "enunciado": "Em uma escola, 144 alunos participam do projeto de robótica, o que corresponde a 18% do total de estudantes. O número total de estudantes dessa escola é",
+   "alternativas": [
+    "8",
+    "170",
+    "640",
+    "2 592",
+    "800"
+   ],
+   "gabarito": "E",
+   "resolucao": "144 é a parte e 18% = 0,18. Total = parte ÷ % = 144 ÷ 0,18 = 800. Conferindo: 18% de 800 = 0,18 × 800 = 144. ✔"
+  },
+  {
+   "enunciado": "A população de uma cidade passou de 250 mil habitantes, em 2015, para 275 mil, em 2025. O crescimento percentual da população nesse período foi de",
+   "alternativas": [
+    "10%",
+    "9,1%",
+    "11%",
+    "25%",
+    "27,5%"
+   ],
+   "gabarito": "A",
+   "resolucao": "Variação = (final − inicial) ÷ inicial = (275 − 250) ÷ 250 = 25 ÷ 250 = 0,10 = 10%. 9,1% sairia de dividir 25 por 275 (denominador errado, o valor final). 25% é só a diferença em milhares, sem dividir."
+  },
+  {
+   "enunciado": "Uma loja compra um tênis por R$ 50,00 e o revende com lucro de 40% sobre o preço de compra. Em uma liquidação, ela dá 10% de desconto sobre o preço de venda. O preço final pago pelo cliente na liquidação é",
+   "alternativas": [
+    "R$ 56,00",
+    "R$ 60,00",
+    "R$ 65,00",
+    "R$ 63,00",
+    "R$ 70,00"
+   ],
+   "gabarito": "D",
+   "resolucao": "Preço de venda = 50 × 1,40 = 70. Com 10% de desconto: 70 × 0,90 = 63. Os dois fatores juntos: 1,40 × 0,90 = 1,26. 50 × 1,26 = 63. O lucro final é de 26% (não de 30% = 40% − 10%). R$ 70 é o preço sem a liquidação."
+  }
+ ]
+}

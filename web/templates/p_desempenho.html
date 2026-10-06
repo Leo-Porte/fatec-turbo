@@ -1,0 +1,11 @@
+{{define "conteudo"}}<div class="read" id="desempenho">
+<p class="eyebrow">Acompanhamento</p>
+<h1>Desempenho</h1>
+<div class="empty" id="d-vazio">Os gráficos aparecem depois do primeiro simulado. O desta semana está em <a href="/simulados">Simulados</a>.</div>
+<div id="d-conteudo" hidden>
+  <div id="d-sim"><h2>Nota objetiva por simulado</h2><div id="d-chart"></div><div class="stats" id="d-stats"></div></div>
+  <h2>Acerto por disciplina</h2><p class="small muted">Somando simulados e treinos.</p><div class="bars" id="d-disc"></div>
+  <div id="d-fracos-w"><h2>Temas mais fracos</h2><p class="small muted">Temas com pelo menos 2 questões feitas, do menor acerto para o maior.</p><div class="bars" id="d-fracos"></div></div>
+  <div id="d-red-w"><h2>Redações</h2><p class="small muted">Notas que você registrou depois da correção pela IA.</p><div id="d-red"></div></div>
+</div>
+</div>{{end}}

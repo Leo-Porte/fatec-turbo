@@ -1,0 +1,16 @@
+{{define "conteudo"}}{{$t := .T}}<article class="read lesson" id="teste" data-id="{{$t.ID}}" data-gab="{{json .Gab}}">
+<a class="btn ghost small" href="/testes">← Testes</a>
+<p class="eyebrow gap-top">Semana {{$t.Semana}}{{if $t.Publicado}} · publicado em {{$t.Publicado}}{{end}}</p>
+<h1>{{$t.Titulo}}</h1>
+{{if $t.Descricao}}<p class="muted">{{$t.Descricao}}</p>{{end}}
+<p class="small muted">Responda tudo antes de conferir: a correção aparece quando você clicar em “Corrigir”.</p>
+<div id="exs" data-modo="prova">{{range $i, $e := $t.Exercicios}}{{template "exercicio" (dict2 $i $e)}}{{end}}</div>
+<div class="row gap-top"><button class="btn primary" id="corrigir" type="button">Corrigir</button><span class="small muted" id="placar"></span></div>
+<form method="post" action="/revisao/teste.md" class="panel gap-top" id="rev-form">
+  <input type="hidden" name="teste" value="{{$t.ID}}"><input type="hidden" name="respostas" id="rev-resp">
+  <h3 class="mt0">Validar com a IA que você quiser</h3>
+  <p class="small muted">Baixe o arquivo com as questões e suas respostas, cole o prompt na IA e anexe o arquivo. Ela é obrigada a validar cada questão e calcular sua porcentagem de acerto.</p>
+  <div class="row"><button class="btn" type="submit">Baixar arquivo (.md)</button><button class="btn ghost" type="button" data-copy="#prompt-ex">Copiar prompt</button></div>
+  <textarea id="prompt-ex" class="prompt" readonly rows="6">{{promptTeste $t.Titulo (len $t.Exercicios)}}</textarea>
+</form>
+</article>{{end}}

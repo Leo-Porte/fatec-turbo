@@ -1,0 +1,848 @@
+﻿prova;questao;disciplina;tema;subtema;conceito_chave;tipo;dificuldade;gabarito
+2017-1;1;Multidisciplinar;População e urbanização;Sociologia+Geografia: desigualdade salarial de gênero;Mulheres ganham cerca de 30% menos que homens de mesma idade e instrução, parte da explicação é a visão de que o cuidado da família é função feminina;interpretacao;facil;D
+2017-1;2;Multidisciplinar;Coesão e conectivos;Português: paráfrase de título com conectivos;"ainda = continua sendo, ""bem como"" = adição, ""entretanto/porquanto/por conseguinte"" mudam a relação lógica (adversão/causa/conclusão)";conteudo;media;B
+2017-1;3;Multidisciplinar;Estatística e leitura de gráficos;Matemática: média aritmética de valores lidos em gráfico;Média = soma dos valores / quantidade de valores;interpretacao;facil;E
+2017-1;4;Multidisciplinar;Razão, proporção e regra de três;Matemática: razão entre rendimentos e coeficiente;CDRS = 1 - (M.RM)/(H.RH), razão RM/RH lida do gráfico multiplicada por M/H;interpretacao;media;B
+2017-1;5;Multidisciplinar;Interpretação de texto;Inglês: cartum;Interpretar texto curto em inglês (hired/fired/seven women);interpretacao;facil;B
+2017-1;6;Multidisciplinar;Século XX mundial;História: movimento sufragista feminino;Sufragistas inglesas lutavam pelo direito ao voto feminino;conteudo;facil;C
+2017-1;7;Multidisciplinar;Fisiologia humana;Biologia: amamentação e imunidade;Leite materno fornece anticorpos maternos (imunidade passiva) ao filhote;conteudo;facil;E
+2017-1;8;Multidisciplinar;Atomística e tabela periódica;Química: fissão nuclear do U-235;Na reação nuclear o número atômico se conserva: 92 = 56 + Z do outro núcleo (Z=36);conteudo;media;C
+2017-1;9;Multidisciplinar;Física moderna;Física: raios cósmicos e partículas subatômicas;Raios cósmicos e radioatividade e partículas subatômicas pertencem à Astrofísica e Física de Partículas;interpretacao;facil;D
+2017-1;10;Raciocínio Lógico;Sequências e padrões;Padrão periódico em zigue-zague;Padrão se repete a cada 8 números, usar o resto da divisão por 8 (2017 mod 8 = 1);conteudo;media;B
+2017-1;11;Raciocínio Lógico;Sequências e padrões;Criptografia por tabela de substituição;Montar a tabela de 2 linhas e trocar letra da coluna pela da outra linha (vice-versa);interpretacao;dificil;A
+2017-1;12;Raciocínio Lógico;Raciocínio espacial;Rotação de figura em 3/4 de volta horária;3/4 de volta horária = 270 graus horário = 90 graus anti-horário;interpretacao;facil;E
+2017-1;13;Raciocínio Lógico;Lógica proposicional;"Negação de ""Nenhum A é B""";"Negação de ""Nenhum A é B"" é ""Algum A é B""";conteudo;media;C
+2017-1;14;Raciocínio Lógico;Problemas aritméticos (lógica);Número de dois algarismos e inversão;N - M = 9(a - b) = 63 logo a - b = 7, N = 81 e 92 (soma 173);conteudo;media;C
+2017-1;15;História;Outro: América pré-colombiana;Civilização maia;Maias: Guatemala Honduras e Yucatán, matemática astronomia e arquitetura avançadas (cidades-Estado sem imperador);conteudo;facil;B
+2017-1;16;História;Idade Média;Domínio muçulmano na península Ibérica;Muçulmanos dominaram a Ibéria do séc. VIII ao XV (Al-Andalus), Córdoba e Toledo foram centros comerciais e intelectuais;conteudo;media;B
+2017-1;17;História;Século XX mundial;Descolonização da África;Descolonização africana pós-1945 por enfraquecimento das potências europeias e movimentos de libertação;conteudo;media;E
+2017-1;18;História;Brasil Império;Período Regencial (1831-1840);Regência: Ato Adicional criou Assembleias Legislativas Provinciais, revoltas (Cabanagem Farroupilha Sabinada Balaiada);conteudo;media;E
+2017-1;19;História;Século XX mundial;Crise de 1929;Superprodução e subconsumo nos EUA geraram estoques e queda das ações na Bolsa de Nova York em 1929;conteudo;media;B
+2017-1;20;Química;Atomística e tabela periódica;Número de nêutrons;nêutrons = A (massa) - Z (número atômico);conteudo;facil;E
+2017-1;21;Química;Estequiometria;Massa de reagente pela equação balanceada;4 Li + O2 -> 2 Li2O: 4 mol Li (28 g) para 1 mol O2 (32 g), regra de três;conteudo;media;C
+2017-1;22;Química;Ligações químicas;Ligação iônica metal + ametal;Ca (família 2 forma Ca2+) e Cl (família 17 forma Cl-) formam ligação iônica CaCl2;conteudo;media;B
+2017-1;23;Química;Atomística e tabela periódica;Radioatividade: meia-vida do Sr-90;Após n meias-vidas resta m0/2^n, quantidade que se transformou = m0 - m0/2^n;conteudo;media;E
+2017-1;24;Química;Química orgânica;Funções oxigenadas;Álcool = OH ligado a carbono saturado, ácido carboxílico = COOH;conteudo;media;B
+2017-1;25;Inglês;Interpretação de texto;Artigo sobre excesso de trabalho;"Interpretar ""hard time starting this article"" = dificuldade em começar o artigo";interpretacao;facil;C
+2017-1;26;Inglês;Interpretação de texto;Primeiro parágrafo: autor de meia-idade;middle-aged and work too much;interpretacao;facil;B
+2017-1;27;Inglês;Interpretação de texto;Efeitos adversos do trabalho excessivo;Exemplo do texto: não lembrar do que almoçou;interpretacao;facil;A
+2017-1;28;Inglês;Interpretação de texto;Terceiro parágrafo: jornadas longas;long hours are a fact of modern working life para médicos residentes;interpretacao;media;D
+2017-1;29;Inglês;Referência pronominal;Pronome relativo that = which;Pronome relativo that para coisas pode ser substituído por which;conteudo;facil;E
+2017-1;30;Matemática;Matrizes e sistemas lineares;Matriz definida por lei de formação;aij com i=j é diagonal principal, i>j abaixo, i<j acima (em 5x5: 5 na diagonal 10 abaixo 10 acima);conteudo;facil;A
+2017-1;31;Matemática;Análise combinatória e probabilidade;Princípio fundamental da contagem;25 posições com 256 opções cada: 256^25;conteudo;facil;D
+2017-1;32;Matemática;Aritmética e porcentagem;MMC de 13 e 17;Encontro periódico = MMC (13 e 17 primos: 221), 2016+221=2237;conteudo;facil;B
+2017-1;33;Matemática;Aritmética e porcentagem;Notação científica e área;Área da estrada = nº de cigarras x área de cada = largura x comprimento, potências de 10;conteudo;media;D
+2017-1;34;Matemática;Progressões (PA/PG);Termo geral da PA;an = a1 + (n-1).r com a1=1996 e r=17 então an = 17n + 1979;conteudo;facil;A
+2017-1;35;Física;Cinemática;Velocidade média;vm = Δs/Δt com Δs total=36000 km e Δt=95x24 h;conteudo;facil;B
+2017-1;36;Física;Energia, trabalho e potência;Análise dimensional da potência;Potência = energia/tempo, [E]=M L² T^-2 logo [P]=M L² T^-3;conteudo;media;E
+2017-1;37;Física;Eletrodinâmica;1ª lei de Ohm;R = U/i (coeficiente do trecho linear do gráfico U x i);interpretacao;facil;A
+2017-1;38;Física;Cinemática;Lançamento oblíquo;Na altura máxima só resta Vx = V0.cosθ, Vy0 = V0.senθ = g.t_subida;conteudo;media;C
+2017-1;39;Física;Energia, trabalho e potência;Rendimento e potência;Rendimento = energia útil/energia total, P = E/Δt;interpretacao;media;B
+2017-1;40;Geografia;Indústria e energia;CSN em Volta Redonda (RJ);CSN (1941) foi instalada em Volta Redonda entre SP e RJ e próxima ao Quadrilátero Ferrífero;conteudo;media;C
+2017-1;41;Geografia;Cartografia;Mapa de uso e ocupação do solo;Mapa de uso e ocupação do solo orienta planejamento urbano (expansão das cidades);conteudo;media;D
+2017-1;42;Geografia;Globalização e geopolítica;Brexit e União Europeia;UE é bloco com livre circulação, saída do Reino Unido não elimina a união dos demais 27;conteudo;media;A
+2017-1;43;Geografia;Globalização e geopolítica;Estado Islâmico;EI controlava cidades no vale do Eufrates (Síria e Iraque) sem reconhecimento como país;conteudo;media;A
+2017-1;44;Geografia;Biomas e vegetação;Climograma e domínio morfoclimático;Domínio amazônico: temperaturas altas e chuva elevada o ano todo;interpretacao;media;E
+2017-1;45;Biologia;Botânica;Fitormônios: etileno e queda de folhas;Etileno promove queda de folhas e amadurecimento, caducifólia reduz transpiração na seca;conteudo;media;D
+2017-1;46;Biologia;Citologia;Fatores de transcrição e RNA;Sem fator de transcrição não há transcrição logo menos RNA (RNA polimerase liga ao DNA);conteudo;media;E
+2017-1;47;Biologia;Evolução;Leitura de cladograma;Grupos mais próximos no cladograma compartilham ancestral comum recente e caracteres;interpretacao;media;B
+2017-1;48;Biologia;Zoologia;Carrapatos (aracnídeos);Aracnídeos: quelíceras sem antenas e 4 pares de patas, carrapato é hematófago;conteudo;media;C
+2017-1;49;Biologia;Genética;Herança dominante ligada ao sexo;Fêmea XRXr x macho XrY: probabilidade de filha rugidora = 1/4;conteudo;dificil;B
+2017-1;50;Português;Interpretação de texto;Literatura e Matemática;Texto defende relação integrada e produtiva entre Literatura e Matemática;interpretacao;facil;E
+2017-1;51;Português;Gramática – morfologia/classes;"Classe da palavra ""a""";correspondentes a = preposição regida por correspondentes (regência nominal);conteudo;media;D
+2017-1;52;Português;Semântica e figuras de linguagem;Sentido denotativo e conotativo;Beber fontes científicas = sentido conotativo (figurado) de absorver conhecimento;conteudo;media;E
+2017-1;53;Português;Literatura;Simbolismo em Camilo Pessanha;Simbolismo: musicalidade aliteração e assonância sugestão;conteudo;media;C
+2017-1;54;Português;Interpretação de texto;Eu-lírico em Interrogação;Eu-lírico duvida do próprio sentimento e apresenta contradições;interpretacao;media;E
+2017-1;RED;Redação;dissertativo-argumentativo (ou narrativo à escolha);Perspectivas de igualdade entre mulheres e homens no mundo do trabalho;;;;
+2017-2;1;Multidisciplinar;Fisiologia humana;Biologia: genes poupadores e diabetes tipo II;Diabetes melito tipo II = resistência à insulina (ligada a dieta calórica e genes poupadores);conteudo;media;A
+2017-2;2;Multidisciplinar;Interpretação de texto;Inglês: relato de imigrante;"Interpretar texto em inglês: ""left Israel for the first time as a boy""";interpretacao;facil;B
+2017-2;3;Multidisciplinar;Química orgânica;Química: estrutura de CFC (clorofluorcarbonetos);CFC = 1 ou 2 carbonos com pelo menos 1 F e 1 Cl (ex.: CCl2F2);conteudo;media;C
+2017-2;4;Multidisciplinar;Brasil República (até 1930);História: imigração japonesa no Brasil;Japoneses vieram a partir de 1908 por pressão demográfica no Japão e falta de mão de obra nos cafezais paulistas;conteudo;facil;D
+2017-2;5;Multidisciplinar;Cinemática;Física: distância = velocidade x tempo com conversão;d = v.t (15 km/h x 52 x 24 h) dividido por 1,85 km/milha náutica;conteudo;media;E
+2017-2;6;Multidisciplinar;População e urbanização;Geografia+História: dekasseguis;Emigração brasileira para o Japão (anos 1980-90) impulsionada pela crise econômica no Brasil;conteudo;facil;E
+2017-2;7;Multidisciplinar;Estatística e leitura de gráficos;Matemática: soma de dados de ranking;Somar apenas os países de fora das Américas lidos no gráfico;interpretacao;facil;C
+2017-2;8;Multidisciplinar;Análise combinatória e probabilidade;Matemática: probabilidade a partir de gráfico;P(A ou B) = (casos de A + casos de B)/total (eventos disjuntos);interpretacao;facil;E
+2017-2;9;Multidisciplinar;Gramática – sintaxe;Português: coordenação x subordinação;Oração reduzida de gerúndio é subordinada (adverbial), subordinada depende da principal;conteudo;dificil;B
+2017-2;10;Raciocínio Lógico;Problemas de contagem/organização;Diagrama de conjuntos (dois conjuntos);n(A união B) = n(A) + n(B) - n(A inter B), total - nenhum = união;conteudo;facil;D
+2017-2;11;Raciocínio Lógico;Raciocínio espacial;Cortes em cilindro e contagem de partes;Contar as regiões formadas por planos que cortam o sólido;interpretacao;media;C
+2017-2;12;Raciocínio Lógico;Problemas aritméticos (lógica);Soma dos números de dois algarismos formados;Cada algarismo aparece 2x como dezena e 2x como unidade: S = 22.(a+b+c) logo S/R = 22;conteudo;media;B
+2017-2;13;Raciocínio Lógico;Sequências e padrões;Critério de formação de sequência de figuras;Descobrir a regra de formação (padrão figural) e projetar o 8º termo;interpretacao;media;E
+2017-2;14;Raciocínio Lógico;Problemas aritméticos (lógica);Restos em divisões (N deixa resto 1 por 3 e por 4);N-1 é múltiplo de MMC(3,4)=12, N=12k+1 com mulheres maior que homens;conteudo;media;A
+2017-2;15;História;Antiguidade;Egito Antigo e o Nilo;"Cheias do Nilo fertilizavam as margens e possibilitavam a agricultura (""dádiva do Nilo"")";conteudo;facil;A
+2017-2;16;História;Brasil Império;Lei de Terras de 1850;Lei de Terras (1850): terra só se obtém por compra (ou doação do Estado) e fica proibida a posse por ocupação;conteudo;media;C
+2017-2;17;História;Brasil Império;Queda da monarquia e Proclamação da República;Monarquia perdeu apoio de cafeicultores (abolição sem indenização) Igreja (Questão Religiosa) e militares (Questão Militar);conteudo;media;E
+2017-2;18;História;Idade Moderna;Renascimento cultural;Renascimento (séc. XIII-XVII): humanismo antropocentrismo e retorno à natureza e à Antiguidade clássica;conteudo;facil;B
+2017-2;19;História;Século XX mundial;Revolução Russa e primeiros anos soviéticos;Lênin: comunismo de guerra durante a guerra civil e depois NEP (Nova Política Econômica de 1921);conteudo;media;C
+2017-2;20;Química;Estequiometria;Porcentagem em massa de elemento no composto;% = (massa do elemento / massa molar do composto) x 100, C3O3N3NaCl2 = 220 g/mol e Cl2 = 71;conteudo;media;B
+2017-2;21;Química;Funções inorgânicas;Reação do gás cloro com água;Cl2 + H2O -> HCl + HClO (ácido clorídrico + ácido hipocloroso);conteudo;media;D
+2017-2;22;Química;Funções inorgânicas;Base de Arrhenius;Base de Arrhenius libera OH- em água, NH3 + H2O -> NH4+ + OH-;conteudo;media;B
+2017-2;23;Química;Eletroquímica;Eletrólise: cromação;Eletrólise: ânodo = oxidação (polo +) e cátodo = redução (polo -), cátion metálico deposita no cátodo;conteudo;media;A
+2017-2;24;Química;Química orgânica;Reação de eliminação (desidrohalogenação);1-clorobutano + base forte -> 1-buteno (sai HCl, surge dupla entre C1 e C2);conteudo;media;C
+2017-2;25;Inglês;Interpretação de texto;Entrevista com Susan Calvin (Asimov);Interpretar numerais e idade no texto: o entrevistador tem 32 anos;interpretacao;facil;C
+2017-2;26;Inglês;Interpretação de texto;Idade da U. S. Robot;Empresa fundada no ano em que Calvin nasceu logo tem a mesma idade dela (75 anos);interpretacao;facil;D
+2017-2;27;Inglês;Interpretação de texto;Mundo sem robôs;humanity faced the universe alone antes dos robôs, hoje tem robôs para ajudar;interpretacao;facil;B
+2017-2;28;Inglês;Interpretação de texto;Visão de Calvin sobre robôs;a cleaner better breed than we are = raça melhor que os humanos;interpretacao;media;E
+2017-2;29;Inglês;Gramática (outros);Modal verb may;May I...? expressa pedido de permissão;conteudo;facil;A
+2017-2;30;Matemática;Razão, proporção e regra de três;Regra de três com taxa por minuto;24 pessoas/min x (40/60) min = 16;conteudo;facil;B
+2017-2;31;Matemática;Razão, proporção e regra de três;Proporção a partir de infográfico;Se 1 em cada 113 está deslocada então população = 65,3 milhões x 113;interpretacao;media;E
+2017-2;32;Matemática;Exponencial e logaritmo;Crescimento exponencial e tempo para dobrar;1,1^n = 2 logo n = log 2 / log 1,1;conteudo;dificil;C
+2017-2;33;Matemática;Funções (1º e 2º grau);Função afim a partir de dois pontos;h(x) = ax + b com b = valor inicial e a = variação/tempo = (17,7-20,7)/6 = -0,5;conteudo;facil;D
+2017-2;34;Matemática;Trigonometria;Lei dos senos em triângulo;a/sen A = b/sen B = c/sen C, AB + BC com BC = AB.sen81/sen18;conteudo;dificil;E
+2017-2;35;Física;Eletrodinâmica;Diodo e LED (junção P-N);Diodo conduz corrente em um só sentido (polarização direta acende o LED);conteudo;media;A
+2017-2;36;Física;Óptica;Refração e lei de Snell;nI.sen θI = nR.sen θR, descobrir n e comparar com a tabela;conteudo;media;E
+2017-2;37;Física;Ondulatória;Espectro eletromagnético UVA e UVB;Frequência e comprimento de onda são inversamente proporcionais, UVB tem maior frequência e menor λ que UVA;conteudo;media;E
+2017-2;38;Física;Energia, trabalho e potência;Trabalho pela área do gráfico tensão x deformação;Trabalho = área sob o gráfico F x d;interpretacao;media;B
+2017-2;39;Física;Termologia;Lâmina bimetálica e dilatação linear;ΔL = L0.α.ΔT, o metal de maior α dilata mais e fica no lado externo da curvatura;conteudo;media;D
+2017-2;40;Geografia;População e urbanização;Pirâmide etária do Brasil 2010;Ler pirâmide: soma de faixas, mulheres superam homens nas idades altas pela maior mortalidade masculina;interpretacao;media;D
+2017-2;41;Geografia;Globalização e geopolítica;Globalização e protecionismo (China x EUA/Reino Unido);Contradição: China comunista defende livre mercado enquanto EUA e Reino Unido (capitalistas) se retiram de blocos;conteudo;media;A
+2017-2;42;Geografia;Biomas e vegetação;Mata dos Cocais;Mata dos Cocais (MA e PI) = transição com palmeiras carnaúba e babaçu;conteudo;facil;C
+2017-2;43;Geografia;População e urbanização;Distribuição da população da Austrália;Interior australiano é desértico por isso a população se concentra no litoral leste e sudeste;conteudo;facil;E
+2017-2;44;Geografia;Globalização e geopolítica;Canal de Suez;Canal de Suez liga o mar Mediterrâneo ao mar Vermelho (Europa-Ásia sem contornar a África);conteudo;facil;E
+2017-2;45;Biologia;Evolução;Leitura de cladograma humanos x chimpanzés;Humanos e chimpanzés compartilham ancestral comum exclusivo (não descendem uns dos outros);interpretacao;facil;D
+2017-2;46;Biologia;Fisiologia humana;Métodos contraceptivos;Vasectomia = secção dos ductos deferentes (espermatozoides não chegam à uretra), diafragma é feminino;conteudo;facil;B
+2017-2;47;Biologia;Microbiologia e doenças;Verminoses por nematódeos;Ascaridíase ancilostomose e tricuríase são causadas por nematódeos, prevenção por saneamento básico;conteudo;facil;A
+2017-2;48;Biologia;Microbiologia e doenças;Fungos (mofo) em livros;Mofo = fungos heterótrofos que se propagam por esporos, ambiente seco e arejado dificulta;conteudo;media;E
+2017-2;49;Biologia;Ecologia;Biodiversidade e impedimento taxonômico;Conservação exige conhecer espécies e formar taxonomistas;interpretacao;facil;D
+2017-2;50;Português;Gramática – morfologia/classes;"Pronome oblíquo átono ""as""";"as em ""readquiriu-as"" é pronome oblíquo que retoma ""forças"" (anáfora)";conteudo;media;D
+2017-2;51;Português;Gramática – sintaxe;Tipos de sujeito;Sujeito desinencial (oculto) é identificado pela desinência verbal;conteudo;facil;B
+2017-2;52;Português;Literatura;Soneto parnasiano de Bilac;Soneto = 2 quartetos + 2 tercetos (14 versos);conteudo;facil;D
+2017-2;53;Português;Literatura;Parnasianismo e rima rica;"Rima rica = entre palavras de classes gramaticais diferentes (verbo ""consome"" x substantivo ""nome"")";conteudo;media;C
+2017-2;54;Português;Interpretação de texto;Eu lírico e o amor desejado;Interpretar o poema: amor sem exageros que não atrapalha o eu lírico;interpretacao;media;B
+2017-2;RED;Redação;dissertativo-argumentativo (ou narrativo à escolha);Impactos da imigração no mercado de trabalho;;;;
+2018-1;1;Multidisciplinar;Interpretação de texto;Português: finalidade de citar teoria (Maslow);Identificar o propósito do autor ao citar uma teoria: motivação resulta de estímulos que levam à ação;interpretacao;facil;B
+2018-1;2;Multidisciplinar;Interpretação de texto;Inglês: tirinha do Dilbert;Interpretar intenção do chefe na tirinha (communication skills como disfarce);interpretacao;media;A
+2018-1;3;Multidisciplinar;Aritmética e porcentagem;Matemática: média de riqueza do 1% mais rico;Média = total/nº de pessoas, 1% mais rico detém metade da riqueza (125 tri) e 1% de 7,2 bi = 72 milhões;conteudo;media;C
+2018-1;4;Multidisciplinar;Aritmética e porcentagem;Matemática: média de riqueza da metade mais pobre;Média = riqueza da metade pobre (428,4 bi) / 3,6 bi de pessoas = US$ 119;conteudo;media;E
+2018-1;5;Multidisciplinar;Estatística e leitura de gráficos;Leitura de dois gráficos (renda e atividade dos jovens);Ler variações no mesmo período nos dois gráficos e comparar com cada alternativa;interpretacao;media;C
+2018-1;6;Multidisciplinar;Química orgânica;Química: funções orgânicas (aminoácido) e ninidrina;Aminoácido = amina (NH2) + ácido carboxílico (COOH);conteudo;media;E
+2018-1;7;Multidisciplinar;Revoluções (Industrial/Francesa/Americana);História: sociedade de massas e 2ª Revolução Industrial;Sociedade de massas surge com a 2ª Revolução Industrial (fim do séc. XIX e início do XX): urbanização e mercados consumidores;conteudo;media;A
+2018-1;8;Multidisciplinar;Ecologia;Biologia: relações ecológicas e sociedades;Relação entre indivíduos da mesma espécie = intraespecífica, cooperação (sociedade) = harmônica;conteudo;media;B
+2018-1;9;Multidisciplinar;Energia, trabalho e potência;Física: conversão tep para GWh;Diferença de energia x 1 tep = 1,2x10^7 Wh, conversão de unidades e notação científica;conteudo;media;C
+2018-1;10;Raciocínio Lógico;Problemas aritméticos (lógica);Balança de dois pratos com equivalências;Igualar pesos: montar equivalências entre cubos e esferas pela balança em equilíbrio;interpretacao;media;B
+2018-1;11;Raciocínio Lógico;Raciocínio espacial;Retângulo decomposto em seis quadrados;Partindo do quadrado menor (lado 1) calcular os lados dos demais e a área do retângulo;interpretacao;media;C
+2018-1;12;Raciocínio Lógico;Problemas aritméticos (lógica);Tabela de produtos com fatoração;Fatorar os produtos dados (18 20 42) para achar o valor de cada letra entre 2 e 9;interpretacao;media;D
+2018-1;13;Raciocínio Lógico;Problemas de contagem/organização;Senha com restrições (princípio multiplicativo);Princípio multiplicativo: multiplicar as escolhas por posição respeitando as restrições;conteudo;dificil;B
+2018-1;14;Raciocínio Lógico;Problemas de contagem/organização;Princípio da casa dos pombos;23 livros em 6 alunos (mín. 2 cada) logo algum recebe pelo menos 4 (se todos tivessem no máximo 3 seriam 18 + extras...);conteudo;media;B
+2018-1;15;História;Revoluções (Industrial/Francesa/Americana);Era Napoleônica;Código Civil napoleônico (1804): igualdade civil fim dos direitos feudais divórcio;conteudo;media;A
+2018-1;16;História;Antiguidade;Religião grega;Deuses gregos antropomórficos: imortais mas com defeitos humanos (vaidade ciúme);conteudo;facil;D
+2018-1;17;História;Idade Moderna;Reforma Protestante e imprensa de Gutenberg;Lutero traduziu e imprimiu a Bíblia em alemão (imprensa de Gutenberg difundiu as ideias);conteudo;facil;E
+2018-1;18;História;Século XX mundial;Ascensão do nazismo e crise de 1929;Crise de 1929 devastou a economia alemã e impulsionou o Partido Nazista;conteudo;media;B
+2018-1;19;História;Brasil Colônia;Inconfidência Mineira (1789);Causas: quintos derrama aumento do custo de vida proibição de manufaturas e ideias iluministas;conteudo;media;D
+2018-1;20;Química;Propriedades da matéria e separação de misturas;Decantação e filtração;Decantação separa sólido que sedimenta, filtração separa sólido do líquido por filtro;conteudo;facil;B
+2018-1;21;Química;Funções inorgânicas;Fórmula do sal sulfato de cálcio;Ca2+ e SO4(2-) formam CaSO4 (cargas se anulam);conteudo;facil;C
+2018-1;22;Química;Funções inorgânicas;Número de oxidação (SO4 2- e ClO-);SO4(2-): S = +6 (soma -2 com O = -2 cada), ClO-: Cl = +1;conteudo;media;D
+2018-1;23;Química;Química orgânica;Compostos orgânicos voláteis (COVs);Voláteis = alta pressão de vapor e baixo ponto de ebulição (evaporam em temperatura ambiente);conteudo;media;B
+2018-1;24;Química;Termoquímica;Entalpia de combustão (lei de Hess);ΔH = soma ΔHf produtos - soma ΔHf reagentes = 6(-394)+3(-286)-(+50) = -3272 kJ/mol;conteudo;media;A
+2018-1;25;Inglês;Interpretação de texto;Fake news (definição);Fake news = websites que divulgam notícias falsas tidas como verdadeiras;interpretacao;facil;A
+2018-1;26;Inglês;Interpretação de texto;Razões da disseminação de fake news;Plataformas difundem informação sem checar (vetting) e é fácil criar sites que parecem críveis;interpretacao;media;B
+2018-1;27;Inglês;Interpretação de texto;Papel do Facebook;Facebook é o maior host de fake news (2 bilhões de usuários) por causa da liberdade de postar;interpretacao;media;E
+2018-1;28;Inglês;Interpretação de texto;Impacto econômico para o Facebook;"Anunciantes podem se afastar pois a plataforma ficou menos ""brand safe""";interpretacao;media;E
+2018-1;29;Inglês;Gramática (outros);Formação de palavras por prefixação;un- + checked, prefixação em português ir-/in-/des- (irreal) - em inglês undercook (under- + cook) é prefixação;conteudo;dificil;D
+2018-1;30;Matemática;Análise combinatória e probabilidade;Probabilidade com porcentagens e gráfico;P = P(negro) x P(faixa|negro) lida do gráfico (54% x fração nas faixas até 1 SM);interpretacao;media;D
+2018-1;31;Matemática;Equações e inequações;Equação do 1º grau com percentuais;x + 0,62x + 0,57x = 4380 logo x = 2000, mulher = 1240, homem negro = 1140;conteudo;facil;B
+2018-1;32;Matemática;Geometria espacial;Razão de volumes de pirâmides semelhantes;Razão de volumes = (razão de semelhança)^3 = 0,9^3 = 0,729;conteudo;media;C
+2018-1;33;Matemática;Geometria espacial;Área lateral de pirâmide e custo;Área lateral por semelhança: razão de áreas = k^2, custo = área x preço por m²;conteudo;dificil;C
+2018-1;34;Matemática;Geometria espacial;Área total de pirâmide quadrangular regular;Apótema da face = 5 (triângulo 3-4-5), 4 faces x (6x5/2) + base 36 = 96 m²;conteudo;media;E
+2018-1;35;Física;Cinemática;Velocidade média e tabela de velocidade considerada;v = Δs/Δt = 3/0,2 = 15 m/s = 54 km/h (x3,6), VM=54 corresponde a VC=47 abaixo do limite de 50;conteudo;media;B
+2018-1;36;Física;Óptica;Equação de Gauss e vergência de lente;1/f = 1/p + 1/p' e vergência V = 1/f (em metros logo dioptrias);conteudo;media;D
+2018-1;37;Física;Magnetismo;Indução eletromagnética em detector de metais;Lei de Faraday: variação de fluxo magnético induz força eletromotriz (fem) por movimento de material ferromagnético;conteudo;media;A
+2018-1;38;Física;Termologia;Transformações gasosas em gráfico P x V;Isocórica = volume constante (trabalho nulo), isobárica = pressão constante, trabalho = área sob a curva;conteudo;media;B
+2018-1;39;Física;Magnetismo;Lei de Biot-Savart e unidade de μ0;Isolar μ0 = B.r²/(i.L.senθ) logo unidade T.m/A;conteudo;dificil;D
+2018-1;40;Geografia;Biomas e vegetação;Cerrado;Cerrado: segundo maior bioma (22% do território) hotspot e berço das águas;conteudo;facil;E
+2018-1;41;Geografia;Agropecuária;Soja no Cerrado;Maior ameaça ao Cerrado é a expansão do cultivo mecanizado de soja (fronteira agrícola);conteudo;facil;D
+2018-1;42;Geografia;Cartografia;Projeção de Mercator;Mercator = cilíndrica conforme: preserva as formas e distorce as áreas (aumenta com a latitude);conteudo;media;A
+2018-1;43;Geografia;Globalização e geopolítica;Saída dos EUA do Acordo de Paris;Trump saiu do Acordo de Paris (2017): isolacionismo e prioridade ao interesse econômico interno;conteudo;facil;C
+2018-1;44;Geografia;Globalização e geopolítica;Povo curdo;Curdos: maior povo sem Estado (Turquia Síria Iraque Irã) e referendo de independência no Curdistão iraquiano em 2017;conteudo;facil;B
+2018-1;45;Biologia;Evolução;Fósseis e prospecção de petróleo;Microfósseis identificam camadas geológicas e indicam a presença de petróleo (origem de matéria orgânica de organismos);conteudo;media;D
+2018-1;46;Biologia;Citologia;Ciclos de vida haplonte diplonte e diplobionte;Diferença entre os ciclos de vida: o momento em que ocorre a meiose (zigótica espórica ou gamética);conteudo;media;E
+2018-1;47;Biologia;Citologia;Transcrição de DNA em RNAm;RNAm é complementar ao DNA molde e antiparalelo (A-U T-A G-C C-G): 3' AGACATATA 5' vira 5' UCUGUAUAU 3';conteudo;media;C
+2018-1;48;Biologia;Genética;Sistema ABO e paternidade;Grupo O = ii, IA e IB são codominantes, usar filhos e ascendência para excluir a paternidade;conteudo;dificil;B
+2018-1;49;Biologia;Botânica;Crescimento secundário e anéis do tronco;Anéis de crescimento = crescimento secundário (câmbio) de fanerógamas de clima temperado (sazonal);conteudo;dificil;E
+2018-1;50;Português;Interpretação de texto;Estilo em Palavras: uma questão de estilo;Estilo transcende o morfossintático: palavras valem pelo papel no conjunto do texto;interpretacao;facil;D
+2018-1;51;Português;Interpretação de texto;Machado de Assis no texto sobre estilo;Autor cita Memorial de Aires para mostrar como recursos morfossintáticos constroem o estilo;interpretacao;facil;D
+2018-1;52;Português;Semântica e figuras de linguagem;Sinestesia;Sinestesia = mistura de sensações de sentidos diferentes (palavras amargas = paladar com audição);conteudo;facil;B
+2018-1;53;Português;Literatura;Machado de Assis: romances e fases;Dom Casmurro e Memorial de Aires = romance psicológico (introspecção);conteudo;media;E
+2018-1;54;Português;Gramática – morfologia/classes;Correlação de tempos verbais;Pretérito perfeito (leu) pede pretérito imperfeito do subjuntivo (pudesse), presente pede presente do subjuntivo;conteudo;media;A
+2018-1;RED;Redação;dissertativo-argumentativo (ou narrativo à escolha);O emprego perfeito: realidade ou ficção?;;;;
+2018-2;1;Multidisciplinar;Energia, trabalho e potência;Física: resiliência e energia elástica;Resiliência = energia máxima absorvida na deformação elástica, maior ponto de resiliência significa mais energia acumulada;interpretacao;facil;E
+2018-2;2;Multidisciplinar;Estatística e leitura de gráficos;Matemática: escolher gráfico que representa percentuais;Gráfico deve mostrar 16% (baixa) 44% (moderada) 40% (elevada) em proporção;interpretacao;facil;B
+2018-2;3;Multidisciplinar;Aritmética e porcentagem;Matemática: porcentagem de porcentagem;1500 x 60% x 50% = 450;conteudo;facil;A
+2018-2;4;Multidisciplinar;Revoluções (Industrial/Francesa/Americana);História: 1ª Revolução Industrial;1ª Revolução Industrial (Inglaterra séc. XVIII): máquinas a vapor carvão mineral divisão do trabalho e surgimento do proletariado;conteudo;facil;D
+2018-2;5;Multidisciplinar;Brasil contemporâneo (1945+);História+Direito: Reforma Trabalhista de 2017;Trabalho intermitente: pagamento por horas ou por diária trabalhadas;conteudo;media;B
+2018-2;6;Multidisciplinar;Química orgânica;Química: funções comuns em neurotransmissores;Dopamina adrenalina serotonina e noradrenalina têm fenol (OH em anel aromático) e amina (N);conteudo;media;D
+2018-2;7;Multidisciplinar;Outro: Saúde (conceito da OMS);Biologia+Saúde: definição de saúde da OMS de 1948;Saúde (OMS 1948) = completo bem-estar físico mental e social e não apenas ausência de doença;conteudo;facil;B
+2018-2;8;Multidisciplinar;Interpretação de texto;Português: charge sobre meditação no trabalho;Interpretar a charge (chefe sugere relaxar rápido e voltar ao trabalho);interpretacao;facil;D
+2018-2;9;Multidisciplinar;Estatística e leitura de gráficos;Matemática: leitura de gráficos de emprego;Ler valores e calcular variações (diferença absoluta x percentual) entre anos;interpretacao;media;B
+2018-2;10;Raciocínio Lógico;Lógica proposicional;Implicação e disjunção entre proposições;"p implica q equivale a não p ou q, com ""A ou B"" verdadeira e implicações dadas conclui-se uma disjunção";conteudo;dificil;C
+2018-2;11;Raciocínio Lógico;Raciocínio espacial;Reflexão em relação a um ponto;Reflexão em ponto = rotação de 180 graus em torno do centro;conteudo;media;B
+2018-2;12;Raciocínio Lógico;Sequências e padrões;Padrão periódico com resto da divisão;Palavra FATEC repete a cada 5 posições: posição 2018 tem resto 3 na divisão por 5 logo letra E;conteudo;facil;D
+2018-2;13;Raciocínio Lógico;Problemas aritméticos (lógica);MMC de ciclos de trabalho;Ciclos de 48 h 54 h e 72 h: MMC = 432 h = 18 dias;conteudo;media;D
+2018-2;14;Raciocínio Lógico;Problemas de contagem/organização;Permutações caóticas (sem ponto fixo);Número de permutações de 4 elementos sem nenhum na posição original = 9;conteudo;dificil;B
+2018-2;15;História;Antiguidade;Neolítico (Pré-história);Neolítico: invenção da agricultura e sedentarização;conteudo;facil;C
+2018-2;16;História;Idade Média;Influência árabe na Península Ibérica;A partir do séc. VIII os muçulmanos conquistaram a Ibéria e influenciaram língua arquitetura e ciência;conteudo;facil;E
+2018-2;17;História;Idade Moderna;Colonização espanhola da América;Espanha: vice-reinados exploração de metais preciosos (prata) e trabalho indígena (mita encomienda);conteudo;media;A
+2018-2;18;História;Revoluções (Industrial/Francesa/Americana);Revolução Francesa e Declaração dos Direitos do Homem;1789: fim das obrigações feudais e Declaração dos Direitos do Homem e do Cidadão;conteudo;facil;E
+2018-2;19;História;Brasil contemporâneo (1945+);Plano de Metas de JK;Plano de Metas (50 anos em 5): abertura ao capital estrangeiro indústria automobilística e Brasília;conteudo;facil;B
+2018-2;20;Química;Propriedades da matéria e separação de misturas;Condensação do vapor de água;Condensação = gás para líquido (orvalho formado pelo vapor de água em superfície fria);conteudo;facil;B
+2018-2;21;Química;Estequiometria;Combustão completa de hidrocarboneto;CxHy + O2 produz x CO2 + y/2 H2O: C22H46 produz 22 CO2 e 23 H2O;conteudo;facil;C
+2018-2;22;Química;Atomística e tabela periódica;Família dos alcalino-terrosos;Alcalino-terrosos = família 2 (Be Mg Ca Sr Ba Ra), bário Z=56;conteudo;facil;B
+2018-2;23;Química;Atomística e tabela periódica;Prótons nêutrons e elétrons de um íon;Z = prótons, nêutrons = A - Z, cátion 2+ tem 2 elétrons a menos (48 - 2 = 46);conteudo;facil;E
+2018-2;24;Química;Soluções;Concentração em mg/L e massa;massa = concentração x volume: 12 x 0,010 mg/L x 0,5 L = 0,06 mg;conteudo;media;D
+2018-2;25;Inglês;Gramática (tempos verbais);Present perfect;Present perfect (have seen) = ação que começou no passado e continua no presente;conteudo;media;D
+2018-2;26;Inglês;Interpretação de texto;"Trecho ""can be extremely onerous""";Referente: estar hiperconectado e disponível a qualquer hora para o trabalho;interpretacao;media;E
+2018-2;27;Inglês;Interpretação de texto;Como desenvolver resiliência no trabalho;Resiliência se constrói compreendendo e gerenciando os fatores que causam estresse;interpretacao;facil;D
+2018-2;28;Inglês;Interpretação de texto;Aumento do nível de estresse;Nível crescente de estresse deve ser motivo de preocupação;interpretacao;facil;A
+2018-2;29;Inglês;Vocabulário em contexto;Take detachment breaks;Detachment breaks = pausas para se afastar do trabalho e recuperar energia;interpretacao;facil;C
+2018-2;30;Matemática;Trigonometria;Cosseno de ângulo entre dois vetores ou lados no plano;cos θ = cateto adjacente / hipotenusa (ou produto escalar dividido pelo produto dos módulos);conteudo;media;E
+2018-2;31;Matemática;Geometria espacial;Volume de prisma com base poligonal em coordenadas;V = área da base x altura, área da base por decomposição em retângulos (240 + 32 - 50 = 222);conteudo;media;B
+2018-2;32;Matemática;Estatística e leitura de gráficos;Variação percentual em gráficos de vendas e exportação;Variação percentual = (final - inicial)/inicial, leitura de gráficos de medicamentos;interpretacao;media;ANULADA
+2018-2;33;Matemática;Funções (1º e 2º grau);Crescimento linear e extrapolação;Função afim: taxa = variação entre 2010 e 2014 dividida por 4 e projetar para 2018;conteudo;media;C
+2018-2;34;Matemática;Análise combinatória e probabilidade;Probabilidade da união de eventos independentes;p(AUB) = p(A) + p(B) - p(A).p(B) para independentes;conteudo;media;ANULADA
+2018-2;35;Física;Gravitação;Lei da gravitação universal;F = G.M.m/d² (distância em metros: 3,5x10^5 km = 3,5x10^8 m);conteudo;media;C
+2018-2;36;Física;Cinemática;Distância em movimento uniforme (UA);d = v.t: ritmo da Voyager ≈ 140 UA em 40 anos (3,5 UA/ano) logo mais 10 anos somam 35 UA;conteudo;media;A
+2018-2;37;Física;Magnetismo;Ventos solares e interferência eletromagnética;Tempestades solares (partículas carregadas) interferem em comunicações e GPS;conteudo;media;D
+2018-2;38;Física;Energia, trabalho e potência;Energia = potência x tempo;E = P x Δt com 300 W e 10 anos em segundos (3,15x10^8 s) dá 9,5x10^10 J;conteudo;media;A
+2018-2;39;Física;Ondulatória;Ondas eletromagnéticas e velocidade da luz;Ondas eletromagnéticas (rádio) viajam à velocidade da luz (3x10^8 m/s) e propagam-se no vácuo;conteudo;facil;C
+2018-2;40;Geografia;Biomas e vegetação;Febre-amarela e habitat dos mosquitos;Mosquitos (Haemagogus Sabethes Aedes aegypti) vivem em florestas tropicais e áreas de cerrado;conteudo;media;B
+2018-2;41;Geografia;Geografia do Brasil/regional;Setor terciário de São Paulo;Terciário paulista = serviços e finanças (maior rede bancária do Brasil e bolsa de valores);conteudo;facil;A
+2018-2;42;Geografia;Meio ambiente e sustentabilidade;Barragem de rejeitos de mineração;Barragem de rejeitos armazena resíduos do beneficiamento do minério (Mariana e Brumadinho);conteudo;facil;D
+2018-2;43;Geografia;Hidrografia;Nascentes dos rios São Francisco Tocantins e Paraguai;Nascentes: São Francisco (MG Serra da Canastra) Tocantins (GO) Paraguai (MT);conteudo;media;A
+2018-2;44;Geografia;Século XX mundial;Guerra Fria e ordem mundial bipolar;Guerra Fria (1945-1991): ordem bipolar EUA (capitalismo) x URSS (socialismo);conteudo;facil;D
+2018-2;45;Biologia;Ecologia;Sustentabilidade e sistemas agroflorestais;"Sustentabilidade = suprir necessidades atuais sem comprometer as gerações futuras (""para nossos netos"")";interpretacao;facil;D
+2018-2;46;Biologia;Ecologia;Vantagem de distanciar plantas da mesma espécie;Distanciar plantas da mesma espécie dificulta o ataque de pragas específicas;conteudo;media;C
+2018-2;47;Biologia;Evolução;Nomenclatura binomial;Nome científico = Gênero espécie (binomial latino em itálico, gênero com inicial maiúscula);conteudo;media;D
+2018-2;48;Biologia;Citologia;Experimento de Gorter e Grendel (bicamada lipídica);Área dos lipídios = 2x a área das hemácias: membrana é bicamada lipídica (lipídio anfipático);conteudo;dificil;C
+2018-2;49;Biologia;Evolução;Sistemas de classificação (Whittaker x Woese);Classificação artificial usa critérios ecofisiológicos e não apenas parentesco evolutivo (filogenia);conteudo;dificil;C
+2018-2;50;Português;Variação linguística;Norma culta x linguagem informal (Carolina Maria de Jesus);Texto usa linguagem informal para criticar fome e pobreza;interpretacao;media;E
+2018-2;51;Português;Semântica e figuras de linguagem;Metáfora;Metáfora = comparação implícita (a fome como escravatura atual);conteudo;facil;B
+2018-2;52;Português;Interpretação de texto;Comparação entre charge e diário (subemprego);Tema comum: subemprego (catar papel vender ferros);interpretacao;facil;A
+2018-2;53;Português;Coesão e conectivos;Reescrita mantendo relação semântica;"Conectivos corretos: ""pois"" (explicação) ""quando"" (tempo) e ""veem"" (3ª pessoa do plural sem acento)";conteudo;media;B
+2018-2;54;Português;Literatura;Modernismo: A Flor e a Náusea (Drummond);Drummond (2ª geração modernista): flor que fura o asfalto = esperança em meio ao tédio;conteudo;media;C
+2018-2;RED;Redação;dissertativo-argumentativo (ou narrativo à escolha);O jeitinho brasileiro é uma forma de resiliência ou falta de honestidade?;;;;
+2019-1;1;Multidisciplinar;Aritmética e porcentagem;Matemática: encontrar o total a partir da parte percentual;Se 3,9% do total = 6,5 milhões então total = 6,5/0,039 = 166,7 milhões;conteudo;facil;E
+2019-1;2;Multidisciplinar;Interpretação de texto;Inglês: charge com sarcasmo sobre liderança;I'm not lacking leadership, everyone else is lacking: o profissional acredita ser um bom líder;interpretacao;facil;A
+2019-1;3;Multidisciplinar;Microbiologia e doenças;Biologia: doença profissional (LER);Doença profissional (Art. 20) = causada pelo trabalho (ex.: tendinite crônica por movimento repetitivo), exclui degenerativas e endêmicas;interpretacao;media;C
+2019-1;4;Multidisciplinar;Química orgânica;Química: isomeria (mesma fórmula molecular);Isômeros = mesma fórmula molecular e estruturas diferentes, contar C H e O da fórmula estrutural;conteudo;media;A
+2019-1;5;Multidisciplinar;Brasil República (até 1930);História: trabalho infantil na industrialização paulista;Na 1ª República operários (mulheres e crianças) recebiam salários menores e baixos salários dos homens forçavam trabalho de toda a família;conteudo;media;D
+2019-1;6;Multidisciplinar;Ondulatória;Física: superposição de ondas;Princípio da superposição: amplitudes se somam no cruzamento e depois cada onda segue inalterada (mesma velocidade e frequência);conteudo;media;A
+2019-1;7;Multidisciplinar;Interpretação de texto;Português: quadrinho (crítica à rotina e identidade);Quadrinho de Laerte critica rotina estressante que faz o indivíduo perder a identidade;interpretacao;media;B
+2019-1;8;Multidisciplinar;Equações e inequações;Matemática: equação a partir de problema diofantino;x/6 + x/3 + x = 240 (idade do pai + dos filhos) , montar equação com frações de x;conteudo;media;A
+2019-1;9;Multidisciplinar;Interpretação de texto;Português: conceito de desalentado;Desalentado = quer trabalhar mas desiste de procurar emprego por achar que não vai encontrar;interpretacao;facil;B
+2019-1;10;Raciocínio Lógico;Razão, proporção e regra de três;Regra de três composta (equipe duplicada);24% em 6 h (4%/h), com equipe dobrada 8%/h então os 76% restantes levam 9,5 h, total = 15,5 h = 15 h 30 min;conteudo;media;D
+2019-1;11;Raciocínio Lógico;Lógica proposicional;"Negação de ""todo A é B""";"Negação de ""todo A é B"" é ""existe A que não é B""";conteudo;facil;B
+2019-1;12;Raciocínio Lógico;Lógica proposicional;Diagramas de Euler-Venn (alguns/nem todos);"Alguns amigos foram à festa (E interseção F não vazia) e ""nem todos os melhores amigos foram"" (M não está contido em F)";interpretacao;media;E
+2019-1;13;Raciocínio Lógico;Geometria plana;Semelhança de retângulos (papel série A);Dobrar o lado maior ao meio gera retângulo semelhante: x/y = y/(x/2) logo x = y.raiz(2);conteudo;dificil;B
+2019-1;14;Raciocínio Lógico;Problemas aritméticos (lógica);Soma em sistema de base 26;"Soma em base 26 igual à de base 10 mas com ""vai um"" a cada 26, letras valem A=0...Z=25";conteudo;dificil;A
+2019-1;15;História;Outro: Pré-história e povoamento da América;Crânio de Luzia;Luzia (crânio com ~12 mil anos) é evidência nas pesquisas sobre os primeiros povoadores da América;conteudo;media;B
+2019-1;16;História;Antiguidade;Helenismo (Alexandre o Grande);Helenismo = fusão de culturas grega e oriental após as conquistas de Alexandre o Grande (séc. IV a.C.);conteudo;facil;C
+2019-1;17;História;Idade Moderna;Grandes Navegações: viagem de Magalhães e Elcano;Magalhães-Elcano (1519-1522) = primeira circum-navegação que comprovou a esfericidade da Terra;conteudo;facil;C
+2019-1;18;História;Revoluções (Industrial/Francesa/Americana);2ª Revolução Industrial;2ª Revolução Industrial (séc. XIX-XX): ciência aplicada à indústria (indústria química aço eletricidade petróleo);conteudo;media;D
+2019-1;19;História;Brasil Colônia;Irmandades religiosas nas Minas Gerais;Irmandades no séc. XVIII mineiro: organizavam a vida social (igrejas cemitérios festas assistência e ofícios);conteudo;media;A
+2019-1;20;Química;Estequiometria;Volume de gás a partir da massa do reagente;AlP (58 g/mol) para PH3 na razão 1:1, 3x10^6 g gera 51724 mol x 30 L/mol = 1,55x10^6 L;conteudo;media;E
+2019-1;21;Química;Termoquímica;Gráfico de energia: reação exotérmica;Exotérmica: produto com energia menor que o reagente e ΔH < 0;conteudo;facil;B
+2019-1;22;Química;Funções inorgânicas;Neutralização total ácido + base;H3PO4 + Mg(OH)2 balanceada: 2 H3PO4 + 3 Mg(OH)2 -> Mg3(PO4)2 + 6 H2O;conteudo;media;B
+2019-1;23;Química;Eletroquímica;Agente oxidante e agente redutor;Agente oxidante = substância que se reduz (O2 recebe elétrons), agente redutor = que se oxida (P no PH3 passa de -3 a +5);conteudo;media;A
+2019-1;24;Química;Equilíbrio químico;Constante de basicidade Kb e [OH-];[OH-] = raiz(Kb x C) = raiz(1,8x10^-5 x 0,02) = 6x10^-4 mol/L;conteudo;dificil;E
+2019-1;25;Inglês;Vocabulário em contexto;Sinônimo de thrive;thrive = prosper (prosperar);conteudo;facil;C
+2019-1;26;Inglês;Interpretação de texto;Habilidade que mantém empregabilidade;focus on creative work because that is where you are likely to remain employable;interpretacao;facil;A
+2019-1;27;Inglês;Interpretação de texto;Citação de Alvin Toffler;Analfabeto do séc. XXI = quem não sabe aprender desaprender e reaprender;interpretacao;facil;E
+2019-1;28;Inglês;Gramática (outros);Modal will have to;will have to expressa obrigação (necessidade);conteudo;facil;C
+2019-1;29;Inglês;Interpretação de texto;"Habilidade ""analyzing information""";Fazer anotações detalhadas e dar sentido à informação = analisar informação;interpretacao;facil;B
+2019-1;30;Matemática;Matrizes e sistemas lineares;Produto de matrizes (valor pago por semana);Multiplicar a matriz de valor por hora (linha) pela coluna de horas da semana (soma de produtos);conteudo;media;ANULADA
+2019-1;31;Matemática;Geometria espacial;Volume de cilindro e subtração;V = π.r².h, garrafa 3x16x13 = 624 menos copo 3x4x7 = 84 logo 540;conteudo;media;C
+2019-1;32;Matemática;Aritmética e porcentagem;Frequência cardíaca máxima e porcentagem;FC máxima = 220 - idade = 180, faixa de 60% a 75% = 108 a 135 bpm;conteudo;facil;C
+2019-1;33;Matemática;Análise combinatória e probabilidade;Probabilidade de sortear mulher com 65 anos ou mais;P = % de mulheres x % de 65 anos ou mais dentre elas (leitura dos gráficos);interpretacao;media;D
+2019-1;34;Matemática;Geometria plana;Área restante em retângulo com triângulos;Área branca = 20x40 menos áreas dos triângulos (área de triângulo retângulo isósceles = cateto²/2, hipotenusa = cateto x raiz(2));conteudo;dificil;B
+2019-1;35;Física;Cinemática;Unidade nó e tempo de viagem;1 nó = 1 milha náutica/h ≈ 1,85 km/h, tempo = distância/velocidade = 22/11 = 2 h;conteudo;media;E
+2019-1;36;Física;Dinâmica (leis de Newton);Quantidade de movimento;Q = m.v, m = 4,5x10^6 kg e v = 11 km/h ≈ 3,05 m/s logo Q ≈ 1,37x10^7 kg.m/s;conteudo;media;D
+2019-1;37;Física;Hidrostática;Empuxo em equilíbrio flutuante;Navio em repouso e flutuando: empuxo = peso (E = m.g = 4,5x10^6 x 10 = 4,5x10^7 N);conteudo;media;B
+2019-1;38;Física;Óptica;Imagem em espelho convexo (esfera refletora);Espelho convexo: imagem virtual direita e menor, localizada entre o foco e o vértice;conteudo;media;D
+2019-1;39;Física;Eletrodinâmica;Associação de resistores e corrente;i = U/R_eq, resistores em série somam e em paralelo 1/Req = soma dos inversos;conteudo;media;E
+2019-1;40;Geografia;Meio ambiente e sustentabilidade;Desmatamento comparado entre continentes;Comparar percentuais de floresta em dois períodos: Brasil perdeu menos floresta que Europa Ásia e África;interpretacao;media;B
+2019-1;41;Geografia;Indústria e energia;Terras-raras;Terras-raras (17 elementos: lantanídeos + escândio + ítrio): ocorrem dispersas em baixa concentração, maiores reservas na China;conteudo;media;C
+2019-1;42;Geografia;Relevo e solos;Terremotos e Círculo de Fogo do Pacífico;Indonésia fica no Círculo de Fogo do Pacífico (fossas e arcos vulcânicos) logo terremotos frequentes;conteudo;media;B
+2019-1;43;Geografia;Geografia do Brasil/regional;Estrada de Ferro Noroeste do Brasil em SP;E.F. Noroeste do Brasil (Bauru-MS) desenvolveu Bauru Lins e Penápolis;conteudo;media;A
+2019-1;44;Geografia;Revoluções (Industrial/Francesa/Americana);4ª Revolução Industrial;4ª Revolução Industrial = fusão de tecnologias físicas digitais e biológicas (internet móvel IA);conteudo;facil;E
+2019-1;45;Biologia;Ecologia;Conferências ambientais da ONU (Eco-92);Eco-92 (Rio) gerou a Agenda 21: programa para desenvolvimento sustentável no séc. XXI;conteudo;media;B
+2019-1;46;Biologia;Evolução;Seleção artificial em aves de corte;Seleção artificial: cruzamento de indivíduos com maior eficiência metabólica gera linhagens criadas com menor custo;conteudo;media;E
+2019-1;47;Biologia;Zoologia;Embriologia comparada (Evo-Devo);Aves répteis e mamíferos: deuterostômios com neurulação e ovos amnióticos;conteudo;dificil;B
+2019-1;48;Biologia;Genética;Aneuploidias (síndrome de Turner);Um X e nenhum Y (45 X0) = sexo feminino e síndrome de Turner, Klinefelter = XXY, Down = trissomia do 21;conteudo;media;A
+2019-1;49;Biologia;Ecologia;Fluxo de energia e integração humana nos ecossistemas;Produtores (1º nível trófico) são a base do fluxo de energia que sustenta as atividades humanas;interpretacao;media;C
+2019-1;50;Português;Gramática – morfologia/classes;"Funções da palavra ""que""";"que integrante (conjunção subordinativa introduz oração substantiva) x ""que"" pronome relativo (retoma antecedente)";conteudo;media;B
+2019-1;51;Português;Coesão e conectivos;Paráfrase mantendo relações sintático-semânticas;"Paráfrase deve manter sentido causal (""Tocada por"" = por ter se sensibilizado) e tempo verbal";conteudo;media;E
+2019-1;52;Português;Semântica e figuras de linguagem;"Metáfora (""parafuso a mais"")";"Metáfora: inverte a expressão ""parafuso a menos"" (loucura) para elogiar a habilidade";conteudo;media;D
+2019-1;53;Português;Interpretação de texto;Efeitos do bem-estar animal segundo Temple Grandin;Bem-estar animal melhora também o bem-estar humano (menos acidentes e relação mais harmoniosa);interpretacao;facil;A
+2019-1;54;Português;Literatura;Literatura brasileira e escola (Vidas Secas);Em Vidas Secas Fabiano e sinha Vitória sonham com escola para os meninos como acesso a oportunidade;conteudo;media;C
+2019-1;RED;Redação;dissertativo-argumentativo (ou narrativo à escolha);Qual o papel da escola na formação do jovem para o mercado de trabalho do século XXI?;;;;
+2019-2;1;Multidisciplinar;Brasil Colônia;História+Geografia: Potosí e Vila Rica / mercantilismo;Potosí = prata (América espanhola), Vila Rica = ouro (Minas), política de acúmulo de metais e balança comercial favorável = mercantilismo (metalismo é a vertente de acúmulo de metais);conteudo;facil;D
+2019-2;2;Multidisciplinar;Meio ambiente e sustentabilidade;Geografia+Biologia: aquecimento global e efeito estufa;principal gás do aumento do efeito estufa = CO2 (dióxido de carbono) pela queima de combustíveis fósseis;conteudo;facil;C
+2019-2;3;Multidisciplinar;Química ambiental;Química+Biologia: fotossíntese artificial e hidrogênio como combustível;fotossíntese artificial usa luz solar para quebrar H2O em H2 e O2, H2 abastece célula a combustível, quebra da água é endotérmica;conteudo;media;D
+2019-2;4;Multidisciplinar;Interpretação de texto;Inglês: quadrinhos sobre perfil do novo líder (Alice);resolve lendo os quadrinhos: o líder tem formação econômica/administrativa mas falta habilidade socioemocional (soft skills);interpretacao;facil;E
+2019-2;5;Multidisciplinar;Dinâmica (leis de Newton);Física: quantidade de movimento;Q = m·v com v em m/s (720 km/h = 200 m/s) → 79000×200 = 1,58×10^7 kg·m/s;conteudo;facil;A
+2019-2;6;Multidisciplinar;Semântica e figuras de linguagem;Português: prosopopeia (personificação) em quadrinhos;prosopopeia = atribuir ação ou característica humana a ser inanimado ou abstrato (mente como ser animado);conteudo;media;D
+2019-2;7;Multidisciplinar;Interpretação de texto;Português: funções do mercado digital e dificuldade de recrutamento;vagas em administração digital difíceis de preencher por falta de profissionais qualificados (informação literal do texto);interpretacao;facil;D
+2019-2;8;Multidisciplinar;Aritmética e porcentagem;Matemática: porcentagem amostra/universo;percentual = parte/total ×100 → 17 mil/130 mil ≈ 13%;conteudo;facil;B
+2019-2;9;Multidisciplinar;Estatística e leitura de gráficos;Matemática: leitura de gráficos de pesquisadoras em P&D;ler percentuais do gráfico, razão homens/mulheres a partir das porcentagens (ex.: 84% / 16% ≈ 5 para 1);interpretacao;media;E
+2019-2;10;Raciocínio Lógico;Lógica proposicional;definição de proposição;proposição = oração declarativa que é V ou F (exclamativa interrogativa e imperativa não são proposições);conteudo;facil;C
+2019-2;11;Raciocínio Lógico;Problemas aritméticos (lógica);divisão euclidiana com quociente;dividendo = divisor×quociente + resto (resto menor que divisor), 43 = 5×8+3 → q=8;conteudo;media;A
+2019-2;12;Raciocínio Lógico;Sequências e padrões;PA decrescente de razão -3;an = a1 + (n-1)r com r=-3, menor valor não negativo da sequência 523 520 ... (523 deixa resto 1 na divisão por 3);conteudo;media;B
+2019-2;13;Raciocínio Lógico;Problemas aritméticos (lógica);relógio adiantado e atrasado;erro de percepção = 12 - (-3) = 15 min, se julga 8 min atrasada então está 15-8 = 7 min adiantada;interpretacao;media;D
+2019-2;14;Raciocínio Lógico;Lógica proposicional;estrutura do silogismo;silogismo = duas premissas e uma conclusão que decorre delas;conteudo;facil;C
+2019-2;15;História;Brasil Império;tráfico atlântico no século XIX e economia cafeeira;sudeste cafeeiro recebeu a maioria dos africanos escravizados no XIX, tráfico proibido em 1850 (Eusébio de Queirós) e abolição em 1888;conteudo;media;B
+2019-2;16;História;Outro: Independências da América Latina;Bolívar e San Martín;Bolívar sonhava a Grã-Colômbia e a união pan-americana e fracassou, independências latino-americanas resultaram em repúblicas fragmentadas;conteudo;media;C
+2019-2;17;História;Brasil contemporâneo (1945+);ditadura militar - Ato Institucional nº 1 (1964);AI-1 = suspensão de direitos políticos e eleição indireta para presidente (Castelo Branco);conteudo;media;C
+2019-2;18;História;Brasil contemporâneo (1945+);Constituinte 1987-88 em charge de Henfil;charge: reconstrução do país pela população após o regime autoritário (Constituição Cidadã);interpretacao;facil;D
+2019-2;19;História;Século XX mundial (guerras, Guerra Fria);ascensão do nazifascismo no entreguerras;ressentimento do Tratado de Versalhes + crise + medo do comunismo levaram elites a aliar-se a fascistas, consequência: Segunda Guerra e holocausto;conteudo;media;E
+2019-2;20;Química;Outro: Metalurgia e siderurgia;produção de aço;aço produzido em altos-fornos a partir de minério de ferro e carvão (coque);conteudo;facil;A
+2019-2;21;Química;Estequiometria;combustão completa do but-1-eno;but-1-eno = C4H8, C4H8 + 6 O2 → 4 CO2 + 4 H2O, massa molar 56 g/mol e O2 32 g/mol → 5,6 kg gasta 19,2 kg de O2;conteudo;media;B
+2019-2;22;Química;Equilíbrio químico;Kw e pH da água em diferentes temperaturas;Kw = [H+][OH-], água pura é sempre neutra pois [H+] = [OH-] mesmo com pH diferente de 7;conteudo;media;E
+2019-2;23;Química;Propriedades da matéria e separação de misturas;substâncias simples no quadro de Lavoisier;substância simples = formada por um só elemento (oxigênio = ar vital, hidrogênio = ar inflamável);conteudo;facil;B
+2019-2;24;Química;Funções inorgânicas;carbonato + ácido libera CO2;carbonato + ácido forte → sal + H2O + CO2, CO2 = ar fixo (gás do efeito estufa e da fotossíntese);conteudo;facil;E
+2019-2;25;Inglês;Interpretação de texto;texto sobre aprender continuamente no trabalho;profissionais devem permanecer em modo de aprendizagem para não perder relevância no mercado;interpretacao;facil;D
+2019-2;26;Inglês;Gramática (outros);verbo modal may;may indica possibilidade ou probabilidade;conteudo;facil;B
+2019-2;27;Inglês;Vocabulário em contexto;expressão hot skill;hot = em alta/muito procurada → habilidade inovadora e desejada;conteudo;facil;E
+2019-2;28;Inglês;Vocabulário em contexto;lifelong learning;lifelong = ao longo da vida, lifelong learning = aprendizagem contínua;conteudo;facil;C
+2019-2;29;Inglês;Interpretação de texto;learning mindset e mudanças no escopo do projeto;ser imobilizado/derrubado (thrown off) por mudança de escopo = menos provável quando se tem mentalidade de aprendizado, alternativa fala em sair da equipe;interpretacao;media;E
+2019-2;30;Matemática;Aritmética e porcentagem;custo de viagem dividido entre cinco pessoas;gasolina = distância/consumo × preço (432/9×4,50 = R$ 216), pedágios pagos ida e volta (2×19,60), total/5;conteudo;facil;D
+2019-2;31;Matemática;Geometria espacial;volume de paralelepípedo menos semicilindro;V paralelepípedo = a·b·c, V cilindro = πr²h, semicilindro = metade;conteudo;media;B
+2019-2;32;Matemática;Análise combinatória e probabilidade;probabilidade de número divisor de 30;P = casos favoráveis/casos possíveis, divisores de 30 = 1 2 3 5 6 10 15 30 (8 divisores) → 8/50;conteudo;facil;A
+2019-2;33;Matemática;Funções (1º e 2º grau);Teorema de Stevin e função afim a partir do gráfico;P = P0 + d·g·h (função do 1º grau), obter coeficientes do gráfico e calcular em h=4;interpretacao;media;D
+2019-2;34;Matemática;Geometria plana;escada - comprimento horizontal por degraus iguais;proporção/soma dos degraus iguais (número de degraus × piso), questão anulada;interpretacao;media;ANULADA
+2019-2;35;Física;Cinemática;velocidade escalar média no metrô;vm = Δs/Δt, 21 km em 0,75 h = 28 km/h (mais próximo de 30);conteudo;facil;B
+2019-2;36;Física;Termologia;calor específico com forno elétrico;P = U·i, Q = P·t = m·c·Δθ → c = (220·10·60)/(1·220) = 600 J/kg·K;conteudo;media;C
+2019-2;37;Física;Óptica;fibra óptica e reflexão total;reflexão total interna ocorre quando o ângulo de incidência supera o ângulo limite (crítico);conteudo;facil;C
+2019-2;38;Física;Ondulatória;efeito Doppler;fonte se aproximando = frequência aparente maior (mais agudo), fonte se afastando = menor;conteudo;media;B
+2019-2;39;Física;Magnetismo;fios paralelos com correntes de mesmo sentido;correntes de mesmo sentido se atraem, sentidos opostos se repelem;conteudo;media;E
+2019-2;40;Geografia;Biomas e vegetação;caracterização do Pantanal;Pantanal = planície alagável da bacia do Alto Paraguai (MT e MS) com cheia de outubro a março;conteudo;facil;E
+2019-2;41;Geografia;Globalização e geopolítica;commodities;commodities = produtos de base primária (agrícolas e minerais) com preço fixado no mercado internacional;conteudo;facil;B
+2019-2;42;Geografia;Indústria e energia;carvão mineral;carvão mineral = rocha sedimentar formada pelo soterramento de florestas ao longo de milhões de anos, fonte não renovável e poluente;conteudo;media;E
+2019-2;43;Geografia;Geografia do Brasil/regional;imigração europeia no Sul no Império;imigrantes alemães e italianos receberam pequenas propriedades para povoar e garantir o território no Sul;conteudo;media;B
+2019-2;44;Geografia;Globalização e geopolítica;Muro de Berlim e Guerra Fria;Muro de Berlim (1961) construído pela RDA para impedir a fuga de alemães orientais para o lado ocidental;conteudo;facil;D
+2019-2;45;Biologia;Genética;heredograma e padrão de herança;casal afetado com filha normal = herança dominante autossômica (ambos Aa);conteudo;media;D
+2019-2;46;Biologia;Microbiologia e doenças;leishmaniose;leishmaniose = protozoário do gênero Leishmania transmitido pelo mosquito-palha, prevenção combate ao vetor (mosquiteiro tela);conteudo;media;B
+2019-2;47;Biologia;Bioquímica;enzima papaína;enzima papaína (proteases) hidrolisa proteínas → amacia carne;conteudo;facil;E
+2019-2;48;Biologia;Fisiologia humana;comunicação interventricular;CIV mistura sangue arterial e venoso e prejudica a oxigenação dos tecidos;conteudo;media;B
+2019-2;49;Biologia;Ecologia;cadeia alimentar gafanhoto-passarinho-gavião;plantas = produtor, gafanhoto = consumidor primário, passarinho = secundário, gavião = terciário, mais gaviões → menos passarinhos → mais gafanhotos → menos plantas;conteudo;media;B
+2019-2;50;Português;Interpretação de texto;cartum sobre tecnologia que aproxima;ironia = contraste entre dizer que a tecnologia aproxima e a personagem ficar sete meses sem visitar a mãe;interpretacao;facil;B
+2019-2;51;Português;Interpretação de texto;notícia sobre laptop Classmate;novo laptop também serve como bloco de anotações e como e-book (informação literal);interpretacao;facil;C
+2019-2;52;Português;Coesão e conectivos;referência do pronome relativo que;que retoma o antecedente mais próximo → equipamento;conteudo;facil;B
+2019-2;53;Português;Semântica e figuras de linguagem;aspas em folhear;aspas em palavra usada em sentido figurado = sentido conotativo;conteudo;facil;D
+2019-2;54;Português;Interpretação de texto;paráfrase de trechos do último parágrafo;colocar nas prateleiras = pôr à venda, não confundir enquanto com compras públicas;interpretacao;media;E
+2019-2;RED;Redação;narrativo ou dissertativo-argumentativo (à escolha);Tecnologia e informação: como transformar opinião em conhecimento?;estrutura dissertativa (tese argumentos conclusão) com norma-padrão, a coletânea trata da era da opinião nas redes sociais;conteudo;media;-
+2020-1;1;Multidisciplinar;Interpretação de texto;Português: ironia em charge sobre subemprego;ironia = contraste entre o que a charge afirma (felicidade) e a realidade (subempregos);interpretacao;facil;A
+2020-1;2;Multidisciplinar;Interpretação de texto;Português+Sociologia: conceito de precariado;precariado = grupo sem emprego formal ou estabilidade sem direitos trabalhistas e com jornada irregular (informação do texto);interpretacao;facil;C
+2020-1;3;Multidisciplinar;Interpretação de texto;Português+História: poema O Açúcar (Gullar) e charge sobre a Lei Áurea;ambos os textos denunciam a exploração do trabalhador rural e a desigualdade entre quem produz e quem consome;interpretacao;media;D
+2020-1;4;Multidisciplinar;Razão, proporção e regra de três;Matemática+Física: produtividade e energia por hora;regra de três: 9 t em 12 h = 0,75 t/h, 1 t = 1,7 Gcal e 150 kg de açúcar → 1,275 Gcal/h e 1350 kg;conteudo;media;A
+2020-1;5;Multidisciplinar;Brasil Colônia;História: escravidão africana nos engenhos do século XVI;escravidão africana justificada por narrativas bíblicas, famílias e comunidades africanas separadas pelo tráfico (engenho nordestino usou africanos);conteudo;media;B
+2020-1;6;Multidisciplinar;Biotecnologia;Biologia: enzimas de restrição e eletroforese em gel;endonucleases de restrição cortam o DNA em pontos específicos, fragmentos separados por eletroforese em gel (identificação de pessoas);conteudo;media;D
+2020-1;7;Multidisciplinar;Termoquímica;Química: entalpia de reação por entalpias de formação;ΔH = ΣΔHf(produtos) - ΣΔHf(reagentes) = 2(-278)+2(-394)-(-1277) = -67 kJ/mol;conteudo;media;A
+2020-1;8;Multidisciplinar;Estatística e leitura de gráficos;Matemática: porcentagem lendo gráfico do trabalho informal;percentual = parte/total ×100 a partir dos valores do gráfico;interpretacao;facil;C
+2020-1;9;Multidisciplinar;Estatística e leitura de gráficos;Matemática: média aritmética de valores de tabela;média = soma dos valores/quantidade, contar quantos valores ficam acima da média;conteudo;facil;B
+2020-1;10;Raciocínio Lógico;Problemas de contagem/organização;relação alunos×startups (dupla contagem);total de participações = 32×3 = 96 e 96/8 = 12 por aluno;conteudo;facil;E
+2020-1;11;Raciocínio Lógico;Sequências e padrões;padrão de palavras (sufixo e número de sílabas);achar a regra que liga as três colunas (terminação -or e relação com a palavra da linha);interpretacao;media;C
+2020-1;12;Raciocínio Lógico;Raciocínio espacial;espaço de manobra de cadeira de rodas;a rotação de 360° ocupa círculo de diâmetro 1,50 m → raio = 0,75 m;interpretacao;media;B
+2020-1;13;Raciocínio Lógico;Problemas aritméticos (lógica);resistência elétrica proporcional ao comprimento e inversa ao quadrado do diâmetro;R ∝ L/d²: L×1,6 e d×0,8 → R2 = 1,6/0,64 × R1 = 2,5 R1;conteudo;media;E
+2020-1;14;Raciocínio Lógico;Problemas de contagem/organização;código de cores hexadecimal (princípio fundamental da contagem);PFC: 16 opções por posição em 6 posições = 16^6 = 2^24;conteudo;media;E
+2020-1;15;História;Idade Média;peste negra e queda demográfica lida em gráfico;peste negra (1347-1351) matou cerca de um terço da população europeia na primeira metade do século XIV;conteudo;facil;D
+2020-1;16;História;Brasil Colônia;capitanias hereditárias e causas do fracasso;capitanias (1534) fracassaram por resistência indígena custos altos e falta de apoio da Coroa, só São Vicente e Pernambuco prosperaram;conteudo;media;A
+2020-1;17;História;Outro: Imperialismo e neocolonialismo (Conferência de Berlim);partilha da África (1884-85);Conferência de Berlim (Bismarck 1884-85) dividiu a África entre as potências europeias sem considerar povos locais;conteudo;media;D
+2020-1;18;História;Era Vargas;trabalho feminino e legislação trabalhista;Vargas (anos 30-50) regulamentou o trabalho de mulheres e crianças e fixou jornada de 8 horas (CLT 1943);conteudo;facil;C
+2020-1;19;História;Século XX mundial (guerras, Guerra Fria);guerras indiretas da Guerra Fria;Guerra Fria = EUA × URSS sem confronto direto, conflitos indiretos: Coreia e Vietnã;conteudo;facil;A
+2020-1;20;Química;Estequiometria;mol e constante de Avogadro;n = m/M = 10/84 mol, moléculas = n × 6×10^23 ≈ 7,1×10^22;conteudo;media;B
+2020-1;21;Química;Estequiometria;balanceamento de reação ácido-base;H3BO3 + 3 NaHCO3 → Na3BO3 + 3 H2O + 3 CO2 (conservar átomos de Na H B C O);conteudo;media;C
+2020-1;22;Química;Ligações químicas;interação entre íon sódio e polímero polar;íon + molécula polar = interação íon-dipolo;conteudo;media;D
+2020-1;23;Química;Química orgânica;hidrólise de éster (PVAc → PVA + ácido acético);éster + água → álcool + ácido carboxílico (hidrólise), X = ácido acético;conteudo;media;C
+2020-1;24;Química;Ligações químicas;ligações entre átomos de B O e C no polímero;ligação entre ametais/semimetais compartilhando elétrons = covalente;conteudo;facil;B
+2020-1;25;Inglês;Interpretação de texto;estudo sobre discriminação racial no emprego no Reino Unido;a pesquisa aponta discriminação contra negros e asiáticos do sul (paquistaneses) britânicos;interpretacao;facil;D
+2020-1;26;Inglês;Interpretação de texto;discriminação em busca de emprego e em locação de imóveis;o texto cita que minorias também sofrem discriminação ao buscar quarto para alugar (rent);interpretacao;facil;A
+2020-1;27;Inglês;Interpretação de texto;fala de Anthony Heath: ausência de redução da discriminação;surpresa = ausência de queda real na discriminação contra negros e paquistaneses em 50 anos;interpretacao;media;E
+2020-1;28;Inglês;Interpretação de texto;fala de Zubaida Haque sobre racismo;o mais preocupante = racismo aberto e consciente (overt and conscious racism);interpretacao;facil;E
+2020-1;29;Inglês;Interpretação de texto;consequências para candidatos de minorias;discriminação gera maior desemprego e piores condições de trabalho para minorias (BME);interpretacao;facil;B
+2020-1;30;Matemática;Aritmética e porcentagem;receita líquida por corrida e metas mensais;valor líquido = 3/4 do total - custo de combustível, nº de viagens = meta/ganho por viagem;conteudo;media;B
+2020-1;31;Matemática;Funções (1º e 2º grau);receita máxima com preço dependente de vagas vazias (função quadrática);R(x) = (50-x)(40+2x), máximo no vértice xv = -b/2a = 15 → R$ 2.450;conteudo;media;D
+2020-1;32;Matemática;Razão, proporção e regra de três;mistura de combustíveis e razão;50 L na razão 2:3 → 20 L gasolina e 30 L álcool, razão 1:3 → álcool 60 → N=30;conteudo;facil;C
+2020-1;33;Matemática;Análise combinatória e probabilidade;combinação de substâncias que anulam efeito;C(5,3)=10 e as combinações que contêm as duas substâncias incompatíveis = 3 → P = 3/10 = 30%;conteudo;media;B
+2020-1;34;Matemática;Geometria plana;área de praça entre paralelas com ângulo de 60°;área de trapézio/paralelogramo = base × altura com altura = lado×sen60°;conteudo;media;D
+2020-1;35;Física;Cinemática;gráfico v×t de queda com resistência do ar;velocidade cresce e tende a constante (velocidade terminal) = paraquedista;interpretacao;media;D
+2020-1;36;Física;Dinâmica (leis de Newton);força centrípeta;Fc = m·v²/R com v=28800 km/h=8000 m/s R=100 km m=10^5 kg → 6,4×10^7 N;conteudo;media;A
+2020-1;37;Física;Óptica;eclipse solar;eclipse solar = Lua entre Sol e Terra projetando a sombra da Lua na Terra;conteudo;facil;E
+2020-1;38;Física;Física moderna;relatividade restrita;próximo de c ocorre dilatação do tempo e contração do comprimento;conteudo;media;C
+2020-1;39;Física;Termologia;taxa de variação de temperatura;ΔT em kelvin = Δ em °C, taxa = 1000/0,05 s = 20 000 °C/s;conteudo;facil;B
+2020-1;40;Geografia;Microbiologia e doenças;Biologia+Geografia: queda da cobertura vacinal;menos vacinação cria bolsões de suscetíveis e eleva o gasto em saúde pública;conteudo;media;D
+2020-1;41;Geografia;Relevo e solos;formação dos Andes e inversão dos rios amazônicos;soerguimento dos Andes (Terciário/Cenozoico) fez os rios amazônicos passarem a correr para o Atlântico;conteudo;dificil;B
+2020-1;42;Geografia;Cartografia;escala numérica;escala = distância no mapa/distância real na mesma unidade: 50 cm / 150 000 000 cm = 1:3 000 000;conteudo;facil;D
+2020-1;43;Geografia;Globalização e geopolítica;Revolução Islâmica no Irã (1979);Revolução Islâmica de 1978-79 derrubou o xá pró-EUA e criou a República Islâmica;conteudo;media;E
+2020-1;44;Geografia;Globalização e geopolítica;livre mercado como característica do capitalismo;livre mercado = sociedade capitalista cujo mercado se autorregula pela oferta e demanda;conteudo;facil;E
+2020-1;45;Biologia;Botânica;anéis de crescimento do tronco;anéis = câmbio produz xilema (lenho) primaveril/estival conforme a estação;conteudo;media;A
+2020-1;46;Biologia;Ecologia;micorrizas entre fungos e raízes;micorriza = mutualismo: fungo aumenta absorção de minerais pela raiz e recebe compostos orgânicos;conteudo;facil;E
+2020-1;47;Biologia;Microbiologia e doenças;ascaridíase e ancilostomose (nematelmintos);Ascaris lumbricoides = ingestão de ovos, ancilostomose (amarelão) = larvas penetram na pele dos pés e causam anemia;conteudo;media;C
+2020-1;48;Biologia;Botânica;ciclo reprodutivo de pteridófitas;em samambaias a meiose ocorre no esporófito (diploide e fase dominante) para formar esporos;conteudo;media;B
+2020-1;49;Biologia;Genética;sistema sanguíneo ABO e alelos múltiplos;mulher com anti-A = B ou O, filho O (ii), marido com aglutinogênio A = IAi → mulher IBi;conteudo;media;C
+2020-1;50;Português;Interpretação de texto;charge sobre mercado de trabalho e realocação;charge: resiliência e persistência levam à adaptação a novas oportunidades;interpretacao;media;E
+2020-1;51;Português;Interpretação de texto;trabalho e precarização (Ricardo Antunes);questão anulada, texto: vida dissipada em consumo e qualificação pela desumanização do trabalho;interpretacao;media;ANULADA
+2020-1;52;Português;Gramática – sintaxe;reescrita mantendo sentido e norma culta (voz passiva e ordem);questão anulada, reescrever mantendo sentido e regência;conteudo;media;ANULADA
+2020-1;53;Português;Gramática – morfologia/classes;processos de formação de palavras;derivação sufixal (continuidade) prefixal+sufixal (desconstrução) regressiva (desmanche), par de exemplos equivalentes;conteudo;dificil;B
+2020-1;54;Português;Semântica e figuras de linguagem;paronomásia;paronomásia = aproximação de palavras de som semelhante e sentido diferente (ex.: ímpar/preza);conteudo;media;D
+2020-1;RED;Redação;narrativo ou dissertativo-argumentativo (à escolha);Empreendedorismo na Sociedade Brasileira do Século XXI;dissertação com tese e argumentos, coletânea: precarização do trabalho × empreendedorismo de necessidade e de oportunidade;conteudo;media;-
+2022-2;1;Multidisciplinar;Interpretação de texto;ODS 6 - acesso a água potável e saneamento (dados de relatório da OMS);acesso à água subiu de 70% para 74% mas ainda não é pleno, concluir só o que os números sustentam;interpretacao;facil;B
+2022-2;2;Biologia;Propriedades da matéria e separação de misturas;Biologia+Química: etapas do tratamento convencional de água;ordem: captação → coagulação → floculação → decantação → filtração → desinfecção (cloração) → fluoretação;conteudo;media;C
+2022-2;3;História;Antiguidade;aquedutos do Império Romano;aqueduto romano levava água por gravidade em canais de pedra ou tijolo levemente inclinados até cidades;conteudo;facil;D
+2022-2;4;Matemática;Geometria espacial;volume de bloco retangular (piscina olímpica) e densidade;V = comprimento×largura×profundidade = 50·25·2 = 2500 m³, massa = densidade × volume (0,9 kg/L), 1 m³ = 1000 L;conteudo;media;B
+2022-2;5;Multidisciplinar;Razão, proporção e regra de três;Matemática+Química: tempo de desinfecção solar e cloro como substância simples;regra de três: 10 L a cada 4 h → 240 L = 96 h, cloro (Cl2) é substância simples usada na desinfecção da água;conteudo;media;B
+2022-2;6;Multidisciplinar;Interpretação de texto;doenças tropicais negligenciadas (DTN);DTN associadas à falta de opções terapêuticas e baixo investimento em vacinas e medicamentos (informação do texto);interpretacao;facil;C
+2022-2;7;Biologia;Microbiologia e doenças;dengue;dengue = vírus transmitido pelo Aedes aegypti, prevenção eliminando água parada, não se trata com antibiótico (vírus não tem núcleo organizado);conteudo;facil;C
+2022-2;8;Química;Soluções;concentração comum g/L e diluição no sangue;C = m/V, massa de etanol em 0,1 L = 8,02 g, dividir por 5 L de sangue = 1,6 g/L;conteudo;media;B
+2022-2;9;Química;Química orgânica;classificação de composto orgânico pela fórmula estrutural;composto orgânico = contém carbono (cadeia de C) ligado a H, contar os elementos distintos na estrutura (acamprosato);conteudo;facil;E
+2022-2;10;Raciocínio Lógico;Sequências e padrões;analogia entre SIDA e AIDS e número 1246;SIDA→AIDS troca 1ª e 4ª letras, mesma regra em 1246 → 6241;interpretacao;facil;C
+2022-2;11;Multidisciplinar;Brasil República (até 1930);Revolta da Vacina (1904) e Oswaldo Cruz;Revolta da Vacina (1904) = reação popular à vacinação obrigatória contra varíola e às reformas sanitárias (Oswaldo Cruz e Pereira Passos);conteudo;facil;C
+2022-2;12;Raciocínio Lógico;Problemas de contagem/organização;conjuntos (união e interseção) de passageiros;n(W∪H) = n(W) + n(H) - n(W∩H) → 20 = n(W) + 17 - 6 → n(W)=9;conteudo;media;C
+2022-2;13;Raciocínio Lógico;Problemas de contagem/organização;probabilidade a partir de diagrama de conjuntos;P = casos favoráveis/total, exatamente duas cidades = 6 passageiros em 36 → 1/6;conteudo;media;A
+2022-2;14;Multidisciplinar;Funções (1º e 2º grau);Matemática: gráficos de crescimento linear e taxa;coeficiente angular = taxa de crescimento, reta mais inclinada atinge 100% mais cedo;interpretacao;media;E
+2022-2;15;Inglês;Interpretação de texto;trecho da música Idiots Are Taking Over (NOFX);texto afirma que idiotas/pessoas tolas estão assumindo posições de destaque (the idiots have taken over);interpretacao;media;D
+2022-2;16;Inglês;Interpretação de texto;quadrinhos sobre ciência e internet;humor: apesar do esforço científico para criar a internet ela permite opiniões que contradizem a ciência;interpretacao;facil;A
+2022-2;17;Física;Dinâmica (leis de Newton);3ª lei de Newton em lançamento de satélite;ação e reação: foguete expele gases para baixo e é impulsionado para cima (forças de mesmo módulo e sentidos opostos em corpos diferentes);conteudo;facil;B
+2022-2;18;História;Brasil Colônia;mineração em Minas Gerais ontem e hoje;colônia: ouro e diamantes com mão de obra escravizada, hoje: minério de ferro é o principal produto de exportação de MG;conteudo;media;B
+2022-2;19;Geografia;População e urbanização;taxa de fecundidade e envelhecimento (Rússia);fecundidade abaixo de 2,1 filhos por mulher = abaixo do nível de reposição → população nativa tende a diminuir;conteudo;media;C
+2022-2;20;Matemática;Razão, proporção e regra de três;placas solares: potência e área;nº de módulos = 2120/265 = 8, área = 8 × (1,65×1,00) = 13,2 m²;conteudo;facil;B
+2022-2;21;Geografia;População e urbanização;desemprego no Brasil e perfil por idade;taxa de desemprego é maior entre 14 a 17 anos (40,6%), falta de experiência e qualificação como fator;interpretacao;facil;E
+2022-2;22;Matemática;Aritmética e porcentagem;variações percentuais sucessivas;aumento de 10% e queda de 20%: fator 1,10×0,80 = 0,88 → queda acumulada de 12%;conteudo;media;C
+2022-2;23;História;Século XX mundial (guerras, Guerra Fria);Apartheid na África do Sul;Apartheid = segregação racial legalizada na África do Sul (1948-1994) por classificação racial e proibições, Mandela;conteudo;facil;A
+2022-2;24;Geografia;População e urbanização;Bolsa Família e distribuição de renda;programa de transferência de renda condicionada: Estado como agente de redistribuição de renda;conteudo;facil;B
+2022-2;25;Raciocínio Lógico;Problemas aritméticos (lógica);calendário e dias da semana;ciclo de 7 dias: dias 30 e 31 = sábado e domingo → dia 3 é domingo → dia 1 é sexta;conteudo;media;B
+2022-2;26;Português;Semântica e figuras de linguagem;antítese: ausência de alimento × abundância de imaginação (Conceição Evaristo);antítese = oposição de ideias: cheiro algum (ausência) × mãe era a Senhora a Rainha (imaginação);interpretacao;media;D
+2022-2;27;Português;Semântica e figuras de linguagem;metáfora e conotação (olhos d’água);rios caudalosos e águas correntezas conotam abundância e força das lágrimas e da mãe;interpretacao;media;E
+2022-2;28;Português;Semântica e figuras de linguagem;personificação;personificação (prosopopeia) = dar traço humano a ser inanimado: labaredas pareciam debochar;conteudo;facil;B
+2022-2;29;Multidisciplinar;Lógica proposicional;conclusão válida a partir de premissas (fauna ou flora);ou exclusivo e condicional: fauna → não arquivada, se não arquivada logicamente não se pode concluir fauna, a negação: arquivada → flora;conteudo;media;B
+2022-2;30;Biologia;Ecologia;Pantanal: flora e fauna;Pantanal = maior planície alagável do planeta, fauna rica (peixes aves jacarés capivaras onças) e vegetação mista (palmeiras ipês aroeiras);conteudo;facil;E
+2022-2;31;Geografia;Meio ambiente e sustentabilidade;Produção mais Limpa e ciclo de vida dos produtos;ciclo de vida do produto = da extração da matéria-prima ao descarte final, impactos reduzidos em toda a cadeia;interpretacao;facil;E
+2022-2;32;Física;Cinemática;conversão de nós em km/h;1 nó = 1 milha náutica/h = 1,852 km/h, 17 nós ≈ 31,5 km/h;conteudo;media;C
+2022-2;33;Física;Termologia;escala Kelvin e zero absoluto;T(K) = T(°C) + 273 → -253 °C = 20 K (20 K acima do zero absoluto);conteudo;facil;B
+2022-2;34;Geografia;Meio ambiente e sustentabilidade;queimadas na Amazônia e na Austrália;Amazônia = floresta úmida sem adaptação ao fogo (queima por ação humana), Austrália = vegetação seca adaptada, mudanças climáticas agravam ambos;interpretacao;media;C
+2022-2;35;Química;Funções inorgânicas;pirólise do PVC e neutralização;PVC → HCl + eteno (C2H4), 2 HCl + Ca(OH)2 → 2 H2O + CaCl2 (sal cloreto de cálcio);conteudo;media;E
+2022-2;36;Biologia;Ecologia;poluição por plástico nos oceanos;plástico ameaça a fauna marinha: bloqueio do trato digestório prejuízo à reprodução e transferência de poluentes pela cadeia alimentar;conteudo;facil;E
+2022-2;37;Biologia;Ecologia;biodegradação de plásticos;materiais resistentes à biodegradação são grande desafio da gestão ambiental, degradação depende de umidade temperatura oxigênio e luz;conteudo;facil;D
+2022-2;38;Matemática;Aritmética e porcentagem;porcentagem a partir de valor restante;3% do total = 1,5 milhão → total = 50 milhões → 97% = 48,5 milhões;conteudo;facil;A
+2022-2;39;Física;Eletrodinâmica;unidade ampère-hora;A·h = (C/s)·s = coulomb → unidade de carga elétrica (Q = i·Δt);conteudo;facil;A
+2022-2;40;Multidisciplinar;Interpretação de texto;quadrinhos sobre canudinhos;personagens rejeitam canudo pelo impacto ambiental do descarte;interpretacao;facil;B
+2022-2;41;Química;Termoquímica;fermentação anaeróbica e equação com energia;sem O2, reação libera energia (exotérmica): energia aparece como produto: MO → gases + energia;conteudo;media;C
+2022-2;42;Química;Cinética;fatores que alteram a velocidade da reação;aumento da temperatura aumenta a velocidade (mais colisões efetivas), saco preto absorve calor solar;conteudo;facil;C
+2022-2;43;História;Revoluções (Industrial/Francesa/Americana);Segunda Revolução Industrial (século XIX);2ª Revolução Industrial = aço eletricidade petróleo, invenções: automóvel telefone telégrafo lâmpada;conteudo;media;D
+2022-2;44;Multidisciplinar;Interpretação de texto;tirinha sobre consumo sustentável;humor = incoerência entre o discurso ambientalista e as ações das personagens;interpretacao;facil;E
+2022-2;45;Inglês;Interpretação de texto;gráfico em inglês de variação de riqueza por adulto;ler o gráfico: Austrália perdeu e Suíça ganhou, comparar valores de países;interpretacao;media;E
+2022-2;46;Raciocínio Lógico;Problemas de contagem/organização;descobrir senha por eliminação de pistas;eliminar algarismos divisores de 5 (1 e 5) e múltiplos de 3 (0 3 6 9) → restam 2 4 7 8, ordem decrescente com maior ímpar: 7 4 2;conteudo;media;E
+2022-2;47;Matemática;Progressões (PA/PG);soma de PG infinita;S = a1/(1 - q) com |q|<1, a1 = 14 e q = 1/2 → S = 28 → massa tende a 95 - 28 = 67 kg;conteudo;media;D
+2022-2;48;Física;Física moderna;radioatividade;radioatividade = núcleos instáveis emitem partículas (alfa beta) e radiação eletromagnética (gama);conteudo;facil;A
+2022-2;49;Inglês;Interpretação de texto;resenha crítica do filme Radioactive;crítica negativa: drama chato (stuffy) e paternalista apesar do tema fascinante;interpretacao;media;B
+2022-2;50;Inglês;Interpretação de texto;resenha: crescente número de filmes sobre mulheres na ciência;resenha aponta crescimento de produções sobre mulheres que se destacam na ciência e tecnologia (STEM);interpretacao;media;C
+2022-2;51;Multidisciplinar;Eletrodinâmica;Física: bits transmitidos por correntes elétricas e ondas eletromagnéticas;transmissão de dados = eletricidade e eletromagnetismo (corrente elétrica e ondas eletromagnéticas);conteudo;media;C
+2022-2;52;História;Revoluções (Industrial/Francesa/Americana);mulheres na Revolução Francesa;Revolução Francesa: Declaração dos Direitos da Mulher e da Cidadã (Olympe de Gouges, 1791), mulheres tiveram divórcio mas ficaram sem direitos políticos;conteudo;media;E
+2022-2;53;Português;Interpretação de texto;discurso de Malala na ONU;objetivo do texto = mobilizar a sociedade principalmente as mulheres pela educação e conhecimento;interpretacao;facil;D
+2022-2;54;Português;Funções da linguagem e gêneros;vocativo e função conativa/fática no discurso;vocativo repetido (queridos irmãos e irmãs) cria proximidade e afetividade num contexto formal;conteudo;media;D
+2022-2;RED;Redação;narrativo ou dissertativo-argumentativo (à escolha);Desigualdade de gênero e mercado de trabalho no Brasil contemporâneo;dissertação com tese argumentos e proposta de intervenção, coletânea: desigualdade salarial e baixa presença de mulheres nas engenharias;conteudo;media;-
+2023-1;1;Multidisciplinar;Interpretação de texto;Português: charge sobre livro e evolução da comunicação;ironia = retrocesso aparente da capacidade comunicativa humana em oposição à evolução tecnológica;interpretacao;facil;D
+2023-1;2;Multidisciplinar;Antiguidade;História: tecnologias da pré-história (Paleolítico);Paleolítico: lascar pedra para fazer ferramentas de caça, domínio do fogo, escrita só surge depois com a Antiguidade (Mesopotâmia);conteudo;facil;E
+2023-1;3;Multidisciplinar;Globalização e geopolítica;Geografia: avanço técnico e globalização;globalização começou nas Grandes Navegações e se intensifica com avanço tecnológico em comunicação e transporte;interpretacao;facil;B
+2023-1;4;Raciocínio Lógico;Lógica proposicional;diagramas de Euler-Venn e proposição universal;todo A é B → conjunto A contido em B, elemento (roda) pertence a A logo também a B;conteudo;media;A
+2023-1;5;Multidisciplinar;Biotecnologia;Biologia: fermentação e Pasteur;Pasteur provou que a fermentação é causada por micro-organismos (processo biológico e não só químico);interpretacao;facil;D
+2023-1;6;Multidisciplinar;Bioquímica;Biologia+Química: fermentação alcoólica por leveduras;Saccharomyces cerevisiae: glicose → etanol + CO2 (fermentação alcoólica), o CO2 faz a massa crescer;conteudo;facil;A
+2023-1;7;Multidisciplinar;Idade Média;História: Renascimento urbano e corporações de ofício;Renascimento urbano e comercial (séculos XI-XIII): oficinas artesãs e diversos ofícios nas cidades medievais;conteudo;media;C
+2023-1;8;Matemática;Aritmética e porcentagem;redução percentual de água e tempo;redução % = (valor inicial - valor final)/valor inicial: água 40→1 = 97,5%, dias 70→40 = 42,9%;conteudo;facil;D
+2023-1;9;Matemática;Matrizes e sistemas lineares;leitura de matriz mij (linha i coluna j);elemento mij = linha i coluna j, somar colunas para total por fazenda;conteudo;facil;C
+2023-1;10;Química;Termoquímica;energia liberada na combustão do hidrogênio e rendimento;energia = massa × kcal/kg × rendimento → 5,6 × 28700 × 0,20 ≈ 3,2×10^4 kcal;conteudo;media;E
+2023-1;11;Química;Química ambiental;hidrogênio verde turquesa marrom e cinza;verde = eletrólise da água com energia renovável, turquesa = pirólise do metano, marrom = gaseificação do carvão, cinza = reforma a vapor do gás natural;interpretacao;media;D
+2023-1;12;Português;Interpretação de texto;paráfrase de trecho de Milton Santos;paráfrase mantém o sentido: união técnica+ciência sob égide do mercado que se torna global;interpretacao;media;A
+2023-1;13;Geografia;Globalização e geopolítica;meio técnico-científico-informacional (Milton Santos);meio técnico-científico-informacional = união de ciência técnica e informação (após a 2ª Guerra Mundial);conteudo;media;D
+2023-1;14;Biologia;Biotecnologia;insulina por DNA recombinante;bactérias passam a produzir insulina porque recebem o trecho de DNA (gene) que codifica o hormônio;conteudo;media;C
+2023-1;15;Multidisciplinar;Interpretação de texto;vacinação contra a poliomielite no Brasil (dois textos);em 2022 só 44% das crianças receberam o reforço, Brasil entrou na lista de alto risco, erradicação em 1994;interpretacao;media;C
+2023-1;16;Biologia;Microbiologia e doenças;poliomielite: transmissão e vacinação;pólio = doença viral transmitida por via fecal-oral, ampla vacinação impede a circulação do vírus (imunidade coletiva);conteudo;media;B
+2023-1;17;Química;Equilíbrio químico;expressão da constante de equilíbrio Kc;Kc = [produtos]^coeficientes/[reagentes]^coeficientes (gases e aquosos), CH4 + H2O ⇌ 3 H2 + CO → K = [CO][H2]³/([CH4][H2O]);conteudo;facil;D
+2023-1;18;Biologia;Citologia;microscópios óptico e eletrônico;microscópio eletrônico tem alto poder de resolução e permite ver ultraestrutura celular;conteudo;facil;C
+2023-1;19;História;Idade Moderna;Gutenberg e a imprensa de tipos móveis;Gutenberg (séc. XV) inventou a prensa de tipos móveis, que difundiu livros e ideias (Renascimento e Reforma);conteudo;facil;B
+2023-1;20;Multidisciplinar;Geometria espacial;Matemática+Química: poliedros de Platão e geometria molecular;sólidos de Platão: tetraedro cubo octaedro dodecaedro icosaedro, geometrias molecular tetraédrica e octaédrica coincidem com tetraedro e octaedro;conteudo;media;C
+2023-1;21;Multidisciplinar;Ligações químicas;Química: geometria molecular trigonal plana;SO3 = 3 pares ligantes sem par isolado no S → trigonal plana (NH3 piramidal, H2O angular, CH4 tetraédrica, CO2 linear);conteudo;media;A
+2023-1;22;Física;Eletrodinâmica;passarinho e cobra em fios de alta tensão;corrente só passa se houver diferença de potencial: tocar dois fios de potenciais diferentes fecha o circuito;conteudo;media;D
+2023-1;23;Biologia;Agropecuária;tecnologia na agricultura (sensores drones mecanização);sensores agrícolas registram umidade e minerais do solo e aumentam a produtividade (agricultura de precisão);interpretacao;facil;B
+2023-1;24;Inglês;Interpretação de texto;mercado de trabalho de tecnologia em 2022;a demanda por talentos tech cresceu 45% no ano e 96% dos maiores empregadores aumentaram contratações, vaga não é só remota;interpretacao;media;D
+2023-1;25;Inglês;Vocabulário em contexto;antônimos no texto (dip e spike);dip = queda e spike = pico (antônimos);conteudo;media;B
+2023-1;26;Raciocínio Lógico;Problemas aritméticos (lógica);fração de trajeto e distâncias;25% do trajeto + 14,5 km até o ponto médio (50%) → 25% do total = 14,5 km → total = 58 km;conteudo;facil;D
+2023-1;27;Multidisciplinar;Interpretação de tabelas/gráficos;Física+Informática: bits em binário e gráfico de corrente × tempo;bit 1 = pulso de corrente e bit 0 = ausência, ler o gráfico e comparar com a tabela de bytes;interpretacao;media;E
+2023-1;28;Português;Coesão e conectivos;relação lógica da oração gerundiva (sendo);oração reduzida de gerúndio com valor causal equivale a já que/visto que;conteudo;media;E
+2023-1;29;Geografia;Interpretação de texto;ciberespaço como objeto da Geografia;texto: a Geografia deve buscar compreender o ciberespaço como parte da sociedade contemporânea;interpretacao;facil;A
+2023-1;30;Inglês;Interpretação de texto;cartum sobre backup de dados;humor: a empresa prefere não guardar registro permanente de tudo que dá errado (sem backup para não aparecerem os erros);interpretacao;facil;D
+2023-1;31;História;Era Vargas;rádio e televisão e cultura de massa no Brasil;rádio dominou 1930-1960, TV Tupi inaugurada em 1950, mídia introduziu a cultura de massa;interpretacao;facil;E
+2023-1;32;Física;Cinemática;distância percorrida por onda de rádio (NFC);v = Δs/Δt → Δs = 3×10^8 × 0,1×10^-9 = 0,03 m = 3 cm;conteudo;media;B
+2023-1;33;Física;Ondulatória;equação fundamental da onda;v = λ·f → f = 3×10^8/22 ≈ 13,6 MHz;conteudo;media;C
+2023-1;34;Matemática;Funções (1º e 2º grau);função afim a partir de tarifa fixa mais valor por km;y = valor fixo + taxa × x → 3,20 + 1,40 = 4,60 fixos e 1,10 por km: y = 4,60 + 1,10x;conteudo;facil;B
+2023-1;35;Multidisciplinar;Interpretação de texto;Português: verbete de dicionário e raciocínio de formação da entrada;classe morfológica e gênero do verbete, substantivo masculino de 8 letras, figura do verbete não disponível no texto;interpretacao;media;E
+2023-1;36;Física;Gravitação;telescópios Hubble e James Webb (órbitas);razão entre distâncias: 1,5 milhão km/530 km ≈ 2 800 ≈ três mil vezes;conteudo;media;E
+2023-1;37;Geografia;Cartografia;sistema GPS;GPS usa satélites e receptores para fornecer posição geográfica no globo em qualquer condição de tempo;conteudo;facil;A
+2023-1;38;Raciocínio Lógico;Raciocínio espacial;lugar geométrico: circunferência e reta paralela;pontos a 5 km da empresa (circunferência) e a 1 km de reta paralela (2 retas): a interseção tem até 4 pontos (distância de 4 km indica centro a 4 km da avenida);conteudo;dificil;C
+2023-1;39;Multidisciplinar;Interpretação de texto;Inglês: mudança climática e observações astronômicas;observatórios ficam em locais de alta altitude e baixa temperatura;interpretacao;facil;A
+2023-1;40;Português;Semântica e figuras de linguagem;metáfora em ilustração (Journey);metáfora: leitura comparada a uma viagem que transporta a outras realidades;interpretacao;media;D
+2023-1;41;Geografia;Relevo e solos;classificações do relevo brasileiro (Azevedo Ab’Saber Ross);avanço tecnológico gradual: esboços (Aroldo) → fotografias aéreas (Ab’Saber) → RADAMBRASIL com radar (Ross);interpretacao;facil;D
+2023-1;42;Matemática;Estatística e leitura de gráficos;média e desvio padrão (dispersão);quanto menor o desvio padrão mais homogêneos os dados (menor dispersão em torno da média);conteudo;media;B
+2023-1;43;Matemática;Razão, proporção e regra de três;escala 1:500 e perímetro real;escala = medida no desenho/medida real (1 m real = 0,2 cm na planta → 1:500), medida real = medida do desenho × 500;conteudo;media;E
+2023-1;44;Inglês;Interpretação de texto;cherry picking na mídia;cherry picking = destacar só um lado ignorando fatos mais relevantes;interpretacao;facil;C
+2023-1;45;Inglês;Vocabulário em contexto;plenty of = many;plenty of = muitos (many), few = poucos, much é para incontáveis;conteudo;facil;D
+2023-1;46;Multidisciplinar;Clima;Geografia+Matemática: amplitude térmica e conceitos geográficos;amplitude térmica = temperatura máxima - temperatura mínima;conteudo;facil;C
+2023-1;47;Química;Atomística e tabela periódica;identificar elementos por pistas (H Ca F Li);H número atômico 1, Ca²⁺ do leite e ossos, halogênio do 2º período = flúor (F), alcalino de menor raio = lítio (Li);conteudo;media;C
+2023-1;48;Física;Magnetismo;eletroímã (mala mágica);corrente elétrica numa bobina gera campo magnético (eletroímã) que atrai material ferromagnético;conteudo;media;B
+2023-1;49;Raciocínio Lógico;Problemas de contagem/organização;truque do dado dinamite (pontos nas faces do cartão);usar o máximo de pontos reaproveitados entre frente e verso: com 1 2 e 3 pontos visíveis o mínimo total é 5;conteudo;media;B
+2023-1;50;Raciocínio Lógico;Sequências e padrões;sequência cíclica de cartas (baralho);ordem cíclica com período 13 símbolos × 4 naipes, K e ♦ definem a posição do corte e a carta seguinte;conteudo;media;C
+2023-1;51;História;Antiguidade;Revolução Neolítica (agricultura);Revolução Neolítica = transição do nomadismo de caça e coleta para o sedentarismo agrícola (12 mil anos atrás);conteudo;facil;D
+2023-1;52;Química;Termoquímica;Lei de Hess;ΔH global = soma das ΔH das etapas (inverter reação inverte o sinal, multiplicar coeficiente multiplica ΔH): pirólise do CH4 = +75 kJ/mol;conteudo;media;B
+2023-1;53;Português;Interpretação de texto;contribuição tecnológica africana no Brasil (bateia cadinho mestre-de-açúcar);africanos trouxeram técnicas (bateia no ouro cadinho na siderurgia) além de contribuições linguísticas e religiosas;interpretacao;facil;B
+2023-1;54;Português;Funções da linguagem e gêneros;gênero oral/podcast e registro informal;texto de podcast: vocabulário acessível e repetições típicas de oralidade;conteudo;media;C
+2023-1;RED;Redação;narrativo ou dissertativo-argumentativo (à escolha);Como se preparar para o mercado de trabalho diante dos avanços tecnológicos da 4ª Revolução Industrial?;dissertação com tese argumentos e proposta, coletânea: Quarta Revolução Industrial déficit de profissionais de TI;conteudo;media;-
+2023-2;1;História;Antiguidade;pré-história: domínio do fogo e cozimento de alimentos;cozinhar facilitou digestão e permitiu crescimento do corpo e do cérebro dos hominídeos (conclusão do texto);interpretacao;facil;C
+2023-2;2;Biologia;Fisiologia humana;alimentação saudável e nutrientes;temperos naturais (ervas e especiarias) têm vitaminas minerais e antioxidantes, evitar sódio excessivo gordura trans e ultraprocessados;interpretacao;facil;D
+2023-2;3;Multidisciplinar;Fisiologia humana;Biologia: absorção de ferro e vitamina C;vitamina C aumenta a absorção de ferro, café e laticínios (cálcio) inibem, beterraba não é rica em ferro;interpretacao;facil;B
+2023-2;4;Biologia;Bioquímica;funções biológicas dos sais minerais;cálcio = ossos contração muscular e coagulação, iodo = hormônios da tireoide, ferro = hemoglobina, fósforo = ATP e ácidos nucleicos;conteudo;media;A
+2023-2;5;Física;Hidrostática;conversão de unidade de pressão (bar e pascal);1 bar = 10^5 Pa → 5 bar = 5,0×10^5 Pa, pressão = força/área;conteudo;facil;B
+2023-2;6;Multidisciplinar;Interpretação de texto;queijo artesanal da Serra da Canastra;saberes trazidos pelos portugueses ao Brasil Colônia há dois séculos e preservados principalmente por mulheres (informação do texto);interpretacao;facil;D
+2023-2;7;Biologia;Microbiologia e doenças;bactérias na fermentação do queijo;bactérias consomem a lactose (açúcar do leite) e a sua morte libera substâncias de sabor e aroma;conteudo;media;E
+2023-2;8;Geografia;Agropecuária;pecuária extensiva e intensiva;extensiva = gado solto em grandes áreas com pasto, intensiva = confinamento e alta tecnologia;conteudo;facil;A
+2023-2;9;Inglês;Interpretação de texto;agrofloresta (agroforestry);agroforestry equilibra agricultura e floresta: coexistência de árvores e lavouras protegendo ecossistemas;interpretacao;facil;E
+2023-2;10;Inglês;Conectivos;so that;so that = finalidade (para que);conteudo;facil;E
+2023-2;11;História;Brasil Colônia;civilização do açúcar em Pernambuco e escravidão;engenhos de açúcar no litoral (Zona da Mata massapê) dependiam de mão de obra negra escravizada;conteudo;facil;D
+2023-2;12;Matemática;Geometria espacial;tronco de pirâmide e área total de embalagem;base quadrada de 10 cm e topo de 20 cm com faces trapezoidais = tronco de pirâmide, área total = bases + 4 trapézios = 1 220 cm²;conteudo;media;D
+2023-2;13;Física;Ondulatória;espectro visível: comprimento de onda e frequência;v = λ·f (c = λf), violeta tem maior f e menor λ, vermelho tem menor f e maior λ, frutas amarelas e vermelhas definem a faixa;interpretacao;media;C
+2023-2;14;História;Idade Moderna;difusão do cacau e Grandes Navegações;cacau da América passou a ser difundido pelo mundo no século XVI por colonizadores espanhóis;conteudo;media;E
+2023-2;15;Matemática;Aritmética e porcentagem;porcentagem de porcentagem a partir de gráfico;45% de 17,7% ≈ 8% (a cada 100 paulistanos ≈ 8);conteudo;facil;C
+2023-2;16;Matemática;Estatística e leitura de gráficos;média moda e mediana;moda = valor que mais aparece, mediana = valor central dos dados ordenados, média = soma/n;conteudo;media;A
+2023-2;17;Matemática;Geometria plana;diferença de áreas de dois círculos;A = πr² com r = d/2: π(17,5² - 14,25²) com π = 3 ≈ 309,56 cm²;conteudo;media;E
+2023-2;18;Raciocínio Lógico;Sequências e padrões;ordem alfabética dos produtos nas barracas;achar o padrão: banana coco ___ especiarias flores = ordem alfabética (B C D E F) → palavra com D: doces;interpretacao;facil;B
+2023-2;19;História;Brasil Colônia;acarajé e herança africana;acarajé remete à escravização de africanos no Brasil colonial e imperial e à sua religiosidade;conteudo;facil;D
+2023-2;20;Raciocínio Lógico;Problemas aritméticos (lógica);consumo diário de leite e dia da semana;consumo diário = 0,5+0,25 = 0,75 L, 12 L/0,75 = 16 dias, segunda + 15 dias = terça;conteudo;media;E
+2023-2;21;Português;Coesão e conectivos;classe e valor dos conectivos em Torto Arado;para (V) = preposição de finalidade e pode ser substituída por a fim de, como (I) é preposição e não conjunção;conteudo;media;E
+2023-2;22;Português;Interpretação de texto;narrativa da seca em Torto Arado;narrativa cronológica com agravamento da crise até o consumo de palma destinada aos animais;interpretacao;media;C
+2023-2;23;Multidisciplinar;Botânica;Biologia: palma (cacto) e adaptação à seca;cactos têm folhas modificadas em espinhos que reduzem a transpiração (xerófitas);conteudo;media;B
+2023-2;24;Português;Interpretação de texto;charge sobre fome e bandeira do Brasil;charge: crítica social à fome com prato vazio no lugar da esfera celeste da bandeira;interpretacao;facil;B
+2023-2;25;História;Idade Média;crise do século XIV: grande fome na Europa;fortes chuvas e más colheitas (1314-1319) elevaram preços do trigo e causaram fome, peste negra veio logo depois;interpretacao;facil;E
+2023-2;26;Inglês;Interpretação de texto;definições de hunger e food insecurity (FAO);fome (undernourishment) = sensação física por consumo insuficiente de energia, insegurança alimentar tem vários níveis;interpretacao;media;C
+2023-2;27;Inglês;Interpretação de texto;infográfico FIES: insegurança alimentar severa;severa = ficar sem comida por um dia ou mais várias vezes ao ano;interpretacao;facil;C
+2023-2;28;Inglês;Vocabulário em contexto;lack;to lack = faltar (falta de acesso regular);conteudo;facil;E
+2023-2;29;Português;Semântica e figuras de linguagem;provérbios sobre comida e fome;provérbio V (a fome faz sair o lobo do covil) ~ farinha pouca meu pirão primeiro: necessidade faz agir, sentido figurado;interpretacao;media;E
+2023-2;30;Matemática;Equações e inequações;preço de equilíbrio entre oferta e demanda;igualar qo = qd: 3p + 50 = -2p + 500 → p = 90, q = 3·90 + 50 = 320;conteudo;facil;B
+2023-2;31;Química;Estequiometria;fórmula molecular da cafeína e dose letal;C8H10N4O2 tem 4 elementos (C H N O), 9,9 g = 9900 mg e 9900/180 = 55 xícaras;conteudo;media;A
+2023-2;32;Química;Soluções;porcentagem em massa (título);% = massa soluto/massa total × 100: 11/500 = 2,2% → Coffea canephora;conteudo;facil;D
+2023-2;33;Química;Equilíbrio químico;pH e concentração de H+;pH = -log[H+], [H+] = 10^-4,8 → pH 4,8 (mais ácida que o leite pH 6), menor pH = mais ácido;conteudo;facil;E
+2023-2;34;Biologia;Ecologia;algas oceânicas na alimentação;algas são produtoras que fazem fotossíntese e absorvem nutrientes da água sem fertilizantes e sem precisar de terra fértil;interpretacao;facil;C
+2023-2;35;Raciocínio Lógico;Problemas de contagem/organização;princípio da casa dos pombos (cesta básica);retirando mais itens que o total fora de uma categoria garante pelo menos um dela: 6 não-grãos → 7 itens têm ao menos um grão;conteudo;media;D
+2023-2;36;Multidisciplinar;Bioquímica;Biologia: lipídios como isolante térmico e % do valor diário;gorduras (lipídios) armazenam energia e isolam termicamente, % VD = 1,8/65 ≈ 2,8%;conteudo;media;E
+2023-2;37;Multidisciplinar;Bioquímica;Biologia: valor energético dos nutrientes;carboidrato e proteína = 4 kcal/g, lipídio = 9 kcal/g, 30×4 + 5,4×4 + 1,8×9 ≈ 158 kcal;conteudo;media;A
+2023-2;38;Raciocínio Lógico;Lógica proposicional;negação de conjunção (lei de De Morgan);~(A e B) = ~A ou ~B (De Morgan);conteudo;media;A
+2023-2;39;Multidisciplinar;Interpretação de texto;Inglês: rótulo nutricional de lasanha congelada;ler o rótulo: Quick Guide %DV: 5% ou menos é baixo e 20% ou mais é alto, questão anulada;interpretacao;media;ANULADA
+2023-2;40;Multidisciplinar;Termologia;Física: calorimetria de combustão;Q = m·c·Δθ com c(água) = 1 cal/g°C, massa de água = massa da porção → Δθ = calorias/massa;conteudo;media;B
+2023-2;41;Química;Atomística e tabela periódica;prótons nêutrons e elétrons de íons;A = Z + N, cátion perde elétrons: Ca²⁺ tem 18 e K⁺ tem 18 elétrons (isoeletrônicos);conteudo;media;A
+2023-2;42;Biologia;Microbiologia e doenças;métodos de conservação de alimentos;liofilização = desidratação por congelamento e sublimação do gelo, pasteurização = calor curto, defumação = fumaça;conteudo;media;C
+2023-2;43;Química;Soluções;osmose e meio hipertônico (conservação por sal);meio hipertônico (mais soluto) faz a célula perder água por osmose e desidratar;conteudo;media;A
+2023-2;44;Multidisciplinar;Vocabulário em contexto;Inglês: enigma que revela food/meat;resolver o enigma e traduzir a palavra para o inglês: food = comida, meat = carne;interpretacao;media;B
+2023-2;45;Geografia;Agropecuária;tecnologia no campo (sensores GPS e drones);sensores de colheita já são usados no Brasil e geram mapas de produtividade em tempo real;interpretacao;facil;C
+2023-2;46;Geografia;Relevo e solos;calagem para corrigir acidez do solo;calagem = adicionar calcário (CaCO3) ao solo para elevar o pH e fornecer Ca e Mg;conteudo;media;E
+2023-2;47;Física;Ondulatória;unidade FLOPS e frequência;FLOPS = operações por segundo = s⁻¹ = frequência (Hz);conteudo;media;B
+2023-2;48;Física;Eletrodinâmica;unidade de carga elétrica x energia (kWh);kWh é unidade de energia e não de carga elétrica (carga em C ou A·h);conteudo;media;B
+2023-2;49;Física;Cinemática;distância a partir de velocidade média e tempo;v = Δs/Δt → Δs = 10 m/s × 900 s = 9000 m = 9 km;conteudo;facil;D
+2023-2;50;Geografia;Interpretação de texto;Ciência e Tecnologia de Alimentos (CTA);CTA é área do conhecimento voltada à qualidade e processamento dos alimentos (informação do texto);interpretacao;facil;D
+2023-2;51;Multidisciplinar;Química orgânica;ácido oleico: ácido carboxílico C18 com dupla em C9 e Idade Antiga;ácido graxo insaturado = ácido carboxílico de cadeia longa com ligação dupla, numerar a cadeia a partir do C da carboxila, cultivo da oliveira: Idade Antiga;conteudo;media;A
+2023-2;52;Geografia;Clima;latitude e temperatura: região Sul;latitudes maiores que 24°S = clima subtropical mais ameno: região Sul;conteudo;facil;E
+2023-2;53;Raciocínio Lógico;Lógica proposicional;quantificadores (todo algum nenhum);toda fruta grande é doce e toda fruta azeda é pequena, algum morango é azedo → algum morango é pequeno;conteudo;media;B
+2023-2;54;Português;Interpretação de texto;quadrinhos sobre desperdício de alimentos;a insistência do personagem causa irritação mas tematiza o desperdício de alimentos (cascas ricas em fibras e vitaminas);interpretacao;facil;E
+2023-2;RED;Redação;narrativo ou dissertativo-argumentativo (à escolha);Como combater a insegurança alimentar no Brasil?;dissertação com tese argumentos e proposta de intervenção, coletânea: fome no Brasil exportação de alimentos e desperdício;conteudo;media;-
+2024-1;1;Raciocínio Lógico;Lógica proposicional;"conectivo ""se ... então"" identificado em frase de texto";"se P então Q = condicional (P→Q),  conjunção = ""e"",  disjunção = ""ou"",  bicondicional = ""se e somente se"",  negação = ""não""";conteudo;facil;D
+2024-1;2;História;Outro: pré-história / arte rupestre (interpretação);registros rupestres brasileiros e diversidade dos grupos humanos;texto afirma diversidade de temas e técnicas = múltiplos grupos com contextos e organizações distintos;interpretacao;facil;C
+2024-1;3;Biologia;Outro: pré-história / arte rupestre (interpretação);Serra da Capivara (PI) e estudo do homem pré-histórico;arte rupestre da Serra da Capivara retrata caça dança luta e rituais = fonte sobre práticas e costumes do homem pré-histórico;interpretacao;facil;C
+2024-1;4;Multidisciplinar;Aritmética e porcentagem;Matemática+História+Geografia: astecas (México hemisfério Norte) e variação percentual de velocidade;astecas = México,  México fica no hemisfério Norte,  variação % = (novo−base)/base (150 contra 130 km/h ≈ 15% em velocidade);conteudo;media;A
+2024-1;5;Geografia;Cartografia;projeção cartográfica;projeção cartográfica = representar superfície esférica da Terra em plano;interpretacao;facil;D
+2024-1;6;Matemática;Estatística e leitura de gráficos;moda e mediana de gráfico de colunas;moda = valor mais frequente,  mediana = valor central dos dados ordenados (média dos dois centrais se n par);conteudo;facil;C
+2024-1;7;Multidisciplinar;Estatística e leitura de gráficos;Matemática+História: variação anual no gráfico e eventos históricos (covid-19);pandemia de covid-19 em 2020 derrubou visitação turística,  comparar barra com a do ano anterior;interpretacao;facil;D
+2024-1;8;Inglês;Vocabulário em contexto;longstanding e finally;longstanding = de longa data,  finally = finalmente (longa busca enfim resolvida);conteudo;facil;D
+2024-1;9;Inglês;Conectivos;due to introduz causa;due to = devido a / por causa de (causa);conteudo;facil;A
+2024-1;10;Multidisciplinar;Interpretação de texto;Inglês+Química: oxidação do ferro e cor do Blood Falls;ferro em contato com oxigênio oxida (enferruja) e fica vermelho;interpretacao;facil;C
+2024-1;11;Raciocínio Lógico;Problemas aritméticos (lógica);dia da semana em ano bissexto;ano bissexto: fevereiro com 29 dias,  dia da semana = resto da divisão do nº de dias por 7;conteudo;media;A
+2024-1;12;Multidisciplinar;Botânica;Biologia+História: diversidade e classificação das plantas;plantas são agrupadas por morfologia e relações evolutivas,  musgos (briófitas) não têm flores nem frutos;conteudo;facil;E
+2024-1;13;Matemática;Geometria espacial;área lateral do cilindro e custo por regra de três;área lateral do cilindro = 2·π·r·h,  razão área total / área por receita para achar nº de receitas;conteudo;media;A
+2024-1;14;Matemática;Geometria espacial;volume de cilindro e semelhança de sólidos;V = π·r²·h,  sólidos semelhantes: medidas lineares na mesma razão k (r de 10 para 2 → h de 30 para 6);conteudo;media;B
+2024-1;15;Química;Atomística e tabela periódica;modelo atômico de Bohr e emissão de luz;modelo de Bohr: elétron salta de nível ao absorver energia e emite luz ao voltar ao estado fundamental;conteudo;facil;E
+2024-1;16;Química;Funções inorgânicas;fórmula do óxido de zinco;óxido de zinco = ZnO (Zn2+ e O2−) pigmento branco;conteudo;facil;A
+2024-1;17;Biologia;Ecologia;aranhas e controle populacional de insetos;predadores controlam a densidade populacional das presas (equilíbrio do ecossistema),  aranha tem exoesqueleto;interpretacao;facil;D
+2024-1;18;Multidisciplinar;Cinemática;Física+Inglês: ano-luz em tirinha;ano-luz é unidade de distância e não de tempo;conteudo;facil;D
+2024-1;19;Física;Cinemática;valor de um ano-luz;d = v·t (c = 3×10^8 m/s vezes 1 ano = 3,2×10^7 s ≈ 9,6×10^15 m);conteudo;facil;E
+2024-1;20;Inglês;Interpretação de texto;graffiti como autoexpressão e pertencimento;graffiti alia autoexpressão e senso de pertencimento à comunidade;interpretacao;facil;A
+2024-1;21;Inglês;Interpretação de texto;intervenção de Banksy (imagem com texto);ler linguagem verbal e não verbal juntas (imagem Banksy);interpretacao;media;C
+2024-1;22;Inglês;Interpretação de texto;citação de Aristóteles sobre arte;inward significance = significado interior = essência das coisas;interpretacao;facil;E
+2024-1;23;Português;Interpretação de texto;grafite e arte urbana como representatividade;arte urbana como espaço de representatividade e engajamento socioambiental;interpretacao;facil;E
+2024-1;24;Português;Gramática – morfologia/classes;"sentido das preposições ""com"" e ""em""";"preposição ""com"" = matéria/instrumento companhia,  ""em"" = lugar,  ""com terra e cinzas"" = matéria,  ""com outros artistas"" = companhia";conteudo;media;D
+2024-1;25;Multidisciplinar;Interpretação de texto;Português+História: medicina islâmica medieval e tradição greco-latina;islã medieval retomou saber da Antiguidade e antecipou conceito de cidades saudáveis;interpretacao;facil;E
+2024-1;26;Matemática;Análise combinatória e probabilidade;colorir regiões de uma mandala com 4 cores;princípio fundamental da contagem (multiplicativo) em casos por regiões,  conferir imagem para restrições (subtema impreciso);conteudo;dificil;D
+2024-1;27;História;Brasil Colônia;Aleijadinho e barroco mineiro;Aleijadinho = barroco mineiro (Ouro Preto São João d'El-Rei) com adaptação brasileira dos estilos europeus;interpretacao;media;B
+2024-1;28;Raciocínio Lógico;Interpretação de tabelas/gráficos;dedução a partir de duas tabelas de classificação;"dedução com ""pelo menos""/""nenhum"" e totais das tabelas (princípio da casa dos pombos e cálculo de complementares)";interpretacao;media;A
+2024-1;29;História;Idade Moderna;Homem Vitruviano e antropocentrismo renascentista;Renascimento: antropocentrismo e racionalismo científico (Leonardo da Vinci Homem Vitruviano);conteudo;facil;D
+2024-1;30;Geografia;Outro: conceitos geográficos (lugar paisagem região território);música e a categoria Lugar;categorias da Geografia: espaço lugar paisagem região território,  lugar = vivência e percepção;conteudo;media;E
+2024-1;31;Geografia;População e urbanização;migração do Nordeste para o Sudeste (Belchior);migração = deslocamento de pessoas,  êxodo nordestino para cidades grandes,  pendular = vai e volta diário,  transumância = pastores;conteudo;facil;A
+2024-1;32;Física;Ondulatória;frequência e período;f = 1/T,  nota mais aguda = maior frequência;conteudo;media;E
+2024-1;33;Biologia;Microbiologia e doenças;doenças citadas na música O Pulso;toxoplasmose = protozoário transmitido por água e alimentos contaminados,  câncer = divisão celular desordenada,  doenças por gotículas;conteudo;media;D
+2024-1;34;Raciocínio Lógico;Problemas de contagem/organização;pessoas em roda;em roda total = posição à esquerda + posição à direita (6+7 = 13);conteudo;facil;C
+2024-1;35;Geografia;Geografia do Brasil/regional;filme Bye Bye Brasil e regiões Nordeste e Norte;porção setentrional = norte,  Transamazônica construída nos anos 1970,  rio São Francisco nasce em MG e deságua no Atlântico;interpretacao;media;B
+2024-1;36;História;Brasil contemporâneo (1945+);Cinema Novo;"Cinema Novo (anos 1950-60) = baixo custo e crítica social (""uma câmera na mão e uma ideia na cabeça"")";conteudo;facil;D
+2024-1;37;Biologia;Genética;DNA em lêndeas de piolho e populações antigas;"DNA do ""cimento"" produzido pelo parasita identifica o hospedeiro (DNA antigo)";interpretacao;media;D
+2024-1;38;História;Antiguidade;mumificação no Egito Antigo;mumificação ligada à crença na vida após a morte e gerou conhecimento de anatomia;conteudo;facil;C
+2024-1;39;Química;Soluções;concentração em massa por massa (µg/g);concentração = massa de soluto / massa da amostra (25,2 µg / 4,2 g = 6 µg/g que é 3 vezes 2 µg/g);conteudo;facil;C
+2024-1;40;Química;Propriedades da matéria e separação de misturas;separação de ouro e areia com água (bateia);levigação = separar sólidos de densidades diferentes com corrente de água;conteudo;media;A
+2024-1;41;Física;Energia, trabalho e potência;consumo de energia em kWh e potência;P = E/Δt,  50 kWh em 1 h = 50 kW = 50 000 W;conteudo;media;E
+2024-1;42;Química;Soluções;solubilidade do O2 e temperatura;solubilidade de gases em água diminui com o aumento da temperatura (curva decrescente);conteudo;media;D
+2024-1;43;Biologia;Fisiologia humana;digestão de proteínas pepsina e suco pancreático;pepsina age no estômago em pH ácido (HCl),  suco pancreático tem tripsina,  enzima fervida é desnaturada e não digere;conteudo;media;D
+2024-1;44;Raciocínio Lógico;Problemas de contagem/organização;dedução de posições (zagueira e atacante) em escalação;dedução em grupos fixos: jogadoras que aparecem juntas em todas as partidas ocupam a mesma posição;interpretacao;media;B
+2024-1;45;Física;Energia, trabalho e potência;energia na deflexão máxima da corda elástica;no ponto de máxima deflexão v = 0 então Ec mínima e energia potencial elástica máxima;conteudo;media;D
+2024-1;46;Física;Cinemática;movimento circular e velocidade angular (fouetté);ω = Δθ/Δt grandeza do movimento rotacional,  força centrífuga não existe em referencial inercial;conteudo;facil;D
+2024-1;47;Matemática;Funções (1º e 2º grau);identificar função quadrática e intervalo de uma curva no gráfico;parábola y = a·x² + c: c = ordenada do vértice,  |a| define abertura,  domínio lido no gráfico;conteudo;media;A
+2024-1;48;Multidisciplinar;Brasil República (até 1930);História+Português: Guerra de Canudos e Euclides da Cunha;Canudos (1896-97) ocorreu na República,  Antônio Conselheiro,  Os Sertões (1902) de Euclides da Cunha;conteudo;media;E
+2024-1;49;Multidisciplinar;Cinemática;Física+História: alcance e tempo do projétil do canhão Matadeira;v = Δs/Δt (3800 m em 10 s = 380 m/s),  em 0,5 s alcança 190 m;conteudo;media;A
+2024-1;50;Geografia;Biomas e vegetação;Sertão semiárido e vegetação xeromórfica;Sertão: clima semiárido,  Caatinga com plantas xeromórficas (xerófitas) adaptadas à seca;conteudo;facil;E
+2024-1;51;Português;Coesão e conectivos;elementos que retomam informação anterior (coesão referencial);"pronomes oblíquos (o a nos) e expressões como ""por isso"" retomam termos ou ideias já ditos (anáfora)";conteudo;dificil;D
+2024-1;52;Português;Gramática – sintaxe;número de períodos e orações e classificação;"um período tem tantas orações quanto verbos ou locuções verbais,  oração coordenada aditiva = ""e""";conteudo;dificil;E
+2024-1;53;Português;Interpretação de texto;texto de Antonio Candido sobre literatura que organiza a mente;inferir: a leitura de literatura ajuda o indivíduo a organizar a realidade;interpretacao;media;B
+2024-1;54;Multidisciplinar;Semântica e figuras de linguagem;Português+Inglês: hipérbole na tirinha Calvin e Haroldo;hipérbole = exagero expressivo,  guardar o exagero para não gastá-lo no discurso;interpretacao;media;C
+2024-1;RED;Redação;narrativo ou dissertativo-argumentativo (à escolha);A importância da representatividade na Arte para a sociedade;;;;-
+2024-2;1;História;Outro: povoamento da América (pré-história);mapa das prováveis rotas de povoamento da América;ler mapa: povoamento por rotas terrestres (Estreito de Bering) e marítimas,  América Latina foi destino e origem de fluxos migratórios;interpretacao;media;B
+2024-2;2;Matemática;Análise combinatória e probabilidade;anagramas de nomes de países;permutação com repetição: n!/(a!·b!...),  só vale país da América Latina (México = 6! = 720);conteudo;media;D
+2024-2;3;Raciocínio Lógico;Lógica proposicional;diferença de conjuntos Y−X aplicada a países;Y−X = elementos de Y que não estão em X (idioma não espanhol e fora da América Latina);conteudo;media;E
+2024-2;4;Biologia;Zoologia;características exclusivas dos mamíferos;mamíferos: pelos glândulas mamárias e diafragma (coração de 4 cavidades e endotermia não são exclusivos);conteudo;facil;E
+2024-2;5;História;Século XX mundial (guerras Guerra Fria);Revolução Cubana e ditadura de Batista;Revolução Cubana (1959): oposição à ditadura de Fulgêncio Batista aliada aos EUA,  independência de Cuba em 1898;conteudo;facil;D
+2024-2;6;Física;Hidrostática;eclusas do Canal do Panamá;eclusas funcionam por vasos comunicantes (líquido atinge o mesmo nível em recipientes ligados);conteudo;media;C
+2024-2;7;Geografia;Globalização e geopolítica;Canal do Panamá e rotas marítimas;Canal do Panamá liga Atlântico e Pacífico e evita contornar a América do Sul (Cabo Horn no extremo sul);interpretacao;facil;E
+2024-2;8;Física;Cinemática;tempo de viagem com velocidade em nós;t = Δs/v com conversão de unidades (1 nó = 1,9 km/h: 19000 km / 38 km/h = 500 h ≈ 20 dias);conteudo;media;D
+2024-2;9;Multidisciplinar;Estatística e leitura de gráficos;Matemática+Geografia: média aritmética dos países da América do Sul na tabela;média = soma dos valores / quantidade,  separar países sul-americanos (Argentina Brasil Peru Suriname Uruguai Venezuela);conteudo;media;D
+2024-2;10;Matemática;Aritmética e porcentagem;variação percentual sucessiva do PIB;valor final = valor inicial × (1+i1) × (1+i2) para taxas sucessivas;conteudo;media;A
+2024-2;11;Multidisciplinar;Aritmética e porcentagem;Matemática+Geografia: maior variação percentual do crescimento do PIB;variação % = (final−inicial)/|inicial| ×100,  localizar países nos continentes (Haiti na América Central);conteudo;media;E
+2024-2;12;Geografia;Globalização e geopolítica;república de bananas e imperialismo dos EUA;república de bananas = país latino-americano monocultor dependente de empresas estrangeiras;interpretacao;facil;B
+2024-2;13;Inglês;Interpretação de texto;crescimento econômico da América Latina em 2023;cautious optimism e growth 2.2% acima do esperado (1.7%) mas abaixo da média global (3.2%);interpretacao;facil;D
+2024-2;14;Inglês;Conectivos;Despite indica contraste;Despite = apesar de (concessão contraste);conteudo;facil;B
+2024-2;15;Química;Propriedades da matéria e separação de misturas;mudança de estado do CO2 gás para líquido;gás para líquido = condensação (liquefação),  sublimação = sólido↔gás;conteudo;facil;A
+2024-2;16;Química;Estequiometria;balanceamento da síntese do metanol;CO2 + 3 H2 → CH3OH + H2O (conservar átomos de C H O);conteudo;facil;C
+2024-2;17;Química;Química ambiental;processo neutro em carbono;carbono neutro: o CO2 emitido na queima é o mesmo captado do ar na produção (reaproveitamento do carbono);interpretacao;media;D
+2024-2;18;Química;Estequiometria;massa de CO2 na queima de octano;1 mol C8H18 (114 g) produz 8 mol CO2 (8×44 = 352 g),  sintético emite 10% = 35,2 g;conteudo;media;D
+2024-2;19;Biologia;Ecologia;controle biológico de plantas daninhas;controle biológico = uso de organismos (fungos predadores) para reduzir pragas sem agrotóxico;conteudo;facil;E
+2024-2;20;Biologia;Bioquímica;funções das proteínas no organismo;imunoglobulinas (anticorpos) são proteínas de defesa,  hemoglobina transporta O2,  enzimas catalisam reações,  insulina regula glicemia;conteudo;media;D
+2024-2;21;Multidisciplinar;Cartografia;Matemática+Geografia: fusos horários e tempo de voo;Δt = Δs/v (9000 km / 900 km/h = 10 h),  diferença de fuso: 1 h por 15° (La Paz −7 e PNP −4: chegada 22h45);conteudo;dificil;E
+2024-2;22;Raciocínio Lógico;Problemas aritméticos (lógica);carros e ônibus em espaço público;divisão e proporção: 70/5 = 14 carros × 8 m² = 112 m² = 2 ônibus de 56 m²;conteudo;facil;C
+2024-2;23;Matemática;Funções (1º e 2º grau);aproximação linear da taxa de matrícula;função afim: valor no meio do intervalo = média dos extremos,  fração 193/500 = 38,6%;conteudo;media;C
+2024-2;24;Física;Energia, trabalho e potência;energia cinética da moto;Ec = m·v²/2 (200×250²/2 = 6,25×10^6 J);conteudo;facil;D
+2024-2;25;Biologia;Microbiologia e doenças;doença de Chagas;doença de Chagas = protozoose (Trypanosoma cruzi) transmitida por inseto hematófago (barbeiro);conteudo;facil;D
+2024-2;26;Português;Interpretação de texto;crítica de Galeano à mídia de massa;mídia de massa gera alheamento e difunde cultura hegemônica,  livros inacessíveis pelos preços;interpretacao;media;E
+2024-2;27;Português;Semântica e figuras de linguagem;o planeta é um vasto subúrbio de Dallas;metáfora = comparação implícita sem conectivo;conteudo;facil;A
+2024-2;28;Matemática;Geometria espacial;volume de 6000 grânulos cilíndricos;V = π·r²·h (π=3 r=0,5 mm h=1 mm),  1 mm³ = 10^-9 m³;conteudo;media;D
+2024-2;29;Multidisciplinar;Atomística e tabela periódica;Química+Física: equação nuclear de decaimento beta do cobalto-60;beta negativo: partícula 0/−1 β: Z aumenta 1 e A não muda (Co-60 → Ni-60 + β);conteudo;media;E
+2024-2;30;Raciocínio Lógico;Problemas aritméticos (lógica);meia-vida: 7300 dias de decaimento;meia-vida: restante = (1/2)^n,  7300 d = 20 anos = 4 meias-vidas (5 anos) restam 6,25% logo caiu 93,75%;conteudo;media;A
+2024-2;31;Geografia;Globalização e geopolítica;maquiladoras no norte do México;maquiladoras = fábricas estrangeiras (EUA) na fronteira com salário baixo que importam insumos e exportam produto final;conteudo;media;D
+2024-2;32;Biologia;Evolução;ideias de Darwin em Galápagos;Darwin = seleção natural (sobrevivência dos mais bem adaptados),  uso e desuso é Lamarck;conteudo;facil;D
+2024-2;33;Química;Equilíbrio químico;princípio de Le Chatelier na amônia;aumentar pressão desloca equilíbrio para o lado de menor volume gasoso (2 NH3 contra 4 mol dos produtos: favorece NH3);conteudo;media;E
+2024-2;34;Português;Coesão e conectivos;"referência de pronomes (""que"" ""o"" ""ele"")";"pronome relativo ""que"" retoma o antecedente imediato,  pronome oblíquo ""o"" retoma termo anterior";conteudo;dificil;E
+2024-2;35;Português;Interpretação de texto;mapa artístico de Torres-García e identidade latino-americana;falta de identidade artística própria levou artistas a buscar inspiração em sua cultura e espaço;interpretacao;media;D
+2024-2;36;Inglês;Interpretação de texto;identificação do gênero textual de um cartaz (imagem);interpretar gênero e finalidade de cartaz/convite (imagem);interpretacao;media;C
+2024-2;37;Geografia;Relevo e solos;terremotos e placas tectônicas;Placa de Nazca sob a Sul-americana forma Andes e terremotos no oeste da América do Sul;conteudo;media;A
+2024-2;38;Raciocínio Lógico;Lógica proposicional;condicionais sobre quem visita Cuba;A só se B = A→B,  contrapositiva: ¬B → ¬A (se Iracema não for Ceci não vai);conteudo;media;D
+2024-2;39;Física;Física moderna;campo de estudo da descoberta do méson pi;méson pi (píon) é partícula subatômica = Física de Partículas;conteudo;facil;A
+2024-2;40;Biologia;Ecologia;ameaças à biodiversidade;causas de extinção: desmatamento tráfico de animais retirada ilegal de madeira mudanças climáticas;conteudo;facil;E
+2024-2;41;História;Brasil contemporâneo (1945+);Itaipu durante regimes militares;Itaipu: projeto de 1966 a 1984 sob ditaduras do Brasil e do Paraguai (Tratado de Itaipu 1973);interpretacao;media;C
+2024-2;42;Física;Ondulatória;física do violão;frequência da corda depende de tensão e comprimento (f = (1/2L)·√(T/μ)),  caixa de ressonância amplifica;conteudo;media;B
+2024-2;43;Geografia;Globalização e geopolítica;disputa por Essequibo;Essequibo: território da Guiana reivindicado pela Venezuela;conteudo;media;D
+2024-2;44;Matemática;Análise combinatória e probabilidade;probabilidade de sortear dois países latino-americanos;P = C(6,2)/C(32,2) = 15/496 ≈ 3,02%;conteudo;media;C
+2024-2;45;História;Outro: independências da América Latina (séc. XIX);Libertadores da América (Bolívar San Martín);Libertadores (Bolívar San Martín) lideraram independência das colônias espanholas;conteudo;media;C
+2024-2;46;Multidisciplinar;Interpretação de texto;Inglês+Física: Sistema Métrico/Internacional e Imperial;Sistema Métrico = Sistema Internacional (SI),  Imperial usa pés e libras;interpretacao;facil;E
+2024-2;47;Multidisciplinar;Interpretação de texto;Inglês+Física: unidades fundamentais do SI;unidades SI: m kg s A K mol cd;conteudo;facil;C
+2024-2;48;Português;Interpretação de texto;tirinha sobre influência da cultura estrangeira (imagem);ler linguagem verbal e não verbal (imagem);interpretacao;media;B
+2024-2;49;Inglês;Interpretação de texto;cidade perdida na Amazônia (Upano);a sociedade pode ter sido destruída por um vulcão;interpretacao;facil;A
+2024-2;50;Inglês;Interpretação de texto;sociedades amazônicas conectadas por estradas e canais;descoberta mostra sociedades conectadas por estradas e canais;interpretacao;facil;E
+2024-2;51;Multidisciplinar;Interpretação de texto;Inglês+História: sociedades pré-colombianas complexas;América era povoada por sociedades com técnicas complexas antes de Colombo;interpretacao;facil;D
+2024-2;52;Raciocínio Lógico;Sequências e padrões;numeração quéchua (regra de multiplicação e adição);antes de chunca (10) = multiplica,  depois = soma,  39 = 3×10 + 9 = quimsa chunca iscun;interpretacao;media;A
+2024-2;53;Multidisciplinar;Interpretação de texto;Português+História: cultura quero e Bem-Viver;queros: vida comunitária respeito à natureza Pachamama Sumak Kausay;interpretacao;facil;C
+2024-2;54;História;Idade Moderna;crítica de Las Casas à conquista espanhola;colonização espanhola (encomienda repartimiento) marcada por violência contra nativos,  Bartolomeu de Las Casas;interpretacao;media;E
+2024-2;RED;Redação;narrativo ou dissertativo-argumentativo (à escolha);Como superar a permanente exploração da América Latina?;;;;-
+2025-2;1;Português;Interpretação de texto;comparação entre economia verde e extrativismo do babaçu;economia verde = baixo carbono + uso eficiente de recursos + inclusão social, e o extrativismo do babaçu se enquadra nesses princípios;interpretacao;facil;C
+2025-2;2;Português;Gramática – morfologia/classes;classificação de termos em negrito (conjunção conclusiva);portanto = conjunção conclusiva (= logo então);conteudo;media;E
+2025-2;3;Português;Coesão e conectivos;"pronome oblíquo ""la"" em ""restaurá-la""";pronome oblíquo retoma o termo mais próximo que complementa o verbo (restaurá-la = restaurar a natureza);conteudo;facil;E
+2025-2;4;Multidisciplinar;Lógica proposicional;Lógica+História: contraexemplo ao trecho de Primavera Silenciosa;contraexemplo = caso que refuta a afirmação geral (aqui: sociedade que sobreviveu sem degradar o ambiente como os Incas);conteudo;media;D
+2025-2;5;História;Agropecuária;Revolução Verde (1960-70);Revolução Verde = melhoramento genético mecanização adubos fertilizantes e agrotóxicos para aumentar a produção;conteudo;facil;D
+2025-2;6;Biologia;Ecologia;adubação verde e fixação biológica do nitrogênio;leguminosas com bactérias fixadoras aumentam o nitrogênio do solo e reduzem fertilizantes e poluição;interpretacao;facil;D
+2025-2;7;Biologia;Ecologia;simbiose Rhizobium e leguminosas;Rhizobium vive nos nódulos das raízes (mutualismo) converte N2 em compostos nitrogenados e recebe matéria orgânica da planta;conteudo;media;E
+2025-2;8;Geografia;Indústria e energia;bioeconomia e Proálcool;Proálcool (1975) = resposta à crise do petróleo incentivando o etanol como combustível;conteudo;media;C
+2025-2;9;Química;Estequiometria;equação de captura de CO2 por tecido com sabão;reagentes CO2 + H2O + C17H35COONa → C17H35COOH + NaHCO3 (balanceada e com fórmulas corretas);conteudo;media;C
+2025-2;10;Multidisciplinar;Estequiometria;Química+Matemática: massa de CO2 absorvida por camiseta e por árvore (imagem);massa = n × M (M CO2 = 44 g/mol) e nº de moléculas = n × 6×10^23 então razão árvore/camiseta (leitura da imagem);conteudo;media;E
+2025-2;11;História;Idade Média;rotação trienal de culturas;rotação trienal: parte do campo descansa (pousio) regenerando a fertilidade do solo;conteudo;media;A
+2025-2;12;Multidisciplinar;Química ambiental;Química+Biologia: origem do biogás;biogás (metano) vem da decomposição anaeróbica de matéria orgânica;conteudo;facil;A
+2025-2;13;Química;Estequiometria;comparar CO2 produzido na combustão de metano e octano;coeficientes da equação dão a proporção em mols (1 mol CH4 → 1 mol CO2 contra 1 mol C8H18 → 8 mol CO2);conteudo;media;D
+2025-2;14;Matemática;Funções (1º e 2º grau);potência do aerogerador P(v) = −5v²+160v−470 = 630;resolver equação do 2º grau (Bhaskara) e conferir domínio: v²−32v+220=0 então v=10;conteudo;media;C
+2025-2;15;Física;Energia, trabalho e potência;consumo de energia em MWh e kWh por habitante;prefixos k=10^3 M=10^6 (450 MWh / 50 kWh = 9000 pessoas);conteudo;media;A
+2025-2;16;Inglês;Gramática (outros);graus comparativos em manchete;"comparativo de superioridade ""bigger than"" e de igualdade ""as much ... as""";conteudo;media;A
+2025-2;17;Multidisciplinar;Eletrodinâmica;Física+Inglês: energia da bateria do celular em Wh;E = U · i · t (5 V × 3 Ah = 15 Wh);conteudo;media;C
+2025-2;18;Biologia;Microbiologia e doenças;cólera leptospirose e esquistossomose;esquistossomose = verme Schistosoma com larvas em caramujo aquático,  cólera e leptospirose = bacterianas;conteudo;media;D
+2025-2;19;Geografia;Meio ambiente e sustentabilidade;economia circular;economia circular = eliminar desperdício reutilizando reciclando e regenerando recursos;conteudo;facil;C
+2025-2;20;Multidisciplinar;Lógica proposicional;Matemática+Geografia: diagrama de Venn de economias sustentáveis;diagrama de Venn: A∩B∩C∩D = economia sustentável (interseção contida em cada conjunto);conteudo;media;E
+2025-2;21;Raciocínio Lógico;Problemas de contagem/organização;associação de estudantes a áreas por eliminação;montar tabela de associação e eliminar possibilidades pelas restrições;interpretacao;media;C
+2025-2;22;Multidisciplinar;Meio ambiente e sustentabilidade;Biologia+Geografia: aspectos positivos da cana-de-açúcar;aspecto positivo da cana: aproveitamento na produção de biogás/biocombustível;interpretacao;facil;E
+2025-2;23;História;Revoluções (Industrial/Francesa/Americana);trabalho assalariado na Revolução Industrial;Revolução Industrial: artesão perde os meios de produção vira assalariado e enfrenta longas jornadas;conteudo;facil;C
+2025-2;24;Geografia;Indústria e energia;aspectos negativos dos biocombustíveis;biocombustíveis podem competir com áreas de alimentos e elevar o preço da comida;interpretacao;media;B
+2025-2;25;Física;Eletrostática;movimento de íons em baterias;íons se movem por causa de campo elétrico gerado pela diferença de potencial;conteudo;media;D
+2025-2;26;História;Outro: História Ambiental (interpretação);definição de História Ambiental;História Ambiental: meio ambiente condiciona a experiência humana e ações passadas têm consequências ecológicas;interpretacao;facil;C
+2025-2;27;Inglês;Interpretação de texto;charge: ironia entre texto verbal e imagem (imagem);ironia = o texto verbal contradiz o não verbal (imagem);interpretacao;media;E
+2025-2;28;Raciocínio Lógico;Sequências e padrões;regra de formação de sequências de letras a partir de versos (regra exata não confirmada);achar a regra comum nas três sequências e aplicar ao quarto verso;interpretacao;media;A
+2025-2;29;Raciocínio Lógico;Sequências e padrões;código numérico de letras (A=00 B=01 ... Z=25);cifra por posição no alfabeto: A=0 então S=18 E=4 M=12 (00-03-20-11-19-14 = ADULTO no verso 11);interpretacao;media;D
+2025-2;30;Português;Gramática – morfologia/classes;classe de palavras em versos de Sementes;"que pronome relativo retoma antecedente (""coisa"") ou ""pra"" preposição = a fim de";conteudo;media;E
+2025-2;31;Multidisciplinar;Interpretação de texto;Inglês+Química: captura e armazenamento de carbono (CCS);CCS = capturar CO2 na fonte e armazená-lo no subsolo;interpretacao;facil;B
+2025-2;32;Multidisciplinar;Bioquímica;Biologia+Geografia: fontes de proteínas carboidratos e lipídios (gráfico);classificar alimentos por macronutriente: carnes e laticínios proteína e lipídio / cereais carboidrato (gráfico);conteudo;media;B
+2025-2;33;Matemática;Estatística e leitura de gráficos;gráfico de setor e porcentagem de uma massa total;parte = percentual × total (valor a partir do setor do gráfico);conteudo;media;A
+2025-2;34;Inglês;Interpretação de texto;três Es das comunidades sustentáveis;os três Es: economy ecology equity (harmonia entre seres vivos gestão de recursos e decisões justas);interpretacao;facil;D
+2025-2;35;Matemática;Análise combinatória e probabilidade;probabilidade de interseção de eventos;P(aderiu e não atingiu) = 0,6 × 0,2 = 12%;conteudo;facil;A
+2025-2;36;Matemática;Exponencial e logaritmo;crescimento exponencial de veículos elétricos;N(t) = 70·2^(t−2016) (2025 dá 70·2^9 = 35 840);conteudo;facil;D
+2025-2;37;Raciocínio Lógico;Lógica proposicional;conjuntos de alimentos de uma vegetariana;diferença de conjuntos: A − C = elementos de A que não estão em C;conteudo;facil;E
+2025-2;38;Geografia;Meio ambiente e sustentabilidade;valor econômico da Floresta Amazônica em pé;preservar a floresta vale mais que explorá-la (desmatar destrói riqueza e biodiversidade);interpretacao;facil;E
+2025-2;39;História;Brasil Império;café do Vale do Paraíba ao Oeste Paulista;fim do tráfico (1850) e esgotamento do solo levaram o café do Vale do Paraíba ao Oeste Paulista;conteudo;media;A
+2025-2;40;Química;Atomística e tabela periódica;platina e irídio na tabela periódica;Pt (grupo 10) e Ir (grupo 9) são metais de transição do mesmo período (6º);conteudo;media;B
+2025-2;41;Química;Cinética;gráfico de energia com e sem catalisador (imagem);catalisador diminui energia de ativação sem alterar ΔH (reação endotérmica: produtos acima dos reagentes);conteudo;media;B
+2025-2;42;Biologia;Microbiologia e doenças;soro antiofídico contra veneno;soro = anticorpos prontos (imunização passiva) e vacina = antígenos que estimulam produção de anticorpos;conteudo;media;D
+2025-2;43;Biologia;Ecologia;impacto da biopirataria;biopirataria reduz a biodiversidade e pode levar à extinção de espécies;conteudo;facil;B
+2025-2;44;Raciocínio Lógico;Interpretação de tabelas/gráficos;resultados de campeonato (V D E) em quadro;ler tabela de dupla entrada: V na linha = D na coluna oposta e E é simétrico;interpretacao;media;E
+2025-2;45;Matemática;Análise combinatória e probabilidade;probabilidade de ter vencido ao menos uma partida;P = casos favoráveis / total (4 de 5 jogadores = 0,8);conteudo;facil;B
+2025-2;46;Português;Interpretação de texto;canto das quebradeiras de coco babaçu;trabalho das mulheres na extração garante subsistência e matéria-prima para exportação;interpretacao;facil;D
+2025-2;47;Português;Gramática – sintaxe;identificar o sujeito da oração;"sujeito = termo com quem o verbo concorda (quem traz o fruto = ""A natureza"")";conteudo;facil;C
+2025-2;48;Português;Gramática – morfologia/classes;"imperativo afirmativo de ""ir"" na 2ª pessoa do plural";imperativo afirmativo vós de ir = ide;conteudo;media;C
+2025-2;49;Português;Semântica e figuras de linguagem;"personificação em ""A natureza traz o fruto""";personificação (prosopopeia) = atribuir ação humana a ser inanimado;conteudo;facil;E
+2025-2;50;Português;Funções da linguagem e gêneros;charge com crítica à crise climática (imagem);charge = humor crítico de fato atual (diferente de tirinha cartum e ilustração) (imagem);interpretacao;media;C
+2025-2;51;Português;Gramática – morfologia/classes;"prefixo ""des-"" (negação ou oposição)";des- indica negação (despreparado = não preparado e desabrigo = sem abrigo);conteudo;facil;D
+2025-2;52;Matemática;Funções (1º e 2º grau);valor de função composta por substituição f(2−x);substituir: 2−x = −1 dá x = 3 então f(−1) = 3·3² = 27;conteudo;facil;D
+2025-2;53;Matemática;Geometria espacial;volume do piscinão cilíndrico em litros;V = Ab × h = 200 000 × 5 = 10^6 m³ e 1 m³ = 1000 L;conteudo;media;E
+2025-2;54;Multidisciplinar;Século XX mundial (guerras Guerra Fria);História+Geografia: cartazes de reciclagem na Segunda Guerra;na Segunda Guerra os EUA estimularam reciclagem por falta de matérias-primas para armamentos (imagem);interpretacao;media;B
+2025-2;55;Química;Estequiometria;volume de CO2 pela equação dos gases;PV = nRT (R=0,082 atm·L/mol·K) com n = massa/44 g/mol;conteudo;dificil;E
+2025-2;56;Inglês;Vocabulário em contexto;significado de food miles;food miles = distância percorrida pelos alimentos até o consumidor;interpretacao;facil;D
+2025-2;57;Inglês;Interpretação de texto;objetivo de campanha sobre alimentos sazonais;campanha incentiva consumir alimentos da estação e locais para reduzir food miles;interpretacao;facil;A
+2025-2;58;Matemática;Progressões (PA/PG);três distâncias em progressão aritmética;termo central é a média dos extremos (6+x = (2+18)/2 = 10) então razão = 8;conteudo;facil;E
+2025-2;59;Matemática;Análise combinatória e probabilidade;permutações com repetição da palavra SEMENTES;permutação com repetição = n!/(a!·b!...) com E×3 e S×2 → 8!/(3!·2!);conteudo;media;B
+2025-2;60;Física;Termologia;calorimetria de telhado verde;Q = m·c·Δθ (75 MJ / (5000 kg × 1000) = 15 °C) então com telhado verde 10 °C;conteudo;media;D
+2025-2;61;Física;Óptica;revestimento antirreflexo em painel solar;menos reflexão significa mais luz transmitida e absorvida pelo semicondutor;conteudo;facil;A
+2025-2;62;Matemática;Geometria plana;áreas de retângulos e energia mensal;nº de placas = área do telhado / área da placa (40/2 = 20) × 1,2 kWh × 30 dias = 720 kWh;conteudo;facil;E
+2025-2;63;Física;Cinemática;leitura de dois gráficos de consumo e velocidade e massa de CO2 (imagem);massa de CO2 = litros consumidos × 2 kg/L com litros = distância / (km/L) (leitura de gráficos);interpretacao;media;C
+2025-2;64;Geografia;Meio ambiente e sustentabilidade;crédito de carbono;crédito de carbono vem de ações que reduzem ou removem emissões (energia limpa e renovável);conteudo;facil;E
+2025-2;RED;Redação;narrativo ou dissertativo-argumentativo (à escolha);Como a tecnologia pode afetar o desenvolvimento de uma economia sustentável?;;;;-
+2026-1;1;Biologia;Genética;sistema ABO e compatibilidade em transfusão;grupo AB tem antígenos A e B e nenhum anticorpo (receptor universal) e só doa para AB,  O não tem antígenos (doador universal);conteudo;media;C
+2026-1;2;Biologia;Botânica;ponto de compensação fótico (fotossíntese x respiração);abaixo do PCF a respiração consome mais matéria orgânica do que a fotossíntese produz e a planta morre após esgotar as reservas;conteudo;media;A
+2026-1;3;Biologia;Genética;análise de heredograma;pais normais com filho afetado são heterozigotos (Aa) e a anomalia é recessiva (imagem);conteudo;media;B
+2026-1;4;Biologia;Microbiologia e doenças;verminoses de transmissão fecal-oral;ascaridíase (Ascaris) é transmitida por ovos ingeridos (fecal-oral),  esquistossomose por larva em água (caramujo),  teníase por carne mal cozida;conteudo;media;C
+2026-1;5;Biologia;Zoologia;animais peçonhentos;escorpião inocula veneno pelo ferrão (télson) na cauda,  aracnídeos e insetos têm exoesqueleto de quitina e serpentes não;conteudo;facil;E
+2026-1;6;Multidisciplinar;Biotecnologia;Biologia+Química: insulina por DNA recombinante em bactérias;DNA recombinante: gene humano inserido em bactéria (unicelular) produz insulina idêntica à humana;conteudo;media;C
+2026-1;7;Física;Eletrodinâmica;placa de dados de aparelho elétrico;P = U · i (1270 W / 127 V = 10 A);conteudo;facil;A
+2026-1;8;Física;Dinâmica (leis de Newton);atrito pneu-pista (grooving);ranhuras drenam a água e aumentam o atrito entre pneu e piso evitando hidroplanagem;interpretacao;facil;A
+2026-1;9;Física;Ondulatória;leitor óptico de código de barras;luz é onda eletromagnética transversal,  barras brancas refletem e pretas absorvem;conteudo;media;E
+2026-1;10;Física;Ondulatória;equação fundamental c = λ·f e ordem de grandeza;f = c/λ = 3×10^8 / 10^-6 = 3×10^14 Hz então ordem de grandeza 10^14;conteudo;media;B
+2026-1;11;Física;Cinemática;lançamento do cubo de açúcar (trajetória parabólica);lançamento oblíquo sem resistência do ar descreve parábola (v horizontal constante e vertical com g);conteudo;media;E
+2026-1;12;Multidisciplinar;Magnetismo;Física+Química: ímã de neodímio-ferro-boro;fora do ímã as linhas de campo saem do polo norte e vão ao sul,  todo ímã tem dois polos (sem monopolo);conteudo;media;D
+2026-1;13;Geografia;Século XX mundial (guerras Guerra Fria);Guerra Fria: Plano Marshall;Plano Marshall = ajuda econômica dos EUA à Europa ocidental,  OTAN (capitalista) contra Pacto de Varsóvia (socialista);conteudo;media;C
+2026-1;14;Geografia;Relevo e solos;intemperismo físico e químico por clima;intemperismo físico predomina em climas áridos com grande amplitude térmica (Sahel) e químico em climas quentes e úmidos;conteudo;media;B
+2026-1;15;Geografia;Clima;tipos de chuva;chuva orográfica = ar úmido forçado a subir o relevo,  convectiva = aquecimento,  frontal = encontro de massas de ar;conteudo;facil;E
+2026-1;16;Geografia;População e urbanização;favelas e direito à cidade;favelas resultam da insuficiência de políticas habitacionais e de investimento para moradia popular;interpretacao;facil;E
+2026-1;17;Geografia;População e urbanização;crescimento populacional brasileiro e fecundidade;crescimento de 0,39% ao ano = ritmo cada vez mais lento porque a taxa de fecundidade cai (transição demográfica);conteudo;media;B
+2026-1;18;Multidisciplinar;Meio ambiente e sustentabilidade;Geografia+Biologia: negacionismo climático e evidências;evidência científica: temperatura média global aumenta e a última década foi a mais quente por emissões antrópicas;conteudo;facil;B
+2026-1;19;Multidisciplinar;Antiguidade;História+Geografia+Matemática: Eratóstenes e a esfericidade da Terra;período helenístico (Alexandre) e Eratóstenes calculou a circunferência da Terra com sombras e geometria (Terra esférica);conteudo;media;E
+2026-1;20;História;Revoluções (Industrial/Francesa/Americana);Watt e o condensador na Revolução Industrial;James Watt: condensador separado aumentou a eficiência da máquina a vapor e impulsionou a Revolução Industrial;conteudo;facil;D
+2026-1;21;História;Outro: Belle Époque (final do séc. XIX e início do XX);inovações tecnológicas da Belle Époque;Belle Époque: lâmpada elétrica telefone gramofone automóvel beneficiaram sobretudo as elites urbanas;conteudo;facil;B
+2026-1;22;História;Século XX mundial (guerras Guerra Fria);guerras por procuração e tecnologia militar;Guerra Fria: EUA e URSS não lutaram diretamente e testaram armas fornecidas a aliados (Vietnã Coreia Afeganistão);conteudo;media;A
+2026-1;23;História;Agropecuária;coivara (agricultura indígena de queimada);coivara = derrubada queima e policultivo com abandono e regeneração da floresta e baixo impacto;interpretacao;facil;C
+2026-1;24;História;Era Vargas;industrialização estatal de Vargas;Vargas criou CSN e Conselho Nacional do Petróleo e CNPq: substituição de importações e Estado planejador;conteudo;facil;E
+2026-1;25;Inglês;Interpretação de texto;quadrinho dos pepinos em piscina;osmose: em meio salgado (hipertônico) a célula perde água e fica desidratada;interpretacao;media;C
+2026-1;26;Inglês;Gramática (outros);verbo modal must como dedução;must expressa dedução (certeza lógica) ou obrigação conforme o contexto;conteudo;media;A
+2026-1;27;Inglês;Interpretação de texto;tirinha sobre independência da mulher (imagem);inferir o que a personagem entende por mulher (independent creative strong fearless);interpretacao;facil;B
+2026-1;28;Multidisciplinar;Interpretação de texto;Inglês+Política: urna eletrônica brasileira como vanguarda;forefront = vanguarda,  Brasil foi o primeiro país com eleição totalmente eletrônica (2000);interpretacao;facil;D
+2026-1;29;Inglês;Vocabulário em contexto;expressão in fact;in fact = na verdade (reforça ou contrasta com a frase anterior);conteudo;facil;E
+2026-1;30;Inglês;Interpretação de texto;canção Rocket Man (1972);Rocket Man (Elton John) trata do astronauta e da exploração espacial;conteudo;facil;D
+2026-1;31;Matemática;Análise combinatória e probabilidade;placas Mercosul só com vogais;princípio multiplicativo: 5 vogais para cada uma das 4 letras e 10 dígitos para cada um dos 3 números (5^4 × 10^3);conteudo;facil;D
+2026-1;32;Matemática;Geometria plana;comprimento da roda-gigante;C = 2·π·r = π·d (d=80 m dá 80π);conteudo;facil;A
+2026-1;33;Matemática;Trigonometria;função senoidal da altura da cabine (fórmula não visível no texto);máximo da função seno = termo constante + amplitude e período dá o instante do máximo;conteudo;media;B
+2026-1;34;Matemática;Exponencial e logaritmo;cálculo de pH com log 2 = 0,3;pH = −log[H+] e log(a·10^n) = log a + n (pH = 7 − 0,3 = 6,7);conteudo;media;C
+2026-1;35;Matemática;Progressões (PA/PG);cabos instalados por ano em PA;termo geral da PA: an = a1 + (n−1)·r (50 + 9×15 = 185);conteudo;facil;C
+2026-1;36;Matemática;Exponencial e logaritmo;crescimento bacteriano com tempo de geração g;população dobra a cada g minutos: N = N0·2^(t/g) (8000 = 1000×2^3 e 45/g = 3 então g = 15);conteudo;media;A
+2026-1;37;Matemática;Matrizes e sistemas lineares;multiplicação de matriz por escalar;multiplicar escalar por matriz multiplica cada elemento (elemento a23 vezes k);conteudo;facil;E
+2026-1;38;Matemática;Trigonometria;altura do drone com seno;seno = cateto oposto / hipotenusa (h = 20 × 0,8 = 16 km);conteudo;facil;D
+2026-1;39;Multidisciplinar;Aritmética e porcentagem;Matemática+Inglês: notação científica da distância a estrela mais próxima;multiplicar potências de 10 (7000 × 5,9×10^9 km ≈ 4,1×10^13 km);conteudo;media;E
+2026-1;40;Química;Propriedades da matéria e separação de misturas;remoção de nanoplásticos com ímã;separação magnética = usa ímã para remover material magnético da mistura;conteudo;facil;E
+2026-1;41;Química;Estequiometria;porcentagem em massa de carbono em composto fluorado (PFAS);% em massa = (nº de átomos × massa atômica / massa molar) × 100;conteudo;media;B
+2026-1;42;Química;Cinética;meia-vida do PFOA;meia-vida: restante = inicial/2^n (200 mg → 12,5 mg = 4 meias-vidas em 12 anos então 3 anos);conteudo;media;C
+2026-1;43;Multidisciplinar;Ligações químicas;Química+Biologia: NaCl e KCl;metal + ametal forma ligação iônica,  macronutrientes são carboidratos proteínas e lipídios (sais minerais não);conteudo;facil;D
+2026-1;44;Química;Química orgânica;função álcool e fórmula molecular do ácido tereftálico;etano-1,2-diol tem 2 grupos OH ligados a carbono saturado = álcool,  ácido tereftálico C8H6O4;conteudo;media;C
+2026-1;45;Química;Eletroquímica;bateria de íons lítio;elétrons vão do polo negativo para o positivo pelo circuito externo e cátions Li+ fluem pelo eletrólito para o cátodo;conteudo;media;D
+2026-1;46;Raciocínio Lógico;Problemas aritméticos (lógica);repetição de temas musicais em canção de 30 minutos;nº de repetições = duração total / duração do trecho (30 min = 1800 s dividido por duração Tema 2 + Tema 3);interpretacao;media;A
+2026-1;47;Raciocínio Lógico;Interpretação de tabelas/gráficos;ordem de complexidade dos blocos musicais (infográfico);hierarquia: unidade → frase → tema → música;interpretacao;facil;D
+2026-1;48;Raciocínio Lógico;Sequências e padrões;posição em sequência periódica (ano do LP: 1970);posição em sequência que se repete = resto da divisão da posição pelo tamanho do período;interpretacao;media;C
+2026-1;49;Raciocínio Lógico;Problemas aritméticos (lógica);igualar doses entre quatro hospitais;média = soma / 4 (2320/4 = 580) então A perde 270 e cada outro ganha 580 − (530 490 450);conteudo;media;A
+2026-1;50;Raciocínio Lógico;Lógica proposicional;"silogismo com ""todas"" e ""não""";conjuntos disjuntos: pesquisadoras e não pesquisadoras nunca têm intersecção então nenhuma filha de Alfredo é filha de Rose;conteudo;media;E
+2026-1;51;Multidisciplinar;Problemas de contagem/organização;Lógica+História+Geografia: associar inventores a feitos por eliminação;eliminação lógica: Lake submarinos / Tsiolkovsky astronáutica e foguetes / Santos Dumont (Brasil Hemisfério Sul) aviação;conteudo;media;E
+2026-1;52;Português;Interpretação de texto;tirinha com comparação sobre disseminação de informações falsas (imagem);interpretar a comparação da tirinha (como fake news se espalham);interpretacao;media;E
+2026-1;53;Português;Interpretação de texto;provérbio que expressa a ideia da tirinha (imagem);"relacionar provérbio ao sentido da tirinha (aparência x essência: ""Cara de mel coração de fel"")";interpretacao;media;A
+2026-1;54;Português;Semântica e figuras de linguagem;ironia em meme sobre plantas;"ironia = dizer o contrário do que se pensa (""é uma pena que elas apenas dão o oxigênio..."")";conteudo;facil;A
+2026-1;55;Português;Funções da linguagem e gêneros;finalidade de um meme (imagem);meme com humor e função de conscientizar sobre tema social;interpretacao;facil;A
+2026-1;56;Português;Interpretação de texto;pesquisa Noções sobre a Ciência (vacinas e autismo);baixo letramento científico favorece circulação de fake news;interpretacao;media;D
+2026-1;57;Português;Coesão e conectivos;"visando equivale a ""a fim de que""";"visando = valor de finalidade = ""a fim de que"" (oração final)";conteudo;media;B
+2026-1;58;Multidisciplinar;Estatística e leitura de gráficos;Geografia+Português: gráficos de professores com pós-graduação e empregos em tecnologia;ler gráfico por regiões: Sudeste concentra empregos de alta tecnologia e alto nível de docentes;interpretacao;media;D
+2026-1;59;Português;Interpretação de texto;objetivo de texto sobre deep techs;texto expositivo-informativo que define o conceito de um novo tipo de empresa;interpretacao;facil;A
+2026-1;60;Português;Interpretação de texto;ideia central das deep techs;deep techs = empresas que usam conhecimento científico para resolver problemas complexos;interpretacao;facil;B
+2026-1;RED;Redação;narrativo ou dissertativo-argumentativo (à escolha);Como utilizar a tecnologia para combater a desinformação e disseminar o conhecimento científico?;;;;-
+2026-2;1;Biologia;Citologia;respiração aeróbica e fermentação lática;sem O2 as fibras musculares fazem fermentação lática (glicose → lactato com saldo menor de ATP que o aeróbico);conteudo;media;D
+2026-2;2;Biologia;Microbiologia e doenças;prevenção da tuberculose;tuberculose é bacteriana (Mycobacterium tuberculosis) e transmitida por gotículas pelo ar (máscara);conteudo;facil;C
+2026-2;3;Biologia;Fisiologia humana;eritropoietina e hemácias;EPO estimula a produção de hemácias e a falta dela reduz o transporte de O2 causando fadiga e intolerância ao esforço;conteudo;facil;B
+2026-2;4;Biologia;Ecologia;saneamento básico e fossas sépticas;saneamento: fossa séptica e banheiro seco usam processos biológicos (biodigestão compostagem) e despejo de esgoto causa eutrofização e doenças;interpretacao;media;E
+2026-2;5;Biologia;Ecologia;espécie exótica invasora (javali);espécie exótica invasora sem predadores naturais tem alta taxa reprodutiva e adaptabilidade e causa desequilíbrio;conteudo;facil;E
+2026-2;6;Multidisciplinar;Bioquímica;Biologia+Matemática: valor energético de proteína carboidrato e lipídio;proteína e carboidrato = 4 kcal/g e lipídio = 9 kcal/g (energia = soma massa × kcal/g por item da tabela);conteudo;media;C
+2026-2;7;Matemática;Estatística e leitura de gráficos;leitura de gráfico de radar de dois personagens;gráfico de radar: cada eixo é uma habilidade e valor maior = ponto mais afastado do centro;interpretacao;facil;D
+2026-2;8;Matemática;Análise combinatória e probabilidade;probabilidade de habilidade menor ou igual a 3 (12 valores);P = casos favoráveis / total de casos (contar valores ≤ 3 em 12 habilidades);interpretacao;facil;B
+2026-2;9;Matemática;Estatística e leitura de gráficos;média aritmética das habilidades do personagem 1;média = soma dos valores / nº de valores (6 habilidades) e identificar o intervalo real;conteudo;facil;D
+2026-2;10;Matemática;Geometria plana;área de polígono do gráfico de radar com 6 eixos;A = ½·l1·l2·sen θ (6 eixos dão ângulo central 60° e sen 60° = √3/2 ≈ 0,85) somando os 6 triângulos;conteudo;dificil;A
+2026-2;11;Matemática;Geometria espacial;tetraedro regular e bola Trionda;ao curvar os lados o nº de painéis/faces (4) é preservado mas ângulos comprimentos e planicidade mudam;interpretacao;media;E
+2026-2;12;Matemática;Geometria espacial;volume da esfera a partir da circunferência;C = 2πr (r = 69/6 = 11,5 cm) e V = (4/3)·π·r³ (π=3) = 4r³ ≈ 6084 cm³;conteudo;media;B
+2026-2;13;Matemática;Aritmética e porcentagem;percentual entre dois preços;porcentagem = parte/todo × 100 (100/1300 ≈ 7,7% ≈ 8%);conteudo;facil;B
+2026-2;14;Matemática;Funções (1º e 2º grau);função quadrática a partir de pontos da tabela;A(t) = a·t² + b·t (A(0)=0) e substituir (1 8) e (5 20) para achar a=−1 b=9;conteudo;media;A
+2026-2;15;Multidisciplinar;Microbiologia e doenças;Biologia+Matemática: sarampo (vírus) e limiar de imunidade de rebanho;sarampo é viral,  p = (1 − 1/R0)×100% (R0=12 dá 91,7%);conteudo;media;D
+2026-2;16;Geografia;Brasil República (até 1930);Palestra Itália e inclusão de torcedores e atletas negros;imigração italiana em SP e clube aberto à sociedade (interpretação do relato);interpretacao;facil;E
+2026-2;17;Geografia;Globalização e geopolítica;tensão Sérvia e Albânia (Kosovo);Kosovo: maioria albanesa declarou independência da Sérvia em 2008 (Bálcãs);conteudo;media;B
+2026-2;18;Geografia;História de SP/regional;ferrovias paulistas e a expansão do café;ferrovias paulistas ligaram as áreas cafeeiras ao porto de Santos;conteudo;facil;D
+2026-2;19;Geografia;População e urbanização;impermeabilização do solo urbano e enchentes;impermeabilização reduz a infiltração e aumenta o escoamento superficial = mais enchentes;conteudo;facil;C
+2026-2;20;Geografia;Cartografia;hemisférios e linha do Equador;Equador separa hemisfério Norte (setentrional ou boreal) e Sul (meridional ou austral);conteudo;facil;A
+2026-2;21;Multidisciplinar;Cartografia;Geografia+Matemática: fuso horário entre Acre (UTC−5) e São Paulo (UTC−3);quem está a leste tem horas adiantadas (UTC−3 está 2 h à frente de UTC−5) então 19h no Acre = 21h em SP;conteudo;facil;D
+2026-2;22;Química;Funções inorgânicas;classificação do óxido nítrico (NO);óxido neutro (NO CO N2O) não reage com água ácidos nem bases;conteudo;media;D
+2026-2;23;Química;Química orgânica;grupo funcional comum à adrenalina e à dopamina;hidroxila (OH) ligada a anel aromático = função fenol;conteudo;media;B
+2026-2;24;Química;Atomística e tabela periódica;teste de chama e cores de fogos de artifício;teste de chama: K+ lilás Cu2+ verde Na+ amarelo Sr2+ vermelho Ca2+ laranja (elétrons excitados emitem luz ao voltar);interpretacao;facil;B
+2026-2;25;Química;Soluções;concentração comum em g/L e volume;C = m/V então V = m/C (0,042 g / 0,140 g/L = 0,3 L = 300 mL);conteudo;facil;C
+2026-2;26;Química;Ligações químicas;polaridade e absorção de água em tecidos;algodão (celulose polar com OH) absorve e retém água e poliéster dry fit é pouco polar;conteudo;media;B
+2026-2;27;Multidisciplinar;Termologia;Física+Biologia: sudorese e evaporação em ar úmido;evaporação (retira calor) é dificultada por alta umidade e alta pressão parcial de vapor de água;conteudo;media;C
+2026-2;28;Inglês;Vocabulário em contexto;mascote Zayu o jaguar;ingenuity = engenhosidade e criatividade (falso cognato de ingenuidade) agility = agilidade strength = força;conteudo;media;B
+2026-2;29;Inglês;Gramática (outros);"like em ""play like a girl""";like como preposição = como (comparação);conteudo;facil;C
+2026-2;30;Inglês;Interpretação de texto;charge sobre jogadoras dos EUA (imagem);"ressignificação da frase ""play like a girl"" como elogio (imagem)";interpretacao;media;D
+2026-2;31;Inglês;Interpretação de texto;Sociologia do Futebol;Sociologia do Futebol estuda dinâmicas sociais e culturais em torno do futebol;interpretacao;facil;D
+2026-2;32;Inglês;Referência pronominal;"it e ""its""";pronome refere-se ao substantivo mais próximo anterior (it = the Sociology of Football e its = football);conteudo;media;E
+2026-2;33;Multidisciplinar;Interpretação de texto;Inglês+História: resenha da série The English Game;identificar a opinião do autor (resenha positiva: telling a class war story in a sensitive and realistic manner);interpretacao;media;A
+2026-2;34;Física;Dinâmica (leis de Newton);resistência do ar em grande altitude;ar rarefeito (menos denso) em altitude gera menor resistência do ar (arrasto) e a bola parece mais rápida;conteudo;media;C
+2026-2;35;Física;Cinemática;lançamento oblíquo do tiro de meta;lançamento oblíquo: vx constante (96 m / 6 s = 16 m/s) e no ponto mais alto vy = 0;conteudo;media;E
+2026-2;36;Física;Magnetismo;indução eletromagnética no GoalRef;lei de Faraday: ε = −ΔΦ/Δt (força eletromotriz induzida por variação do fluxo);conteudo;media;A
+2026-2;37;Física;Ondulatória;período de disparo das câmeras (500 quadros/s);T = 1/f (1/500 = 2,0×10^-3 s);conteudo;facil;D
+2026-2;38;Física;Termologia;pressão de bola aquecida a volume constante;transformação isovolumétrica P/T = constante com T em kelvin (0,9×330/300 ≈ 0,99 atm);conteudo;media;C
+2026-2;39;Multidisciplinar;Energia, trabalho e potência;Física+Inglês: trabalho do pé na bola pelo teorema trabalho-energia;W = ΔEc = ½·m·v² (0,5 × 0,42 × 31² ≈ 202 J);conteudo;media;B
+2026-2;40;História;Antiguidade;jogos de bola em Egito e China antigos;jogos coletivos desenvolveram regras cooperação e habilidades sociais e cognitivas (interpretação);interpretacao;facil;D
+2026-2;41;História;Antiguidade;epískyros grego e harpastum romano;gregos: jogo de cooperação e condicionamento e romanos: utilidade militar e violência (comparar textos);interpretacao;media;E
+2026-2;42;História;Outro: civilizações pré-colombianas (astecas e maias);jogo de bola mesoamericano e sacrifícios;astecas: jogo simbolizava batalha do Sol (Huitzilopochtli) e das forças noturnas e sacrifício mantinha o Sol;interpretacao;media;B
+2026-2;43;História;Brasil contemporâneo (1945+);Reinaldo e a ditadura civil-militar;ditadura civil-militar (1964-85) censura e repressão e Copa de 1978 (ditadura Videla na Argentina);conteudo;facil;C
+2026-2;44;História;Era Vargas;Estado Novo e a Copa de 1938;Estado Novo: propaganda política e mito da democracia racial (Gilberto Freyre) contrastam com racismo contra jogadores negros;interpretacao;media;D
+2026-2;45;Multidisciplinar;Globalização e geopolítica;Geografia+Inglês: migração de jogadores e divisão internacional do trabalho;divisão internacional do trabalho: periferia fornece mão de obra e recursos barato e centro lucra e a migração de atletas africanos repete esse padrão;conteudo;media;A
+2026-2;46;Raciocínio Lógico;Raciocínio espacial;rotação de 90° da imagem da bola Trionda (imagem);rotação de 90° no sentido horário gira cada elemento um quarto de volta em torno do ponto P;interpretacao;media;D
+2026-2;47;Raciocínio Lógico;Sequências e padrões;"posição 1985 em repetição de ""ALLEZ""";sequência periódica: posição = resto da divisão por 5 (1985 = múltiplo de 5 então última letra Z);conteudo;facil;D
+2026-2;48;Raciocínio Lógico;Outro: analogia entre palavras;surfe está para prancha como futebol está para bola;analogia: identificar relação (esporte e seu instrumento principal);interpretacao;facil;B
+2026-2;49;Raciocínio Lógico;Problemas de contagem/organização;contar infrações às regras de uniformes;verificar cada regra contra cada dado da situação e contar violações;interpretacao;media;C
+2026-2;50;Raciocínio Lógico;Lógica proposicional;superstições de torcedores (ou exclusivo bicondicional e condicional);"ou...ou é disjunção exclusiva (só um verdadeiro) ""se e somente se"" = bicondicional e ""se P então Q"" = condicional";conteudo;media;A
+2026-2;51;Multidisciplinar;Cartografia;Geografia+Inglês: direções da rosa dos ventos entre estádios;pontos cardeais colaterais e subcolaterais (SW SSW...) determinados pela posição relativa no mapa (imagem);interpretacao;media;E
+2026-2;52;Português;Semântica e figuras de linguagem;sinônimos de advérbios e verbos do texto;sinonímia: pouco a pouco = progressivamente deliberadamente = intencionalmente provavelmente = talvez;conteudo;media;E
+2026-2;53;Português;Interpretação de texto;futebolês na linguagem cotidiana;futebolês dialoga com várias áreas e se incorpora à linguagem coloquial;interpretacao;facil;A
+2026-2;54;Português;Semântica e figuras de linguagem;"provérbio equivalente a ""bola pra frente""";"bola pra frente = seguir adiante sem remoer o passado = ""Águas passadas não movem moinhos""";conteudo;media;C
+2026-2;55;Português;Interpretação de texto;charge com cartão vermelho contra machismo (imagem);cartão vermelho = recusa/expulsão do preconceito (imagem);interpretacao;media;A
+2026-2;56;Português;Interpretação de texto;poema O Anjo das Pernas Tortas (Vinicius de Moraes);"anjo = Garrincha e ""G"" que chuta um ""o"" dentro do ""l"" = imagem visual do gol (poesia concreta/imagem)";interpretacao;media;C
+2026-2;57;Português;Gramática – morfologia/classes;tempo verbal no poema;presente do indicativo com valor de narração (presente histórico) aproxima as ações do leitor;conteudo;media;B
+2026-2;58;Português;Interpretação de texto;comparação de manchetes sobre falas sexistas;comparar foco informativo de manchetes (o que cada uma destaca: o preconceito ou a punição);interpretacao;media;C
+2026-2;59;Português;Gramática – sintaxe;reescrita de manchete preservando sentido;paráfrase preservando sentido: agente e paciente (quem pratica e quem sofre) e voz ativa e passiva;conteudo;media;B
+2026-2;60;Multidisciplinar;Fisiologia humana;Biologia+Geografia: mal da montanha e altitude;menor pressão atmosférica em altitude reduz O2 no sangue e aclimatação ameniza e sentem mais quem tem maior diferença de altitude;conteudo;media;D
+2026-2;RED;Redação;narrativo ou dissertativo-argumentativo (à escolha);Qual deve ser o papel do futebol no enfrentamento dos preconceitos sociais?;;;;-

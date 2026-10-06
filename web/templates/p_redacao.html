@@ -1,0 +1,31 @@
+{{define "conteudo"}}<div class="read" id="redacao" data-prova="{{.P.ID}}">
+<a class="btn ghost small" href="/redacao">← Redação</a>
+<p class="eyebrow gap-top">Fatec {{nomeProva .P.ID}}</p>
+<h1>{{.P.TemaRed}}</h1>
+<details open><summary class="disp sumlink">Proposta e coletânea (como na prova)</summary>
+{{if .Imgs}}<div class="sheet" data-zoom>{{range .Imgs}}<img src="{{.}}" alt="Proposta de redação" loading="lazy">{{end}}</div>{{else}}<p class="muted">Proposta não disponível para esta prova.</p>{{end}}
+</details>
+<form method="post" action="/redacao.pdf" id="red-form">
+  <input type="hidden" name="prova" value="{{.P.ID}}">
+  <label class="lbl" for="rt">Título</label><input type="text" id="rt" name="titulo" autocomplete="off">
+  <label class="lbl" for="rx">Texto</label>
+  <textarea id="rx" name="texto" spellcheck="false" autocorrect="off" autocapitalize="off" placeholder="Digite aqui o texto que você escreveu no papel, do jeito que está, sem corrigir nada."></textarea>
+  <p class="small muted disp" id="rc"></p>
+  <p class="small muted">Corretor ortográfico desligado de propósito: transcreva exatamente o que escreveu, com os erros, para a correção ser fiel. O texto fica salvo neste navegador.</p>
+  <div class="panel gap-top">
+    <h3 class="mt0">Correção com a IA que você quiser</h3>
+    <ol class="small">
+      <li>Baixe a folha de redação em PDF.</li>
+      <li>Copie o prompt abaixo.</li>
+      <li>Abra a IA de sua preferência, cole o prompt e anexe o PDF.</li>
+    </ol>
+    <div class="row"><button class="btn primary" type="submit" id="red-pdf">Baixar folha de redação (PDF)</button><button class="btn ghost" type="button" data-copy="#prompt-red">Copiar prompt</button></div>
+    <textarea id="prompt-red" class="prompt" readonly rows="8">{{.Prompt}}</textarea>
+  </div>
+</form>
+<div class="panel gap-top">
+  <h3 class="mt0">Registrar a nota que a IA deu</h3>
+  <p class="small muted">Opcional: guarde a nota para acompanhar sua evolução no Desempenho.</p>
+  <div class="row"><label class="small disp" for="red-nota">Nota (0 a 100)</label><input type="number" id="red-nota" min="0" max="100" step="1" class="num"><button class="btn" id="red-salvar-nota" type="button">Salvar nota</button><span class="small muted" id="red-nota-msg"></span></div>
+</div>
+</div>{{end}}

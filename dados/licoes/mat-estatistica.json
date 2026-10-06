@@ -1,0 +1,178 @@
+{
+ "id": "mat-estatistica",
+ "disciplina": "Matemática",
+ "tema": "Estatística e leitura de gráficos",
+ "titulo": "Estatística e leitura de gráficos",
+ "semana": 1,
+ "minutos": 30,
+ "por_que": "Estatística e gráficos caíram em 18 questões nas 15 provas: média, moda e mediana (a trinca clássica), desvio padrão e muita leitura de gráfico de barras, setores e tabela. Boa parte é interpretação: o gráfico já traz o dado, você só precisa ler direito.",
+ "secoes": [
+  {
+   "titulo": "1. Média, moda e mediana: o que cada uma diz",
+   "texto": "Todas resumem um conjunto de dados em um número, mas de jeitos diferentes:\n\n- **Média**: soma de todos ÷ quantidade. É o valor que \"dividiria igualmente\" o total.\n- **Moda**: o valor que **mais aparece**. Pode ter mais de uma, ou nenhuma.\n- **Mediana**: o valor do **meio** dos dados **ordenados**. Se a quantidade é par, é a média dos dois do meio.\n\nExemplo: gastos semanais 120, 150, 90, 150, 140.\n\n- Média = (120 + 150 + 90 + 150 + 140) ÷ 5 = 650 ÷ 5 = 130.\n- Moda = 150 (aparece duas vezes).\n- Mediana: ordene → 90, 120, **140**, 150, 150 → 140.\n\nO erro número 1 é esquecer de **ordenar** antes de pegar o do meio."
+  },
+  {
+   "titulo": "2. Mediana com quantidade par",
+   "texto": "Com 6 dados (3, 8, 5, 12, 9, 7): ordene → 3, 5, **7, 8**, 9, 12. Os dois do meio são 7 e 8, e a mediana é (7 + 8) ÷ 2 = **7,5**. Não precisa ser um valor que existe no conjunto.\n\nNa prova de 2024/1 (visitantes do Louvre), são 16 anos de dados. A mediana é a média do 8º e 9º valores ordenados. Os dois são 8,5, então a mediana é 8,5.\n\nComo achar a posição do meio: com n dados, a mediana está na posição (n + 1) ÷ 2. Para n = 5 é a 3ª; para n = 16 é a 8,5ª, ou seja, entre a 8ª e a 9ª."
+  },
+  {
+   "titulo": "3. Média que falta e média de média",
+   "texto": "A média tem uma propriedade útil: **soma = média × quantidade**. Com ela dá para achar um valor que falta.\n\nExemplo: a média de 5 notas é 7,2. Que nota na 6ª prova leva a média a 7,5?\n\n- Soma das 5 notas: 7,2 × 5 = 36.\n- Soma necessária com 6 notas: 7,5 × 6 = 45.\n- Nota que falta: 45 − 36 = **9,0**.\n\nCuidado com a **média de médias**: só vale tirar a média das médias de dois grupos se os grupos tiverem o mesmo tamanho. Senão, use as somas e as quantidades."
+  },
+  {
+   "titulo": "4. Desvio padrão: homogêneo ou disperso",
+   "texto": "O **desvio padrão** mede o quanto os dados se espalham em torno da média. Para a prova, só a ideia importa:\n\n- Desvio padrão **menor** → dados mais **homogêneos** (concentrados perto da média).\n- Desvio padrão **maior** → dados mais **dispersos** (espalhados).\n\nDuas turmas com a mesma média 6,5, uma com desvio padrão 0,8 e a outra com 2,1: a primeira é mais regular (quase todo mundo perto de 6,5) e a segunda tem gente com nota muito alta e gente com muito baixa.\n\nNa 2023/1 a tabela dava média e desvio padrão para sete dimensões. A pergunta: onde as preferências são mais homogêneas? Resposta: onde o desvio padrão é o **menor** (0,81, em Atividades Burocráticas). Não precisa calcular nada."
+  },
+  {
+   "titulo": "5. Ler gráficos: antes de calcular, olhar",
+   "texto": "Em questão de gráfico, esta ordem evita erro:\n\n- **1. Título e unidade**: milhões? %? R$? O que está em cada eixo?\n- **2. Período**: de que ano a que ano?\n- **3. Tipo**: barras (comparar), linhas (evolução no tempo), setores/pizza (partes de um todo de 100%).\n- **4. Só então** calcule.\n\nNo **gráfico de setores**, as partes somam 100%. Se o total é R$ 3.000 e um setor é 40%, esse setor vale 0,40 × 3.000 = R$ 1.200. É porcentagem pura: veja a lição de porcentagem.\n\nQuando a alternativa fala em \"maior que\", \"menor que\", \"cresceu\", \"caiu\", compare **só os números do gráfico**. Quem usa conhecimento de fora do gráfico costuma errar."
+  },
+  {
+   "titulo": "6. Moda, média e mediana juntas: relações",
+   "texto": "Em questões de comparação (como a 2023/2, de pizza), você calcula as três e compara. Dados: 24,3; 17,7; 14,7; 14,7; 28,6.\n\n- Moda = 14,7 (repete).\n- Mediana (ordenados: 14,7; 14,7; **17,7**; 24,3; 28,6) = 17,7.\n- Média = 100 ÷ 5 = 20 (os valores somam 100%).\n\nLogo média (20) > mediana (17,7) > moda (14,7). Isso acontece quando há valores altos que \"puxam\" a média para cima. Regra de bolso: um valor muito alto puxa a média acima da mediana; um valor muito baixo puxa abaixo."
+  }
+ ],
+ "decorar": [
+  "Média = soma ÷ quantidade; soma = média × quantidade",
+  "Moda = o que mais aparece; mediana = o do meio **depois de ordenar**",
+  "Quantidade par: mediana = média dos dois do meio",
+  "Desvio padrão menor = mais homogêneo; maior = mais disperso",
+  "Gráfico de setores: partes somam 100%; parte = % × total",
+  "Gráfico: título, unidade e período antes de qualquer conta"
+ ],
+ "pegadinhas": [
+  "Pegar o valor do meio sem ordenar os dados antes.",
+  "Confundir moda com maior valor. Moda é o mais **frequente**, não o maior.",
+  "Esquecer que, em n par, a mediana é a média dos dois centrais.",
+  "Ler o gráfico em milhões e responder em unidades (ou o contrário). Confira a unidade do eixo.",
+  "Achar que \"desvio padrão alto\" é bom. Só significa dados dispersos."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2024-1",
+   "n": 6,
+   "resolucao": "O gráfico traz os visitantes do Louvre (milhões) de 2007 a 2022: 8,3; 8,5; 8,5; 8,5; 8,9; 9,7; 9,3; 9,3; 8,6; 7,3; 8,1; 10,2; 9,6; 2,7; 2,8; 7,7 (16 valores).\n\n**Moda**: 8,5 aparece 3 vezes; 9,3 aparece 2. Moda = 8,5.\n\n**Mediana**: ordenados → 2,7; 2,8; 7,3; 7,7; 8,1; 8,3; 8,5; **8,5**; **8,5**; 8,6; 8,9; 9,3; 9,3; 9,6; 9,7; 10,2. Com 16 valores, são o 8º e o 9º: 8,5 e 8,5 → mediana = 8,5.\n\nAlternativa **C (8,5 e 8,5)**. Gabarito oficial: C. ✔ Bateu."
+  },
+  {
+   "prova": "2023-2",
+   "n": 16,
+   "resolucao": "Gráfico de barras com as coberturas de pizza preferidas: Quatro queijos 24,3%; Portuguesa 17,7%; Mussarela 14,7%; Calabresa 14,7%; Outras 28,6%.\n\nMédia = (24,3 + 17,7 + 14,7 + 14,7 + 28,6) ÷ 5 = 100 ÷ 5 = 20.\nModa = 14,7 (repete duas vezes).\nMediana: 14,7; 14,7; **17,7**; 24,3; 28,6 → 17,7.\n\nA) \"média maior que a moda\": 20 > 14,7. Verdadeiro. As outras: B (moda = 17,7) falsa; C (moda > mediana) falsa; D (mediana = 14,7) falsa; E (mediana > média) falsa, pois 17,7 < 20.\n\nGabarito oficial: A. ✔ Bateu."
+  },
+  {
+   "prova": "2023-1",
+   "n": 42,
+   "resolucao": "A tabela traz mínimo, máximo, média e desvio padrão de 7 dimensões. Quem tem o **menor desvio padrão** é a mais homogênea.\n\nDesvios: Ciências Exatas 1,05; Artes e Comunicação 0,88; Biológicas e Saúde 1,13; Agrárias 1,13; Burocráticas 0,81; Humanas 0,85; Entretenimento 0,95.\n\nA) falsa: Burocráticas tem o menor desvio, então é a **menos** dispersa. B) **Burocráticas (0,81) × Artes e Comunicação (0,88)**: Burocráticas é mais homogênea. Verdadeira. As demais comparam errado (a amplitude não é o desvio, e Exatas 1,05 é mais dispersa que Artes 0,88).\n\nGabarito oficial: B. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Em cinco semanas seguidas, uma família gastou com mercado: R$ 120, R$ 150, R$ 90, R$ 150 e R$ 140. É correto afirmar que, nesse conjunto de valores,",
+   "alternativas": [
+    "a média é igual à mediana.",
+    "a moda é menor que a média.",
+    "a mediana é igual à moda.",
+    "a mediana é maior que a média e menor que a moda.",
+    "a média é maior que a mediana."
+   ],
+   "gabarito": "D",
+   "resolucao": "Média = 650 ÷ 5 = 130. Moda = 150. Mediana (ordenados 90, 120, 140, 150, 150) = 140. Logo média 130 < mediana 140 < moda 150.",
+   "figura": {
+    "lib": "chart",
+    "tipo": "bar",
+    "titulo": "Gasto com mercado por semana",
+    "rotulos": [
+     "Semana 1",
+     "Semana 2",
+     "Semana 3",
+     "Semana 4",
+     "Semana 5"
+    ],
+    "series": [
+     {
+      "nome": "Gasto",
+      "dados": [
+       120,
+       150,
+       90,
+       150,
+       140
+      ]
+     }
+    ],
+    "eixoY": "R$"
+   }
+  },
+  {
+   "enunciado": "A média das cinco primeiras notas de Pedro em uma disciplina é 7,2. Para que a média das seis notas seja 7,5, a sexta nota deverá ser",
+   "alternativas": [
+    "7,5",
+    "9,0",
+    "8,5",
+    "9,5",
+    "10,0"
+   ],
+   "gabarito": "B",
+   "resolucao": "Soma das cinco primeiras: 7,2 × 5 = 36. Soma das seis para média 7,5: 7,5 × 6 = 45. Sexta nota = 45 − 36 = 9,0."
+  },
+  {
+   "enunciado": "Os tempos, em minutos, que seis alunos levaram para resolver um problema foram: 3, 8, 5, 12, 9 e 7. A mediana desse conjunto de tempos é",
+   "alternativas": [
+    "7,0 minutos",
+    "7,3 minutos",
+    "8,0 minutos",
+    "8,5 minutos",
+    "7,5 minutos"
+   ],
+   "gabarito": "E",
+   "resolucao": "Ordenando: 3, 5, 7, 8, 9, 12. Os dois centrais são 7 e 8: (7 + 8) ÷ 2 = 7,5. 7,3 é aproximadamente a média (44 ÷ 6 ≈ 7,33)."
+  },
+  {
+   "enunciado": "Duas turmas fizeram a mesma prova e obtiveram média 6,5. O desvio padrão das notas da turma A foi 0,8 e o da turma B foi 2,1. Com base nesses dados, é correto afirmar que",
+   "alternativas": [
+    "as notas da turma A são mais homogêneas que as da turma B.",
+    "as notas da turma B são mais homogêneas que as da turma A.",
+    "a turma A teve média maior que a da turma B.",
+    "a turma B teve a maior nota da prova.",
+    "as duas turmas têm o mesmo grau de dispersão."
+   ],
+   "gabarito": "A",
+   "resolucao": "Desvio padrão menor → dados mais concentrados em torno da média → mais homogêneos. A turma A (0,8) é mais homogênea. As médias são iguais (6,5) e o desvio não diz quem teve a maior nota."
+  },
+  {
+   "enunciado": "Um gráfico de setores mostra como uma família distribui um orçamento mensal de R$ 3.000,00: moradia 40%, alimentação 25%, transporte 15%, lazer 10% e outros 10%. O valor que a família gasta, por mês, com alimentação e transporte juntos é",
+   "alternativas": [
+    "R$ 750,00",
+    "R$ 900,00",
+    "R$ 1.200,00",
+    "R$ 1.050,00",
+    "R$ 1.500,00"
+   ],
+   "gabarito": "C",
+   "resolucao": "Alimentação + transporte = 25% + 15% = 40%. 40% de 3.000 = 0,40 × 3.000 = 1.200. Conferindo: 750 + 450 = 1.200. R$ 750 é só a alimentação.",
+   "figura": {
+    "lib": "chart",
+    "tipo": "pie",
+    "titulo": "Orçamento mensal de R$ 3.000,00 (%)",
+    "rotulos": [
+     "Moradia",
+     "Alimentação",
+     "Transporte",
+     "Lazer",
+     "Outros"
+    ],
+    "series": [
+     {
+      "nome": "Orçamento",
+      "dados": [
+       40,
+       25,
+       15,
+       10,
+       10
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

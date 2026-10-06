@@ -1,0 +1,129 @@
+{
+ "id": "log-aritmetica",
+ "disciplina": "Raciocínio Lógico",
+ "tema": "Problemas aritméticos (lógica)",
+ "titulo": "Problemas aritméticos: resto, dia da semana, MMC e meia-vida",
+ "semana": 2,
+ "minutos": 35,
+ "por_que": "Problemas aritméticos de lógica caíram em 18 questões nas 15 provas. O mesmo punhado de ideias se repete: divisão com resto (dia da semana, calendário), MMC (ciclos que coincidem) e potência de 2 (meia-vida). Dominar isso garante os pontos mais baratos de Raciocínio Lógico.",
+ "secoes": [
+  {
+   "titulo": "1. Divisão com resto",
+   "texto": "Quando você divide 200 camisas em caixas de 12, cabem 16 caixas cheias e sobram 8 camisas:\n\n`dividendo = divisor × quociente + resto`, com **resto menor que o divisor**.\n\n200 = 12 × 16 + 8. Se o enunciado te dá três dessas quatro peças, você acha a quarta. Exemplo (2019/2): 43 dividido por 5 dá quociente 8 e resto 3, porque 5 × 8 + 3 = 43.\n\nTambém dá para ir ao contrário: se um número dividido por 7 dá quociente 12 e resto 5, ele é 7 × 12 + 5 = **89**.\n\nO que o **resto** diz: ele indica **em que ponto do ciclo** você está. Resto 0 é o fim do ciclo, resto 1 é o começo de um novo ciclo, etc. É assim que a gente resolve dia da semana e sequência periódica."
+  },
+  {
+   "titulo": "2. Dia da semana: ciclo de 7",
+   "texto": "Os dias da semana se repetem de 7 em 7. Para saber o dia daqui a N dias, divida N por 7 e **só o resto importa**:\n\n- Resto 0: mesmo dia da semana.\n- Resto 1: um dia depois. Resto 2: dois dias depois, e assim por diante.\n\nExemplo: hoje é terça. Daqui a 100 dias: 100 = 7 × 14 + 2 → resto 2 → quinta-feira.\n\nPara **datas**, conte quantos dias há entre elas. Em um ano bissexto, fevereiro tem 29 dias. Na prova 2024/1: dia 3 de janeiro é quarta-feira; 15 de abril é quando? De 3/jan a 15/abr: 28 dias de jan (31 − 3) + 29 de fev + 31 de mar + 15 de abr = 103 dias. 103 = 7 × 14 + 5 → resto 5 → quarta + 5 = **segunda-feira**.\n\nO truque é não contar o dia de partida duas vezes. Cuidado com \"contar dias de uma data a outra\": a diferença é a subtração das duas datas."
+  },
+  {
+   "titulo": "3. Voltar no calendário",
+   "texto": "Para saber o dia de **antes**, a mesma ideia, só que voltando.\n\nExemplo: 13/12/2026 é domingo. Que dia da semana foi 1º/12/2026? Foram 12 dias antes. 12 = 7 + 5 → resto 5 → voltando 5 dias a partir de domingo: sábado (1), sexta (2), quinta (3), quarta (4), terça (5) → **terça-feira**.\n\nAtalho: voltar 5 dias é o mesmo que avançar 2 (7 − 5 = 2). Domingo + 2 = terça. ✔\n\nNa prova 2022/2 (q. 25) o mês tem 31 dias, e os dois últimos dias (30 e 31) são sábado e domingo. Dia 30 sábado → 29 dias antes é o dia 1. 29 = 7 × 4 + 1 → volta 1 dia a partir de sábado → **sexta-feira**."
+  },
+  {
+   "titulo": "4. MMC: quando os ciclos se encontram",
+   "texto": "Duas coisas que se repetem de tempos em tempos voltam a coincidir no **MMC** (mínimo múltiplo comum) dos períodos.\n\nExemplo: ônibus A passa a cada 12 min, B a cada 18 min, e saíram juntos às 6h. Fatore: 12 = 2² × 3, 18 = 2 × 3². O MMC pega cada primo com o **maior expoente**: 2² × 3² = 36. Voltam a se encontrar às 6h36.\n\nPrimos entre si (que não têm fator em comum, como 13 e 17) têm MMC igual ao produto: MMC(13, 17) = 221.\n\nNa prova 2018/2: escalas de 12×36, 18×36 e 24×48. Cada ciclo de trabalho + descanso dura 48 h, 54 h e 72 h. MMC(48, 54, 72) = 2⁴ × 3³ = 432 h = 18 dias.\n\nO MMC serve para **juntar** ciclos. Se a pergunta é \"quantos itens cabem igualmente\" ou \"o maior tamanho que divide tudo\", o caminho é o MDC (máximo divisor comum), bem mais raro."
+  },
+  {
+   "titulo": "5. Meia-vida: dividir por 2 várias vezes",
+   "texto": "**Meia-vida** é o tempo para que a quantidade de uma substância caia pela metade. Cada meia-vida que passa, a quantidade é dividida por 2:\n\n`restante = inicial ÷ 2ⁿ`, em que n é o número de meias-vidas.\n\nPasso a passo: (1) divida o tempo total pela meia-vida para achar n; (2) calcule 2ⁿ; (3) divida.\n\nExemplo: 80 g de um elemento com meia-vida de 3 dias, após 12 dias. n = 12 ÷ 3 = 4. 2⁴ = 16. 80 ÷ 16 = **5 g**. Ou: 80 → 40 → 20 → 10 → 5.\n\nCuidado com a pergunta: às vezes ela pergunta quanto **restou** e às vezes quanto **diminuiu**. Se restou 6,25%, diminuiu 93,75%."
+  },
+  {
+   "titulo": "6. Como atacar o resto da família de questões",
+   "texto": "Questões aritméticas da Fatec são frequentemente \"uma história\" para esconder uma divisão simples. Receita:\n\n- **1. Traduza em conta**: o que é dividido por o quê?\n- **2. Converta unidades antes**: 7.300 dias em anos (÷ 365 = 20), 30 min em segundos (× 60 = 1.800).\n- **3. Faça a conta direta**. Média: soma ÷ quantidade. Fração do trajeto: se 25% corresponde a 14,5 km, o total é 14,5 ÷ 0,25 = 58 km.\n- **4. Cheque o sentido**: a resposta faz sentido para a história?\n\nMuitos problemas parecem difíceis, mas são uma única divisão com resto ou um MMC disfarçado."
+  }
+ ],
+ "decorar": [
+  "`dividendo = divisor × quociente + resto` (resto < divisor)",
+  "Dia da semana: divida os dias por 7; o **resto** é quantos dias avançar",
+  "Bissexto: fevereiro tem 29 dias (ano divisível por 4)",
+  "MMC = cada fator primo com o maior expoente; ciclos que coincidem",
+  "Meia-vida: `restante = inicial ÷ 2ⁿ`, n = tempo ÷ meia-vida",
+  "Se restou r%, diminuiu 100% − r%"
+ ],
+ "pegadinhas": [
+  "Contar o dia de partida duas vezes ao contar dias entre datas.",
+  "Esquecer fevereiro de 29 dias em ano bissexto (a questão avisa).",
+  "Usar o quociente em vez do resto para achar o dia da semana.",
+  "Em meia-vida, confundir \"quanto restou\" com \"quanto diminuiu\".",
+  "Na escala 12×36, esquecer que o ciclo é trabalho + descanso (48 h), não só o trabalho."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2024-2",
+   "n": 30,
+   "resolucao": "Meia-vida é o tempo para a atividade cair à metade; o texto de apoio diz que a do cobalto-60 é de **5 anos**. A pergunta: após 7.300 dias, de quanto diminuiu?\n\n7.300 dias ÷ 365 = 20 anos. n = 20 ÷ 5 = 4 meias-vidas. 2⁴ = 16.\n\nRestou 1/16 = 6,25%. Diminuiu 100% − 6,25% = **93,75%** (A). Gabarito oficial: A. ✔ Bateu.\n\nA alternativa 6,25% (E) é a armadilha: é quanto restou, não quanto diminuiu."
+  },
+  {
+   "prova": "2024-1",
+   "n": 11,
+   "resolucao": "Ano bissexto, 3 de janeiro numa quarta-feira. Dia da Arte: 15 de abril.\n\nDias de 3/jan a 15/abr: janeiro 31 − 3 = 28; fevereiro 29; março 31; abril 15 → 28 + 29 + 31 + 15 = 103 dias.\n\n103 ÷ 7 = 14, resto 5. Quarta-feira + 5 dias = quinta (1), sexta (2), sábado (3), domingo (4), **segunda-feira** (5) (A). Gabarito oficial: A. ✔ Bateu."
+  },
+  {
+   "prova": "2022-2",
+   "n": 25,
+   "resolucao": "O mês tem 31 dias e os dois últimos (30 e 31) são o sábado e o domingo do \"Grande Fluxo\". Então o dia 30 é sábado.\n\nO dia 1 vem 29 dias antes do dia 30. 29 ÷ 7 = 4, resto 1. Voltar 1 dia a partir de sábado dá **sexta-feira** (B). Gabarito oficial: B. ✔ Bateu.\n\nVerificando: dia 1 sexta → dia 8, 15, 22, 29 sextas → dia 30 sábado, 31 domingo ✔."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Uma fábrica embala 200 camisas em caixas que comportam 12 camisas cada. Para embalar todas as camisas, usando caixas cheias o máximo possível, serão necessárias",
+   "alternativas": [
+    "17 caixas cheias, sobrando 4 camisas.",
+    "16 caixas cheias, sobrando 12 camisas.",
+    "16 caixas cheias, sobrando 8 camisas.",
+    "15 caixas cheias, sobrando 20 camisas.",
+    "18 caixas cheias, sobrando 8 camisas."
+   ],
+   "gabarito": "C",
+   "resolucao": "200 ÷ 12 = 16, resto 8, porque 12 × 16 = 192 e 200 − 192 = 8. O resto (8) tem que ser menor que 12, o que elimina a alternativa com sobra de 12 camisas."
+  },
+  {
+   "enunciado": "Dois ônibus saem juntos do terminal às 6h. O ônibus A retorna ao terminal a cada 12 minutos e o ônibus B, a cada 18 minutos. Os dois voltarão a se encontrar no terminal às",
+   "alternativas": [
+    "6h06",
+    "6h30",
+    "7h12",
+    "9h36",
+    "6h36"
+   ],
+   "gabarito": "E",
+   "resolucao": "MMC(12, 18): 12 = 2² × 3 e 18 = 2 × 3² → 2² × 3² = 36. Os dois se encontram após 36 minutos, às 6h36. 6h30 é 12 + 18, que é erro de somar em vez de achar MMC."
+  },
+  {
+   "enunciado": "Um elemento radioativo tem meia-vida de 3 dias. Uma amostra inicial de 80 g, após 12 dias, terá massa igual a",
+   "alternativas": [
+    "10 g",
+    "5 g",
+    "20 g",
+    "2,5 g",
+    "40 g"
+   ],
+   "gabarito": "B",
+   "resolucao": "n = 12 ÷ 3 = 4 meias-vidas. 80 → 40 → 20 → 10 → 5. Também: 80 ÷ 2⁴ = 80 ÷ 16 = 5. A resposta 20 g é de quem fez só 2 divisões; 2,5 g, de quem fez 5."
+  },
+  {
+   "enunciado": "Dividindo-se um número natural N por 7, obtém-se quociente 12 e resto 5. O valor de N é",
+   "alternativas": [
+    "89",
+    "84",
+    "91",
+    "24",
+    "96"
+   ],
+   "gabarito": "A",
+   "resolucao": "N = divisor × quociente + resto = 7 × 12 + 5 = 84 + 5 = 89. Conferindo: 89 ÷ 7 = 12, resto 5 (7 × 12 = 84; 89 − 84 = 5). A opção 84 esquece de somar o resto."
+  },
+  {
+   "enunciado": "O dia 13 de dezembro de 2026, data da prova da Fatec, cai em um domingo. O dia 1º de dezembro de 2026 foi uma",
+   "alternativas": [
+    "segunda-feira",
+    "quarta-feira",
+    "quinta-feira",
+    "terça-feira",
+    "sexta-feira"
+   ],
+   "gabarito": "D",
+   "resolucao": "De 1º a 13 de dezembro são 12 dias. 12 = 7 + 5, resto 5. Voltando 5 dias a partir do domingo: sábado, sexta, quinta, quarta, terça. Outra forma: voltar 5 equivale a avançar 2 (7 − 5), e domingo + 2 = terça."
+  }
+ ]
+}

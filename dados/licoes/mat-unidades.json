@@ -1,0 +1,124 @@
+{
+ "id": "mat-unidades",
+ "disciplina": "Matemática",
+ "tema": "Aritmética e porcentagem",
+ "titulo": "Unidades, potências de 10 e notação científica",
+ "semana": 1,
+ "minutos": 35,
+ "por_que": "Conversão de unidades e notação científica aparecem em Matemática, Física, Química e nas multidisciplinares, sempre como a conta que ninguém pede mas que todo mundo precisa fazer. Dominar km/h ↔ m/s, kWh e prefixos (k, M, G) vale ponto em mais de uma disciplina.",
+ "secoes": [
+  {
+   "titulo": "1. Potências de 10: o que está acontecendo",
+   "texto": "`10³` é 10 × 10 × 10 = 1.000. O expoente conta **quantos zeros** vêm depois do 1. E `10⁻³` é 1 ÷ 1.000 = 0,001: expoente negativo é \"dividir\" e conta **quantas casas depois da vírgula**.\n\nRegras que resolvem 90% das questões:\n\n- `10ᵃ × 10ᵇ = 10ᵃ⁺ᵇ` (somam os expoentes)\n- `10ᵃ ÷ 10ᵇ = 10ᵃ⁻ᵇ` (subtraem)\n- `(10ᵃ)ᵇ = 10ᵃ·ᵇ`\n\nExemplos: 10⁶ × 10⁻² = 10⁴. E 10⁹ ÷ 10³ = 10⁶. Em multiplicação de números como 3 × 10⁸ por 2 × 10⁻³: multiplique os números (3 × 2 = 6) e some os expoentes (8 − 3 = 5): **6 × 10⁵**."
+  },
+  {
+   "titulo": "2. Notação científica",
+   "texto": "Um número está em **notação científica** quando é escrito como `a × 10ⁿ`, com `a` entre 1 e 10 (1 ≤ a < 10).\n\n- 4.130.000.000.000 = 4,13 × 10¹² (a vírgula andou 12 casas para a esquerda)\n- 0,00052 = 5,2 × 10⁻⁴ (a vírgula andou 4 casas para a direita)\n\nPara multiplicar duas quantidades em notação científica, multiplique os números e some os expoentes; depois arrume para `a` ficar entre 1 e 10. Exemplo (prova 2026/1): 7.000 × 5,9 × 10⁹ = 7 × 10³ × 5,9 × 10⁹ = 41,3 × 10¹² = **4,13 × 10¹³**.\n\nDica: a Fatec costuma dar as alternativas com a mesma mantissa (4,1) e expoentes diferentes. Aí o que vale é o **expoente**. Conte os zeros com calma."
+  },
+  {
+   "titulo": "3. Prefixos: k, M, G, m, μ",
+   "texto": "Prefixos são atalhos para potências de 10:\n\n- **k** (quilo) = 10³ → 1 km = 1.000 m; 1 kW = 1.000 W\n- **M** (mega) = 10⁶ → 1 MW = 10⁶ W\n- **G** (giga) = 10⁹ → 1 GB = 10⁹ bytes (em prova, use 1.000 MB)\n- **m** (mili) = 10⁻³ → 1 mm = 0,001 m; 1 mg = 0,001 g\n- **μ** (micro) = 10⁻⁶\n\nPara converter, o sentido é o que importa: de uma unidade **grande** para uma **pequena**, o número **aumenta** (3 km = 3.000 m); de **pequena** para **grande**, **diminui** (250 mg = 0,25 g)."
+  },
+  {
+   "titulo": "4. km/h ↔ m/s",
+   "texto": "Essa conversão aparece em Física o tempo todo:\n\n`km/h ÷ 3,6 = m/s` e `m/s × 3,6 = km/h`\n\nDe onde vem: 1 km = 1.000 m e 1 h = 3.600 s, então 1 km/h = 1.000/3.600 m/s = 1/3,6 m/s. Exemplo: 90 km/h ÷ 3,6 = **25 m/s**. E 20 m/s × 3,6 = 72 km/h.\n\nDecore dois pares que resolvem muita coisa: 36 km/h = 10 m/s e 72 km/h = 20 m/s."
+  },
+  {
+   "titulo": "5. Área e volume: o expoente muda tudo",
+   "texto": "Em área e volume, a conversão não é linear:\n\n- 1 m = 100 cm, mas **1 m² = 10.000 cm²** (100²) e **1 m³ = 1.000.000 cm³** (100³).\n- **1 m³ = 1.000 L** e 1 L = 1.000 mL = 1.000 cm³.\n- 1 km² = 10⁶ m².\n\nExemplo: uma piscina de 5 m × 4 m × 1,5 m tem 30 m³ = **30.000 L**. Se a torneira enche 600 L por hora, leva 30.000 ÷ 600 = 50 h.\n\nA questão 2017/1 mistura isso com notação científica: 30 bilhões (3 × 10¹⁰) de cigarras, cada uma ocupando 7 × 10⁻⁴ m², numa estrada de 10 m de largura. A área total é 3 × 10¹⁰ × 7 × 10⁻⁴ = 21 × 10⁶ m² = 2,1 × 10⁷ m². Comprimento = área ÷ largura = 2,1 × 10⁶ m = 2.100 km."
+  },
+  {
+   "titulo": "6. kWh, tempo e energia",
+   "texto": "**kWh** (quilowatt-hora) é unidade de **energia**, não de potência. Energia = potência × tempo:\n\n`E (kWh) = P (kW) × t (h)`\n\nUm chuveiro de 5.000 W ligado por 30 min gasta 5 kW × 0,5 h = 2,5 kWh. Se o kWh custa R$ 0,80, o banho custa R$ 2,00.\n\nTrês conversões de tempo que o aluno erra por pressa: 30 min = 0,5 h; 45 min = 0,75 h; 15 min = 0,25 h. E watt → quilowatt: divida por 1.000 antes."
+  }
+ ],
+ "decorar": [
+  "km/h ÷ 3,6 = m/s; m/s × 3,6 = km/h (36 km/h = 10 m/s)",
+  "k = 10³, M = 10⁶, G = 10⁹, m = 10⁻³, μ = 10⁻⁶",
+  "Notação científica: `a × 10ⁿ` com 1 ≤ a < 10. Multiplicando, somam-se os expoentes",
+  "1 m³ = 1.000 L; 1 m² = 10.000 cm²; 1 m³ = 10⁶ cm³",
+  "kWh é energia: `E = P × t`, com P em kW e t em horas",
+  "1 ano-luz é medida de **distância**, não de tempo (útil em Física e Inglês)"
+ ],
+ "pegadinhas": [
+  "Converter área e volume como se fosse comprimento: 1 m² não é 100 cm², é 10.000 cm².",
+  "Esquecer de tirar o prefixo: 5 kW = 5.000 W; 250 mg = 0,25 g.",
+  "Parar com a mantissa fora do intervalo (41,3 × 10¹²). Ajuste para 4,13 × 10¹³.",
+  "Achar que kWh é potência. É energia (potência × tempo).",
+  "Minutos como horas: 45 min = 0,75 h, não 0,45 h."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2026-1",
+   "n": 39,
+   "resolucao": "A distância de Plutão ao Sol é 5,9 × 10⁹ km. O texto (em inglês) diz que a estrela mais próxima está **7.000 vezes** mais longe que Plutão.\n\nDistância = 7.000 × 5,9 × 10⁹ = 7 × 10³ × 5,9 × 10⁹ = 41,3 × 10¹² = **4,13 × 10¹³ km** ≈ 4,1 × 10¹³.\n\nA segunda lacuna: com uma distância dessas, o texto diz que visitar os alienígenas não é viável e que a ideia de eles nos visitarem **não é popular** entre a maioria dos cientistas. Logo, \"pouco popular\". Resposta: **4,1 × 10¹³ — pouco popular** (E). Gabarito oficial: E. ✔ Bateu."
+  },
+  {
+   "prova": "2017-1",
+   "n": 33,
+   "resolucao": "Dados: 3 × 10¹⁰ cigarras; área de cada = 7 × 10⁻⁴ m²; estrada com 10 m de largura; cigarras lado a lado, sem sobreposição.\n\nÁrea total = 3 × 10¹⁰ × 7 × 10⁻⁴ = 21 × 10⁶ m² = 2,1 × 10⁷ m².\n\nÁrea = largura × comprimento → comprimento = 2,1 × 10⁷ ÷ 10 = 2,1 × 10⁶ m.\n\nPassando para km (÷ 1.000): 2,1 × 10³ = **2.100 km** (D). Gabarito oficial: D. ✔ Bateu.\n\nO erro típico é esquecer que a pergunta pede quilômetros e parar em 2,1 × 10⁶ m."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Um carro trafega em uma rodovia a 90 km/h, que é a velocidade máxima permitida no trecho. Em metros por segundo, essa velocidade é igual a",
+   "alternativas": [
+    "15 m/s",
+    "25 m/s",
+    "20 m/s",
+    "250 m/s",
+    "324 m/s"
+   ],
+   "gabarito": "B",
+   "resolucao": "km/h ÷ 3,6 = m/s → 90 ÷ 3,6 = 25 m/s. 324 vem de multiplicar por 3,6 (conversão ao contrário), e 15 de dividir por 6."
+  },
+  {
+   "enunciado": "Um aquecedor elétrico de 2.000 W fica ligado por 45 minutos. Considerando o preço de R$ 0,80 por kWh, o custo da energia consumida nesse tempo é de",
+   "alternativas": [
+    "R$ 0,60",
+    "R$ 0,96",
+    "R$ 1,60",
+    "R$ 1,20",
+    "R$ 72,00"
+   ],
+   "gabarito": "D",
+   "resolucao": "P = 2.000 W = 2 kW; t = 45 min = 0,75 h. E = 2 × 0,75 = 1,5 kWh. Custo = 1,5 × 0,80 = R$ 1,20. R$ 72,00 vem de usar 45 como se fossem horas (2 × 45 × 0,80)."
+  },
+  {
+   "enunciado": "A luz do Sol leva cerca de 8 minutos para chegar à Terra, com velocidade de 3 × 10⁸ m/s. A distância aproximada entre o Sol e a Terra, em quilômetros, é de",
+   "alternativas": [
+    "1,44 × 10⁸ km",
+    "1,44 × 10⁵ km",
+    "1,44 × 10¹¹ km",
+    "2,4 × 10⁶ km",
+    "2,4 × 10⁹ km"
+   ],
+   "gabarito": "A",
+   "resolucao": "Tempo: 8 min = 480 s. Distância = 3 × 10⁸ × 480 = 1.440 × 10⁸ = 1,44 × 10¹¹ m. Em km (÷ 10³): 1,44 × 10⁸ km. A alternativa 1,44 × 10¹¹ está em metros e a 2,4 × 10⁹ usa 8 s em vez de 8 min."
+  },
+  {
+   "enunciado": "Uma piscina tem 5 m de comprimento, 4 m de largura e 1,5 m de profundidade. Uma torneira despeja água a uma vazão de 600 litros por hora. Para encher a piscina completamente, a torneira deve ficar aberta por",
+   "alternativas": [
+    "0,05 hora",
+    "5 horas",
+    "500 horas",
+    "18.000 horas",
+    "50 horas"
+   ],
+   "gabarito": "E",
+   "resolucao": "Volume = 5 × 4 × 1,5 = 30 m³ = 30.000 L (1 m³ = 1.000 L). Tempo = 30.000 ÷ 600 = 50 h. A opção 0,05 vem de usar 30 ÷ 600 sem converter m³ em litros."
+  },
+  {
+   "enunciado": "Um médico prescreveu um antibiótico de 250 mg a cada 8 horas, durante 5 dias seguidos. A quantidade total do medicamento tomada durante o tratamento, em gramas, é",
+   "alternativas": [
+    "0,375 g",
+    "1,25 g",
+    "3,75 g",
+    "30 g",
+    "37,5 g"
+   ],
+   "gabarito": "C",
+   "resolucao": "5 dias = 120 h; 120 ÷ 8 = 15 doses. 15 × 250 mg = 3.750 mg = 3,75 g (÷ 1.000). 1,25 g viria de contar só 5 doses (1 por dia), e 37,5 g de errar a vírgula na conversão."
+  }
+ ]
+}

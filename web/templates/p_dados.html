@@ -1,0 +1,10 @@
+{{define "conteudo"}}<div class="read" id="dados">
+<p class="eyebrow">Sem login</p>
+<h1>Seus dados</h1>
+<p class="muted">O portal não tem conta nem guarda nada no servidor. Simulados, lições lidas, rotina e redações ficam só neste navegador. Para trocar de aparelho ou fazer backup, exporte o arquivo e importe no outro navegador.</p>
+<div class="row gap-top"><button class="btn primary" id="exportar" type="button">Exportar progresso (.json)</button><label class="btn" for="importar">Importar arquivo</label><input type="file" id="importar" accept="application/json,.json" hidden></div>
+<p class="small muted" id="dados-msg"></p>
+<h2>Apagar tudo</h2>
+<p class="small muted">Remove todo o seu progresso deste navegador. Exporte antes se quiser guardar.</p>
+<button class="btn danger" id="apagar" type="button">Apagar meu progresso</button>
+</div>{{end}}

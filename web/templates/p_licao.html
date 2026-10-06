@@ -1,0 +1,21 @@
+{{define "conteudo"}}{{$l := .L}}<article class="read lesson" id="licao" data-id="{{$l.ID}}" data-gab="{{json .Gab}}">
+<a class="btn ghost small" href="/licoes">← Lições</a>
+<p class="eyebrow gap-top">{{$l.Disciplina}} · {{$l.Minutos}} min</p>
+<h1>{{$l.Titulo}}</h1>
+{{if $l.PorQue}}<p class="muted">{{$l.PorQue}}</p>{{end}}
+{{range $l.Secoes}}<h2>{{.Titulo}}</h2>{{md .Texto}}{{end}}
+{{if $l.Decorar}}<div class="box mark"><h3>De cor e salteado</h3><ul>{{range $l.Decorar}}<li>{{mdInline .}}</li>{{end}}</ul></div>{{end}}
+{{if $l.Pegadinhas}}<div class="box warnb"><h3>Pegadinhas</h3><ul>{{range $l.Pegadinhas}}<li>{{mdInline .}}</li>{{end}}</ul></div>{{end}}
+{{if .Resolvidas}}<h2>Questões reais resolvidas</h2>
+{{range .Resolvidas}}<h3>Fatec {{nomeProva .Q.Prova}} · questão {{.Q.N}}</h3>{{template "qimgs" .Q}}<details class="sol"><summary>Ver resolução (gabarito {{.Q.Gab}})</summary>{{md .R.Resolucao}}</details>{{end}}{{end}}
+{{if $l.Exercicios}}<h2>Exercícios</h2><p class="muted small">Questões novas no estilo da Fatec. Clique na alternativa para conferir.</p>
+<div id="exs">{{range $i, $e := $l.Exercicios}}{{template "exercicio" (dict2 $i $e)}}{{end}}</div>
+<form method="post" action="/revisao/teste.md" class="panel gap-top" id="rev-form">
+  <input type="hidden" name="licao" value="{{$l.ID}}"><input type="hidden" name="respostas" id="rev-resp">
+  <h3 class="mt0">Validar com a IA que você quiser</h3>
+  <p class="small muted">Baixe o arquivo com as questões e suas respostas, cole o prompt abaixo na IA e anexe o arquivo. Ela é obrigada a validar cada questão e calcular sua porcentagem de acerto.</p>
+  <div class="row"><button class="btn" type="submit">Baixar arquivo (.md)</button><button class="btn ghost" type="button" data-copy="#prompt-ex">Copiar prompt</button></div>
+  <textarea id="prompt-ex" class="prompt" readonly rows="6">{{promptTeste (printf "Exercícios: %s" $l.Titulo) (len $l.Exercicios)}}</textarea>
+</form>{{end}}
+<div class="row gap-top"><button class="btn primary" id="marcar-lida" type="button">Marcar como lida</button><a class="btn ghost" href="/licoes">Voltar às lições</a></div>
+</article>{{end}}

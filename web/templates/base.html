@@ -1,0 +1,40 @@
+{{define "base"}}<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>{{.Titulo}} · Fatec Turbo</title>
+<link rel="stylesheet" href="/static/app.css">
+<script>try{var t=localStorage.getItem("ft27-tema");if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body data-aba="{{.Aba}}">
+<header class="top">
+  <div class="top-in">
+    <a class="brand" href="/">Fatec Turbo<small>1º sem/2027</small></a>
+    <nav class="tabs" aria-label="Seções">
+      <a href="/" {{if eq .Aba "inicio"}}aria-current="page"{{end}}>Início</a>
+      <a href="/licoes" {{if eq .Aba "estudar"}}aria-current="page"{{end}}>Estudar</a>
+      <a href="/simulados" {{if eq .Aba "simulados"}}aria-current="page"{{end}}>Simulados</a>
+      <a href="/redacao" {{if eq .Aba "redacao"}}aria-current="page"{{end}}>Redação</a>
+      <a href="/desempenho" {{if eq .Aba "desempenho"}}aria-current="page"{{end}}>Desempenho</a>
+    </nav>
+    <div class="countdown"><b>{{.Dias}}</b> dias para a prova</div>
+  </div>
+</header>
+<main id="app">
+{{template "conteudo" .D}}
+</main>
+<footer class="rodape"><a href="/dados">Seus dados</a> · <a href="/autores">Autores</a> · <button type="button" class="linklike" id="tema-btn">Tema claro/escuro</button></footer>
+<script src="/static/app.js"></script>
+</body>
+</html>{{end}}
+
+{{define "qimgs"}}{{range .Ctx}}<p class="ctxlabel">Texto de apoio</p><div class="sheet" data-zoom>{{range .}}<img src="/q/{{$.Prova}}/{{.}}" alt="Texto de apoio" loading="lazy">{{end}}</div>{{end}}<div class="sheet" data-zoom>{{range .Imgs}}<img src="/q/{{$.Prova}}/{{.}}" alt="Questão {{$.N}} da prova {{nomeProva $.Prova}}" loading="lazy">{{end}}</div>{{end}}
+
+{{define "exercicio"}}<div class="exq" data-i="{{.I}}">
+<p class="disp"><b>{{add .I 1}}.</b></p>
+{{md .E.Enunciado}}
+{{if .E.Figura}}<div class="figwrap">{{figura .E.Figura}}</div>{{end}}
+<ul class="alts">{{range $j, $a := .E.Alternativas}}<li><button type="button" data-l="{{letra $j}}"><b>{{letra $j}}</b><span>{{mdInline $a}}</span></button></li>{{end}}</ul>
+<details class="sol" hidden><summary>Resolução</summary>{{md .E.Resolucao}}</details>
+</div>{{end}}

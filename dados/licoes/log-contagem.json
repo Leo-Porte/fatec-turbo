@@ -1,0 +1,129 @@
+{
+ "id": "log-contagem",
+ "disciplina": "Raciocínio Lógico",
+ "tema": "Problemas de contagem/organização",
+ "titulo": "Contagem e organização: multiplicar, eliminar e garantir",
+ "semana": 2,
+ "minutos": 35,
+ "por_que": "Contagem e organização apareceram em 16 questões nas 15 provas, em três formatos: princípio multiplicativo (quantas senhas, códigos, combinações), casa dos pombos (quantos itens retirar para garantir algo) e tabela de eliminação (descobrir quem é quem a partir de pistas).",
+ "secoes": [
+  {
+   "titulo": "1. Princípio multiplicativo",
+   "texto": "Se uma escolha pode ser feita de **a** maneiras e **outra**, independente, de **b** maneiras, o par pode ser feito de **a × b** maneiras. Não é soma, é produto.\n\nExemplo: 4 camisetas, 3 calças e 2 pares de sapato dão 4 × 3 × 2 = **24** combinações de roupa.\n\nPara montar a conta, imagine **posições** (as casas de uma senha, os lugares de uma fila) e pergunte, posição por posição, quantas opções sobram.\n\n- Código de 3 letras **distintas** entre A, B, C, D, E: 5 opções para a 1ª, 4 para a 2ª (uma letra já foi), 3 para a 3ª → 5 × 4 × 3 = 60.\n- Se pudesse **repetir** letra: 5 × 5 × 5 = 125.\n\nA prova de 2020/1 usou isso nas cores em hexadecimal: 16 opções para cada uma das 6 posições → 16⁶ = 2²⁴ combinações."
+  },
+  {
+   "titulo": "2. Restrições: comece pelo que é mais restrito",
+   "texto": "Quando uma posição tem restrição (\"o primeiro algarismo não pode ser zero\", \"a senha tem que terminar em número par\"), **preencha primeiro a posição restrita**.\n\nExemplo: quantos números de 3 algarismos distintos existem? A centena não pode ser 0: 9 opções (1 a 9). A dezena pode ser 0, mas não repete a centena: 9 opções. A unidade não repete nenhuma das duas: 8 opções. Total: 9 × 9 × 8 = 648. Se você começasse pela dezena, a conta ficaria confusa, porque o 0 só poderia ser usado em algumas situações. Quando as restrições se cruzam desse jeito, divida em casos.\n\nNa prática da Fatec, as senhas têm poucas restrições: veja o que elas eliminam (\"divisores de 5 não fazem parte\", \"múltiplos de 3 não fazem parte\") e vá riscando as opções que sobram."
+  },
+  {
+   "titulo": "3. Permutação e combinação em duas linhas",
+   "texto": "**Permutação**: ordenar n coisas diferentes numa fila → `n!` maneiras (n × (n−1) × … × 1). Três pessoas numa fila: 3! = 6 maneiras. Com letras repetidas, divide-se pelas repetições: o anagrama de ARARA tem 5! ÷ (3! × 2!) = 10.\n\n**Combinação**: escolher p de n **quando a ordem não importa** (comissão, aperto de mão) → `C(n, p) = n! ÷ (p! × (n−p)!)`.\n\nExemplo: 5 pessoas se cumprimentam, cada par uma vez. É escolher 2 de 5: C(5, 2) = 5 × 4 ÷ 2 = **10** apertos de mão.\n\nComo decidir: se trocar a ordem muda a resposta (senha, fila, pódio), é multiplicativo/permutação. Se não muda (grupo, dupla, comissão), é combinação."
+  },
+  {
+   "titulo": "4. Casa dos pombos: garantir o pior caso",
+   "texto": "O princípio da **casa dos pombos** (ou do pior caso) responde: \"quantos itens preciso retirar para **ter certeza** de que vou ter pelo menos um de tal tipo?\"\n\nA ideia é imaginar o **azar máximo**. Para garantir um item de uma categoria, retire **todos os que não são dela + 1**.\n\nExemplo: gaveta com 8 meias pretas, 6 brancas e 4 azuis, no escuro. Para garantir uma azul: no pior caso saem as 8 pretas e as 6 brancas (14 meias) sem nenhuma azul. A próxima (a 15ª) tem que ser azul. Resposta: **15**.\n\nPara garantir um **par** (2 da mesma cor), com 3 cores: no pior caso você pega uma de cada (3) e a quarta forma par → 4.\n\nNa prova 2023/2, a cesta básica tinha 10 itens: 4 grãos e 6 não-grãos. Para garantir pelo menos um grão: 6 + 1 = **7** itens."
+  },
+  {
+   "titulo": "5. Tabela de eliminação: quem é quem",
+   "texto": "Questão de \"três amigos, três profissões, algumas pistas\". O jeito é **uma tabela** com as pessoas nas linhas e as opções nas colunas. Cada pista elimina células (marque com X). Quando sobra uma só opção numa linha ou coluna, ela está confirmada e elimina o resto da linha e da coluna.\n\nExemplo: Ana, Bia e Caio são médico(a), engenheiro(a) e professor(a). Ana não é médica nem engenheira; Caio não é médico.\n\n- Ana: não é médica, não é engenheira → **professora**.\n- Caio: não é médico; professor está ocupado → **engenheiro**.\n- Bia: sobra → **médica**.\n\nNa prova 2022/2 foi uma senha: três algarismos distintos em ordem decrescente. Pistas: sem divisores de 5 (1 e 5), sem múltiplos de 3 (0, 3, 6, 9). Sobram 2, 4, 7, 8. Como o maior é ímpar, o maior é 7: então a senha é 7, 4, 2 (não pode ter o 8 porque ele seria o maior)."
+  },
+  {
+   "titulo": "6. Dupla contagem e conjuntos",
+   "texto": "Às vezes a contagem é de **participações**. Exemplo (2020/1): 32 alunos participam, cada um de 3 startups; cada startup tem 8 alunos. Quantas startups? Total de participações = 32 × 3 = 96. Se cada startup tem 8, são 96 ÷ 8 = **12** startups. Contou-se do ponto de vista dos alunos e do ponto de vista das startups: dá o mesmo total.\n\nPara \"quantos estiveram em A ou B\", use a fórmula de dois conjuntos: `n(A ∪ B) = n(A) + n(B) − n(A ∩ B)`. Na prova 2022/2, 20 passageiros estiveram em Wuhan ou Huanggang, 17 estiveram em Huanggang e 6 em ambas: Wuhan = 20 − 17 + 6 = 9. A lição de lógica proposicional trata de conjuntos."
+  }
+ ],
+ "decorar": [
+  "Princípio multiplicativo: some **posições**, multiplique as **opções**",
+  "Distintas: 5·4·3 (diminui 1 a cada posição); repetidas: 5·5·5",
+  "`n!` = formas de ordenar n coisas; `C(n, p) = n! ÷ (p!(n−p)!)` quando a ordem não importa",
+  "Casa dos pombos: para garantir 1 de uma categoria, retire todos os que **não** são dela + 1",
+  "Tabela de eliminação: marque X, quando sobra uma opção ela está confirmada",
+  "Dupla contagem: total de participações = soma pelo lado A = soma pelo lado B"
+ ],
+ "pegadinhas": [
+  "Somar as opções em vez de multiplicar.",
+  "Esquecer que, sem repetição, cada posição tem uma opção a menos.",
+  "Em casa dos pombos, esquecer o \"+ 1\" (garantir é o pior caso mais uma retirada).",
+  "Usar combinação quando a ordem importa (senha), ou o contrário (grupo).",
+  "Em tabela de eliminação, não olhar o que **sobra** depois de eliminar. O que sobra é a resposta."
+ ],
+ "resolvidas": [
+  {
+   "prova": "2023-2",
+   "n": 35,
+   "resolucao": "A cesta tem 10 itens: 4 grãos, 3 farináceos, 2 doces e 1 sal. Cada alternativa pergunta o que **está garantido** ao retirar alguns itens às cegas.\n\nA) 4 itens, 2 grãos: não garantido (podem sair 0). B) 5 itens, ao menos 1 farináceo: não garantido (podem sair 4 grãos + 1 doce sem farináceo). C) 6 itens, três categorias: não garantido. **D) 7 itens, ao menos 1 grão**: os não-grãos são 3 + 2 + 1 = 6; retirando 7, no mínimo um é grão. **Garantido.** E) 8 itens, ao menos um doce: podem sair 4 grãos + 3 farináceos + 1 sal = 8 sem nenhum doce.\n\nResposta: **D**. Gabarito oficial: D. ✔ Bateu."
+  },
+  {
+   "prova": "2022-2",
+   "n": 12,
+   "resolucao": "O texto de apoio diz que, de 36 passageiros, 20 estiveram só em Wuhan ou em Huanggang (as duas cidades), com 6 desses 20 tendo estado nas duas. Nenhum dos 20 esteve em Ezhou.\n\nA questão acrescenta: 17 estiveram em Huanggang. Quem esteve em Wuhan?\n\n`n(W ∪ H) = n(W) + n(H) − n(W ∩ H)` → 20 = n(W) + 17 − 6 → n(W) = 20 − 17 + 6 = **9** (C). Gabarito oficial: C. ✔ Bateu.\n\nEvite 3 (a diferença 20 − 17): faltou reincluir os que estão nas duas."
+  },
+  {
+   "prova": "2022-2",
+   "n": 46,
+   "resolucao": "A senha tem 3 algarismos distintos, em ordem decrescente. Pistas: sem divisores de 5 (os algarismos 1 e 5); sem múltiplos de 3 (0, 3, 6, 9); o maior algarismo é ímpar.\n\nAlgarismos que sobram: 2, 4, 7, 8. Se o 8 estivesse na senha, seria o maior, e ele é par: não pode. Então a senha usa 7, 4 e 2, em ordem decrescente: **7, 4, 2** (E). Gabarito oficial: E. ✔ Bateu."
+  }
+ ],
+ "exercicios": [
+  {
+   "enunciado": "Uma pessoa tem 4 camisetas, 3 calças e 2 pares de sapato, todos diferentes entre si. O número de maneiras diferentes de se vestir, usando uma camiseta, uma calça e um par de sapatos, é",
+   "alternativas": [
+    "9",
+    "24",
+    "12",
+    "18",
+    "36"
+   ],
+   "gabarito": "B",
+   "resolucao": "Princípio multiplicativo: 4 × 3 × 2 = 24. A soma 4 + 3 + 2 = 9 é o erro mais comum; 12 é só camiseta × calça."
+  },
+  {
+   "enunciado": "Um cofre usa um código formado por 3 letras **distintas**, escolhidas entre A, B, C, D e E, em que a ordem das letras importa. O número de códigos possíveis é",
+   "alternativas": [
+    "10",
+    "15",
+    "30",
+    "60",
+    "125"
+   ],
+   "gabarito": "D",
+   "resolucao": "1ª letra: 5 opções; 2ª: 4 (não repete); 3ª: 3 → 5 × 4 × 3 = 60. 125 é 5³, que valeria se as letras pudessem repetir; 10 é C(5, 3), que é escolher sem considerar a ordem."
+  },
+  {
+   "enunciado": "Em uma gaveta há, misturadas, 8 meias pretas, 6 meias brancas e 4 meias azuis. Uma pessoa, no escuro, retira meias ao acaso. Para ter certeza de que terá retirado pelo menos uma meia azul, o número mínimo de meias que ela deve retirar é",
+   "alternativas": [
+    "5",
+    "9",
+    "14",
+    "18",
+    "15"
+   ],
+   "gabarito": "E",
+   "resolucao": "Pior caso: saem todas as não azuis antes de qualquer azul: 8 + 6 = 14 meias. A 15ª é obrigatoriamente azul. 14 esquece o \"+ 1\"."
+  },
+  {
+   "enunciado": "Ana, Bia e Caio exercem, cada um, uma das profissões: médico, engenheiro e professor, não necessariamente nessa ordem. Sabe-se que Ana não é médica nem engenheira, e que Caio não é médico. A pessoa que é engenheira(o) é",
+   "alternativas": [
+    "Ana",
+    "Bia",
+    "Caio",
+    "Ana ou Caio, sem como saber",
+    "Bia ou Caio, sem como saber"
+   ],
+   "gabarito": "C",
+   "resolucao": "Ana não é médica nem engenheira → é professora. Caio não é médico e o professor já é Ana → Caio é engenheiro. Bia é a médica. Todas as pistas se fecham, então há uma só resposta."
+  },
+  {
+   "enunciado": "Em uma reunião, 5 pessoas se cumprimentam com um aperto de mão, e cada par de pessoas se cumprimenta uma única vez. O número total de apertos de mão é",
+   "alternativas": [
+    "10",
+    "5",
+    "15",
+    "20",
+    "25"
+   ],
+   "gabarito": "A",
+   "resolucao": "Cada aperto é um par de pessoas, e a ordem não importa: C(5, 2) = 5 × 4 ÷ 2 = 10. Contagem alternativa: cada uma cumprimenta 4 outras → 5 × 4 = 20, mas cada aperto foi contado duas vezes → 20 ÷ 2 = 10."
+  }
+ ]
+}

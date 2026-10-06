@@ -1,0 +1,18 @@
+{{define "conteudo"}}<div class="read">
+<p class="eyebrow">Semana {{.Semana.S}} de 10 · {{.Datas}}</p>
+<h1>{{.Semana.Foco}}</h1>
+{{if .Semana.Nota}}<div class="notice">{{.Semana.Nota}}</div>{{end}}
+{{if .SemProvas}}<div class="notice">As provas ainda não foram geradas. Rode <code>tools/recorta.py</code> (veja o README) e compile de novo.</div>{{end}}
+<div class="stats" id="stats">
+  <div class="stat"><b data-stat="tarefas">–</b><span>tarefas da semana</span></div>
+  <div class="stat"><b data-stat="ultimo">–</b><span>último simulado (0–100)</span></div>
+  <div class="stat"><b data-stat="licoes">–</b><span>de {{.TotalLicoes}} lições lidas</span></div>
+  <div class="stat"><b data-stat="red">–</b><span>redações transcritas</span></div>
+</div>
+<h2>Rotina da semana</h2>
+<ul class="list" id="rotina">
+{{range .Tarefas}}<li class="check" data-auto="{{.Auto}}"><input type="checkbox" id="{{.ID}}"><label class="t" for="{{.ID}}">{{.Txt}}</label>{{if .Link}}<a class="btn ghost small" href="{{.Link}}">Abrir</a>{{else}}<span></span>{{end}}</li>
+{{end}}</ul>
+<h2>Próximas semanas</h2>
+<ul class="list">{{range .Proximas}}<li><span class="pill mute">S{{.S}}</span> <span class="small muted disp">{{.Datas}}</span><br>{{.Txt}}</li>{{end}}</ul>
+</div>{{end}}
