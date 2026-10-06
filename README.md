@@ -16,7 +16,8 @@ Portal de estudo para o vestibular da Fatec, feito de leitura, simulados e reda�
 - **Caderno de erros** montado sozinho a partir do que você errou.
 - **Testes da semana** com questões novas; figuras e gráficos são desenhados pelo próprio portal (SVG gerado no servidor, nenhuma biblioteca no navegador).
 - **Redação**: você escreve no papel, transcreve com os erros do jeito que escreveu, e o portal gera a folha de redação em PDF e um prompt para mandar para a IA que quiser corrigir.
-- **Revisão por IA, de qualquer fornecedor**: depois de um simulado ou teste, baixe o arquivo com as questões e suas respostas, copie o prompt e mande para a IA que preferir. O prompt obriga a IA a validar cada questão e calcular a sua porcentagem de acerto.
+- **Correção por script**: simulados, treinos, testes e exercícios são corrigidos na hora pelo gabarito, sem IA.
+- **Revisão da semana com IA, de qualquer fornecedor**: uma vez por semana o portal monta um relatório (notas, temas com erro e o conceito que faltou em cada questão, lições lidas, redações). Você manda para a IA que preferir com o prompt pronto; ela resume os pontos fracos e monta o plano da semana seguinte. A resposta fica salva no histórico e entra no relatório seguinte.
 - **Autores** que caíram nas provas, com resumo e dicas.
 
 No modo local o progresso fica no `localStorage` do navegador; para trocar de aparelho, use **Seus dados → Exportar/Importar**.

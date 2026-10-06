@@ -1,0 +1,38 @@
+{{define "conteudo"}}<div class="read" id="revisao" data-semana="{{.Semana}}" data-inicio="{{.Inicio}}" data-fim="{{.Fim}}">
+<a class="btn ghost small" href="/desempenho">← Desempenho</a>
+<p class="eyebrow gap-top">Semana {{.Semana}} · {{.Datas}}</p>
+<h1>Revisão da semana</h1>
+<p class="muted">A correção já foi feita pelo gabarito oficial. Aqui a IA entra uma vez por semana: lê o relatório do que você fez e devolve seus pontos fracos e o plano da semana seguinte. O melhor momento é domingo, depois do simulado e da redação.</p>
+
+<div class="stats" id="rv-stats">
+  <div class="stat"><b data-rv="sims">–</b><span>simulados e treinos</span></div>
+  <div class="stat"><b data-rv="nota">–</b><span>acerto médio (%)</span></div>
+  <div class="stat"><b data-rv="lidas">–</b><span>lições lidas</span></div>
+  <div class="stat"><b data-rv="reds">–</b><span>redações</span></div>
+</div>
+<div id="rv-temas-w" hidden><h2>Temas com mais erro nesta semana</h2><p class="small muted">Calculado pelo portal, sem IA.</p><div class="bars" id="rv-temas"></div></div>
+
+<div class="notice" id="rv-feita" hidden>A revisão desta semana já foi gerada em <b id="rv-quando"></b>. A próxima fica disponível a partir de {{.Proxima}}. Você ainda pode baixar o relatório de novo.</div>
+
+<form method="post" action="/revisao/semana.md" class="panel gap-top" id="rv-form">
+  <input type="hidden" name="dados" id="rv-dados">
+  <h3 class="mt0">Gerar a revisão com a IA que você quiser</h3>
+  <ol class="small">
+    <li>Baixe o relatório da semana.</li>
+    <li>Copie o prompt.</li>
+    <li>Abra a IA de sua preferência, cole o prompt e anexe o relatório.</li>
+    <li>Cole a resposta da IA aqui embaixo e salve: ela fica no seu histórico e entra no relatório da semana seguinte.</li>
+  </ol>
+  <div class="row"><button class="btn primary" type="submit" id="rv-baixar">Baixar relatório da semana (.md)</button><button class="btn ghost" type="button" data-copy="#rv-prompt">Copiar prompt</button></div>
+  <textarea id="rv-prompt" class="prompt" readonly rows="8">{{.Prompt}}</textarea>
+</form>
+
+<div class="panel gap-top">
+  <label class="lbl mt0" for="rv-resumo">Resposta da IA (pontos fracos e plano)</label>
+  <textarea id="rv-resumo" rows="10" placeholder="Cole aqui o que a IA respondeu."></textarea>
+  <div class="row gap-top"><button class="btn" id="rv-salvar" type="button">Salvar no histórico</button><span class="small muted" id="rv-msg"></span></div>
+</div>
+
+<h2>Histórico</h2>
+<div id="rv-hist"><p class="muted small">Nenhuma revisão salva ainda.</p></div>
+</div>{{end}}

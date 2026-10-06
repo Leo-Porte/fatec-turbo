@@ -20,6 +20,7 @@ type Questao struct {
 	Disc  string     `json:"disc"`
 	Tema  string     `json:"tema"`
 	Sub   string     `json:"sub"`
+	Conc  string     `json:"-"` // conceito-chave: o que precisava saber para acertar
 	Prova string     `json:"prova"`
 }
 
@@ -210,7 +211,7 @@ func CarregaConteudo(dados fs.FS) (*Conteudo, error) {
 	c := &Conteudo{PorProva: map[string]*Prova{}, PorLicao: map[string]*Licao{}, PorTeste: map[string]*Teste{}, FS: dados}
 
 	// Classificação + gabarito (nosso CSV)
-	type cls struct{ gab, disc, tema, sub string }
+	type cls struct{ gab, disc, tema, sub, conc string }
 	clsMap := map[string]cls{}
 	temaRed := map[string]string{}
 	if f, err := dados.Open("dados/questoes.csv"); err == nil {
@@ -231,7 +232,7 @@ func CarregaConteudo(dados fs.FS) (*Conteudo, error) {
 				temaRed[prova] = row[4]
 				continue
 			}
-			clsMap[prova+"|"+q] = cls{row[8], row[2], row[3], row[4]}
+			clsMap[prova+"|"+q] = cls{row[8], row[2], row[3], row[4], row[5]}
 		}
 	}
 
@@ -262,7 +263,7 @@ func CarregaConteudo(dados fs.FS) (*Conteudo, error) {
 		p := &Prova{ID: man.Prova, Redacao: man.Redacao, TemaRed: temaRed[man.Prova]}
 		for _, q := range man.Questoes {
 			k := clsMap[man.Prova+"|"+strconv.Itoa(q.N)]
-			qq := &Questao{N: q.N, Imgs: q.Imgs, Gab: k.gab, Disc: k.disc, Tema: k.tema, Sub: k.sub, Prova: man.Prova}
+			qq := &Questao{N: q.N, Imgs: q.Imgs, Gab: k.gab, Disc: k.disc, Tema: k.tema, Sub: k.sub, Conc: k.conc, Prova: man.Prova}
 			for _, ci := range q.Ctx {
 				qq.Ctx = append(qq.Ctx, ctx[ci])
 			}

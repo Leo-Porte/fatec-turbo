@@ -8,36 +8,20 @@ import (
 // Prompts para o aluno colar, junto com o arquivo gerado, em qualquer IA.
 // A ideia: o portal não depende de uma IA específica; quem usa escolhe a sua.
 
-func PromptRevisaoProva(titulo string, total int) string {
+// PromptRevisaoSemanal: a IA não corrige nada (isso já foi feito pelo gabarito). Ela resume pontos fracos e planeja.
+func PromptRevisaoSemanal(semana int) string {
 	return strings.TrimSpace(fmt.Sprintf(`
-Você é um professor de cursinho especialista no vestibular da Fatec (São Paulo). Anexei um PDF chamado "%s" com %d questões de múltipla escolha. A primeira página traz uma tabela com a resposta que eu marquei e o gabarito oficial de cada questão; depois vêm as questões, como imagens da prova original.
+Você é um tutor do vestibular da Fatec (São Paulo). Anexei o relatório da minha semana %d de estudo, gerado pelo meu portal. As notas e os erros JÁ foram corrigidos pelo gabarito oficial: não refaça a correção nem resolva as questões de novo.
 
-Faça, nesta ordem:
+Com base só no relatório, faça, nesta ordem:
 
-1. Para CADA questão, resolva você mesmo ANTES de olhar o gabarito. Depois:
-   a) Valide a questão: ela está completa e legível? O gabarito oficial confere com a sua resolução? Se não conferir, diga qual alternativa você acha correta e por quê. Questão marcada como ANULADA conta como acerto para todo mundo.
-   b) Diga se eu acertei ou errei.
-   c) Explique em 2 a 4 linhas o raciocínio e o conceito que a questão cobra. Se eu errei, diga qual foi o erro provável.
-2. No fim, calcule a minha porcentagem de acerto (acertos ÷ total × 100, com uma casa decimal) e monte uma tabela de acertos por disciplina.
-3. Liste os 5 temas que eu mais preciso revisar, do mais urgente para o menos, com o que estudar em cada um.
+1. Resumo da semana em até 5 linhas: o que melhorou, o que piorou, se eu cumpri o foco planejado.
+2. Meus 3 a 5 pontos fracos mais importantes, do mais urgente para o menos. Para cada um: o tema, o padrão de erro que você enxerga nas questões erradas (use os "conceitos cobrados" listados) e o que exatamente eu preciso saber de cor.
+3. Se houver redação: os 3 problemas que mais tiram nota, com um trecho do meu texto como exemplo de cada.
+4. Plano para a próxima semana, em tópicos curtos: o que estudar em cada noite (cerca de 1 hora) e no fim de semana, usando os nomes das lições do portal que aparecem no relatório. Priorize os pontos fracos sem abandonar o foco da semana do cronograma.
+5. Se o relatório trouxer o plano da semana anterior, diga em 2 linhas se eu segui e o que ficou pendente.
 
-Regras: responda em português do Brasil. Não invente: se não conseguir ler uma questão, diga isso em vez de chutar. Se discordar do gabarito oficial, deixe claro que é a sua opinião e mantenha a contagem pelo gabarito oficial.`, titulo, total))
-}
-
-func PromptRevisaoTeste(titulo string, total int) string {
-	return strings.TrimSpace(fmt.Sprintf(`
-Você é um professor de cursinho especialista no vestibular da Fatec (São Paulo). Anexei um arquivo chamado "%s" com %d questões NOVAS no estilo da Fatec, escritas para estudo. Para cada questão o arquivo traz o enunciado, as alternativas, a figura (quando existe, descrita com os dados exatos), a resposta que eu marquei e o gabarito proposto pelo autor.
-
-Faça, nesta ordem:
-
-1. Para CADA questão, resolva você mesmo ANTES de olhar o gabarito proposto. Depois:
-   a) VALIDE a questão (obrigatório): o enunciado é coerente e tem todos os dados? Existe exatamente UMA alternativa correta? O gabarito proposto está certo? A figura bate com o enunciado? Classifique como "válida" ou "com problema" e explique o problema, se houver.
-   b) Diga se eu acertei ou errei, usando a SUA resolução quando a questão tiver problema no gabarito.
-   c) Explique em 2 a 4 linhas o raciocínio e o conceito cobrado.
-2. No fim, calcule a minha porcentagem de acerto (acertos ÷ total de questões válidas × 100, com uma casa decimal) e liste as questões com problema, para o autor corrigir.
-3. Diga em 3 linhas o que eu devo revisar.
-
-Regras: responda em português do Brasil e não invente dados que não estão no arquivo.`, titulo, total))
+Regras: responda em português do Brasil, direto e curto (no máximo uma página). Não invente notas, questões ou dados que não estejam no relatório. Se houver pouca atividade na semana, diga isso e foque no plano.`, semana))
 }
 
 func PromptRedacao(tema string) string {

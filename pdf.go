@@ -3,9 +3,6 @@ package main
 import (
 	"bytes"
 	"fmt"
-	"image"
-	_ "image/jpeg"
-	"io/fs"
 	"strings"
 	"time"
 
@@ -125,108 +122,4 @@ func quebraLinhas(pdf *fpdf.Fpdf, tr func(string) string, par string, larg float
 		out = append(out, atual)
 	}
 	return out
-}
-
-type ItemRevisao struct {
-	Q        *Questao
-	Resposta string
-}
-
-// PDFRevisaoProva junta as questões (imagens da prova), a resposta do aluno e o gabarito oficial.
-func PDFRevisaoProva(fsys fs.FS, titulo string, itens []ItemRevisao) ([]byte, error) {
-	pdf, tr := novoPDF()
-	pdf.SetTitle(tr(titulo), false)
-	pdf.AddPage()
-	pdf.SetFont("Helvetica", "B", 14)
-	pdf.MultiCell(0, 7, tr(titulo), "", "L", false)
-	pdf.SetFont("Helvetica", "", 9)
-	pdf.MultiCell(0, 4.5, tr(fmt.Sprintf("%d questões. Tabela: questão, prova de origem, disciplina, resposta marcada pelo aluno e gabarito oficial. Questões anuladas contam como acerto. Gerado em %s.", len(itens), time.Now().Format("02/01/2006 15:04"))), "", "L", false)
-	pdf.Ln(2)
-
-	// tabela de respostas em 3 colunas
-	cols := 3
-	lin := (len(itens) + cols - 1) / cols
-	cw := []float64{9, 15, 18, 10, 10}
-	larg := 0.0
-	for _, w := range cw {
-		larg += w
-	}
-	gap := (pdfLargura - larg*float64(cols)) / float64(cols-1)
-	y0 := pdf.GetY()
-	pdf.SetFont("Helvetica", "B", 7.5)
-	for c := 0; c < cols; c++ {
-		pdf.SetXY(pdfMargem+float64(c)*(larg+gap), y0)
-		for i, h := range []string{"Q", "Prova", "Disc.", "Marcou", "Gab."} {
-			pdf.CellFormat(cw[i], 5, tr(h), "B", 0, "C", false, 0, "")
-		}
-	}
-	pdf.SetFont("Helvetica", "", 7.5)
-	for i, it := range itens {
-		c, r := i/lin, i%lin
-		pdf.SetXY(pdfMargem+float64(c)*(larg+gap), y0+5+float64(r)*4.6)
-		resp := it.Resposta
-		if resp == "" {
-			resp = "branco"
-		}
-		disc := it.Q.Disc
-		if len([]rune(disc)) > 10 {
-			disc = string([]rune(disc)[:9]) + "."
-		}
-		for k, v := range []string{fmt.Sprint(i + 1), NomeProva(it.Q.Prova) + " Q" + fmt.Sprint(it.Q.N), disc, resp, it.Q.Gab} {
-			if k == 1 {
-				pdf.SetFont("Helvetica", "", 6.5)
-			}
-			pdf.CellFormat(cw[k], 4.6, tr(v), "", 0, "C", false, 0, "")
-			pdf.SetFont("Helvetica", "", 7.5)
-		}
-	}
-	pdf.SetY(y0 + 5 + float64(lin)*4.6 + 4)
-
-	for i, it := range itens {
-		pdf.AddPage()
-		pdf.SetFont("Helvetica", "B", 10)
-		pdf.CellFormat(0, 6, tr(fmt.Sprintf("Questão %d de %d · Fatec %s, questão %d · %s", i+1, len(itens), NomeProva(it.Q.Prova), it.Q.N, it.Q.Disc)), "", 1, "L", false, 0, "")
-		pdf.Ln(1)
-		var imgs []string
-		for _, cx := range it.Q.Ctx {
-			imgs = append(imgs, cx...)
-		}
-		imgs = append(imgs, it.Q.Imgs...)
-		for _, f := range imgs {
-			if err := pdfImagem(pdf, fsys, "conteudo/q/"+it.Q.Prova+"/"+f); err != nil {
-				return nil, err
-			}
-		}
-	}
-	var buf bytes.Buffer
-	if err := pdf.Output(&buf); err != nil {
-		return nil, err
-	}
-	return buf.Bytes(), nil
-}
-
-func pdfImagem(pdf *fpdf.Fpdf, fsys fs.FS, path string) error {
-	b, err := fs.ReadFile(fsys, path)
-	if err != nil {
-		return err
-	}
-	cfg, _, err := image.DecodeConfig(bytes.NewReader(b))
-	if err != nil {
-		return err
-	}
-	w := pdfLargura
-	h := w * float64(cfg.Height) / float64(cfg.Width)
-	maxH := 297 - 2*pdfMargem - 10
-	if h > maxH {
-		h = maxH
-		w = h * float64(cfg.Width) / float64(cfg.Height)
-	}
-	if pdf.GetY()+h > 297-pdfMargem {
-		pdf.AddPage()
-	}
-	opt := fpdf.ImageOptions{ImageType: "JPG", ReadDpi: false}
-	pdf.RegisterImageOptionsReader(path, opt, bytes.NewReader(b))
-	pdf.ImageOptions(path, pdfMargem, pdf.GetY(), w, h, false, opt, 0, "")
-	pdf.SetY(pdf.GetY() + h + 2)
-	return nil
 }

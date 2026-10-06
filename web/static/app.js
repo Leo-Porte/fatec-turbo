@@ -7,7 +7,7 @@
   var KEY = SRV ? "ft27:" + SRV.login : "ft27";
 
   // ---------- armazenamento ----------
-  function vazio() { return { v: 1, rotina: {}, lidas: {}, ex: {}, testes: {}, sims: {}, reds: {} }; }
+  function vazio() { return { v: 1, rotina: {}, lidas: {}, ex: {}, testes: {}, sims: {}, reds: {}, revisoes: {} }; }
   function completa(d) { if (!d || d.v !== 1) return null; var b = vazio(); for (var k in b) if (!d[k]) d[k] = b[k]; return d; }
   function load() {
     if (SRV && SRV.dados) return completa(SRV.dados) || vazio();
@@ -107,6 +107,7 @@
       if (t === "teste") return !!(DB.testes[v] && DB.testes[v].corrigido);
       if (t === "sim") return sims("prova").some(function (s) { return s.prova === v; });
       if (t === "red") return !!(DB.reds[v] && DB.reds[v].pdfEm);
+      if (t === "rev") return !!(DB.revisoes && DB.revisoes[v] && DB.revisoes[v].geradoEm);
       return false;
     };
     var feitas = 0, total = 0;
@@ -158,8 +159,6 @@
         b.onclick = function () { store[i] = b.dataset.l; save(); pinta(box, !modoProva); };
       });
     });
-    var form = $("#rev-form");
-    if (form) form.addEventListener("submit", function () { $("#rev-resp").value = JSON.stringify(store); });
     return { store: store, gab: gab, pinta: pinta };
   }
   var licao = $("#licao");
@@ -332,9 +331,6 @@
           $("#res-q").scrollIntoView({ behavior: "smooth", block: "start" });
         };
       });
-      $("#prompt-rev").value = cfg.prompt;
-      var form = $("#rev-form");
-      form.onsubmit = function () { $("#rev-dados").value = JSON.stringify({ titulo: "Revisão — " + s.titulo, itens: lista.map(function (q) { return q.p + "|" + q.n; }), respostas: (function () { var o = {}; lista.forEach(function (q) { if (s.respostas[q.k]) o[q.p + "|" + q.n] = s.respostas[q.k]; }); return o; })() }); };
       if (s.tipo === "prova") { var a = $("#res-red"); a.hidden = false; a.href = "/redacao/" + s.prova; }
       $("#res-del").onclick = function () { modal("Apagar este resultado?", "O simulado some do histórico e do caderno de erros. Não dá para desfazer.", "Apagar", function () { delete DB.sims[sid]; save(); location.href = "/simulados"; }); };
       if (s.tipo === "prova") {
@@ -432,6 +428,57 @@
       if (isNaN(v) || v < 0 || v > 100) { $("#red-nota-msg").textContent = "Use um número de 0 a 100."; return; }
       R.nota = v; R.notaEm = Date.now(); save(); $("#red-nota-msg").textContent = "Nota salva.";
     };
+  }
+
+  // ---------- REVISÃO DA SEMANA ----------
+  var rv = $("#revisao");
+  if (rv) {
+    var sem = rv.dataset.semana, ini = +rv.dataset.inicio, fimS = +rv.dataset.fim;
+    var dentro = function (ts) { return ts >= ini && ts < fimS; };
+    var simsS = sims().filter(function (s) { return dentro(s.fim); });
+    var lidasS = Object.keys(DB.lidas).filter(function (k) { return dentro(DB.lidas[k]); });
+    var redsS = Object.keys(DB.reds).filter(function (k) { var r = DB.reds[k]; return r.texto && dentro(r.atualizado || r.pdfEm || 0); });
+    var tot = simsS.reduce(function (a, s) { return [a[0] + s.resultado.acertos, a[1] + s.resultado.total]; }, [0, 0]);
+    var put = function (k, v) { $('[data-rv="' + k + '"]').textContent = v; };
+    put("sims", simsS.length); put("nota", tot[1] ? pct(tot[0], tot[1]) : "–"); put("lidas", lidasS.length); put("reds", redsS.length);
+    var tm = {};
+    simsS.forEach(function (s) { Object.keys(s.resultado.porTema).forEach(function (t) { var v = s.resultado.porTema[t]; tm[t] = tm[t] || [0, 0]; tm[t][0] += v[0]; tm[t][1] += v[1]; }); });
+    var ruins = Object.keys(tm).filter(function (t) { return tm[t][0] < tm[t][1]; }).sort(function (a, b) { return (tm[b][1] - tm[b][0]) - (tm[a][1] - tm[a][0]); }).slice(0, 8);
+    if (ruins.length) { $("#rv-temas-w").hidden = false; $("#rv-temas").innerHTML = barras(tm, ruins); }
+    DB.revisoes = DB.revisoes || {};
+    var atual = DB.revisoes[sem] || {};
+    if (atual.geradoEm) { $("#rv-feita").hidden = false; $("#rv-quando").textContent = fmtData(atual.geradoEm); $("#rv-baixar").textContent = "Baixar o relatório de novo (.md)"; }
+    $("#rv-resumo").value = atual.resumo || "";
+    var anteriores = Object.keys(DB.revisoes).filter(function (k) { return +k < +sem && DB.revisoes[k].resumo; }).sort(function (a, b) { return b - a; });
+    $("#rv-form").addEventListener("submit", function () {
+      var ex = {}; // respostas dos exercícios das lições lidas; o servidor confere com o gabarito
+      lidasS.forEach(function (id) { if (DB.ex[id] && Object.keys(DB.ex[id]).length) ex[id] = DB.ex[id]; });
+      var payload = {
+        semana: +sem,
+        sims: simsS.map(function (s) {
+          var resp = {}; (s.questoes || []).forEach(function (q) { if (s.respostas[q.k]) resp[q.p + "|" + q.n] = s.respostas[q.k]; });
+          if (s.tipo === "prova") Object.keys(s.respostas).forEach(function (k) { resp[s.prova + "|" + k] = s.respostas[k]; });
+          return { titulo: s.titulo, tipo: s.tipo, fim: s.fim, segundos: s.segundos || 0, acertos: s.resultado.acertos, total: s.resultado.total, nota: s.resultado.nota,
+            porDisc: s.resultado.porDisc, porTema: s.resultado.porTema, erros: (s.resultado.itens || []).filter(function (it) { return !it.ok; }).map(function (it) { return it.k; }), respostas: resp };
+        }),
+        lidas: lidasS, ex: ex,
+        testes: Object.keys(DB.testes).filter(function (k) { return DB.testes[k].corrigido && dentro(DB.testes[k].corrigido); }).map(function (k) { var t = DB.testes[k]; return { id: k, acertos: t.acertos, total: t.total }; }),
+        reds: redsS.map(function (k) { var r = DB.reds[k]; return { prova: k, titulo: r.titulo || "", texto: r.texto || "", nota: r.nota == null ? null : r.nota }; }),
+        resumoAnterior: anteriores.length ? DB.revisoes[anteriores[0]].resumo : ""
+      };
+      $("#rv-dados").value = JSON.stringify(payload);
+      if (!atual.geradoEm) { atual.geradoEm = Date.now(); DB.revisoes[sem] = atual; save(); $("#rv-feita").hidden = false; $("#rv-quando").textContent = fmtData(atual.geradoEm); }
+    });
+    $("#rv-salvar").onclick = function () {
+      atual.resumo = $("#rv-resumo").value.trim(); atual.resumoEm = Date.now(); if (!atual.geradoEm) atual.geradoEm = Date.now();
+      DB.revisoes[sem] = atual; save(); $("#rv-msg").textContent = "Salvo."; hist();
+    };
+    function hist() {
+      var ks = Object.keys(DB.revisoes).filter(function (k) { return DB.revisoes[k].resumo; }).sort(function (a, b) { return b - a; });
+      if (!ks.length) return;
+      $("#rv-hist").innerHTML = ks.map(function (k) { var r = DB.revisoes[k]; return '<details class="panel gap-top"' + (k === sem ? " open" : "") + '><summary class="sumlink">Semana ' + esc(k) + (r.resumoEm ? ' <span class="small muted">· ' + fmtData(r.resumoEm) + "</span>" : "") + '</summary><div class="small" style="white-space:pre-wrap;margin-top:.6rem">' + esc(r.resumo) + "</div></details>"; }).join("");
+    }
+    hist();
   }
 
   // ---------- AUTORES ----------

@@ -23,7 +23,7 @@ import (
 	_ "time/tzdata" // fuso de São Paulo mesmo em contêiner sem zoneinfo
 )
 
-//go:embed dados conteudo web
+//go:embed dados conteudo web docs/catalogo_licoes.md
 var embedded embed.FS
 
 var (
@@ -79,6 +79,7 @@ func main() {
 	if err := carregaTemplates(); err != nil {
 		log.Fatal(err)
 	}
+	carregaCatalogo(embedded)
 	if *dsn != "" {
 		if DB, err = conectaBanco(*dsn); err != nil {
 			log.Fatal(err)
@@ -117,8 +118,8 @@ func main() {
 	mux.HandleFunc("GET /api/questoes", apiQuestoes)
 	mux.HandleFunc("PUT /api/progresso", apiProgresso)
 	mux.HandleFunc("POST /api/progresso", apiProgresso) // sendBeacon ao fechar a página
-	mux.HandleFunc("POST /revisao/prova.pdf", postRevisaoProva)
-	mux.HandleFunc("POST /revisao/teste.md", postRevisaoTeste)
+	mux.HandleFunc("GET /revisao", pagRevisao)
+	mux.HandleFunc("POST /revisao/semana.md", postRevisaoSemana)
 	mux.HandleFunc("POST /redacao.pdf", postRedacaoPDF)
 
 	modo := "local, sem login"
@@ -190,10 +191,9 @@ func carregaTemplates() error {
 			b, _ := json.Marshal(v)
 			return template.JS(b)
 		},
-		"join":        strings.Join,
-		"dict2":       func(i int, e Exercicio) map[string]any { return map[string]any{"I": i, "E": e} },
-		"promptTeste": PromptRevisaoTeste,
-		"img":         func(prova, f string) string { return ImgBase + prova + "/" + f },
+		"join":  strings.Join,
+		"dict2": func(i int, e Exercicio) map[string]any { return map[string]any{"I": i, "E": e} },
+		"img":   func(prova, f string) string { return ImgBase + prova + "/" + f },
 	}
 	base, err := template.New("base").Funcs(funcs).ParseFS(embedded, "web/templates/base.html")
 	if err != nil {
@@ -289,6 +289,7 @@ func tarefasSemana(s int) []Tarefa {
 		out = append(out, Tarefa{fmt.Sprintf("s%d-red", s), "Fim de semana: redação da prova " + NomeProva(w.Sim) + " no papel, com 1 hora; depois transcrever aqui", "/redacao/" + w.Sim, "red:" + w.Sim})
 	}
 	out = append(out, Tarefa{fmt.Sprintf("s%d-erros", s), "Revisar o caderno de erros", "/erros", ""})
+	out = append(out, Tarefa{fmt.Sprintf("s%d-rev", s), "Domingo: revisão da semana com a IA (pontos fracos e plano da próxima)", "/revisao", "rev:" + strconv.Itoa(s)})
 	return out
 }
 
@@ -439,8 +440,7 @@ func pagSimulado(w http.ResponseWriter, r *http.Request) {
 		qs = append(qs, qview(q, strconv.Itoa(q.N)))
 	}
 	render(w, r, "executor", "Simulado Fatec "+p.Nome(), "simulados", map[string]any{
-		"Cfg": map[string]any{"id": "p" + p.ID, "tipo": "prova", "prova": p.ID, "titulo": "Simulado Fatec " + p.Nome(), "limite": 5 * 3600, "questoes": qs,
-			"prompt": PromptRevisaoProva("Revisão do simulado Fatec "+p.Nome(), len(qs))},
+		"Cfg": map[string]any{"id": "p" + p.ID, "tipo": "prova", "prova": p.ID, "titulo": "Simulado Fatec " + p.Nome(), "limite": 5 * 3600, "questoes": qs},
 	})
 }
 
@@ -499,8 +499,7 @@ func pagTreino(w http.ResponseWriter, r *http.Request) {
 		nome = "misto"
 	}
 	render(w, r, "executor", "Treino: "+nome, "simulados", map[string]any{
-		"Cfg": map[string]any{"id": fmt.Sprintf("t%d", time.Now().UnixMilli()), "tipo": "treino", "titulo": "Treino: " + nome, "filtro": map[string]string{"disc": disc, "tema": tema}, "limite": len(qs) * 180, "questoes": qs,
-			"prompt": PromptRevisaoProva("Revisão do treino "+nome, len(qs))},
+		"Cfg": map[string]any{"id": fmt.Sprintf("t%d", time.Now().UnixMilli()), "tipo": "treino", "titulo": "Treino: " + nome, "filtro": map[string]string{"disc": disc, "tema": tema}, "limite": len(qs) * 180, "questoes": qs},
 	})
 }
 
@@ -641,68 +640,6 @@ func apiQuestoes(w http.ResponseWriter, r *http.Request) {
 	}
 	w.Header().Set("Content-Type", "application/json")
 	json.NewEncoder(w).Encode(out)
-}
-
-func postRevisaoProva(w http.ResponseWriter, r *http.Request) {
-	var p struct {
-		Titulo    string            `json:"titulo"`
-		Itens     []string          `json:"itens"`
-		Respostas map[string]string `json:"respostas"`
-	}
-	if err := json.Unmarshal([]byte(r.FormValue("dados")), &p); err != nil {
-		http.Error(w, "pedido inválido", 400)
-		return
-	}
-	var itens []ItemRevisao
-	for _, k := range p.Itens {
-		if q := achaQuestao(k); q != nil {
-			itens = append(itens, ItemRevisao{q, p.Respostas[k]})
-		}
-	}
-	if len(itens) == 0 {
-		http.Error(w, "nenhuma questão", 400)
-		return
-	}
-	b, err := PDFRevisaoProva(embedded, p.Titulo, itens)
-	if err != nil {
-		http.Error(w, err.Error(), 500)
-		return
-	}
-	baixar(w, "application/pdf", nomeArquivo(p.Titulo)+".pdf", b)
-}
-
-func postRevisaoTeste(w http.ResponseWriter, r *http.Request) {
-	t, ok := C.PorTeste[r.FormValue("teste")]
-	var exs []Exercicio
-	titulo := ""
-	if ok {
-		exs, titulo = t.Exercicios, t.Titulo
-	} else if l, ok := C.PorLicao[r.FormValue("licao")]; ok {
-		exs, titulo = l.Exercicios, "Exercícios: "+l.Titulo
-	} else {
-		http.NotFound(w, r)
-		return
-	}
-	var resp map[string]string
-	_ = json.Unmarshal([]byte(r.FormValue("respostas")), &resp)
-	var b strings.Builder
-	fmt.Fprintf(&b, "# %s\n\n%d questões novas no estilo Fatec. Gerado em %s.\n\n", titulo, len(exs), time.Now().Format("02/01/2006 15:04"))
-	for i, e := range exs {
-		fmt.Fprintf(&b, "---\n\n## Questão %d\n\n%s\n\n", i+1, e.Enunciado)
-		if e.Figura != nil {
-			fj, _ := json.MarshalIndent(e.Figura, "", "  ")
-			fmt.Fprintf(&b, "Figura (dados exatos usados para desenhar):\n\n```json\n%s\n```\n\n", fj)
-		}
-		for j, a := range e.Alternativas {
-			fmt.Fprintf(&b, "(%c) %s\n", 'A'+j, a)
-		}
-		marcou := resp[strconv.Itoa(i)]
-		if marcou == "" {
-			marcou = "em branco"
-		}
-		fmt.Fprintf(&b, "\n- Resposta do aluno: **%s**\n- Gabarito proposto pelo autor: **%s**\n\n", marcou, e.Gabarito)
-	}
-	baixar(w, "text/markdown; charset=utf-8", nomeArquivo(titulo)+".md", []byte(b.String()))
 }
 
 func postRedacaoPDF(w http.ResponseWriter, r *http.Request) {

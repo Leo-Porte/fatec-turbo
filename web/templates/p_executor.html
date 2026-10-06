@@ -25,13 +25,6 @@
   <h2>Por disciplina</h2><div class="bars" id="res-disc"></div>
   <div id="res-temas-wrap"><h2>Temas onde você errou</h2><p class="small muted">Do que mais pesou para o que menos pesou. Viram o seu caderno de erros.</p><div class="bars" id="res-temas"></div></div>
   <h2>Correção questão a questão</h2><div class="qgrid" id="res-grid"></div><div id="res-q"></div>
-  <form method="post" action="/revisao/prova.pdf" class="panel gap-top" id="rev-form">
-    <input type="hidden" name="dados" id="rev-dados">
-    <h3 class="mt0">Revisão com a IA que você quiser</h3>
-    <p class="small muted">Baixe o PDF com as questões, suas respostas e o gabarito oficial. Cole o prompt na IA e anexe o PDF: ela resolve cada questão, valida o gabarito, calcula sua porcentagem de acerto e diz o que revisar.</p>
-    <div class="row"><button class="btn" type="submit">Baixar PDF da revisão</button><button class="btn ghost" type="button" data-copy="#prompt-rev">Copiar prompt</button></div>
-    <textarea id="prompt-rev" class="prompt" readonly rows="6"></textarea>
-  </form>
   <div class="row gap-top"><a class="btn primary" id="res-red" hidden>Fazer a redação desta prova</a><a class="btn" href="/erros">Caderno de erros</a><a class="btn ghost" href="/simulados">Simulados</a><span class="spacer"></span><button class="btn danger small" id="res-del" type="button">Apagar este resultado</button></div>
 </div>
 </div>{{end}}
